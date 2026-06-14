@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NLRB historical statistical tables</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-weight: 600; font-size: 13px; }
+.site-head a { text-decoration: none; color: var(--header-bg); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.marker { color: #b06a00; text-align: center; cursor: help; font-weight: 700; }
+td.blank { color: transparent; }
+/* Marker legend shown under a grid that contains "·" cells (outside the table
+   so a copy-paste of the grid stays a clean rectangle). */
+p.marker-legend { color: var(--muted); font-size: 12.5px; margin: 0 0 0.75rem; }
+p.marker-legend .mk { color: #b06a00; font-weight: 700; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a href="index.html">NLRB historical statistical tables</a></header>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "NLRB Historical Statistical Tables (reconstructed)",
+  "description": "Machine-readable reconstruction of the statistical tables in the U.S. National Labor Relations Board Annual Reports (public domain). This release covers fiscal year(s) 1962: 2,511 table cells in long/tidy form, plus per-table CSVs.",
+  "url": "index.html",
+  "license": "https://www.usa.gov/government-works",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Organization",
+    "name": "NLRB Stats Archive"
+  },
+  "isBasedOn": "U.S. NLRB Annual Reports (public domain)",
+  "temporalCoverage": "1962",
+  "dateModified": "2026-06-13",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "table_id",
+      "description": "Stable id of the source table (year + page + index)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "fiscal_year",
+      "description": "NLRB fiscal year of the Annual Report."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "source_pdf",
+      "description": "Source Annual Report PDF filename."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "source_page",
+      "description": "Zero-based page index within the source PDF."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "table_title",
+      "description": "Table title as printed (may be empty for untitled tables)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "row_index",
+      "description": "Zero-based row position within the table."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "row_label",
+      "description": "The row's stub label (left-most column)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "row_label_footnote_refs",
+      "description": "Footnote markers attached to the row label."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "col_index",
+      "description": "Zero-based data-column position within the table."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value_raw",
+      "description": "The cell text exactly as extracted, before normalization."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "cell_footnote_refs",
+      "description": "Footnote markers attached to the cell."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "parse_uncertainty",
+      "description": "Extractor's per-cell uncertainty flag."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "parse_status",
+      "description": "Extraction status for the cell."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "is_continuation",
+      "description": "True if the table continues a table on a prior page."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "headers_source",
+      "description": "Provenance of the column headers."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value_clean",
+      "description": "Cleaned cell value (normalization applied; string)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "value_num",
+      "description": "Numeric value when the cell parsed to a number, else null."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "norm_status",
+      "description": "Normalization outcome (ok/recovered/na/non_numeric/ambiguous)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "unit",
+      "description": "Detected unit (none/dollar/percent)."
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/vnd.apache.parquet",
+      "contentUrl": "data/nlrb_tables_long.parquet"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "data/nlrb_tables_long.csv.gz"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "catalog.json"
+    }
+  ]
+}
+</script>
+<h1>NLRB historical statistical tables</h1>
+<div class="about">
+<p>This is a browse-only archive of statistical tables extracted from the National Labor Relations Board&rsquo;s historical annual reports. Each table is reconstructed as a numeric grid alongside its full-page source image, so every figure can be audited against the original scan.</p>
+<p>A &middot; marks a cell whose original content could not be normalized to a number &mdash; check the source image. Blank cells were empty in the source.</p>
+<p><a href="about.html">More about this project &rarr;</a></p>
+</div>
+<h2>Search tables</h2>
+<input id="search" type="search" autocomplete="off" placeholder="Search table titles, years, or ids…" aria-label="Search tables">
+<div id="search-results"></div>
+<h2>Browse by fiscal year</h2>
+<ul class="cards">
+<li><a href="year_1962.html">FY1962</a></li>
+</ul>
+<h2>Data &amp; downloads</h2>
+<div class="about">
+<p>The whole dataset is available as machine-readable files:</p>
+<ul class="dl-list">
+<li><a href="data/nlrb_tables_long.parquet" download>Bulk data (Parquet)</a> &mdash; every table cell in long/tidy form.</li>
+<li><a href="data/nlrb_tables_long.csv.gz" download>Bulk data (CSV, gzip)</a> &mdash; the same, as gzipped CSV.</li>
+<li><a href="catalog.json">Catalog (JSON)</a> &middot; <a href="catalog.csv">Catalog (CSV)</a> &mdash; one entry per table with metadata and links.</li>
+<li><a href="llms.txt">llms.txt</a> &mdash; a plain-text index for AI agents.</li>
+</ul>
+</div>
+<script>
+window.SEARCH_DATA = [{"table_id": "nlrb1962_p0274_t0", "year": 1962, "title": "Cases received and disposed of — by case type", "page": 274, "page_label": "274–275", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0273_t0", "year": 1962, "title": "Cases received and disposed of — by complainant", "page": 273, "page_label": "273", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0276_t0", "year": 1962, "title": "Charges filed against employers (Sec. 8(a)) and unions (Sec. 8(b), 8(b)(4), 8(b)(7), 8(e))", "page": 276, "page_label": "276", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0293_t1", "year": 1962, "title": "Collective bargaining elections", "page": 293, "page_label": "293", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0293_t0", "year": 1962, "title": "Decertification (RD) elections", "page": 293, "page_label": "293", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0289_t0", "year": 1962, "title": "Decertification (RD) elections held", "page": 289, "page_label": "289", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0284_t1", "year": 1962, "title": "Disposition of representation (R) cases closed", "page": 284, "page_label": "284", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0285_t0", "year": 1962, "title": "Disposition of representation cases closed — by method and stage", "page": 285, "page_label": "285", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0282_t0", "year": 1962, "title": "Disposition of unfair labor practice (C) cases closed — by stage and method", "page": 282, "page_label": "282–283", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0284_t0", "year": 1962, "title": "Disposition of unfair labor practice (C) cases closed — summary", "page": 284, "page_label": "284", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0287_t1", "year": 1962, "title": "Election results in RC, RM, and RD elections — by affiliation", "page": 287, "page_label": "287", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0288_t0", "year": 1962, "title": "Election results in RC, RM, and RD elections — by union mix", "page": 288, "page_label": "288", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0286_t0", "year": 1962, "title": "Elections, eligible voters, and valid votes cast", "page": 286, "page_label": "286", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0276_t1", "year": 1962, "title": "Formal actions taken in cases received and disposed of", "page": 276, "page_label": "276", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0280_t0", "year": 1962, "title": "Geographic distribution of cases received", "page": 280, "page_label": "280–281", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0290_t0", "year": 1962, "title": "Geographic distribution of collective bargaining elections, eligible voters, and valid votes cast", "page": 290, "page_label": "290–291", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0278_t0", "year": 1962, "title": "Industrial distribution of cases received", "page": 278, "page_label": "278–279", "source": "docling", "content_type": "table"}, {"table_id": "nlrb1962_p0292_t0", "year": 1962, "title": "Industrial distribution of collective bargaining elections, eligible voters, and valid votes cast", "page": 292, "page_label": "292", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0294_t1", "year": 1962, "title": "Litigation for enforcement or review of Board orders in the U.S. courts of appeals and Supreme Court", "page": 294, "page_label": "294", "source": "docling", "content_type": "table"}, {"table_id": "nlrb1962_p0030_t0", "year": 1962, "title": "Median days to process representation cases", "page": 30, "page_label": "30", "source": "docling", "content_type": "figure"}, {"table_id": "nlrb1962_p0044_t0", "year": 1962, "title": "NLRB total agency obligations and expenditures by category", "page": 44, "page_label": "44", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0294_t0", "year": 1962, "title": "Sec. 10(j) and 10(l) injunction proceedings under the Labor Management Relations Act", "page": 294, "page_label": "294", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0026_t0", "year": 1962, "title": "Unfair labor practice cases settled", "page": 26, "page_label": "26", "source": "docling", "content_type": "figure"}, {"table_id": "nlrb1962_p0024_t0", "year": 1962, "title": "Unfair labor practice merit factor", "page": 24, "page_label": "24", "source": "docling", "content_type": "figure"}, {"table_id": "nlrb1962_p0287_t0", "year": 1962, "title": "Union-shop deauthorization (UD) polls held", "page": 287, "page_label": "287", "source": "cleaned", "content_type": "table"}, {"table_id": "nlrb1962_p0289_t1", "year": 1962, "title": "Voting in decertification (RD) elections", "page": 289, "page_label": "289", "source": "docling", "content_type": "table"}];
+</script>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Verify figures against the source scan. Updated June 2026. &middot; <a href="about.html">About</a></p>
+</div>
+<script>
+(function () {
+  var data = window.SEARCH_DATA || [];
+  var box = document.getElementById("search");
+  var out = document.getElementById("search-results");
+  if (!box || !out) return;
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];
+    });
+  }
+  function render(rows, q) {
+    if (!q) { out.innerHTML = ""; return; }
+    if (!rows.length) {
+      out.innerHTML = '<p class="hint">No tables match "' + esc(q) + '".</p>';
+      return;
+    }
+    var lis = rows.slice(0, 50).map(function (r) {
+      var ctype = r.content_type === "figure" ? "Figure" : "Table";
+      return '<li><a href="table_' + esc(r.table_id) + '.html">' +
+        esc(r.title) + '</a> <span class="hint">— ' + esc(ctype) + ', FY' +
+        esc(r.year) + ', p.' + esc(r.page) + '</span></li>';
+    }).join("");
+    var more = rows.length > 50 ?
+      '<p class="hint">' + (rows.length - 50) + ' more…</p>' : '';
+    out.innerHTML = '<ul>' + lis + '</ul>' + more;
+  }
+  function filter(q) {
+    var needle = q.trim().toLowerCase();
+    if (!needle) return [];
+    return data.filter(function (r) {
+      return (r.title || "").toLowerCase().indexOf(needle) >= 0 ||
+             String(r.year).indexOf(needle) >= 0 ||
+             (r.table_id || "").toLowerCase().indexOf(needle) >= 0;
+    });
+  }
+  box.addEventListener("input", function () {
+    var q = box.value;
+    render(filter(q), q);
+  });
+})();
+</script>
+</body>
+</html>

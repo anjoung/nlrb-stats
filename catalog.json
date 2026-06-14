@@ -1,0 +1,480 @@
+[
+  {
+    "item_id": "nlrb1962_p0274_t0",
+    "fiscal_year": 1962,
+    "title": "Cases received and disposed of — by case type",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      274,
+      275
+    ],
+    "page_label": "274–275",
+    "n_rows": 40,
+    "n_cols": 10,
+    "page_url": "table_nlrb1962_p0274_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0274_t0.csv",
+    "image_urls": [
+      "images/1962_p0274.webp",
+      "images/1962_p0275.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0273_t0",
+    "fiscal_year": 1962,
+    "title": "Cases received and disposed of — by complainant",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      273
+    ],
+    "page_label": "273",
+    "n_rows": 24,
+    "n_cols": 5,
+    "page_url": "table_nlrb1962_p0273_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0273_t0.csv",
+    "image_urls": [
+      "images/1962_p0273.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0276_t0",
+    "fiscal_year": 1962,
+    "title": "Charges filed against employers (Sec. 8(a)) and unions (Sec. 8(b), 8(b)(4), 8(b)(7), 8(e))",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      276
+    ],
+    "page_label": "276",
+    "n_rows": 28,
+    "n_cols": 2,
+    "page_url": "table_nlrb1962_p0276_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0276_t0.csv",
+    "image_urls": [
+      "images/1962_p0276.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0293_t1",
+    "fiscal_year": 1962,
+    "title": "Collective bargaining elections",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      293
+    ],
+    "page_label": "293",
+    "n_rows": 2,
+    "n_cols": 9,
+    "page_url": "table_nlrb1962_p0293_t1.html",
+    "csv_url": "data/tables/nlrb1962_p0293_t1.csv",
+    "image_urls": [
+      "images/1962_p0293.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0293_t0",
+    "fiscal_year": 1962,
+    "title": "Decertification (RD) elections",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      293
+    ],
+    "page_label": "293",
+    "n_rows": 2,
+    "n_cols": 10,
+    "page_url": "table_nlrb1962_p0293_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0293_t0.csv",
+    "image_urls": [
+      "images/1962_p0293.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0289_t0",
+    "fiscal_year": 1962,
+    "title": "Decertification (RD) elections held",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      289
+    ],
+    "page_label": "289",
+    "n_rows": 3,
+    "n_cols": 14,
+    "page_url": "table_nlrb1962_p0289_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0289_t0.csv",
+    "image_urls": [
+      "images/1962_p0289.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0284_t1",
+    "fiscal_year": 1962,
+    "title": "Disposition of representation (R) cases closed",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      284
+    ],
+    "page_label": "284",
+    "n_rows": 6,
+    "n_cols": 8,
+    "page_url": "table_nlrb1962_p0284_t1.html",
+    "csv_url": "data/tables/nlrb1962_p0284_t1.csv",
+    "image_urls": [
+      "images/1962_p0284.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0285_t0",
+    "fiscal_year": 1962,
+    "title": "Disposition of representation cases closed — by method and stage",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      285
+    ],
+    "page_label": "285",
+    "n_rows": 15,
+    "n_cols": 8,
+    "page_url": "table_nlrb1962_p0285_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0285_t0.csv",
+    "image_urls": [
+      "images/1962_p0285.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0282_t0",
+    "fiscal_year": 1962,
+    "title": "Disposition of unfair labor practice (C) cases closed — by stage and method",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      282,
+      283
+    ],
+    "page_label": "282–283",
+    "n_rows": 10,
+    "n_cols": 14,
+    "page_url": "table_nlrb1962_p0282_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0282_t0.csv",
+    "image_urls": [
+      "images/1962_p0282.webp",
+      "images/1962_p0283.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0284_t0",
+    "fiscal_year": 1962,
+    "title": "Disposition of unfair labor practice (C) cases closed — summary",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      284
+    ],
+    "page_label": "284",
+    "n_rows": 9,
+    "n_cols": 14,
+    "page_url": "table_nlrb1962_p0284_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0284_t0.csv",
+    "image_urls": [
+      "images/1962_p0284.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0287_t1",
+    "fiscal_year": 1962,
+    "title": "Election results in RC, RM, and RD elections — by affiliation",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      287
+    ],
+    "page_label": "287",
+    "n_rows": 3,
+    "n_cols": 10,
+    "page_url": "table_nlrb1962_p0287_t1.html",
+    "csv_url": "data/tables/nlrb1962_p0287_t1.csv",
+    "image_urls": [
+      "images/1962_p0287.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0288_t0",
+    "fiscal_year": 1962,
+    "title": "Election results in RC, RM, and RD elections — by union mix",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      288
+    ],
+    "page_label": "288",
+    "n_rows": 10,
+    "n_cols": 9,
+    "page_url": "table_nlrb1962_p0288_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0288_t0.csv",
+    "image_urls": [
+      "images/1962_p0288.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0286_t0",
+    "fiscal_year": 1962,
+    "title": "Elections, eligible voters, and valid votes cast",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      286
+    ],
+    "page_label": "286",
+    "n_rows": 15,
+    "n_cols": 6,
+    "page_url": "table_nlrb1962_p0286_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0286_t0.csv",
+    "image_urls": [
+      "images/1962_p0286.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0276_t1",
+    "fiscal_year": 1962,
+    "title": "Formal actions taken in cases received and disposed of",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      276
+    ],
+    "page_label": "276",
+    "n_rows": 12,
+    "n_cols": 5,
+    "page_url": "table_nlrb1962_p0276_t1.html",
+    "csv_url": "data/tables/nlrb1962_p0276_t1.csv",
+    "image_urls": [
+      "images/1962_p0276.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0280_t0",
+    "fiscal_year": 1962,
+    "title": "Geographic distribution of cases received",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      280,
+      281
+    ],
+    "page_label": "280–281",
+    "n_rows": 12,
+    "n_cols": 12,
+    "page_url": "table_nlrb1962_p0280_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0280_t0.csv",
+    "image_urls": [
+      "images/1962_p0280.webp",
+      "images/1962_p0281.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0290_t0",
+    "fiscal_year": 1962,
+    "title": "Geographic distribution of collective bargaining elections, eligible voters, and valid votes cast",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      290,
+      291
+    ],
+    "page_label": "290–291",
+    "n_rows": 12,
+    "n_cols": 10,
+    "page_url": "table_nlrb1962_p0290_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0290_t0.csv",
+    "image_urls": [
+      "images/1962_p0290.webp",
+      "images/1962_p0291.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0278_t0",
+    "fiscal_year": 1962,
+    "title": "Industrial distribution of cases received",
+    "content_type": "table",
+    "source": "docling",
+    "source_pages": [
+      278,
+      279
+    ],
+    "page_label": "278–279",
+    "n_rows": 35,
+    "n_cols": 12,
+    "page_url": "table_nlrb1962_p0278_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0278_t0.csv",
+    "image_urls": [
+      "images/1962_p0278.webp",
+      "images/1962_p0279.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0292_t0",
+    "fiscal_year": 1962,
+    "title": "Industrial distribution of collective bargaining elections, eligible voters, and valid votes cast",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      292
+    ],
+    "page_label": "292",
+    "n_rows": 10,
+    "n_cols": 6,
+    "page_url": "table_nlrb1962_p0292_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0292_t0.csv",
+    "image_urls": [
+      "images/1962_p0292.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0294_t1",
+    "fiscal_year": 1962,
+    "title": "Litigation for enforcement or review of Board orders in the U.S. courts of appeals and Supreme Court",
+    "content_type": "table",
+    "source": "docling",
+    "source_pages": [
+      294
+    ],
+    "page_label": "294",
+    "n_rows": 15,
+    "n_cols": 4,
+    "page_url": "table_nlrb1962_p0294_t1.html",
+    "csv_url": "data/tables/nlrb1962_p0294_t1.csv",
+    "image_urls": [
+      "images/1962_p0294.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0030_t0",
+    "fiscal_year": 1962,
+    "title": "Median days to process representation cases",
+    "content_type": "figure",
+    "source": "docling",
+    "source_pages": [
+      30
+    ],
+    "page_label": "30",
+    "n_rows": 0,
+    "n_cols": 0,
+    "page_url": "table_nlrb1962_p0030_t0.html",
+    "csv_url": null,
+    "image_urls": [
+      "images/1962_p0030.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0044_t0",
+    "fiscal_year": 1962,
+    "title": "NLRB total agency obligations and expenditures by category",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      44
+    ],
+    "page_label": "44",
+    "n_rows": 14,
+    "n_cols": 1,
+    "page_url": "table_nlrb1962_p0044_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0044_t0.csv",
+    "image_urls": [
+      "images/1962_p0044.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0294_t0",
+    "fiscal_year": 1962,
+    "title": "Sec. 10(j) and 10(l) injunction proceedings under the Labor Management Relations Act",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      294
+    ],
+    "page_label": "294",
+    "n_rows": 5,
+    "n_cols": 4,
+    "page_url": "table_nlrb1962_p0294_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0294_t0.csv",
+    "image_urls": [
+      "images/1962_p0294.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0026_t0",
+    "fiscal_year": 1962,
+    "title": "Unfair labor practice cases settled",
+    "content_type": "figure",
+    "source": "docling",
+    "source_pages": [
+      26
+    ],
+    "page_label": "26",
+    "n_rows": 0,
+    "n_cols": 0,
+    "page_url": "table_nlrb1962_p0026_t0.html",
+    "csv_url": null,
+    "image_urls": [
+      "images/1962_p0026.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0024_t0",
+    "fiscal_year": 1962,
+    "title": "Unfair labor practice merit factor",
+    "content_type": "figure",
+    "source": "docling",
+    "source_pages": [
+      24
+    ],
+    "page_label": "24",
+    "n_rows": 0,
+    "n_cols": 0,
+    "page_url": "table_nlrb1962_p0024_t0.html",
+    "csv_url": null,
+    "image_urls": [
+      "images/1962_p0024.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0287_t0",
+    "fiscal_year": 1962,
+    "title": "Union-shop deauthorization (UD) polls held",
+    "content_type": "table",
+    "source": "cleaned",
+    "source_pages": [
+      287
+    ],
+    "page_label": "287",
+    "n_rows": 3,
+    "n_cols": 14,
+    "page_url": "table_nlrb1962_p0287_t0.html",
+    "csv_url": "data/tables/nlrb1962_p0287_t0.csv",
+    "image_urls": [
+      "images/1962_p0287.webp"
+    ]
+  },
+  {
+    "item_id": "nlrb1962_p0289_t1",
+    "fiscal_year": 1962,
+    "title": "Voting in decertification (RD) elections",
+    "content_type": "table",
+    "source": "docling",
+    "source_pages": [
+      289
+    ],
+    "page_label": "289",
+    "n_rows": 3,
+    "n_cols": 10,
+    "page_url": "table_nlrb1962_p0289_t1.html",
+    "csv_url": "data/tables/nlrb1962_p0289_t1.csv",
+    "image_urls": [
+      "images/1962_p0289.webp"
+    ]
+  }
+]

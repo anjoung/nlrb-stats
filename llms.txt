@@ -1,0 +1,42 @@
+# NLRB Historical Statistical Tables
+
+> Machine-readable reconstruction of the statistical tables in the U.S. National Labor Relations Board Annual Reports (public domain). This release covers fiscal year(s) 1962: 23 tables and 3 figures, 2,511 table cells. Verify figures against the source scans.
+
+## Dataset
+- [Bulk data, Parquet](data/nlrb_tables_long.parquet): all cells, long/tidy, every column.
+- [Bulk data, CSV gzip](data/nlrb_tables_long.csv.gz): the same, as gzipped CSV.
+- [Catalog, JSON](catalog.json): one entry per table/figure with metadata + links.
+- [Catalog, CSV](catalog.csv): the catalog as a flat CSV.
+- [schema.org metadata](dataset.jsonld)
+- [Croissant metadata](croissant.json)
+
+## Tables
+- [Cases received and disposed of — by case type](table_nlrb1962_p0274_t0.html) — FY1962, p.274–275; CSV: data/tables/nlrb1962_p0274_t0.csv
+- [Cases received and disposed of — by complainant](table_nlrb1962_p0273_t0.html) — FY1962, p.273; CSV: data/tables/nlrb1962_p0273_t0.csv
+- [Charges filed against employers (Sec. 8(a)) and unions (Sec. 8(b), 8(b)(4), 8(b)(7), 8(e))](table_nlrb1962_p0276_t0.html) — FY1962, p.276; CSV: data/tables/nlrb1962_p0276_t0.csv
+- [Collective bargaining elections](table_nlrb1962_p0293_t1.html) — FY1962, p.293; CSV: data/tables/nlrb1962_p0293_t1.csv
+- [Decertification (RD) elections](table_nlrb1962_p0293_t0.html) — FY1962, p.293; CSV: data/tables/nlrb1962_p0293_t0.csv
+- [Decertification (RD) elections held](table_nlrb1962_p0289_t0.html) — FY1962, p.289; CSV: data/tables/nlrb1962_p0289_t0.csv
+- [Disposition of representation (R) cases closed](table_nlrb1962_p0284_t1.html) — FY1962, p.284; CSV: data/tables/nlrb1962_p0284_t1.csv
+- [Disposition of representation cases closed — by method and stage](table_nlrb1962_p0285_t0.html) — FY1962, p.285; CSV: data/tables/nlrb1962_p0285_t0.csv
+- [Disposition of unfair labor practice (C) cases closed — by stage and method](table_nlrb1962_p0282_t0.html) — FY1962, p.282–283; CSV: data/tables/nlrb1962_p0282_t0.csv
+- [Disposition of unfair labor practice (C) cases closed — summary](table_nlrb1962_p0284_t0.html) — FY1962, p.284; CSV: data/tables/nlrb1962_p0284_t0.csv
+- [Election results in RC, RM, and RD elections — by affiliation](table_nlrb1962_p0287_t1.html) — FY1962, p.287; CSV: data/tables/nlrb1962_p0287_t1.csv
+- [Election results in RC, RM, and RD elections — by union mix](table_nlrb1962_p0288_t0.html) — FY1962, p.288; CSV: data/tables/nlrb1962_p0288_t0.csv
+- [Elections, eligible voters, and valid votes cast](table_nlrb1962_p0286_t0.html) — FY1962, p.286; CSV: data/tables/nlrb1962_p0286_t0.csv
+- [Formal actions taken in cases received and disposed of](table_nlrb1962_p0276_t1.html) — FY1962, p.276; CSV: data/tables/nlrb1962_p0276_t1.csv
+- [Geographic distribution of cases received](table_nlrb1962_p0280_t0.html) — FY1962, p.280–281; CSV: data/tables/nlrb1962_p0280_t0.csv
+- [Geographic distribution of collective bargaining elections, eligible voters, and valid votes cast](table_nlrb1962_p0290_t0.html) — FY1962, p.290–291; CSV: data/tables/nlrb1962_p0290_t0.csv
+- [Industrial distribution of cases received](table_nlrb1962_p0278_t0.html) — FY1962, p.278–279; CSV: data/tables/nlrb1962_p0278_t0.csv
+- [Industrial distribution of collective bargaining elections, eligible voters, and valid votes cast](table_nlrb1962_p0292_t0.html) — FY1962, p.292; CSV: data/tables/nlrb1962_p0292_t0.csv
+- [Litigation for enforcement or review of Board orders in the U.S. courts of appeals and Supreme Court](table_nlrb1962_p0294_t1.html) — FY1962, p.294; CSV: data/tables/nlrb1962_p0294_t1.csv
+- [Median days to process representation cases](table_nlrb1962_p0030_t0.html) — FY1962, p.30 (figure; image only)
+- [NLRB total agency obligations and expenditures by category](table_nlrb1962_p0044_t0.html) — FY1962, p.44; CSV: data/tables/nlrb1962_p0044_t0.csv
+- [Sec. 10(j) and 10(l) injunction proceedings under the Labor Management Relations Act](table_nlrb1962_p0294_t0.html) — FY1962, p.294; CSV: data/tables/nlrb1962_p0294_t0.csv
+- [Unfair labor practice cases settled](table_nlrb1962_p0026_t0.html) — FY1962, p.26 (figure; image only)
+- [Unfair labor practice merit factor](table_nlrb1962_p0024_t0.html) — FY1962, p.24 (figure; image only)
+- [Union-shop deauthorization (UD) polls held](table_nlrb1962_p0287_t0.html) — FY1962, p.287; CSV: data/tables/nlrb1962_p0287_t0.csv
+- [Voting in decertification (RD) elections](table_nlrb1962_p0289_t1.html) — FY1962, p.289; CSV: data/tables/nlrb1962_p0289_t1.csv
+
+## About
+- [About this dataset](about.html)
