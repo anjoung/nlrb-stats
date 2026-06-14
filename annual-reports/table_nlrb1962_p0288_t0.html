@@ -18,9 +18,12 @@ body {
 a { color: var(--accent); }
 /* Centered content column + slim site masthead (present on every page). */
 .wrap { max-width: 72rem; margin: 0 auto; }
-.site-head { margin: 0 0 0.9rem; padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--border); font-weight: 600; font-size: 13px; }
-.site-head a { text-decoration: none; color: var(--header-bg); }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
 h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
 h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
 .meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
@@ -116,7 +119,7 @@ h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 </head>
 <body>
 <div class="wrap">
-<header class="site-head"><a href="../index.html">NLRB Stats Archive</a></header>
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
 <p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1962.html">FY1962</a> &rsaquo; Election results in RC, RM, and RD elections — by union mix</p>
 <h1>Election results in RC, RM, and RD elections — by union mix</h1>
 <p class="meta">source page 288 &middot; <code>nlrb1962_p0288_t0</code></p>
@@ -145,7 +148,7 @@ h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 <img src="images/1962_p0288.webp" loading="lazy" alt="Source page 288 of NLRB FY1962 annual report">
 <figcaption>Source: NLRB Annual Report FY1962, p. 288.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Verify figures against the source scan. Updated June 2026. &middot; <a href="../about.html">About</a></p>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Verify figures against the source scan. Updated June 2026.</p>
 </div>
 </body>
 </html>
