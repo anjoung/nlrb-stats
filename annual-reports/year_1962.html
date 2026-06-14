@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FY1962 — NLRB Annual Reports</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-weight: 600; font-size: 13px; }
+.site-head a { text-decoration: none; color: var(--header-bg); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.marker { color: #b06a00; text-align: center; cursor: help; font-weight: 700; }
+td.blank { color: transparent; }
+/* Marker legend shown under a grid that contains "·" cells (outside the table
+   so a copy-paste of the grid stays a clean rectangle). */
+p.marker-legend { color: var(--muted); font-size: 12.5px; margin: 0 0 0.75rem; }
+p.marker-legend .mk { color: #b06a00; font-weight: 700; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings, a "featured" tag, project cards. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+.tag { font-size: 11px; font-weight: 600; color: #fff; background: var(--accent);
+  border-radius: 4px; padding: 1px 6px; margin-left: 6px; vertical-align: middle; }
+a.project { display: block; padding: 0.9rem 1.1rem; border: 1px solid var(--border);
+  border-radius: 8px; background: #fff; text-decoration: none; margin: 0.5rem 0 1.25rem; }
+a.project:hover { border-color: var(--accent); background: var(--zebra); }
+a.project .t { font-size: 1.1rem; font-weight: 600; color: var(--header-bg); }
+a.project .d { display: block; color: var(--muted); font-size: 13px; margin-top: 4px; }
+.archive-list h3 { margin-top: 1.3rem; }
+.archive-list p { margin: 0.2rem 0 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a href="../index.html">NLRB Stats Archive</a></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; FY1962</p>
+<h1>NLRB statistical tables — FY1962</h1>
+<p class="meta">26 items. Click a column header to sort.</p>
+<table class="listing">
+<thead>
+<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="table_nlrb1962_p0024_t0.html">Unfair labor practice merit factor</a></td><td><span class="type-label">Figure</span></td><td>24</td></tr>
+<tr><td><a href="table_nlrb1962_p0026_t0.html">Unfair labor practice cases settled</a></td><td><span class="type-label">Figure</span></td><td>26</td></tr>
+<tr><td><a href="table_nlrb1962_p0030_t0.html">Median days to process representation cases</a></td><td><span class="type-label">Figure</span></td><td>30</td></tr>
+<tr><td><a href="table_nlrb1962_p0044_t0.html">NLRB total agency obligations and expenditures by category</a></td><td><span class="type-label">Table</span></td><td>44</td></tr>
+<tr><td><a href="table_nlrb1962_p0273_t0.html">Cases received and disposed of — by complainant</a></td><td><span class="type-label">Table</span></td><td>273</td></tr>
+<tr><td><a href="table_nlrb1962_p0274_t0.html">Cases received and disposed of — by case type</a></td><td><span class="type-label">Table</span></td><td>274–275</td></tr>
+<tr><td><a href="table_nlrb1962_p0276_t0.html">Charges filed against employers (Sec. 8(a)) and unions (Sec. 8(b), 8(b)(4), 8(b)(7), 8(e))</a></td><td><span class="type-label">Table</span></td><td>276</td></tr>
+<tr><td><a href="table_nlrb1962_p0276_t1.html">Formal actions taken in cases received and disposed of</a></td><td><span class="type-label">Table</span></td><td>276</td></tr>
+<tr><td><a href="table_nlrb1962_p0278_t0.html">Industrial distribution of cases received</a></td><td><span class="type-label">Table</span></td><td>278–279</td></tr>
+<tr><td><a href="table_nlrb1962_p0280_t0.html">Geographic distribution of cases received</a></td><td><span class="type-label">Table</span></td><td>280–281</td></tr>
+<tr><td><a href="table_nlrb1962_p0282_t0.html">Disposition of unfair labor practice (C) cases closed — by stage and method</a></td><td><span class="type-label">Table</span></td><td>282–283</td></tr>
+<tr><td><a href="table_nlrb1962_p0284_t0.html">Disposition of unfair labor practice (C) cases closed — summary</a></td><td><span class="type-label">Table</span></td><td>284</td></tr>
+<tr><td><a href="table_nlrb1962_p0284_t1.html">Disposition of representation (R) cases closed</a></td><td><span class="type-label">Table</span></td><td>284</td></tr>
+<tr><td><a href="table_nlrb1962_p0285_t0.html">Disposition of representation cases closed — by method and stage</a></td><td><span class="type-label">Table</span></td><td>285</td></tr>
+<tr><td><a href="table_nlrb1962_p0286_t0.html">Elections, eligible voters, and valid votes cast</a></td><td><span class="type-label">Table</span></td><td>286</td></tr>
+<tr><td><a href="table_nlrb1962_p0287_t0.html">Union-shop deauthorization (UD) polls held</a></td><td><span class="type-label">Table</span></td><td>287</td></tr>
+<tr><td><a href="table_nlrb1962_p0287_t1.html">Election results in RC, RM, and RD elections — by affiliation</a></td><td><span class="type-label">Table</span></td><td>287</td></tr>
+<tr><td><a href="table_nlrb1962_p0288_t0.html">Election results in RC, RM, and RD elections — by union mix</a></td><td><span class="type-label">Table</span></td><td>288</td></tr>
+<tr><td><a href="table_nlrb1962_p0289_t0.html">Decertification (RD) elections held</a></td><td><span class="type-label">Table</span></td><td>289</td></tr>
+<tr><td><a href="table_nlrb1962_p0289_t1.html">Voting in decertification (RD) elections</a></td><td><span class="type-label">Table</span></td><td>289</td></tr>
+<tr><td><a href="table_nlrb1962_p0290_t0.html">Geographic distribution of collective bargaining elections, eligible voters, and valid votes cast</a></td><td><span class="type-label">Table</span></td><td>290–291</td></tr>
+<tr><td><a href="table_nlrb1962_p0292_t0.html">Industrial distribution of collective bargaining elections, eligible voters, and valid votes cast</a></td><td><span class="type-label">Table</span></td><td>292</td></tr>
+<tr><td><a href="table_nlrb1962_p0293_t0.html">Decertification (RD) elections</a></td><td><span class="type-label">Table</span></td><td>293</td></tr>
+<tr><td><a href="table_nlrb1962_p0293_t1.html">Collective bargaining elections</a></td><td><span class="type-label">Table</span></td><td>293</td></tr>
+<tr><td><a href="table_nlrb1962_p0294_t0.html">Sec. 10(j) and 10(l) injunction proceedings under the Labor Management Relations Act</a></td><td><span class="type-label">Table</span></td><td>294</td></tr>
+<tr><td><a href="table_nlrb1962_p0294_t1.html">Litigation for enforcement or review of Board orders in the U.S. courts of appeals and Supreme Court</a></td><td><span class="type-label">Table</span></td><td>294</td></tr>
+</tbody>
+</table>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Verify figures against the source scan. Updated June 2026. &middot; <a href="about.html">About</a></p>
+</div>
+<script>
+(function () {
+  function cellText(row, i) { var c = row.children[i]; return c ? c.textContent : ""; }
+  function isNumeric(v) {
+    if (v === "" || v == null) return false;
+    return /^-?[0-9][0-9,]*(\.[0-9]+)?$/.test(v.trim());
+  }
+  function toNumber(v) { return parseFloat(v.replace(/,/g, "")); }
+  function columnIsNumeric(rows, i) {
+    var seen = 0;
+    for (var r = 0; r < rows.length && seen < 50; r++) {
+      var t = cellText(rows[r], i).trim();
+      if (t === "") continue;
+      seen++;
+      if (!isNumeric(t)) return false;
+    }
+    return seen > 0;
+  }
+  function sortBy(table, i, th) {
+    var tbody = table.tBodies[0];
+    var rows = Array.prototype.slice.call(tbody.rows);
+    var asc = th.getAttribute("data-dir") !== "asc";
+    var numeric = columnIsNumeric(rows, i);
+    rows.sort(function (a, b) {
+      var av = cellText(a, i).trim(), bv = cellText(b, i).trim();
+      var cmp;
+      if (numeric) {
+        var an = av === "" ? Infinity : toNumber(av);
+        var bn = bv === "" ? Infinity : toNumber(bv);
+        cmp = an - bn;
+      } else {
+        cmp = av.localeCompare(bv, undefined, {numeric: true, sensitivity: "base"});
+      }
+      return asc ? cmp : -cmp;
+    });
+    for (var r = 0; r < rows.length; r++) tbody.appendChild(rows[r]);
+    th.setAttribute("data-dir", asc ? "asc" : "desc");
+    var ths = th.parentNode.children;
+    for (var k = 0; k < ths.length; k++) {
+      var a = ths[k].querySelector(".arrow");
+      if (a) a.textContent = ths[k] === th ? (asc ? "\u25B2" : "\u25BC") : "\u2195";
+    }
+  }
+  document.addEventListener("click", function (e) {
+    var th = e.target.closest ? e.target.closest("th") : null;
+    if (!th || th.tagName !== "TH") return;
+    var table = th.closest("table");
+    if (!table || !table.tBodies.length) return;
+    var ths = th.parentNode.children;
+    var i = Array.prototype.indexOf.call(ths, th);
+    sortBy(table, i, th);
+  });
+})();
+</script>
+</body>
+</html>

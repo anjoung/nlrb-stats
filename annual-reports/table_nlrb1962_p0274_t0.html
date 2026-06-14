@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cases received and disposed of — by case type — NLRB FY1962</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-weight: 600; font-size: 13px; }
+.site-head a { text-decoration: none; color: var(--header-bg); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.marker { color: #b06a00; text-align: center; cursor: help; font-weight: 700; }
+td.blank { color: transparent; }
+/* Marker legend shown under a grid that contains "·" cells (outside the table
+   so a copy-paste of the grid stays a clean rectangle). */
+p.marker-legend { color: var(--muted); font-size: 12.5px; margin: 0 0 0.75rem; }
+p.marker-legend .mk { color: #b06a00; font-weight: 700; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings, a "featured" tag, project cards. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+.tag { font-size: 11px; font-weight: 600; color: #fff; background: var(--accent);
+  border-radius: 4px; padding: 1px 6px; margin-left: 6px; vertical-align: middle; }
+a.project { display: block; padding: 0.9rem 1.1rem; border: 1px solid var(--border);
+  border-radius: 8px; background: #fff; text-decoration: none; margin: 0.5rem 0 1.25rem; }
+a.project:hover { border-color: var(--accent); background: var(--zebra); }
+a.project .t { font-size: 1.1rem; font-weight: 600; color: var(--header-bg); }
+a.project .d { display: block; color: var(--muted); font-size: 13px; margin-top: 4px; }
+.archive-list h3 { margin-top: 1.3rem; }
+.archive-list p { margin: 0.2rem 0 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a href="../index.html">NLRB Stats Archive</a></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1962.html">FY1962</a> &rsaquo; Cases received and disposed of — by case type</p>
+<h1>Cases received and disposed of — by case type</h1>
+<p class="meta">source pages 274–275 &middot; <code>nlrb1962_p0274_t0</code></p>
+<p class="spans-note">Wide table split across pp. 274–275 (columns continue on p.275). The parts below are shown as printed — each keeps its own columns; they are not auto-merged into one grid. Read the parts left-to-right (by page) for the full set of columns.</p>
+<h2>Part 1 (source p.274)</h2>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Case stage / type</th><th>ULP — Total</th><th>ULP — AFL-CIO affiliates</th><th>ULP — Unaffiliated unions</th><th>ULP — Individuals</th><th>ULP — Employers</th><th>Rep — Total</th><th>Rep — AFL-CIO affiliates</th><th>Rep — Unaffiliated unions</th><th>Rep — Individuals</th><th>Rep — Employers</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">[SECTION DIVIDER — CA cases (left side) / RC cases (right side)]</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pending July 1, 1961 (CA / RC)</th><td>2,935</td><td>1,310</td><td>543</td><td>1,008</td><td>2</td><td>2,075</td><td>1,206</td><td>769</td><td>1</td><td>99</td></tr>
+<tr><th class="stub" scope="row">Received fiscal 1962 (CA / RC)</th><td>9,233</td><td>4,172</td><td>1,516</td><td>3,530</td><td>15</td><td>9,704</td><td>6,034</td><td>3,656</td><td>1</td><td>11</td></tr>
+<tr><th class="stub" scope="row">On docket fiscal 1962 (CA / RC)</th><td>12,168</td><td>5,482</td><td>2,061</td><td>4,628</td><td>15</td><td>11,782</td><td>7,240</td><td>4,425</td><td>2</td><td>115</td></tr>
+<tr><th class="stub" scope="row">Closed fiscal 1962 (CA / RC)</th><td>8,910</td><td>3,784</td><td>1,455</td><td>3,658</td><td>13</td><td>9,960</td><td>6,103</td><td>3,842</td><td>13</td><td>2</td></tr>
+<tr><th class="stub" scope="row">Pending June 30, 1962 (CA / RC)</th><td>3,276</td><td>1,696</td><td>606</td><td>1,018</td><td>4</td><td>1,822</td><td>1,237</td><td>583</td><td>2</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">[SECTION DIVIDER — CB cases (left) / RM cases (right)]</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pending July 1, 1961 (CB / RM)</th><td>970</td><td>33</td><td>22</td><td>747</td><td>168</td><td>196</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>196</td></tr>
+<tr><th class="stub" scope="row">Received fiscal 1962 (CB / RM)</th><td>2,389</td><td>84</td><td>65</td><td>1,786</td><td>454</td><td>884</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>884</td></tr>
+<tr><th class="stub" scope="row">On docket fiscal 1962 (CB / RM)</th><td>3,359</td><td>118</td><td>86</td><td>2,545</td><td>622</td><td>1,080</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>1,080</td></tr>
+<tr><th class="stub" scope="row">Closed fiscal 1962 (CB / RM)</th><td>2,628</td><td>85</td><td>56</td><td>2,034</td><td>430</td><td>921</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>921</td></tr>
+<tr><th class="stub" scope="row">Pending June 30, 1962 (CB / RM)</th><td>728</td><td>35</td><td>30</td><td>491</td><td>192</td><td>159</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>159</td></tr>
+<tr><th class="stub" scope="row">[SECTION DIVIDER — CC cases (left) / RD cases (right)]</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pending July 1, 1961 (CC / RD)</th><td>298</td><td>8</td><td>5</td><td>20</td><td>265</td><td>135</td><td class="blank"></td><td class="blank"></td><td>135</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Received fiscal 1962 (CC / RD)</th><td>1,076</td><td>11</td><td>11</td><td>57</td><td>997</td><td>698</td><td>2</td><td>3</td><td>693</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">On docket fiscal 1962 (CC / RD)</th><td>1,374</td><td>19</td><td>16</td><td>77</td><td>1,262</td><td>833</td><td>2</td><td>3</td><td>828</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Closed fiscal 1962 (CC / RD)</th><td>1,027</td><td>18</td><td>13</td><td>73</td><td>925</td><td>755</td><td>2</td><td>3</td><td>750</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pending June 30, 1962 (CC / RD)</th><td>347</td><td>1</td><td>3</td><td>15</td><td>328</td><td>78</td><td class="blank"></td><td class="blank"></td><td>78</td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<h2>Part 2 (source p.275)</h2>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Case stage / type</th><th>Total</th><th>AFL-CIO affiliates</th><th>Unaffiliated unions</th><th>Individuals</th><th>Employers</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">[SECTION DIVIDER — CD cases]</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pending July 1, 1961</th><td>103</td><td>2</td><td>1</td><td>2</td><td>98</td></tr>
+<tr><th class="stub" scope="row">Received fiscal 1962</th><td>319</td><td>18</td><td>16</td><td>19</td><td>266</td></tr>
+<tr><th class="stub" scope="row">On docket fiscal 1962</th><td>422</td><td>20</td><td>17</td><td>21</td><td>364</td></tr>
+<tr><th class="stub" scope="row">Closed fiscal 1962</th><td>308</td><td>17</td><td>16</td><td>20</td><td>255</td></tr>
+<tr><th class="stub" scope="row">Pending June 30, 1962</th><td>114</td><td>3</td><td>1</td><td>1</td><td>109</td></tr>
+<tr><th class="stub" scope="row">[SECTION DIVIDER — CE cases]</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pending July 1, 1961</th><td>30</td><td>3</td><td>0</td><td>2</td><td>25</td></tr>
+<tr><th class="stub" scope="row">Received fiscal 1962</th><td>50</td><td>2</td><td>0</td><td>5</td><td>43</td></tr>
+<tr><th class="stub" scope="row">On docket fiscal 1962</th><td>80</td><td>5</td><td>0</td><td>7</td><td>68</td></tr>
+<tr><th class="stub" scope="row">Closed fiscal 1962</th><td>45</td><td>1</td><td>0</td><td>6</td><td>38</td></tr>
+<tr><th class="stub" scope="row">Pending June 30, 1962</th><td>35</td><td>4</td><td>0</td><td>1</td><td>30</td></tr>
+<tr><th class="stub" scope="row">[SECTION DIVIDER — CP cases]</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pending July 1, 1961</th><td>108</td><td>1</td><td>1</td><td>2</td><td>104</td></tr>
+<tr><th class="stub" scope="row">Received fiscal 1962</th><td>404</td><td>3</td><td>1</td><td>7</td><td>393</td></tr>
+<tr><th class="stub" scope="row">On docket fiscal 1962</th><td>512</td><td>4</td><td>2</td><td>9</td><td>497</td></tr>
+<tr><th class="stub" scope="row">Closed fiscal 1962</th><td>398</td><td>4</td><td>2</td><td>4</td><td>388</td></tr>
+<tr><th class="stub" scope="row">Pending June 30, 1962</th><td>114</td><td>0</td><td>0</td><td>5</td><td>109</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1962_p0274_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source images</h2>
+<figure class="source-img">
+<img src="images/1962_p0274.webp" loading="lazy" alt="Source page 274 of NLRB FY1962 annual report">
+<figcaption>Source: NLRB Annual Report FY1962, p. 274.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="images/1962_p0275.webp" loading="lazy" alt="Source page 275 of NLRB FY1962 annual report">
+<figcaption>Source: NLRB Annual Report FY1962, p. 275.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Verify figures against the source scan. Updated June 2026. &middot; <a href="about.html">About</a></p>
+</div>
+</body>
+</html>
