@@ -111,12 +111,10 @@ p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
 p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
 ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
 ul.dl-list li { margin: 0.25rem 0; }
-/* Portal homepage: section sub-headings, a "featured" tag, project cards. */
+/* Portal homepage: section sub-headings + bare link lists. */
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
-.tag { font-size: 11px; font-weight: 600; color: #fff; background: var(--accent);
-  border-radius: 4px; padding: 1px 6px; margin-left: 6px; vertical-align: middle; }
-.archive-list h3 { margin-top: 1.3rem; }
-.archive-list p { margin: 0.2rem 0 0; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
 </style>
 </head>
 <body>
@@ -125,7 +123,8 @@ h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 <p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; Annual Reports</p>
 <h1>NLRB Annual Reports</h1>
 <div class="about">
-<p>This is a browse-only archive of statistical tables extracted from the National Labor Relations Board&rsquo;s historical annual reports. Each table is reconstructed as a numeric grid alongside its full-page source image, so every figure can be audited against the original scan.</p>
+<p>The U.S. National Labor Relations Board&rsquo;s <strong>Annual Reports</strong> were the agency&rsquo;s yearly account of its casework &mdash; unfair-labor-practice and representation cases, elections, and related activity &mdash; each packed with statistical tables. This is a browse-only archive of those tables, each reconstructed as a numeric grid alongside its full-page source scan, so every figure can be audited against the original.</p>
+<p><strong>For union-election data, better sources exist.</strong> These tables are the reports&rsquo; <em>aggregate</em> election counts; for case- or election-level data, see <a href="https://github.com/labordata">LaborData</a>&rsquo;s NLRB election datasets and <a href="https://users.econ.umn.edu/~holmes/data/geo_spill/">Thomas Holmes&rsquo;s NLRB election records (1977&ndash;1999)</a>.</p>
 <p>A &middot; marks a cell whose original content could not be normalized to a number &mdash; check the source image. Blank cells were empty in the source.</p>
 <p><a href="../about.html">More about this project &rarr;</a></p>
 </div>
