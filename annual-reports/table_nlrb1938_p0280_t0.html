@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.280 table — NLRB FY1938</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1938.html">FY1938</a> &rsaquo; p.280 table</p>
+<h1>p.280 table</h1>
+<p class="meta">source page 280 &middot; <code>nlrb1938_p0280_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">C. A. Lund Co. and Northland Ski Co</th><td>July 6,1937 Sept. 8, 1937</td><td>July 9,1937 Sept. 30,1937 Mar. 14,1938 June 16,1938 Nov. 6, 1937 Sept. 16, 1937 Nov. 3,1937 July 26.1937</td><td>Apr. 5,1938</td></tr>
+<tr><th class="stub" scope="row">Caleo Chemical Co., Inc</th><td class="blank"></td><td class="blank"></td><td>June 23,1938</td></tr>
+<tr><th class="stub" scope="row">California Walnut Growers&#x27; Association</th><td>Mar. 3, 1938</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">California Woodturning Co</th><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>June 9,1938 Nov.</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">California Wool Scouring Co</th><td>4,1937</td><td class="blank"></td><td>Mar. 4, 1938</td></tr>
+<tr><th class="stub" scope="row">Calumet Steel Division of Borg-Warner Corp</th><td>Sept. 15, 1937</td><td class="blank"></td><td>May 21,1938</td></tr>
+<tr><th class="stub" scope="row">Canadian Fur Trappers of N. J., Inc</th><td>Nov. 1,1937</td><td class="blank"></td><td>Jan. 13,1938</td></tr>
+<tr><th class="stub" scope="row">Capitol Greyhound Lines</th><td>July 1,1937</td><td class="blank"></td><td>Sept. 14,1937</td></tr>
+<tr><th class="stub" scope="row">Carl Furst Stone Co</th><td>Mar. 10,1938</td><td>Mar. 12,1938</td><td>4)</td></tr>
+<tr><th class="stub" scope="row">Carrollton Metal Products Co</th><td>Sept. 2,1937</td><td>Sept. 2,1937</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Carolina Marble &amp; Granite Works</th><td>Dec. 15, 1937</td><td>Dec. 16, 1937</td><td>(I)</td></tr>
+<tr><th class="stub" scope="row">C. D. Mallory &amp; Co</th><td>Aug. 23, 1937</td><td>Aug. 24,1937</td><td>Sept. 17,1937</td></tr>
+<tr><th class="stub" scope="row">Celanese Corporation of America</th><td>July 6, 1937</td><td>July 6,1937</td><td>(I)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>Sept. 24,1937</td></tr>
+<tr><th class="stub" scope="row">Central Greyhound Lines, Inc Central Truck Lines, Inc</th><td>July 1,1937</td><td>July 26,1937</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>Feb. 26,1937</td><td>Mar. 2,1937</td><td>Aug. 12,1937</td></tr>
+<tr><th class="stub" scope="row">Centre Brass Co., Inc., &amp; Enterprise Novelty Co_</th><td>Jan. 7,1938</td><td>Jan. 13, 1938</td><td>(0</td></tr>
+<tr><th class="stub" scope="row">Century Mills, Inc Century Woven Label Co</th><td>Dec. 20,1937</td><td>Dec. 21, 1937</td><td>5,1938 Mar. (1)</td></tr>
+<tr><th class="stub" scope="row">Charles R. McCormick Lumber Co</th><td>Mar. 28,1938</td><td>Apr. 9,1938 Mar. 29,1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Chase Brass &amp; Copper Co., Inc</th><td>do Sept. 30,1937</td><td>Sept.</td><td>May 5,1938 Nov. 8, 1937</td></tr>
+<tr><th class="stub" scope="row">Chesapeake Lighterage Co</th><td class="blank"></td><td>30,1937</td><td>Dec. 3, 1937</td></tr>
+<tr><th class="stub" scope="row">DO</th><td>Oct. 26,1937 do</td><td>Oct. 26,1937 do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Chicago Apparatus Co</th><td>Dec. 13, 1937</td><td>Dec. 16,1937</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row">Chicopee Manufacturing Corporation</th><td>Sept. 27,1937</td><td>Sept. 27,1937</td><td>Dec. 8,1937 Aug. 11, 1937</td></tr>
+<tr><th class="stub" scope="row">City Auto Stamping Co Clark Equipment Co</th><td>July 9,1937 Mar. 1,1938</td><td>July 9,1937 Mar. 16, 1938</td><td>(I)</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td>21,1937</td></tr>
+<tr><th class="stub" scope="row">Clark &amp; Wilson Lumber Co Cleveland Cliffs Iron Co</th><td>Sept. 20,1937</td><td>Sept. 22, 1937</td><td>Oct.</td></tr>
+<tr><th class="stub" scope="row">Cleveland Equipment Works</th><td>Jan. 24,1938 Mar. 10,1938</td><td>Feb. 7, 1938 Mar. 10,1938</td><td>(I) Apr. 22,1938</td></tr>
+<tr><th class="stub" scope="row">Cleveland Worsted Mills Co</th><td>Aug.</td><td>Aug. 10, 1937</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>10,1937</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Clinton Garment Co</th><td>May 26, 1938</td><td>May 26,1938</td><td>4) &#x27;)</td></tr>
+<tr><th class="stub" scope="row">Clyde-Mallory Lines</th><td>Jan. 11, 1938</td><td>Jan. 12, 1938</td><td>Feb. 19,1938</td></tr>
+<tr><th class="stub" scope="row">C. 0. Bartlett &amp; Snow Co</th><td>Sept. 16,1937</td><td>Sept. 16,1937</td><td>Nov. 11,1937</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Coastal Freight Handlers, Inc Cohn, Hall, Marx &amp; Subsidiaries &amp; United Merchants &amp;</th><td>June 30,1938</td><td class="blank"></td><td>(1)</td></tr>
+<tr><th class="stub" scope="row">Manufacturers, Inc</th><td>Sept. 13,1937 Sept. 28,1937</td><td>Sept. 28, 1937 Oct. 2,1937</td><td>Mar. 25, 1938</td></tr>
+<tr><th class="stub" scope="row">Columbia Broadcasting System, Inc Do</th><td>May 26,1938</td><td>May 26,1938</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row">Columbian Line</th><td>Aug.</td><td>Aug. 24,1937</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row"></th><td>23,1937 Aug. 12,1937</td><td>Aug. 14,1937</td><td>Feb. 16,1938</td></tr>
+<tr><th class="stub" scope="row">Combustion Engineering Co</th><td class="blank"></td><td>Oct. 15,1937</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Condenser Corporation of America</th><td>Sept. 2,1937 June 9,1938</td><td>(3)</td><td>(I)</td></tr>
+<tr><th class="stub" scope="row">Connor Lumber &amp; Land Co Consolidated Aircraft Corporation</th><td>May 10, 1938</td><td>May 12, 1938</td><td>June 22,1938</td></tr>
+<tr><th class="stub" scope="row">Continental Oil Co</th><td>Mar. 3,1938</td><td>Mar. 18,1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Cornell Dubilier Corporation</th><td>Sept.</td><td>Oct. 30,1937 Apr.</td><td>- (4i</td></tr>
+<tr><th class="stub" scope="row">Cosmolite Corporation</th><td>2,1937 Apr. 7,</td><td>8,1938</td><td>May</td></tr>
+<tr><th class="stub" scope="row">Cote Baking Co., Inc</th><td>1938 Mar. 7, 1938</td><td>Mar. 8,1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Cottman Co</th><td>Oct. 26,1937</td><td>Oct. 26,1937</td><td>9,1938 Dec. 3,1937</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>Do. Jan. 27,1938</td></tr>
+<tr><th class="stub" scope="row">Cudahy Bros. Packing Co</th><td>Dec. 6,1937 Oct. 4,1937</td><td>Dec. 6,1937 Oct. 4,1937</td><td>Dec. 30,1937</td></tr>
+<tr><th class="stub" scope="row">Cudahy Packing Co Do</th><td>July 19,1937</td><td>July 22,1937</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Do</th><td>12, 1938</td><td>June 29,1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Cunard White Star Lines</th><td>May 20, 1938</td><td>(3)</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Cupples Match Co</th><td>Nov. 29,1937</td><td>Dec. 14,</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>June do</td><td>1937 do</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Do Curtis Bay Towing Co</th><td>Oct. 26,1937</td><td>Oct. 26,1937</td><td>Dec. 3, 1937</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>Do. May 26, 1938</td></tr>
+<tr><th class="stub" scope="row">Cutler-Hammer, Inc Daily Mirror, Inc</th><td>Apr. 11, 1938 Dec. 4,1937</td><td>Apr. 14,1938 Dec. 13,1937</td><td>Feb. 17,1938</td></tr>
+<tr><th class="stub" scope="row">Danahy Packing Co</th><td>Aug. 12,1937</td><td>Aug. 12,1937</td><td>Sept. 17,1937</td></tr>
+<tr><th class="stub" scope="row">David and Hyman Zoslow</th><td>13,1938</td><td>Jan. 14, 1938</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row">Davis Packing Co</th><td>29,1938</td><td>Mar.</td><td>(I)</td></tr>
+<tr><th class="stub" scope="row">Delta Line</th><td>Jan. Mar. June 20,1938</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>30,1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Des Moines Steel Co</th><td>Mar. 8,1938</td><td>Mar. 9,1938</td><td>Apr. 8,1938</td></tr>
+<tr><th class="stub" scope="row">Detroit Gasket and Manufacturing Co</th><td>May 26,1938</td><td>June Feb. 15,</td><td>(I) Mar. 21, 1938</td></tr>
+<tr><th class="stub" scope="row">Diamond Iron Works</th><td>Feb. 15,1938</td><td>21,1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Dickson-Jenkins Manufacturing Co</th><td>May 5,1938</td><td>1938 May 21,1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>June 20,1938</td><td>( 3 Oct.</td><td>Dec.</td></tr>
+<tr><th class="stub" scope="row">Donaldson Atlantic Line</th><td>Oct. 26,1937</td><td class="blank"></td><td>3,1937</td></tr>
+<tr><th class="stub" scope="row">Donaldson Towing &amp;</th><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Lighterage Co</th><td class="blank"></td><td>2)6,1937</td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1938_p0280_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1938_p0280.webp" loading="lazy" alt="Source page 280 of NLRB FY1938 annual report">
+<figcaption>Source: NLRB Annual Report FY1938, p. 280.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

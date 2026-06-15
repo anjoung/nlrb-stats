@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FY1949 — NLRB Annual Reports</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; FY1949</p>
+<h1>NLRB statistical tables — FY1949</h1>
+<table class="listing">
+<thead>
+<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="table_nlrb1949_p0126_t0.html">p.126 table</a></td><td><span class="type-label">Table</span></td><td>126</td></tr>
+<tr><td><a href="table_nlrb1949_p0150_t0.html">Injunction proceedings under Sections 10(j) and 10(l) of the Taft-Hartley Act — by type of proceeding × case-flow stage</a></td><td><span class="type-label">Table</span></td><td>150</td></tr>
+<tr><td><a href="table_nlrb1949_p0171_t0.html">NLRB obligations and expenditures for salaries and expenses — by category (Salaries / Travel / Transportation / Communication / Rents / Printing / Other contractual / Supplies / Equipment)</a></td><td><span class="type-label">Table</span></td><td>171</td></tr>
+<tr><td><a href="table_nlrb1949_p0172_t0.html">Number of cases by identification of complainant or petitioner — by case-type (All / Unfair labor practice / Representation / Union-shop authorization) × case-flow stage × filing party (AFL / CIO / Unaffiliated / Individuals / Employers)</a></td><td><span class="type-label">Table</span></td><td>172</td></tr>
+<tr><td><a href="table_nlrb1949_p0173_t0.html">Number of cases by identification of complainant — by ULP case-type (NLRA-C / CA / CB / CC / CD) × case-flow stage × filing party (AFL / CIO / Unaffiliated / Individuals / Employers)</a></td><td><span class="type-label">Table</span></td><td>173</td></tr>
+<tr><td><a href="table_nlrb1949_p0175_t0.html">Cases received by month — by case type (All / Unfair labor practice / Representation / Union-shop authorization) — Number, Percent of yearly total, Percent of monthly total</a></td><td><span class="type-label">Table</span></td><td>175</td></tr>
+<tr><td><a href="table_nlrb1949_p0175_t1.html">Sec. 8(a) employer ULP allegations — by subsection combination (8(a)(1) through 8(a)(5)) — two-panel layout: Subsections of Sec. 8(a) (combinations) + (single-subsection rollup)</a></td><td><span class="type-label">Table</span></td><td>175</td></tr>
+<tr><td><a href="table_nlrb1949_p0176_t0.html">Sec. 8(b) and Sec. 8(b)(4) union ULP allegations — Section B Sec 8(b) subsections (1)-(6) AND Section C Sec 8(b)(4) sub-clauses (A)-(D); two-panel layout per section: combinations +</a></td><td><span class="type-label">Table</span></td><td>176</td></tr>
+<tr><td><a href="table_nlrb1949_p0176_t1.html">p.176 table</a></td><td><span class="type-label">Table</span></td><td>176</td></tr>
+<tr><td><a href="table_nlrb1949_p0177_t0.html">Geographic distribution of cases received — by Division/State × case type (All / CA / CB / CC / CD / RC / RM / RD / Union-shop authorization)</a></td><td><span class="type-label">Table</span></td><td>177</td></tr>
+<tr><td><a href="table_nlrb1949_p0178_t0.html">Cases received — by industrial group × case type (All / CA / CB / CC / CD / RC / RM / RD / Union-shop authorization)</a></td><td><span class="type-label">Table</span></td><td>178</td></tr>
+<tr><td><a href="table_nlrb1949_p0179_t0.html">Regional distribution of cases received during the — by Location of regional office × case type (All / Unfair labor practice / Representation / Union-shop authorization)</a></td><td><span class="type-label">Table</span></td><td>179</td></tr>
+<tr><td><a href="table_nlrb1949_p0180_t0.html">ULP cases closed — by stage and method × case-type (All C cases / NLRA C cases / LMRA CA cases / LMRA other C cases) — Number and Percent of cases closed</a></td><td><span class="type-label">Table</span></td><td>180</td></tr>
+<tr><td><a href="table_nlrb1949_p0181_t0.html">Disposition of representation cases closed by stage and method — by case-type (All R / NLRA-R / RC / RM / RD) — Number and Percent of cases closed</a></td><td><span class="type-label">Table</span></td><td>181</td></tr>
+<tr><td><a href="table_nlrb1949_p0182_t0.html">p.182 table</a></td><td><span class="type-label">Table</span></td><td>182</td></tr>
+<tr><td><a href="table_nlrb1949_p0182_t1.html">p.182 table</a></td><td><span class="type-label">Table</span></td><td>182</td></tr>
+<tr><td><a href="table_nlrb1949_p0183_t0.html">Remedies and 8(b) allegations in cases involving Sec. 8(b) of LMRA where remedial action was taken — three-section table: (1) Remedies-by-cases, (2) Remedies-by-workers, (3) 8(b)-subsection allegation distribution</a></td><td><span class="type-label">Table</span></td><td>183</td></tr>
+<tr><td><a href="table_nlrb1949_p0184_t0.html">Formal actions issued — by case-type (All cases / NLRA C / LMRA CA / LMRA other C / NLRA R / LMRA R / Union-shop authorization) — Number of cases × Formal actions</a></td><td><span class="type-label">Table</span></td><td>184</td></tr>
+<tr><td><a href="table_nlrb1949_p0185_t0.html">Elections held — by case type (NLRA-R / RC / RM / RD / UA) × type of election (Consent / Stipulated / Regional director directed / Board ordered) — Total elections + Eligible voters + Valid votes (Number and Percent within type)</a></td><td><span class="type-label">Table</span></td><td>185</td></tr>
+<tr><td><a href="table_nlrb1949_p0186_t0.html">Representation elections — by participating-union mix × elections won by (AFL / CIO / Unaffiliated / No union) × votes cast for (AFL / CIO / Unaffiliated / No union) ( Table 22 successor)</a></td><td><span class="type-label">Table</span></td><td>186</td></tr>
+<tr><td><a href="table_nlrb1949_p0187_t0.html">Decertification (RD) elections — by participating-union mix × elections won by (AFL / CIO / Unaffiliated / No union) × votes cast for (AFL / CIO / Unaffiliated / No union)</a></td><td><span class="type-label">Table</span></td><td>187</td></tr>
+<tr><td><a href="table_nlrb1949_p0188_t0.html">Union-shop authorization (UA) elections — by participating-union mix × union-shop authorization outcome × votes cast for union-shop by affiliation × votes against</a></td><td><span class="type-label">Table</span></td><td>188</td></tr>
+<tr><td><a href="table_nlrb1949_p0189_t0.html">Industrial distribution of collective-bargaining elections, military projects voters, and valid votes cast — by industrial group × elections won by (AFL / CIO / Unaffiliated / No union) × eligible voters × valid votes</a></td><td><span class="type-label">Table</span></td><td>189</td></tr>
+<tr><td><a href="table_nlrb1949_p0190_t0.html">Industrial distribution of collective-bargaining elections — non-Manufacturing industries (Mining / Construction / Wholesale / Retail / Finance / Transportation / Service) × elections won × eligible voters × valid votes</a></td><td><span class="type-label">Table</span></td><td>190</td></tr>
+<tr><td><a href="table_nlrb1949_p0191_t0.html">Industrial distribution of decertification (RD) elections, winners, eligible voters and valid votes cast — by industrial group × winner (AFL / CIO / Unaffiliated / No union)</a></td><td><span class="type-label">Table</span></td><td>191</td></tr>
+<tr><td><a href="table_nlrb1949_p0192_t0.html">p.192 table</a></td><td><span class="type-label">Table</span></td><td>192</td></tr>
+<tr><td><a href="table_nlrb1949_p0193_t0.html">Industrial distribution of union-shop authorization (UA) elections, winners, eligible voters, and valid votes cast — by industrial group × winner (AFL / CIO / Unaffiliated / No union)</a></td><td><span class="type-label">Table</span></td><td>193</td></tr>
+<tr><td><a href="table_nlrb1949_p0194_t0.html">Industrial distribution of UA elections — non-Manufacturing industries (Mining / Construction / Wholesale / Retail / Finance / Transportation / Services) × winner (AFL / CIO / Unaffiliated / No union)</a></td><td><span class="type-label">Table</span></td><td>194</td></tr>
+<tr><td><a href="table_nlrb1949_p0195_t0.html">Geographic distribution of representation elections (RC+RM+RD) — by Division/State × elections won by (AFL / CIO / Unaffiliated / No union) × eligible voters × valid votes (AFL / CIO / Unaffiliated / No union)</a></td><td><span class="type-label">Table</span></td><td>195</td></tr>
+<tr><td><a href="table_nlrb1949_p0196_t0.html">Geographic distribution of representation elections — South Atlantic detail / East South Central / West South Central / Mountain / Pacific / Outlying areas — by Division/State × elections won by × eligible voters × valid votes</a></td><td><span class="type-label">Table</span></td><td>196</td></tr>
+<tr><td><a href="table_nlrb1949_p0197_t0.html">Geographic distribution of decertification (RD) elections — by Division/State × elections won by (AFL / CIO / Unaffiliated / No union) × eligible voters × valid votes</a></td><td><span class="type-label">Table</span></td><td>197</td></tr>
+<tr><td><a href="table_nlrb1949_p0198_t0.html">Geographic distribution of decertification (RD) elections — South Atlantic state-detail / East South Central / West South Central / Mountain / Pacific / Outlying areas — image is</a></td><td><span class="type-label">Table</span></td><td>198</td></tr>
+<tr><td><a href="table_nlrb1949_p0199_t0.html">Geographic distribution of union-shop authorization (UA) elections — by Division/State × Number of elections × authorized by (AFL / CIO / Unaffiliated / No union) × eligible voters × valid votes (top half: New England + Mid-Atlantic + ENC + WNC + start of South Atlantic)</a></td><td><span class="type-label">Table</span></td><td>199</td></tr>
+<tr><td><a href="table_nlrb1949_p0200_t0.html">Geographic distribution of UA elections — South Atlantic state-detail / East South Central / West South Central / Mountain / Pacific / Outlying areas — by Division/State × authorized by × eligible voters × valid votes</a></td><td><span class="type-label">Table</span></td><td>200</td></tr>
+<tr><td><a href="table_nlrb1949_p0201_t0.html">p.201 table</a></td><td><span class="type-label">Table</span></td><td>201</td></tr>
+<tr><td><a href="table_nlrb1949_p0202_t0.html">Record of injunctions petitioned for under Sec. 10(j) and 10(l) — Case No. / Union and company / Date petition for injunction filed / Type of petition / Temporary restraining order issued and lifted / Date temporary injunction granted / Date denied / Date injunction proceedings withdrawn or dismissed / Date injunction issued after Board order</a></td><td><span class="type-label">Table</span></td><td>202</td></tr>
+<tr><td><a href="table_nlrb1949_p0203_t0.html">Record of injunctions petitioned for under Sec. 10(j) and 10(l) — case-level register cases continuing into + early entries</a></td><td><span class="type-label">Table</span></td><td>203</td></tr>
+<tr><td><a href="table_nlrb1949_p0204_t0.html">p.204 table</a></td><td><span class="type-label">Table</span></td><td>204</td></tr>
+<tr><td><a href="table_nlrb1949_p0207_t0.html">p.207 table</a></td><td><span class="type-label">Table</span></td><td>207</td></tr>
+<tr><td><a href="table_nlrb1949_p0208_t0.html">p.208 table</a></td><td><span class="type-label">Table</span></td><td>208</td></tr>
+<tr><td><a href="table_nlrb1949_p0209_t0.html">p.209 table</a></td><td><span class="type-label">Table</span></td><td>209</td></tr>
+<tr><td><a href="table_nlrb1949_p0212_t0.html">p.212 table</a></td><td><span class="type-label">Table</span></td><td>212</td></tr>
+<tr><td><a href="table_nlrb1949_p0213_t0.html">p.213 table</a></td><td><span class="type-label">Table</span></td><td>213</td></tr>
+<tr><td><a href="table_nlrb1949_p0214_t0.html">p.214 table</a></td><td><span class="type-label">Table</span></td><td>214</td></tr>
+<tr><td><a href="table_nlrb1949_p0215_t0.html">p.215 table</a></td><td><span class="type-label">Table</span></td><td>215</td></tr>
+<tr><td><a href="table_nlrb1949_p0216_t0.html">p.216 table</a></td><td><span class="type-label">Table</span></td><td>216</td></tr>
+<tr><td><a href="table_nlrb1949_p0217_t0.html">p.217 table</a></td><td><span class="type-label">Table</span></td><td>217</td></tr>
+<tr><td><a href="table_nlrb1949_p0218_t0.html">p.218 table</a></td><td><span class="type-label">Table</span></td><td>218</td></tr>
+<tr><td><a href="table_nlrb1949_p0219_t0.html">p.219 table</a></td><td><span class="type-label">Table</span></td><td>219</td></tr>
+<tr><td><a href="table_nlrb1949_p0220_t0.html">p.220 table</a></td><td><span class="type-label">Table</span></td><td>220</td></tr>
+<tr><td><a href="table_nlrb1949_p0221_t0.html">p.221 table</a></td><td><span class="type-label">Table</span></td><td>221</td></tr>
+<tr><td><a href="table_nlrb1949_p0222_t0.html">p.222 table</a></td><td><span class="type-label">Table</span></td><td>222</td></tr>
+<tr><td><a href="table_nlrb1949_p0223_t0.html">p.223 table</a></td><td><span class="type-label">Table</span></td><td>223</td></tr>
+<tr><td><a href="table_nlrb1949_p0224_t0.html">p.224 table</a></td><td><span class="type-label">Table</span></td><td>224</td></tr>
+<tr><td><a href="table_nlrb1949_p0225_t0.html">p.225 table</a></td><td><span class="type-label">Table</span></td><td>225</td></tr>
+<tr><td><a href="table_nlrb1949_p0226_t0.html">p.226 table</a></td><td><span class="type-label">Table</span></td><td>226</td></tr>
+<tr><td><a href="table_nlrb1949_p0227_t0.html">p.227 table</a></td><td><span class="type-label">Table</span></td><td>227</td></tr>
+<tr><td><a href="table_nlrb1949_p0228_t0.html">p.228 table</a></td><td><span class="type-label">Table</span></td><td>228</td></tr>
+<tr><td><a href="table_nlrb1949_p0229_t0.html">p.229 table</a></td><td><span class="type-label">Table</span></td><td>229</td></tr>
+<tr><td><a href="table_nlrb1949_p0231_t0.html">p.231 table</a></td><td><span class="type-label">Table</span></td><td>231</td></tr>
+<tr><td><a href="table_nlrb1949_p0231_t1.html">p.231 table</a></td><td><span class="type-label">Table</span></td><td>231</td></tr>
+<tr><td><a href="table_nlrb1949_p0232_t0.html">p.232 table</a></td><td><span class="type-label">Table</span></td><td>232</td></tr>
+<tr><td><a href="table_nlrb1949_p0233_t0.html">p.233 table</a></td><td><span class="type-label">Table</span></td><td>233</td></tr>
+<tr><td><a href="table_nlrb1949_p0236_t0.html">p.236 table</a></td><td><span class="type-label">Table</span></td><td>236</td></tr>
+<tr><td><a href="table_nlrb1949_p0237_t0.html">p.237 table</a></td><td><span class="type-label">Table</span></td><td>237</td></tr>
+<tr><td><a href="table_nlrb1949_p0239_t0.html">p.239 table</a></td><td><span class="type-label">Table</span></td><td>239</td></tr>
+<tr><td><a href="table_nlrb1949_p0240_t0.html">p.240 table</a></td><td><span class="type-label">Table</span></td><td>240</td></tr>
+<tr><td><a href="table_nlrb1949_p0241_t0.html">p.241 table</a></td><td><span class="type-label">Table</span></td><td>241</td></tr>
+<tr><td><a href="table_nlrb1949_p0242_t0.html">p.242 table</a></td><td><span class="type-label">Table</span></td><td>242</td></tr>
+<tr><td><a href="table_nlrb1949_p0243_t0.html">p.243 table</a></td><td><span class="type-label">Table</span></td><td>243</td></tr>
+<tr><td><a href="table_nlrb1949_p0244_t0.html">p.244 table</a></td><td><span class="type-label">Table</span></td><td>244</td></tr>
+<tr><td><a href="table_nlrb1949_p0245_t0.html">p.245 table</a></td><td><span class="type-label">Table</span></td><td>245</td></tr>
+<tr><td><a href="table_nlrb1949_p0246_t0.html">p.246 table</a></td><td><span class="type-label">Table</span></td><td>246</td></tr>
+<tr><td><a href="table_nlrb1949_p0247_t0.html">p.247 table</a></td><td><span class="type-label">Table</span></td><td>247</td></tr>
+<tr><td><a href="table_nlrb1949_p0248_t0.html">p.248 table</a></td><td><span class="type-label">Table</span></td><td>248</td></tr>
+<tr><td><a href="table_nlrb1949_p0249_t0.html">p.249 table</a></td><td><span class="type-label">Table</span></td><td>249</td></tr>
+<tr><td><a href="table_nlrb1949_p0250_t0.html">p.250 table</a></td><td><span class="type-label">Table</span></td><td>250</td></tr>
+<tr><td><a href="table_nlrb1949_p0251_t0.html">p.251 table</a></td><td><span class="type-label">Table</span></td><td>251</td></tr>
+<tr><td><a href="table_nlrb1949_p0252_t0.html">p.252 table</a></td><td><span class="type-label">Table</span></td><td>252</td></tr>
+<tr><td><a href="table_nlrb1949_p0253_t0.html">p.253 table</a></td><td><span class="type-label">Table</span></td><td>253</td></tr>
+<tr><td><a href="table_nlrb1949_p0254_t0.html">p.254 table</a></td><td><span class="type-label">Table</span></td><td>254</td></tr>
+<tr><td><a href="table_nlrb1949_p0255_t0.html">p.255 table</a></td><td><span class="type-label">Table</span></td><td>255</td></tr>
+<tr><td><a href="table_nlrb1949_p0256_t0.html">p.256 table</a></td><td><span class="type-label">Table</span></td><td>256</td></tr>
+<tr><td><a href="table_nlrb1949_p0257_t0.html">p.257 table</a></td><td><span class="type-label">Table</span></td><td>257</td></tr>
+<tr><td><a href="table_nlrb1949_p0258_t0.html">p.258 table</a></td><td><span class="type-label">Table</span></td><td>258</td></tr>
+<tr><td><a href="table_nlrb1949_p0259_t0.html">p.259 table</a></td><td><span class="type-label">Table</span></td><td>259</td></tr>
+<tr><td><a href="table_nlrb1949_p0260_t0.html">p.260 table</a></td><td><span class="type-label">Table</span></td><td>260</td></tr>
+<tr><td><a href="table_nlrb1949_p0261_t0.html">p.261 table</a></td><td><span class="type-label">Table</span></td><td>261</td></tr>
+<tr><td><a href="table_nlrb1949_p0262_t0.html">p.262 table</a></td><td><span class="type-label">Table</span></td><td>262</td></tr>
+<tr><td><a href="table_nlrb1949_p0263_t0.html">p.263 table</a></td><td><span class="type-label">Table</span></td><td>263</td></tr>
+<tr><td><a href="table_nlrb1949_p0264_t0.html">p.264 table</a></td><td><span class="type-label">Table</span></td><td>264</td></tr>
+<tr><td><a href="table_nlrb1949_p0265_t0.html">p.265 table</a></td><td><span class="type-label">Table</span></td><td>265</td></tr>
+<tr><td><a href="table_nlrb1949_p0266_t0.html">p.266 table</a></td><td><span class="type-label">Table</span></td><td>266</td></tr>
+<tr><td><a href="table_nlrb1949_p0267_t0.html">p.267 table</a></td><td><span class="type-label">Table</span></td><td>267</td></tr>
+<tr><td><a href="table_nlrb1949_p0268_t0.html">p.268 table</a></td><td><span class="type-label">Table</span></td><td>268</td></tr>
+<tr><td><a href="table_nlrb1949_p0269_t0.html">p.269 table</a></td><td><span class="type-label">Table</span></td><td>269</td></tr>
+<tr><td><a href="table_nlrb1949_p0270_t0.html">p.270 table</a></td><td><span class="type-label">Table</span></td><td>270</td></tr>
+<tr><td><a href="table_nlrb1949_p0271_t0.html">p.271 table</a></td><td><span class="type-label">Table</span></td><td>271</td></tr>
+<tr><td><a href="table_nlrb1949_p0272_t0.html">p.272 table</a></td><td><span class="type-label">Table</span></td><td>272</td></tr>
+</tbody>
+</table>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+<script>
+(function () {
+  function cellText(row, i) { var c = row.children[i]; return c ? c.textContent : ""; }
+  function isNumeric(v) {
+    if (v === "" || v == null) return false;
+    return /^-?[0-9][0-9,]*(\.[0-9]+)?$/.test(v.trim());
+  }
+  function toNumber(v) { return parseFloat(v.replace(/,/g, "")); }
+  function columnIsNumeric(rows, i) {
+    var seen = 0;
+    for (var r = 0; r < rows.length && seen < 50; r++) {
+      var t = cellText(rows[r], i).trim();
+      if (t === "") continue;
+      seen++;
+      if (!isNumeric(t)) return false;
+    }
+    return seen > 0;
+  }
+  function sortBy(table, i, th) {
+    var tbody = table.tBodies[0];
+    var rows = Array.prototype.slice.call(tbody.rows);
+    var asc = th.getAttribute("data-dir") !== "asc";
+    var numeric = columnIsNumeric(rows, i);
+    rows.sort(function (a, b) {
+      var av = cellText(a, i).trim(), bv = cellText(b, i).trim();
+      var cmp;
+      if (numeric) {
+        var an = av === "" ? Infinity : toNumber(av);
+        var bn = bv === "" ? Infinity : toNumber(bv);
+        cmp = an - bn;
+      } else {
+        cmp = av.localeCompare(bv, undefined, {numeric: true, sensitivity: "base"});
+      }
+      return asc ? cmp : -cmp;
+    });
+    for (var r = 0; r < rows.length; r++) tbody.appendChild(rows[r]);
+    th.setAttribute("data-dir", asc ? "asc" : "desc");
+    var ths = th.parentNode.children;
+    for (var k = 0; k < ths.length; k++) {
+      var a = ths[k].querySelector(".arrow");
+      if (a) a.textContent = ths[k] === th ? (asc ? "\u25B2" : "\u25BC") : "\u2195";
+    }
+  }
+  document.addEventListener("click", function (e) {
+    var th = e.target.closest ? e.target.closest("th") : null;
+    if (!th || th.tagName !== "TH") return;
+    var table = th.closest("table");
+    if (!table || !table.tBodies.length) return;
+    var ths = th.parentNode.children;
+    var i = Array.prototype.indexOf.call(ths, th);
+    sortBy(table, i, th);
+  });
+})();
+</script>
+</body>
+</html>

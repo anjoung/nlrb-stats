@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Industrial Distribution of Cases Received — Manufacturing Detail (SIC 2-digit) + Mining (Part 1) — NLRB FY1973</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1973.html">FY1973</a> &rsaquo; Industrial Distribution of Cases Received — Manufacturing Detail (SIC 2-digit) + Mining (Part 1)</p>
+<h1>Industrial Distribution of Cases Received — Manufacturing Detail (SIC 2-digit) + Mining (Part 1)</h1>
+<p class="meta">source page 224 &middot; <code>nlrb1973_p0224_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Industrial group</th><th>All cases</th><th>Unfair labor practice cases — All C</th><th>Unfair labor practice cases — CA</th><th>Unfair labor practice cases — CB</th><th>Unfair labor practice cases — CC</th><th>Unfair labor practice cases — CD</th><th>Unfair labor practice cases — CE</th><th>Unfair labor practice cases — CP</th><th>Representation cases — All R</th><th>Representation cases — RC</th><th>Representation cases — RM</th><th>Representation cases — RD</th><th>Union-shop Deauthorization cases — UD</th><th>Amendment-of-Certification cases — AC</th><th>Unit-Clarification cases — UC</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Food and kindred products</th><td>2,009</td><td>1,227</td><td>848</td><td>333</td><td>28</td><td>8</td><td>0</td><td>10</td><td>764</td><td>656</td><td>48</td><td>65</td><td>6</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Tobacco manufactures</th><td>23</td><td>17</td><td>13</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>4</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Textile mill products</th><td>519</td><td>374</td><td>300</td><td>60</td><td>4</td><td>0</td><td>0</td><td>10</td><td>144</td><td>116</td><td>19</td><td>5</td><td>2</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Apparel and other finished products made from fabric and similar materials</th><td>567</td><td>405</td><td>290</td><td>101</td><td>5</td><td>2</td><td>0</td><td>6</td><td>159</td><td>130</td><td>10</td><td>13</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Lumber and wood products (except furniture)</th><td>737</td><td>395</td><td>311</td><td>63</td><td>13</td><td>2</td><td>0</td><td>2</td><td>335</td><td>300</td><td>16</td><td>19</td><td>5</td><td>0</td><td>2</td></tr>
+<tr><th class="stub" scope="row">Furniture and fixtures</th><td>549</td><td>340</td><td>253</td><td>75</td><td>7</td><td>2</td><td>0</td><td>0</td><td>202</td><td>180</td><td>12</td><td>10</td><td>4</td><td>0</td><td>3</td></tr>
+<tr><th class="stub" scope="row">Paper and allied products</th><td>600</td><td>309</td><td>248</td><td>55</td><td>3</td><td>3</td><td>0</td><td>0</td><td>237</td><td>210</td><td>10</td><td>14</td><td>1</td><td>0</td><td>3</td></tr>
+<tr><th class="stub" scope="row">Printing, publishing, and allied industries</th><td>1,000</td><td>783</td><td>455</td><td>243</td><td>62</td><td>13</td><td>1</td><td>8</td><td>499</td><td>383</td><td>70</td><td>44</td><td>9</td><td>0</td><td>4</td></tr>
+<tr><th class="stub" scope="row">Chemicals and allied products</th><td>782</td><td>436</td><td>327</td><td>96</td><td>20</td><td>7</td><td>0</td><td>0</td><td>324</td><td>271</td><td>23</td><td>30</td><td>7</td><td>0</td><td>8</td></tr>
+<tr><th class="stub" scope="row">Petroleum refining and related industries</th><td>281</td><td>166</td><td>127</td><td>33</td><td>5</td><td>0</td><td>0</td><td>1</td><td>78</td><td>73</td><td>2</td><td>3</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Rubber and miscellaneous plastics products</th><td>529</td><td>251</td><td>183</td><td>53</td><td>14</td><td>0</td><td>0</td><td>0</td><td>260</td><td>234</td><td>15</td><td>9</td><td>6</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Leather and leather products</th><td>173</td><td>118</td><td>84</td><td>31</td><td>3</td><td>0</td><td>0</td><td>0</td><td>47</td><td>42</td><td>3</td><td>2</td><td>2</td><td>0</td><td>6</td></tr>
+<tr><th class="stub" scope="row">Stone, clay, glass, and concrete products</th><td>1,049</td><td>709</td><td>347</td><td>133</td><td>33</td><td>14</td><td>0</td><td>11</td><td>317</td><td>271</td><td>20</td><td>26</td><td>12</td><td>0</td><td>8</td></tr>
+<tr><th class="stub" scope="row">Primary metal industries</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Fabricated metal products (except machinery and transportation equipment)</th><td>1,855</td><td>1,246</td><td>883</td><td>309</td><td>20</td><td>11</td><td>4</td><td>19</td><td>591</td><td>515</td><td>31</td><td>45</td><td>6</td><td>4</td><td>8</td></tr>
+<tr><th class="stub" scope="row">Machinery (except electrical)</th><td>1,673</td><td>1,035</td><td>754</td><td>202</td><td>88</td><td>9</td><td>5</td><td>4</td><td>647</td><td>577</td><td>20</td><td>50</td><td>4</td><td>0</td><td>3</td></tr>
+<tr><th class="stub" scope="row">Electrical and electronic machinery, equipment, and supplies</th><td>1,161</td><td>783</td><td>566</td><td>165</td><td>29</td><td>6</td><td>0</td><td>1</td><td>363</td><td>327</td><td>9</td><td>17</td><td>8</td><td>1</td><td>6</td></tr>
+<tr><th class="stub" scope="row">Aircraft and parts</th><td>313</td><td>255</td><td>140</td><td>99</td><td>1</td><td>0</td><td>0</td><td>0</td><td>55</td><td>50</td><td>0</td><td>1</td><td>4</td><td>0</td><td>1</td></tr>
+<tr><th class="stub" scope="row">Ship and boat building and repairing</th><td>129</td><td>101</td><td>70</td><td>31</td><td>0</td><td>0</td><td>0</td><td>0</td><td>26</td><td>23</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td></tr>
+<tr><th class="stub" scope="row">Automotive and other transportation equipment</th><td>1,349</td><td>945</td><td>652</td><td>270</td><td>17</td><td>1</td><td>1</td><td>0</td><td>397</td><td>362</td><td>13</td><td>23</td><td>0</td><td>0</td><td>7</td></tr>
+<tr><th class="stub" scope="row">Professional, scientific, and controlling instruments</th><td>306</td><td>187</td><td>129</td><td>52</td><td>3</td><td>0</td><td>0</td><td>0</td><td>115</td><td>98</td><td>5</td><td>11</td><td>0</td><td>0</td><td>4</td></tr>
+<tr><th class="stub" scope="row">Miscellaneous manufacturing industries</th><td>996</td><td>638</td><td>444</td><td>176</td><td>13</td><td>4</td><td>0</td><td>1</td><td>350</td><td>294</td><td>21</td><td>29</td><td>6</td><td>0</td><td>2</td></tr>
+<tr><th class="stub" scope="row">Manufacturing — Total</th><td>18,020</td><td>11,413</td><td>8,093</td><td>2,852</td><td>268</td><td>87</td><td>21</td><td>92</td><td>6,361</td><td>5,509</td><td>331</td><td>521</td><td>91</td><td>49</td><td>116</td></tr>
+<tr><th class="stub" scope="row">Metal mining</th><td>95</td><td>59</td><td>48</td><td>10</td><td>0</td><td>0</td><td>0</td><td>0</td><td>32</td><td>26</td><td>0</td><td>6</td><td>1</td><td>0</td><td>3</td></tr>
+<tr><th class="stub" scope="row">Coal mining</th><td>139</td><td>117</td><td>75</td><td>36</td><td>6</td><td>0</td><td>0</td><td>0</td><td>22</td><td>19</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Oil and gas extraction</th><td>56</td><td>36</td><td>24</td><td>8</td><td>4</td><td>0</td><td>0</td><td>0</td><td>16</td><td>16</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Mining and quarrying of nonmetallic minerals (except fuels)</th><td>117</td><td>67</td><td>43</td><td>16</td><td>5</td><td>3</td><td>0</td><td>0</td><td>44</td><td>37</td><td>1</td><td>5</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Mining — Total</th><td>407</td><td>289</td><td>190</td><td>79</td><td>26</td><td>0</td><td>0</td><td>0</td><td>116</td><td>97</td><td>1</td><td>14</td><td>2</td><td>0</td><td>3</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1973_p0224_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1973_p0224.webp" loading="lazy" alt="Source page 224 of NLRB FY1973 annual report">
+<figcaption>Source: NLRB Annual Report FY1973, p. 224.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

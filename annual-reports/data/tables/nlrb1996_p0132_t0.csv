@@ -1,0 +1,22 @@
+row_label,All C cases / Number,All C cases / Percent of total closed,CA cases / Number,CA cases / Percent of total closed,CB cases / Number,CB cases / Percent of total closed,CC cases / Number,CC cases / Percent of total closed,CD cases / Number,CD cases / Percent of total closed,CE cases / Number,CE cases / Percent of total closed,CG cases / Number,CG cases / Percent of total closed,CP cases / Number,CP cases / Percent of total closed
+Administrative law judge's decision,29,0.1,26,0.1,3,0.1,0,0,0,0,0,0,0,0,0,0
+Board decision,428,1.5,424,1.7,18,0.1,0,0,1,0.2,0,0,0,0,2,1.9
+Adopting administrative law judge's decision (no exceptions filed),210,0.7,197,0.8,10,0.1,0,0,0,0,0,0,0,0,0,0
+Contested,218,0.7,215,0.9,8,0.1,0,0,1,0.2,0,0,0,0,2,1.9
+Circuit court of appeals decree,234,0.8,203,0.8,23,0.2,7,1.4,1,0.5,0,0,0,0,0,0
+Supreme Court action,0,0.0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Withdrawal,9077,30.8,7216,31.8,1652,27.8,163,33.8,1,0.5,13,37.1,7,28.0,25,24.0
+Before issuance of complaint,8827,29.9,7002,30.8,1624,27.3,156,32.3,(2),(2),13,37.1,7,28.0,25,24.0
+"After complaint, before opening of hearing",240,0.8,206,0.9,26,0.5,7,1.5,1,0.5,0,0,0,0,0,0
+"After hearing opened, before administrative law judge's decision",9,0.0,7,0.0,2,0.0,0,0,0,0,0,0,0,0,0,0
+"After administrative law judge's decision, before Board decision",1,0.0,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+After Board decision,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+After court decision,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dismissal,9081,30.8,5676,24.9,3256,55.1,97,19.9,0,0,10,28.5,9,36.0,33,31.7
+Before issuance of complaint,8930,30.2,5564,24.5,3225,54.6,89,18.4,0,0,10,28.5,9,36.0,33,31.7
+"After complaint, before opening of hearing",85,0.3,59,0.2,23,0.4,3,0.6,0,0,0,0,0,0,0,0
+"After hearing opened, before administrative law judge's decision",8,0.0,7,0.0,1,0.0,0,0,0,0,0,0,0,0,0,0
+By administrative law judge's decision,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+By Board decision,58,0.1,46,0.1,11,0.5,5,1.0,0,0,0,0,0,0,0,0
+Adopting administrative law judge's decision (no exceptions filed),45,0.3,36,0.2,9,0.4,4,0.6,0,0,0,0,0,0,0,0
+Contested,13,0.0,10,0.0,2,0.1,1,0.2,0,0,0,0,0,0,0,0

@@ -1,0 +1,8 @@
+row_label,Participating unions,Total elections won,Percent won,Elections won by unions — Total won,Elections won by unions — AFL-CIO,Elections won by unions — Teamsters,Elections won by unions — Other national unions,Elections won by unions — Other local unions,Elections in which no representative chosen,Employees eligible to vote — Total,Employees eligible to vote — In elections won by unions — AFL-CIO,Employees eligible to vote — In elections won by unions — Teamsters,Employees eligible to vote — In elections won by unions — Other national unions,Employees eligible to vote — In elections won by unions — Other local unions,Employees eligible to vote — In elections where no representative chosen
+1-union elections — AFL-CIO,2471,46.6,1151,1151,,,,1320,161943,58363,58363,,,,103580
+1-union elections — Teamsters,1204,39.8,479,,479,,,725,44032,,16119,16119,,,27913
+1-union elections — Other national unions,111,51.4,57,,,57,,99,,,,,2279,,4683
+1-union elections — Other local unions,202,49.0,99,,,,99,103,12810,,,,5949,,
+1-union elections — Total,3988,44.8,1786,1151,479,57,99,2202,,,,,,,143037
+2-union elections — Total,160,81.3,130,44,30,11,55,30,15050,11438,3287,849,1342,5960,3612
+Total representation elections,4153,46.3,1921,1199,509,68,155,2232,245692,97043,64450,16968,3621,12004,146640

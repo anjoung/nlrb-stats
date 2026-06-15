@@ -1,0 +1,20 @@
+row_label,All C cases / Number,All C cases / Percent of total closed,CA cases / Number,CA cases / Percent of total closed,CB cases / Number,CB cases / Percent of total closed,CC cases / Number,CC cases / Percent of total methods of closed,CD cases / Number,CD cases / Percent of total closed,CE cases / Number,CE cases / Percent of total closed,CG cases / Number,CG cases / Percent of total closed,CP cases / Number,CP cases / Percent of total closed
+Supreme Court action,5,0.1,5,0.1,0,0,0,0,0,0,0,0,0,0,0,0
+Withdrawal,10253,29.0,7161,30.1,2601,30.8,334,30.6,1,0.3,16,31.3,14,36.8,126,40.7
+Before issuance of complaint,9843,29.0,6873,28.9,2530,29.9,308,29.5,1,0.3,16,31.3,12,31.5,103,33.2
+"After issuance of complaint, before opening of hearing",358,1.1,247,1.0,62,0.7,25,2.2,1,0.3,0,0,1,2.6,22,7.1
+"After hearing opened, before administrative law judge's decision",47,0.1,36,0.1,9,0.1,1,0.1,0,0,0,0,1,2.6,0,0
+"After administrative law judge's decision, before Board decision",4,0.0,4,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+After Board or court decision,1,0.0,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Dismissal,12707,37.0,10000,42.1,8206,34.5,4203,49.7,201,18.4,0,0,3,21,8,21.0
+Before issuance of complaint,11936,35.2,9519,,7623,32.1,4096,47.4,180,16.5,0,0,14,27.4,3,7.9
+"After issuance of complaint, before opening of hearing",101,0.3,84,0.4,17,0.2,0,0,0,0,0,0,0,0,0,0
+"After hearing opened, before administrative law judge's decision",7,0.0,6,0.0,1,0.0,0,0,0,0,0,0,0,0,0,0
+By administrative law judge's decision,6,0.0,6,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+By Board decision,627,1.8,474,2.0,133,1.6,13,1.2,0,0,0,0,0,0,4,1.2
+Adopting administrative law judge's decision (no exceptions filed),94,0.3,72,0.3,21,0.2,0,0,0,0,0,0,0,0,1,0.3
+Contested,533,1.6,402,1.7,114,1.4,13,1.2,0,0,0,0,0,0,3,0.9
+By circuit court of appeals decree,19,0.1,19,0.1,0,0,0,0,0,0,0,0,0,0,0,0
+By Supreme Court decision,11,0.0,11,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+10(k) actions (see Table 7A for details of dispositions),271,0.8,0,0,0,0,0,0,0,0,271,94.0,0,0,0,0
+Otherwise (compliance with order of administrative law judge or Board not achieved—firm went out of business),,,,,,,,,,,,,,,,

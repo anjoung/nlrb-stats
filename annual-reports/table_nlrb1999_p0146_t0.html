@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.146 table — NLRB FY1999</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1999.html">FY1999</a> &rsaquo; p.146 table</p>
+<h1>p.146 table</h1>
+<p class="meta">source page 146 &middot; <code>nlrb1999_p0146_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Delaware………………………………..</th><td>15</td><td>4</td><td>4</td><td>0</td><td>0</td><td>11</td><td>703</td><td>606</td><td>238</td><td>238</td><td>0</td><td>0</td><td>368</td><td>181</td></tr>
+<tr><th class="stub" scope="row">Maryland………………………………..</th><td>61</td><td>31</td><td>28</td><td>0</td><td>3</td><td>30</td><td>3,072</td><td>2,578</td><td>1,273</td><td>1,213</td><td>0</td><td>60</td><td>1,305</td><td>1,398</td></tr>
+<tr><th class="stub" scope="row">District ofColumbia……………………</th><td>12</td><td>9</td><td>5</td><td>0</td><td>4</td><td>3</td><td>1,495</td><td>973</td><td>559</td><td>329</td><td>0</td><td>230</td><td>414</td><td>991</td></tr>
+<tr><th class="stub" scope="row">Virginia…………………………………</th><td>55</td><td>28</td><td>22</td><td>1</td><td>5</td><td>27</td><td>3,357</td><td>3,005</td><td>1,321</td><td>1,029</td><td>145</td><td>147</td><td>1,684</td><td>1,082</td></tr>
+<tr><th class="stub" scope="row">West Virginia…………………………..</th><td>44</td><td>19</td><td>16</td><td>2</td><td>1</td><td>25</td><td>3,478</td><td>3,199</td><td>1,647</td><td>1,448</td><td>183</td><td>16</td><td>1,552</td><td>2,131</td></tr>
+<tr><th class="stub" scope="row">North Carolina………………………….</th><td>29</td><td>12</td><td>12</td><td>0</td><td>0</td><td>17</td><td>6,762</td><td>5,723</td><td>3,736</td><td>3,704</td><td>11</td><td>21</td><td>1,987</td><td>3,691</td></tr>
+<tr><th class="stub" scope="row">South Carolina………………………….</th><td>11</td><td>3</td><td>3</td><td>0</td><td>0</td><td>8</td><td>1,903</td><td>1,774</td><td>701</td><td>497</td><td>0</td><td>204</td><td>1,073</td><td>240</td></tr>
+<tr><th class="stub" scope="row">Georgia………………………………….</th><td>52</td><td>24</td><td>22</td><td>0</td><td>2</td><td>28</td><td>4,672</td><td>3,888</td><td>1,722</td><td>1,685</td><td>0</td><td>37</td><td>2,166</td><td>1,791</td></tr>
+<tr><th class="stub" scope="row">Florida…………………………………..</th><td>84</td><td>48</td><td>45</td><td>0</td><td>3</td><td>36</td><td>8,835</td><td>8,510</td><td>3,889</td><td>3,280</td><td>0</td><td>609</td><td>4,621</td><td>3,129</td></tr>
+<tr><th class="stub" scope="row">South Atlantic……………………</th><td>363</td><td>178</td><td>157</td><td>3</td><td>18</td><td>185</td><td>34,277</td><td>30,256</td><td>15,086</td><td>13,423</td><td>339</td><td>1,324</td><td>15,170</td><td>14,634</td></tr>
+<tr><th class="stub" scope="row">Kentucky………………………………..</th><td>51</td><td>28</td><td>23</td><td>4</td><td>1</td><td>23</td><td>3,884</td><td>3,602</td><td>1,841</td><td>1,660</td><td>178</td><td>3</td><td>1,761</td><td>1,678</td></tr>
+<tr><th class="stub" scope="row">Tennessee……………………………….</th><td>37</td><td>15</td><td>12</td><td>1</td><td>2</td><td>22</td><td>4,967</td><td>4,648</td><td>1,828</td><td>1,811</td><td>6</td><td>11</td><td>2,820</td><td>1,438</td></tr>
+<tr><th class="stub" scope="row">Alabama………………………………...</th><td>35</td><td>13</td><td>13</td><td>0</td><td>0</td><td>22</td><td>3,203</td><td>2,946</td><td>1,205</td><td>1,173</td><td>25</td><td>7</td><td>1,741</td><td>980</td></tr>
+<tr><th class="stub" scope="row">Mississippi……………………………...</th><td>20</td><td>7</td><td>6</td><td>1</td><td>0</td><td>13</td><td>3,445</td><td>3,130</td><td>1,394</td><td>1,381</td><td>13</td><td>0</td><td>1,736</td><td>592</td></tr>
+<tr><th class="stub" scope="row">East South Central………………..</th><td>143</td><td>63</td><td>54</td><td>6</td><td>3</td><td>80</td><td>15,499</td><td>14,326</td><td>6,268</td><td>6,025</td><td>222</td><td>21</td><td>8,058</td><td>4,688</td></tr>
+<tr><th class="stub" scope="row">Arkansas………………………………..</th><td>18</td><td>7</td><td>6</td><td>0</td><td>1</td><td>11</td><td>2,573</td><td>2,312</td><td>1,038</td><td>887</td><td>0</td><td>151</td><td>1,274</td><td>923</td></tr>
+<tr><th class="stub" scope="row">Louisiana………………………………..</th><td>23</td><td>12</td><td>11</td><td>0</td><td>1</td><td>11</td><td>1,754</td><td>1,333</td><td>774</td><td>674</td><td>0</td><td>100</td><td>559</td><td>1,145</td></tr>
+<tr><th class="stub" scope="row">Oklahoma……………………………….</th><td>23</td><td>8</td><td>8</td><td>0</td><td>0</td><td>15</td><td>882</td><td>825</td><td>346</td><td>346</td><td>0</td><td>0</td><td>479</td><td>239</td></tr>
+<tr><th class="stub" scope="row">Texas…………………………………….</th><td>68</td><td>33</td><td>32</td><td>0</td><td>1</td><td>35</td><td>5,598</td><td>4,568</td><td>2,267</td><td>2,162</td><td>80</td><td>25</td><td>2,301</td><td>2,591</td></tr>
+<tr><th class="stub" scope="row">West South Central………………</th><td>132</td><td>60</td><td>57</td><td>0</td><td>3</td><td>72</td><td>10,807</td><td>9,038</td><td>4,425</td><td>4,069</td><td>80</td><td>276</td><td>4,613</td><td>4,898</td></tr>
+<tr><th class="stub" scope="row">Montana………………………………..</th><td>18</td><td>9</td><td>9</td><td>0</td><td>0</td><td>9</td><td>415</td><td>358</td><td>184</td><td>180</td><td>4</td><td>0</td><td>174</td><td>203</td></tr>
+<tr><th class="stub" scope="row">Idaho……………………………………</th><td>6</td><td>3</td><td>2</td><td>0</td><td>1</td><td>3</td><td>375</td><td>334</td><td>216</td><td>210</td><td>0</td><td>6</td><td>118</td><td>338</td></tr>
+<tr><th class="stub" scope="row">Wyoming……………………………….</th><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>17</td><td>17</td><td>8</td><td>8</td><td>0</td><td>0</td><td>9</td><td>13</td></tr>
+<tr><th class="stub" scope="row">Colorado………………………………..</th><td>20</td><td>10</td><td>10</td><td>0</td><td>0</td><td>10</td><td>875</td><td>774</td><td>404</td><td>404</td><td>0</td><td>0</td><td>370</td><td>383</td></tr>
+<tr><th class="stub" scope="row">NewMexico…………………………….</th><td>20</td><td>12</td><td>11</td><td>0</td><td>1</td><td>8</td><td>1,128</td><td>1,007</td><td>504</td><td>489</td><td>0</td><td>15</td><td>503</td><td>401</td></tr>
+<tr><th class="stub" scope="row">Arizona………………………………….</th><td>25</td><td>10</td><td>10</td><td>0</td><td>0</td><td>15</td><td>1,765</td><td>1,498</td><td>739</td><td>739</td><td>0</td><td>0</td><td>759</td><td>1,260</td></tr>
+<tr><th class="stub" scope="row">Utah…………………………………….. Nevada………………………………….</th><td>10 51</td><td>4</td><td>3</td><td>1</td><td>0</td><td>6</td><td>461</td><td>443</td><td>217</td><td>191</td><td>26</td><td>0</td><td>226 1,816</td><td>137 2,039</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>28</td><td>28</td><td>0</td><td>0</td><td>23</td><td>4,408</td><td>3,792</td><td>1,976</td><td>1,976</td><td>0</td><td>0</td><td class="blank"></td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1999_p0146_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1999_p0146.webp" loading="lazy" alt="Source page 146 of NLRB FY1999 annual report">
+<figcaption>Source: NLRB Annual Report FY1999, p. 146.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

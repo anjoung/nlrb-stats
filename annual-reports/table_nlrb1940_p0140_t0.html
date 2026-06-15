@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.140 table — NLRB FY1940</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1940.html">FY1940</a> &rsaquo; p.140 table</p>
+<h1>p.140 table</h1>
+<p class="meta">source page 140 &middot; <code>nlrb1940_p0140_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Bisbee Linseed Co</th><td>Oct. 13,1938</td><td>Oct. 18,1938</td><td>Dec. 29,1939</td></tr>
+<tr><th class="stub" scope="row">Blanton Co</th><td>June 16, 1938</td><td>June 21,1938</td><td>Oct. 31,1939</td></tr>
+<tr><th class="stub" scope="row">S. Blechman &amp;Sons, Inc</th><td>Sept. 19,1938</td><td>Sept. 21,1938</td><td>Feb. 18,1940</td></tr>
+<tr><th class="stub" scope="row"></th><td>Sept. 30,1937</td><td>Nov. 3, 1937</td><td>Feb. 21, 1940</td></tr>
+<tr><th class="stub" scope="row">Block-Friedman Co</th><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Bloomfield Manufacturing Co., The</th><td>June 19, 1939</td><td>June 22, 1939</td><td>Mar. 29, 1940</td></tr>
+<tr><th class="stub" scope="row">Blossom Products Co</th><td>Oct. 6, 1938</td><td>Oct. 11, 1938</td><td>Feb. 10, 1940</td></tr>
+<tr><th class="stub" scope="row">Boldemann Chocolate Co&#x27;</th><td>June 20, 1938</td><td>June 22,1938</td><td>July 31, 1939</td></tr>
+<tr><th class="stub" scope="row">Booth Fisheries Co</th><td>Mar. 23, 1939</td><td>Mar. 24, 1939</td><td>Apr. 25, 1940</td></tr>
+<tr><th class="stub" scope="row">Borden Mills, Inc</th><td>Dec. 13, 1937</td><td>Jan. 14, 1938</td><td>July 1, 1939</td></tr>
+<tr><th class="stub" scope="row">Bowman Elder Receiver, Indiana R. R</th><td>May 3,1937</td><td>May 18. 1937</td><td>(,)</td></tr>
+<tr><th class="stub" scope="row">Bradley Lumber Co</th><td>Mar. 18,1938</td><td>Mar. 23,1936</td><td>(9</td></tr>
+<tr><th class="stub" scope="row">Brewer-Tichener Corporation</th><td>Aug. 15,1938</td><td>Aug. 19,1938</td><td>Jan. 8,1940</td></tr>
+<tr><th class="stub" scope="row">Brown Shoe Co</th><td>July 5, 1938</td><td>July 20, 1938</td><td>Apr. 18, 1940</td></tr>
+<tr><th class="stub" scope="row">Burk Bros</th><td>Jan. 5,1939</td><td>Jan. 8,1939</td><td>Mar. 27,1940</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td>27;1940</td></tr>
+<tr><th class="stub" scope="row">Burnham, Frederic H</th><td>Mar. 16,1939 Apr. 21,1938</td><td>Mar. 29,1939 Apr. 23,1938</td><td>Jan. Jan. 23,1940</td></tr>
+<tr><th class="stub" scope="row">Burson Knitting Co</th><td class="blank"></td><td>May 13,1938</td><td>Aug. 9,1939</td></tr>
+<tr><th class="stub" scope="row">Bussmann Manufacturing Co</th><td>May 8,1938</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Cactus Mines Co California Conserving Co., Inc</th><td>Nov. 17,1938 11,1938</td><td>Nov. 29,1938 Sept. 8,1938</td><td>Mar. 16,1940 Mar 29,1940</td></tr>
+<tr><th class="stub" scope="row">California Cotton Oil Corporation</th><td>Apr. Sept. 26,1938</td><td>Oct. 5,1938</td><td>Feb. 18,1940</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">California &amp;Hawaiian Sugar Refining Corporation California Packing Corporation</th><td>May 2,1938 Apr. 11,1938</td><td>May 9, 1938 Sept. 8,1938</td><td>(8) Mar. 29,1910</td></tr>
+<tr><th class="stub" scope="row"></th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do California Walnut Growers Association Calmar Steamship Corporation</th><td>Mar. 3,1938 Dec. 8, 1937</td><td>May 19,1938 Feb. 15, 1938</td><td>Dee. 20,1939 Dec. 1, 1939</td></tr>
+<tr><th class="stub" scope="row">Do Do</th><td>do do</td><td>do do</td><td>Do. Do.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do do</td><td>do do_</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td class="blank"></td><td>do</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>Jan. 10,1938</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Calmar Steamship Corporation (S. S. Loarnar)</th><td>do</td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Calmar Steamship Corporation (S. S. F/omar)</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Calmar Steamship Corporation (S. S. Oakmar)</th><td>do</td><td>do</td><td>Do. Do.</td></tr>
+<tr><th class="stub" scope="row">Calmar Steamship Corporation</th><td>Dec. 14,1937 May 12,1938</td><td>Jan. 28,1938 May 13,1938</td><td>Apr. 23,1940</td></tr>
+<tr><th class="stub" scope="row">Calumet Steel Co Capitol Bedding Co</th><td>Apr. 1,1938</td><td>Apr. 4,1938</td><td>Aug. 15,1939</td></tr>
+<tr><th class="stub" scope="row">Capitol Theatre Bus Terminal</th><td>Aug. 25,1938</td><td>Aug. 29,1938</td><td>Oct. 18,1939 July 24,</td></tr>
+<tr><th class="stub" scope="row">Carbola Chemical Co., Inc</th><td>July 7, 1938</td><td>July 7, Aug.</td><td>1939 Apr. 20,1940</td></tr>
+<tr><th class="stub" scope="row">Carnation Lumber Co</th><td>Aug. 15,1938</td><td>1938 Jan.</td><td>Oct. 18,1939</td></tr>
+<tr><th class="stub" scope="row">Celluloid Corporation of America, The</th><td>Jan. 23,1939</td><td>M,1938 23,1939 Jan. 27, 1939</td><td>Mar. 18, 1940</td></tr>
+<tr><th class="stub" scope="row">Central Greyhound Lines</th><td>do</td><td class="blank"></td><td>Oct.</td></tr>
+<tr><th class="stub" scope="row">Central Missouri Telephone Co</th><td>Mar. 27,1939</td><td>Mar. 29,1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Chambers Corporation</th><td>Jan. 18,1939</td><td>Feb. 2,1939</td><td>2,1939 Mar. Sept. 5, 1939</td></tr>
+<tr><th class="stub" scope="row">Charles Cushman Co</th><td>Feb. 21, 1938</td><td>Feb. 21, 1938 Aug. 12,1938</td><td>20,1940 Mar. 7,1940</td></tr>
+<tr><th class="stub" scope="row">Chicago Casket Co</th><td>Aug. 4,1938</td><td>Mar. 15,1938</td><td>July 12,1939</td></tr>
+<tr><th class="stub" scope="row">Christian Board of Publication</th><td>Mar.</td><td class="blank"></td><td>Nov.</td></tr>
+<tr><th class="stub" scope="row">Clark Shoe Co</th><td>10,1938 Apr. 12.1938 May</td><td>Apr. 14,1938 May 25,1938</td><td>July</td></tr>
+<tr><th class="stub" scope="row">Clovis News-Journal (R. C. Holies et al.)</th><td>24,1938 do</td><td>do</td><td>30,1939 25,1939 Do.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>Mar. 28,1940</td><td>Mar. 30,1940</td><td>(2)</td></tr>
+<tr><th class="stub" scope="row">Cluett Peabody dr Co., Inc</th><td>Aug. 8,1938</td><td>Aug. 10,1938</td><td>Aug.</td></tr>
+<tr><th class="stub" scope="row">Coldwell Lawn Mower Co Collins Baking Co</th><td>Mar. 30,1939</td><td>Mar. 31,1939</td><td>1,1939 Jan.</td></tr>
+<tr><th class="stub" scope="row">Colorado Fuel &amp;Iron Corporation</th><td>July 5, 1938</td><td>July 20, 1938</td><td>11,1940 Mar. 29,</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do Oct. 17, 1938</td><td>do Oct. 17,1938</td><td>1940 Do.</td></tr>
+<tr><th class="stub" scope="row">Combustion Engineering Co</th><td>Feb. 15,1937</td><td>Oct. 15 1937</td><td>Feb. 20,1940 Mar. 29,1940</td></tr>
+<tr><th class="stub" scope="row">Condenser Corporation of America</th><td>June 23,1938</td><td>June 24,1938</td><td>Nov. 2,1939</td></tr>
+<tr><th class="stub" scope="row">Consolidated Cigar Corporation</th><td class="blank"></td><td class="blank"></td><td>(14)</td></tr>
+<tr><th class="stub" scope="row">Consolidated Cigar Co</th><td>Dec. 19,1938 do</td><td>Jan. 18,1939 do</td><td>Do. 14</td></tr>
+<tr><th class="stub" scope="row">Do Continental Box Co</th><td>Nov 28, 1938</td><td>Dec. 5, 1938</td><td>Jan. 25, 1940</td></tr>
+<tr><th class="stub" scope="row">Continental 011 Co</th><td>June 13,1938</td><td>June 21,1938</td><td>Mar. Jan.</td></tr>
+<tr><th class="stub" scope="row">Continental Roll &amp;Steel Foundry, Hubbard Division</th><td>Jan. 26,1939</td><td>Feb. 20,1939</td><td>29,1940 20,1940 (5)</td></tr>
+<tr><th class="stub" scope="row">Continental Upholstered Furniture Co. (Israel G. Cutler</th><td>Feb. 9,1939</td><td>Feb. 20,1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">et al.) and Medford Upholstery, Inc. Cooper-Wells &amp;Co</th><td>May 12,1938</td><td>May 28,1938</td><td>Oct. 17,1939 Do.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>Oct. 25,1939</td></tr>
+<tr><th class="stub" scope="row">Corinth Hosiery Mills</th><td>Mar. 28,1938</td><td>Apr. 2,1938 Jan. 7, 1939</td><td>Apr. 9,</td></tr>
+<tr><th class="stub" scope="row"></th><td>Dec. 5, 1938</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Corn Products Refining Co</th><td class="blank"></td><td>Feb. 17,1938</td><td>1940 Sept. 23,1939</td></tr>
+<tr><th class="stub" scope="row">Corning Glass Works</th><td>Feb. 2,1938 3,1938</td><td class="blank"></td><td>Nov. 4,1939</td></tr>
+<tr><th class="stub" scope="row">Cudahy Packing Co., Inc</th><td>Feb.</td><td>Feb. 17,1938</td><td>Sept. 26,</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>July 7, 1938</td><td>July 15, 1938</td><td>1939 Aug. 7, 1939</td></tr>
+<tr><th class="stub" scope="row"></th><td>June 20, 1938</td><td>June 23,</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Cullom dz Ghertner Co</th><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>1,938</td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1940_p0140_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1940_p0140.webp" loading="lazy" alt="Source page 140 of NLRB FY1940 annual report">
+<figcaption>Source: NLRB Annual Report FY1940, p. 140.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

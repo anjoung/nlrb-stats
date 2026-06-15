@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Industrial Distribution of Collective-Bargaining Elections — NLRB FY1954</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1954.html">FY1954</a> &rsaquo; Industrial Distribution of Collective-Bargaining Elections</p>
+<h1>Industrial Distribution of Collective-Bargaining Elections</h1>
+<p class="meta">source page 184 &middot; <code>nlrb1954_p0184_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Industrial group</th><th>Number of elections</th><th>Number of elections</th><th>Number of elections</th><th>Number of elections</th><th>Number of elections</th><th>Eligible voters</th><th>Valid votes cast</th></tr>
+<tr><th>Industrial group</th><th>Total</th><th>In which representation rights were won by — A.F.L. affiliates</th><th>C.I.O. affiliates</th><th>Unaffiliated unions</th><th>In which no representative was chosen</th><th>Eligible voters</th><th>Valid votes cast</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Total</th><td>4,663</td><td>1,925</td><td>780</td><td>355</td><td>1,603</td><td>511,430</td><td>449,673</td></tr>
+<tr><th class="stub" scope="row">Manufacturing</th><td>3,100</td><td>1,154</td><td>640</td><td>264</td><td>1,042</td><td>404,779</td><td>360,851</td></tr>
+<tr><th class="stub" scope="row">Ordnance and accessories</th><td>31</td><td>13</td><td>9</td><td>5</td><td>4</td><td>4,497</td><td>3,903</td></tr>
+<tr><th class="stub" scope="row">Food and kindred products</th><td>448</td><td>220</td><td>55</td><td>30</td><td>143</td><td>35,590</td><td>30,265</td></tr>
+<tr><th class="stub" scope="row">Tobacco manufactures</th><td>7</td><td>4</td><td>1</td><td>0</td><td>2</td><td>1,346</td><td>1,180</td></tr>
+<tr><th class="stub" scope="row">Textile mill products</th><td>87</td><td>16</td><td>22</td><td>9</td><td>40</td><td>23,649</td><td>21,450</td></tr>
+<tr><th class="stub" scope="row">Apparel and other finished products made from fabrics and similar materials</th><td>102</td><td>35</td><td>35</td><td>7</td><td>25</td><td>12,133</td><td>10,862</td></tr>
+<tr><th class="stub" scope="row">Lumber and wood products</th><td>118</td><td>43</td><td>22</td><td>4</td><td>49</td><td>9,830</td><td>8,573</td></tr>
+<tr><th class="stub" scope="row">Furniture and fixtures</th><td>103</td><td>30</td><td>23</td><td>4</td><td>29</td><td>10,603</td><td>9,543</td></tr>
+<tr><th class="stub" scope="row">Paper and allied products</th><td>125</td><td>54</td><td>21</td><td>7</td><td>25</td><td>12,498</td><td>11,103</td></tr>
+<tr><th class="stub" scope="row">Printing, publishing, and allied industries</th><td>123</td><td>57</td><td>21</td><td>9</td><td>36</td><td>3,497</td><td>3,166</td></tr>
+<tr><th class="stub" scope="row">Chemicals and allied products</th><td>223</td><td>88</td><td>38</td><td>18</td><td>79</td><td>27,254</td><td>24,802</td></tr>
+<tr><th class="stub" scope="row">Products of petroleum and coal</th><td>49</td><td>19</td><td>14</td><td>0</td><td>16</td><td>5,743</td><td>5,330</td></tr>
+<tr><th class="stub" scope="row">Rubber products</th><td>32</td><td>6</td><td>13</td><td>2</td><td>11</td><td>6,167</td><td>5,595</td></tr>
+<tr><th class="stub" scope="row">Leather and leather products</th><td>44</td><td>13</td><td>9</td><td>1</td><td>22</td><td>8,565</td><td>8,780</td></tr>
+<tr><th class="stub" scope="row">Stone, clay, and glass products</th><td>101</td><td>47</td><td>19</td><td>4</td><td>28</td><td>6,927</td><td>6,109</td></tr>
+<tr><th class="stub" scope="row">Primary metal industries</th><td>116</td><td>60</td><td>25</td><td>4</td><td>32</td><td>11,000</td><td>9,927</td></tr>
+<tr><th class="stub" scope="row">Fabricated metal products (except machinery and transportation equipment)</th><td>168</td><td>58</td><td>37</td><td>20</td><td>107</td><td>19,684</td><td>17,675</td></tr>
+<tr><th class="stub" scope="row">Machinery (except electrical)</th><td>318</td><td>124</td><td>67</td><td>20</td><td>107</td><td>21,771</td><td>19,878</td></tr>
+<tr><th class="stub" scope="row">Electrical machinery, equipment, and supplies</th><td>400</td><td>131</td><td>86</td><td>43</td><td>138</td><td>65,997</td><td>58,594</td></tr>
+<tr><th class="stub" scope="row">Transportation equipment</th><td>205</td><td>59</td><td>55</td><td>15</td><td>76</td><td>35,970</td><td>31,404</td></tr>
+<tr><th class="stub" scope="row">Aircraft and parts</th><td>81</td><td>24</td><td>15</td><td>9</td><td>33</td><td>17,002</td><td>15,860</td></tr>
+<tr><th class="stub" scope="row">Ship and boat building and repairing</th><td>23</td><td>10</td><td>2</td><td>0</td><td>11</td><td>3,575</td><td>2,512</td></tr>
+<tr><th class="stub" scope="row">Automotive and other transportation equipment</th><td>101</td><td>25</td><td>38</td><td>6</td><td>32</td><td>15,235</td><td>13,234</td></tr>
+<tr><th class="stub" scope="row">Professional, scientific, and controlling instruments</th><td>46</td><td>14</td><td>13</td><td>5</td><td>14</td><td>7,613</td><td>6,738</td></tr>
+<tr><th class="stub" scope="row">Miscellaneous manufacturing</th><td>154</td><td>58</td><td>26</td><td>11</td><td>59</td><td>13,952</td><td>12,461</td></tr>
+<tr><th class="stub" scope="row">Fisheries</th><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1,330</td><td>935</td></tr>
+<tr><th class="stub" scope="row">Mining</th><td>59</td><td>17</td><td>13</td><td>7</td><td>22</td><td>13,639</td><td>11,055</td></tr>
+<tr><th class="stub" scope="row">Construction</th><td>50</td><td>11</td><td>0</td><td>16</td><td>23</td><td>2,446</td><td>2,322</td></tr>
+<tr><th class="stub" scope="row">Wholesale trade</th><td>409</td><td>200</td><td>35</td><td>41</td><td>198</td><td>13,553</td><td>12,061</td></tr>
+<tr><th class="stub" scope="row">Retail trade</th><td>466</td><td>214</td><td>41</td><td>18</td><td>193</td><td>39,308</td><td>33,620</td></tr>
+<tr><th class="stub" scope="row">Finance, insurance, and real estate</th><td>24</td><td>14</td><td>1</td><td>1</td><td>11</td><td>3,571</td><td>3,438</td></tr>
+<tr><th class="stub" scope="row">Transportation, communication, and other public utilities</th><td>418</td><td>216</td><td>34</td><td>35</td><td>133</td><td>28,371</td><td>22,448</td></tr>
+<tr><th class="stub" scope="row">Services</th><td>99</td><td>50</td><td>6</td><td>4</td><td>23</td><td>2,632</td><td>2,232</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1954_p0184_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1954_p0184.webp" loading="lazy" alt="Source page 184 of NLRB FY1954 annual report">
+<figcaption>Source: NLRB Annual Report FY1954, p. 184.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

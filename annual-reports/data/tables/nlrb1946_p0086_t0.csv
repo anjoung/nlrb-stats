@@ -1,0 +1,12 @@
+row_label,col_1,col_2,col_3,col_4
+Cases decided by U. S. circuit courts of appeals,41,100 0,635,100.0
+Board orders enforced in full,25,61.0,371,68.4
+Board orders enforced with modification,8,196,175,276
+Board orders set aside,6,146,79,124
+Remanded to Board,2,48,10,16
+Cases decided by U. S Supreme Court,2,100 0,54,100 0
+Board orders enforced in full,1,500,41,759
+Board orders enforced with modification,1,500,9,166
+Board orders set aside,,,2,37
+Remanded to Board,,,1,19
+"Board's request for remand or modification of enforced order, denied .",,,",1",1.9

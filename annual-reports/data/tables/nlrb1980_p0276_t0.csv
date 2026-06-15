@@ -1,0 +1,15 @@
+row_label,All R elections — Total elections,All R elections — Withdrawn or dismissed before certification,All R elections — Resulting in a rerun or runoff,All R elections — Resulting in certification,RC elections — Total elections,RC elections — Withdrawn or dismissed before certification,RC elections — Resulting in a rerun or runoff,RC elections — Resulting in certification,RM elections — Total elections,RM elections — Withdrawn or dismissed before certification,RM elections — Resulting in a rerun or runoff,RM elections — Resulting in certification,RD elections — Total elections,RD elections — Withdrawn or dismissed before certification,RD elections — Resulting in a rerun or runoff,RD elections — Resulting in certification
+All types,8531,125,208,8198,7332,117,194,7021,280,2,3,275,919,6,11,902
+All types — Rerun required (subtotal),,,174,,,,161,,,,3,,,,10,
+All types — Runoff required (subtotal),,,34,,,,33,,,,0,,,,1,
+Consent elections,412,4,12,396,335,4,12,319,0,0,0,0,13,0,0,64
+Consent — Rerun required,,,9,,,,9,,,,0,,,,0,
+Consent — Runoff required,,,3,,,,3,,,,0,,,,0,
+Stipulated elections,6445,96,134,6212,5536,92,125,5319,196,2,0,194,713,5,9,699
+Stipulated — Rerun required,,,111,,,,103,,,,0,,,,8,
+Stipulated — Runoff required,,,23,,,,22,,,,0,,,,1,
+Regional director-directed,1583,25,51,1507,1401,21,52,1328,43,0,1,42,139,1,1,137
+Regional director-directed — Rerun required,,,47,,,,45,,,,1,,,,1,
+Board-directed,58,0,6,52,52,0,5,47,3,0,0,3,3,0,1,2
+Board-directed — Rerun required,,,5,,,,4,,,,0,,,,1,
+Expedited—sec 8(b)(7)(C),33,0,2,31,8,0,0,8,25,0,2,23,0,0,0,0

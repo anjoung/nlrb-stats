@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.138 table — NLRB FY1941</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1941.html">FY1941</a> &rsaquo; p.138 table</p>
+<h1>p.138 table</h1>
+<p class="meta">source page 138 &middot; <code>nlrb1941_p0138_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">American Woolen Company</th><td>32</td><td>1</td></tr>
+<tr><th class="stub" scope="row">Ammo Metal, Incorporated</th><td>28</td><td>167</td></tr>
+<tr><th class="stub" scope="row">Androscoggin Mills</th><td>28</td><td>75</td></tr>
+<tr><th class="stub" scope="row">Angelica Jacket Company</th><td>29</td><td>131</td></tr>
+<tr><th class="stub" scope="row">Ansley Radio Corporation</th><td>28</td><td>121</td></tr>
+<tr><th class="stub" scope="row">Aponaug Manufacturing Company</th><td>27</td><td>40</td></tr>
+<tr><th class="stub" scope="row">Archer-Daniels Midland Company</th><td>27</td><td>210</td></tr>
+<tr><th class="stub" scope="row">Arizona Chemical Company</th><td>32</td><td>121</td></tr>
+<tr><th class="stub" scope="row">Arlington Mills</th><td>31</td><td>6</td></tr>
+<tr><th class="stub" scope="row">Arlington Mills</th><td>31</td><td>6</td></tr>
+<tr><th class="stub" scope="row">Armbruster, W. C., d/b/a R. H. Armbruster Manufacturing Co</th><td>30</td><td>64</td></tr>
+<tr><th class="stub" scope="row">Armour and Company, Armour Wholesale Market, Chicago, Ill</th><td>25</td><td>27</td></tr>
+<tr><th class="stub" scope="row">Armour and Company, Bloomer, Wis. Plant</th><td>25</td><td>82</td></tr>
+<tr><th class="stub" scope="row">Armour and Company, Bloomer, Wis. Plant</th><td>32</td><td>85</td></tr>
+<tr><th class="stub" scope="row">Armour and Company, North Bergen, N. J</th><td>26</td><td>107</td></tr>
+<tr><th class="stub" scope="row">Armstrong Cork Co., Whitall-Tatum Division at Millville, N. J</th><td>28</td><td>146</td></tr>
+<tr><th class="stub" scope="row">Armstrong Cork Co., Whitall-Tatum Division at Millville, N. J</th><td>28</td><td>146</td></tr>
+<tr><th class="stub" scope="row">Asheville Cotton Mills</th><td>30</td><td>6</td></tr>
+<tr><th class="stub" scope="row">Association of Motion Picture Producers, Inc</th><td>27</td><td>8</td></tr>
+<tr><th class="stub" scope="row">Atlas Tool &amp; Manufacturing Company</th><td>27</td><td>41</td></tr>
+<tr><th class="stub" scope="row">Atlas Underwear Company</th><td>30</td><td>89</td></tr>
+<tr><th class="stub" scope="row">B. V. D. Corporation</th><td>28</td><td>120</td></tr>
+<tr><th class="stub" scope="row">Baby Line Furniture Company, and The Automatic Tension Screen Company</th><td>25</td><td>91 85</td></tr>
+<tr><th class="stub" scope="row">Baltimore Brick Company Baltimore Insular Line, Inc</th><td>25 27</td><td>91</td></tr>
+<tr><th class="stub" scope="row">Bazzini Co., Inc., A. L.</th><td>28</td><td>86</td></tr>
+<tr><th class="stub" scope="row">Bebry Bedding Corporation</th><td>27</td><td>77</td></tr>
+<tr><th class="stub" scope="row">Belanger, Jerry and Edythe, d/b/a Aluminum Alloy Casting Co</th><td>32</td><td>183 78</td></tr>
+<tr><th class="stub" scope="row">Belmont Radio Corporation</th><td>27</td><td>52</td></tr>
+<tr><th class="stub" scope="row">Bendix Aviation Corporation</th><td>32</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Benolite Corporation</th><td>26</td><td>87 143</td></tr>
+<tr><th class="stub" scope="row">Bethlehem Steel Corporation, Lackawanna, N. Y.</th><td>30</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Bethlehem Steel Company, Sparrows Point Division</th><td>32</td><td>176</td></tr>
+<tr><th class="stub" scope="row">Big Lakes Box Company</th><td>31 32</td><td>41 20</td></tr>
+<tr><th class="stub" scope="row">Birdsboro Steel Foundry &amp; Machine Co Birmingham Boiler &amp; Engineering Company</th><td>31</td><td>129</td></tr>
+<tr><th class="stub" scope="row">Bison Steamship Company</th><td class="blank"></td><td>110</td></tr>
+<tr><th class="stub" scope="row">Black &amp; Sons Co., Joseph</th><td>27</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Bliss Properties</th><td>32 30</td><td>2</td></tr>
+<tr><th class="stub" scope="row">Bloedel-Donovan Lumber Mills</th><td>30</td><td>148 173</td></tr>
+<tr><th class="stub" scope="row">Boland, John J. and John J. Boland, Jr</th><td>27</td><td>110</td></tr>
+<tr><th class="stub" scope="row">Borden Mills, Inc</th><td class="blank"></td><td>128</td></tr>
+<tr><th class="stub" scope="row">Borg Corporation, The George W.,</th><td>31 25</td><td>58</td></tr>
+<tr><th class="stub" scope="row">Borg Warner Corporation, Ingersoll Steel &amp; Disc Division, New Castle, Ind., Plant</th><td>28</td><td>163</td></tr>
+<tr><th class="stub" scope="row">Borg Warner Corporation, Ingersoll Steel &amp; Disc Division, Chicago</th><td>31</td><td>99</td></tr>
+<tr><th class="stub" scope="row">Works Boston Iron &amp; Metal Co Botany Worsted Mills</th><td>28</td><td>124 129</td></tr>
+<tr><th class="stub" scope="row">Brewster Aeronautical Corporation</th><td>27</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Brightman Nut &amp; Manufacturing Company, William, Frank, Ida &amp;</th><td>31</td><td>130</td></tr>
+<tr><th class="stub" scope="row">Lelia Senn, d/b/a</th><td>30 27</td><td>102</td></tr>
+<tr><th class="stub" scope="row">Brooks Scanlon Lumber Company, Inc., Elmer Prater, Operator</th><td>31</td><td>59 46</td></tr>
+<tr><th class="stub" scope="row">Brown Company</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Brown Company</th><td>31 31</td><td>46 46</td></tr>
+<tr><th class="stub" scope="row">Brown Company Buffalo Pipe &amp; Foundry Corporation</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Bunte Brothers, a corp</th><td>26 30</td><td>88 22</td></tr>
+<tr><th class="stub" scope="row">Burlington Mills Corp., Lexington Silk Mills Division</th><td class="blank"></td><td>65</td></tr>
+<tr><th class="stub" scope="row"></th><td>31</td><td>201</td></tr>
+<tr><th class="stub" scope="row">Burton-Dixie Corporation, Kansas City, Mo</th><td>27</td><td>86</td></tr>
+<tr><th class="stub" scope="row">Burton-Dixie Corporation, Memphis, Tenn</th><td>29</td><td>171</td></tr>
+<tr><th class="stub" scope="row">Butler Motors, Inc</th><td>28</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">California Cotton Oil Corporation</th><td class="blank"></td><td>73</td></tr>
+<tr><th class="stub" scope="row">Calmar Steamship Corporation</th><td>26 27</td><td>128</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1941_p0138_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1941_p0138.webp" loading="lazy" alt="Source page 138 of NLRB FY1941 annual report">
+<figcaption>Source: NLRB Annual Report FY1941, p. 138.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

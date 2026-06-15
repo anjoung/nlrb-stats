@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.233 table — NLRB FY1949</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1949.html">FY1949</a> &rsaquo; p.233 table</p>
+<h1>p.233 table</h1>
+<p class="meta">source page 233 &middot; <code>nlrb1949_p0233_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">17-C-1543</th><td>Grace Co., The.</td><td>14-C-1273</td><td>Opelika Textile Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-C-2540</th><td>Granite State Machine Co., Inc.</td><td>14-0-1092</td><td>Owens-Illinois Glass Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-1265</th><td>Hamilton-Scheu &amp; Walsh Shoe Corp.</td><td>19-0-1573 1-0-2970</td><td>Pacific Powder Co. Pappas, C., Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-C-2066</th><td>Highland Park Manu- facturing Co., Plant.</td><td>2-0-6529</td><td>Paramount Pictures, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-C-1255 5-C-2288</th><td>Hillsboro Cotton Mills. Hinde &amp; Dauch Paper Co.</td><td>16-0-1479</td><td>Pauls Valley Milling Co.</td></tr>
+<tr><th class="stub" scope="row">15-C-1302</th><td>Homes, D. H., Co., Ltd. Horn Manufacturing</td><td>10-0-1962 5W-C-0019</td><td>Piedmont Cotton Mills. Piedmont Wagon &amp; Manufacturing Co.</td></tr>
+<tr><th class="stub" scope="row">18-C-1379</th><td>Co., Inc.</td><td>4-0-1743</td><td>Polk, R. L., &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-2157 21-C-3100 6-C-1057 10-0-2115</th><td>Interchemical Corp. Interstate Engineering Corp.</td><td>16-C-1578 2-0-6599</td><td>Postex Cotton Mills, Inc. Press Wireless Manu-</td></tr>
+<tr><th class="stub" scope="row"></th><td>Jenks, Elwood M. Joanna Mills.</td><td>16-C-1501</td><td>facturing Corp. Quarles</td></tr>
+<tr><th class="stub" scope="row">6-C-1137</th><td>Joy Togs, Inc. Judge, R. W., Works.</td><td class="blank"></td><td>Manufacturing Co., N. B. Quarrels, d/b/a.</td></tr>
+<tr><th class="stub" scope="row">1-C-2872</th><td>Optical</td><td>2-0-6567</td><td>Raybestos Manhattan, Inc., The.</td></tr>
+<tr><th class="stub" scope="row">14-0-1001</th><td>Kearney, Corp. Kelco Corp. James R.,</td><td>3-C- 934</td><td>Revere Copper &amp; Brass, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-C-2218 6-C-1165</th><td>Kenna Metal, Inc.</td><td>15-0- 983 10-0-1803</td><td>Rice-Stix of Arkansas, Inc. Russell Manufacturing Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">4-C-1602 7-C-1475 10-C-2270</th><td>Lancaster Garment Co. Larsen Co., The. Lewis, J. C., Motor Co.,</td><td>15M-C- 28</td><td>Scott Paper Box Co. Manufacturing</td></tr>
+<tr><th class="stub" scope="row">8-C-2108</th><td>Inc. Loudonville Milling Co.,</td><td>1-0-2601</td><td>Selig Co. Sportswear.</td></tr>
+<tr><th class="stub" scope="row">10-C-2057</th><td>The. , Macon Textile Co.</td><td>16-0-1509 18-0-1417 15-0-1065</td><td>Sidran- Sioux City Brewing Co. Smith, W. T., Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">15-C-1205 19P-C-0007</th><td>Magnolia Cotton Mill Co., Inc., &amp; N. &amp; W. Overall Co., Inc. Martin Brothers Box Co., The. Massey Gin and Ma-</td><td>14-C-1129 10-0-2196 20-C-1426</td><td>Socony Vacuum Oil Co., Inc. Southern Fruit Distrib- utors, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-C-2083</th><td>chine Works, Inc. Mckinney Lumber Co.,</td><td>15-0-1089</td><td>Stanislaus Canning Co. Steinberg &amp; Co. Sunland Biscuit</td></tr>
+<tr><th class="stub" scope="row">15-G1389</th><td class="blank"></td><td>24-0-119</td><td>Co.,</td></tr>
+<tr><th class="stub" scope="row">9-C-2491 23-C-0068</th><td>The. Mengel Co., The. Metropolitan Meat</td><td>13-0-2774 16-0-1435</td><td>Inc. Superior Engraving</td></tr>
+<tr><th class="stub" scope="row"></th><td>Market.</td><td class="blank"></td><td>Co. Supper-Cold Southwest Co.</td></tr>
+<tr><th class="stub" scope="row">5-C-1564</th><td>Milburn, Alexander,</td><td>10-0-2294</td><td>Tennessee Valley Broad-</td></tr>
+<tr><th class="stub" scope="row">13-C-3017</th><td>Co., The. Myers Products Corp.</td><td class="blank"></td><td>casting. Texas Co., The.</td></tr>
+<tr><th class="stub" scope="row">10-G1925</th><td>Mylan Sparta Co., Inc.</td><td>14-0-1125 5-C-2123</td><td>Thomas Brothers,</td></tr>
+<tr><th class="stub" scope="row">6-C-1147</th><td>National Electric ucts Co. Prod-</td><td class="blank"></td><td>Wholesale Produce. Tower Hosiery Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-C-2194</th><td>National Plastic Prod-</td><td>5W-C-1847</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">2-C-6820</th><td>ucts Co., The. Nelson, N. P., Works, Inc. Iron</td><td>16-0-1480</td><td>Vanette Hosiery Mills. Victor Manufacturing</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>13-0-2733</td><td>&amp; Gasket Co.</td></tr>
+<tr><th class="stub" scope="row">8-C-2179 6-C-1059</th><td>Ohio Power Co., The.</td><td>10-0-2139</td><td>Wayneline, Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Olympic Luggage Corp.</td><td class="blank"></td><td>Western Can</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>20-0-1716</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td>Co.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1949_p0233_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1949_p0233.webp" loading="lazy" alt="Source page 233 of NLRB FY1949 annual report">
+<figcaption>Source: NLRB Annual Report FY1949, p. 233.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

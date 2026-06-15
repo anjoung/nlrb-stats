@@ -1,0 +1,25 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14,col_15,col_16
+Food and kindred products,1439,1123,833,273,13,,,,3,291,209,14,68,8,,17
+Tobacco manufacturers,15,15,10,5,,,,,,,0,,0,0,,
+Textile mill products,269,202,161,,,,,,,65,44,2,19,2,,
+Apparel and other finished products made from fabric and similar materials,284,227,181,45,,,,,,53,41,2,10,2,,2
+Lumber and wood products (except furniture),436,302,243,57,,,,,,126,92,7,27,2,,6
+Furniture and fixtures,387,292,238,51,2,,,,,93,73,5,15,2,,0
+Paper and allied products,520,423,306,114,3,,,,,91,68,3,20,2,,4
+"Printing, publishing, and allied products",825,627,489,130,3,5,,,,180,129,10,41,,3,14
+Chemicals and allied products,577,452,332,105,13,0,2,,,116,88,3,25,,0,8
+Petroleum refining and related industries,203,175,138,24,8,2,,,3,23,16,,7,,2,3
+Rubber and miscellaneous plastic products,499,361,269,88,3,,,,,134,106,,28,4,,
+Leather and leather products,102,81,63,18,0,,,,,18,14,2,2,2,,
+"Stone, clay, glass, and concrete products",803,664,489,144,19,7,2,,3,129,77,11,41,6,,4
+Primary metal industries,1004,851,570,270,5,4,2,,0,147,101,9,37,5,,0
+Fabricated metal products (except machinery and transportation equipment),1409,1112,816,270,18,5,,,3,276,201,b5,59,10,3,8
+Machinery (except electncal),1467,1176,813,295,44,21,,,3,278,196,16,66,6,,7
+"Electrical and electronic machinery, equipment, and supplies",749,606,425,178,2,,,,,134,104,6,24,7,,2
+Aircraft and parts,334,308,173,135,0,,,,,23,18,,4,2,,
+Ship and boat building and repairing,216,195,107,84,3,,,,,19,15,,4,1,,
+Automotive and other transportation equipment,859,709,455,246,4,2,,,2,142,109,5,28,3,,4
+"Measuring, analyzing, and controlling Instruments, photographic, medical, and optical goods, watches and clocks",278,227,176,47,2,,0,0,1,48,39,2,7,0,0,3
+Miscellaneous manufactunng industries,1721,1296,803,439,32,10,3,,9,400,315,21,64,9,,15
+,,,,,,,,,,,,,,,,100
+Manufactunng,14396,11424,8090,3058,176,61,9,0,30,2786,2055,135,596,75,II,

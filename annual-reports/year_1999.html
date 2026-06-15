@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FY1999 — NLRB Annual Reports</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; FY1999</p>
+<h1>NLRB statistical tables — FY1999</h1>
+<table class="listing">
+<thead>
+<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="table_nlrb1999_p0001_t0.html">p.1 table</a></td><td><span class="type-label">Table</span></td><td>1</td></tr>
+<tr><td><a href="table_nlrb1999_p0022_t0.html">p.22 table</a></td><td><span class="type-label">Table</span></td><td>22</td></tr>
+<tr><td><a href="table_nlrb1999_p0023_t0.html">p.23 table</a></td><td><span class="type-label">Table</span></td><td>23</td></tr>
+<tr><td><a href="table_nlrb1999_p0026_t0.html">p.26 table</a></td><td><span class="type-label">Table</span></td><td>26</td></tr>
+<tr><td><a href="table_nlrb1999_p0034_t0.html">p.34 table</a></td><td><span class="type-label">Table</span></td><td>34</td></tr>
+<tr><td><a href="table_nlrb1999_p0106_t0.html">p.106 table</a></td><td><span class="type-label">Table</span></td><td>106</td></tr>
+<tr><td><a href="table_nlrb1999_p0107_t0.html">Total Cases Received, Closed, and Pending</a></td><td><span class="type-label">Table</span></td><td>107</td></tr>
+<tr><td><a href="table_nlrb1999_p0108_t0.html">p.108 table</a></td><td><span class="type-label">Table</span></td><td>108</td></tr>
+<tr><td><a href="table_nlrb1999_p0109_t0.html">p.109 table</a></td><td><span class="type-label">Table</span></td><td>109</td></tr>
+<tr><td><a href="table_nlrb1999_p0110_t0.html">p.110 table</a></td><td><span class="type-label">Table</span></td><td>110</td></tr>
+<tr><td><a href="table_nlrb1999_p0111_t0.html">p.111 table</a></td><td><span class="type-label">Table</span></td><td>111</td></tr>
+<tr><td><a href="table_nlrb1999_p0112_t0.html">p.112 table</a></td><td><span class="type-label">Table</span></td><td>112</td></tr>
+<tr><td><a href="table_nlrb1999_p0113_t0.html">p.113 table</a></td><td><span class="type-label">Table</span></td><td>113</td></tr>
+<tr><td><a href="table_nlrb1999_p0114_t0.html">p.114 table</a></td><td><span class="type-label">Table</span></td><td>114</td></tr>
+<tr><td><a href="table_nlrb1999_p0115_t0.html">p.115 table</a></td><td><span class="type-label">Table</span></td><td>115</td></tr>
+<tr><td><a href="table_nlrb1999_p0116_t0.html">Remedial Actions Taken in Unfair Labor Practice Cases Closed</a></td><td><span class="type-label">Table</span></td><td>116</td></tr>
+<tr><td><a href="table_nlrb1999_p0117_t0.html">Remedial Actions Taken in Unfair Labor Practice Cases Closed</a></td><td><span class="type-label">Table</span></td><td>117</td></tr>
+<tr><td><a href="table_nlrb1999_p0118_t0.html">p.118 table</a></td><td><span class="type-label">Table</span></td><td>118</td></tr>
+<tr><td><a href="table_nlrb1999_p0119_t0.html">p.119 table</a></td><td><span class="type-label">Table</span></td><td>119</td></tr>
+<tr><td><a href="table_nlrb1999_p0120_t0.html">p.120 table</a></td><td><span class="type-label">Table</span></td><td>120</td></tr>
+<tr><td><a href="table_nlrb1999_p0121_t0.html">p.121 table</a></td><td><span class="type-label">Table</span></td><td>121</td></tr>
+<tr><td><a href="table_nlrb1999_p0122_t0.html">p.122 table</a></td><td><span class="type-label">Table</span></td><td>122</td></tr>
+<tr><td><a href="table_nlrb1999_p0123_t0.html">p.123 table</a></td><td><span class="type-label">Table</span></td><td>123</td></tr>
+<tr><td><a href="table_nlrb1999_p0124_t0.html">p.124 table</a></td><td><span class="type-label">Table</span></td><td>124</td></tr>
+<tr><td><a href="table_nlrb1999_p0125_t0.html">p.125 table</a></td><td><span class="type-label">Table</span></td><td>125</td></tr>
+<tr><td><a href="table_nlrb1999_p0126_t0.html">p.126 table</a></td><td><span class="type-label">Table</span></td><td>126</td></tr>
+<tr><td><a href="table_nlrb1999_p0127_t0.html">p.127 table</a></td><td><span class="type-label">Table</span></td><td>127</td></tr>
+<tr><td><a href="table_nlrb1999_p0128_t0.html">p.128 table</a></td><td><span class="type-label">Table</span></td><td>128</td></tr>
+<tr><td><a href="table_nlrb1999_p0129_t0.html">p.129 table</a></td><td><span class="type-label">Table</span></td><td>129</td></tr>
+<tr><td><a href="table_nlrb1999_p0130_t0.html">p.130 table</a></td><td><span class="type-label">Table</span></td><td>130</td></tr>
+<tr><td><a href="table_nlrb1999_p0131_t0.html">p.131 table</a></td><td><span class="type-label">Table</span></td><td>131</td></tr>
+<tr><td><a href="table_nlrb1999_p0132_t0.html">p.132 table</a></td><td><span class="type-label">Table</span></td><td>132</td></tr>
+<tr><td><a href="table_nlrb1999_p0133_t0.html">p.133 table</a></td><td><span class="type-label">Table</span></td><td>133</td></tr>
+<tr><td><a href="table_nlrb1999_p0134_t0.html">p.134 table</a></td><td><span class="type-label">Table</span></td><td>134</td></tr>
+<tr><td><a href="table_nlrb1999_p0135_t0.html">p.135 table</a></td><td><span class="type-label">Table</span></td><td>135</td></tr>
+<tr><td><a href="table_nlrb1999_p0136_t0.html">p.136 table</a></td><td><span class="type-label">Table</span></td><td>136</td></tr>
+<tr><td><a href="table_nlrb1999_p0136_t1.html">p.136 table</a></td><td><span class="type-label">Table</span></td><td>136</td></tr>
+<tr><td><a href="table_nlrb1999_p0137_t0.html">p.137 table</a></td><td><span class="type-label">Table</span></td><td>137</td></tr>
+<tr><td><a href="table_nlrb1999_p0138_t0.html">p.138 table</a></td><td><span class="type-label">Table</span></td><td>138</td></tr>
+<tr><td><a href="table_nlrb1999_p0139_t0.html">p.139 table</a></td><td><span class="type-label">Table</span></td><td>139</td></tr>
+<tr><td><a href="table_nlrb1999_p0140_t0.html">p.140 table</a></td><td><span class="type-label">Table</span></td><td>140</td></tr>
+<tr><td><a href="table_nlrb1999_p0141_t0.html">p.141 table</a></td><td><span class="type-label">Table</span></td><td>141</td></tr>
+<tr><td><a href="table_nlrb1999_p0142_t0.html">p.142 table</a></td><td><span class="type-label">Table</span></td><td>142</td></tr>
+<tr><td><a href="table_nlrb1999_p0143_t0.html">p.143 table</a></td><td><span class="type-label">Table</span></td><td>143</td></tr>
+<tr><td><a href="table_nlrb1999_p0144_t0.html">p.144 table</a></td><td><span class="type-label">Table</span></td><td>144</td></tr>
+<tr><td><a href="table_nlrb1999_p0145_t0.html">p.145 table</a></td><td><span class="type-label">Table</span></td><td>145</td></tr>
+<tr><td><a href="table_nlrb1999_p0146_t0.html">p.146 table</a></td><td><span class="type-label">Table</span></td><td>146</td></tr>
+<tr><td><a href="table_nlrb1999_p0147_t0.html">p.147 table</a></td><td><span class="type-label">Table</span></td><td>147</td></tr>
+<tr><td><a href="table_nlrb1999_p0148_t0.html">p.148 table</a></td><td><span class="type-label">Table</span></td><td>148</td></tr>
+<tr><td><a href="table_nlrb1999_p0149_t0.html">p.149 table</a></td><td><span class="type-label">Table</span></td><td>149</td></tr>
+<tr><td><a href="table_nlrb1999_p0150_t0.html">p.150 table</a></td><td><span class="type-label">Table</span></td><td>150</td></tr>
+<tr><td><a href="table_nlrb1999_p0151_t0.html">p.151 table</a></td><td><span class="type-label">Table</span></td><td>151</td></tr>
+<tr><td><a href="table_nlrb1999_p0152_t0.html">p.152 table</a></td><td><span class="type-label">Table</span></td><td>152</td></tr>
+<tr><td><a href="table_nlrb1999_p0153_t0.html">p.153 table</a></td><td><span class="type-label">Table</span></td><td>153</td></tr>
+<tr><td><a href="table_nlrb1999_p0154_t0.html">p.154 table</a></td><td><span class="type-label">Table</span></td><td>154</td></tr>
+<tr><td><a href="table_nlrb1999_p0155_t0.html">p.155 table</a></td><td><span class="type-label">Table</span></td><td>155</td></tr>
+<tr><td><a href="table_nlrb1999_p0156_t0.html">p.156 table</a></td><td><span class="type-label">Table</span></td><td>156</td></tr>
+<tr><td><a href="table_nlrb1999_p0157_t0.html">p.157 table</a></td><td><span class="type-label">Table</span></td><td>157</td></tr>
+<tr><td><a href="table_nlrb1999_p0158_t0.html">p.158 table</a></td><td><span class="type-label">Table</span></td><td>158</td></tr>
+<tr><td><a href="table_nlrb1999_p0159_t0.html">p.159 table</a></td><td><span class="type-label">Table</span></td><td>159</td></tr>
+<tr><td><a href="table_nlrb1999_p0160_t0.html">p.160 table</a></td><td><span class="type-label">Table</span></td><td>160</td></tr>
+<tr><td><a href="table_nlrb1999_p0161_t0.html">p.161 table</a></td><td><span class="type-label">Table</span></td><td>161</td></tr>
+<tr><td><a href="table_nlrb1999_p0162_t0.html">p.162 table</a></td><td><span class="type-label">Table</span></td><td>162</td></tr>
+<tr><td><a href="table_nlrb1999_p0163_t0.html">p.163 table</a></td><td><span class="type-label">Table</span></td><td>163</td></tr>
+<tr><td><a href="table_nlrb1999_p0164_t0.html">p.164 table</a></td><td><span class="type-label">Table</span></td><td>164</td></tr>
+<tr><td><a href="table_nlrb1999_p0165_t0.html">p.165 table</a></td><td><span class="type-label">Table</span></td><td>165</td></tr>
+<tr><td><a href="table_nlrb1999_p0166_t0.html">p.166 table</a></td><td><span class="type-label">Table</span></td><td>166</td></tr>
+<tr><td><a href="table_nlrb1999_p0167_t0.html">p.167 table</a></td><td><span class="type-label">Table</span></td><td>167</td></tr>
+<tr><td><a href="table_nlrb1999_p0167_t1.html">p.167 table</a></td><td><span class="type-label">Table</span></td><td>167</td></tr>
+<tr><td><a href="table_nlrb1999_p0168_t0.html">p.168 table</a></td><td><span class="type-label">Table</span></td><td>168</td></tr>
+<tr><td><a href="table_nlrb1999_p0169_t0.html">p.169 table</a></td><td><span class="type-label">Table</span></td><td>169</td></tr>
+<tr><td><a href="table_nlrb1999_p0170_t0.html">p.170 table</a></td><td><span class="type-label">Table</span></td><td>170</td></tr>
+<tr><td><a href="table_nlrb1999_p0171_t1.html">p.171 table</a></td><td><span class="type-label">Table</span></td><td>171</td></tr>
+</tbody>
+</table>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+<script>
+(function () {
+  function cellText(row, i) { var c = row.children[i]; return c ? c.textContent : ""; }
+  function isNumeric(v) {
+    if (v === "" || v == null) return false;
+    return /^-?[0-9][0-9,]*(\.[0-9]+)?$/.test(v.trim());
+  }
+  function toNumber(v) { return parseFloat(v.replace(/,/g, "")); }
+  function columnIsNumeric(rows, i) {
+    var seen = 0;
+    for (var r = 0; r < rows.length && seen < 50; r++) {
+      var t = cellText(rows[r], i).trim();
+      if (t === "") continue;
+      seen++;
+      if (!isNumeric(t)) return false;
+    }
+    return seen > 0;
+  }
+  function sortBy(table, i, th) {
+    var tbody = table.tBodies[0];
+    var rows = Array.prototype.slice.call(tbody.rows);
+    var asc = th.getAttribute("data-dir") !== "asc";
+    var numeric = columnIsNumeric(rows, i);
+    rows.sort(function (a, b) {
+      var av = cellText(a, i).trim(), bv = cellText(b, i).trim();
+      var cmp;
+      if (numeric) {
+        var an = av === "" ? Infinity : toNumber(av);
+        var bn = bv === "" ? Infinity : toNumber(bv);
+        cmp = an - bn;
+      } else {
+        cmp = av.localeCompare(bv, undefined, {numeric: true, sensitivity: "base"});
+      }
+      return asc ? cmp : -cmp;
+    });
+    for (var r = 0; r < rows.length; r++) tbody.appendChild(rows[r]);
+    th.setAttribute("data-dir", asc ? "asc" : "desc");
+    var ths = th.parentNode.children;
+    for (var k = 0; k < ths.length; k++) {
+      var a = ths[k].querySelector(".arrow");
+      if (a) a.textContent = ths[k] === th ? (asc ? "\u25B2" : "\u25BC") : "\u2195";
+    }
+  }
+  document.addEventListener("click", function (e) {
+    var th = e.target.closest ? e.target.closest("th") : null;
+    if (!th || th.tagName !== "TH") return;
+    var table = th.closest("table");
+    if (!table || !table.tBodies.length) return;
+    var ths = th.parentNode.children;
+    var i = Array.prototype.indexOf.call(ths, th);
+    sortBy(table, i, th);
+  });
+})();
+</script>
+</body>
+</html>

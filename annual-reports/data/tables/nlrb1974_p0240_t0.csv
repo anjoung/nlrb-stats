@@ -1,0 +1,16 @@
+Participating unions,Total valid votes cast,Valid votes cast in elections won / Total votes for unions,Valid votes cast in elections won / AFL-CIO unions,Valid votes cast in elections won / Teamsters,Valid votes cast in elections won / Other national unions,Valid votes cast in elections won / Other local unions,Valid votes cast in elections won / Total votes for no union,Valid votes cast in elections lost / Total votes for unions,Valid votes cast in elections lost / AFL-CIO unions,Valid votes cast in elections lost / Teamsters,Valid votes cast in elections lost / Other national unions,Valid votes cast in elections lost / Other local unions,Valid votes cast in elections lost / Total votes for no union
+AFL-CIO,7637,1831,1831,,,,961,1215,1215,,,,3630
+Teamsters,2598,859,,859,,,338,367,,367,,,1034
+Other national unions,75,27,,,27,,6,,,,,,42
+Other local unions,376,51,,,,51,11,52,,,,52,262
+1-union elections,10686,2768,1831,859,27,51,1323,1640,1215,367,6,52,4955
+AFL-CIO v. AFL-CIO,267,264,264,,,,3,0,,,,,0
+AFL-CIO v. Teamsters,19,19,13,6,,,0,0,,,,,0
+AFL-CIO v. national,141,140,96,,44,,1,0,,,,,0
+AFL-CIO v. local,20,15,5,,,10,1,3,,,,3,0
+Teamsters v. national,59,59,,59,,,0,0,,,,,0
+Teamsters v. local,32,32,,,,32,0,0,,,,,0
+2-union elections,576,546,382,59,23,82,5,5,,,,,19
+AFL-CIO v. AFL-CIO v. local,125,125,85,,,40,0,0,,,,,0
+3 (or more) union elections,125,125,85,,,40,0,0,,,,,0
+Total RM elections,11387,3439,2298,918,50,173,1329,1645,1215,367,8,52,4974

@@ -1,0 +1,16 @@
+Type of case,Type of election / Total,Type of election / Consent,Type of election / Stipulated,Type of election / Board-directed,Type of election / Regional Director-directed,Type of election / Expedited elections under 8(b)(7)(C)
+"All types, total: Elections",3517,15,2911,10,579,2
+"All types, total: Eligible voters",238755,323,181967,2838,53615,12
+"All types, total: Valid votes",207039,303,159110,2392,45230,4
+RC cases: Elections,3029,13,2479,10,527,0
+RC cases: Eligible voters,215562,273,162818,2838,49633,0
+RC cases: Valid votes,187290,253,142304,2392,42341,0
+RM cases: Elections,46,0,38,0,6,2
+RM cases: Eligible voters,2037,0,1874,0,151,12
+RM cases: Valid votes,1718,0,1611,0,103,4
+RD cases: Elections,405,2,368,0,35,0
+RD cases: Eligible voters,18417,50,15807,0,2560,0
+RD cases: Valid votes,16167,50,14045,0,2072,0
+UD cases: Elections,37,0,26,0,11,
+UD cases: Eligible voters,2739,0,1468,0,1271,
+UD cases: Valid votes,1864,0,1150,0,714,

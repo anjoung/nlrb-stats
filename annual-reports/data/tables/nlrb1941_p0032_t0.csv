@@ -1,0 +1,20 @@
+row_label,Cases — Number,Cases — Percent of cases closed,Cases — Percent of cases on docket,Workers involved
+"Cases pending, July 1, 1940",2164,,,1062107
+"Cases received, July 1940-June 1941",4817,,,1464087
+"Cases on docket, July 1940-June 1941",6981,,,2526194
+"Cases closed, July 1940-June 1941",4698,100.0,67.3,1208005
+Cases closed before formal action,4240,90.3,60.7,980454
+Cases closed before formal action: Cases settled,2113,45.0,30.3,369216
+Cases closed before formal action: Cases dismissed,676,14.4,9.7,262190
+Cases closed before formal action: Cases withdrawn,1436,30.6,20.6,341812
+Cases closed before formal action: Cases closed otherwise,15,.3,.2,7236
+Cases closed after formal action,458,9.7,6.6,227551
+Cases closed after formal action: Cases closed before hearing,26,.6,.4,5708
+Cases closed after formal action: Cases closed after hearing but before issuance of intermediate report on proposed findings,16,.3,.2,4881
+Cases closed after formal action: Cases closed after issuance of intermediate report or proposed findings,44,.9,.6,9718
+Cases closed after formal action: Cases closed after Board decision,140,3.0,2.0,71631
+Cases closed after formal action: Cases closed after court action,232,4.9,3.3,135613
+Cases closed after formal action: Cases closed after court action: Cases dismissed,14,.3,.2,11674
+Cases closed after formal action: Cases closed after court action: Cases closed by compliance,188,4.0,2.7,111747
+Cases closed after formal action: Cases closed after court action: Cases closed otherwise,30,.6,.4,12192
+"Cases pending June 30, 1941",2283,,32.7,1318189

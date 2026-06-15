@@ -79,12 +79,7 @@ table.grid tbody td {
 }
 table.grid tbody tr:nth-child(even) th.stub,
 table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
-td.marker { color: #b06a00; text-align: center; cursor: help; font-weight: 700; }
 td.blank { color: transparent; }
-/* Marker legend shown under a grid that contains "·" cells (outside the table
-   so a copy-paste of the grid stays a clean rectangle). */
-p.marker-legend { color: var(--muted); font-size: 12.5px; margin: 0 0 0.75rem; }
-p.marker-legend .mk { color: #b06a00; font-weight: 700; }
 
 /* Source image */
 figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
@@ -129,17 +124,16 @@ ul.link-list li { margin: 0.3rem 0; }
 <tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">Total</th><td>12,323</td><td>10,698</td><td class="marker" title="86 8 — unparsed — see source image">·</td><td>7,546</td><td>3,152</td><td>6,930</td><td>6,083</td><td class="marker" title="87 8 — unparsed — see source image">·</td><td>1,870</td><td>4,213</td></tr>
-<tr><th class="stub" scope="row">AFL-CIO</th><td>9,850</td><td>8,596</td><td class="marker" title="87 3 — unparsed — see source image">·</td><td>6,030</td><td>2,566</td><td>4,244</td><td>3,769</td><td class="marker" title="88 8 — unparsed — see source image">·</td><td>1,099</td><td>2,670</td></tr>
-<tr><th class="stub" scope="row">Unaffiliated</th><td>2,473</td><td>2,102</td><td class="marker" title="85 0 — unparsed — see source image">·</td><td>1,516</td><td>586</td><td>2,686</td><td>2,314</td><td class="marker" title="86 2 — unparsed — see source image">·</td><td>771</td><td>1,543</td></tr>
+<tr><th class="stub" scope="row">Total</th><td>12,323</td><td>10,698</td><td>86 8</td><td>7,546</td><td>3,152</td><td>6,930</td><td>6,083</td><td>87 8</td><td>1,870</td><td>4,213</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO</th><td>9,850</td><td>8,596</td><td>87 3</td><td>6,030</td><td>2,566</td><td>4,244</td><td>3,769</td><td>88 8</td><td>1,099</td><td>2,670</td></tr>
+<tr><th class="stub" scope="row">Unaffiliated</th><td>2,473</td><td>2,102</td><td>85 0</td><td>1,516</td><td>586</td><td>2,686</td><td>2,314</td><td>86 2</td><td>771</td><td>1,543</td></tr>
 </tbody>
 </table>
 </div>
-<p class="marker-legend"><span class="mk">·</span> marks a value that couldn&rsquo;t be read from the scan — check the source image below.</p>
 <p class="downloads"><a href="data/tables/nlrb1962_p0289_t1.csv" download>Download this table (CSV)</a></p>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="images/1962_p0289.webp" loading="lazy" alt="Source page 289 of NLRB FY1962 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1962_p0289.webp" loading="lazy" alt="Source page 289 of NLRB FY1962 annual report">
 <figcaption>Source: NLRB Annual Report FY1962, p. 289.</figcaption>
 </figure>
 <p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>

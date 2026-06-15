@@ -1,0 +1,14 @@
+row_label,Participating unions,Total elections,Elections won by unions / Per-cent won,Elections won by unions / Total won,Elections won by unions / AFL-CIO unions,Elections won by unions / Team-sters,Elections won by unions / Other na-tional unions,Elec-tions with no rep-resent-ative chosen / Other local unions,Employees eligible to vote / Elec-tions with no rep-resent-ative chosen,Employees eligible to vote / Total,Employees eligible to vote / In units won by / AFL-CIO unions,Employees eligible to vote / In units won by / Team-sters,Employees eligible to vote / In units won by / Other national unions,Employees eligible to vote / In units won by / Other local unions,In elec-tions where no rep-resent-ative chosen
+C Elections at RM cases,,,,,,,,,,,,,,,
+AFL-CIO,120,15.8,19,19,,,,101,5686,1353,1353,,,3683,
+Other national unions,77,19.5,15,,,15,,62,1290,415,,415,,966,
+Other local unions,4,50.0,2,,,,2,2,484,408,,,76,92,
+1-union elections,205,18,38,19,1,15,2,167,7460,2820,1353,415,76,4640,
+AFL-CIO v. AFL-CIO,6,66.7,4,4,,,,2,227,205,205,,,22,
+AFL-CIO v. Teamsters,1,100.0,1,,1,,,,5,5,,5,,,
+AFL-CIO v. local,2,100.0,2,1,,,1,,153,153,72,,,,
+Teamsters v. Teamsters,2,100.0,2,,2,,,,72,72,,72,,,
+National v. local,1,100.0,1,,,1,,,119,119,,,,,
+Local v. local,,,,,,,,,,,,,,,
+2-union elections,12,75.0,9,4,2,1,2,3,804,673,205,77,238,131,
+Total RM elections,217,21.7,47,23,17,3,4,170,8264,3493,1558,492,1214,229,4771

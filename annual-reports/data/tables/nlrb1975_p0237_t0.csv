@@ -1,0 +1,21 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6
+"till types, total",,,,,,
+Elections,8687,1011,5872,82,1707,15
+Eligible voters,576536,30588,398888,10221,136622,217
+Valid votes,508031,28412,352033,8815,120595,176
+RC cases,,,,,,
+Elections,7729,865,5294,75,1491,4
+Eligible voters,533576,"_ 27,416",369536,9850,126584,90
+Valid votes,471933,23688,326851,8588,112731,77
+RMcases,,,,,,
+Elections,332,55,205,7,54,11
+Eligible voters,11527,988,9221,271,920,127
+Valid votes,9953,835,8028,229,762,99
+RD cases,,,,,,
+Elections,516,72,355,o,as,o
+Eligible voters,23817,1637,18331,o,3849,o
+Valid votes,".20, 110",1412,15632,0,3066,0
+LTD cases.,,,,,,
+Elections,110,19,18,o,73,
+Eligible voters,7616,547,1800,o,5269,
+Valid votes,6035,477,1522,o,4036,

@@ -1,0 +1,26 @@
+row_label,Participating unions,Total valid votes cast,Valid votes cast in elections won / Total,Valid votes cast in elections won / Votes for unions / AFL-CIO unions,Valid votes cast in elections won / Votes for unions / Team-sters,Valid votes cast in elections won / Votes for unions / Other national unions,Valid votes cast in elections won / Votes for unions / Other local unions,Valid votes cast in elections won / Total votes for no union,Valid votes cast in elections lost / Total,Valid votes cast in elections lost / Votes for unions / AFL-CIO unions,Valid votes cast in elections lost / Votes for unions / Team-sters,Valid votes cast in elections lost / Votes for unions / Other national unions,Valid votes cast in elections lost / Votes for unions / Other local unions,Valid votes cast in elections lost / Total votes for no union
+A All representation elections,,,,,,,,,,,,,,
+AFL-CIO,253758,52153,52153,52153,,,,26905,59225,59225,,,115475,
+Teamsters,70558,12758,12758,,12758,,,5927,16207,,16207,,30666,
+Other national unions,11205,3433,3433,,,3433,,1514,2002,,,2002,4256,
+Other local unions,12118,3419,3419,,,,3419,1560,1957,,,1957,5182,
+1-union elections,347737,71763,52153,52153,12758,3433,3419,35906,79431,59225,16207,2002,1957,160647
+AFL-CIO v. AFL-CIO,8923,4482,4482,4482,,,,482,1603,1603,,,,2356
+AFL-CIO v. Teamsters,6374,4290,1639,,2651,,,750,1283,387,896,,,2480
+AFL-CIO v. national,5483,4826,1916,,,2910,,95,195,51,,144,,367
+AFL-CIO v. local,14318,10679,6068,4002,,,642,659,894,12,,14,658,2747
+Teamsters v. Teamsters,240,75,,,75,,,12,140,,140,,,139
+Teamsters v. national,2670,1629,,,789,,,709,140,,416,,,246
+Teamsters v. local,142,142,,,142,,,,,,,,,
+National v. national,775,746,,,,287,,459,7,,,,,14
+National v. local,15,,,,,,,,,,,,5,10
+Local v. local,1741,1508,,,,,1508,54,,,,,,179
+2-union elections,43620,28918,14605,3735,3250,7328,2092,4435,2242,1240,162,791,8175,
+AFL-CIO v. AFL-CIO v. AFL-CIO,146,101,101,101,,,,,45,,,,,
+AFL-CIO v. AFL-CIO v. Teamsters,484,15,14,,1,,,,127,,,,,342
+AFL-CIO v. AFL-CIO v. national,19,19,15,,,,,4,,,,,,
+AFL-CIO v. AFL-CIO v. local,81,81,25,,,,56,,,,,,,
+AFL-CIO v. local v. local,53,48,3,,,,45,,,,,,,5
+Local v. local v. local,17,,,,,,,,,,,,,
+3 (or more)-union elections,800,264,159,,,,,9,172,,,,,347
+Total representation elections,392157,100945,66917,16548,6706,10754,38048,83988,61594,17447,2194,2753,169176,

@@ -1,0 +1,18 @@
+row_label,Total elections,Percent won,Elections won by unions — Total,Elections won by unions — AFL-CIO unions,Elections won by unions — Teamsters,Elections won by unions — Other national unions,Elections won by unions — Other local unions,Elections in which no representative chosen,Employees eligible to vote — Total,Employees eligible — In elections won — Total,Employees eligible — In elections won — AFL-CIO unions,Employees eligible — In elections won — Teamsters,Employees eligible — In elections won — Other national unions,Employees eligible — In elections won — Other local unions,Employees eligible — In elections where no representative chosen
+C. Elections in RM cases,,,,,,,,,,,,,,,
+"AFL-CIO (1-union, RM)",131,18.3,24,24,,,,107,9672,943,943,,,,7729
+"Teamsters (1-union, RM)",60,23.3,14,,14,,,46,1316,438,,438,,,878
+"Other national unions (1-union, RM)",4,50.0,2,,,2,,2,70,18,,,18,,52
+"Other local unions (1-union, RM)",11,18.2,1,,,,1,9,381,28,,,,28,353
+1-union elections (RM subtotal),206,19.9,41,24,14,2,1,165,11439,1427,943,438,18,28,10012
+2-union elections (RM subtotal),10,80.0,8,2,2,,4,2,2895,2783,100,63,,2620,112
+Total RM elections,216,22.7,49,26,16,2,5,167,14334,4210,1043,501,18,2648,10124
+D. Elections in RD cases,,,,,,,,,,,,,,,
+"AFL-CIO (1-union, RD)",537,25.0,134,134,,,,403,26845,11287,11287,,,,15558
+"Teamsters (1-union, RD)",251,19.1,48,,48,,,203,6196,2030,,2030,,,4166
+"Other national unions (1-union, RD)",19,36.8,7,,,7,,12,858,318,,,318,,540
+"Other local unions (1-union, RD)",46,15.2,7,,,,7,39,2273,742,,,,742,1531
+1-union elections (RD subtotal),853,22.7,193,134,48,4,7,657,36172,14377,11287,2030,318,742,21795
+2-union elections (RD subtotal),17,70.6,12,8,,,3,5,2692,2444,1015,56,,1373,248
+3 (or more)-union elections (RD subtotal),2,100.0,2,,,,2,,274,274,,,,274,
+Total RD elections,869,23.8,207,142,48,4,13,662,39138,17095,12302,2360,318,2115,22043

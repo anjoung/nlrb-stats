@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.109 table — NLRB FY1947</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1947.html">FY1947</a> &rsaquo; p.109 table</p>
+<h1>p.109 table</h1>
+<p class="meta">source page 109 &middot; <code>nlrb1947_p0109_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">1-R-3302</th><td>Ekco Products Co. (Sta-Brite Division).</td></tr>
+<tr><th class="stub" scope="row">16-R-2127 14-R-1581</th><td>El Campo Rice Milling Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-2354</th><td>Elder Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-2685</th><td>Electric Auto-Lite Co. (Spark Plug Division). Electric Auto-Lite Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3762</th><td>Electric Household Utilities Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-2433</th><td>Electro-Metallurgical Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1582</th><td>Elgin National Watch Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-1229</th><td>Ellis, James C. (Oil Production) James C. Ellis, d/b/a.</td></tr>
+<tr><th class="stub" scope="row">18-R-1756</th><td>Ely-Walker Dry Goods Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1497</th><td>Embassy Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Emerson Phonograph &amp; Radio Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-6929</th><td>Emperor Coal Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-2590</th><td>Bunco Derrick &amp; Equipment Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-2194 21-R-3494</th><td>Emsco Derrick &amp; Equipment Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-2259</th><td>Energetic Worsted Corp.</td></tr>
+<tr><th class="stub" scope="row">5-R-2481</th><td>Engineering &amp; Research Corp.</td></tr>
+<tr><th class="stub" scope="row">4-R-2553</th><td>Englishtown Cutlery, Ltd.</td></tr>
+<tr><th class="stub" scope="row">10-RE-22</th><td>Esdorn Lumber Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3952</th><td>Estee Bedding Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Evans, J. W. &amp; Son.</td></tr>
+<tr><th class="stub" scope="row">2-R-6848 4-R-2579</th><td>Evans, S. W. &amp; Son.</td></tr>
+<tr><th class="stub" scope="row">2-R-6818</th><td>Ever-Ready Label Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-4033</th><td>Eversharp, Inc. Ex-cell Coal Co., John G., Sr., &amp; John G., Jr., Hoffstot d/b/a.</td></tr>
+<tr><th class="stub" scope="row">6-R-1604</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">4-R-2623</th><td>Fab-Weld Corp.</td></tr>
+<tr><th class="stub" scope="row">10-R-2410 1-R-3341</th><td>Fagen, A. A. Fairchild Advertising, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-6697</th><td>Fairchild Engine &amp; Airplane Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-7337</th><td>Fairchild Engine &amp; Airplane Corp. (Pilotless Plane Division).</td></tr>
+<tr><th class="stub" scope="row">3-R-1430</th><td>Fairchild Engine &amp; Airplane Corp. (Duramold Division of).</td></tr>
+<tr><th class="stub" scope="row">5-R-2393</th><td>Fairchild Engine &amp; Airplane Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3818</th><td>Fairmont Creamery Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1707</th><td>Fairmont Creamery Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1706</th><td>Fairmont Creamery Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-2634</th><td>Fairmont Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">7-R-2513</th><td>Falcon Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-2023</th><td>Farmers Cooperative Union, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-7743</th><td>Farmers Feed Co. Farmers Produce Co., Goldberg, E. M., d/b/a.</td></tr>
+<tr><th class="stub" scope="row">15-R-1887 13-R-4130</th><td>Farnsworth Television &amp; Radio Corp.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Fayette Hardwood Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-2137</th><td>Federal-Mogul Corp.</td></tr>
+<tr><th class="stub" scope="row">7-R-2311</th><td>Federated Publications, Inc.</td></tr>
+<tr><th class="stub" scope="row">7-R-2593 13-R-3918</th><td>Field Enterprises, Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Corp.</td></tr>
+<tr><th class="stub" scope="row">15-11-1730</th><td>Filtrol Patrol Corp.</td></tr>
+<tr><th class="stub" scope="row">21-R-3961</th><td>Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-2414 8-11-2447</th><td>Firestone Firestone Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-2442</th><td>Firestone Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1911</th><td>Firestone Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Firestone Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">18-11-1754 21-R-3614</th><td>Tire &amp; Rubber Co. of California.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Firestone Chair Co., The.</td></tr>
+<tr><th class="stub" scope="row">11-R-1065 15-11-2085</th><td>Fischer Flintkote Co.</td></tr>
+<tr><th class="stub" scope="row">10-11-2628</th><td>Florida All-Bound Box Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Machinery Corp.</td></tr>
+<tr><th class="stub" scope="row">10-R-1716 6-R-1213</th><td>Food Ford Collieries Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>&amp; Clark. Payne Hosiery</td></tr>
+<tr><th class="stub" scope="row">20-R-1940 10-R-2512</th><td>Foreman Fort Mills,</td></tr>
+<tr><th class="stub" scope="row">5-11-2920</th><td>Inc. Foster Bros., &amp; Co. Franklin, A. W., Mfg. Corp.,</td></tr>
+<tr><th class="stub" scope="row">2-11-6724</th><td>Airloop Corp. Fraser Furnace Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Franklin</td></tr>
+<tr><th class="stub" scope="row">20-R-1732 5-RE-28</th><td>Broad Electric Membership Corp.</td></tr>
+<tr><th class="stub" scope="row">1-R-3416</th><td>French French Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Co.</td></tr>
+<tr><th class="stub" scope="row">13-11-3762</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>Fresh&#x27;nd-Aire</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1947_p0109_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1947_p0109.webp" loading="lazy" alt="Source page 109 of NLRB FY1947 annual report">
+<figcaption>Source: NLRB Annual Report FY1947, p. 109.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

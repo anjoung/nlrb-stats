@@ -1,0 +1,30 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14,col_15,col_16
+Metal mining,58,43,25,17,0,1,0,,0,11,8,0,3,1,0,3
+Coal mining,733,705,571,87,33,1,0,0 0,13,27,17,7,3,0,0,I
+Oil and gas extraction,61,49,36,10,3,0,0,0,0,11,2,0,9,0,0,1
+Mining and quarrying of nonmetallic minerals (except fuels),49,37,27,9,1,0,0,0,0,11,6,0,5,0,0,1
+Mining,901,834,659,123,37,2,0,0,13,60,33,7,20,1,0,6
+Construction,4469,3968,2084,972,613,159,37,0,103,482,337,87,58,4,1,14
+Wholesale trade,2217,1631,1210,365,36,10,5,0,5,557,355,38,164,15,0,14
+Retail trade,4120,3162,2401,635,57,3,2,0,64,880,489,114,277,41,6,31
+"Finance, Insurance, and real estate",514,375,302,56,15,0,1,0,1,130,105,6,19,2,0,7
+US Postal Service,1666,1663,1276,387,0,0,0,0,0,3,3,0,0,0,0,0
+Local and suburban transit and interurban highway passenger transportation,508,377,293,83,0,0,0,0,I,125,107,3,15,3,0,3
+Motor freight transportation and warehousing,2339,1843,1398,381,45,10,4,0,5,452,300,48,104,8,o,36
+Water transportation,448,408,217,158,27,2,3,0,1,35,27,3,5,2,0,3
+Other transportation,278,228,147,68,8,2,2,0,1,49,43,1,5,1,0,0
+Communication,1050,867,555,286,22,4,0,0,0,165,107,5,53,3,0,15
+"Electnc, gas, and sanitary services",679,547,356,157,13,10,0,0,II,121,87,7,27,1,0,10
+"Transportation, communication, and other utilities",5302,4270,2966,1133,115,28,9,0,19,947,671,67,209,18,0,67
+"Hotels, rooming houses, camps, and other lodging places",819,690,490,163,30,3,0,0,4,120,92,6,22,8,0,I
+Personal services,334,235,191,36,6,0,0,0,2,92,69,3,20,3,0,4
+"Automotive repair, services, and garages",333,213,164,45,1,1,0,0,2,110,74,6,30,7,0,3
+Motion pictures,223,200,131,66,1,0,0,0,5,22,19,0,3,0,,1
+Amusement and recreation services (except motion pictures),294,,,77,8,3,0,0,2,50,37,1,12,5,0,
+Health services,2247,236,143,294,13,4,0,25,2,551,446,13,92,,0,3
+Educational services,253,"1,631 190","1,293 145",40,3,I,0,0,1,57,47,2,8,12 2,4 0,49 4
+Membership organizations,590,,,,,,,,,,,,,,,
+,,523,266,234,12,8,2,0,1,51,43,1,7,1,0,15
+Business services services,1672,1314,908,348,49,1,0,0,8,338,275,16,47,8 2,0 1,12 0
+Miscellaneous repair Legal services,136 49,96 33,75 25,17 7,3 I,0 0,I 0,0 0,0 0,37 13,25 10,5 0,7 3,0,1,2
+"Museums, art gallenes, and botanical and zoological gardens",6,6,5,I,0,0,0,0,0,0,0,0,0,0,0,0

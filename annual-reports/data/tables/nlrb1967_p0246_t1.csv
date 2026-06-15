@@ -1,0 +1,21 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6
+"A.11 types, total:",,,,,,
+Elections,8183,2830,3494,125,1704,30
+Eligible voters,628730,123287,342936,26243,135764,500
+Valid votes,557822,108901,305312,23.029,120140,440
+RC cases.,,,,,,
+Elections,7496,2559,3290,112,1831,4
+Eligible voters,592309,114066,327767,25742,124645,89
+Valid votes,526809,100731,292032,22604,111369,73
+RM eases:,,,,,,
+Elections,386,159,141,11,49,26
+Eligible voters,18697,4555,9164,469,4108,411
+Valid votes,16190,4071,7914,394,3444,367
+RD cases:,,,,,,
+Elections,234,103,59,2,70,0
+Eligible voters,12705,3935,5566,32,3172,0
+Valid votes,11134,3475,4990,31,2638,0
+UD cases,,,,,,
+Elections,67,9,4,0,54,
+Eligible voters,5019,731,449,0,3839,
+Valid votes,3689,624,376,0,2669,

@@ -1,0 +1,27 @@
+row_label,col_1,Number of cases showing specific allegations,Percent of total cases
+A. Charges filed against employers under sec 8(a),,,
+Subsections of sec 8(a) — Total cases,,27036,100.0
+8(a)(1),,3019,14
+A (sec 8(a)),,,
+8(a)(1),,27036,100
+8(a)(2),,1038,3.8
+8(a)(3),,11725,43.4
+8(a)(4),,1074,4.0
+8(a)(5),,8136,30.1
+B. Charges filed against unions under sec 8(b),,,
+Subsections of sec 8(b) — Total cases,,12358,100.0
+(sec 8(b)) — first lines,,,
+8(b)(1),,8525,60.0
+8(b)(2),,1771,14.3
+8(b)(3),,928,7.5
+8(b)(4),,2366,19.1
+8(b)(5),,33,0.3
+8(b)(6),,42,0.3
+8(b)(7),,523,4.2
+B1. Analysis of 8(b)(4) — Total cases 8(b)(4),,2366,100.0
+B2. Analysis of 8(b)(7) — Total cases 8(b)(7),,523,100.0
+C. Charges filed under sec 8(e) — Total cases 8(e),,179,100.0
+Against unions alone,,3,1.7
+Against employers alone,,128,71.5
+Against unions and employers,,48,26.8
+D. Charges filed under sec 8(g) — Total cases,,59,100.0

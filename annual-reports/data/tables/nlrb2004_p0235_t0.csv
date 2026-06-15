@@ -1,0 +1,7 @@
+row_label,Participating unions,Total valid votes cast,Valid votes cast in elections won — Total,Valid votes cast in elections won — Votes for unions — AFL-CIO unions,Valid votes cast in elections won — Votes for unions — Other national unions,Valid votes cast in elections won — Votes for unions — Other local unions,Valid votes cast in elections won — Votes for no union,Valid votes cast in elections lost — Total,Valid votes cast in elections lost — Votes for unions — AFL-CIO unions,Valid votes cast in elections lost — Votes for unions — Other national unions,Valid votes cast in elections lost — Votes for unions — Other local unions,Valid votes cast in elections lost — Votes for no union
+"AFL-CIO (1-union, all-rep)",138559,41422,41422,,,19211,27137,27137,,,50549,
+"Other national unions (1-union, all-rep)",5125,2176,,2176,,937,708,,708,,1304,
+"Other local unions (1-union, all-rep)",4592,1732,,,1732,652,558,,,558,1450,
+"1-union elections (sub-total, all-rep)",147836,45330,41422,2176,1732,20800,28403,27137,708,558,53303,
+Total representation elections (Grand total),160424,53605,45974,4389,3362,21358,30533,29217,754,562,54928,
+"1-union elections (RC, sub-total)",120873,36887,33787,1535,1565,15859,24088,22937,635,516,44039,

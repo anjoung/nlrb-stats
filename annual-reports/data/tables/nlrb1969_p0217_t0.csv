@@ -1,0 +1,14 @@
+Division and State,All cases,All C cases,CA,CB,CC,CD,CE,CP,All R cases,RC,RM,RD,UD,AC,UC
+"Per-state rows for South Atlantic states (District of Columbia, Virginia, West Virginia, North Carolina, South Carolina, Georgia, Florida)",,,,,,,,,,,,,,,
+South Atlantic,3141,1815,1320,266,172,38,4,95,1221,1090,65,66,9,3,13
+"Per-state rows for East South Central states (Kentucky, Tennessee, Alabama, Mississippi)",,,,,,,,,,,,,,,
+East South Central,1809,1062,801,166,66,25,0,24,728,648,50,30,5,3,11
+"Per-state rows for West South Central states (Arkansas, Louisiana, Oklahoma, Texas)",,,,,,,,,,,,,,,
+West South Central,2547,1675,1113,317,153,57,0,30,840,706,69,65,1,9,22
+"Per-state rows for Mountain states (Montana, Idaho, Wyoming, Colorado, New Mexico, Arizona, Utah, Nevada)",,,,,,,,,,,,,,,
+Mountain,1420,852,588,129,87,21,2,34,541,439,64,38,5,9,13
+"Per-state rows for Pacific states (Washington, Oregon, California, Alaska, Hawaii)",,,,,,,,,,,,,,,
+Pacific,5201,2992,1834,663,283,76,15,66,2115,1690,249,176,43,10,25
+"Per-outlying-area rows (Puerto Rico, Virgin Islands)",,,,,,,,,,,,,,,
+Outlying Areas,562,188,139,40,4,2,0,3,356,330,8,5,5,23,2
+"Total, all States and Outlying Areas",31303,18451,12022,3973,1836,579,52,489,12107,10308,1030,769,173,134,238

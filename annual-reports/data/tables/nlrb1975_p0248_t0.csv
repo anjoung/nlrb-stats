@@ -1,0 +1,10 @@
+row_label,Participating unions,Total valid votes cast,Valid votes cast in elections won / Total,Valid votes cast in elections won / Votes for unions / AFL-CIO unions,Valid votes cast in elections won / Votes for unions / Teamsters,Valid votes cast in elections won / Votes for unions / Other national unions,Valid votes cast in elections won / Votes for unions / Other local unions,Valid votes cast in elections won / Total votes for no union,Valid votes cast in elections lost / Total,Valid votes cast in elections lost / Votes for unions / AFL-CIO unions,Valid votes cast in elections lost / Votes for unions / Teamsters,Valid votes cast in elections lost / Votes for unions / Other national unions,Valid votes cast in elections lost / Votes for unions / Other local unions,Valid votes cast in elections lost / Total votes for no union
+A. All representation elections,,,,,,,,,,,,,,
+AFL-CIO,294055,57420,57420,,,,29584,70860,70860,,,,136191,
+Teamsters,74404,15150,,15150,,,7150,16449,,16449,,,35655,
+Other national unions,39505,9392,,,9392,,6733,9176,,,,9176,14422,
+Other local unions,16369,5504,,,,5504,1714,3077,,,,,3077,6074
+1-union elections,424353,87466,57420,15150,9392,5504,44201,99562,70860,16449,9176,3077,192342,
+2-union elections,72165,49870,23546,5993,2933,16436,3129,7772,4355,1612,1005,600,12336,
+3 (or more)-union elections,5478,3971,1365,344,1092,120,655,629,,,,,772,
+Total representation elections,501996,140807,82429,21978,12886,23532,47450,107469,75744,18063,10185,3477,206270,

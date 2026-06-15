@@ -1,0 +1,28 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6
+"Hearings completed, total",1200,1150,955,45,150,5
+Initial hearings,1015,989,851,29,109,5
+Hearings on objections and/or challenges,185,161,104,16,41,0
+"Decisions issued, total",1032,982,812,58,112,13
+By Regional Directors,959,916,765,51,100,13
+Elections directed,860,820,688,44,88,13
+Dismissals on record,99,96,77,7,12,0
+By Board,73,66,47,7,12,0
+Transferred by Regional Directors for initial decon,4,4,4,0,0,0
+Elections directed,3,3,0,0,0,0
+Dismissals on record,,1,0,,0,
+Review of Regional Directors' decisions:,,,,,,
+Requests for review received,500,484,401,37,46,5
+Withdrawn before request ruled upon,3,3,2,0,1,0
+"Board action on request ruled upon, total",394,356,294,33,29,3
+Granted,48,42,27,6,9,
+Denied,330,302,260,24,18,3
+Remanded,16,12,7,3,2,0
+"Withdrawn after request granted, before Board review.",1,1,0,1,0,0
+"Board decision after review, total",69,62,43,7,12,0
+Regional Directors' decisions:,,,,,,
+Affirmed,34,32,25,3,4,
+Modified,17,17,9,2,6,
+Reversed,18,13,9,2,2,
+Outcome:,,,,,,
+Election directed,49,44,31,,,
+Dismissals on record,20,18,12,2,4,0

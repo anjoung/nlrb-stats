@@ -1,0 +1,10 @@
+row_label,All C cases — Number,All C cases — Percent of total cases closed,CA cases — Number,CA cases — Percent of total cases closed,CB cases — Number,CB cases — Percent of total cases closed,CC cases — Number,CC cases — Percent of total cases closed,CD cases — Number,CD cases — Percent of total cases closed,CE cases — Number,CE cases — Percent of total cases closed,CG cases — Number,CG cases — Percent of total cases closed,CP cases — Number,CP cases — Percent of total cases closed
+Total number of cases closed,42047,100.0,29411,100.0,8916,100.0,2445,100.0,477,100.0,168,100.0,70,100.0,560,100.0
+Before issuance of complaint,35343,84.5,24023,81.7,8242,92.4,2110,86.3,465,97.5,150,89.3,48,68.6,505,90.2
+"After issuance of complaint, before opening of hearing",4560,10.9,3774,12.8,442,5.0,269,11.0,8,1.6,11,6.5,18,25.7,40,7.1
+"After hearing opened, before issuance of administrative law judge's decision",159,0.4,116,0.4,17,0.2,21,0.9,0,0.0,1,0.6,0,0.0,4,0.7
+"After administrative law judge's decision, before issuance of Board decision",46,0.1,43,0.2,1,0.0,2,0.1,0,0.0,0,0.0,0,0.0,0,0.0
+After Board order adopting administrative law judge's decision in absence of exceptions,219,0.5,159,0.6,43,0.5,4,0.2,0,0.0,6,3.5,0,0.0,0,0.0
+"After Board decision, before circuit court decree",380,0.9,158,2.7,146,1.6,28,1.1,0,0.0,0,0.0,6,8.6,1,0.2
+"After circuit court decree, before Supreme Court action",526,1.3,484,1.6,22,0.2,11,0.4,,,0,0.0,0,0.0,6,1.1
+After Supreme Court action,1,0.0,1,0.0,0,0.0,,,,,0,0.0,0,0.0,0,0.0

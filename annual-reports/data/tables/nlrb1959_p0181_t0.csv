@@ -1,0 +1,16 @@
+Type of case,Total elections,Type of election / Consent 1,Type of election / Stipulated 2,Type of election / Board ordered 3,Type of election / Regional Director directed 4
+"All elections, total",5660,2358,1783,1507,12
+"Eligible voters, total",447322,120634,169358,156816,514
+"Valid votes, total",401421,106440,154368,140166,447
+"RC cases, total",5022,2092,1631,1299,
+Eligible voters (RC cases),395635,105194,149157,141284,
+Valid votes (RC cases),355529,92678,135803,127048,
+"RM cases, total",406,191,109,106,
+Eligible voters (RM cases),34388,8691,14772,10925,
+Valid votes (RM cases),30265,7854,13442,8969,
+"RD cases, total",216,72,43,101,
+Eligible voters (RD cases),16231,6200,5429,4602,
+Valid votes (RD cases),14656,5388,5123,4145,
+"UD cases, total",16,3,0,1,12
+Eligible voters (UD cases),1068,549,0,5,514
+Valid votes (UD cases),971,520,0,4,447

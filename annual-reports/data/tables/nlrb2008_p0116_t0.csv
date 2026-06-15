@@ -1,0 +1,23 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13
+Other national unions.........................,822,61.2,503,,503,,319,57077,33901,,33901,,23176
+1-union elections............................,1470,61.9,910,355,503,52,560,98292,57030,18979,33901,4150,41262
+National v. National...........................,41,78.0,32,,32,,9,2806,2518,,2518,,288
+National v. Local................................,26,92.3,24,,15,9,2,2186,2117,,1348,769,69
+Local v. Local.....................................,2,100.0,2,,,2,0,64,64,,,64,0
+AFL-CIO v. AFL-CIO......................,23,69.6,16,16,,,7,933,514,514,,,419
+AFL-CIO v. Local..............................,10,80.0,8,3,,5,2,1643,1474,916,,558,169
+AFL-CIO v. National.........................,29,82.8,24,13,11,,5,4320,3741,1700,2041,,579
+2-union elections............................,131,80.9,106,32,58,16,25,11952,10428,3130,5907,1391,1524
+National v. National v. Local.............,1,100.0,1,,1,0,0,321,321,,321,0,0
+National v. National v. National.........,1,100.0,1,,1,,0,116,116,,116,,0
+National v. National v. National,1,0.0,0,,0,,1,223,0,,0,,223
+National v. Local v. Local..................,2,100.0,2,,0,2,0,93,93,,0,93,0
+AFL-CIO v. AFL-CIO v. Local,4,100.0,4,2,,2,0,16,16,8,,8,0
+v. Local...............................................,,,,,,,,,,,,,
+3 (or more)-union elections............,9,88.9,8,2,2,4,1,769,546,8,437,101,223
+Total RC elections..........................,1610,63.6,1024,389,563,72,586,111013,68004,22117,40245,5642,43009
+C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases
+Other national unions……………….,16,31.3,5,,5,,11,1541,742,,742,,799
+AFL-CIO...........................................,9,11.1,1,1,,,8,773,102,102,,,671
+1-union elections...........................,25,24.0,6,1,5,0,19,2314,844,102,742,0,1470
+Total RMelections........................,25,24.0,6,1,5,0,19,2314,844,102,742,0,1470

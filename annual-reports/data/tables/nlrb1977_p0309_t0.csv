@@ -1,0 +1,11 @@
+row_label,Participating unions,Total elections,Percent won,Elections won by unions / Total,Elections won by unions / AFL-CIO unions,Elections won by unions / Teamsters,Elections won by unions / Other national unions,Elections won by unions / Other local unions,Elections in which no representative chosen,Employees eligible to vote / Total,Employees eligible to vote / In elections won,Employees eligible to vote / AFL-CIO unions,Employees eligible to vote / Teamsters,Employees eligible to vote / Other national unions,Employees eligible to vote / Other local unions,Employees in units in which no representative chosen
+B. Elections in RC cases,,,,,,,,,,,,,,,,
+AFL-CIO (1-union),4608,47.5,2188,2188,,,,2420,301265,99000,99000,,,,,202265
+Teamsters (1-union),2431,44.6,1083,,1083,,,1348,85997,31135,,31135,,,,54862
+Other national unions,440,45.9,202,,,202,,238,45341,14378,,,,14378,,
+Other local unions,346,60.1,208,,,,208,138,,10355,,,,,10355,13131
+1-union elections (RC subtotal),7825,47.0,3681,2188,1083,202,208,4144,458961,154868,99000,31135,14378,10355,,
+2-union elections (RC subtotal),482,75.1,362,157,89,31,85,115,63504,45378,16165,8756,3889,16568,,18126
+Total RC elections,8336,48.0,4000,2331,1160,233,208,4267,531192,200706,117481,34158,18259,30808,,315397
+C. Elections in RM cases,,,,,,,,,,,,,,,,
+AFL-CIO (1-union RM),175,29.7,52,52,,,,123,5338,1699,1699,,,,,3640

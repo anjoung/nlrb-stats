@@ -1,0 +1,8 @@
+row_label,Division and State,Total elections,Number of elections in which representation rights were won by unions / Total,Number of elections in which no representative was chosen / AFL-CIO unions,Total number of employees eligible to vote / Teamsters,Valid votes cast for unions / Other national unions,Eligible employees in elections in which employees chose no representation / Other local unions,Number of elections in which no representative was chosen,Total number of employees eligible to vote,Total valid votes cast,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Eligible employees in elections in which employees chose no representation
+Nevada,3,0,0,0,0,0,3,,,,,,,,
+Mountain,34,9,6,2,1,0,25,1601,1402,836,735,81,20,0,566
+Washington,30,10,6,0,0,4,1,1116,997,432,308,0,0,65,565
+Pacific,128,36,20,8,5,4,94,5882,4836,2071,1594,341,6,130,2765
+Puerto Rico,2,0,0,0,0,0,2,,,,,,,,
+Outlying Areas,2,0,0,0,0,0,2,,,,,,,,
+"Total, All States and areas",587,170,53,37,37,7,417,30316,26245,12345,9612,1692,348,693,13900

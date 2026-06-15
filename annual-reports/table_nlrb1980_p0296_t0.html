@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.296 table — NLRB FY1980</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1980.html">FY1980</a> &rsaquo; p.296 table</p>
+<h1>p.296 table</h1>
+<p class="meta">source page 296 &middot; <code>nlrb1980_p0296_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Mi</th><td>Mi</td><td>RRi _4-.t.</td><td>r .</td><td>RAF .v.</td><td>RR tea l &#x27;</td><td>R •-■</td><td>EE v3- 4</td><td>gg 4te</td><td>El -74 &quot;&quot;</td><td>ZN t.: 4 &quot;&quot;</td><td>N -■</td><td>g -■</td><td>A .</td><td>g .</td><td>R 6</td><td>RI§ .4.</td></tr>
+<tr><th class="stub" scope="row"></th><td>li g 6 1</td><td>gn</td><td>R</td><td>Pg=P</td><td class="blank"></td><td>El</td><td>1E</td><td>li -;</td><td>El</td><td>Rg</td><td class="blank"></td><td>g=</td><td>4</td><td>N</td><td>i c,&quot; -</td><td>04° _</td></tr>
+<tr><th class="stub" scope="row"></th><td>611 in</td><td>VD2</td><td class="blank"></td><td>E-°,4</td><td>°3</td><td>°</td><td>g72.</td><td>RA .;,.;</td><td>RI .46</td><td>RN .-</td><td>2</td><td>R</td><td>R</td><td>A</td><td>R .</td><td>°E°</td></tr>
+<tr><th class="stub" scope="row"></th><td>ii E..,</td><td>&#x27; &#x27;&#x27;1°2 4</td><td>M</td><td>§ 83 -■</td><td>&#x27; &#x27;&#x27;E -■</td><td class="blank"></td><td>HEg</td><td class="blank"></td><td>RR .■&#x27;,.■</td><td>OR a</td><td>F=</td><td>&#x27;4</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>.50g</td><td>HEE C., CC</td><td class="blank"></td><td>,-&quot;. RFE aa-■</td><td>il 4-■</td><td>g</td><td>RE aa</td><td>PH aa</td><td>RE ee</td><td>EU ea .</td><td>g</td><td>. A</td><td>g ...</td><td>§ a</td><td>g . g</td><td>gRii</td></tr>
+<tr><th class="stub" scope="row"></th><td>-a t F</td><td>gg E aa &quot;</td><td>F 4</td><td>i g i 4aa</td><td>EH uia</td><td>, &#x27;Z. = -■</td><td>IF 4a</td><td>. . g ee</td><td>R g e.- &quot;</td><td>A5 - 3 ,-a</td><td>1</td><td>g ...z</td><td>E a&#x27;</td><td>g</td><td>g -■ Li</td><td>R2E •-■</td></tr>
+<tr><th class="stub" scope="row"></th><td>MO</td><td>RRR d.--i</td><td>E :::&#x27;</td><td>gg il . &#x27; cr:,e</td><td>gE 7. 4 - :</td><td>g ci</td><td>gg FIt .:</td><td>EM 7.1v.:</td><td>E g gg</td><td>Ai</td><td>R a</td><td>g a</td><td>R e</td><td>i -;</td><td>F --</td><td>gRg -w</td></tr>
+<tr><th class="stub" scope="row">l &#x27; all z°,...3</th><td>l &#x27; all z°,...3</td><td>gin --,-&gt;</td><td>R 7. 7</td><td>ag , , F ,,6 - :</td><td>RR</td><td>E CC</td><td>P 7. 4=</td><td>RE s . f .i&#x27;</td><td>U</td><td>gg</td><td>g a</td><td>g a</td><td>V Cs</td><td>g 0.1</td><td class="blank"></td><td>RR&#x27; %</td></tr>
+<tr><th class="stub" scope="row">.. V&gt; . gw2A00 z 1 5.P21 t</th><td>.. V&gt; . gw2A00 z 1 5.P21 t</td><td>n-%</td><td>2</td><td>F84</td><td>AM</td><td>4</td><td>RA</td><td>RE</td><td>Ev,</td><td class="blank"></td><td>0</td><td class="blank"></td><td>3</td><td>A</td><td>§ a</td><td>m...t, cq</td></tr>
+<tr><th class="stub" scope="row"></th><td>1</td><td>=_ .</td><td>,</td><td class="blank"></td><td class="blank"></td><td>_</td><td>,.</td><td class="blank"></td><td>.,</td><td>,.</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>CO</td><td>. ,</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>tl &#x27;i gil</td><td>Loo</td><td>cq</td><td>mm,</td><td>0M</td><td>0</td><td>0</td><td>MC41</td><td>a ccA</td><td>m%</td><td>c4</td><td>CO</td><td>m.</td><td>m .</td><td>c ..</td><td>oo. .</td></tr>
+<tr><th class="stub" scope="row"></th><td>iE m;., E.</td><td>73 0 -</td><td>°</td><td>2 m 2</td><td>273</td><td>2</td><td class="blank"></td><td>-&#x27;17i</td><td>gg i</td><td>2A</td><td>&quot;</td><td>&#x27;&quot;</td><td>.,</td><td>A</td><td>R</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>&#x27;-&#x27;-:</td><td>g3</td><td>224</td><td>VA</td><td>Z</td><td>V°</td><td>42</td><td>At7;</td><td>2A</td><td>an</td><td class="blank"></td><td class="blank"></td><td>43</td><td>%</td><td>&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;9</td></tr>
+<tr><th class="stub" scope="row"></th><td>.1 E.</td><td>2&#x27;&quot;:4</td><td>1</td><td class="blank"></td><td>8 g</td><td>g</td><td>42</td><td>2R</td><td class="blank"></td><td>-4ZgR</td><td class="blank"></td><td>&quot;</td><td>4</td><td>8 ...</td><td>P , ..,</td><td>04c&quot;</td></tr>
+<tr><th class="stub" scope="row">F..</th><td>F..</td><td>7.&quot;-°3 4 PEA &quot;V g PA 44 54</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>P</td><td>A</td><td>2</td><td class="blank"></td><td>A</td><td>c•I</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">. o. g 4 f3 a 1</th><td>. o. g 4 f3 a 1</td><td>• 1 T OT mm ,1,8 , &quot;..cA •;R . m 1_t6&quot; w t .&quot; tb &#x27;-.) 4%ra. m ...J.,: , ,m - ;, 15 .; a a.5 q 05m. -a 5 .. n ..2 oef, p z = 7 &#x27; -&#x27;,7 V IF; 6&#x27;2 C&#x27;g g c g..02a -,8 4 -0 &#x27;Neg Eg 4 2 lg 04 ,. °. .-tV.: - . t, &#x27;4 g c IgpO1*§«/A 7.. =13&#x27;2 1?..v7,=5. 70424.2E -0..t.1:1S3.2=2, -ci /w ..5 -maix ^ be -, m -0 &#x27;&#x27;&#x27;.-. @EG• J w ,4m A 5 g__-0 . . 3 . , 144-a. gE,o,...0 - 1-0 . .4 0.- 5 3 ano g to &#x27; .. g 5 .4 . &#x27;5 ET g i 5,,,,,-,3°..,0= 5vE-grt..-..,.A.bi- ,rt g P . P t5 .i . j1; x .7 ° i 4 11 I 1&quot; g q .- g 1 L ai It&#x27; el r2 - .4 .T. F: 11 KE. g-0, E . , . . g .?, § k 0.2 v, P. -51.15 op, 2,&quot; .7°.&#x27; c`&#x27; , ,1 4 ,9.1.A .s ?&#x27;t_, 5 Er.,,c4.e n,</td><td>._3</td><td>a.,E</td><td>• 1 T OT mm ,1,8 , &quot;..cA •;R . m 1_t6&quot; w t .&quot; tb &#x27;-.) 4%ra. m ...J.,: , ,m - ;, 15 .; a a.5 q 05m. -a 5 .. n ..2 oef, p z = 7 &#x27; -&#x27;,7 V IF; 6&#x27;2 C&#x27;g g c g..02a -,8 4 -0 &#x27;Neg Eg 4 2 lg 04 ,. °. .-tV.: - . t, &#x27;4 g c IgpO1*§«/A 7.. =13&#x27;2 1?..v7,=5. 70424.2E -0..t.1:1S3.2=2, -ci /w ..5 -maix ^ be -, m -0 &#x27;&#x27;&#x27;.-. @EG• J w ,4m A 5 g__-0 . . 3 . , 144-a. gE,o,...0 - 1-0 . .4 0.- 5 3 ano g to &#x27; .. g 5 .4 . &#x27;5 ET g i 5,,,,,-,3°..,0= 5vE-grt..-..,.A.bi- ,rt g P . P t5 .i . j1; x .7 ° i 4 11 I 1&quot; g q .- g 1 L ai It&#x27; el r2 - .4 .T. F: 11 KE. g-0, E . , . . g .?, § k 0.2 v, P. -51.15 op, 2,&quot; .7°.&#x27; c`&#x27; , ,1 4 ,9.1.A .s ?&#x27;t_, 5 Er.,,c4.e n,</td><td>• 1 T OT mm ,1,8 , &quot;..cA •;R . m 1_t6&quot; w t .&quot; tb &#x27;-.) 4%ra. m ...J.,: , ,m - ;, 15 .; a a.5 q 05m. -a 5 .. n ..2 oef, p z = 7 &#x27; -&#x27;,7 V IF; 6&#x27;2 C&#x27;g g c g..02a -,8 4 -0 &#x27;Neg Eg 4 2 lg 04 ,. °. .-tV.: - . t, &#x27;4 g c IgpO1*§«/A 7.. =13&#x27;2 1?..v7,=5. 70424.2E -0..t.1:1S3.2=2, -ci /w ..5 -maix ^ be -, m -0 &#x27;&#x27;&#x27;.-. @EG• J w ,4m A 5 g__-0 . . 3 . , 144-a. gE,o,...0 - 1-0 . .4 0.- 5 3 ano g to &#x27; .. g 5 .4 . &#x27;5 ET g i 5,,,,,-,3°..,0= 5vE-grt..-..,.A.bi- ,rt g P . P t5 .i . j1; x .7 ° i 4 11 I 1&quot; g q .- g 1 L ai It&#x27; el r2 - .4 .T. F: 11 KE. g-0, E . , . . g .?, § k 0.2 v, P. -51.15 op, 2,&quot; .7°.&#x27; c`&#x27; , ,1 4 ,9.1.A .s ?&#x27;t_, 5 Er.,,c4.e n,</td><td>a -i&quot;,&#x27;■</td><td>a.</td><td>Va]</td><td>./17,</td><td>• 1 T OT mm ,1,8 , &quot;..cA •;R . m 1_t6&quot; w t .&quot; tb &#x27;-.) 4%ra. m ...J.,: , ,m - ;, 15 .; a a.5 q 05m. -a 5 .. n ..2 oef, p z = 7 &#x27; -&#x27;,7 V IF; 6&#x27;2 C&#x27;g g c g..02a -,8 4 -0 &#x27;Neg Eg 4 2 lg 04 ,. °. .-tV.: - . t, &#x27;4 g c IgpO1*§«/A 7.. =13&#x27;2 1?..v7,=5. 70424.2E -0..t.1:1S3.2=2, -ci /w ..5 -maix ^ be -, m -0 &#x27;&#x27;&#x27;.-. @EG• J w ,4m A 5 g__-0 . . 3 . , 144-a. gE,o,...0 - 1-0 . .4 0.- 5 3 ano g to &#x27; .. g 5 .4 . &#x27;5 ET g i 5,,,,,-,3°..,0= 5vE-grt..-..,.A.bi- ,rt g P . P t5 .i . j1; x .7 ° i 4 11 I 1&quot; g q .- g 1 L ai It&#x27; el r2 - .4 .T. F: 11 KE. g-0, E . , . . g .?, § k 0.2 v, P. -51.15 op, 2,&quot; .7°.&#x27; c`&#x27; , ,1 4 ,9.1.A .s ?&#x27;t_, 5 Er.,,c4.e n,</td><td>.e. V</td><td>tobo</td><td>• 1 T OT mm ,1,8 , &quot;..cA •;R . m 1_t6&quot; w t .&quot; tb &#x27;-.) 4%ra. m ...J.,: , ,m - ;, 15 .; a a.5 q 05m. -a 5 .. n ..2 oef, p z = 7 &#x27; -&#x27;,7 V IF; 6&#x27;2 C&#x27;g g c g..02a -,8 4 -0 &#x27;Neg Eg 4 2 lg 04 ,. °. .-tV.: - . t, &#x27;4 g c IgpO1*§«/A 7.. =13&#x27;2 1?..v7,=5. 70424.2E -0..t.1:1S3.2=2, -ci /w ..5 -maix ^ be -, m -0 &#x27;&#x27;&#x27;.-. @EG• J w ,4m A 5 g__-0 . . 3 . , 144-a. gE,o,...0 - 1-0 . .4 0.- 5 3 ano g to &#x27; .. g 5 .4 . &#x27;5 ET g i 5,,,,,-,3°..,0= 5vE-grt..-..,.A.bi- ,rt g P . P t5 .i . j1; x .7 ° i 4 11 I 1&quot; g q .- g 1 L ai It&#x27; el r2 - .4 .T. F: 11 KE. g-0, E . , . . g .?, § k 0.2 v, P. -51.15 op, 2,&quot; .7°.&#x27; c`&#x27; , ,1 4 ,9.1.A .s ?&#x27;t_, 5 Er.,,c4.e n,</td><td>• 1 T OT mm ,1,8 , &quot;..cA •;R . m 1_t6&quot; w t .&quot; tb &#x27;-.) 4%ra. m ...J.,: , ,m - ;, 15 .; a a.5 q 05m. -a 5 .. n ..2 oef, p z = 7 &#x27; -&#x27;,7 V IF; 6&#x27;2 C&#x27;g g c g..02a -,8 4 -0 &#x27;Neg Eg 4 2 lg 04 ,. °. .-tV.: - . t, &#x27;4 g c IgpO1*§«/A 7.. =13&#x27;2 1?..v7,=5. 70424.2E -0..t.1:1S3.2=2, -ci /w ..5 -maix ^ be -, m -0 &#x27;&#x27;&#x27;.-. @EG• J w ,4m A 5 g__-0 . . 3 . , 144-a. gE,o,...0 - 1-0 . .4 0.- 5 3 ano g to &#x27; .. g 5 .4 . &#x27;5 ET g i 5,,,,,-,3°..,0= 5vE-grt..-..,.A.bi- ,rt g P . P t5 .i . j1; x .7 ° i 4 11 I 1&quot; g q .- g 1 L ai It&#x27; el r2 - .4 .T. F: 11 KE. g-0, E . , . . g .?, § k 0.2 v, P. -51.15 op, 2,&quot; .7°.&#x27; c`&#x27; , ,1 4 ,9.1.A .s ?&#x27;t_, 5 Er.,,c4.e n,</td><td>t 4 V W 0 Ex .pa 0 tq V-La</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1980_p0296_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1980_p0296.webp" loading="lazy" alt="Source page 296 of NLRB FY1980 annual report">
+<figcaption>Source: NLRB Annual Report FY1980, p. 296.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

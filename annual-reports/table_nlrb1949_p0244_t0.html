@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.244 table — NLRB FY1949</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1949.html">FY1949</a> &rsaquo; p.244 table</p>
+<h1>p.244 table</h1>
+<p class="meta">source page 244 &middot; <code>nlrb1949_p0244_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">34-RC-59</th><td>Erwin Cotton Mills Co., Plant No. 7.</td><td>32-RC-22 20-RC-16</td><td>Frolic Foot Wear, Inc. Fruitvale Canning Co.</td></tr>
+<tr><th class="stub" scope="row">21-RC-556</th><td>Essex Wire Corp.</td><td>2-RC-163</td><td>Fuller, George A., Co.</td></tr>
+<tr><th class="stub" scope="row">15-RC-201</th><td>Ethyl Corp.</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">15-RC-89</th><td>Eunice Iron Works, Inc.</td><td>6-RC-221</td><td>G. G. G. Metal Stamp-</td></tr>
+<tr><th class="stub" scope="row">19-RC-106</th><td>Everett Automotive Jobbers .Association, The.</td><td>1-RC-264</td><td>ing Co., Inc. Galt Block Warehouse, Co, The.</td></tr>
+<tr><th class="stub" scope="row">3-RC-151</th><td>Everybody&#x27;s Daily Pub- lishing Co.</td><td>39-RC-33</td><td>Galveston Cotton Ex- change &amp; Board of</td></tr>
+<tr><th class="stub" scope="row">5-RC-1</th><td>Excelsior Pearl Work Inc.</td><td>30-RC-130 2-RC-723</td><td>Trade. Gardner Denver Co. Gary Enterprises, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-RC-239</th><td>Fairbanks Co., The.</td><td>34-RC-51</td><td>Gate City Transit Co.</td></tr>
+<tr><th class="stub" scope="row">2-RC-315</th><td>Fairchild Camera &amp; In- strument Co.</td><td>15-RC-82</td><td>Gaylord Container Corp.</td></tr>
+<tr><th class="stub" scope="row">10-RC-401</th><td>Fairchild Engine &amp; Air- plane Corp.</td><td>16-RC-292</td><td>Geier-Jackson, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-RC-164</th><td>Fairchild Engine &amp; Air- plane Corp (Aircraft Di vision) .</td><td>15-RC-236</td><td>George C. Lucas, Trus- tee of The May Brothers.</td></tr>
+<tr><th class="stub" scope="row">39-RC-22</th><td>Inc.</td><td>3-RC-116</td><td>General Aniline &amp; Film</td></tr>
+<tr><th class="stub" scope="row">39-RC-83</th><td>Fairmont Foods Fairmont Food Co.</td><td>3-RC-40</td><td>Corp. General Aniline &amp;</td></tr>
+<tr><th class="stub" scope="row">3-RC-94</th><td>Fairmont Foods Co.</td><td class="blank"></td><td>Film Corp., Ansco Division</td></tr>
+<tr><th class="stub" scope="row">18-RC-123</th><td>Fairmont Foods Co. Fall River Gas</td><td>32-RC-93</td><td>of. General Beverage Co.</td></tr>
+<tr><th class="stub" scope="row">1-RC-865 15-RC-126</th><td>Works Co. Faulk-Collier Bonded</td><td>14-RC-301 10-RC-337</td><td>General Box Co. General Broadcasting Co.</td></tr>
+<tr><th class="stub" scope="row">1-RC-231</th><td>Warehouses, Inc. Fayscott Corp.</td><td>4-RC-286</td><td>General Ceramics Co. General Die &amp; Stamping</td></tr>
+<tr><th class="stub" scope="row">4-RC-233</th><td>Federal Creosoting Co.</td><td>3-RC-238</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">8-RC-355</th><td>Ferry Cap &amp; Set Screw Co.</td><td>3-RC-90</td><td>Co. General Electric Co.</td></tr>
+<tr><th class="stub" scope="row">13-RC-600</th><td>Filing Equipment Bu- reau of Illinois, Inc.</td><td>20-RC-101 8-RC-121</td><td>General Electric Co. General Electric Co.</td></tr>
+<tr><th class="stub" scope="row">2-RC-378</th><td>Finkel Umbrella Frame</td><td>10-RC-132</td><td>General Electric Co. Electric</td></tr>
+<tr><th class="stub" scope="row">13-RC-287</th><td>Co. Firestone Tire &amp; Rub-</td><td>16-RC-186 1-RC-383</td><td>General Co. General Electric Co.</td></tr>
+<tr><th class="stub" scope="row">1-RC-334</th><td>ber Co. Fitchburg Paper Co.</td><td>1-RC-800 13-RC-232</td><td>General Electric Corp. General Electric</td></tr>
+<tr><th class="stub" scope="row">3-RC-223</th><td>Fitzsimons, John J.</td><td class="blank"></td><td>Motor Co.</td></tr>
+<tr><th class="stub" scope="row">16-RC-355 15-RC-90</th><td>Fleming &amp; Son, Inc.</td><td>21-RC-632</td><td>General Electric Supply Corp.</td></tr>
+<tr><th class="stub" scope="row">15-RC-120</th><td>Flintkote Co., The. Flintkote Co, The.</td><td>13-RC-622</td><td>General Mills Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Flodin Lumber Co.</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">19-RC-223</th><td class="blank"></td><td>35-RC-51</td><td>General Motors Corp.</td></tr>
+<tr><th class="stub" scope="row">10-RC-476</th><td>Florida Wholesale Gro-</td><td>35-RC-71</td><td>General Motors Corp.</td></tr>
+<tr><th class="stub" scope="row"></th><td>cery Co., Inc.</td><td>7-RC-93</td><td>General Motors Corp. General Motors</td></tr>
+<tr><th class="stub" scope="row">13-RC-252</th><td>Florsheim Retail Boot Shop.</td><td>13-RC-176 8-RC-368</td><td>Corp. General Motors Corp.</td></tr>
+<tr><th class="stub" scope="row">-4-RC-119</th><td>Fogel Refrigerator Co.</td><td>21-RC-65</td><td>General Motors Corp.,</td></tr>
+<tr><th class="stub" scope="row">10-RC-155</th><td>Foote &amp; Davies. Ford Motor Co.</td><td class="blank"></td><td>Chevrolet Division.</td></tr>
+<tr><th class="stub" scope="row">8-RC-147</th><td>Ford Motors Co. coln Mercury</td><td>7-RC-45</td><td>General Motors Corp.,</td></tr>
+<tr><th class="stub" scope="row">21-RC-236</th><td>(Lin- Divi- sion).</td><td class="blank"></td><td>Buick Motor Divi- sion.</td></tr>
+<tr><th class="stub" scope="row">10-RC-192 21-RC-446</th><td>Foremost Dairies, Inc. Forster Shipbuilding</td><td>20-RC-284</td><td>General Nailing Mach- ine Corp.</td></tr>
+<tr><th class="stub" scope="row">16-RC-214</th><td>Co., Inc. Fort Worth Steel Ma-</td><td>19-RC-47 21-RC-118</td><td>General Petroleum Co. General Petroleum</td></tr>
+<tr><th class="stub" scope="row"></th><td>chinery Co.</td><td>10-RC-33</td><td>Corp. General Plywood Corp.</td></tr>
+<tr><th class="stub" scope="row">16-RC-115 18-RC-354</th><td>Foster Wheeler Corp. Fox Abbott Lumber Co.</td><td>10-RC--387</td><td>General Steel Tank Co.,</td></tr>
+<tr><th class="stub" scope="row"></th><td>Franklin Laundry.</td><td>16-RC-50</td><td>Inc. General Tire &amp; Rubber</td></tr>
+<tr><th class="stub" scope="row">5-RC-159</th><td>French Oil Mill</td><td class="blank"></td><td>Co.</td></tr>
+<tr><th class="stub" scope="row">8-RC-253</th><td>Ma- chinery Co., The.</td><td>10-RC-412</td><td>Georgia Fertilizer Co.</td></tr>
+<tr><th class="stub" scope="row">6-RC-106</th><td>Frick Co.</td><td>7-RC-41</td><td>Gerity Michigan Corp.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1949_p0244_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1949_p0244.webp" loading="lazy" alt="Source page 244 of NLRB FY1949 annual report">
+<figcaption>Source: NLRB Annual Report FY1949, p. 244.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

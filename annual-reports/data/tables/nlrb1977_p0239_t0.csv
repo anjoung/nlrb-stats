@@ -1,0 +1,18 @@
+row_label,col_1,col_2,col_3
+Hearings completed,46,5,34
+Decision issued after hearing,45,5,33
+By regional directors,44,5,32
+By Board,1,o,1
+Transferred by regional directors for initial decision Review of regional directors' decisions,1,0,1
+Requests for review received,1,0,1
+Withdrawn before request ruled upon,0,0,0
+"Board action on requests ruled upon, total",1,o,1
+Granted,1,0,1
+Denied,0,0,0
+Remanded,0,0,0
+,,0,0
+"Withdrawn after request granted, before Board review_ _",0,,
+"Board decision after review, total",0,0,0
+decisions,,,
+Regionul directors' Affirmed,o,0,o
+Modified Reversed,0 0,o o,0 0

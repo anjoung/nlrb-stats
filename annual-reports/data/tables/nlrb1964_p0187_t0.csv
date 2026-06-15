@@ -1,0 +1,9 @@
+row_label,Industry group,Total all cases,All C cases,CA,CB,CC,CD,CE,CP,All R cases,RC,RM,RD,UD
+Construction,2172,2394,700,665,646,216,18,149,377,131,228,18,15,1
+Wholesale trade,1272,618,275,117,189,8,8,21,646,549,60,31,6,
+Retail trade,3058,1306,1072,112,82,13,10,17,1752,1178,439,240,15,
+"Finance, insurance, and real estate",245,76,53,10,5,0,0,0,169,143,22,4,,
+"Transportation, communication, and other public utilities",1912,1912,1211,490,159,138,45,2,26,1781,1295,87,59,9
+Transportation,,,,,,,,,,,,,,
+Services,1887,1355,768,190,61,14,6,16,708,726,52,29,,
+Services,,,,,,,,,,,,,,

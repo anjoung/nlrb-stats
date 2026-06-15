@@ -1,0 +1,8 @@
+row_label,Total elections,Percent won,Elections won by unions — Total won,Elections won by unions — AFL-CIO unions,Elections won by unions — Other national unions,Elections won by unions — Other local unions,Elections won by unions — Other (residual),Elections in which no representative chosen,Employees eligible to vote — Total,Employees eligible — In elections won — Total,Employees eligible — In elections won — AFL-CIO unions,Employees eligible — In elections won — Other national unions,Employees eligible — In elections won — Other local unions,Employees eligible — In elections won — Other,Employees eligible — In elections where no representative chosen
+"AFL-CIO (1-union, RC)",2210,52.9,1168,1164,,,,1042,143626,58006,57724,,,282,85622
+"Other national unions (1-union, RC)",89,70.8,63,,63,,,26,7792,6250,,3551,,,3683
+"Other local unions (1-union, RC)",106,71.7,76,,,76,,30,6458,3409,,,3409,,2699
+1-union elections (RC subtotal),2405,54.3,1307,1164,63,76,,1098,157876,65666,57724,3551,4109,282,92004
+2-union elections (RC subtotal),143,83.2,119,91,14,14,,24,14529,11352,7190,1670,2492,,3177
+3 (or more)-union elections (RC subtotal),32,100.0,32,26,,6,,0,1713,1713,536,91,1086,,0
+Total RC elections,2580,54.8,1458,1285,95,78,,1122,173912,78731,65450,5594,7687,360,95181

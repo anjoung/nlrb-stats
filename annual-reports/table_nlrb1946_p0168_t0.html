@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.168 table — NLRB FY1946</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1946.html">FY1946</a> &rsaquo; p.168 table</p>
+<h1>p.168 table</h1>
+<p class="meta">source page 168 &middot; <code>nlrb1946_p0168_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">15-R-1541</th><td>International Cellucotton Products Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1923</th><td>International Harvester Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3276</th><td>International Harvester Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3300</th><td>International Harvester .Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1456</th><td>International Minerals &amp; Chemicals Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-6042</th><td>International Plainfield Motor Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2188</th><td>International Seal &amp; Lock Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1267</th><td>International Shoe Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1292</th><td>International Shoe Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2653</th><td>International Smelting &amp; Refining Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3128</th><td>Interstate Machinery Co.. Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-1915</th><td>Interstate Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1155</th><td>Iroquois Gas Corp.</td></tr>
+<tr><th class="stub" scope="row">9-R-2098 2-R-6030 .</th><td>Irwin Auger Bit Co. Isthmian Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1996</th><td>&amp; L Steel Barrel Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>J</td></tr>
+<tr><th class="stub" scope="row">16-R-1547</th><td>Jackson, Byron Co. Jackson,</td></tr>
+<tr><th class="stub" scope="row">20-R-1635</th><td>Byikin Co. Machine Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-2045</th><td>Jaeger Jansen, Walter, &amp;</td></tr>
+<tr><th class="stub" scope="row">20-R-1309</th><td>Son. Jansen, Walter, &amp; Son.</td></tr>
+<tr><th class="stub" scope="row">20-R-1310</th><td>Chair Co.</td></tr>
+<tr><th class="stub" scope="row">1I-R-832</th><td>Jasper</td></tr>
+<tr><th class="stub" scope="row">11-R-898</th><td>Jasper Novelty Furniture Wood Products Co.,</td></tr>
+<tr><th class="stub" scope="row">11-R-912</th><td>Co. Jasper Inc.</td></tr>
+<tr><th class="stub" scope="row">15-R-1559</th><td>Jefferson island Salt Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>0. D., &amp; Co. Andrew, Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3561 21-R-2975</th><td>Jennings, Jergens,</td></tr>
+<tr><th class="stub" scope="row">5-R-2034 4-R-1978</th><td>Johnson Carper Furniture Co., Inc. Johnson, Charles, Eneu &amp; Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>S. T.</td></tr>
+<tr><th class="stub" scope="row">20-R-1608</th><td>Johnson, &amp; Laughlin Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">6-R-1168</th><td>Jones &amp; Laughlin Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">6-R-1191</th><td>Jones</td></tr>
+<tr><th class="stub" scope="row">13-R-3158</th><td>Shoe Mfg. Co. Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1919</th><td>Jung Jupiter</td></tr>
+<tr><th class="stub" scope="row">2-R-6044 4-R-1817</th><td>K. M. V., Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Kaiser Cargo, Inc.</td></tr>
+<tr><th class="stub" scope="row">17-R-1117</th><td>Power &amp; Light &amp; Trecker</td></tr>
+<tr><th class="stub" scope="row">13-R-2865</th><td>Kansas Co. Kearney Corp. Hayes Wheel Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2058</th><td>Kelsey Kennecott Copper Corp.,</td></tr>
+<tr><th class="stub" scope="row">16-R-939</th><td>Mines Division Utilities Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-798</th><td>Chino</td></tr>
+<tr><th class="stub" scope="row">13-R-3180</th><td>Kentucky Keystone Steel &amp; Wire Keystone Steel &amp; Wire</td></tr>
+<tr><th class="stub" scope="row">13-R-3189</th><td>Co. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3200 2-R-5265</th><td>Steel &amp; Wire Co. Walter, &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Keystone Kidde, Kimberly Clark Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3061 18-R-1378 8-R-1918</th><td>Kimberly Clark Corp. Transit Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Kinsman Kittinger Co., Inc. Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1098 19-R-1541</th><td>Klickitat Pine Box</td></tr>
+<tr><th class="stub" scope="row"></th><td>Knape &amp; Vogt Mfg.</td></tr>
+<tr><th class="stub" scope="row">7-R-2044 13-R-3268</th><td>Co. Knight, Stanley,, Corp. Kobe, Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td>William, Co,</td></tr>
+<tr><th class="stub" scope="row">16-R-1300 9-R-1946</th><td>Frank.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Koehl, Kopriva,</td></tr>
+<tr><th class="stub" scope="row">6-R-1208</th><td>Kress, F J, Box Co. Krimm, Charles R.,</td></tr>
+<tr><th class="stub" scope="row">6-R-1149 4-R-1837</th><td>Co., Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Lumber Chemicals, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-RE-21</th><td>Lac Lafollette Shirt Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1645</th><td>Lake Tankers Corp.</td></tr>
+<tr><th class="stub" scope="row">14-R-1172</th><td>Lalance &amp; Grosjean Mfg. Co. Lamar Cotton Oil Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5534 16-R-1587</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">5-R-1990</th><td>Iron Works,</td></tr>
+<tr><th class="stub" scope="row"></th><td>Lancaster Inc.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1946_p0168_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1946_p0168.webp" loading="lazy" alt="Source page 168 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 168.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

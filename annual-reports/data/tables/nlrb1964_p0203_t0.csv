@@ -1,0 +1,12 @@
+row_label,Participating unions,Total valid votes cast,Valid votes cast in elections won / Total,Valid votes cast in elections won / AFL-CIO affiliates,Valid votes cast in elections won / Teamsters,Valid votes cast in elections won / Other national unions,Valid votes cast in elections won / Unaffiliated national unions,Valid votes cast in elections won / Local unaffiliated unions,Valid votes cast in elections won / Total for no union,Valid votes cast in elections lost / Total,Valid votes cast in elections lost / AFL-CIO affiliates,Valid votes cast in elections lost / Teamsters,Valid votes cast in elections lost / Other national unions,Valid votes cast in elections lost / Unaffiliated national unions,Valid votes cast in elections lost / Local unaffiliated unions,Valid votes cast in elections lost / Total for no union
+Section A tail,,,,,,,,,,,,,,,,
+Total RC elections,458961,199022,127583,24419,20894,,,49418,74706,59922,8023,3329,3432,,143815,
+1-union elections (subtotal),338928,89515,70338,12824,4502,1851,,44566,69278,55570,7404,2866,3381,,133425,
+1-union: AFL-CIO,267614,70338,70338,,,,,,36461,55570,55570,,,,,105030
+1-union: Teamsters,42652,12824,,12824,,,,,4988,7404,,7404,,,,17436
+1-union: Other national unions,16115,4502,,,4502,,,,1944,2866,,,2866,,,6803
+1-union: Local unaffiliated unions,12547,1851,,,,,,1851,1173,3381,,,,,3381,7022
+2-union elections (subtotal),89540,82307,42157,11210,12529,,,4300,6388,3759,,,,,,8675
+2-union,,,,,,,,,,,,,,,,
+3 (or more)-union elections (subtotal),30491,27818,15088,9678,1530,1702,,464,689,587,,,,,50,1520
+3-or-more union,,,,,,,,,,,,,,,,

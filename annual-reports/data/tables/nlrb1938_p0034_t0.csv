@@ -1,0 +1,25 @@
+Region,Number of complaint cases received,1,2,3,4,5
+Board,6,6,2,4,1,
+1. Boston,498,495,81,322,2,140
+2. New York,1333,1333,274,814,15,562
+3. Buffalo,140,140,42,92,2,60
+4. Philadelphia,314,314,75,191,11,167
+5. Baltimore,235,235,32,202,1,91
+6. Pittsburgh,148,,,,,
+7. Detroit,164,,,,,
+8. Cleveland,207,,,,,
+9. Cincinnati,522,,,,,
+10. Atlanta,256,,,,,
+11. Indianapolis,202,,,,,
+12. Milwaukee,339,,,,,
+13. Chicago,644,,,,,
+14. St. Louis,121,,,,,
+15. New Orleans,117,,,,,
+16. Fort Worth,202,,,,,
+17. Kansas City,285,,,,,
+18. Minneapolis,124,,,,,
+19. Seattle,200,,,,,
+20. San Francisco,225,,,,,
+21. Los Angeles,462,,,,,
+22. Denver,144,,,,,
+Total,6807,6807,1377,4463,82,2576

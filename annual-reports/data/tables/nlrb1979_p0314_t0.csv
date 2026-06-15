@@ -1,0 +1,9 @@
+row_label,Total valid votes cast,Won — Total,Won — Votes for unions — Total,Won — Votes for unions — AFL-CIO,Won — Votes for unions — Teamsters,Won — Votes for unions — Other national,Won — Votes for unions — Other local,Won — Total votes for no union,Lost — Total,Lost — Votes for unions — Total,Lost — Votes for unions — AFL-CIO,Lost — Votes for unions — Teamsters,Lost — Votes for unions — Other national,Lost — Votes for unions — Other local,Lost — Total votes for no union
+C. Elections in RM cases,,,,,,,,,,,,,,,
+AFL-CIO,5048,842,842,842,,,,442,985,985,985,,,,2779
+Teamsters,1058,246,246,,246,,,56,168,168,,168,,,588
+Other national unions,333,10,10,,,10,,2,20,20,,,20,,301
+Other local unions,35,21,21,,,,21,9,,,,,,,5
+1-union elections (subtotal),6474,1119,842,842,246,10,21,539,1175,985,985,168,20,0,3641
+2-union elections (subtotal),909,909,,,,,,143,0,0,,,,,0
+Total RM elections,7383,2020,1390,842,456,10,164,547,1175,985,985,168,20,2,3641

@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.241 table — NLRB FY1949</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1949.html">FY1949</a> &rsaquo; p.241 table</p>
+<h1>p.241 table</h1>
+<p class="meta">source page 241 &middot; <code>nlrb1949_p0241_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">1-RC-529</th><td>Associated Shoe Indus- tries of Southeastern</td><td>10-RC-273</td><td>Block Brothers, George Block.</td></tr>
+<tr><th class="stub" scope="row">2-RC-538</th><td>Massachusetts. Athens Brush Co.</td><td>13-RC-444</td><td>Block &amp; Kuhl Depart- ment Store.</td></tr>
+<tr><th class="stub" scope="row">19-RC-192</th><td>Atkinson &amp; Jones Co.</td><td>34-RC-39</td><td>Blue Channel Corp.</td></tr>
+<tr><th class="stub" scope="row">19-RC-138</th><td>Atkinson, Guy F., Co.</td><td>20-RC-36</td><td>Blue Diamond Corp.</td></tr>
+<tr><th class="stub" scope="row">10-RC-452</th><td>Atlanta Coca-Cola Bot- tling Co.</td><td>10-RC-230 18-RC-69</td><td>Boaz Mills Inc. Boggs Manufacturing</td></tr>
+<tr><th class="stub" scope="row">10-RC-215</th><td>Atlantic Cooperage Co.</td><td class="blank"></td><td>Co.</td></tr>
+<tr><th class="stub" scope="row">10-RC-545</th><td>Atlanta Metallic Casket Co.</td><td>3-RG-148 18-RC-347</td><td>Boland &amp; Cornelius Co. Boland Manufacturing</td></tr>
+<tr><th class="stub" scope="row">10-RC-65</th><td>Atlanta Tile &amp; Brick Co.</td><td>2-RC-775</td><td>Co. Bonat, Samuel, &amp;</td></tr>
+<tr><th class="stub" scope="row">39-RC-55</th><td>Atlantic Commission Co., Inc.</td><td>4-RC-374</td><td>Brother, Inc. Bond Crown &amp; Cork</td></tr>
+<tr><th class="stub" scope="row">16-RC-330</th><td>Atlas Life Insurance Co.</td><td class="blank"></td><td>Co. •</td></tr>
+<tr><th class="stub" scope="row">18-RC-367</th><td>Atlas Plywood Corp.</td><td>2-RC-312</td><td>Bond Industrial Main-</td></tr>
+<tr><th class="stub" scope="row">13-RC-672 1-RC-931</th><td>Atlas Tag Co. Atwood Motor Co.</td><td>4-RC-410</td><td>tenance Co. Bond Stores, Inc.</td></tr>
+<tr><th class="stub" scope="row">3-RC-119</th><td>Auto-Lite Battery</td><td>2-RC-1026</td><td>Bonwit Teller, Inc.</td></tr>
+<tr><th class="stub" scope="row">7-RC-508</th><td>Corp. Auto-Lite Battery Corp.</td><td>7-RC-65</td><td>Booth Radio Stations,</td></tr>
+<tr><th class="stub" scope="row">13-RC-68</th><td class="blank"></td><td class="blank"></td><td>Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Automatic Electric Co.</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">13-RC-72 13-RC-404</th><td>Automatic Electric Co. Automatic Electric Co.</td><td>7-RC-118</td><td>Booth Radio Stations, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-RC-663</th><td>Automatic Paper Box Corp.</td><td>16-RC-256</td><td>Borden Co., The.</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>39-RC-56 7-RC-462</td><td>Bordo Products Co. Borg-Warner, Ingersoll</td></tr>
+<tr><th class="stub" scope="row">10-RC-136 21-RC-481</th><td>Baines Peanut Co. Ball Brothers Co. of California, Inc.</td><td>14-RC-348</td><td>Steel Division. Borg-Warner Corp., Norge Division of.</td></tr>
+<tr><th class="stub" scope="row">20-RC-361 5-RC-287</th><td>Ballentine Produce Co., Inc.</td><td>21-RC-359</td><td>Braun Corp., Industrial Chemicals.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Baltimore Steam Packet Co.</td><td>10-RC-485 2-RC-934</td><td>Bray, J. N., Co., The. Broadway Iron &amp; Pipe</td></tr>
+<tr><th class="stub" scope="row">1-RC-846</th><td>Bangor Egg Co., Inc.</td><td class="blank"></td><td>Corp.</td></tr>
+<tr><th class="stub" scope="row">2-RC-584</th><td>Barrow, H., Co., Inc. Barry, Martin J., Inc.</td><td>35-RC-146</td><td>Broderick Co., The</td></tr>
+<tr><th class="stub" scope="row">5-RC-265 1-RC-939</th><td class="blank"></td><td>15-RC-176</td><td>(Header-Press Plant). Brown Oil Tools, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-RC-552</th><td>Bartlett, F. A., Tree Export Co., The. Prod-</td><td>10-RC-284</td><td>Brown, Pryor Transfer Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Bassett&#x27;s Dairy ucts, Inc.</td><td>14-RC-470</td><td>Brown Shoe Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">4-RC-272</th><td>Baugh &amp; Sons Co.</td><td>4-RC-147</td><td>Brumach, A. J., Inc. Brunswick Balke Col-</td></tr>
+<tr><th class="stub" scope="row">16-RC-361 21-RC-616</th><td>Beatrice Foods Co. Bechtel Corp.</td><td>7-RC-421</td><td>lender Co.</td></tr>
+<tr><th class="stub" scope="row">1-RC-514</th><td>Belle Moccasin,</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>Inc.</td><td>9-RC-321</td><td>Bryant, James, Motors,&#x27;</td></tr>
+<tr><th class="stub" scope="row">19-RC-135 13-RC-418</th><td>Bell Wyman Co. Belmont Radio Corp.</td><td>34-RC-102</td><td>Inc. Burgess Manufacturing</td></tr>
+<tr><th class="stub" scope="row">1-RC-425 9-RC-291</th><td>Benrus Watch Co. Bentwood</td><td>2-RC-754</td><td>Co. Burroughs Adding</td></tr>
+<tr><th class="stub" scope="row"></th><td>Products, &#x27; Inc.</td><td class="blank"></td><td>Ma- chine Co.</td></tr>
+<tr><th class="stub" scope="row">7-RC-294</th><td>Beurmann-Marshall, Inc.</td><td>1-RC-794</td><td>Burrows &amp; Sanborn,</td></tr>
+<tr><th class="stub" scope="row">1-RC--782</th><td>Bigelow-Sanford Car- pet Co., Inc.</td><td>39-RC-57</td><td>Inc.</td></tr>
+<tr><th class="stub" scope="row">34-RC-87</th><td>Biltmore Manufacturing</td><td>35-RC-46</td><td>Byron-Jackson Co. Cadick Milling Co.</td></tr>
+<tr><th class="stub" scope="row">15-RO-190</th><td>Co. Binswanger Mirror Co.</td><td>32-RC-56 20-RC-214</td><td>Cain Canning Co. Calaveras Cement</td></tr>
+<tr><th class="stub" scope="row">30-RC-107</th><td>Birdsall-Stockdale Mo-</td><td>9-RC-270</td><td>Co. Caldwell, W. E., Co.</td></tr>
+<tr><th class="stub" scope="row">10-RC-243</th><td>tor Co. Birmingham Paper Co.</td><td>20-RC-325 15-RC-204</td><td>California Growers, Inc. Calmes Engineering</td></tr>
+<tr><th class="stub" scope="row"></th><td>Birtman Electric Co.,</td><td class="blank"></td><td>Co.</td></tr>
+<tr><th class="stub" scope="row">13-RC-135</th><td>Rock Island Division.</td><td>1-RC-242</td><td>Cambridge Plating Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td>Co., Co.</td></tr>
+<tr><th class="stub" scope="row">8-RC-262</th><td>Bliss, E. W., Co.</td><td>36-RC-162</td><td>Cape Arago Lumber</td></tr>
+<tr><th class="stub" scope="row"></th><td>Bloomingdale Brothers,</td><td class="blank"></td><td>Carbide &amp; Carbon</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>10-RC•76</td><td>Chemicals Corp.</td></tr>
+<tr><th class="stub" scope="row">2-RC-887</th><td>Inc.</td><td class="blank"></td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1949_p0241_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1949_p0241.webp" loading="lazy" alt="Source page 241 of NLRB FY1949 annual report">
+<figcaption>Source: NLRB Annual Report FY1949, p. 241.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

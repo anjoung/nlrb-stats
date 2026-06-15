@@ -1,0 +1,10 @@
+row_label,Total Valid votes cast,Valid votes cast in elections won / Total,Valid votes cast in elections won / Votes for unions AFL-CIO unions,Valid votes cast in elections won / Votes for unions Teamsters,Valid votes cast in elections won / Votes for unions Other national unions,Valid votes cast in elections won / Votes for unions Other local unions,Valid votes cast in elections won / Total votes for no union,Valid votes cast in elections lost / Total,Valid votes cast in elections lost / Votes for unions AFL-CIO unions,Valid votes cast in elections lost / Votes for unions Teamsters,Valid votes cast in elections lost / Votes for unions Other national unions,Valid votes cast in elections lost / Votes for unions Other local unions,Valid votes cast in elections lost / Total votes for no union
+B. Elections in RC cases (section header),,,,,,,,,,,,,
+AFL-CIO (RC),209359,42641,42641,,,,22095,48980,48980,,,,95643
+Teamsters (RC),60962,15772,,15772,,,9734,15166,,15166,,,21290
+Other national unions (RC),30891,7324,,,7324,,3557,7332,,,7332,,12288
+Other local unions (RC),19162,6169,,,,6169,2550,3692,,,,3692,6752
+1-union elections (RC),320374,72106,42641,15772,7324,6169,30994,75170,48980,15166,7332,3692,140324
+2-union elections (RC),44341,23830,8781,3308,5236,6555,2807,6009,4401,908,266,374,11495
+3 (or more) union elections (RC),2168,1493,319,232,246,696,144,320,144,149,18,9,601
+Total RC elections,376483,97429,51698,19308,13032,13418,38945,81489,53525,16283,7596,4085,158400

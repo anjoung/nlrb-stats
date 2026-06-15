@@ -1,0 +1,31 @@
+row_label,Total elections,Number of elections in which representation rights were won by unions / Total,Number of elections in which representation rights were won by unions / AFL-CIO unions,Number of elections in which representation rights were won by unions / Teamsters,Number of elections in which representation rights were won by unions / Other national unions,Number of elections in which representation rights were won by unions / Other local unions,Number of elections in which no representative was chosen,Number employees eligible to vote,Total valid votes cast,Valid votes cast for unions / Total,Valid votes cast for unions / AFL-CIO unions,Valid votes cast for unions / Teamsters,Valid votes cast for unions / Other national unions,Valid votes cast for unions / Other local unions,Total votes for no union,Eligible employees in elections in which no representative chosen
+Metal mining,19,7,5,1,2,,12,1201,1093,464,441,9,46,,569,507
+Coal mining,79,42,3,5,1,9,37,2071,1857,1358,255,72,6,932,499,479
+Crude petroleum and natural gas production,9,4,1,1,2,,,138,126,72,53,13,6,,,
+Mining and quarrying of nonmetallic minerals (except fuels),105,53,23,7,19,3,33,4647,4100,2529,1167,867,972,223,1631,2624
+Construction,265,80,73,12,6,4,110,4563,3873,1860,1807,179,166,938,2011,1841
+Wholesale trade,844,333,98,269,16,17,411,37006,32402,12895,7565,2303,4276,1452,9110,17005
+Retail trade,1070,442,299,115,13,15,578,70205,57953,21925,12001,6032,1492,2300,18945,27225
+"Finance, insurance, and real estate",155,76,61,8,4,9,79,4572,3912,1613,1218,227,29,144,2294,1387
+U.S. Postal Service,10,5,2,3,,,5,,,,,,,,,58
+Local and suburban transit and interurban highway passenger transportation,55,29,14,11,,4,26,3933,3243,1636,1069,293,,274,1607,
+Motor freight transportation and warehousing,415,213,32,171,5,5,202,12101,10663,4558,797,2874,52,1235,5702,3985
+Water transportation,128,47,12,25,1,9,81,1599,1444,1116,452,263,30,371,338,248
+Other transportation,33,9,8,1,,,24,1712,1541,770,569,13,26,162,771,543
+Communication,215,118,105,7,1,5,97,8932,7714,4011,3531,131,36,142,3690,3609
+"Electric, gas, and sanitary services",126,68,50,14,4,,58,4757,4331,2513,1825,400,33,139,1818,2482
+"Transportation, communication, and other utilities (subtotal)",892,473,218,222,10,23,419,33066,29032,14906,8130,4283,200,2161,14126,
+"Hotels, rooming houses, camps, and other lodging places",98,34,27,2,4,1,64,6441,4099,2069,1464,246,216,143,2922,2054
+Personal services,55,24,14,11,1,,31,1110,962,565,344,246,21,16,412,415
+"Automotive repair, services, and garages",114,67,21,32,5,9,47,1996,1706,915,354,414,37,110,791,1005
+Motion pictures,20,5,3,1,1,,15,243,219,115,23,53,27,12,104,199
+Amusement and recreation services (except motion pictures),36,12,8,1,1,2,24,977,830,298,215,33,10,40,532,599
+Health services,806,291,229,13,19,30,515,31275,26440,10853,8070,813,373,271,940,909
+Educational services,166,67,33,8,10,16,94,11376,9884,5067,2683,117,1367,896,4817,5140
+Membership organizations,40,23,13,6,2,2,17,1118,1015,519,320,127,25,47,496,414
+Business services,274,138,90,36,5,7,136,13261,9970,4994,2277,1243,967,507,4976,6440
+Miscellaneous repair services,31,15,12,2,1,,16,697,638,284,162,26,96,,350,222
+Legal services,11,1,1,,,,10,651,458,175,168,,,9,283,161
+Public administration,32,9,3,2,3,1,23,627,538,262,16,32,208,6,246,75
+Services (subtotal),1383,713,454,126,29,105,672,84802,69438,33389,16888,5567,3886,1776,35932,34478
+"Total, all industrial groups",8240,3791,2178,1105,256,252,4449,471919,417563,199283,118811,36710,22302,19170,218280,177256

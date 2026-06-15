@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.263 table — NLRB FY1949</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1949.html">FY1949</a> &rsaquo; p.263 table</p>
+<h1>p.263 table</h1>
+<p class="meta">source page 263 &middot; <code>nlrb1949_p0263_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">16-RM-11 10-RM-19</th><td>Armour &amp; Co. Armour &amp; Co., an Illi- nois Corp.</td><td>37-RM-1</td><td>Ltd.</td></tr>
+<tr><th class="stub" scope="row">16-RM-9</th><td>Armour &amp; Co., a Maine Corp.</td><td>35-RM-16</td><td>Indianapolis News- papers, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-RM-10</th><td>Armour &amp; Co., Ratliff Pure Foods Products Plant.</td><td>9-RM-20</td><td>International Nickel Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">20-RM-37</th><td>Carithers, W. R., &amp; Sons, Inc.</td><td>18-RM-44 20-RM-14</td><td>Kingston, Russell L. Kress, S. H., &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">3-RM-20 3-RM-32</th><td>Chatillon, John, &amp; Sons. Comstock Canning Corp.</td><td>5-RM-20 16-RM-7</td><td>Simpson SE Doeller Co., The. Sunray Oil Corp.</td></tr>
+<tr><th class="stub" scope="row">9-RM-32 20-RM-23</th><td>General Cigar Co., Inc. Globe Wireless, Ltd.</td><td>2-RM-50</td><td>Times Square</td></tr>
+<tr><th class="stub" scope="row">13-RM-35</th><td>Hamilton Manufactur- ing Co.</td><td>18-RM-.35</td><td>Stores Corp. Woodmark Industries,</td></tr>
+<tr><th class="stub" scope="row">1-RM-39</th><td>Hoague-Sprague Corp.</td><td class="blank"></td><td>Inc. Woolworth, F. W., Co., No. 312.</td></tr>
+<tr><th class="stub" scope="row">35-RM-13</th><td>Hook Drugs, Inc.</td><td>13-RM-40</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">4. LMRA-RD cases</th><td>4. LMRA-RD cases</td><td>4. LMRA-RD cases</td><td>4. LMRA-RD cases</td></tr>
+<tr><th class="stub" scope="row">6-RD-8</th><td>Cameron Manufactur- ing Corp.</td><td>2-RD-48</td><td>Great Atlantic &amp; Pacific Tea Co., The.</td></tr>
+<tr><th class="stub" scope="row">34-RD-12</th><td>Cone Mills Corp.</td><td>1-RD-22</td><td>Schlitz Distributing Co. of Massachusetts.</td></tr>
+<tr><th class="stub" scope="row">10-RD-25</th><td>Fairbanks Co., The.</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">7-RD-10</th><td>General Motors Corp.</td><td>1-RD-33 3-RD-21</td><td>Whitten, J. 0., Co. Wizard Plow Co.</td></tr>
+<tr><th class="stub" scope="row">C. Cases dismissed on the basis of the record</th><td>C. Cases dismissed on the basis of the record</td><td>C. Cases dismissed on the basis of the record</td><td>C. Cases dismissed on the basis of the record</td></tr>
+<tr><th class="stub" scope="row">1. NLRA-R cases</th><td>1. NLRA-R cases</td><td>1. NLRA-R cases</td><td>1. NLRA-R cases</td></tr>
+<tr><th class="stub" scope="row">5-R-3042</th><td>American Viscose Corp.</td><td>6-R-1840</td><td>McBride Glass Co., The, James A. McBride, d/b/a.</td></tr>
+<tr><th class="stub" scope="row">6-R-1693</th><td>Baldwin Locomotive Works, The Standard Steel Works Division.</td><td>18-R-1922</td><td>Marine Iron &amp; Ship- building Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1734</th><td>Dixie Shirt Co., Inc.</td><td>1-R-3834</td><td>New Bedford Cotton Manufacturing Asso- ciation.</td></tr>
+<tr><th class="stub" scope="row">1-R-3897</th><td>Electric Boat Co.</td><td>21-R-3925</td><td>North American Avia- tion, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-R-2390</th><td>Fehr Baking Co.</td><td>17-R-1852</td><td>Pittsburgh Corning Corp.</td></tr>
+<tr><th class="stub" scope="row">16-R-2238</th><td>Gulf Oil Corp.</td><td>20-R-2296</td><td>Poultry Producers of Central California.</td></tr>
+<tr><th class="stub" scope="row">2-R-7772</th><td>Hancock, John, Mutual Life Insurance Co.</td><td>16-R-2257</td><td>Pure Oil Co.&#x27;s Smith&#x27;s Bluff Refinery.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1949_p0263_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1949_p0263.webp" loading="lazy" alt="Source page 263 of NLRB FY1949 annual report">
+<figcaption>Source: NLRB Annual Report FY1949, p. 263.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

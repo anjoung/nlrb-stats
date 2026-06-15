@@ -1,0 +1,14 @@
+row_label,Division and State,Total elections,Number of elections in which representation rights were won by unions / Total,Number of elections in which representation rights were won by unions / AFL-CIO unions,Number of elections in which representation rights were won by unions / Teamsters,Number of elections in which representation rights were won by unions / Other national unions,Number of elections in which representation rights were won by unions / Other local unions,Number of elections in which no representative chosen,Number of employees eligible to vote,Total valid votes cast,Valid votes cast for unions / Total,Valid votes cast for unions / AFL-CIO unions,Valid votes cast for unions / Teamsters,Valid votes cast for unions / Other national unions,Valid votes cast for unions / Other local unions,Total votes for no union,Eligible voters in elections choosing representation
+Maine,61,34,26,8,,,27,2697,2406,1143,950,443,204,63,16,1263,1250
+New Hampshire,27,15,9,6,,,12,1080,985,413,334,63,16,,,572,452
+Vermont,29,8,3,2,2,1,21,1167,1413,734,498,61,165,10,,459,499
+Massachusetts,304,115,65,38,3,9,189,15282,13416,5163,3701,1048,107,1553,,7793,4899
+Rhode Island,27,13,2,4,7,,13,1261,861,439,26,26,377,,,402,910
+Connecticut,122,57,27,11,3,16,65,13501,11584,5867,3096,251,277,1843,,6217,3971
+New England,570,247,137,67,7,36,323,35068,30926,14080,8587,1679,585,3129,16,16846,11200
+New York,401,170,74,16,11,294,210,20002,15322,7061,4898,1633,10,517,,10070,10124
+New Jersey,344,160,78,47,8,29,178,17304,15172,7017,3808,1492,1453,264,,7015,6224
+Pennsylvania,379,203,144,52,3,4,310,34869,31529,15443,9014,2882,1508,2039,16086,13910,13910
+Middle Atlantic,1128,529,265,215,36,13,782,83162,73718,33295,20720,6007,2961,3820,,33458,30002
+East North Central,2185,1032,556,299,120,57,1153,129043,114227,57265,32000,9974,10441,4700,,56962,53782
+West North Central,772,358,206,123,14,15,414,33422,29751,14949,9204,3324,1400,1015,55,16804,13055

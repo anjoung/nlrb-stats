@@ -1,0 +1,10 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14,col_15,col_16
+Total number of cases closed.........................,30610,100.0,23620,100.0,6161,100.0,488,100.0,197,100.0,36,100.0,22,100.0,86,100.0
+Before issuance of complaint..................................,26763,87.4,20190,85.5,5887,95.6,403,82.6,157,79.7,29,80.6,18,81.8,79,91.9
+"After issuance of complaint, before opening of hearing................................................................",2531,8.3,2260,9.6,186,3.0,50,10.2,25,12.7,1,2.8,4,18.2,5,5.8
+"After hearing opened, before issuance of administrative law judge's decision....................",251,0.8,233,1.0,11,0.2,0,0.0,7,3.6,0,0.0,0,0.0,0,0.0
+"After administrative law judge's decision, before issuance of Board decision.................................",49,0.2,48,0.2,1,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+After Board order adopting administrative law judge's decision in absence of exceptions..........,251,0.8,212,0.9,21,0.3,10,2.0,5,2.5,2,5.6,0,0.0,1,1.2
+"After Board decision, before circuit court decree...",283,0.9,255,1.1,21,0.3,2,0.4,3,1.5,2,5.6,0,0.0,0,0.0
+"After circuit court decree, before Supreme Court action...................................................................",481,1.6,421,1.8,34,0.6,23,4.7,0,0.0,2,5.6,0,0.0,1,1.2
+After Supreme Court action.....................................,1,0.0,1,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0

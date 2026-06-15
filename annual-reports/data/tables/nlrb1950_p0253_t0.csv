@@ -1,0 +1,18 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14
+Metal mining,5,.1,2,40 0,1,20 0,2,40 0,0,.0,1122,.1,849,.1
+Coal mining,4,.1,3,75 0,0,.0,1,25 0,0,.0,116,(3),103,(2)
+Crude petroleum and natural-gas production,1,(2),0,.0,1,100 0,0,.0,0,0,7,(3),7,(2)
+Nonmetallic muung and quarrying,24,.4,12,50 0,6,25 0,6,25 0,0,.0,964,1,911,1
+,,1 0,46,83 6,1,1.8,4,7.3,4,7 3,10317,1 0,7701,.8
+Construction Wholesale trade,55 486,8 7,359,73 9,57,11 7,45,9 3,25,5 1,21678,2 0,19524,2 2
+Retail trade,537,9.6,331,61 6,46,8 6,132,24 6,28,5 2,40482,3.8,33132,3 7
+"Finance, insurance, and real estate",17,.3,10,588,2,11 8,4,23 5,1,5 9,6193,.6,4803,5
+"Transportation, communication, and other public utilities",618,11.1,459,743,39,63,89,144,31,50,126931,11.8,100503,11.2
+Highway passenger transportation Highway freight transportation,55,1 0,24,43 6,1,1 8,25,45.5,5,9 1,3377,.3,2809,. 3
+,261,4 7,213,81.6,3,1 2,35,13 4,10,3 8,6219,.6,5301,.6
+Water transportation,25,5,20,80 0,2,8.0,2,8 0,1,4 0,4762,.4,3736,.4
+Warehousing and storage,78,1.4,57,73.1,12,154,4,5 1,5,64,4617,.4,4172,5
+Other transportation,12,.2,7,58 3,2,16.7,1,8 3,2,16 7,12371,1.2,10131,1 1
+Communication,120,2.1,92,76 7,9,7.5,13,10 8,6,5 0,36482,3 4,26766,3 0
+"Heat, light, water, and sanitary services",67,1.2,46,68 7,10,14.9,9,13 4,2,3 0,59103,5 6,47588,5 3
+Services,175,3 1,75,42 9,34,19.4,58,33.1,8,4 6,18425,1.7,16269,3.8

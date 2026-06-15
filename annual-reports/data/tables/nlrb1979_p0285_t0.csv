@@ -1,0 +1,18 @@
+row_label,Cases in which formal actions taken,AC,UC
+Hearings completed,118,9,78
+Decision issued after hearing,125,5,78
+By regional directors,122,4,76
+By Board,3,1,2
+Transferred by regional directors for initial decision,1,0,1
+Review of regional directors' decisions,,,
+Requests for review received,15,3,11
+Withdrawn before request ruled upon,0,0,0
+"Board action on requests ruled upon, total",15,3,11
+Granted,4,1,3
+Denied,11,2,8
+Remanded,0,0,0
+"Withdrawn after request granted, before Board review",0,0,0
+"Board decision after review, total",2,1,1
+Regional directors' decisions — Affirmed,1,1,0
+Regional directors' decisions — Modified,0,0,0
+Regional directors' decisions — Reversed,1,0,1

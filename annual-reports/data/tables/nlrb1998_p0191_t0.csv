@@ -1,0 +1,23 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11
+Proceedings decided by U S courts of appeals,196,184,13,1,3,,,,,,
+On petitions for review and/or enforcement,144,136,7,1,3,100 0,1000,100 0,100 0,11236,100 0
+Board orders affirmed in full,94,89,4,1,2,65 4,57 I,100 0,667,7403,65 9
+Board orders affirmed with modification,18,17,1,o,0,12 5,14 3,00,00,1506,134
+Remanded to Board,s,s,0,o,0,59,00,00,00,559,50
+Board orders partially affirmed and partially remanded,s,7,1,o,1,52,14 3,00,33 3,244,21
+Board orders set aside,16,15,1,o,0,11 0,14 3,00,00,1524,13 6
+On petitions for contempt,17,15,2,0,0,,,,,,_
+Total Court Orders,35,33,4,0,0,100 0,100 0,,,,
+"Compliance after filing of petition, before court order",15,15,2,o,o,45 4,500,,,,
+Court orders holding respondent in contempt,10,10,0,o,o,30 3,00,,,,
+Court orders denying petition,2,2,0,o,o,61,00,,,,
+Court orders directing compliance without contempt adjudication,8,6,2,0,0,182,500,,,,
+Proceedings decided by U S Supreme Court',1,1,0,0,0,100 0,,,,257,1000
+Board orders affirmed in full,o,o,o,o,o,,,,,155,603
+Board orders affirmed with modification,o,o,o,o,o,,,,,18,70
+Board orders set aside,o,o,o,o,o,,,,,45,175
+Remanded to Board,1,1,o,o,o,100 0,,,,20,78
+Remanded to court of appeals,o,o,o,o,o,,,,,16,62
+Board's request for remand or modification of enforcement order denied,o,o,o,o,o,,,,,,04
+Contempt cases remanded to court of appeals,o,• o,o,o,o,,,,,,04
+Contempt cases enforced,o,o,o,o,o,,,,,,04

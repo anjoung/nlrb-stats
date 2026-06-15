@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.159 table — NLRB FY1940</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1940.html">FY1940</a> &rsaquo; p.159 table</p>
+<h1>p.159 table</h1>
+<p class="meta">source page 159 &middot; <code>nlrb1940_p0159_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Mooremack Gulf Lines, Inc</th><td>Mar. 20,1939</td><td>Aug. 18, 1939</td><td>(9</td></tr>
+<tr><th class="stub" scope="row">Morrison Motor Freight Co</th><td>June 10, 1940</td><td>June 13, 1940</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row"></th><td>Aug. 21, 1939</td><td>Aug. 24, 1939</td><td>Aug. 1939</td></tr>
+<tr><th class="stub" scope="row">Motion Picture Producers &amp;Distributors Association et al</th><td>do</td><td>do</td><td>23, Do.</td></tr>
+<tr><th class="stub" scope="row">Motion Picture Producers &amp;Distributors Association</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Motion Picture Producers, etc., Columbia Pictures</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Motion Picture Producers, etc., Paramount Pictures</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Motion Picture Producers, etc., RKO Pictures</th><td>do</td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Motion Picture Producers, etc., Hal Roach Studios</th><td class="blank"></td><td>do</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Motion Picture Producers, etc., United Artists</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Motion Picture Producers, etc., Universal</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Motion Picture Producers, etc., Warner Bros</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Muncie Foundry Co</th><td>Nov. 27, 1939</td><td>Nov. 28, 1939</td><td>Jan. 16, 1940</td></tr>
+<tr><th class="stub" scope="row">Muskin Shoe Co., The</th><td>do June 14, 1940</td><td>do June 14, 1940</td><td>Do. (1)</td></tr>
+<tr><th class="stub" scope="row">Muncie Foundry Co. (Division of Borg-Warner)</th><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">McAlbert Oil, Inc., and D. B. McDaniel Drilling Corpora- tion</th><td>Sept. 22, 1938</td><td>Sept. 27, 1938</td><td>Mar. 22, 1940</td></tr>
+<tr><th class="stub" scope="row">McCormick Steamship Co McCormick Steamship Co., agent Pacific, Argentine-Brazil</th><td>May 6, 1940</td><td>May 6, 1940</td><td>(2)</td></tr>
+<tr><th class="stub" scope="row">Line</th><td>do</td><td>do</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row">McWane Cast Iron Pipe Co</th><td>Dec. 4, 1939</td><td>Dec. 6, 1939</td><td>Jan. 15, 1940 Mar. 11, 1940</td></tr>
+<tr><th class="stub" scope="row">James McWilliams Blue Line, Inc</th><td>Feb. 13, 1940</td><td>Feb. 13, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">National Battery Co National Distillers Products Corporation</th><td>Nov. 13, 1939 Jan. 15,1940</td><td>Nov. 21, 1939 Jan. 15,1940</td><td>Feb. 16,1940</td></tr>
+<tr><th class="stub" scope="row">National Dress Manufacturers Association, Inc</th><td>May 2,1940</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">National Mineral Co Nebel Knitting Co., Inc</th><td>May 23,1940 May 9, 1940</td><td>May 24, 1940 May 9, 1940</td><td>May g240940</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>June 22, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Nebraska Power Co.</th><td>June 17,1940 May 22, 1940</td><td>May 22, 1940</td><td>June 10, 1940</td></tr>
+<tr><th class="stub" scope="row">Neo-Gravure Co. of Chicago Nevada-California Electric Corporation</th><td>Nov. 17, 1939</td><td>Nov. 17, 1939</td><td>Feb. 1, 1940</td></tr>
+<tr><th class="stub" scope="row">New England Overall Co</th><td class="blank"></td><td>May 28,1940</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row"></th><td>May 27, 1940</td><td>A,pr. 23, 1940</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row">New Idea, Inc</th><td>Apr. 22, 1940</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">New York &amp;Cuba Mail Steamship Co</th><td>Mar. 22,1940</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">New York di Porto Rico Steamship Co Newark Rivet Works</th><td>do</td><td>Nov. 2, 1939</td><td>3) 1 Dec. 21, 1939</td></tr>
+<tr><th class="stub" scope="row"></th><td>Oct. 24,1939</td><td>Feb. 5, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">North American Rayon Corporation</th><td>Feb. 5,1940</td><td class="blank"></td><td>Apr. 8, 1940 June 29,1940</td></tr>
+<tr><th class="stub" scope="row">0. K. Storage dr Transfer Co., Inc Oakes Manufacturing Co., Inc</th><td>Mar. 18, 1940 June 6, 1940</td><td>Mar. 18.1940 June 6,1940</td><td>Dec. 29,1939</td></tr>
+<tr><th class="stub" scope="row">Old Mission Packing Corporation, Ltd</th><td>Nov. 24, 1939 June 10,1940</td><td>Nov. 24, 1939 June 13,1910</td><td>(2)</td></tr>
+<tr><th class="stub" scope="row">Overland Transportation Co Pacific Felt Co</th><td>Mar. 21,1940</td><td>Mar. 22,1940 Apr. 15,1940</td><td>Apr. 19,1940 May 24, 1940</td></tr>
+<tr><th class="stub" scope="row">Pacific Gas Heating Co Do</th><td>Apr. 15, 1940 do..</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Pacific Telephone &amp;Telegraph Co Emil J. Paidar Co</th><td>Jan. 11, 1940 May 20,1940</td><td>Jan. 19, 1940 May 21, 1940</td><td>Apr. 27,1940 June 7, 1840</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>Nov. 18,1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Palmer Bee Co</th><td>Nov. 16,1939</td><td class="blank"></td><td>(2)</td></tr>
+<tr><th class="stub" scope="row">Do Pamfftne Companies, Inc., The</th><td>do Jane 26,1940</td><td>do June 27, 1840</td><td>25))</td></tr>
+<tr><th class="stub" scope="row">Do</th><td class="blank"></td><td>do</td><td>(2)</td></tr>
+<tr><th class="stub" scope="row">Paramount Pictures, Inc</th><td>do Aug. 21, 1939</td><td>Aug. 24,1939</td><td>Aug. 28,1939 Do.</td></tr>
+<tr><th class="stub" scope="row">Do Do</th><td>do do</td><td>do do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Paramount Pictures, Inc., et al</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do July 31, 1939</td><td>do Aug. 1, 1939</td><td>Sept. 1,1939</td></tr>
+<tr><th class="stub" scope="row">Park Drug Co Park Floral Co</th><td>Sept. 12, 1939</td><td>Sept. 12,1939</td><td>Jan. 11,1940</td></tr>
+<tr><th class="stub" scope="row">Payne Furnace dr Supply Co., Inc</th><td>Feb. 1,1940</td><td>Feb. 5, 1940</td><td>Mar. 20, 1940</td></tr>
+<tr><th class="stub" scope="row">Peerless of America, Inc</th><td>June 25,1940</td><td>June 25,1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pelican Bay Lumber Co</th><td>Feb. 8.1940</td><td>Feb. 8, 1940</td><td>May 7, 1940</td></tr>
+<tr><th class="stub" scope="row">Pennsylvania &amp;Lake Erie Dock Co</th><td>Oct. 27,1939</td><td>Oct. 30, 1939</td><td>Nov. 6,1939</td></tr>
+<tr><th class="stub" scope="row">Peoria Cordage Co</th><td>June 13,1940</td><td>June 13, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Perry Truck Lines</th><td>June 10, 1940</td><td>June 10, 1910</td><td>Nov. 22, 1939</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>Oct. 30, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pick Mfg. Co Pickands-Mather &amp;Co. and Verona Mining Co</th><td>Oct. 30,1939</td><td>June 10,1940</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>June 10, 1940</td><td>do</td><td>(2)</td></tr>
+<tr><th class="stub" scope="row"></th><td>do.</td><td>Feb. 5, 1940</td><td>Mar. 11,1940</td></tr>
+<tr><th class="stub" scope="row">Portland Iron Works</th><td>Feb. 5,MO May 23,1940</td><td>May 24,1940</td><td>June 27,1940</td></tr>
+<tr><th class="stub" scope="row">Precision Castings Co., Inc</th><td class="blank"></td><td class="blank"></td><td>Sept. 16, 1939</td></tr>
+<tr><th class="stub" scope="row">Princely Products, Inc</th><td>Aug. 21, 1939</td><td>Aug. 21,1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pure Oil Co</th><td>Nov. 5, 1939</td><td>Nov. 5,1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td>(9</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1940_p0159_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1940_p0159.webp" loading="lazy" alt="Source page 159 of NLRB FY1940 annual report">
+<figcaption>Source: NLRB Annual Report FY1940, p. 159.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

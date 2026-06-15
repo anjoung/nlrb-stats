@@ -1,0 +1,21 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6
+"tll types, total.",,,,,,
+Elections,8161,2159,4348,04,1532,30
+Eligible voters,617210,84092,396500,10572,125383,663
+Valid votes,537773,73490,348153,8893,108680,548
+RC cases:,,,,,,
+Elections,7426,1924,4055,88,1357,2
+Eligible voters,575464,74570,379514,10468,110769,146
+Valid votes,502489,65354,331298,8797,66921,119
+RM cases,,,,,,
+Elections,347,121,150,4,44,28
+Eligible voters,12780,3288,7616,65,1284,517
+Valid votes,10913,2717,6704,64,1009,429
+RD cases',,,,,,
+Elections,301,101,132,2,66,0
+Eligible voters,20344,5625,8676,42,6001,0
+Valid votes,18000,4905,7735,42,5318,0
+JD cases',,,,,,
+Elections,87,13,9,0,65,
+Eligible voters,8652,629,694,0,7329,
+Valid votes,6371,523,416,0,5432,

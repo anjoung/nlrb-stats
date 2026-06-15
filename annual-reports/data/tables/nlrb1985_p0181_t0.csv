@@ -1,0 +1,21 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6
+"All types, total",,,,,,
+Elections,4743,121,3795,29,795,3
+Eligible voters,262416,2946,201880,3444,54017,129
+Valid votes,229513,2400,178579,3031,45388,115
+RC cases,,,,,,
+Elections,3545,70,2858,18,598,1
+Eligible voters,211161,1376,164530,1859,43286,110
+Valid votes,187186,1173,146633,1565,37718,97
+RMcases,,,,,,
+Elections,204,11,151,0,41,1
+Eligible voters,6170,170,5224,0,774,2
+Valid votes,5206,132,4436,0,636,2
+RD cases,,,,,,
+Elections,865,34,702,9,119,1
+Eligible voters,36889,986,28282,1486,6118,17
+Valid votes,31724,766,24446,1371,5125,16
+UD cases,,,,,,
+Elections,129,6,84,2,37,
+Eligible voters,8196,414,3844,99,3839,
+Valid votes,5397,329,3064,95,1909,

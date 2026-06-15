@@ -1,0 +1,8 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11
+Highway passenger transportation,1,.9,.0,.0,.0,1,100.0,24,.3,21,.2
+Highway freight transportation,2,1.8,.0,0,.0,2,100 0,39,.4,36,.4
+Water transportation,1,.9,.0,.0,.0,1,100 0,85,.9,76,.9
+Warehousing and storage,1,9,.0,. 0,.0,1,100 0,4,(2),4,.1
+Communication,2,1.8,0,.0,.0,2,100.0,15,. 2,15,.2
+"Heat, light, power, and sanitary services",3,2.6,33 3,0,.0,2,66.7,228,2.4,206,2.4
+Services,1,9,.0,0,.0,1,100.0,14,.1,14,.2

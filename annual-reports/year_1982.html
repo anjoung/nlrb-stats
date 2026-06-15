@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FY1982 — NLRB Annual Reports</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; FY1982</p>
+<h1>NLRB statistical tables — FY1982</h1>
+<table class="listing">
+<thead>
+<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="table_nlrb1982_p0010_t0.html">p.10 table</a></td><td><span class="type-label">Table</span></td><td>10</td></tr>
+<tr><td><a href="table_nlrb1982_p0028_t0.html">p.28 table</a></td><td><span class="type-label">Table</span></td><td>28</td></tr>
+<tr><td><a href="table_nlrb1982_p0036_t0.html">p.36 table</a></td><td><span class="type-label">Table</span></td><td>36</td></tr>
+<tr><td><a href="table_nlrb1982_p0272_t0.html">Total cases received, closed, and pending</a></td><td><span class="type-label">Table</span></td><td>272</td></tr>
+<tr><td><a href="table_nlrb1982_p0273_t0.html">p.273 table</a></td><td><span class="type-label">Table</span></td><td>273</td></tr>
+<tr><td><a href="table_nlrb1982_p0274_t0.html">p.274 table</a></td><td><span class="type-label">Table</span></td><td>274</td></tr>
+<tr><td><a href="table_nlrb1982_p0275_t0.html">Types of unfair labor practices alleged</a></td><td><span class="type-label">Table</span></td><td>275</td></tr>
+<tr><td><a href="table_nlrb1982_p0276_t0.html">p.276 table</a></td><td><span class="type-label">Table</span></td><td>276</td></tr>
+<tr><td><a href="table_nlrb1982_p0277_t0.html">Formal actions taken in representation cases by type of case (RC, RM, RD, UD)</a></td><td><span class="type-label">Table</span></td><td>277</td></tr>
+<tr><td><a href="table_nlrb1982_p0278_t0.html">p.278 table</a></td><td><span class="type-label">Table</span></td><td>278</td></tr>
+<tr><td><a href="table_nlrb1982_p0279_t0.html">p.279 table</a></td><td><span class="type-label">Table</span></td><td>279</td></tr>
+<tr><td><a href="table_nlrb1982_p0280_t0.html">p.280 table</a></td><td><span class="type-label">Table</span></td><td>280</td></tr>
+<tr><td><a href="table_nlrb1982_p0281_t0.html">p.281 table</a></td><td><span class="type-label">Table</span></td><td>281</td></tr>
+<tr><td><a href="table_nlrb1982_p0282_t0.html">Industrial distribution of cases received</a></td><td><span class="type-label">Table</span></td><td>282</td></tr>
+<tr><td><a href="table_nlrb1982_p0283_t0.html">Industrial distribution of cases received</a></td><td><span class="type-label">Table</span></td><td>283</td></tr>
+<tr><td><a href="table_nlrb1982_p0284_t0.html">Geographic distribution of cases received by Census division and state</a></td><td><span class="type-label">Table</span></td><td>284</td></tr>
+<tr><td><a href="table_nlrb1982_p0285_t0.html">Geographic distribution of cases received</a></td><td><span class="type-label">Table</span></td><td>285</td></tr>
+<tr><td><a href="table_nlrb1982_p0286_t0.html">Geographic distribution of cases received</a></td><td><span class="type-label">Table</span></td><td>286</td></tr>
+<tr><td><a href="table_nlrb1982_p0287_t0.html">p.287 table</a></td><td><span class="type-label">Table</span></td><td>287</td></tr>
+<tr><td><a href="table_nlrb1982_p0288_t0.html">p.288 table</a></td><td><span class="type-label">Table</span></td><td>288</td></tr>
+<tr><td><a href="table_nlrb1982_p0289_t0.html">Geographic distribution of cases received by Standard Federal Region</a></td><td><span class="type-label">Table</span></td><td>289</td></tr>
+<tr><td><a href="table_nlrb1982_p0290_t0.html">Analysis of methods of disposition of unfair labor practice cases closed</a></td><td><span class="type-label">Table</span></td><td>290</td></tr>
+<tr><td><a href="table_nlrb1982_p0291_t0.html">Analysis of methods of disposition of unfair labor practice cases closed)</a></td><td><span class="type-label">Table</span></td><td>291</td></tr>
+<tr><td><a href="table_nlrb1982_p0292_t0.html">p.292 table</a></td><td><span class="type-label">Table</span></td><td>292</td></tr>
+<tr><td><a href="table_nlrb1982_p0293_t0.html">Disposition of unfair labor practice cases by stage of disposition</a></td><td><span class="type-label">Table</span></td><td>293</td></tr>
+<tr><td><a href="table_nlrb1982_p0294_t0.html">p.294 table</a></td><td><span class="type-label">Table</span></td><td>294</td></tr>
+<tr><td><a href="table_nlrb1982_p0295_t0.html">Analysis of methods of disposition of representation and union deauthorization cases closed</a></td><td><span class="type-label">Table</span></td><td>295</td></tr>
+<tr><td><a href="table_nlrb1982_p0296_t0.html">p.296 table</a></td><td><span class="type-label">Table</span></td><td>296</td></tr>
+<tr><td><a href="table_nlrb1982_p0297_t0.html">p.297 table</a></td><td><span class="type-label">Table</span></td><td>297</td></tr>
+<tr><td><a href="table_nlrb1982_p0298_t0.html">Analysis of elections conducted by type of election</a></td><td><span class="type-label">Table</span></td><td>298</td></tr>
+<tr><td><a href="table_nlrb1982_p0299_t0.html">Objections and challenges in representation elections by type of case and type of election</a></td><td><span class="type-label">Table</span></td><td>299</td></tr>
+<tr><td><a href="table_nlrb1982_p0300_t0.html">Objections to elections filed by type of case and type of election</a></td><td><span class="type-label">Table</span></td><td>300</td></tr>
+<tr><td><a href="table_nlrb1982_p0300_t1.html">Disposition of objections in representation elections by type of case and type of election</a></td><td><span class="type-label">Table</span></td><td>300</td></tr>
+<tr><td><a href="table_nlrb1982_p0301_t0.html">p.301 table</a></td><td><span class="type-label">Table</span></td><td>301</td></tr>
+<tr><td><a href="table_nlrb1982_p0302_t0.html">Results of union-shop deauthorization polls, by affiliation of union holding union-shop contract</a></td><td><span class="type-label">Table</span></td><td>302</td></tr>
+<tr><td><a href="table_nlrb1982_p0303_t0.html">Final outcome of representation elections in cases closed</a></td><td><span class="type-label">Table</span></td><td>303</td></tr>
+<tr><td><a href="table_nlrb1982_p0304_t0.html">p.304 table</a></td><td><span class="type-label">Table</span></td><td>304</td></tr>
+<tr><td><a href="table_nlrb1982_p0305_t0.html">Final outcome of representation elections in RM cases and RD cases</a></td><td><span class="type-label">Table</span></td><td>305</td></tr>
+<tr><td><a href="table_nlrb1982_p0306_t0.html">Valid votes cast in representation elections, by participating union affiliation</a></td><td><span class="type-label">Table</span></td><td>306</td></tr>
+<tr><td><a href="table_nlrb1982_p0307_t0.html">p.307 table</a></td><td><span class="type-label">Table</span></td><td>307</td></tr>
+<tr><td><a href="table_nlrb1982_p0308_t0.html">Valid votes cast in representation elections; Sections C (RM) and D (RD)</a></td><td><span class="type-label">Table</span></td><td>308</td></tr>
+<tr><td><a href="table_nlrb1982_p0309_t0.html">Geographic Distribution of Representation Elections Held in Cases Closed (per-state)</a></td><td><span class="type-label">Table</span></td><td>309</td></tr>
+<tr><td><a href="table_nlrb1982_p0310_t0.html">Geographic Distribution of Representation Elections Held in Cases Closed (per-state)</a></td><td><span class="type-label">Table</span></td><td>310</td></tr>
+<tr><td><a href="table_nlrb1982_p0311_t0.html">p.311 table</a></td><td><span class="type-label">Table</span></td><td>311</td></tr>
+<tr><td><a href="table_nlrb1982_p0312_t0.html">p.312 table</a></td><td><span class="type-label">Table</span></td><td>312</td></tr>
+<tr><td><a href="table_nlrb1982_p0313_t0.html">p.313 table</a></td><td><span class="type-label">Table</span></td><td>313</td></tr>
+<tr><td><a href="table_nlrb1982_p0314_t0.html">Geographic Distribution of Representation Elections Held in Cases Closed, Pacific + Outlying Areas + Grand Total</a></td><td><span class="type-label">Table</span></td><td>314</td></tr>
+<tr><td><a href="table_nlrb1982_p0315_t0.html">Geographic Distribution of Decertification (RD) Elections Held in Cases Closed (per-state)</a></td><td><span class="type-label">Table</span></td><td>315</td></tr>
+<tr><td><a href="table_nlrb1982_p0316_t0.html">p.316 table</a></td><td><span class="type-label">Table</span></td><td>316</td></tr>
+<tr><td><a href="table_nlrb1982_p0317_t0.html">Geographic Distribution of Decertification (RD) Elections, Mountain + Pacific + Outlying + Grand Total</a></td><td><span class="type-label">Table</span></td><td>317</td></tr>
+<tr><td><a href="table_nlrb1982_p0318_t0.html">p.318 table</a></td><td><span class="type-label">Table</span></td><td>318</td></tr>
+<tr><td><a href="table_nlrb1982_p0319_t0.html">Industrial Distribution of Representation Elections in Cases Closed</a></td><td><span class="type-label">Table</span></td><td>319</td></tr>
+<tr><td><a href="table_nlrb1982_p0320_t0.html">p.320 table</a></td><td><span class="type-label">Table</span></td><td>320</td></tr>
+<tr><td><a href="table_nlrb1982_p0321_t0.html">Size of Units in Representation Cases Closed (Section A: Certification elections RC and RM)</a></td><td><span class="type-label">Table</span></td><td>321</td></tr>
+<tr><td><a href="table_nlrb1982_p0322_t0.html">Size of Units in Representation Cases Closed (Section B: Decertification elections RD)</a></td><td><span class="type-label">Table</span></td><td>322</td></tr>
+<tr><td><a href="table_nlrb1982_p0323_t0.html">Size of Establishments in Unfair Labor Practice Cases by Type of Situation</a></td><td><span class="type-label">Table</span></td><td>323</td></tr>
+<tr><td><a href="table_nlrb1982_p0324_t0.html">Table — Court Proceedings (Courts of Appeals and Supreme Court) by Type vs Cumulative July 5, 1935 to Sept. 30, 1982</a></td><td><span class="type-label">Table</span></td><td>324</td></tr>
+<tr><td><a href="table_nlrb1982_p0325_t0.html">Table — Court of Appeals proceedings by circuit vs cumulative 1977-1981</a></td><td><span class="type-label">Table</span></td><td>325</td></tr>
+<tr><td><a href="table_nlrb1982_p0326_t0.html">Table — Injunction proceedings under Sections 10(e), 10(j), and 10(l) of the NLRA</a></td><td><span class="type-label">Table</span></td><td>326</td></tr>
+<tr><td><a href="table_nlrb1982_p0327_t0.html">p.327 table</a></td><td><span class="type-label">Table</span></td><td>327</td></tr>
+<tr><td><a href="table_nlrb1982_p0328_t0.html">p.328 table</a></td><td><span class="type-label">Table</span></td><td>328</td></tr>
+<tr><td><a href="table_nlrb1982_p0331_t0.html">p.331 table</a></td><td><span class="type-label">Table</span></td><td>331</td></tr>
+</tbody>
+</table>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+<script>
+(function () {
+  function cellText(row, i) { var c = row.children[i]; return c ? c.textContent : ""; }
+  function isNumeric(v) {
+    if (v === "" || v == null) return false;
+    return /^-?[0-9][0-9,]*(\.[0-9]+)?$/.test(v.trim());
+  }
+  function toNumber(v) { return parseFloat(v.replace(/,/g, "")); }
+  function columnIsNumeric(rows, i) {
+    var seen = 0;
+    for (var r = 0; r < rows.length && seen < 50; r++) {
+      var t = cellText(rows[r], i).trim();
+      if (t === "") continue;
+      seen++;
+      if (!isNumeric(t)) return false;
+    }
+    return seen > 0;
+  }
+  function sortBy(table, i, th) {
+    var tbody = table.tBodies[0];
+    var rows = Array.prototype.slice.call(tbody.rows);
+    var asc = th.getAttribute("data-dir") !== "asc";
+    var numeric = columnIsNumeric(rows, i);
+    rows.sort(function (a, b) {
+      var av = cellText(a, i).trim(), bv = cellText(b, i).trim();
+      var cmp;
+      if (numeric) {
+        var an = av === "" ? Infinity : toNumber(av);
+        var bn = bv === "" ? Infinity : toNumber(bv);
+        cmp = an - bn;
+      } else {
+        cmp = av.localeCompare(bv, undefined, {numeric: true, sensitivity: "base"});
+      }
+      return asc ? cmp : -cmp;
+    });
+    for (var r = 0; r < rows.length; r++) tbody.appendChild(rows[r]);
+    th.setAttribute("data-dir", asc ? "asc" : "desc");
+    var ths = th.parentNode.children;
+    for (var k = 0; k < ths.length; k++) {
+      var a = ths[k].querySelector(".arrow");
+      if (a) a.textContent = ths[k] === th ? (asc ? "\u25B2" : "\u25BC") : "\u2195";
+    }
+  }
+  document.addEventListener("click", function (e) {
+    var th = e.target.closest ? e.target.closest("th") : null;
+    if (!th || th.tagName !== "TH") return;
+    var table = th.closest("table");
+    if (!table || !table.tBodies.length) return;
+    var ths = th.parentNode.children;
+    var i = Array.prototype.indexOf.call(ths, th);
+    sortBy(table, i, th);
+  });
+})();
+</script>
+</body>
+</html>

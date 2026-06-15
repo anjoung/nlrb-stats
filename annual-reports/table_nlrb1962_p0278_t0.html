@@ -79,12 +79,7 @@ table.grid tbody td {
 }
 table.grid tbody tr:nth-child(even) th.stub,
 table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
-td.marker { color: #b06a00; text-align: center; cursor: help; font-weight: 700; }
 td.blank { color: transparent; }
-/* Marker legend shown under a grid that contains "·" cells (outside the table
-   so a copy-paste of the grid stays a clean rectangle). */
-p.marker-legend { color: var(--muted); font-size: 12.5px; margin: 0 0 0.75rem; }
-p.marker-legend .mk { color: #b06a00; font-weight: 700; }
 
 /* Source image */
 figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
@@ -131,7 +126,7 @@ ul.link-list li { margin: 0.3rem 0; }
 </thead>
 <tbody>
 <tr><th class="stub" scope="row">Total</th><td>24,765</td><td>13,479</td><td>9,231</td><td>2,399</td><td>1,076</td><td>319</td><td>50</td><td>404</td><td>11,286</td><td>9,704</td><td>884</td><td>698</td></tr>
-<tr><th class="stub" scope="row">Manufacturing</th><td>12,484</td><td>6,129</td><td>4,806</td><td class="marker" title="855 , — unparsed — see source image">·</td><td>245</td><td>98</td><td>2</td><td>96</td><td>6,355</td><td>5,570</td><td>396</td><td>389</td></tr>
+<tr><th class="stub" scope="row">Manufacturing</th><td>12,484</td><td>6,129</td><td>4,806</td><td>855 ,</td><td>245</td><td>98</td><td>2</td><td>96</td><td>6,355</td><td>5,570</td><td>396</td><td>389</td></tr>
 <tr><th class="stub" scope="row">Ordnance and accessories</th><td>19</td><td>7</td><td>6</td><td>1</td><td>0</td><td>0</td><td class="blank"></td><td>0</td><td>12</td><td>12</td><td>0</td><td>0</td></tr>
 <tr><th class="stub" scope="row">Food and kindred products</th><td>1,942</td><td>930</td><td>673</td><td>149</td><td>65</td><td>23</td><td>1</td><td>10</td><td>1,012</td><td>881</td><td>67</td><td>64</td></tr>
 <tr><th class="stub" scope="row">Tobacco manufacturers</th><td>10</td><td>7</td><td>4</td><td>1</td><td>0</td><td>2</td><td class="blank"></td><td>0</td><td>3</td><td>3</td><td>0</td><td>0</td></tr>
@@ -155,9 +150,9 @@ ul.link-list li { margin: 0.3rem 0; }
 <tr><th class="stub" scope="row">Automotive and other transportation equipment</th><td>504</td><td>298</td><td>226</td><td>57</td><td>8</td><td>6</td><td class="blank"></td><td>1</td><td>206</td><td>175</td><td>13</td><td>18</td></tr>
 <tr><th class="stub" scope="row">Professional, scientific, and controlling instruments</th><td>150</td><td>74</td><td>67</td><td>3</td><td>2</td><td>0</td><td class="blank"></td><td>2</td><td>76</td><td>60</td><td>6</td><td>10</td></tr>
 <tr><th class="stub" scope="row">Miscellaneous manufacturing</th><td>306</td><td>141</td><td>116</td><td>13</td><td>8</td><td>2</td><td class="blank"></td><td>2</td><td>165</td><td>148</td><td>5</td><td>12</td></tr>
-<tr><th class="stub" scope="row">Agriculture, forestry, and fisheries</th><td class="marker" title="_ 26 — unparsed — see source image">·</td><td>10</td><td>10</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>0</td><td>0</td><td class="marker" title="- 16 — unparsed — see source image">·</td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
-<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>0</td><td class="marker" title="0 ---- — unparsed — see source image">·</td><td>0</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>12</td><td>4</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Mining</th><td>375</td><td>252</td><td>181</td><td class="marker" title="---- 47 — unparsed — see source image">·</td><td class="marker" title="&#x27; 15 — unparsed — see source image">·</td><td>2</td><td>2</td><td>5</td><td>123</td><td class="marker" title="- 110 — unparsed — see source image">·</td><td>8</td><td>5</td></tr>
+<tr><th class="stub" scope="row">Agriculture, forestry, and fisheries</th><td>_ 26</td><td>10</td><td>10</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>0</td><td>0</td><td>- 16</td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>0</td><td>0 ----</td><td>0</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>12</td><td>4</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Mining</th><td>375</td><td>252</td><td>181</td><td>---- 47</td><td>&#x27; 15</td><td>2</td><td>2</td><td>5</td><td>123</td><td>- 110</td><td>8</td><td>5</td></tr>
 <tr><th class="stub" scope="row">Metal mining</th><td>55</td><td>28</td><td>22</td><td>5</td><td>0</td><td>0</td><td>1</td><td>0</td><td>27</td><td>24</td><td>0</td><td>3</td></tr>
 <tr><th class="stub" scope="row">Construction</th><td>2,476</td><td>2,164</td><td>788</td><td>529</td><td>476</td><td>164</td><td>3</td><td>104</td><td>312</td><td>264</td><td>47</td><td>1</td></tr>
 <tr><th class="stub" scope="row">Wholesale trade</th><td>1,901</td><td>791</td><td>549</td><td>161</td><td>53</td><td>10</td><td>3</td><td>15</td><td>1,110</td><td>917</td><td>102</td><td>91</td></tr>
@@ -168,15 +163,14 @@ ul.link-list li { margin: 0.3rem 0; }
 </tbody>
 </table>
 </div>
-<p class="marker-legend"><span class="mk">·</span> marks a value that couldn&rsquo;t be read from the scan — check the source image below.</p>
 <p class="downloads"><a href="data/tables/nlrb1962_p0278_t0.csv" download>Download this table (CSV)</a></p>
 <h2>Source images</h2>
 <figure class="source-img">
-<img src="images/1962_p0278.webp" loading="lazy" alt="Source page 278 of NLRB FY1962 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1962_p0278.webp" loading="lazy" alt="Source page 278 of NLRB FY1962 annual report">
 <figcaption>Source: NLRB Annual Report FY1962, p. 278.</figcaption>
 </figure>
 <figure class="source-img">
-<img src="images/1962_p0279.webp" loading="lazy" alt="Source page 279 of NLRB FY1962 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1962_p0279.webp" loading="lazy" alt="Source page 279 of NLRB FY1962 annual report">
 <figcaption>Source: NLRB Annual Report FY1962, p. 279.</figcaption>
 </figure>
 <p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>

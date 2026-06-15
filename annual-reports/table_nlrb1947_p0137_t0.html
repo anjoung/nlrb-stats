@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.137 table — NLRB FY1947</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1947.html">FY1947</a> &rsaquo; p.137 table</p>
+<h1>p.137 table</h1>
+<p class="meta">source page 137 &middot; <code>nlrb1947_p0137_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">8-R-2524</th><td>Smith Brothers Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-2113</th><td>Smith, L. B., Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-2600</th><td>Smoky Mountain Stages, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-11-6345</th><td>Snell, Foster D., Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-2240</th><td>Socony Vacuum Oil Co., Inc. -Inc.</td></tr>
+<tr><th class="stub" scope="row">6-R-1626</th><td>Socony Vacuum Oil Co.,</td></tr>
+<tr><th class="stub" scope="row">13-R-3694</th><td>Solem Machine Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-2600</th><td>Sorg Paper Co., The.</td></tr>
+<tr><th class="stub" scope="row">10-R-1791</th><td>Southeastern Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-2150</th><td>Southern Acid &amp; Sulphur Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-3277</th><td>Southern California Edison Co., Ltd.</td></tr>
+<tr><th class="stub" scope="row">21-R-3543</th><td>Southern California Gas Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1987</th><td>Southern Fertilizer &amp; Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-2022</th><td>Southern States Phosphate &amp; Fertilizer Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-4031</th><td>Southtown Economist, Inc.</td></tr>
+<tr><th class="stub" scope="row">11-R-998</th><td>Spicer Mfg. Corp., Salisbury Axle Division.</td></tr>
+<tr><th class="stub" scope="row">9-R-2603</th><td>Spur Distributing Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2439</th><td>Standard Brands, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-7250</th><td>Standard Cap &amp; Seal Corp.</td></tr>
+<tr><th class="stub" scope="row">10-R-2246</th><td>Standard-Coosa-Thatcher (Thatcher Mill) Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-4171</th><td>Standard Lime &amp; Stone Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1979</th><td>Standard Oil Co. of New Jersey.</td></tr>
+<tr><th class="stub" scope="row">9-R-2549</th><td>Standard Register Co., The.</td></tr>
+<tr><th class="stub" scope="row">3-R-1435</th><td>Stauffer Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1836 10-R-2380</th><td>Stephens, Ray, Inc. Stephens, W. P., Lumber</td></tr>
+<tr><th class="stub" scope="row">19-R-1795</th><td>Co. Sullivan Mining Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-19M</th><td>Sunland Industries Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1700 18-R-1531</th><td>Superior Mfg. Co. Swan Engineering &amp; Machine Co.</td></tr>
+<tr><th class="stub" scope="row">19-RE-26</th><td>Swanson Bros. Logging Co. Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1070</th><td>Swartzbaugh Mfg.</td></tr>
+<tr><th class="stub" scope="row">8-R-2378</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Symington-Gould Corp.,</td></tr>
+<tr><th class="stub" scope="row">18-R-1599</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1459</th><td>The.</td></tr>
+<tr><th class="stub" scope="row">6-R-1355 10-R-1930</th><td>Talon, Inc. Tampa Transit Lines, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-3518</th><td>Telechron, Inc. Pipe Line</td></tr>
+<tr><th class="stub" scope="row">21-R-3597</th><td>Texas Co., The.</td></tr>
+<tr><th class="stub" scope="row">16-R-1873</th><td>Texas-New Mexico Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-2342</th><td>Textile Machine Works, Inc., Machine Shop &amp; Foundry Textron, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-3256 1-R-3400</th><td>Textron, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-B-3461</th><td>Textron, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-3401</th><td>Textron, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-3547</th><td>Textron, Inc.</td></tr>
+<tr><th class="stub" scope="row">18-R-1742</th><td>Theiler, Carl &amp; Joe, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-2110</th><td>&amp; Howard Co. of Charleston.</td></tr>
+<tr><th class="stub" scope="row">18-R-1662</th><td>Thomas</td></tr>
+<tr><th class="stub" scope="row"></th><td>Thomas Truck &amp; Castor Co. Thompson Products, Inc. &amp; Thompson Aircraft Products</td></tr>
+<tr><th class="stub" scope="row">8-R-2363 8-R-2509</th><td>Thompson Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5736</th><td>Tidewater Associated Oil Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">7-R-2293</th><td>Axle Co.</td></tr>
+<tr><th class="stub" scope="row">17D-R-26</th><td>Timken-Detroit Tivoli Brewing Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1789</th><td>Todd Galveston Docks, Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-2274</th><td>Toledo Casket Co., The. Tool</td></tr>
+<tr><th class="stub" scope="row">8-R-2530</th><td>Die Engineering Co., Casting Division. Co., The.</td></tr>
+<tr><th class="stub" scope="row">9-R-2394</th><td>Trailmobile Trailways Union Bus Depot.</td></tr>
+<tr><th class="stub" scope="row">17-R-1553</th><td>Trenton Potteries Co., Auto Spring</td></tr>
+<tr><th class="stub" scope="row">4-R-1748</th><td>The.</td></tr>
+<tr><th class="stub" scope="row">6-8-1510</th><td>Triangle Corp. Publications,</td></tr>
+<tr><th class="stub" scope="row">10-R-1845</th><td>Triangle Inc., McMurray Printers</td></tr>
+<tr><th class="stub" scope="row">15M-R-28</th><td>Trumbull Asphalt Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6690</th><td>Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Turbine Engineering</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1947_p0137_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1947_p0137.webp" loading="lazy" alt="Source page 137 of NLRB FY1947 annual report">
+<figcaption>Source: NLRB Annual Report FY1947, p. 137.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

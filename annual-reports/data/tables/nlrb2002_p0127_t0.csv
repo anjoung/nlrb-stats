@@ -1,0 +1,6 @@
+row_label,Total valid votes cast,Valid votes cast in elections won — Total,Valid votes cast in elections won — Votes for unions — AFL-CIO unions,Valid votes cast in elections won — Votes for unions — Other national unions,Valid votes cast in elections won — Votes for unions — Other local unions,Valid votes cast in elections won — Total votes for no union,Valid votes cast in elections lost — Total,Valid votes cast in elections lost — Votes for unions — AFL-CIO unions,Valid votes cast in elections lost — Votes for unions — Other national unions,Valid votes cast in elections lost — Votes for unions — Other local unions,Valid votes cast in elections lost — Total votes for no union
+"AFL-CIO (1-union, RD)",16226,4413,4413,,,2391,3223,3223,,,6199
+1-union elections (RD subtotal),16989,4615,4413,175,27,2519,3363,3223,101,39,6492
+2-union elections (RD subtotal),168,128,128,0,0,30,0,0,0,0,10
+3 (or more)-union elections (RD subtotal),108,0,0,0,0,0,60,60,0,0,48
+Total RD elections,17265,4743,4541,175,27,2549,3423,3283,101,39,6550

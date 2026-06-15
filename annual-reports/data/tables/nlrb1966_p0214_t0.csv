@@ -1,0 +1,21 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6
+"Oil types, total",,,,,,
+Elections,8392,3249,3304,185,1639,15
+Eligible voters,597499,140203,288067,24451,144084,694
+Valid votes,538238,125002,264048,19999,128552,637
+RC cases',,,,,,
+Elections,7637,2965,3093,97,1480,2
+Eligible voters,551408,130030,272688,13845,134770,75
+Valid votes,498845,115944,250121,12004,120707,69
+RM cases:,,,,,,
+Elections__,466,169,141,85,58,13
+Eligible voters,30804,5676,10611,10564,3334,619
+Valid votes,26216,5073,9725,7958,2892,568
+RD cases,,,,,,
+Elections,221,101,68,3,49,0
+Eligible voters,10510,3550,4627,42,2285,0
+Valid votes,9393,3214,4114,37,2028,0
+LTD cases,,,,,,
+Elections,68,14,2,0,52,
+Eligible voters,4777,941,141,0,3695,
+Valid votes,3784,771,88,0,2925,

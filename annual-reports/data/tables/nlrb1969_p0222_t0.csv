@@ -1,0 +1,10 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14
+Total number of cases closed,18939,100.0,12404,100.0,3909,100.0,1505,100.0,545,100.0,8,100.0,478,100.0
+"Before issuance of complaint After issuance of complaint, before",16135,85.2,10260,82.7,3572,91.4,1300,86.4,527,96.7,57,68.2,419,87.7
+opening of hearing,1251,6.6,951,7.6,167,4.3,170,7.1,3,0.6,1,1.0,22,4.6
+"After hearing opened, before is- suance of trial examiner's de- cision",186,1.0,133,1.1,42,1.1,6,0.4,4,0.7,0,,1,0.2
+"After trial examiner's decision, be- fore issuance of Board decision After Board order adopting trial",134,0.7,110,0.9,15,0.4,6,0.4,0,,0,___,8,0.6
+examiner's decision in absence of exceptions,131,0.7,98,0.8,17,0.4,9,0.6,0,___,0,___,7,1.5
+"After Board decision, before cir- cuit court decree",606,3.1,436,3.5,53,1.4,59,3.9,4,0.7,87,37.7,17,3.5
+"After circuit court decree, before Supreme Court action",427,2.3,356,2.9,37,0.9,15,1.0,7,1.3,3,3.1,9,1.9
+After Supreme Court action,69,0.4,60,0.5,6,0.1,8,0.2,0,___,0,___,0,___

@@ -1,0 +1,9 @@
+row_label,Participating unions,Total elections,Percent won,Elections won by unions Total won,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Elections in which no representative chosen,Employees eligible to vote Total,Employees eligible to vote In elections won — AFL-CIO unions,Teamsters,Other national unions,Other local unions,Employees eligible to vote In elections where no representative chosen
+AFL-CIO (1-union RC),2051,47.9,982,982,,,,1069,146789,45613,45613,,,,101176
+Teamsters (1-union RC),967,44.1,426,,426,,,541,35238,10593,,10593,,,24645
+Other national unions (1-union RC),110,49.1,54,,,54,,56,8251,2163,,,2163,,5318
+Other local unions (1-union RC),194,54.1,105,,,,105,89,10688,4012,,,,4012,
+1-union RC elections — subtotal,3322,47.8,1567,982,426,54,105,1755,200236,62381,45613,10593,2163,4012,137835
+2-union RC elections — subtotal,169,79.1,134,68,26,4,36,35,15860,10101,5194,1144,129,3634,5759
+3 (or more)-union RC elections,4,100.0,4,0,3,0,0,0,1034,1034,0,324,710,0,0
+Total RC elections,3495,48.8,1705,1050,455,59,141,1790,217130,73516,50807,12061,3002,7446,143794

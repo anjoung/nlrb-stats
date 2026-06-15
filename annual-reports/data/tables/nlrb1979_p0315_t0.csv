@@ -1,0 +1,10 @@
+row_label,Total valid votes cast,Won — Total,Won — Votes for unions — Total,Won — Votes for unions — AFL-CIO,Won — Votes for unions — Teamsters,Won — Votes for unions — Other national,Won — Votes for unions — Other local,Won — Total votes for no union,Lost — Total,Lost — Votes for unions — Total,Lost — Votes for unions — AFL-CIO,Lost — Votes for unions — Teamsters,Lost — Votes for unions — Other national,Lost — Votes for unions — Other local,Lost — Total votes for no union
+D. Elections in RD cases,,,,,,,,,,,,,,,
+AFL-CIO,21902,5852,5852,5852,,,,3267,4105,4105,4105,,,,8678
+Teamsters,4601,513,513,,513,,,322,925,839,,839,,,2917
+Other national unions,3548,1176,1176,,,1176,,398,656,656,,,656,,1118
+Other local unions,675,344,344,,,,344,170,28,26,,,,26,135
+1-union elections (subtotal),30526,7886,5852,5852,513,1176,344,4167,5626,4105,839,656,26,,12848
+2-union elections (subtotal),2585,2267,1630,440,59,738,271,14,5,8,0,1,33,,
+3-or-more-union elections (subtotal),363,362,28,46,277,11,,,5,5,,,5,,
+Total RD elections,33474,10514,6910,999,1512,1993,4439,5640,4110,847,656,27,,,12881

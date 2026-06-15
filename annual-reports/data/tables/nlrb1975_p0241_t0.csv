@@ -1,0 +1,12 @@
+row_label,Objections filed,Objections withdrawn,Objections ruled upon,Overruled / Number,Overruled / Percent of total ruled upon,Sustained / Number,Sustained / Percent of total ruled upon
+All representation elections,1230,206,1024,804,78.5,220,21.5
+By type of case,,,,,,,
+RC cases,1145,192,953,743,78.0,210,22.0
+RM cases,35,6,29,27,93.1,2,6.9
+RD cases,50,8,42,34,81.0,8,19.0
+By type of election,,,,,,,
+Consent elections,74,15,59,50,84.8,9,15.2
+Stipulated elections,847,142,705,544,77.2,161,22.8
+Expedited elections,2,0,2,2,100.0,0,
+Regional director-directed elections,296,49,247,198,80.2,49,19.8
+Board-directed elections,11,0,11,10,90.9,1,9.1

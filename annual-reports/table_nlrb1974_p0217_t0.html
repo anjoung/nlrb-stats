@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.217 table — NLRB FY1974</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1974.html">FY1974</a> &rsaquo; p.217 table</p>
+<h1>p.217 table</h1>
+<p class="meta">source page 217 &middot; <code>nlrb1974_p0217_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th>Industrial group</th><th>All cases</th><th>All C cases</th><th>CA</th><th>CB</th><th>CC</th><th>CD</th><th>CE</th><th>CP</th><th>All R cases</th><th>RC</th><th>RM</th><th>RD</th><th>UD</th><th>AC</th><th>UC</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Metal mining</th><td>Metal mining</td><td>57</td><td>39</td><td>28</td><td>11</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>14</td><td>0</td><td>3</td><td>0</td><td>1</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Coal mining</th><td>Coal mining</td><td>222</td><td>189</td><td>101</td><td>49</td><td>34</td><td>3</td><td>1</td><td>1</td><td>31</td><td>27</td><td>1</td><td>3</td><td>0</td><td>0</td><td>2</td></tr>
+<tr><th class="stub" scope="row">Oil and gas extraction</th><td>Oil and gas extraction</td><td>52</td><td>29</td><td>20</td><td>8</td><td>0</td><td>1</td><td>0</td><td>0</td><td>22</td><td>17</td><td>0</td><td>5</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><th class="stub" scope="row">Mining and quarrying of nonmetallic minerals, except fuels</th><td>Mining and quarrying of nonmetallic minerals, except fuels</td><td>129</td><td>78</td><td>56</td><td>11</td><td>0</td><td>0</td><td>1</td><td>1</td><td>50</td><td>45</td><td>6</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><th class="stub" scope="row">Mining</th><td>Mining</td><td>460</td><td>335</td><td>205</td><td>77</td><td>43</td><td>4</td><td>1</td><td>3</td><td>120</td><td>103</td><td>6</td><td>11</td><td>0</td><td>1</td><td>4</td></tr>
+<tr><th class="stub" scope="row">Construction</th><td>Construction</td><td>4,367</td><td>3,716</td><td>1,263</td><td>902</td><td>942</td><td>358</td><td>104</td><td>24</td><td>129</td><td>517</td><td>423</td><td>39</td><td>55</td><td>27</td><td>25</td></tr>
+<tr><th class="stub" scope="row">Wholesale trade</th><td>Wholesale trade</td><td>2,008</td><td>1,355</td><td>942</td><td>358</td><td>104</td><td>24</td><td>1</td><td>10</td><td>522</td><td>457</td><td>10</td><td>55</td><td>0</td><td>20</td><td>20</td></tr>
+<tr><th class="stub" scope="row">Retail trade</th><td>Retail trade</td><td>4,700</td><td>3,033</td><td>1,968</td><td>476</td><td>468</td><td>99</td><td>16</td><td>6</td><td>400</td><td>1,357</td><td>1,123</td><td>227</td><td>105</td><td>16</td><td>30</td></tr>
+<tr><th class="stub" scope="row">Finance, insurance, and real estate</th><td>Finance, insurance, and real estate</td><td>626</td><td>393</td><td>287</td><td>78</td><td>9</td><td>11</td><td>1</td><td>1</td><td>168</td><td>148</td><td>8</td><td>12</td><td>0</td><td>10</td><td>5</td></tr>
+<tr><th class="stub" scope="row">U.S. Postal Service</th><td>U.S. Postal Service</td><td>928</td><td>796</td><td>746</td><td>60</td><td>127</td><td>1</td><td>0</td><td>0</td><td>131</td><td>76</td><td>44</td><td>11</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><th class="stub" scope="row">Local and suburban transit and interurban highway passenger transportation</th><td>Local and suburban transit and interurban highway passenger transportation</td><td>338</td><td>223</td><td>158</td><td>58</td><td>7</td><td>0</td><td>0</td><td>0</td><td>109</td><td>87</td><td>10</td><td>12</td><td>0</td><td>6</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Motor freight transportation and warehousing</th><td>Motor freight transportation and warehousing</td><td>3,066</td><td>2,048</td><td>1,304</td><td>584</td><td>152</td><td>0</td><td>9</td><td>26</td><td>968</td><td>851</td><td>79</td><td>38</td><td>3</td><td>0</td><td>20</td></tr>
+<tr><th class="stub" scope="row">Water transportation</th><td>Water transportation</td><td>290</td><td>220</td><td>105</td><td>117</td><td>11</td><td>4</td><td>0</td><td>0</td><td>44</td><td>44</td><td>2</td><td>5</td><td>0</td><td>0</td><td>7</td></tr>
+<tr><th class="stub" scope="row">Air transportation</th><td>Air transportation</td><td>115</td><td>71</td><td>20</td><td>33</td><td>13</td><td>0</td><td>0</td><td>0</td><td>30</td><td>26</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Communication</th><td>Communication</td><td>911</td><td>520</td><td>335</td><td>215</td><td>112</td><td>20</td><td>1</td><td>1</td><td>380</td><td>333</td><td>16</td><td>31</td><td>0</td><td>0</td><td>11</td></tr>
+<tr><th class="stub" scope="row">Electric, gas, and sanitary services</th><td>Electric, gas, and sanitary services</td><td>693</td><td>441</td><td>316</td><td>255</td><td>96</td><td>31</td><td>1</td><td>2</td><td>223</td><td>186</td><td>13</td><td>24</td><td>0</td><td>0</td><td>17</td></tr>
+<tr><th class="stub" scope="row">Transportation, communication, and other utilities</th><td>Transportation, communication, and other utilities</td><td>5,410</td><td>3,542</td><td>2,276</td><td>987</td><td>226</td><td>54</td><td>12</td><td>27</td><td>1,751</td><td>1,537</td><td>124</td><td>130</td><td>16</td><td>22</td><td>39</td></tr>
+<tr><th class="stub" scope="row">Hotels, rooming houses, camps, and other lodging places</th><td>Hotels, rooming houses, camps, and other lodging places</td><td>691</td><td>435</td><td>340</td><td>73</td><td>15</td><td>1</td><td>2</td><td>4</td><td>249</td><td>227</td><td>15</td><td>7</td><td>0</td><td>1</td><td>6</td></tr>
+<tr><th class="stub" scope="row">Personal services</th><td>Personal services</td><td>291</td><td>188</td><td>121</td><td>43</td><td>21</td><td>0</td><td>0</td><td>1</td><td>88</td><td>68</td><td>4</td><td>12</td><td>0</td><td>1</td><td>11</td></tr>
+<tr><th class="stub" scope="row">Automotive repair, services, and garages</th><td>Automotive repair, services, and garages</td><td>353</td><td>177</td><td>125</td><td>42</td><td>5</td><td>3</td><td>0</td><td>1</td><td>201</td><td>171</td><td>5</td><td>22</td><td>1</td><td>0</td><td>5</td></tr>
+<tr><th class="stub" scope="row">Motion pictures</th><td>Motion pictures</td><td>434</td><td>324</td><td>162</td><td>37</td><td>25</td><td>3</td><td>0</td><td>0</td><td>108</td><td>92</td><td>0</td><td>11</td><td>0</td><td>1</td><td>1</td></tr>
+<tr><th class="stub" scope="row">Health services</th><td>Health services</td><td>1,452</td><td>949</td><td>445</td><td>89</td><td>21</td><td>10</td><td>0</td><td>4</td><td>461</td><td>380</td><td>37</td><td>44</td><td>11</td><td>5</td><td>33</td></tr>
+<tr><th class="stub" scope="row">Educational services</th><td>Educational services</td><td>377</td><td>226</td><td>158</td><td>44</td><td>10</td><td>5</td><td>0</td><td>0</td><td>133</td><td>120</td><td>9</td><td>4</td><td>0</td><td>1</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Membership organizations</th><td>Membership organizations</td><td>1,315</td><td>727</td><td>129</td><td>529</td><td>30</td><td>37</td><td>3</td><td>1</td><td>573</td><td>522</td><td>26</td><td>21</td><td>3</td><td>0</td><td>12</td></tr>
+<tr><th class="stub" scope="row">Business services</th><td>Business services</td><td>122</td><td>52</td><td>27</td><td>11</td><td>0</td><td>1</td><td>0</td><td>0</td><td>67</td><td>58</td><td>1</td><td>6</td><td>0</td><td>1</td><td>2</td></tr>
+<tr><th class="stub" scope="row">Miscellaneous repair services</th><td>Miscellaneous repair services</td><td>7</td><td>4</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Legal services</th><td>Legal services</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Miscellaneous services</th><td>Miscellaneous services</td><td>152</td><td>86</td><td>57</td><td>12</td><td>11</td><td>1</td><td>0</td><td>0</td><td>64</td><td>59</td><td>3</td><td>2</td><td>0</td><td>1</td><td>1</td></tr>
+<tr><th class="stub" scope="row">Services</th><td>Services</td><td>4,872</td><td>2,816</td><td>2,051</td><td>539</td><td>129</td><td>6</td><td>25</td><td>1</td><td>1,975</td><td>1,701</td><td>115</td><td>150</td><td>34</td><td>9</td><td>65</td></tr>
+<tr><th class="stub" scope="row">Public finance, taxation, and monetary policy</th><td>Public finance, taxation, and monetary policy</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Public administration</th><td>Public administration</td><td>3</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Total, all industrial groups</th><td>Total, all industrial groups</td><td>42,872</td><td>27,726</td><td>17,978</td><td>6,471</td><td>2,026</td><td>599</td><td>143</td><td>509</td><td>14,082</td><td>11,891</td><td>1,014</td><td>1,177</td><td>98</td><td>203</td><td>241</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1974_p0217_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1974_p0217.webp" loading="lazy" alt="Source page 217 of NLRB FY1974 annual report">
+<figcaption>Source: NLRB Annual Report FY1974, p. 217.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

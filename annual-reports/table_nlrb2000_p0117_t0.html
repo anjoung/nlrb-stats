@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.117 table — NLRB FY2000</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_2000.html">FY2000</a> &rsaquo; p.117 table</p>
+<h1>p.117 table</h1>
+<p class="meta">source page 117 &middot; <code>nlrb2000_p0117_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th>Case citation</th><th>Page</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Abrams v. Communication Workers, 59 F.3d 1373 (1995)</th><td>Abrams v. Communication Workers, 59 F.3d 1373 (1995)</td><td>98</td></tr>
+<tr><th class="stub" scope="row">AlliedSignal Aerospace, 330 NLRB 1201</th><td>AlliedSignal Aerospace, 330 NLRB 1201</td><td>83</td></tr>
+<tr><th class="stub" scope="row">Allstate Insurance Co., 332 NLRB No. 66</th><td>Allstate Insurance Co., 332 NLRB No. 66</td><td>65</td></tr>
+<tr><th class="stub" scope="row">Atlantic Limousine, 331 NLRB No. 134</th><td>Atlantic Limousine, 331 NLRB No. 134</td><td>48</td></tr>
+<tr><th class="stub" scope="row">Auto Workers Local 651 (General Motors Corp.), 331 NLRB No. 59</th><td>Auto Workers Local 651 (General Motors Corp.), 331 NLRB No. 59</td><td>89</td></tr>
+<tr><th class="stub" scope="row">Baker Victory Services, 331 NLRB No. 146</th><td>Baker Victory Services, 331 NLRB No. 146</td><td>58</td></tr>
+<tr><th class="stub" scope="row">Beverly California Corp. v. NLRB, 227 F.3d 817, 846-847</th><td>Beverly California Corp. v. NLRB, 227 F.3d 817, 846-847</td><td>97</td></tr>
+<tr><th class="stub" scope="row">Beverly California Corporation, 326 NLRB 232, 235-238 (1998)</th><td>Beverly California Corporation, 326 NLRB 232, 235-238 (1998)</td><td>97</td></tr>
+<tr><th class="stub" scope="row">Beverly Farm Foundation, 323 NLRB 787 (1997)</th><td>Beverly Farm Foundation, 323 NLRB 787 (1997)</td><td>109</td></tr>
+<tr><th class="stub" scope="row">Blair Manor v. 1115 Nursing Home &amp; Service Employees Union, CV 98-4821 (E.D.N.Y.)</th><td>Blair Manor v. 1115 Nursing Home &amp; Service Employees Union, CV 98-4821 (E.D.N.Y.)</td><td>114</td></tr>
+<tr><th class="stub" scope="row">Bloom v. NLRB, 209 F.3d 1060</th><td>Bloom v. NLRB, 209 F.3d 1060</td><td>98</td></tr>
+<tr><th class="stub" scope="row">Board of Governors of the Federal Reserve System v. MCorp Financial, Inc., 502 U.S. 32 (1991)</th><td>Board of Governors of the Federal Reserve System v. MCorp Financial, Inc., 502 U.S. 32 (1991)</td><td>115</td></tr>
+<tr><th class="stub" scope="row">Boston Medical Center Corp., 330 NLRB 152</th><td>Boston Medical Center Corp., 330 NLRB 152</td><td>22, 46</td></tr>
+<tr><th class="stub" scope="row">Bridgestone/Firestone, Inc., 331 NLRB No. 24</th><td>Bridgestone/Firestone, Inc., 331 NLRB No. 24</td><td>82</td></tr>
+<tr><th class="stub" scope="row">Capri-Sun, Inc., 330 NLRB 1124</th><td>Capri-Sun, Inc., 330 NLRB 1124</td><td>48</td></tr>
+<tr><th class="stub" scope="row">Carpenters Local 370 (Eastern Contractors Assn.), 332 NLRB No. 25</th><td>Carpenters Local 370 (Eastern Contractors Assn.), 332 NLRB No. 25</td><td>87</td></tr>
+<tr><th class="stub" scope="row">Cecil v. NLRB, 194 F.3d 1311</th><td>Cecil v. NLRB, 194 F.3d 1311</td><td>98</td></tr>
+<tr><th class="stub" scope="row">Chelsea Industries, 331 NLRB No. 184</th><td>Chelsea Industries, 331 NLRB No. 184</td><td>81</td></tr>
+<tr><th class="stub" scope="row">Chicago Teachers Local 1 v. Hudson, 475 U.S. 292 (1986)</th><td>Chicago Teachers Local 1 v. Hudson, 475 U.S. 292 (1986)</td><td>98</td></tr>
+<tr><th class="stub" scope="row">Circle City Asphalt, LLC, 330 NLRB 282 (1999)</th><td>Circle City Asphalt, LLC, 330 NLRB 282 (1999)</td><td>110</td></tr>
+<tr><th class="stub" scope="row">Detroit Newspaper Agency and The Detroit News, Inc. v. Schaub, 108 F.Supp2.D 729 (E.D.Mich.), appeal pending 6th Cir. No. 00-2109</th><td>Detroit Newspaper Agency and The Detroit News, Inc. v. Schaub, 108 F.Supp2.D 729 (E.D.Mich.), appeal pending 6th Cir. No. 00-2109</td><td>114</td></tr>
+<tr><th class="stub" scope="row">Detroit Typographical Union No. 18 v. NLRB, 216 F.3d 109</th><td>Detroit Typographical Union No. 18 v. NLRB, 216 F.3d 109</td><td>98</td></tr>
+<tr><th class="stub" scope="row">Epilepsy Foundation of Northeast Ohio, 331 NLRB No. 92</th><td>Epilepsy Foundation of Northeast Ohio, 331 NLRB No. 92</td><td>24, 70</td></tr>
+<tr><th class="stub" scope="row">Family Service Agency, 331 NLRB No. 103</th><td>Family Service Agency, 331 NLRB No. 103</td><td>23, 55</td></tr>
+<tr><th class="stub" scope="row">FES, 331 NLRB No. 20</th><td>FES, 331 NLRB No. 20</td><td>47</td></tr>
+<tr><th class="stub" scope="row">General Fabrications Corp., NLRB v., 222 F.3d 218</th><td>General Fabrications Corp., NLRB v., 222 F.3d 218</td><td>99</td></tr>
+<tr><th class="stub" scope="row">General Motors Corp., NLRB v., 373 U.S. 734 (1963)</th><td>General Motors Corp., NLRB v., 373 U.S. 734 (1963)</td><td>98</td></tr>
+<tr><th class="stub" scope="row">Gisset Packing Co., NLRB v., 395 U.S. 575 (1969)</th><td>Gisset Packing Co., NLRB v., 395 U.S. 575 (1969)</td><td>47</td></tr>
+<tr><th class="stub" scope="row">H.Y. Floors &amp; Gameline Painting, 331 NLRB No. 47</th><td>H.Y. Floors &amp; Gameline Painting, 331 NLRB No. 47</td><td>50</td></tr>
+<tr><th class="stub" scope="row">Hacienda Resort Hotel &amp; Casino, 331 NLRB No. 89</th><td>Hacienda Resort Hotel &amp; Casino, 331 NLRB No. 89</td><td>77</td></tr>
+<tr><th class="stub" scope="row">Harborside Healthcare, Inc., 330 NLRB 1334</th><td>Harborside Healthcare, Inc., 330 NLRB 1334</td><td>43</td></tr>
+<tr><th class="stub" scope="row">John Deklewa &amp; Sons, 282 NLRB 1375 (1987), enfd. sub nom. Iron Workers v. NLRB, 843 F.2d 770 (93D Cir. 1988), cert. denied U.S. 889 (1988)</th><td>John Deklewa &amp; Sons, 282 NLRB 1375 (1987), enfd. sub nom. Iron Workers v. NLRB, 843 F.2d 770 (93D Cir. 1988), cert. denied U.S. 889 (1988)</td><td>100</td></tr>
+<tr><th class="stub" scope="row">Kentucky River Community Care; NLRB v., No. 99-1815, cert. granted</th><td>Kentucky River Community Care; NLRB v., No. 99-1815, cert. granted</td><td>95</td></tr>
+<tr><th class="stub" scope="row">Leedom v. Kyne</th><td>Leedom v. Kyne</td><td>115</td></tr>
+<tr><th class="stub" scope="row">M.B. Sturgis, Inc., 331 NLRB No. 173</th><td>M.B. Sturgis, Inc., 331 NLRB No. 173</td><td>44</td></tr>
+<tr><th class="stub" scope="row">Marquez v. Screen Actors Guild, 525 U.S. 33 (1998)</th><td>Marquez v. Screen Actors Guild, 525 U.S. 33 (1998)</td><td>98</td></tr>
+<tr><th class="stub" scope="row">McClatchy Newspapers, 321 NLRB 1386 (1998), enfd. 131 F.3d 1026 (D.C. Cir. 1997), cert denied 524 U.S. 937 (1998)</th><td>McClatchy Newspapers, 321 NLRB 1386 (1998), enfd. 131 F.3d 1026 (D.C. Cir. 1997), cert denied 524 U.S. 937 (1998)</td><td>100</td></tr>
+<tr><th class="stub" scope="row">Mid-Wilshire Health Care Center, 331 NLRB No. 109</th><td>Mid-Wilshire Health Care Center, 331 NLRB No. 109</td><td>36</td></tr>
+<tr><th class="stub" scope="row">New Otani Hotel &amp; Garden, 331 NLRB No. 151</th><td>New Otani Hotel &amp; Garden, 331 NLRB No. 151</td><td>46</td></tr>
+<tr><th class="stub" scope="row">Oklahoma Installation Co.; NLRB v., 219 F.3d 1160</th><td>Oklahoma Installation Co.; NLRB v., 219 F.3d 1160</td><td>101</td></tr>
+<tr><th class="stub" scope="row">Pueblo of San Juan, 228 F.3d 1195 (opinion withdrawn, en banc decision pending); NLRB v.</th><td>Pueblo of San Juan, 228 F.3d 1195 (opinion withdrawn, en banc decision pending); NLRB v.</td><td>113</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb2000_p0117_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/2000_p0117.webp" loading="lazy" alt="Source page 117 of NLRB FY2000 annual report">
+<figcaption>Source: NLRB Annual Report FY2000, p. 117.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

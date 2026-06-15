@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.159 table — NLRB FY1948</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1948.html">FY1948</a> &rsaquo; p.159 table</p>
+<h1>p.159 table</h1>
+<p class="meta">source page 159 &middot; <code>nlrb1948_p0159_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">21-RA092</th><td>Ryan Aeronautical Co., The.</td><td>16-R-2223</td><td>Co. Texas Pacific Motor Transport Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-2674</th><td>S-P Manufacturing Corp., The.</td><td>1-R-3870</td><td>Underwood Corp., The</td></tr>
+<tr><th class="stub" scope="row">8-R-2721</th><td>Schneider Transportation Co.</td><td class="blank"></td><td>General Research Lab- oratory of.</td></tr>
+<tr><th class="stub" scope="row">10-R-1926</th><td>Sears Roebuck &amp; Co.</td><td>16E-R-24</td><td>United States Potash Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-2365</th><td>Sledge Manufacturing Co.</td><td>7-R-2698</td><td>United States Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-3860</th><td>Smith Paper, Inc.</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">1-R-3865</th><td>Smith Paper, Inc.</td><td>18-R-1833</td><td>Waldorf Paper Products</td></tr>
+<tr><th class="stub" scope="row">19-R-2146</th><td>Smucker, J. M., &amp; Co.</td><td class="blank"></td><td>Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-2814</th><td>Solvay Process Co.</td><td>21-R-3999</td><td>Walt Disney Produc-</td></tr>
+<tr><th class="stub" scope="row">15-R-2222</th><td>Southern Advance Bag &amp; Paper Co., Inc.</td><td class="blank"></td><td>tions. Warshawsky &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">16E-R-5</th><td>Southwestern Associated Telephone Co.</td><td>13-R-4386 15-R-2244</td><td>Waterman Steamship Corp., Repair Divi-</td></tr>
+<tr><th class="stub" scope="row">16-R-2369</th><td>Southwestern Trailways.</td><td>19-R-2127</td><td>sion. Wenarchee - Wenoka Fruit Growers Associa-</td></tr>
+<tr><th class="stub" scope="row">1-R-3888 1-R-3893</th><td>Standard Box Co. Standard Romper Co.</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">8-R-2603</th><td>Standard Steel &amp; Spring Co., The</td><td>4-R-2370</td><td>tion. Western Electric Co.,</td></tr>
+<tr><th class="stub" scope="row">4-R-2764</th><td>Standard Stoker Co., Inc.</td><td class="blank"></td><td>Inc. Westinghouse Electric</td></tr>
+<tr><th class="stub" scope="row">18-R-1909</th><td>Sterling Pulp &amp; Paper Co., &amp; United Paper Co.</td><td>4-R-1968 8-R-2101</td><td>Corp. Westinghouse Electric</td></tr>
+<tr><th class="stub" scope="row">4-R-2589</th><td>Stewartstown Furniture Co.</td><td>10-R-2794</td><td>Corp.. White, Liddon, Sales &amp; Service Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-2805</th><td>Stilley Plywood Co.. Inc., The.</td><td>4-R-2701</td><td>Wilmington Paper Box Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-2180</th><td>Stonewall Cotton Mills.</td><td>2-R-6535</td><td>Wilson-Jones Co.</td></tr>
+<tr><th class="stub" scope="row">16E-R-23</th><td>Sunray Oil Corp.</td><td>8-R-2611 4-R-2739</td><td>Wilson Transit Co. Wint, F. W., Co., Ltd.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Taubman&#x27;s Stores Co.,</td><td>13M-R-23</td><td>Wisconsin Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-3062</th><td>Inc.</td><td>14-R-1724</td><td>Wrought Iron Range Co. Wyatt Metal &amp;</td></tr>
+<tr><th class="stub" scope="row">21-R-3998</th><td>Technicolor Motion Pic- ture Corp.</td><td>16-R-2375</td><td>Boiler Works.</td></tr>
+<tr><th class="stub" scope="row"></th><td>2. LMRA-RCcases</td><td>2. LMRA-RCcases</td><td>2. LMRA-RCcases</td></tr>
+<tr><th class="stub" scope="row">-21-RC-145</th><td>Ace Novelty Manufac- turing Co.</td><td>1-RC-105</td><td>Arrow Hart &amp; Hegeman Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">16-RC-64</th><td>Acme Brick Co.</td><td>4-RC-17</td><td>Arrow Throwing Rayon</td></tr>
+<tr><th class="stub" scope="row">13-RC-137</th><td>Air Reduction Sales Co. Allied Container Corp.</td><td>13-RC-219</td><td>Co., Daniel Vacca Sr. Ashland Iron &amp; Steel Co.,</td></tr>
+<tr><th class="stub" scope="row">1-RC-55 17-RC-22</th><td>Allied Mills, Inc.</td><td class="blank"></td><td>Inc.</td></tr>
+<tr><th class="stub" scope="row">2-RC-84</th><td>Alpine Trading Co. &amp; Eutectic Welding Alloy</td><td class="blank"></td><td>Automatic Scale facturing Co.,</td></tr>
+<tr><th class="stub" scope="row"></th><td>Corp.</td><td>2-RC-13</td><td>Manu- Einar Holm, d/b/a. Autopulse Corp.</td></tr>
+<tr><th class="stub" scope="row">16-RC-65</th><td>American Iron &amp; Ma- chine Works Co.</td><td>7-RC-37</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">21-RC-81</th><td>American National In- surance Co.</td><td>2-RC-24 21-R0-53</td><td>Bach, Vincent, Corp. Baker Castor Oil Co.</td></tr>
+<tr><th class="stub" scope="row">2-RC-91</th><td>American News Co., Inc., The.</td><td>17-RC-6</td><td>Bar Tack Manufacturing Co.</td></tr>
+<tr><th class="stub" scope="row">10-RC-102</th><td>American Rubber Corp.</td><td>1-RC-49</td><td>Bay State Optical Co. Beacon Motors.</td></tr>
+<tr><th class="stub" scope="row">10-RC-71</th><td>American Tobacco Co.</td><td>1-RC-208 1-RC-194</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">6-RC-21 10-RC-140</th><td>American Window Glass Co. Armour &amp; Co., Works Di-</td><td>34-RC-22</td><td>Bean &amp; Conquest, Inc. Belhaven Plywood &amp; Ve- • neer Co.</td></tr>
+<tr><th class="stub" scope="row">34-RC-36</th><td>vision of. Armour &amp; Co.</td><td>5-RC-16 2-RC-8</td><td>Benson Fuel Corp. Binch, H. &amp; F. Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td>Bins Foundry Co.</td></tr>
+<tr><th class="stub" scope="row">34-R0-37</th><td>Armour Fertilizer Works.</td><td>2-RC-90</td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1948_p0159_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1948_p0159.webp" loading="lazy" alt="Source page 159 of NLRB FY1948 annual report">
+<figcaption>Source: NLRB Annual Report FY1948, p. 159.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

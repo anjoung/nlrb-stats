@@ -1,0 +1,33 @@
+row_label,Industrial group,All cases,All C cases,CA,CB,CC,CD,CE,CP,All R cases,RC,RM,RD,UD,AC,UC
+Metal mining,Metal mining,57,39,28,11,0,0,0,0,17,14,0,3,0,1,0
+Coal mining,Coal mining,222,189,101,49,34,3,1,1,31,27,1,3,0,0,2
+Oil and gas extraction,Oil and gas extraction,52,29,20,8,0,1,0,0,22,17,0,5,0,0,1
+"Mining and quarrying of nonmetallic minerals, except fuels","Mining and quarrying of nonmetallic minerals, except fuels",129,78,56,11,0,0,1,1,50,45,6,1,0,0,1
+Mining,Mining,460,335,205,77,43,4,1,3,120,103,6,11,0,1,4
+Construction,Construction,4367,3716,1263,902,942,358,104,24,129,517,423,39,55,27,25
+Wholesale trade,Wholesale trade,2008,1355,942,358,104,24,1,10,522,457,10,55,0,20,20
+Retail trade,Retail trade,4700,3033,1968,476,468,99,16,6,400,1357,1123,227,105,16,30
+"Finance, insurance, and real estate","Finance, insurance, and real estate",626,393,287,78,9,11,1,1,168,148,8,12,0,10,5
+U.S. Postal Service,U.S. Postal Service,928,796,746,60,127,1,0,0,131,76,44,11,0,0,1
+Local and suburban transit and interurban highway passenger transportation,Local and suburban transit and interurban highway passenger transportation,338,223,158,58,7,0,0,0,109,87,10,12,0,6,0
+Motor freight transportation and warehousing,Motor freight transportation and warehousing,3066,2048,1304,584,152,0,9,26,968,851,79,38,3,0,20
+Water transportation,Water transportation,290,220,105,117,11,4,0,0,44,44,2,5,0,0,7
+Air transportation,Air transportation,115,71,20,33,13,0,0,0,30,26,0,4,0,0,0
+Communication,Communication,911,520,335,215,112,20,1,1,380,333,16,31,0,0,11
+"Electric, gas, and sanitary services","Electric, gas, and sanitary services",693,441,316,255,96,31,1,2,223,186,13,24,0,0,17
+"Transportation, communication, and other utilities","Transportation, communication, and other utilities",5410,3542,2276,987,226,54,12,27,1751,1537,124,130,16,22,39
+"Hotels, rooming houses, camps, and other lodging places","Hotels, rooming houses, camps, and other lodging places",691,435,340,73,15,1,2,4,249,227,15,7,0,1,6
+Personal services,Personal services,291,188,121,43,21,0,0,1,88,68,4,12,0,1,11
+"Automotive repair, services, and garages","Automotive repair, services, and garages",353,177,125,42,5,3,0,1,201,171,5,22,1,0,5
+Motion pictures,Motion pictures,434,324,162,37,25,3,0,0,108,92,0,11,0,1,1
+Health services,Health services,1452,949,445,89,21,10,0,4,461,380,37,44,11,5,33
+Educational services,Educational services,377,226,158,44,10,5,0,0,133,120,9,4,0,1,0
+Membership organizations,Membership organizations,1315,727,129,529,30,37,3,1,573,522,26,21,3,0,12
+Business services,Business services,122,52,27,11,0,1,0,0,67,58,1,6,0,1,2
+Miscellaneous repair services,Miscellaneous repair services,7,4,2,2,0,0,0,0,3,3,0,0,0,0,0
+Legal services,Legal services,2,1,0,1,0,0,0,0,1,1,0,0,0,0,0
+Miscellaneous services,Miscellaneous services,152,86,57,12,11,1,0,0,64,59,3,2,0,1,1
+Services,Services,4872,2816,2051,539,129,6,25,1,1975,1701,115,150,34,9,65
+"Public finance, taxation, and monetary policy","Public finance, taxation, and monetary policy",2,1,0,1,0,0,0,0,1,1,0,0,0,0,0
+Public administration,Public administration,3,2,1,1,0,0,0,0,1,1,0,0,0,0,0
+"Total, all industrial groups","Total, all industrial groups",42872,27726,17978,6471,2026,599,143,509,14082,11891,1014,1177,98,203,241

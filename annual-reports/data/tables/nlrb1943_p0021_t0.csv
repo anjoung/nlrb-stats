@@ -1,0 +1,6 @@
+Votes in first election,Old policy,New policy
+"2 unions first and second in number of votes, ""neither"" third.",Choice between 2 unions,Same.
+"""Neither"" second in number of votes.",do,"Same, unless second union has less than 20 percent of votes."
+"""Neither"" the largest vote but not a majority.","No run-off, dismiss",Vote for or against union with largest vote.
+"""Neither"" a majority.",do,Same.
+"Three unions, with the ""none"" vote second.",Choice among 3 unions,"Choice between top 2 unions, unless second union has less than 20 percent of votes."

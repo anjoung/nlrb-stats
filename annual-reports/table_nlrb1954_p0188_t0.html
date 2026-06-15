@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.188 table — NLRB FY1954</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1954.html">FY1954</a> &rsaquo; p.188 table</p>
+<h1>p.188 table</h1>
+<p class="meta">source page 188 &middot; <code>nlrb1954_p0188_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">19-CD-16 20-CC-90 30-00-20 6-CC-84, 87, 89, 90 14-CD-39 20-CC-91 5-CC-33, 34_ _ _ _ 3-CA-736 2-CB-1024 14-CC-55 10-CC-62 9-CC-58 21-CC-164 14-CD-40 36-CD-14 2-CC-266 21-C C-168, 169_ 21-00-167 9-CC-60</th><td>AFL-Machinists, Local 1743 (Kaiser Engi- neers). AFL-Teamsters, eta!. (Orval W. Klein)_ AFL-Denver Bldg. &amp;Construction Trades Council (John R. Pearse) AFL-Amalgamated Meat Cutters, et al. (Verscharen&#x27;s Food Centers). AFL-Bridge, Structural Iron Workers, Local 595 (Bechtel Corp.). AFL-Technical Engineers, Local 3-E (Edwin W. Boonton). Uruted Mine Workers, District 50, Local 12993 (Joseph M. Dignan &amp;Sons, Inc &amp;Transit Storage Corp ). Genesee Foundry Co. (CIO-Steel Workers) International Longshoremen&#x27;s A ssn Locals 327-1 and 338-1 (AFL-Longshore- men). AFL-Murphysboro Central Labor Council (J. C. Penney Co , Store 309). AFL-Painters, Local 193 and District Coun- ell 38 (Pittsburgh Plate Glass). AFL-Teamsters, Local 175 (Union Carbide &amp;Carbon Co, et al.). AFL-Painters, Paint Makers, Local 1232, et al. (Devoe &amp;Raynolds, Inc ). AFL-Plumbers, Local 553 (M. E. Fiterman Co ). Longshoremen&#x27;s &amp;Warehousemen&#x27;s Union, Local 140 (Upper Columbia River Towing &amp;River Terminals Co.). AFL-Teamsters, Local 816 (Bonded Paper - Products Co , Ins) AFL-Teamsters, Local 87, and AFL-Chem- Ica! Workers, Local 482 (Camp &amp;Felder Compress Co) AFL-Garment Workers, Los Angeles Cloak, Joint Board, et al. (Henry Leeker). AFL-Teamsters, Locals 505 and 175 (C I. Whitten Transfer Co)</td><td>Sept 24, 1953 do Sept. 4, 1953 Sept. 8, 1953 Oct. 12, 1953 Oct 26, 1953 Oct 28, 1953 Oct 27, 1953 Oct 20, 1953 Oct. 29, 1953 Oct. 7, 1953 Oct 8, 1953 Nov 27, 1953 Nov. 4, 1953 Nov 19, 1953 Dec. 4, 1953 Dec 2, 1953 Dec. 16, 1953 Dec. 11, 1953</td><td>10 (1) 10(1) 10 (1) 10 (1) 10 (1) 10 (1) 10 (1) 10 (i) 10 (i) 10 (1) 10 (1) 10 (1) 10 0) 10 (I) 10 (1) 10 (1) 10 (1) 10 (1) 10 (1)</td><td>Sept. 24, 1953 (consent) Oct. 12, 1953 Oct 20, 1953 Oct 30, 1953</td><td>Nov 2, 1953</td><td>(0 (I) Sept. 24, 1953 (0 Nov 3, 1953 (I) (I) Nov. 2, 1953 (I) Nov. 3, 1953 (I) (I) Nov. 9, 1953 (0 (0 (&#x27;) (0 Jan. 5, 1954</td><td class="blank"></td><td>Nov. 25, 1953 Oct. 5, 1953 June 15, 1954 Dec 31, 1953 May 25, 1954 Mar. 2, 1954 Apr 23, 1954 June 4, 1954 Mar 18, 1954 May 3, 1954 May 5, 1954</td><td>Withdrawn Settled. Apr 21, 1954. Settled. Settled. Jan. 6, 1954 Mar. 9, 1954 Settled. Feb 8, 1954 Withdrawn. Mar 18, 1954. Settled.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1954_p0188_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1954_p0188.webp" loading="lazy" alt="Source page 188 of NLRB FY1954 annual report">
+<figcaption>Source: NLRB Annual Report FY1954, p. 188.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

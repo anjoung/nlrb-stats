@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.285 table — NLRB FY1938</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1938.html">FY1938</a> &rsaquo; p.285 table</p>
+<h1>p.285 table</h1>
+<p class="meta">source page 285 &middot; <code>nlrb1938_p0285_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Paragon Slipper Co</th><td>May 12, 1938</td><td>May 13,1938</td><td>June 27,1938</td></tr>
+<tr><th class="stub" scope="row">Paramount Pictures, Inc_</th><td>Apr. 27,1938</td><td>Apr. 27, 1938</td><td>June 23,1938</td></tr>
+<tr><th class="stub" scope="row">Peninsular &amp;Occidental Steamship Co</th><td>Aug. 23,1937</td><td>Aug. 24, 1937</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row">Pennsylvania Greyhound Lines, Inc</th><td>July 1,1937</td><td>July 26, 1937</td><td>Sept. 24,1937</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>Nov. 26,1937</td><td>Nov. 27,1937</td><td>Mar. 31,1938</td></tr>
+<tr><th class="stub" scope="row">Pennsylvania Salt Manufacturing Co</th><td>Sept. 2,1937</td><td>Sept. 2,1937</td><td>Sept. 24,1937</td></tr>
+<tr><th class="stub" scope="row">Pennsylvania Shipyards Inc</th><td>Nov., 4,1937</td><td>Nov. 5, 1937</td><td>Feb. 3,1938</td></tr>
+<tr><th class="stub" scope="row">Petroleum Iron Works Co</th><td>Nov. 8,1937</td><td>Nov. 8,1937</td><td>Jan. 18, 1938</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>Aug. 30,1937</td><td>Aug. 30,1937</td><td>Sept. 29,1937</td></tr>
+<tr><th class="stub" scope="row">Petroleum Iron Works Co. of Texas</th><td>Nov. 8,1937</td><td>Nov. 8, 1937</td><td>Jan. 18, 1938</td></tr>
+<tr><th class="stub" scope="row">Phelps Dodge Corporation (United Verde Branch)</th><td>Jan. 10,1938</td><td>Jan. 11,1938</td><td>Apr. 15,1938</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Pier Machine Works, Inc Pilot Radio Corporation</th><td>Apr. 5,1938 Nov. 8,1937</td><td>Apr. 5, 1938</td><td>May 23,1938 (I)</td></tr>
+<tr><th class="stub" scope="row">Pioneer Gravel Equipment Manufacturing Co</th><td class="blank"></td><td>Dec. 4, 1937 Feb. 14, 1938</td><td>(2)</td></tr>
+<tr><th class="stub" scope="row">P. Lorillard Co., Inc</th><td>Feb. 14,1938 July 15,1937</td><td>July 15,1937</td><td>Sept. 1, 1937</td></tr>
+<tr><th class="stub" scope="row">P. Lorillard Tobacco Co</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Plankinton Packing Co</th><td>Feb. 2,1938</td><td>Feb. 2, 1938</td><td>Mar. 5,1938</td></tr>
+<tr><th class="stub" scope="row">Plant Line Stevedoring Co., Inc</th><td>June 20,1938</td><td>(3)</td><td>(I)</td></tr>
+<tr><th class="stub" scope="row">Planters Manufacturing Co</th><td>Nov. 23,1937</td><td>Dec. 4,1937</td><td>(1) Sept 17, 1937</td></tr>
+<tr><th class="stub" scope="row">Pocahontas Steamship Co</th><td>Aug. 23, 1937</td><td>Aug. 24, 1937</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Portland Lumber Mills</th><td>Sept. 20,1937</td><td>Sept. 22,1937</td><td>Oct. 21,1937 Feb. 12,1938</td></tr>
+<tr><th class="stub" scope="row">Postal Telegraph-Cable Co., et al</th><td>Dec. 22,1937</td><td>Dec. 28,1937</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Postal Telegraph-Cable Co</th><td>do</td><td>do</td><td>10 Do.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>10 Do.</td></tr>
+<tr><th class="stub" scope="row">Do Do</th><td>do Mar. 24,1938</td><td>do Mar. 24,1938</td><td>10 Do. May 25,1938</td></tr>
+<tr><th class="stub" scope="row">Pressed Steel Car Co., Inc Proximity Print Works</th><td>Apr. 7,1938</td><td>Apr. 8, 1938</td><td>June 23,1938 June</td></tr>
+<tr><th class="stub" scope="row">Pulaski Veneer Corporation</th><td>Dec. 16,1937</td><td>Dec. 17,1937 Feb. 12,1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>Feb. 3.1938</td><td class="blank"></td><td>9,1938</td></tr>
+<tr><th class="stub" scope="row">Pure Oil Co</th><td>Jan. 13, 1938</td><td>Jan. 19,1933 Dec.</td><td>(2) (1)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>Nov. 29,1937</td><td>7,1937 June 17,1938</td><td>(I)</td></tr>
+<tr><th class="stub" scope="row">Quality Art Novelty Co</th><td>May 19,1938</td><td>June</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Quality Furniture Mfg. Co</th><td>June 9, 1938</td><td>18,1938 May</td><td>(I)</td></tr>
+<tr><th class="stub" scope="row">R. C. A. Communications, Inc</th><td>May 16,1938</td><td>20,1938 do</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row">Do R. C. Mahon Co</th><td>do Dec. 13,1937</td><td>Dec. 13,1937</td><td>Feb. (1)</td></tr>
+<tr><th class="stub" scope="row">Reading Batteries, Inc</th><td>Apr. 28,1938</td><td>May 5,1938</td><td>12,1938 (I)</td></tr>
+<tr><th class="stub" scope="row">Reading Transportation Co</th><td>June 29,1938</td><td>June 30,1938</td><td>Feb.</td></tr>
+<tr><th class="stub" scope="row">Red River Lumber Co</th><td>Aug. 5,1937</td><td>Aug. 7,1937 Apr. 25, 1738</td><td>26,1938 May 11,1938</td></tr>
+<tr><th class="stub" scope="row">Red Salmon Canning Co</th><td>Apr. 22,1938</td><td>Mar. 12,1938</td><td>(I)</td></tr>
+<tr><th class="stub" scope="row">Reed-Powers Cut Stone Co Richard Meyer Co</th><td>Mar. 10,1938</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>June</td><td>Nov. 3, 1937</td><td>Jan. 11,</td></tr>
+<tr><th class="stub" scope="row">Richardson Co</th><td>20,1938 Nov. 2,1937</td><td class="blank"></td><td>1938 June</td></tr>
+<tr><th class="stub" scope="row">Do Richfield Oil Co</th><td>May 9,1938 Dec. 21,1937</td><td>May 9,1938 Dec.</td><td>23,1938 Mar.</td></tr>
+<tr><th class="stub" scope="row">Richfield Oil Co. of California</th><td>Dec. 9,1937</td><td>21,1937 Dec.</td><td>15,1938 Max.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>Dec. 21,1937</td><td>10,1937 Dec.</td><td>9.1938 Mar.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>21,1937 do</td><td>15,1938 Do.</td></tr>
+<tr><th class="stub" scope="row">Richfield Oil Corporation Richmond Greyhound Lines, Inc</th><td>Apr. 11,1938 July 1, 1937</td><td>Apr. 11,1938 July 26, 1937</td><td>June 2,1938 Sept. 14,1937</td></tr>
+<tr><th class="stub" scope="row">Richmond and Samuels, Inc</th><td>Mar. 29,1938</td><td>Mar.</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row">Ritz Distributing Co</th><td>do</td><td>30,1938 do</td><td>• (I)</td></tr>
+<tr><th class="stub" scope="row">Roberti Brothers</th><td>Dec. 2,1937 July 19,1937</td><td>Dec. 28,1937</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Robins Dry Dock &amp;Repair Co Robbins &amp;Myers Co</th><td>May 19,1938</td><td>Aug. 3,1937 May 19,1938</td><td>June 23,1938</td></tr>
+<tr><th class="stub" scope="row"></th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do Do</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Roma Wine Co</th><td>Mar. 24,1938</td><td>Mar. 24,1938</td><td>May 11,1938</td></tr>
+<tr><th class="stub" scope="row">Ross &amp;Heyn, Inc</th><td>June 20,1938</td><td>(0)</td><td>Oct. 7, 1937</td></tr>
+<tr><th class="stub" scope="row">Rossie Velvet Co</th><td>Aug. 23, 1937</td><td>Aug. 24, 1937 do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do Royal Warehouse Corporation and Royal Glass Works</th><td>do</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Corporation</th><td>June 14, 1938 June 20,1938</td><td>June 14, 1938 (3)</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row">Ryan Stevedoring Co</th><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">S. A. Gerrard Co</th><td>Mar. 29,1938</td><td>Mar. 30,1938</td><td>(1)</td></tr>
+<tr><th class="stub" scope="row">Salinas Valley Vegetable Exchange</th><td>do Nov. 17,1937</td><td>do Dec. 13,1937</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">San Diego Ice &amp;Cold Storage Co</th><td class="blank"></td><td>Aug. 20,1937</td><td>Oct.</td></tr>
+<tr><th class="stub" scope="row">San Diego Marine Construction Co</th><td>Aug. 20,1937</td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td class="blank"></td><td>25,1937</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do do</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1938_p0285_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1938_p0285.webp" loading="lazy" alt="Source page 285 of NLRB FY1938 annual report">
+<figcaption>Source: NLRB Annual Report FY1938, p. 285.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

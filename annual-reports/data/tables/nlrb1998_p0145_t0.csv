@@ -1,0 +1,19 @@
+row_label,col_1,col_2,col_3
+Hearings completed,56,,51
+Decisions issued after beams,54,3,51
+By Regional Directors,49,3,46
+By Board,5,0,5
+Transferred by Regional Directors for initial decision,,,
+Review of Regional Directors' decisions,,,
+Requests for review received,43,,37
+Withdrawn before request ruled upon,5,0,5
+"Board action on requests ruled upon, total",30,I,27
+Granted,4,o,4
+Denied,25,1,22
+Remanded,1,o,1
+"Withdrawn after request granted, before Board review",i,o,1
+"Board decision after review, total",,,
+Regional Directors' decisions,,,
+-Affirmed,,,3
+Modified,1,0,1
+Reversed,,,1

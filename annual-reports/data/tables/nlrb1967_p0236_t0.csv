@@ -1,0 +1,27 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14,col_15
+"Total, all industrial groups",30425,17040,11259,3404,1329,486,34,528,12957,11193,1140,624,125,86,217
+I4anufacturing,14783,8041,6002,1504,283,117,12,123,6466,5628,518,320,73,60,143
+Ordnance and accessories,105,56,48,5,3,0,,0,46,45,0,1,0,0,3
+Food and kindred products,1915,991,743,' 172,34,12,,28,903,789,85,29,2,4,15
+Tobacco manufacturers,26,17,11,6,0,0,,0,8,8,0,0,1,o,o
+Textile mill products,401,256,207,33,5,0,,11,141,121,11,9,1,1,2
+Apparel and other finished products made from fabric and similar materials,567,389,305,66,9,0,,8,175,144,19,12,3,o,0
+Lumber and wood products (except furniture)_ _,489,217,174,28,8,2,,5,263,225,21,17,5,3,1
+Furniture and fixtures,427,250,180,52,12,4,,2,171,150,12,9,3,1,2
+Paper and allied products,591,299,219,60,6,7,,7,270,247,12,11,3,5,14
+"Printing, publishing, and allied industries",928,471,355,76,14,13,,13,444,386,38,20,4,1,8
+Chemical and allied products,765,359,284,52,15,6,,2,397,354,22,21,2,2,5
+Products of petroleum and coal,257,142,109,26,6,1,,0,107,94,6,7,o,3,5
+Rubber and plastic products,550,283,226,38,14,1,,4,256,229,12,15,6,2,3
+Leather and leather products,240,134,110,22,2,0,,0,105,100,2,3,0,1,0
+"Stone, clay, and glass products",740,397,256,74,38,18,,11,322,281,23,18,4,5,12
+Primary metal industries,904,637,381,138,11,3,,2,343,292,27,24,5,4,15
+Fabricated metal products (except machinery and transportation equipment),1399,728,557,111,31,15,,11,653,558,64,31,8,4,6
+Machinery (except electrical),1424,709,537,129,26,9,,4,680,595,54,31,8,7,20
+"Electrical machinery, equipment, and supplies _",1149,662,507,116,19,10,,10,462,408,32,22,3,11,11
+Aircraft and parts,,,138,64,6,0,,0,76,65,8,3,2,0,4
+Ship and boat building and repairing,289,207,63,26,3,5,,1,77,55,22,0,0,3,6
+Automotive and other transportation equipment_,724,98 440,,,11,,,,,,,,,2,9
+"Professional, scientific, and controlling instru- ments",184,,321,101,,7,,0,271,241,15,15,2,,
+,168,88,70,14 95,4 7,0,,0,76,57,13,6,2,1,1 1
+Miscellaneous manufacturing,541,311,201,,,4,,4,220,184,20,16,9,0,

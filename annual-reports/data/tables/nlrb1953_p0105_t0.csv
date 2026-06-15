@@ -1,0 +1,17 @@
+row_label,Left panel / Number of cases showing specific allegations,Left panel / Percent of total cases,Right panel / Number of cases showing specific allegations,Right panel / Percent of total cases
+A. CHARGES FILED AGAINST EMPLOYERS UNDER SEC. 8(a),,,,
+Total cases,4409,100.0,,
+8(a)(1) [left] / 8(a)(3) [right],4409,100.0,3023,68.6
+8(a)(2) [left] / 8(a)(4) [right],421,9.5,110,2.5
+8(a)(5) [right only],,,1347,30.6
+B. CHARGES FILED AGAINST UNIONS UNDER SEC. 8(b),,,,
+Total cases [left] / 8(b)(4) [right],1060,100.0,250,23.6
+8(b)(1) [left] / 8(b)(5) [right],632,59.6,15,1.4
+8(b)(2) [left] / 8(b)(6) [right],604,57.0,26,2.5
+8(b)(3) [left only],134,12.6,,
+C. ANALYSIS OF 8(b)(1) AND 8(b)(4),,,,
+Total cases 8(b)(1) [left] / Total cases 8(b)(4) [right],632,100.0,250,100.0
+8(b)(1)(A) [left] / 8(b)(4)(A) [right],615,97.3,160,64.0
+8(b)(1)(B) [left] / 8(b)(4)(B) [right],26,4.1,47,18.8
+8(b)(4)(C) [right only],,,15,6.0
+8(b)(4)(D) [right only],,,71,28.4

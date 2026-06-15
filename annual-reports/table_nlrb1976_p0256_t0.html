@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.256 table — NLRB FY1976</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1976.html">FY1976</a> &rsaquo; p.256 table</p>
+<h1>p.256 table</h1>
+<p class="meta">source page 256 &middot; <code>nlrb1976_p0256_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">g a 5</th><td>Cro Q .&#x27; 5 4 g K2 g,</td><td>WAS a 2 - CD</td><td>,;&#x27;Ackgs.s* P 0- 0 ^,00Z rg</td><td>, ,&quot;A w g 0 5 CD</td><td>30t1 0wrom g. 0. 0 ?</td><td>4.3P1 f , ,T E S°;&#x27; &quot;gP,VCr •</td><td>T CD</td><td class="blank"></td><td>,tog&lt;tt p2z2.2;q4 EiF,Q n 2. a. 5</td></tr>
+<tr><th class="stub" scope="row">g m m</th><td>m m.</td><td>w m m</td><td>1-, m.mm mmm., w</td><td>wm,4mm.m. mwoommtomm g .</td><td>m0, L.om</td><td>. ,</td><td>m.m. mo,m</td><td>m ,</td><td>mw.momm m.ow,mm</td></tr>
+<tr><th class="stub" scope="row">2,&gt; E t</th><td>0,t</td><td>g</td><td>e.AtE E</td><td>54,0%&#x27;88&#x27;5</td><td>g g</td><td>tft22</td><td>V.Met</td><td>g</td><td>8488&#x27;4N8</td></tr>
+<tr><th class="stub" scope="row">.0 PI</th><td>5 mt,</td><td>5</td><td>&amp;Ats g</td><td>zwstt... ,</td><td>. g 2 sn..2.8</td><td>. g</td><td>5tOO8</td><td>m 5</td><td>tc .438,.,</td></tr>
+<tr><th class="stub" scope="row">.r- t</th><td>CO 0.</td><td>t:3 -</td><td>- ,t,wt. z1</td><td>.....0.0</td><td>- ...ow</td><td>g</td><td>0.888</td><td>4</td><td>,U5.8,m.</td></tr>
+<tr><th class="stub" scope="row">g</th><td>o oo</td><td>8</td><td>m. g ow CO</td><td>1...mw.00</td><td>5 003C.©</td><td>r-1</td><td>.,..</td><td>.;.&#x27;</td><td>,,,,..&#x27;,,,</td></tr>
+<tr><th class="stub" scope="row"></th><td>8 08</td><td>4</td><td>w.m,r. 8</td><td>00.00. mo.</td><td>, 03 to</td><td>5</td><td>.050&#x27;</td><td>8</td><td>030 00</td></tr>
+<tr><th class="stub" scope="row">2,.. &#x27; i l t</th><td>wt</td><td>§ .-</td><td>a . , 115</td><td>tzt . , ss..</td><td>?. &#x27;it g t</td><td>8 .</td><td>a--IE:1</td><td>t .</td><td>atsgsu</td></tr>
+<tr><th class="stub" scope="row">. , P P &#x27; g 2 p</th><td>P --&quot;4 .8</td><td>z 72 t m P . 51S</td><td>0 . 01 &#x27;&#x27;C&quot;&#x27; wm48 61</td><td>!-. to too, ..!-. N-48W&#x27;Qt 5.4.=1,88m</td><td>P a , P 2 PP: . as . v.2 0■1&gt;Y6</td><td>F- 1 .-1 ,</td><td>.:4 1 P WBV&#x27; --1.a</td><td>P &quot; .: 4 Z</td><td>PIte&#x27;PPPP gwEg. ,c,e,pmaM</td></tr>
+<tr><th class="stub" scope="row">4,.. P P V ;2</th><td>p, Fp29</td><td>8 s,,</td><td>.4.0..7 q49t .. ,; V</td><td>._, 1,_,I, :- 688En g =1</td><td>t 900&#x27;P0 85=F4</td><td>A E</td><td>00.0 . - 4 4 g p</td><td>E</td><td>4.8e&#x27;Pe&#x27;0&#x27;V gasgsn</td></tr>
+<tr><th class="stub" scope="row">- 8 . P ; g</th><td>P gg</td><td>c.., V g r&#x27;</td><td>-PPP PaEn P E</td><td>2-. V HEMen</td><td>. .:. 5 VVVV nEE</td><td>. V E</td><td>VPPP l&#x27;EU,</td><td>to .1-&#x27;</td><td>Pe&quot;VVVV2-&#x27; EEEEE5</td></tr>
+<tr><th class="stub" scope="row">- - - c ° w S 8</th><td>- 8.R. mx</td><td>- CO g - . a5</td><td>... W5=9 N . . &quot;i</td><td>. tt4tE 9 ,,tni •U 0 CO CA a5 5O bZ ,-,</td><td>- ..7&#x27; &#x27;Z.; tO Pl-- . V EtIF&#x27; - &#x27; 36 b: -4 ID:</td><td>- e&#x27; L3 -4</td><td>to 0101 &#x27;RES -4 5 o. cm</td><td>- P 2 cc,</td><td>VV2-&quot;V to 8.Tt.=er:,E ,Cn.-05</td></tr>
+<tr><th class="stub" scope="row">8 g</th><td>o§&#x27; &#x27;&#x27; .</td><td>E</td><td>5EiS1 4</td><td>slillg-5s</td><td>I N E l a E g n</td><td>P E</td><td>V ill§</td><td>P L°</td><td>r&#x27; anaa.</td></tr>
+<tr><th class="stub" scope="row">P a -4 CO</th><td>om</td><td>. &quot;:&#x27; 1 - -1 &#x27;-&#x27;</td><td>. &#x27;&#x27; 888ot w 8</td><td>..i.00 m mm.m8-400</td><td>. 8 , Stmm .m.m</td><td>. w . m</td><td>is.w1; m,,m ,owm</td><td>g .</td><td>.. .. m.008,0E</td></tr>
+<tr><th class="stub" scope="row">v E g</th><td>4&#x27; 2</td><td>.P s</td><td>.w .com sr-ls &amp; -</td><td>. 208o g So.</td><td>t3 . . 0., aa,ao</td><td>!. . - 1</td><td>.. cot8</td><td>. m 4</td><td>m m .. mE -.4 w... om</td></tr>
+<tr><th class="stub" scope="row">m . CO . !-. § °&#x27; 4</th><td>.:-&#x27; 8S m.</td><td>w s&#x27; D 8 m 2- ..</td><td>g VP S&#x27;&#x27;&#x27;AV m84,0 :&#x27;, 5 m</td><td>Z&#x27;Z&#x27;V St&#x27;-t&#x27;t4&quot;-&#x27; m,....8</td><td>.r. El o VVVP a g &#x27;S mo8m</td><td>. &#x27;3 &#x27; 8</td><td>e&#x27;P.18es 88 : -A w m.-48</td><td>8 ,4</td><td>0301 to 888&#x27;4gSg .mmm.,-4</td></tr>
+<tr><th class="stub" scope="row">, w 2.</th><td>P &quot;</td><td>w 1- . § r&#x27;</td><td>g PP Mil l P E</td><td>:&quot; V W t §1-</td><td>1.4 &#x27;-&#x27;.. 0.2&quot;2&quot;.&quot; F 1 &#x27; a</td><td>5 v.</td><td>!- . .PP&#x27;v P&#x27;-&#x27; 1</td><td>5 E</td><td>03V:P2-&#x27; FiTE8P</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1976_p0256_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1976_p0256.webp" loading="lazy" alt="Source page 256 of NLRB FY1976 annual report">
+<figcaption>Source: NLRB Annual Report FY1976, p. 256.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

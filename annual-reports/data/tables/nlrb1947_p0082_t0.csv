@@ -1,0 +1,6 @@
+row_label,Number of elections and cross checks,Elections won by petitioner / Number,Elections won by petitioner / Percent,Eligible voters,Valid votes cast for / Total,Valid votes cast for / A. F. of L.,Valid votes cast for / C. I. O.,Valid votes cast for / Unaffiliated unions,Valid votes cast for / No union,Percent of total votes cast for petitioner
+Total,6920,4539,65.6,934453,805474,206524,285381,124827,188742,68.9
+"A. F. of L. affiliate, petitioner",2997,1940,64.7,411653,339057,141858,,,,47.7
+"C. I. O. affiliate, petitioner",2862,1936,66.4,445473,,,,,,
+"Unaffiliated union, petitioner",980,673,68.7,,,,,,,
+Employer petitioner,30,,,,,,,,,

@@ -1,0 +1,28 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14
+Metal mining,5,1,1,0,0,4,1283,1203,608,608,0,0,595,561
+Coal mining,5,2,1,1,0,3,273,259,131,49,82,0,128,90
+Oil and gas extraction,5,3,3,0,0,2,330,290,140,140,0,0,150,174
+Mining and quarrying of nonmetallic minerals (except fuels),9,5,4,0,1,4,606,577,293,235,43,15,284,433
+Mining,24,11,9,1,1,13,2492,2329,"1,172 2,776","1,032 2,267",125,15,1157,1258
+Construction Wholesale trade,236 186,113 53,101 50,2 1,10 2,123 133,"7,786 9,402","5,388 8,594",3387,3251,22 103,487 33,"2,612 5,2(17","3,658 1.526"
+Retail trade,260,106,100,0,6,154,11716,9999,4511,4038,39,434,5488,4330
+"Finance, insurance, and real estate",61,34,28,1,5,27,3254,2764,994,854,25,115,1770,564
+U.S. Postal Service,1,0,0,0,0,1,88,82,24,24,0,0,58,0
+Local and suburban transit and interurban highway passenger transportation Motor freight transportation and warehousing,115 236,59 100,51 96,1 2,7,56 136,10582,8705,4402,"3,894 3,909",100 51,408 92,"4,303 5,124","4,691 2,703"
+Water transportation,14,6,5,0,2 1,8,"10,499 317","9,176 285","4,052 118",74,0,44,167,91
+Other transportation,50,25,25,0,0,25,3951,3420,1758,1577,0,181,1662,1325
+Communication,,,,o,,,,,,775,0,57,1076,
+"Elec-tric, gas, and sanitary services",63 100,28 44,26 42,2,2 0,35 56,"2,136 4,554","1,908 3,969","832 1,804",1573,111,120,2165,"731 1,583"
+"Transportation, communication, and other utilities",578,262,- 245,5,12,316,32039,27463,12966,11802,262,902,14497,11124
+"Hotels, rooming houses, camps, and other lodging places",55,31,30,1,0,24,2737,2448,1087,1043,44,0,1361,896
+Personal services,45,23,21,1,1,22,1672,1491,935,757,98,80,556,1034
+"Automotive repair, services, and garages",67,30,26,0,4,37,1566,1334,658,598,0,60,676,756
+Motion pictures,10,5,5,0,0,5,470,393,228,228,0,0,165,277
+,39,15,15,o,o,24,1661,1339,497,471,0,26,842,438
+Amusement and recreation services (except motion pictures) Health services,370,205,160,13,32,165,33475,28471,14269,11530,1029,1710,14202,15677
+Educational services,28,18,14,2,2,10,,1130,678,541,27,110,452,910
+,,,,,,,1439,999,419,199,13,207,580,'438
+Membership organizations,29,14,8,0',6,15,1170,,,2171,,1087,3013,
+Business services,196,110,65,17,28,86,8427,6863,3850,,592,,,4480
+Miarenanenos renair services,17,,2,0,0,15,974,898,275,,0,0,623,68
+,,2,,,,,,,,275,,,,

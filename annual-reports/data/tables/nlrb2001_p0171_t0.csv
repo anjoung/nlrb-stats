@@ -1,0 +1,25 @@
+row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11
+National v. Local......................................,402,294,,145,149,4,101,,5,96,3
+AFL-CIO v. Local....................................,2572,1958,1122,,836,266,215,146,,69,133
+Local v. Local..........................................,414,370,,,370,38,2,,,2,4
+AFL-CIO v. National...............................,1250,1005,669,336,,60,91,14,77,,94
+National v. National.................................,103,55,,55,,2,26,,26,,20
+AFL-CIO v. AFL-CIO..............................,4573,2090,2090,,,263,1077,1077,,,1143
+2-union elections..................................,9314,5772,3881,536,1355,633,1512,1237,108,167,1397
+AFL-CIO v. AFL-CIO v. AFL-CIO........,56,56,56,0,0,0,0,,,,
+AFL-CIO v. AFL-CIO v. Local...............,942,908,830,0,78,34,0,,,,
+AFL-CIO v. Local v. Local......................,188,188,76,0,112,0,0,,,,
+3 (or more)-union elections..................,1186,1152,962,0,190,34,0,0,0,0,0
+Total RC elections................................,171904,46098,39727,2830,3541,18281,35343,32475,1531,1337,72182
+C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases
+AFL-CIO..................................................,1872,396,396,,,175,410,410,,,891
+Other local unions....................................,21,6,,,6,0,2,,,2,13
+Other national unions...............................,26,0,,,,,6,0,6,0,20
+1-union elections..................................,1919,402,396,0,6,175,418,410,6,2,924
+AFL-CIO v. National...............................,6,0,,,,,0,0,0,0,6
+AFL-CIO v. AFL-CIO.............................,232,102,102,,,89,40,40,,,1
+2-union elections..................................,238,102,102,0,0,89,40,40,0,0,7
+Total RMelections...............................,2157,504,498,0,6,264,458,450,6,2,931
+D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases
+AFL-CIO..................................................,19832,7680,7680,,,3667,2984,2984,,,5501
+Other local unions....................................,1138,441,,,441,210,149,,,149,338

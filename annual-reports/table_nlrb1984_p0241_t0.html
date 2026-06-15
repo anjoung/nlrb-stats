@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statistical Table 19 — Litigation for Enforcement and/or Review of Board Orders, and for Contempt Actions + Cumulative July 5, 1935 — Sept. 30, 1984 — NLRB FY1984</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1984.html">FY1984</a> &rsaquo; Statistical Table 19 — Litigation for Enforcement and/or Review of Board Orders, and for Contempt Actions + Cumulative July 5, 1935 — Sept. 30, 1984</p>
+<h1>Statistical Table 19 — Litigation for Enforcement and/or Review of Board Orders, and for Contempt Actions + Cumulative July 5, 1935 — Sept. 30, 1984</h1>
+<p class="meta">source page 241 &middot; <code>nlrb1984_p0241_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Type of proceeding / disposition</th><th>Fiscal year 1984 — Number of proceedings — Total</th><th>Vs employers only</th><th>Vs unions only</th><th>Vs both employers and unions</th><th>Board dismissal</th><th>Fiscal year 1984 — Percentages — Vs employers only</th><th>Vs unions only</th><th>Vs both employers and unions</th><th>Board dismissal</th><th>Cumulative July 5, 1935 — Sept. 30, 1984 — Number</th><th>Cumulative — Percent</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Proceedings decided by U.S. courts of appeals</th><td>286</td><td>243</td><td>28</td><td>12</td><td>3</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>9,166</td><td>100</td></tr>
+<tr><th class="stub" scope="row">On petitions for review and/or enforcement</th><td>259</td><td>220</td><td>24</td><td>12</td><td>3</td><td>100</td><td>100</td><td>100</td><td>100</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Board orders affirmed in full</th><td>175</td><td>145</td><td>17</td><td>11</td><td>2</td><td>65.9</td><td>70.8</td><td>91.7</td><td>66.7</td><td>5,861</td><td>63.9</td></tr>
+<tr><th class="stub" scope="row">Board orders affirmed with modification</th><td>22</td><td>22</td><td>3</td><td>0</td><td>1</td><td>10</td><td>12.5</td><td>0</td><td>33.3</td><td>1,047</td><td>10</td></tr>
+<tr><th class="stub" scope="row">Remanded to Board</th><td>22</td><td>21</td><td>1</td><td>0</td><td>0</td><td>10</td><td>4.2</td><td>0</td><td>0</td><td>448</td><td>4.9</td></tr>
+<tr><th class="stub" scope="row">Board orders partially affirmed and partially remanded</th><td>9</td><td>9</td><td>0</td><td>0</td><td>0</td><td>4.1</td><td>0</td><td>0</td><td>0</td><td>172</td><td>1.9</td></tr>
+<tr><th class="stub" scope="row">Board orders set aside</th><td>27</td><td>23</td><td>3</td><td>1</td><td>0</td><td>10.5</td><td>12.5</td><td>8.3</td><td>0</td><td>1,325</td><td>14.5</td></tr>
+<tr><th class="stub" scope="row">On petitions for contempt</th><td>27</td><td>23</td><td>4</td><td>0</td><td>0</td><td>100</td><td>100</td><td>0</td><td>0</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Contempt — Compliance after filing of petition, before court order</th><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>8.7</td><td>0</td><td>0</td><td>0</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Contempt — Court orders holding respondent in contempt</th><td>22</td><td>18</td><td>4</td><td>0</td><td>0</td><td>78.3</td><td>100</td><td>0</td><td>0</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Contempt — Court orders denying contempt</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Contempt — Court orders directing compliance without contempt adjudication</th><td>3</td><td>3</td><td>0</td><td>0</td><td>0</td><td>13</td><td>0</td><td>0</td><td>0</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Contempt petitions withdrawn without compliance</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Proceedings decided by U.S. Supreme Court</th><td>4</td><td>3</td><td>1</td><td>0</td><td>0</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>243</td><td>100</td></tr>
+<tr><th class="stub" scope="row">SCOTUS — Board orders affirmed in full</th><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>33.4</td><td>100</td><td>0</td><td>0</td><td>146</td><td>60.1</td></tr>
+<tr><th class="stub" scope="row">SCOTUS — Board orders affirmed with modification</th><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>33.3</td><td>0</td><td>0</td><td>0</td><td>19</td><td>7.8</td></tr>
+<tr><th class="stub" scope="row">SCOTUS — Board orders set aside</th><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>33.3</td><td>0</td><td>0</td><td>0</td><td>46</td><td>18.9</td></tr>
+<tr><th class="stub" scope="row">SCOTUS — Remanded to Board</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>6.6</td></tr>
+<tr><th class="stub" scope="row">SCOTUS — Petition for remand or modification of enforcement order denied</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>4</td></tr>
+<tr><th class="stub" scope="row">SCOTUS — Contempt remanded to court of appeals</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0.4</td></tr>
+<tr><th class="stub" scope="row">SCOTUS — Contempt cases enforced</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>2.1</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1984_p0241_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1984_p0241.webp" loading="lazy" alt="Source page 241 of NLRB FY1984 annual report">
+<figcaption>Source: NLRB Annual Report FY1984, p. 241.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

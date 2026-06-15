@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.250 table — NLRB FY1949</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1949.html">FY1949</a> &rsaquo; p.250 table</p>
+<h1>p.250 table</h1>
+<p class="meta">source page 250 &middot; <code>nlrb1949_p0250_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">10-RC-231</th><td>Reliance Transfer Co., Inc.</td><td>7-RC-28</td><td>Sam&#x27;s Inc., Randolph Drug Co.</td></tr>
+<tr><th class="stub" scope="row">2-RC-164</th><td>Remington Rand, Inc.</td><td>1-RC-621</td><td>Sandler Moccasin Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">2-RC-502 13-RC-206</th><td>Republic Aviation Corp. Republic Flow Meters</td><td>8-RC-285</td><td>Sandusky Newspapers,</td></tr>
+<tr><th class="stub" scope="row">7-RC-354</th><td>Co. Rex Paper Co.</td><td>1-RC-709</td><td>Inc. Sangerville Woolen</td></tr>
+<tr><th class="stub" scope="row">5-RC-210</th><td>Reynolds Metals Co.</td><td class="blank"></td><td>Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-RC-237</th><td>Reynolds Metals Co., Reynalite Division.</td><td>16-RC-254</td><td>San Marcos Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">34-RC-95</th><td>Reynolds, R. J., To- bacco Co.</td><td>1-R C--376</td><td>San-Nap-Pak Manufac- turing Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">7-RC-62</th><td>Reynolds Spring Co. Rich Loaf, Inc.</td><td>16-RC-60</td><td>Santa Fe Trail Trans- portation Co.</td></tr>
+<tr><th class="stub" scope="row">9-RC-452</th><td class="blank"></td><td>8-RC-101</td><td>Save Electric Corp.</td></tr>
+<tr><th class="stub" scope="row">9-RC-107 16-RC-211</th><td>Rich, Howard B., Inc. Rio Grande Valley Gas</td><td>9-RC-340</td><td>Schauer Machine Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Co. Ritchie Grocery Co.</td><td>16-RC-110</td><td>rSchlumberger Well Sur-</td></tr>
+<tr><th class="stub" scope="row">15-RC-138</th><td class="blank"></td><td class="blank"></td><td>veying Corp.</td></tr>
+<tr><th class="stub" scope="row">10-RC-395</th><td>Roane Anderson Co.</td><td>14-RC-397</td><td>Schulman, A., Inc.</td></tr>
+<tr><th class="stub" scope="row">9-RC-376</th><td>Robinson-Schwenn</td><td>4-RC-111</td><td>Schutte &amp; Koerting Co.</td></tr>
+<tr><th class="stub" scope="row">10-RC-466</th><td>Store, The. Rock City Paper Box Co., Inc.</td><td>20-RC-415 4-RC-295</td><td>Scott Motor Co. Seaboard Container</td></tr>
+<tr><th class="stub" scope="row">13-RC-273</th><td>Rockford Coca-Cola</td><td>21-&#x27;-RC-413</td><td>Corp. Seaside Oil Co.</td></tr>
+<tr><th class="stub" scope="row">10-RC-:356</th><td>Bottling Co. Rock Hill Printing &amp;</td><td>4-RC-302 18-RC-102</td><td>Sears, Roebuck &amp; Co. Seeger Refrigerator Co.</td></tr>
+<tr><th class="stub" scope="row">13-RC-507</th><td>Finishing Co. Rock Island Broadcast-</td><td>35-RC-138 3-RC-194</td><td>Selmer, H. &amp; A., Inc. Seven-Up of Rochester, Inc.</td></tr>
+<tr><th class="stub" scope="row">30-RC-24</th><td>ing Co. Rocky Mountain Pipe Line Co., Continental Oil.</td><td>8-RC-190</td><td>Sheffield Bronze Paint Corp. Shelbyville Desk Co.</td></tr>
+<tr><th class="stub" scope="row">20-RC-165 2-RC-821</th><td>Roddenberry Molica Co. Roddis Plywood &amp; Door</td><td>35-RC-164 13-RC-410 20-RC-331</td><td>Sheldon Machine Co. Shell Chemical Corp. Shelly Oil Co., Pipe</td></tr>
+<tr><th class="stub" scope="row">33-RC-41</th><td>Co., Inc. Roderick Broadcasting</td><td>17-RC-305</td><td>Line Department. Sherman</td></tr>
+<tr><th class="stub" scope="row"></th><td>Corp.</td><td>16-RC-341</td><td>Manufactur- ing Co.</td></tr>
+<tr><th class="stub" scope="row">16-RC-248 13-RC-251</th><td>Rohm &amp; Haas. Rosberg, J. H.,</td><td>1-RC-819</td><td>Shevenelle, Prosper .&amp; Son, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-RC-283</th><td>Manu- facturing Co. Rowe Transfer &amp; Stor-</td><td>13-RC-289 13-RC-504</td><td>Shiller Bros., Inc. Signode Steel Strapping Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>age Co.</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">34-RC-137</th><td>Royal Cotton Mill.</td><td>5-RC-257</td><td>Sins, A. J., Co., Inc. Smith, A. 0., Corp.</td></tr>
+<tr><th class="stub" scope="row">10-RC-385</th><td>Royal Palm Ice Co.</td><td>21-RC-433</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">10-RC-450</th><td>Royal Palm Ice Co.</td><td>13-RC-85</td><td>Smith, A. 0, Corp.,</td></tr>
+<tr><th class="stub" scope="row">21-RC-96</th><td>Royal Tallow &amp;</td><td class="blank"></td><td>Kankakee Works.</td></tr>
+<tr><th class="stub" scope="row">2-RC-185</th><td>Soap Co. Royal Typewriter Co.,</td><td>13-RC-102</td><td>Smith, A. 0., Corp., Kankakee Works.</td></tr>
+<tr><th class="stub" scope="row">10-RC-430</th><td>Inc. Rubin Brothers Foot- wear, Inc.</td><td>15-RC-244</td><td>Smith, Mac, Garment Co., Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>32-RC-106 16-RC-200</td><td>Smith Rice Mill, Inc. Smith, W. J., Wood</td></tr>
+<tr><th class="stub" scope="row">1-RC-357 14-RC-656</th><td>Safety Car Heating &amp; Lighting Co., Inc. St. Joseph Lead Co.</td><td>30-RC-105</td><td>Preserving Co. Socony Vacuum Refin-</td></tr>
+<tr><th class="stub" scope="row">14-RC-276</th><td>St. Louis Wholesale</td><td>21-RC-204</td><td>ery.</td></tr>
+<tr><th class="stub" scope="row">8-RC-133</th><td>Drug Co. St. Marys Manufactur-</td><td>2-RC-429</td><td>Solar Aircraft Co. Solar Corp.</td></tr>
+<tr><th class="stub" scope="row">7-RC-442</th><td>ing Co. St. Regis Paper Co. St. Regis Paper Co.</td><td>19-RC-91</td><td>Manufacturing</td></tr>
+<tr><th class="stub" scope="row">15-RC-109</th><td>St. Regis Pulp</td><td class="blank"></td><td>South Bend Fabricat- ing Co.</td></tr>
+<tr><th class="stub" scope="row">19-RC-86</th><td>Co.,</td><td>10-RC-4</td><td>Southeastern Industries,</td></tr>
+<tr><th class="stub" scope="row"></th><td>Kraft Pulp Division. Sampsel Time Control,</td><td class="blank"></td><td>Inc.</td></tr>
+<tr><th class="stub" scope="row">13-RC-207</th><td class="blank"></td><td>15-RC-182</td><td>Southern Alkali Corp.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Inc.</td><td>13-RC-256</td><td>Southern Electric, Inc.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1949_p0250_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1949_p0250.webp" loading="lazy" alt="Source page 250 of NLRB FY1949 annual report">
+<figcaption>Source: NLRB Annual Report FY1949, p. 250.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

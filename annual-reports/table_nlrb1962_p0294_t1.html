@@ -79,12 +79,7 @@ table.grid tbody td {
 }
 table.grid tbody tr:nth-child(even) th.stub,
 table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
-td.marker { color: #b06a00; text-align: center; cursor: help; font-weight: 700; }
 td.blank { color: transparent; }
-/* Marker legend shown under a grid that contains "·" cells (outside the table
-   so a copy-paste of the grid stays a clean rectangle). */
-p.marker-legend { color: var(--muted); font-size: 12.5px; margin: 0 0 0.75rem; }
-p.marker-legend .mk { color: #b06a00; font-weight: 700; }
 
 /* Source image */
 figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
@@ -129,29 +124,28 @@ ul.link-list li { margin: 0.3rem 0; }
 <tr><th></th><th></th><th></th><th></th><th></th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">Cases decided by U.S. courts of appeals</th><td>148</td><td class="marker" title="100..0 — unparsed — see source image">·</td><td>2,277</td><td>100</td></tr>
+<tr><th class="stub" scope="row">Cases decided by U.S. courts of appeals</th><td>148</td><td>100..0</td><td>2,277</td><td>100</td></tr>
 <tr><th class="stub" scope="row">Board orders enforced in full</th><td>84</td><td>56.8</td><td>1,312</td><td>57.6</td></tr>
-<tr><th class="stub" scope="row">Board orders enforced with modification_</th><td>23</td><td>15.5</td><td>459</td><td class="marker" title="• 20.2 — unparsed — see source image">·</td></tr>
+<tr><th class="stub" scope="row">Board orders enforced with modification_</th><td>23</td><td>15.5</td><td>459</td><td>• 20.2</td></tr>
 <tr><th class="stub" scope="row">Remanded to Board</th><td>14</td><td>9.5</td><td>87</td><td>3.8</td></tr>
-<tr><th class="stub" scope="row">Board orders partially enforced and partially remanded</th><td>4</td><td class="marker" title="2.7&#x27; — unparsed — see source image">·</td><td>23</td><td>1</td></tr>
+<tr><th class="stub" scope="row">Board orders partially enforced and partially remanded</th><td>4</td><td>2.7&#x27;</td><td>23</td><td>1</td></tr>
 <tr><th class="stub" scope="row">Board orders set aside</th><td>23</td><td>15.5</td><td>396</td><td>17.4</td></tr>
 <tr><th class="stub" scope="row">Cases decided by U.S. Supreme Omit</th><td>8</td><td>100</td><td>142</td><td>100</td></tr>
-<tr><th class="stub" scope="row">Board orders enforced in f1311</th><td class="marker" title="6. — unparsed — see source image">·</td><td class="marker" title="&#x27; 75.0 — unparsed — see source image">·</td><td>88</td><td class="marker" title="6L9 — unparsed — see source image">·</td></tr>
+<tr><th class="stub" scope="row">Board orders enforced in f1311</th><td>6.</td><td>&#x27; 75.0</td><td>88</td><td>6L9</td></tr>
 <tr><th class="stub" scope="row">Board orders enforced with modification</th><td>0</td><td>0</td><td>13</td><td>9.2</td></tr>
 <tr><th class="stub" scope="row">Board orderd set aside</th><td>0</td><td>0</td><td>24</td><td>16.9</td></tr>
 <tr><th class="stub" scope="row">Remanded to Board</th><td>0</td><td>0</td><td>3</td><td>2.1</td></tr>
 <tr><th class="stub" scope="row">Remanded to court of appeals</th><td>0.2</td><td>25</td><td>11</td><td>7.7</td></tr>
 <tr><th class="stub" scope="row">Board&#x27;s request for remand or modification of enforcement order denied</th><td>0</td><td>0</td><td>1</td><td>0.8</td></tr>
 <tr><th class="stub" scope="row">Contempt case remanded to court of appeals</th><td>0</td><td>0</td><td>1</td><td>0.7</td></tr>
-<tr><th class="stub" scope="row">Contempt cases enforced</th><td>0</td><td>0</td><td>1</td><td class="marker" title=". 7 — unparsed — see source image">·</td></tr>
+<tr><th class="stub" scope="row">Contempt cases enforced</th><td>0</td><td>0</td><td>1</td><td>. 7</td></tr>
 </tbody>
 </table>
 </div>
-<p class="marker-legend"><span class="mk">·</span> marks a value that couldn&rsquo;t be read from the scan — check the source image below.</p>
 <p class="downloads"><a href="data/tables/nlrb1962_p0294_t1.csv" download>Download this table (CSV)</a></p>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="images/1962_p0294.webp" loading="lazy" alt="Source page 294 of NLRB FY1962 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1962_p0294.webp" loading="lazy" alt="Source page 294 of NLRB FY1962 annual report">
 <figcaption>Source: NLRB Annual Report FY1962, p. 294.</figcaption>
 </figure>
 <p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>

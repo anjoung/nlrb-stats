@@ -1,0 +1,23 @@
+row_label,Industry,Total,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13
+Miscellaneous Manufacturing (instruments),215,119,90,21,4,2,1,88,76,8,4,1,2,3,
+Manufacturing (subtotal),15494,9166,6566,2011,377,100,14,98,6194,5353,444,297,105,69,160
+Mining (section subtotal),505,357,149,60,3,0,0,32,142,119,15,8,0,0,3
+Per-SIC mining,,,,,,,,,,,,,,,
+Construction,3386,2977,870,791,723,380,22,174,1,176,31,72,38,32,3
+Wholesale trade,1918,917,614,128,48,6,4,17,1077,897,83,67,15,8,7
+Retail trade,3432,1686,1325,211,81,10,5,54,1673,1324,224,125,27,26,20
+"Finance, insurance, and real estate",310,131,101,15,9,3,1,2,179,157,9,9,2,1,1
+Local passenger transportation,317,200,157,37,5,0,0,1,111,99,5,1,0,1,5
+"Motor freight, warehousing, and transportation services",2015,1262,851,291,75,21,5,21,740,642,42,36,2,1,13
+Per-transportation/utilities,,,,,,,,,,,,,,,
+"Transportation, communication, and other utilities (subtotal)",3580,2175,1414,523,155,53,5,25,1350,1179,102,78,5,7,34
+Hotels and other lodging places,227,192,169,25,4,1,0,2,132,115,11,3,0,1,0
+Personal services,187,104,87,19,7,0,0,0,83,74,7,3,0,1,1
+"Automobile repairs, garages, and other miscellaneous repair services",358,149,116,25,5,0,0,3,205,182,16,5,0,1,1
+Motion pictures and other amusement and recreation services,246,152,88,44,17,3,0,0,86,81,1,4,0,0,8
+Medical and other health services,449,204,152,21,23,4,0,4,231,215,9,5,0,2,1
+Educational services,40,31,10,7,9,5,0,0,8,7,1,0,0,0,1
+Nonprofit membership organizations,98,73,49,22,2,0,0,0,24,20,1,1,0,1,1
+Miscellaneous services,773,437,301,77,55,3,0,1,266,240,18,6,0,1,1
+Services (subtotal),2478,1342,963,231,108,24,1,20,966,866,74,50,17,13,13
+"Total, all industrial groups",31303,18451,12022,3973,1836,579,52,489,12107,10308,1030,769,173,134,238

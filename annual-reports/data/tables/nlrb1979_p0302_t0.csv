@@ -1,0 +1,7 @@
+row_label,All R elections — Total elections,All R elections — Withdrawn or dismissed before rerun or runoff,All R elections — Rerun or runoff,All R elections — Resulting in certification,RC elections — Total elections,RC elections — Withdrawn or dismissed before rerun or runoff,RC elections — Rerun or runoff,RC elections — Resulting in certification,RM elections — Total elections,RM elections — Withdrawn or dismissed before rerun or runoff,RM elections — Rerun or runoff,RM elections — Resulting in certification,RD elections — Total elections,RD elections — Withdrawn or dismissed before rerun or runoff,RD elections — Rerun or runoff,RD elections — Resulting in certification
+All types,8249,23,183,8043,7214,21,167,7026,247,1,0,246,788,1,10,777
+Rerun required,,,142,,,,129,,,,0,,,,13,
+Runoff required,,,41,,,,38,,,,0,,,,3,
+Consent elections,490,0,7,483,387,0,6,381,20,0,0,20,83,0,1,82
+Rerun required (Consent elections),,,7,,,,6,,,,0,,,,1,
+Runoff required (Consent elections),,,0,,,,0,,,,0,,,,0,

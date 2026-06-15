@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NLRB Twenty-Third Annual Report — Record of Injunctions Petitioned For, or Acted Upon (page 7 — case-level listing ) — NLRB FY1958</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1958.html">FY1958</a> &rsaquo; NLRB Twenty-Third Annual Report — Record of Injunctions Petitioned For, or Acted Upon (page 7 — case-level listing )</p>
+<h1>NLRB Twenty-Third Annual Report — Record of Injunctions Petitioned For, or Acted Upon (page 7 — case-level listing )</h1>
+<p class="meta">source page 180 &middot; <code>nlrb1958_p0180_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Case No.</th><th>Union and company</th><th>Date petition for injunction filed</th><th>Type of petition</th><th>Temporary restraining order — Date issued</th><th>Temporary restraining order — Date lifted</th><th>Date temporary injunction granted</th><th>Date injunction denied</th><th>Date injunction proceedings dismissed or dissolved</th><th>Date Board decision and order</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">17-CC-72</th><td>Carpenters, Local 928, and Hod Carriers, Local 676, et al. (Markwell &amp; Hartz Contractors)</td><td>Oct. 12, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>Oct. 17, 1957</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">2-CC-456, 74</th><td>*Teamsters, Local 138 (Sobel Chemical Co.)</td><td>Oct. 14, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Dec. 27, 1957</td><td>June 9, 1958</td></tr>
+<tr><th class="stub" scope="row">1-CC-191</th><td>Carpenters, Local 1, et al. (Boening &amp; Brzezinski Co.)</td><td>Oct. 14, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Apr. 24, 1958</td><td>Apr. 24, 1958</td></tr>
+<tr><th class="stub" scope="row">1-CC-191</th><td>Building Construction Trades Council of Metropolitan District (Sobonetcut, N.J.)</td><td>Oct. 21, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Oct. 24, 1957</td><td>Settled.</td></tr>
+<tr><th class="stub" scope="row">9-CC-105, CD-31, 32</th><td>*Teamsters, Local 627 (R G Wett Transportation &amp; McJunkin)</td><td>Oct. 22, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>Nov. 1, 1957</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">1-CC-173-47, 30-CC-32</th><td>Plumbers, Local 53 (Larkin Co.)</td><td>Oct. 25, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Jan. 27, 1958</td><td>Settled.</td></tr>
+<tr><th class="stub" scope="row">28-CC-12</th><td>Coal Cutters, Local 534 (Dennison Poultry &amp; Egg Co.)</td><td>Oct. 28, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Jan. 30, 1958</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">22-CC-124, CB-43</th><td>Sheet Metal Workers Local 28 (York Corp.)</td><td>Oct. 28, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Settled.</td></tr>
+<tr><th class="stub" scope="row">4-CC-101</th><td>Marine Engineers Local 6, etc. (W.W. Burke Co.)</td><td>Nov. 1, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">33-CC-24, 25</th><td>Carpenters, Local 815 (Coty, Inc.) and Contractors of Texas</td><td>Nov. 1, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>Nov. 4, 1957</td><td class="blank"></td><td class="blank"></td><td>June 26, 1958</td></tr>
+<tr><th class="stub" scope="row">9-CC-127</th><td>Carpenters, Local 122 (Associated General Contractors et al.)</td><td>Nov. 4, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Dec. 18, 1957</td></tr>
+<tr><th class="stub" scope="row">1-CC-198</th><td>*Teamsters, Local 1425 (Henke &amp; Pillot, Division of Kroger Co.)</td><td>Nov. 4, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Dec. 18, 1957</td></tr>
+<tr><th class="stub" scope="row">22-CD-5, 6</th><td>Engineers, Operating Local 825 (Charles Bonham &amp; Sons, Inc.)</td><td>Nov. 5, 1957</td><td>10 (l)</td><td>Nov. 18, 1957</td><td>Dec. 30, 1957</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>May 7, 1958</td></tr>
+<tr><th class="stub" scope="row">15-CC-71, 1-CC-167</th><td>Seafarers et al. (Spencer Derrick Corp.)</td><td>Nov. 5, 1957</td><td>10 (l)</td><td>Nov. 6, 1957</td><td>Nov. 27, 1957</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Dec. 16, 1957</td></tr>
+<tr><th class="stub" scope="row">2-CC-453</th><td>Distribution Manufacturing Co. (Tile Industries Workers, Local 124 Trumix Concrete League of Oregon)</td><td>Nov. 14, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">36-CC-54</th><td>Hatters (Sunnyside Cap Co.)</td><td>Nov. 15, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Dec. 13, 1957</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">13-CC-157, 1-CC-198</th><td>Carpenters, Local 1128 (Anderson Corp.)</td><td>Nov. 21, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Feb. 4, 1958</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">13-CC-158</th><td>Carpenter (Del-Mar Cabinet Co. Inc.)</td><td>Nov. 21, 1957</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Mar. 12, 1958</td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1958_p0180_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1958_p0180.webp" loading="lazy" alt="Source page 180 of NLRB FY1958 annual report">
+<figcaption>Source: NLRB Annual Report FY1958, p. 180.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

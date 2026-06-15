@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.149 table — NLRB FY1947</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1947.html">FY1947</a> &rsaquo; p.149 table</p>
+<h1>p.149 table</h1>
+<p class="meta">source page 149 &middot; <code>nlrb1947_p0149_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">10-R-1861</th><td>Acme Boot Mfg. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-11-2034</th><td>Alabama Marble Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-2092</th><td>Allied Chemical &amp; Dye Corp., The Barrett Division.</td></tr>
+<tr><th class="stub" scope="row">18-R-1640</th><td>All Steel Welded Truck Co.</td></tr>
+<tr><th class="stub" scope="row">2-11-7468</th><td>American Felt Co.</td></tr>
+<tr><th class="stub" scope="row">10-11-2234</th><td>American Oil Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-2189</th><td>American Rag Stock Co., Jake &amp; Josephine Lipsitz.</td></tr>
+<tr><th class="stub" scope="row">13-RA059</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-2167</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">19-11-1810</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">13-11-3629</th><td>Arthur, W., &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-11-3606</th><td>Aurora Wall Paper Mill, Inc.</td></tr>
+<tr><th class="stub" scope="row">8-11-2449</th><td>Babcock &amp; Wilcox Co., The.</td></tr>
+<tr><th class="stub" scope="row">13-11-4095</th><td>Banta, George, Publishing Co.</td></tr>
+<tr><th class="stub" scope="row">3-11-1347</th><td>Barthelmes, K., Mfg. Co. &amp; Nunn Brass Works.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Bassick-Sack Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-2540</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">8-R-2483</th><td>Belden Brick Co., The. Berry-McAfee Box Co., R.</td></tr>
+<tr><th class="stub" scope="row">10-11-2206</th><td>R. Berry.</td></tr>
+<tr><th class="stub" scope="row">16-11-2158</th><td>Blackwell Cheese Co.</td></tr>
+<tr><th class="stub" scope="row">5-11-2564</th><td>Blue Ridge Stone Corp.</td></tr>
+<tr><th class="stub" scope="row">10-11-1848</th><td>Borden Co.</td></tr>
+<tr><th class="stub" scope="row">19-11-2111</th><td>Brewster Pateros Processors, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-2451</th><td>Briggs Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">14-11-1561</th><td>Brown Shoe Co.</td></tr>
+<tr><th class="stub" scope="row">21-11-3394</th><td>Brunswig Wholesale Drug Co.</td></tr>
+<tr><th class="stub" scope="row">6-11-1496</th><td>Buckeye Coal Co.</td></tr>
+<tr><th class="stub" scope="row">7-11-2611</th><td>Bull Dog Electric Products Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-2221</th><td>Burns Feed Mills.</td></tr>
+<tr><th class="stub" scope="row">7-11-2521</th><td>Cadillac Gage Co.</td></tr>
+<tr><th class="stub" scope="row">8-11-2147</th><td>Canfield Oil Co. (Plant No. 1).</td></tr>
+<tr><th class="stub" scope="row">8-11-2177</th><td>Central Ohio Light &amp; Power Co.</td></tr>
+<tr><th class="stub" scope="row">13-11-3730</th><td>Chicago Rotoprint Co.</td></tr>
+<tr><th class="stub" scope="row">15-11-1901</th><td>Clinton Lumber Corp.</td></tr>
+<tr><th class="stub" scope="row">21-11-3687</th><td>Columbia Pictures Corp. et al.</td></tr>
+<tr><th class="stub" scope="row">13-11-4133</th><td>Commercial Furniture Co.</td></tr>
+<tr><th class="stub" scope="row">1-11-3266</th><td>Connecticut Cabinet Co. Cook, J. B. Auto Machine</td></tr>
+<tr><th class="stub" scope="row">10-R-2177</th><td>Co., Inc. Shirt Co.</td></tr>
+<tr><th class="stub" scope="row">10-11-1744</th><td>Cookeville</td></tr>
+<tr><th class="stub" scope="row">7-11-2347</th><td>Coopersville Cooperative Elevator Co.</td></tr>
+<tr><th class="stub" scope="row">10-11-1877</th><td>Cordele Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3433</th><td>Cousins Tractor Co., Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Cumberland Tobacco</td></tr>
+<tr><th class="stub" scope="row">10-11-2393 16-11-2065</th><td>Works. Cummer-Graham Co.</td></tr>
+<tr><th class="stub" scope="row">2-11-6602</th><td>Danly Machine Specialities Inc. Leuw, Cather &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">13-11-3627 13-RA232</th><td>De DeVry Corp.</td></tr>
+<tr><th class="stub" scope="row">10-11-2588</th><td>Dixie Wholesale Grocery Dollinger Corp.</td></tr>
+<tr><th class="stub" scope="row">3-11-1322</th><td>Co., Inc.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Pont, E. I. de Nemours &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">5-11-2810</th><td>du Metal Products Co.</td></tr>
+<tr><th class="stub" scope="row">13-11-4113</th><td>Duro</td></tr>
+<tr><th class="stub" scope="row">16-11-2096</th><td>East Texas Electric Steel Co. Power Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1463</th><td>Egyptian Electric Auto-Lite Co.,</td></tr>
+<tr><th class="stub" scope="row">8-R-2354 8-R-2433</th><td>Spark Plug Division, The. Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Electro-Metallurgical Ely-Walker Dry Goods Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1756</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">10-11-2410</th><td>Fagen, A. A. Fairchild Advertising,</td></tr>
+<tr><th class="stub" scope="row">1-R-3341</th><td>Inc. Fairmont Creamery Co.</td></tr>
+<tr><th class="stub" scope="row">17-11-1707 18-R-1706</th><td>Fairmont Creamery Co.</td></tr>
+<tr><th class="stub" scope="row">7-11-2311 13-11-3918</th><td>Federal-Mogul Corp. Field Enterprises, Inc.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1947_p0149_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1947_p0149.webp" loading="lazy" alt="Source page 149 of NLRB FY1947 annual report">
+<figcaption>Source: NLRB Annual Report FY1947, p. 149.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

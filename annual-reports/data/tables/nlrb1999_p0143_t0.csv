@@ -1,0 +1,22 @@
+row_label,Participating unions,Total valid votes cast,Valid votes cast in elections won / Total,Valid votes cast in elections won / Votes for unions: AFL-CIO unions,Valid votes cast in elections won / Votes for unions: Other national unions,Valid votes cast in elections won / Votes for unions: Other local unions,Valid votes cast in elections won / Total votes for no union,Valid votes cast in elections lost / Total,Valid votes cast in elections lost / Votes for unions: AFL-CIO unions,Valid votes cast in elections lost / Votes for unions: Other national unions,Valid votes cast in elections lost / Votes for unions: Other local unions,Valid votes cast in elections lost / Total votes for no union
+B. Elections in RC cases,B. Elections in RC cases,,,,,,,,,,,
+AFL-CIO,AFL-CIO,160933,44174,44174,,,,22510,33047,33047,,61202
+National,National,3555,963,,963,,,382,854,,854,1356
+Local,Local,14248,4193,,,4193,,1585,2483,,2483,5987
+1-union elections,1-union elections,178736,49330,44174,963,4193,24477,36384,33047,854,2483,68545
+AFL-CIO v. AFL-CIO,AFL-CIO v. AFL-CIO,3700,2844,2844,,,,123,274,274,,459
+AFL-CIO v. National,AFL-CIO v. National,1236,1234,742,482,,,12,0,0,0,0
+AFL-CIO v. Local,AFL-CIO v. Local,5817,4743,2868,,1875,,300,286,46,,240
+National v. Local,National v. Local,223,179,,145,34,,44,0,0,0,0
+Local v. Local,Local v. Local,606,551,,,551,,55,0,0,0,0
+2-union elections,2-union elections,11582,9541,6454,627,2460,534,560,320,0,240,947
+AFL-CIO v. AFL-CIO v. Local,AFL-CIO v. AFL-CIO v. Local,2132,2084,2084,,,,0,48,0,0,0
+3 (or more) union elections,3 (or more) union elections,2132,2084,2084,0,0,0,0,48,0,0,0
+Total RC elections,Total RC elections,192450,60955,52712,1590,6653,25059,36944,33367,854,2723,69492
+C. Elections in RM cases,C. Elections in RM cases,,,,,,,,,,,
+AFL-CIO,AFL-CIO,1140,418,418,0,0,,116,171,171,0,435
+1-union elections,1-union elections,1140,418,418,0,0,,116,171,171,0,435
+AFL-CIO v. AFL-CIO,AFL-CIO v. AFL-CIO,472,466,466,,,,6,0,0,0,0
+Local v. Local,Local v. Local,32,32,,,32,,0,0,0,0,0
+2-union elections,2-union elections,504,498,466,0,32,,6,0,0,0,0
+Total RM elections,Total RM elections,1644,916,884,0,32,,122,171,171,0,435

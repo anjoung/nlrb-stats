@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NLRB Twenty-Third Annual Report — Geographic Distribution of Collective-Bargaining (Cert) Elections (page 1: Total + New England + Middle Atlantic + East North Central + West North Central) — NLRB FY1958</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1958.html">FY1958</a> &rsaquo; NLRB Twenty-Third Annual Report — Geographic Distribution of Collective-Bargaining (Cert) Elections (page 1: Total + New England + Middle Atlantic + East North Central + West North Central)</p>
+<h1>NLRB Twenty-Third Annual Report — Geographic Distribution of Collective-Bargaining (Cert) Elections (page 1: Total + New England + Middle Atlantic + East North Central + West North Central)</h1>
+<p class="meta">source page 170 &middot; <code>nlrb1958_p0170_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Division and State</th><th>Total elections</th><th>Number of elections in which representation rights were won by — AFL-CIO affiliates</th><th>Number of elections in which representation rights were won by — Unaffiliated unions</th><th>In which no representative was chosen</th><th>Employees eligible to vote</th><th>Total valid votes cast</th><th>Valid votes cast for — AFL-CIO affiliates</th><th>Valid votes cast for — Unaffiliated unions</th><th>Valid votes cast for — No union</th><th>Employees in units choosing representation</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Total</th><td>4,337</td><td>2,131</td><td>505</td><td>1,701</td><td>331,217</td><td>315,428</td><td>154,997</td><td>33,545</td><td>124,870</td><td>196,334</td></tr>
+<tr><th class="stub" scope="row">New England</th><td>262</td><td>104</td><td>27</td><td>111</td><td>34,473</td><td>31,762</td><td>13,111</td><td>4,704</td><td>11,857</td><td>20,186</td></tr>
+<tr><th class="stub" scope="row">Maine</th><td>21</td><td>10</td><td>2</td><td>9</td><td>2,336</td><td>2,109</td><td>1,438</td><td>108</td><td>543</td><td>1,545</td></tr>
+<tr><th class="stub" scope="row">Massachusetts</th><td>132</td><td>60</td><td>8</td><td>63</td><td>19,243</td><td>17,633</td><td>8,879</td><td>2,800</td><td>5,954</td><td>11,857</td></tr>
+<tr><th class="stub" scope="row">Connecticut</th><td>44</td><td>8</td><td>9</td><td>27</td><td>6,608</td><td>6,083</td><td>2,503</td><td>613</td><td>2,777</td><td>3,232</td></tr>
+<tr><th class="stub" scope="row">Middle Atlantic</th><td>808</td><td>432</td><td>103</td><td>273</td><td>67,699</td><td>60,733</td><td>32,628</td><td>7,790</td><td>20,306</td><td>44,012</td></tr>
+<tr><th class="stub" scope="row">New York</th><td>339</td><td>183</td><td>54</td><td>102</td><td>33,572</td><td>29,716</td><td>11,724</td><td>2,328</td><td>6,888</td><td>15,314</td></tr>
+<tr><th class="stub" scope="row">New Jersey</th><td>224</td><td>104</td><td>33</td><td>87</td><td>22,432</td><td>19,233</td><td>6,657</td><td>3,108</td><td>6,475</td><td>13,494</td></tr>
+<tr><th class="stub" scope="row">Pennsylvania</th><td>245</td><td>145</td><td>16</td><td>84</td><td>11,695</td><td>10,789</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">East North Central</th><td>911</td><td>449</td><td>112</td><td>350</td><td>71,164</td><td>64,065</td><td>31,884</td><td>9,962</td><td>24,777</td><td>40,339</td></tr>
+<tr><th class="stub" scope="row">Ohio</th><td>276</td><td>137</td><td>33</td><td>106</td><td>22,884</td><td>20,856</td><td>10,506</td><td>3,454</td><td>7,029</td><td>11,929</td></tr>
+<tr><th class="stub" scope="row">Illinois</th><td>246</td><td>108</td><td>42</td><td>102</td><td>19,768</td><td>16,037</td><td>7,112</td><td>3,432</td><td>6,455</td><td>8,063</td></tr>
+<tr><th class="stub" scope="row">Michigan</th><td>187</td><td>90</td><td>22</td><td>75</td><td>13,989</td><td>12,748</td><td>5,455</td><td>2,103</td><td>4,455</td><td>6,272</td></tr>
+<tr><th class="stub" scope="row">Wisconsin</th><td>103</td><td>46</td><td>6</td><td>51</td><td>7,899</td><td>7,159</td><td>3,802</td><td>276</td><td>4,277</td><td>3,508</td></tr>
+<tr><th class="stub" scope="row">West North Central</th><td>478</td><td>248</td><td>60</td><td>170</td><td>29,335</td><td>25,995</td><td>13,098</td><td>2,843</td><td>9,944</td><td>16,371</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1958_p0170_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1958_p0170.webp" loading="lazy" alt="Source page 170 of NLRB FY1958 annual report">
+<figcaption>Source: NLRB Annual Report FY1958, p. 170.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

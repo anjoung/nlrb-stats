@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.140 table — NLRB FY1948</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1948.html">FY1948</a> &rsaquo; p.140 table</p>
+<h1>p.140 table</h1>
+<p class="meta">source page 140 &middot; <code>nlrb1948_p0140_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">1-RC-49</th><td>Bay Stateoptical Co.</td><td>10-RC-63</td><td>Champion Garment Co., The, T. L. Lanier, et</td></tr>
+<tr><th class="stub" scope="row">1-RC-208 1-RC-194</th><td>Beacon Motors. Bean</td><td class="blank"></td><td>al., d/b/a.</td></tr>
+<tr><th class="stub" scope="row">7-RC-6</th><td>&amp; Conquest, Inc.</td><td>1-RC-234</td><td>Chauvin Spinning Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Bechtold Upholstering Co.</td><td>13-RC-101</td><td>Chicago Electric Manu- facturing Co.</td></tr>
+<tr><th class="stub" scope="row">34-RC-22</th><td>Belhaven Plywood &amp; Ve- neer Co.</td><td>13-RC-40</td><td>Chiniquy, William F., Co.</td></tr>
+<tr><th class="stub" scope="row">8-RC-84</th><td>Bellows Products, Inc. Bemis Bros. Bag Co.</td><td>7-RC-54</td><td>Chrysler Corp.</td></tr>
+<tr><th class="stub" scope="row">21-RC-26</th><td>Benson Fuel Corp.</td><td>21-RC-216</td><td>Chrysler Motors of Cali-</td></tr>
+<tr><th class="stub" scope="row">5-RC-16 2-RC-8</th><td>Binch, H. dr F. Co.</td><td class="blank"></td><td>fornia.</td></tr>
+<tr><th class="stub" scope="row">2-RC-90</th><td>Bins Foundry Co.</td><td>9-RC-20</td><td>Cincinnati Enquirer Co.,</td></tr>
+<tr><th class="stub" scope="row">13-RC-135</th><td>Birtman Electric Co.,</td><td class="blank"></td><td>The.</td></tr>
+<tr><th class="stub" scope="row">10-RC-174</th><td>Rock Island Division. Bland Lumber Co., D. G.</td><td>10-RC-112</td><td>Clancy, M. R., Lumber Co. Co.</td></tr>
+<tr><th class="stub" scope="row">34-RC-39</th><td>Bland, d/b/a. Blue Channel Corp.</td><td>21-RC-85 1-RC-298</td><td>Clarksburg Paper Clark Shoe Co.</td></tr>
+<tr><th class="stub" scope="row">20-RC-36</th><td>Blue Diamond Corp.</td><td>10-RC-195</td><td>Clark Thread Co.</td></tr>
+<tr><th class="stub" scope="row">7-RC-65</th><td>Booth Radio Stations, Inc.</td><td>2-RC-136</td><td>Cloth Lane Appliance Corp.</td></tr>
+<tr><th class="stub" scope="row">7-RC-118</th><td>Booth Radio Stations, Inc., WBBC, radio sta- tion.</td><td>20-RC-66 35-RC-55</td><td>Coast Pacific Lumber Co. Coca-Cola Bottling Co. Cocker Machine &amp;Foun-</td></tr>
+<tr><th class="stub" scope="row">14-RC-27</th><td>Borg-Warner Corp., Norge Division.</td><td>34-RC-1</td><td>dry Co. Cohutta Talk Co., The</td></tr>
+<tr><th class="stub" scope="row">1-RC-205</th><td>Boston Consolidated Gas Co.</td><td>10-RC-92 2-RC-129 13-RC-205</td><td>Colonie Fibre Co.</td></tr>
+<tr><th class="stub" scope="row">2-RC-195</th><td>Brassner Manufacturing Co., Inc., &amp; Bryam Plating Co.</td><td>9-RC-121</td><td>Columbia Tool Steel Co. Columbus Air Condition- ing Corp.</td></tr>
+<tr><th class="stub" scope="row">2-RC-104</th><td>Bridgeport Machines, Inc.</td><td>13-RC-200 1-RC-364</td><td>Commins &amp; Emerson. Conant-Ball Co. Conroe Creosoting Co.</td></tr>
+<tr><th class="stub" scope="row">1-RC-37</th><td>Bridgewater Woolen Co.</td><td>16-RC-98</td><td>Consolidated Quarry, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-RC-78</th><td>Brichart, Arnold, Ltd.</td><td>10-RC-62</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">4-RC-147 8-RC-12</th><td>Brumach, A. J., Inc. Bush Woolen Mills, Inc.</td><td>21-RC-103 8-RC-72</td><td>Consolidated Vultee Air- craft Corp. Consumers Brewing Co.,</td></tr>
+<tr><th class="stub" scope="row">35-RC-46</th><td>Cadick Milling Co.</td><td class="blank"></td><td>The. Continental Can Co.</td></tr>
+<tr><th class="stub" scope="row">1-RC-242</th><td>Cambridge Plating Co.</td><td>14-RC-270 17-RC-9</td><td>Continental Industries, Inc., of Kansas City,</td></tr>
+<tr><th class="stub" scope="row">4-RC-30</th><td>Camden County Bever- age Co.</td><td class="blank"></td><td>Mo. Continental Pipe Line</td></tr>
+<tr><th class="stub" scope="row">20-RC-6 2-RC-40</th><td>Campbell Soup Co. Canfield, H. 10., Co.</td><td>16-RC-48</td><td>Co.</td></tr>
+<tr><th class="stub" scope="row">10-RC-76</th><td>Carbide &amp; Carbon Chem-</td><td>4-RC-81 10-RC-15</td><td>Cooper, Frank, Rug Co. Sash, Door</td></tr>
+<tr><th class="stub" scope="row">4-RC-80</th><td>icals Corp. Carbon. Knitwear Co.</td><td class="blank"></td><td>Cordele &amp; Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">3-RC-50</th><td>Carborundum Co. Carborundum Co.</td><td>1-RC-89</td><td>Cornell-Dubilier Electric Corp.</td></tr>
+<tr><th class="stub" scope="row">4-RC-13</th><td>Carlin Brothers</td><td>1-RC-297</td><td>Cornell-Dubilier Electric</td></tr>
+<tr><th class="stub" scope="row">2-RC-143</th><td>Handbag Co.</td><td class="blank"></td><td>Corp.</td></tr>
+<tr><th class="stub" scope="row">16-RC-35 34-RC-44</th><td>Carnation Co. of Texas Carolina Concrete Pipe</td><td>4-RC-130 4-RC-18</td><td>Cornwell Chemical Corp. County Gas Co., Public</td></tr>
+<tr><th class="stub" scope="row">34-RC-7</th><td>Co.</td><td>7-RC-36</td><td>Service System. Crampton Manufactur- ing Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Carolina Metal Products, Inc.</td><td>15-RC-31</td><td>Crescent Salvage &amp; Tow-</td></tr>
+<tr><th class="stub" scope="row">14-RC-5</th><td>Carter Carburetor Corp.</td><td class="blank"></td><td>ing Co.</td></tr>
+<tr><th class="stub" scope="row">7-RC-70</th><td>.Castoloy Corp.</td><td>2-RC-188</td><td>Crowley&#x27;s Milk Co. &amp;</td></tr>
+<tr><th class="stub" scope="row">13-RC-175 2-RC-175</th><td>Caterpillar Tractor Co. Corp. of Amer-</td><td class="blank"></td><td>Crowley&#x27;s Ice Cream Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Celanese ica.</td><td>14-RC-140 2-RC-254</td><td>Crown Shoe Co. Distilling</td></tr>
+<tr><th class="stub" scope="row"></th><td>Corp. of Amer-</td><td class="blank"></td><td>Co.</td></tr>
+<tr><th class="stub" scope="row">2-RC-181</th><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td class="blank"></td><td>18-RC-61</td><td>Corp.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Celanese ica.</td><td class="blank"></td><td>Cuba Curtiss-Wright</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1948_p0140_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1948_p0140.webp" loading="lazy" alt="Source page 140 of NLRB FY1948 annual report">
+<figcaption>Source: NLRB Annual Report FY1948, p. 140.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

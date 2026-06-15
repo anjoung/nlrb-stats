@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.270 table — NLRB FY1949</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1949.html">FY1949</a> &rsaquo; p.270 table</p>
+<h1>p.270 table</h1>
+<p class="meta">source page 270 &middot; <code>nlrb1949_p0270_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">6 -UA-408</th><td>Frick Co.</td><td>7-UA-1193</td><td>Hudson Motor Car Co.</td><td>Hudson Motor Car Co.</td></tr>
+<tr><th class="stub" scope="row">20-UA-1141</th><td>Fruit Growers Supply Co.</td><td>19-UA-1216</td><td>Hunnicutt, Inc.</td><td>Hunnicutt, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-UA-219</th><td>Fry, Lloyd A., Roofing Co.</td><td>13-UA-1282</td><td>Illinois Greyhound Lines,</td><td>Illinois Greyhound Lines,</td></tr>
+<tr><th class="stub" scope="row">4-UA-945</th><td>Fuller Co.</td><td class="blank"></td><td>Inc.</td><td>Inc.</td></tr>
+<tr><th class="stub" scope="row">18-UA-967</th><td>Gamble Robinson Co.</td><td>18-UA-991 31-UA-351</td><td>Industrial Aggregate Co. Inland Container Corp.</td><td>Industrial Aggregate Co. Inland Container Corp.</td></tr>
+<tr><th class="stub" scope="row">9-UA-669</th><td>General Box Co. General Chemical.</td><td>19-UA-880</td><td>Inland Empire Refineries, Inc.</td><td>Inland Empire Refineries, Inc.</td></tr>
+<tr><th class="stub" scope="row">14-UA-1408 20-UA-1120</th><td>General Chemical Co.</td><td>19-UA-1214</td><td>Inland Transfer Service.</td><td>Inland Transfer Service.</td></tr>
+<tr><th class="stub" scope="row">19-UA-1218</th><td>General Delivery.</td><td>8-UA-564</td><td>International Harvester</td><td>International Harvester</td></tr>
+<tr><th class="stub" scope="row">21-UA-1272</th><td>General Electric Appli- ances, Inc.</td><td>9-UA-805</td><td>Co. International</td><td>Harvester</td></tr>
+<tr><th class="stub" scope="row">1-UA-1445 19-UA-597</th><td>General Motors Corp. G. M. C. Truck &amp; Coach</td><td>13-UA-734</td><td>Co. International</td><td>Harvester</td></tr>
+<tr><th class="stub" scope="row">8-UA-1146</th><td>Division. General Tire &amp; Rubber Co., The.</td><td>13-UA-744</td><td>Co. International Co.</td><td>Harvester</td></tr>
+<tr><th class="stub" scope="row"></th><td>Gettle, Homer R. Gilchrist Co.</td><td class="blank"></td><td>International</td><td>Harvester</td></tr>
+<tr><th class="stub" scope="row">13-UA-1536 1-UA-1679</th><td class="blank"></td><td>13-UA-1261</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">2-17A-3397</th><td>Glens Falls Por t</td><td>13-UA-1280</td><td>Co. International</td><td>Harvester</td></tr>
+<tr><th class="stub" scope="row"></th><td>land Cement Co.</td><td class="blank"></td><td>Co. International</td><td>Harvester</td></tr>
+<tr><th class="stub" scope="row">1-UA-2131</th><td>Gloucester Ice &amp; Cold Storage Co.</td><td>16-UA-231</td><td>Co.</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">10-UA-109 9-UA-576</th><td>Gold Tex Fabrics Corp. Goodrich, B. F., Chem- ical Co.</td><td>19-UA-498 19-UA-530</td><td>International Co. International</td><td>Harvester ,Harvester</td></tr>
+<tr><th class="stub" scope="row">13-UA-1493 14-UA-1457</th><td>Goodrich, B. F., Co. Goodrich, B. F., Tire Store.</td><td>19-UA-920</td><td>Co. International</td><td>Harvester</td></tr>
+<tr><th class="stub" scope="row">14-UA-1458</th><td>Goodyear Tire &amp; Rubber Co.</td><td>21-UA-1547</td><td>Co. International Co.</td><td>Harvester</td></tr>
+<tr><th class="stub" scope="row">19-UA-1220</th><td>Grand Coulee Motor</td><td>36-UA-669</td><td>International Harvester.</td><td>International Harvester.</td></tr>
+<tr><th class="stub" scope="row">36-UA-1197</th><td>Freight. Great Lakes Carbon Corp.</td><td>2-UA-3696</td><td>International-Plainfield Motor Co.</td><td>International-Plainfield Motor Co.</td></tr>
+<tr><th class="stub" scope="row">15-UA-285 9-UA-396</th><td>Greyhound Corp. Greyhound Terminal of</td><td>14-UA-1529</td><td>Jackes-Evans Manufac- turing Co.</td><td>Jackes-Evans Manufac- turing Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Cincinnati, Inc.</td><td>36-UA-731</td><td>Jarman&#x27;s. Johns-Manville Corp.</td><td>Jarman&#x27;s. Johns-Manville Corp.</td></tr>
+<tr><th class="stub" scope="row">18-UA-1126 21-UA-1086 9-UA-279</th><td>Griggs Cooper Co. Groves&#x27; Bakery.</td><td>4-UA-796 20-UA-1407</td><td>Johns-Manville Products</td><td>Johns-Manville Products</td></tr>
+<tr><th class="stub" scope="row">8-UA-758</th><td>Gruen National Watch Case Co. Gulf Refining Co., The.</td><td>33-UA-24</td><td>Corp. Johnson, Charles Eneu</td><td>Corp. Johnson, Charles Eneu</td></tr>
+<tr><th class="stub" scope="row">9-UA-689</th><td>Gulf Refining Co.</td><td>7-UA-691</td><td>&amp; Co.</td><td>&amp; Co.</td></tr>
+<tr><th class="stub" scope="row">21-UA-773</th><td>Hall Scott Motor Car Co.</td><td>7-UA-1001</td><td>Kawneer Co.</td><td>Kawneer Co.</td></tr>
+<tr><th class="stub" scope="row">6-UA-510</th><td>Hanley Co.</td><td>7-UA-1124</td><td>Kelsey Hayes Wheel Co. Kelsey Hayes Wheel Co.</td><td>Kelsey Hayes Wheel Co. Kelsey Hayes Wheel Co.</td></tr>
+<tr><th class="stub" scope="row">6-UA-511</th><td>Hanley Co.</td><td>9-UA-696</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">36-UA-734</th><td>Hartke Motors.</td><td class="blank"></td><td>Kentucky Independent Packing Co.</td><td>Kentucky Independent Packing Co.</td></tr>
+<tr><th class="stub" scope="row">31-UA-192</th><td>Hasco Valve &amp; Machine Co.</td><td>13-UA-1202</td><td>Keystone Steel &amp; Wire</td><td>Keystone Steel &amp; Wire</td></tr>
+<tr><th class="stub" scope="row">37-UA-6</th><td>Hawaiian Electric Co., Ltd., The.</td><td>18-UA-939</td><td>Co. King, H. H., Flour Mills</td><td>Co. King, H. H., Flour Mills</td></tr>
+<tr><th class="stub" scope="row">18-UA-990</th><td>Hedberg Friedheirn Co., Inc.</td><td>10-UA-39</td><td>Co. King, T. C., Pipe Co.</td><td>Co. King, T. C., Pipe Co.</td></tr>
+<tr><th class="stub" scope="row">19-UA-1219</th><td class="blank"></td><td>7-UA-486</td><td>Lakey Foundry &amp;</td><td>Ma-</td></tr>
+<tr><th class="stub" scope="row">4-UA-492</th><td>Helphrey Motor Freight. Hercules Cement Corp.</td><td class="blank"></td><td>chine Co.</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">4-UA-819</th><td>Hill, C. V., and Co., Inc.</td><td>14-UA-1425</td><td>Larkin Packer Co. Landers, Norblom &amp;</td><td>Larkin Packer Co. Landers, Norblom &amp;</td></tr>
+<tr><th class="stub" scope="row">36-UA-934</th><td>Hitchman, E. R.</td><td>18-UA-992</td><td>Christenson Co.</td><td>Christenson Co.</td></tr>
+<tr><th class="stub" scope="row">8-UA-903</th><td>Home Bank Building</td><td>4-UA-&#x27;780</td><td>Lawrence Hose Co.</td><td>Lawrence Hose Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Co. Honolulu Rapid Transit</td><td class="blank"></td><td>Lawrence Portland Ce-</td><td>Lawrence Portland Ce-</td></tr>
+<tr><th class="stub" scope="row">37-UA-14</th><td class="blank"></td><td>1-UA-1484</td><td>ment Co.</td><td>ment Co.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Co., Ltd.</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1949_p0270_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1949_p0270.webp" loading="lazy" alt="Source page 270 of NLRB FY1949 annual report">
+<figcaption>Source: NLRB Annual Report FY1949, p. 270.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>

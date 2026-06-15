@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p.246 table — NLRB FY1949</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1949.html">FY1949</a> &rsaquo; p.246 table</p>
+<h1>p.246 table</h1>
+<p class="meta">source page 246 &middot; <code>nlrb1949_p0246_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th></th><th></th><th></th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">8-RC-341</th><td>House of Guest, Inc., The.</td><td>18-RC-70</td><td>International Sugar Feed Co. &amp;Priority Mills.</td></tr>
+<tr><th class="stub" scope="row">16-RC-135 16-RC-149 16-RC-130 16-RC-311</th><td>Houston Creosoting Co Houston Production Co Houston Oxygen Co. Hubbard, J. H. &amp;Son.</td><td>19-RC-56</td><td>Interstate Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">10-RC-202 1-RC-275</th><td>Huber J. W., Corp. Hub Huber, &amp;Radio Co., Inc.</td><td>10-RC-499 10-RC-314</td><td>Jacksonville Box Co. Jaclyn Hosiery Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-RC-450</th><td>Hudson Sharp Machine Co.</td><td>31-RC-25</td><td>Jacobsen Manufactur- ing Co.</td></tr>
+<tr><th class="stub" scope="row">21-RC-366 19-RC-45</th><td>Hughes Aircraft Co. Hull-Rodell Motors, Inc.</td><td>36-RO-204 13-RC-212 16-RC-54</td><td>Jantzen Knitting Mills. Jefferson Electric Co. Jefferson Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">39-RC-25</th><td>Hunt Tool Co.</td><td>34-RC-106</td><td>Jefferson Standard Broadcasting Co.</td></tr>
+<tr><th class="stub" scope="row">14-RC-176</th><td>Hunter Packing Co.</td><td>9-RC-145</td><td>Jeffery Manufacturing</td></tr>
+<tr><th class="stub" scope="row">13-RC-301 &#x27;14-RC-523</th><td>Illini Swallowlines. Illinois Electric &amp;Gas Co.</td><td>2-RC-539 5-RC-120</td><td>Co. Joal Art Co. Jobbers Pants</td></tr>
+<tr><th class="stub" scope="row">13-RC-437</th><td>Illinois Engineering Works.</td><td>7-RC-143</td><td>Co. Johns Brothers.</td></tr>
+<tr><th class="stub" scope="row">13-RC-179</th><td>Illinois Institute of</td><td>15-RC-115</td><td>Johns-Manville Insula- tion Board Plant.</td></tr>
+<tr><th class="stub" scope="row">2-RC-452</th><td>Technology., Independent Filter</td><td>3-RC-174</td><td>Johnson City Publish- ing Co.</td></tr>
+<tr><th class="stub" scope="row">35-RC-136</th><td>Press Co. Indiana Desk Co.</td><td>36-RC-59 1-RC-790</td><td>Johnson Lumber Co. Johnson Shoe, Inc.</td></tr>
+<tr><th class="stub" scope="row">35-RC-186</th><td>Indiana Limestone Co., Inc.</td><td>18-RC-328</td><td>Johnston Lawnmower Co.</td></tr>
+<tr><th class="stub" scope="row">35-RC-159 39-RC-8</th><td>Indianapolis Glove Co. Indianapolis Wire Bound Box Co.</td><td>16-RC-262</td><td>Johnston Manufactur- ing Co.</td></tr>
+<tr><th class="stub" scope="row">35-RC-163</th><td>Indianapolis News- papers.</td><td>2-RC-453</td><td>Joma Manufacturing Co.</td></tr>
+<tr><th class="stub" scope="row">21-RC-638</th><td>Industrial Power&amp; Equipment Co.</td><td>13-RC-428</td><td>Jones, W. A., Foundry &amp;Machine Co. Joslin, F. N., Co.</td></tr>
+<tr><th class="stub" scope="row">13-RC-87</th><td>Ingersoll Milling Ma- chine Co.</td><td>1-RC-226 20-RC-233</td><td>Kaiser-Frazer Parts Corp.</td></tr>
+<tr><th class="stub" scope="row">10-RC-423 21-RC-260</th><td>Inman Mills, Inc. Inspiration Consoli-</td><td>20-RC-446 9-RC-106</td><td>Kaljian Chevrolet Co. Kanawha Maple Man- ufacturing Co.</td></tr>
+<tr><th class="stub" scope="row">2-RC-100 10-RC-172</th><td>dated Copper Co. Interborough News Co. Inter-Mountain</td><td>2-RC-352</td><td>Kearfoot Manufactur- ing Corp.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Tele- phone Co.</td><td>21-RC-769</td><td>20-RC-364 Kennecott Copper Corp.</td></tr>
+<tr><th class="stub" scope="row">31-RC-8</th><td>International Harvester Co. International Harvester</td><td class="blank"></td><td>Kennecott Copper Corp.</td></tr>
+<tr><th class="stub" scope="row">32-RC-31</th><td>Co. Harvester</td><td>10-RC-460</td><td>Kennelly Transfer&amp; Storage Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">35-RC-54</th><td>International Co.</td><td>4-RC-77</td><td>Keystone Macaroni</td></tr>
+<tr><th class="stub" scope="row">32-RC-94</th><td>International Harvester Co.</td><td class="blank"></td><td>Manufacturing Co. Kentucky Utilities</td></tr>
+<tr><th class="stub" scope="row">9-RC-189</th><td>International Harvester Co.</td><td>9-RC-161</td><td>Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">9-RC-457</th><td>International Harvester Co.</td><td>32-RC-34 30-RC-47</td><td>Kimberly-Clark Corp. King Investment&amp;</td></tr>
+<tr><th class="stub" scope="row">13-RC-198</th><td>International Harvester Co., McCormick Twine Mills.</td><td>13-RG-209</td><td>Lumber Co., The Kling Brothers, Engi- neering Works.</td></tr>
+<tr><th class="stub" scope="row"></th><td>International Harvester Co., Fort Wayne,</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">13-RC-368</th><td class="blank"></td><td>1-RC-244 1-RC-482</td><td>Knapp Brothers, Shoe Co. Knapp Bros. Shoe Man-</td></tr>
+<tr><th class="stub" scope="row">33-RC-25 14-RC-598</th><td>Indiana, Plant. International Mineral&amp; Chemical Corp.</td><td>10-RC-410 7-RC-129</td><td>ufacturing Corp. Knight, J. T., &amp;Son, Inc.</td></tr>
+<tr><th class="stub" scope="row">15-RC-62</th><td>International Paper Co.</td><td class="blank"></td><td>Knight, Morley, Corp.</td></tr>
+<tr><th class="stub" scope="row"></th><td>Shoe Co.</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row"></th><td>International</td><td class="blank"></td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1949_p0246_t0.csv" download>Download this table (CSV)</a></p>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1949_p0246.webp" loading="lazy" alt="Source page 246 of NLRB FY1949 annual report">
+<figcaption>Source: NLRB Annual Report FY1949, p. 246.</figcaption>
+</figure>
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+</div>
+</body>
+</html>
