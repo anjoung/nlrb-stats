@@ -1,1 +1,17 @@
-row_label
+row_label,Number of cases / Total,Number of cases / Identification of petitioner / A. F. of L. affiliates,Number of cases / Identification of petitioner / C. I. O. affiliates,Number of cases / Identification of petitioner / Unaffiliated unions,Number of cases / Identification of petitioner / Individuals,Number of cases / Identification of petitioner / Employers
+R cases,,,,,,
+"Cases pending Aug. 22, 1947",1840,843,729,242,,26
+"Cases closed Aug. 22, 1947-June 30, 1948",1636,746,652,218,,20
+"Cases pending June 30, 1948",204,97,77,24,,6
+RC cases,,,,,,
+"Cases received Aug. 22, 1947-June 30, 1948",5478,3085,1074,1291,28,
+"Cases closed Aug. 22, 1947-June 30, 1948",3142,1805,590,730,17,
+"Cases pending June 30, 1948",2336,1280,484,561,11,
+RM cases,,,,,,
+"Cases received Aug. 22, 1947-June 30, 1948",459,,,,,459
+"Cases closed Aug. 22, 1947-June 30, 1948",334,,,,,334
+"Cases pending June 30, 1948",125,,,,,125
+RD cases,,,,,,
+"Cases received Aug. 22, 1947-June 30, 1948",458,4,0,12,439,3
+"Cases closed Aug. 22, 1947-June 30, 1948",287,3,0,4,277,3
+"Cases pending June 30, 1948",171,1,0,8,162,0

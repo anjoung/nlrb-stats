@@ -1,1 +1,26 @@
-row_label
+row_label,Number of cases on docket fiscal year 1938-1939 / Number,Number of cases on docket fiscal year 1938-1939 / Workers involved,Disposition of cases: Before issuance of complaint / Settled,Disposition of cases: Before issuance of complaint / Dismissed,Disposition of cases: Before issuance of complaint / Withdrawn,Disposition of cases: Before issuance of complaint / Otherwise,Disposition of cases: After issuance of complaint and before Board decision: Settled / Before hearing,Disposition of cases: After issuance of complaint and before Board decision: Settled / After hearing,Disposition of cases: After issuance of complaint and before Board decision: Dismissed / Before hearing,Disposition of cases: After issuance of complaint and before Board decision: Dismissed / After hearing,Disposition of cases: After issuance of complaint and before Board decision: Withdrawn / Before hearing,Disposition of cases: After issuance of complaint and before Board decision: Withdrawn / After hearing,Disposition of cases: After issuance of complaint and before Board decision: Intermediate report / No violation,Disposition of cases: After issuance of complaint and before Board decision: Intermediate report / Compliance,Disposition of cases: After Board decision / Dismissed,Disposition of cases: After Board decision / Compliance,Total cases disposed of,"Total cases pending June 30, 1939"
+Board,10,98925,1,,2,,,,,,,,,,,,3,7
+Region:,,,,,,,,,,,,,,,,,,
+1. Boston,424,46368,151,40,93,,1,,,,,,,1,1,12,299,125
+2. New York,1061,184719,310,126,172,3,7,12,6,1,9,4,,8,3,32,693,368
+3. Buffalo,124,45992,27,12,18,3,,,,,,,,2,5,4,71,53
+4. Philadelphia,307,87496,83,20,65,,1,3,,,1,2,,3,1,15,194,113
+5. Baltimore,455,61474,123,16,84,1,2,3,,1,,2,,4,2,34,272,183
+6. Pittsburgh,176,51596,31,6,37,1,2,,1,1,,,,,,3,82,94
+7. Detroit,248,91617,62,28,29,,2,1,,2,,,1,,1,2,128,120
+8. Cleveland,224,34015,37,10,52,3,3,2,1,1,,,,,1,5,115,109
+9. Cincinnati,443,87337,216,33,47,3,1,3,,,,1,,2,,6,312,131
+10. Atlanta,255,31329,41,38,36,,2,5,,,,,1,,3,9,135,120
+11. Indianapolis,273,45230,64,22,73,1,,,,,,,2,,,15,177,96
+12. Milwaukee,263,45500,89,27,25,1,1,,,,,,1,,1,7,152,111
+13. Chicago,441,102532,133,36,78,1,,2,,,,,,1,1,10,262,179
+14. St. Louis,125,12501,18,8,22,7,,1,,,,,,,,5,61,64
+15. New Orleans,247,14646,50,10,67,2,,3,,1,,2,,,2,8,151,96
+16. Fort Worth,228,31050,58,24,49,1,,1,,,,1,1,2,,12,149,79
+17. Kansas City,302,30778,77,6,39,,2,1,,,,1,,1,,4,131,171
+18. Minneapolis,167,17149,67,4,35,1,2,,,1,,1,,1,1,2,115,52
+19. Seattle,269,43804,68,12,45,1,1,3,,1,,,1,,1,12,145,124
+20. San Francisco,371,154629,80,25,39,2,,,,,,,,,,2,148,223
+21. Los Angeles,543,40027,152,24,123,3,,13,,2,,1,1,,,4,323,220
+22. Denver,176,11501,52,6,39,1,2,,,2,,,,1,5,4,112,64
+Total,7132,1370275,1990,539,1269,35,29,53,8,12,10,15,9,26,28,207,4230,2902
