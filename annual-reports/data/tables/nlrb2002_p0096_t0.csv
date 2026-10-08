@@ -1,13 +1,36 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13
+Action taken,Total all,Remedial action taken by–,Remedial action taken by–,Remedial action taken by–,Remedial action taken by–,Remedial action taken by–,Remedial action taken by–,Remedial action taken by–,Remedial action taken by–,Remedial action taken by–,Remedial action taken by–,Remedial action taken by–,Remedial action taken by–
+Action taken,Total all,Employer,Employer,Employer,Employer,Employer,Employer,Union,Union,Union,Union,Union,Union
+Action taken,Total all,Total,Pursuant to–,Pursuant to–,Pursuant to–,Pursuant to–,Pursuant to–,Total,Pursuant to–,Pursuant to–,Pursuant to–,Pursuant to–,Pursuant to–
+Action taken,Total all,Total,Agreement of parties,Agreement of parties,Recommendation of administrative law judge,Order of–,Order of–,Total,Agreement of parties,Agreement of parties,Recommendation of administrative law judge,Order of–,Order of–
+Action taken,Total all,Total,Informal settlement,Formal settlement,Recommendation of administrative law judge,Board,Court,Total,Informal settlement,Formal settlement,Recommendation of administrative law judge,Board,Court
+A. By number of cases involved,"11,487",,,,,,,,,,,,
+Notice posted,1886,1628,1306,22,106,95,99,258,218,0,21,12,7
+Recognition or other assistance withdrawn,16,16,10,0,0,3,3,,,,,,
+Employer-dominated union disestablished,1,1,0,0,0,1,0,,,,,,
+Employees offered reinstatement,1257,1257,1089,15,43,59,51,,,,,,
+Employees placed on preferential hiring list,52,52,42,0,3,4,3,,,,,,
+Hiring hall rights restored,17,,,,,,,17,17,0,0,0,0
+Objections to employment withdrawn,6,,,,,,,6,4,0,1,1,0
+Picketing ended,114,,,,,,,114,114,0,0,0,0
+Work stoppage ended,18,,,,,,,18,17,0,0,1,0
+Collective bargaining begun,2495,2369,2251,12,24,32,50,126,123,0,2,1,0
+Backpay distributed,1862,1816,1605,16,51,68,76,46,38,0,4,3,1
+"Reimbursement of fees, dues, and fines",138,74,52,3,0,8,11,64,60,0,3,0,1
+Other conditions of employment improved,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other remedies,0,0,0,0,0,0,0,0,0,0,0,0,0
 B. By number of employees affected:,,,,,,,,,,,,,
-"Employees offered reinstate- ment, total............................",1689,1689,1179,83,48,181,198,,,,,,
-Accepted............................,1119,1119,859,49,30,69,112,,,,,,
-Declined..............................,570,570,320,34,18,112,86,,,,,,
-Employees placed on prefe- rential hiring list..................,289,289,209,0,10,49,21,,,,,,
-Hiring hall rights restored........,84,,,,,,,84,84,0,0,0,0
-Objections to employment withdrawn............................,11,,,,,,,11,9,0,1,1,0
+"Employees offered reinstatement, total",1689,1689,1179,83,48,181,198,,,,,,
+Accepted,1119,1119,859,49,30,69,112,,,,,,
+Declined,570,570,320,34,18,112,86,,,,,,
+Employees placed on preferential hiring list,289,289,209,0,10,49,21,,,,,,
+Hiring hall rights restored,84,,,,,,,84,84,0,0,0,0
+Objections to employment withdrawn,11,,,,,,,11,9,0,1,1,0
 Employees receiving backpay:,,,,,,,,,,,,,
-From either employer or union..............................,15925,15722,10361,174,1449,1179,2559,203,172,0,6,5,20
-From both employer and union..............................,10,9,9,0,0,0,0,1,1,0,0,0,0
+From either employer or union,"15,925","15,722","10,361",174,1449,1179,2559,203,172,0,6,5,20
+From both employer and union,10,9,9,0,0,0,0,1,1,0,0,0,0
 "Employees reimbursed for fees, dues, and fines:",,,,,,,,,,,,,
-From either employer or union..............................,2011,907,492,0,0,355,60,1104,1021,0,63,0,20
+From either employer or union,2011,907,492,0,0,355,60,1104,1021,0,63,0,20
+From both employer and union,2208,2125,405,0,0,3,1717,83,64,0,19,0,0
+"C. By amounts of monetary recovery, total","60,132,046","59,429,069","29,829,450","2,429,548","2,491,453","3,894,092","20,784,526","702,977","285,622",0,"277,439","25,019","114,897"
+"Backpay (includes all monetary payments except fees, dues, and fines)","51,560,322","51,092,574","23,396,602","2,408,858","2,491,453","3,670,296","19,125,365","467,748","221,068",0,"134,498","25,019","87,163"
+"Reimbursement of fees, dues,and fines","8,571,724","8,336,495","6,432,848","20,690",0,"223,796","1,659,161","235,229","64,554",0,"142,941",0,"27,734"

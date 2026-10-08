@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Regional offices — location, territory and personnel — NLRB FY1939</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1939.html">FY1939</a> &rsaquo; Regional offices — location, territory and personnel</p>
+<h1>Regional offices — location, territory and personnel</h1>
+<p class="meta">source pages 20–23 &middot; <code>nlrb1939_p0020_t0</code></p>
+<p class="spans-note">Stitched from pp. 20–23.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Region 1, Old South Building, Boston, Mass.</th><td>Maine; New Hampshire; Vermont; Massachusetts; Rhode Island; Windham, New London, Tolland, Hartford, and Middlesex Counties in Connecticut.</td><td>A. Howard Myers, director; Edward Schneider, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 2, 120 Wall St., New York, N. Y.</th><td>Litchfield, New Haven, and Fairfield Counties in Connecticut; Clinton, Essex, Washington, Warren, Saratoga, Schenectady, Albany, Rensselaer, Columbia, Greene, Dutchess, Ulster, Sullivan, Orange, Putnam, Rockland, Westchester, Bronx, New York, Richmond, Kings, Queens, Nassau, and Suffolk Counties in New York State; Sussex, Passaic, Bergen, Warren, Morris, Essex, Hudson, Union, Middlesex, Somerset, Monmouth, and Hunterdon Counties in New Jersey.</td><td>Mrs. Elinore M. Herrick, director; Alan Perl, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 3, Federal Building, Buffalo, N. Y.</th><td>New York State, except for those counties included in the second region.</td><td>Henry J. Winters, director; Edward Flaherty, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 4, Bankers Securities Building, Philadelphia, Pa.</th><td>Mercer, Ocean, Burlington, Atlantic, Camden, Gloucester, Salem, Cumberland, and Cape May Counties in New Jersey; New Castle County in Delaware; all of Pennsylvania lying east of the eastern borders of Potter, Clinton, Centre, Mifflin, Huntingdon, and Franklin Counties.</td><td>Bennet F. Schauffler, director; Samuel G. Zack, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 5, 1109 Standard Oil Building, Baltimore, Md.</th><td>Kent and Sussex Counties in Delaware; Maryland; District of Columbia; Virginia; North Carolina; Jefferson, Berkeley, Morgan, Mineral, Hampshire, Grant, Hardy, and Pendleton Counties in West Virginia.</td><td>William M. Aicher, director; Lester Levin, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 6, 2107 Clark Building, Pittsburgh, Pa.</th><td>All of Pennsylvania lying west of the eastern borders of Potter, Clinton, Centre, Mifflin, Huntingdon, and Franklin Counties; Hancock, Brooke, Ohio, Marshall, Wetzel, Monongalia, Marion, Harrison, Taylor, Doddridge, Preston, Lewis, Barbour, Tucker, Upshur, Randolph, Webster, and Pocahontas Counties in West Virginia.</td><td>Charles T. Douds, director; Robert H. Kleeb, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 7, National Bank Building, Detroit, Mich.</th><td>Michigan, exclusive of Gogebic, Ontonagon, Houghton, Keweenaw, Baraga, Iron, Dickinson, Marquette, Menominee, Delta, Alger, Schoolcraft, Luce, Chippewa, and Mackinac Counties.</td><td>Frank H. Bowen, director; Harold Cranefield, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 8, 820 N. B. C. Building, Cleveland, Ohio.</th><td>Ohio, north of the southern borders of Darke, Miami, Champaign, Union, Delaware, Licking, Muskingum, Guernsey, and Belmont Counties.</td><td>Oscar S. Smith, director; Harry L. Lodish, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 9, 445 United States Post Office and Courthouse, Cincinnati, Ohio.</th><td>West Virginia, west of the western borders of Wetzel, Doddridge, Lewis, and Webster Counties and southwest of the southern and western borders of Pocahontas County; Ohio, south of the southern borders of Darke, Miami, Champaign, Union, Delaware, Licking, Muskingum, Guernsey, and Belmont Counties; Kentucky, east of the western borders of Hardin, Hart, Barren, and Monroe Counties.</td><td>Philip G. Phillips, director; Oscar Grossman, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 10, Ten Forsyth Street Building, Atlanta, Ga.</th><td>South Carolina; Tennessee; Georgia; Alabama, north of the northern borders of Choctaw, Marengo, Dallas, Lowndes, Montgomery, Macon, and Russell Counties.</td><td>Charles N. Feidelson, director; Warren Woods, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 11, Architects Building, Indianapolis, Ind.</th><td>Indiana, except for Lake, Porter, La Porte, St. Joseph, Elkhart, Lagrange, Noble, Steuben, and De Kalb Counties; Kentucky west of the western borders of Hardin, Hart, Barren, and Monroe Counties.</td><td>Robert H. Cowdrill, director; Arthur Donovan, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 12, Madison Building, Milwaukee, Wis.</th><td>Wisconsin; Gogebic, Ontonagon, Houghton, Keweenaw, Baraga, Iron, Dickinson, Marquette, Menominee, Delta, Alger, Schoolcraft, Luce, Chippewa, and Mackinac Counties in Michigan.</td><td>John G. Shott, director; Frederick P. Mett, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 13, 20 North Wacker Drive, Chicago, Ill.</th><td>Lake, Porter, La Porte, St. Joseph, Elkhart, Lagrange, Noble, Steuben, and De Kalb Counties in Indiana; Illinois, north of the northern borders of Edgar, Coles, Shelby, Christian, Montgomery, Macoupin, Greene, Scott, Brown, and Adams Counties.</td><td>G. L. Patterson, director; Isaiah S. Dorfman, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 14, United States Court and Customhouse, St. Louis, Mo.</th><td>Illinois, south of the northern borders of Edgar, Coles, Shelby, Christian, Montgomery, Macoupin, Greene, Scott, Brown, and Adams Counties; Missouri, east of the western borders of Scotland, Knox, Shelby, Monroe, Audrain, Callaway, Osage, Maries, Phelps, Dent, Shannon, and Oregon Counties.</td><td>Miss Dorothea de Schweinitz, director; Thurlow Smoot, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 15, Hibernia Bank Building, New Orleans, La.</th><td>Louisiana; Arkansas; Mississippi; Florida; Alabama, south of the northern borders of Choctaw, Marengo, Dallas, Lowndes, Montgomery, Macon, and Russell Counties.</td><td>Charles H. Logan, director; Samuel Lang, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 16, Federal Court Building, Fort Worth, Tex.</th><td>Oklahoma, Texas.</td><td>Edwin A. Elliott, director; Elmer P. Davis, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 17, 245 United States Courthouse and Post Office, Kansas City, Mo.</th><td>Missouri, west of the western borders of Scotland, Knox, Shelby, Monroe, Audrain, Callaway, Osage, Maries, Phelps, Dent, Shannon, and Oregon Counties; Kansas; Nebraska.</td><td>Hugh E. Sperry, director; Joseph A. Hoskins, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 18, New Post Office Building, Minneapolis, Minn.</th><td>Minnesota, North Dakota, South Dakota, Iowa.</td><td>Robert J. Wiener, director; Lee Loevinger, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 19, Dexter-Horton Building, Seattle, Wash.</th><td>Washington, Oregon, Idaho, Territory of Alaska.</td><td>Elwyn J. Eagen, director; Thomas Graham, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 20, 1095 Market St., San Francisco, Calif.</th><td>Nevada; California, north of the southern borders of Monterey, Kings, Tulare, and Inyo Counties; Territory of Hawaii.</td><td>Mrs. Alice M. Rosseter, director; John McTernan, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 21, 808 United States Post Office and Courthouse, Los Angeles, Calif.</th><td>Arizona; California, south of the southern borders of Monterey, Kings, Tulare, and Inyo Counties.</td><td>Walter P. Spreckels, director; William R. Walsh, attorney.</td></tr>
+<tr><th class="stub" scope="row">Region 22, Central Savings Bank Building, Denver, Colo.</th><td>Montana, Utah, Wyoming, Colorado, New Mexico.</td><td>Aaron W. Warner, director; Paul Kuelthau, attorney.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1939_p0020_t0.csv" download>Download this table (CSV)</a></p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 20.</b> This is not a statistical table: it is the textual directory &quot;D. REGIONAL OFFICES—LOCATION, TERRITORY, AND DIRECTING PERSONNEL&quot; (page 13 of the 1939 report), set in three untitled columns — office/address (stub), territory, and directing personnel. It contains no numeric data. No column headings are printed over the columns (the all-caps line above is the section caption, which has been omitted per instructions), so header_rows is empty. There are no column rules; the three columns are set off by whitespace only, but the alignment is unambiguous. The listing is cut off by the page: it begins at Region 1 and ends mid-list at Region 5; Regions 6 and beyond continue on the following page. Each entry&#x27;s wrapped lines (and end-of-line hyphenations such as &quot;Build-ing&quot;, &quot;Massachu-setts&quot;, &quot;Rock-land&quot;, &quot;Securi-ties&quot;, &quot;direc-tor&quot;, &quot;at-torney&quot;) have been joined into single cells. The scan shows a stray speck inside &quot;Richmond&quot; in the Region 2 territory cell (printed as &quot;Richm&#x27;ond&quot;); it is transcribed as &quot;Richmond&quot;. Scattered specks/dots elsewhere in the white space are scan artifacts, not printed text.</p>
+<p><b>p. 21.</b> This is a directory-style table (regional offices) rather than a numeric table; it has three printed columns: office/address (stub), territory, and personnel. No column headings appear on this page because it continues the table from the preceding page, so header_rows is empty. The table also continues past this page: the crop ends after Region 10, with blank space below. Each entry&#x27;s text is heavily hyphenated and letter-spaced in the original (e.g. &quot;C o u n tie s&quot;, &quot;R a n d ol p h&quot;, &quot;M a r e n g o&quot;); the line breaks and end-of-line hyphens have been joined per instructions. In the Region 10 territory cell, the mark printed after &quot;Choctaw&quot; looks like a period in the scan but the list plainly continues (&quot;Marengo, Dallas, Lowndes, ...&quot;), so it is transcribed as a comma. In the Region 6 territory cell &quot;Monongalia&quot; is printed with a stray apostrophe-like mark (&quot;M&#x27;onongalia&quot;) and &quot;and Franklin&quot; carries a stray raised tick after &quot;and&quot;; both are scan artifacts, not footnote markers, and are omitted. The running head (&quot;14 FOURTH ANNUAL REPORT OF NATIONAL LABOR RELATIONS BOARD&quot;) is excluded.</p>
+<p><b>p. 22.</b> This crop is not a numeric statistical table but a three-column directory of NLRB regional offices (office/address | territory covered | director and attorney), set without column rules. No column headings are printed on this page — the list continues from the preceding page (it begins mid-sequence at Region 11 and ends at Region 16, so the list is cut off at both ends by the page break, not by the crop). The running head &quot;II. THE NATIONAL LABOR RELATIONS BOARD&quot; and page number 15 were excluded as instructed. End-of-line hyphens were repaired throughout (e.g. &quot;Custom- house&quot; -&gt; &quot;Customhouse&quot;, &quot;School- craft&quot; -&gt; &quot;Schoolcraft&quot;, &quot;Mis- sissippi&quot; -&gt; &quot;Mississippi&quot;, &quot;Schwei- nitz&quot; -&gt; &quot;Schweinitz&quot;, &quot;Macou- pin&quot; -&gt; &quot;Macoupin&quot;). Doubtful punctuation: in the Region 11 territory cell the mark after &quot;Indiana&quot; reads like a period in the scan (&quot;Indiana. except for Lake,&quot;); context indicates a comma and it is transcribed as a comma. The page carries numerous stray ink specks and broken-type marks in the margins and between columns (including a small mark near the middle of the Region 11 block and after &quot;Counties.&quot; in the Region 13 territory cell); none appear to be footnote markers and none were transcribed. No footnotes are printed on this page.</p>
+<p><b>p. 23.</b> This crop is not a numeric statistical table but a three-column directory of NLRB regional offices: column 0 = office number and address (stub), column 1 = territory covered, column 2 = regional director and attorney. No column headings are printed on this image — the listing continues from an earlier page (it begins at Region 17), so header_rows is empty. There are no column rules; the three columns are set off only by white space, but the column boundaries are unambiguous. Words broken by end-of-line hyphens were rejoined (Scot-land, Cal-laway, Minne-apolis, Ida-ho, Tu-lare, Ange-les, McTer-nan, Wyo-ming, direc-tor, di-rector, at-torney); the hyphen in &quot;Dexter-Horton&quot; is printed mid-line and is retained. Scanning speckle makes a few letters faint: &quot;Monterey&quot; in the Region 21 territory cell prints as something closer to &quot;Montercy&quot;, &quot;Wyoming&quot; in the Region 22 territory cell is letter-spaced and its continuation &quot;ming&quot; has a damaged first letter, and the leading &quot;Minne-&quot; line of the Region 18 address carries a stray mark; all are read as the obvious words. The surname &quot;Kuelthau&quot; (Region 22, third column) and &quot;Rosseter&quot; (Region 20, third column) are legible but worth spot-checking against the source. Row order top to bottom is as printed; nothing appears cut off at the left or right, though the list clearly continues onto the next page.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0020_t0_p0020.webp" loading="lazy" alt="Source page 20 of NLRB FY1939 annual report">
+<figcaption>Source: NLRB Annual Report FY1939, p. 20.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0020_t0_p0021.webp" loading="lazy" alt="Source page 21 of NLRB FY1939 annual report">
+<figcaption>Source: NLRB Annual Report FY1939, p. 21.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0020_t0_p0022.webp" loading="lazy" alt="Source page 22 of NLRB FY1939 annual report">
+<figcaption>Source: NLRB Annual Report FY1939, p. 22.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0020_t0_p0023.webp" loading="lazy" alt="Source page 23 of NLRB FY1939 annual report">
+<figcaption>Source: NLRB Annual Report FY1939, p. 23.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

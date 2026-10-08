@@ -1,9 +1,22 @@
-Type of election,All R elections — Total elections conducted,All R elections — Withdrawn or dismissed before certification,All R elections — Resulting in rerun or runoff,All R elections — Resulting in certification,RC elections — Total elections conducted,RC elections — Withdrawn or dismissed before certification,RC elections — Resulting in rerun or runoff,RC elections — Resulting in certification,RM elections — Total elections conducted,RM elections — Withdrawn or dismissed before certification,RM elections — Resulting in rerun or runoff,RM elections — Resulting in certification,RD elections — Total elections conducted,RD elections — Withdrawn or dismissed before certification,RD elections — Resulting in rerun or runoff,RD elections — Resulting in certification
-All types,3975,112,111,3752,3294,107,98,3089,95,1,4,90,586,4,9,573
-All types — Rerun required,,,80,,,,73,,,,0,,,,7,
-All types — Runoff required,,,31,,,,25,,,,4,,,,2,
-Consent elections,42,0,0,39,28,3,0,25,6,0,0,6,8,0,0,8
-Stipulated elections,3337,90,86,3161,2739,86,79,2574,67,1,0,66,531,3,7,521
-Regional Director-directed,581,19,25,537,519,18,19,482,18,0,4,14,44,1,2,41
-Board-directed,11,0,0,11,8,0,0,8,0,0,0,0,3,0,0,3
-Expedited — Sec. 8(b)(7)(C),4,0,0,4,0,0,0,0,4,0,0,4,0,0,0,0
+Type of case,Type of election,Type of election,Type of election,Type of election,Type of election,Type of election
+Type of case,Total,Consent,Stipulated,Board-directed,Regional Director-directed,Expedited elections under 8(b)(7)(C)
+"All types, total:",,,,,,
+Elections,"3,815",44,"3,206",11,550,4
+Eligible voters,"230,147","1,748","190,544","1,503","36,269",83
+Valid votes,"198,996","1,401","164,536","1,373","31,622",64
+RC cases:,,,,,,
+Elections,"3,089",25,"2,574",8,482,0
+Eligible voters,"192,257",386,"158,805","1,449","31,617",0
+Valid votes,"167,246",339,"137,713","1,327","27,867",0
+RM cases:,,,,,,
+Elections,90,6,66,0,14,4
+Eligible voters,"2,768",806,"1,400",0,479,83
+Valid votes,"2,290",620,"1,216",0,390,64
+RD cases:,,,,,,
+Elections,573,8,521,3,41,0
+Eligible voters,"30,817",414,"26,819",54,"3,530",0
+Valid votes,"26,340",312,"23,171",46,"2,811",0
+UD cases:,,,,,,
+Elections,63,5,45,0,13,
+Eligible voters,"4,305",142,"3,520",0,643,
+Valid votes,"3,120",130,"2,436",0,554,

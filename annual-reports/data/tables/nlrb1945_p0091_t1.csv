@@ -1,9 +1,38 @@
-Remedy / outcome,Total,Identification of complainant / A. F. of L. affiliates,Identification of complainant / C. I. O. affiliates,Identification of complainant / Unaffiliated unions,Identification of complainant / Individuals
-Cases — Notice posted,576,242,234,84,16
-Cases — Company union disestablished,54,21,27,5,1
-Cases — Workers placed on preferential hiring list,39,15,15,8,1
-Cases — Collective bargaining begun,116,45,40,29,2
-Workers — Workers reinstated to remedy discriminatory discharge,1919,545,824,516,34
-Workers — Workers receiving back pay,1973,583,966,375,49
-Workers — Back-pay awards,997270,315030,581510,90510,10220
-Workers — Strikers reinstated,125,0,0,125,0
+Stage and method,Number of cases,Percent of cases closed,Percent of cases on docket
+Cases on docket during the year,"8,703",,100.0
+Total number of cases closed,"6,784",100.0,78.0
+"Before formal action, total","4,438",65.4,51.0
+Adjusted,"3,042",44.9,34.9
+Recognition,186,2.8,2.1
+Consent election,"2,409",35.5,27.7
+Cross-checks,447,6.6,5.1
+Withdrawn,945,13.9,10.9
+Dismissed,450,6.6,5.2
+Otherwise,1,[1],[1]
+"After formal action, total","2,346",34.6,27.0
+Before hearing,96,1.4,1.1
+Adjusted,55,0.8,0.6
+Recognition,1,[1],[1]
+Consent election,52,0.8,0.6
+Cross-check,2,[1],[1]
+Withdrawn,35,0.5,0.4
+Dismissed,6,0.1,0.1
+After hearing,140,2.1,1.6
+Adjusted,72,1.1,0.8
+Recognition,5,0.1,0.1
+Consent election,65,1.0,0.7
+Cross-check,2,[1],[1]
+Withdrawn,66,1.0,0.8
+Dismissed,2,[1],[1]
+After Board decision,"2,110",31.1,24.3
+Certified,"1,487",21.9,17.1
+Stipulated election,272,4.0,3.1
+Stipulated cross-check,25,0.4,0.3
+Ordered election,"1,187",17.5,13.7
+Without election,3,[1],[1]
+Dismissed,529,7.8,6.1
+Stipulated election,73,1.1,0.8
+Ordered election,243,3.6,2.8
+Without election,213,3.1,2.5
+Withdrawn,92,1.4,1.1
+Otherwise,2,[1],[1]

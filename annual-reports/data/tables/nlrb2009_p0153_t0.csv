@@ -1,6 +1,21 @@
-row_label,Number of Cases / Total,Number of Cases / Identification of Petitioner / Employer,Number of Cases / Identification of Petitioner / Union,Number of Cases / Identification of Petitioner / Courts,Number of Cases / Identification of Petitioner / State Board
-"Pending October 1, 2008",0,0,0,0,0
-Received fiscal 2009,1,0,0,0,1
-On docket fiscal 2009,1,0,0,0,1
-Closed fiscal 2009,1,0,0,0,1
-"Pending September 30, 2009",0,0,0,0,0
+Type of Litigation,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings
+Type of Litigation,Total—All Courts,Total—All Courts,Total—All Courts,In Courts of Appeals,In Courts of Appeals,In Courts of Appeals,In District Courts,In District Courts,In District Courts,In Bankruptcy Courts,In Bankruptcy Courts,In Bankruptcy Courts
+Type of Litigation,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination
+Type of Litigation,No. Dec.,Uphold. Board Position,Contrary to Board Position,No. Dec.,Uphold. Board Position,Contrary to Board Position,No. Dec.,Uphold. Board Position,Contrary to Board Position,No. Dec.,Uphold. Board Position,Contrary to Board Position
+TOTALS—ALL TYPES,14,13,1,7,7,0,6,5,1,1,1,0
+NLRB-initiated actions or interventions,2,1,1,1,1,0,1,0,1,0,0,0
+To enforce subpoenas,1,0,1,0,0,0,1,0,1,0,0,0
+Amicus brief re: Section 302,1,1,0,1,1,0,0,0,0,0,0,0
+Action by other parties,12,12,0,6,6,0,5,5,0,1,1,0
+To review:,6,6,0,3,3,0,3,3,0,0,0,0
+Prosecutorial discretion,5,5,0,2,2,0,3,3,0,0,0,0
+Nonfinal/representation case orders,1,1,0,1,1,0,0,0,0,0,0,0
+To restrain NLRB from:,6,6,0,3,3,0,2,2,0,0,0,0
+Proceeding in representation case,1,1,0,1,1,0,0,0,0,0,0,0
+Proceeding in unfair labor practice case,1,1,0,1,1,0,0,0,0,0,0,0
+To compel NLRB to:,1,1,0,0,0,0,1,1,0,0,0,0
+Respond to discovery,1,1,0,0,0,0,1,1,0,0,0,0
+Other,3,3,0,1,1,0,1,1,0,1,1,0
+Reject expired agreement,1,1,0,0,0,0,0,0,0,1,1,0
+FOIA attorney's fees,1,1,0,1,1,0,0,0,0,0,0,0
+FTCA suit alleging improper prosecution,1,1,0,0,0,0,1,1,0,0,0,0

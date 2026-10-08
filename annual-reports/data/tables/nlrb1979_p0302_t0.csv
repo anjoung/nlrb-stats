@@ -1,7 +1,22 @@
-row_label,All R elections — Total elections,All R elections — Withdrawn or dismissed before rerun or runoff,All R elections — Rerun or runoff,All R elections — Resulting in certification,RC elections — Total elections,RC elections — Withdrawn or dismissed before rerun or runoff,RC elections — Rerun or runoff,RC elections — Resulting in certification,RM elections — Total elections,RM elections — Withdrawn or dismissed before rerun or runoff,RM elections — Rerun or runoff,RM elections — Resulting in certification,RD elections — Total elections,RD elections — Withdrawn or dismissed before rerun or runoff,RD elections — Rerun or runoff,RD elections — Resulting in certification
-All types,8249,23,183,8043,7214,21,167,7026,247,1,0,246,788,1,10,777
-Rerun required,,,142,,,,129,,,,0,,,,13,
-Runoff required,,,41,,,,38,,,,0,,,,3,
-Consent elections,490,0,7,483,387,0,6,381,20,0,0,20,83,0,1,82
-Rerun required (Consent elections),,,7,,,,6,,,,0,,,,1,
-Runoff required (Consent elections),,,0,,,,0,,,,0,,,,0,
+Type of case,Total,Type of election,Type of election,Type of election,Type of election,Type of election
+Type of case,Total,Consent,Stipulated,Board-directed,Region director-directed,Expedited elections under 8(b) (7) (C)
+"All types, total",,,,,,
+Elections,"8,177",498,"6,152",49,"1,451",27
+Eligible voters,"583,644","13,511","455,223","4,787","109,369",754
+Valid votes,"510,969","11,612","401,989","3,604","93,159",605
+RC cases,,,,,,
+Elections,"7,026",381,"5,348",40,"1,255",2
+Eligible voters,"528,798","10,675","418,483","4,484","95,115",41
+Valid votes,"465,183","9,208","371,343","3,417","81,186",29
+RM cases,,,,,,
+Elections,240,20,163,3,29,25
+Eligible voters,"9,606",355,"4,951",223,"3,364",713
+Valid votes,"7,383",288,"3,704",116,"2,699",576
+RD cases,,,,,,
+Elections,777,82,582,1,112,0
+Eligible voters,"39,538","2,037","28,441",29,"9,031",0
+Valid votes,"33,474","1,727","24,131",24,"7,592",0
+UD cases,,,,,,
+Elections,134,15,59,5,55,
+Eligible voters,"5,702",444,"3,348",51,"1,859",
+Valid votes,"4,929",389,"2,811",47,"1,682",

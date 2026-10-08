@@ -1,6 +1,32 @@
-Union affiliation,Elections participated in / Total,Elections participated in / Resulting in certification — Number,Elections participated in / Resulting in certification — Percent of total,Elections participated in / Resulting in de-certification — Number,Elections participated in / Resulting in de-certification — Percent of total,Employees involved in elections (number eligible to vote) / Total eligible,Employees involved in elections (number eligible to vote) / Resulting in certification — Number,Employees involved in elections (number eligible to vote) / Resulting in certification — Percent of total eligible,Employees involved in elections (number eligible to vote) / Resulting in de-certification — Number,Employees involved in elections (number eligible to vote) / Resulting in de-certification — Percent of total eligible,Valid votes cast / Total,Valid votes cast / Percent of total eligible,Valid votes cast / Cast for the union — Number,Cast for the union — Percent of total cast
-Total elections,129,40,31.0,89,69.0,11289,5691,50.4,5598,49.6,10289,91.1,5528,53.7
-AFL,48,12,25.0,36,75.0,2278,1164,51.1,1114,48.9,2111,92.7,1028,48.7
-AFL-CIO,47,16,34.0,31,66.0,5479,3509,64.0,1970,36.0,5000,91.3,2863,57.3
-CIO,26,11,42.3,15,57.7,2996,1910,64.1,1086,35.9,2666,89.0,1158,44.6
-Unaffiliated,8,1,12.5,7,87.5,536,108,20.1,428,79.9,512,95.5,449,87.7
+Affiliation of participating unions,Number of elections,Number of elections,Number of elections,Number of elections,Number of elections,Number of elections,Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Total valid votes cast
+Affiliation of participating unions,Total,In which representation rights were won by—,In which representation rights were won by—,In which representation rights were won by—,In which representation rights were won by—,In which no representative was chosen,Total,In units in which representation rights were won by—,In units in which representation rights were won by—,In units in which representation rights were won by—,In units in which representation rights were won by—,In units where no representative was chosen,Total valid votes cast
+Affiliation of participating unions,Total,AFL affiliates,CIO affiliates,AFL-CIO affiliates,Unaffiliated unions,In which no representative was chosen,Total,AFL affiliates,CIO affiliates,AFL-CIO affiliates,Unaffiliated unions,In units where no representative was chosen,Total valid votes cast
+Total,"4,946",986,486,"1,430",328,"1,716","462,712","63,092","60,119","114,408","53,673","171,420","414,568"
+1-union elections:,,,,,,,,,,,,,
+AFL,"1,371",818,,,,553,"84,871","45,187",,,,"39,684","76,472"
+AFL-CIO,"2,014",,,"1,239",,775,"165,547",,,"83,871",,"81,676","147,659"
+CIO,587,,372,,,215,"63,976",,"33,561",,,"30,415","57,999"
+Unaffiliated,230,,,,162,68,"12,125",,,,"8,488","3,637","10,581"
+2-union elections:,,,,,,,,,,,,,
+AFL v. CIO,158,60,71,,,27,"28,781","8,125","15,854",,,"4,802","26,063"
+AFL v. unaffiliated,71,26,,,43,2,"8,827","3,655",,,"5,015",157,"7,758"
+AFL v. AFL,87,63,,,,24,"6,560","5,341",,,,"1,219","5,686"
+AFL-CIO v. unaffiliated,118,,,55,57,6,"28,668",,,"9,933","17,021","1,714","25,825"
+AFL-CIO v. AFL-CIO,160,,,122,,38,"25,893",,,"18,751",,"7,142","23,598"
+CIO v. unaffiliated,82,,40,,40,2,"25,023",,"10,189",,"14,504",330,"21,853"
+Unaffiliated v. unaffiliated,10,,,,10,0,966,,,,966,0,854
+3-union elections:,,,,,,,,,,,,,
+AFL v. CIO v. unaffiliated,9,2,1,,5,1,"2,413",89,195,,"2,059",70,"2,211"
+AFL v. AFL v. AFL,4,3,,,,1,293,232,,,,61,266
+AFL v. AFL v. CIO,8,6,2,,,0,562,242,320,,,0,523
+AFL v. AFL v. unaffiliated,2,0,,,1,1,352,0,,,183,169,281
+AFL-CIO v. AFL-CIO v. unaffiliated,13,,,6,7,0,"2,949",,,699,"2,250",0,"2,684"
+AFL-CIO v. AFL-CIO v. AFL-CIO,10,,,8,,2,"1,446",,,"1,154",,292,"1,289"
+AFL v CIO v. CIO,1,0,0,,,1,52,0,0,,,52,48
+CIO v. CIO v unaffiliated,1,,0,,1,0,488,,0,,488,0,443
+AFL-CIO v. unaffiliated v. unaffiliated,1,,,0,1,0,24,,,0,24,0,23
+4-union elections,,,,,,,,,,,,,
+AFL v. AFL v. AFL v. AFL,1,1,,,,0,74,74,,,,0,66
+AFL v. AFL v. AFL v. CIO,5,5,0,,,0,86,86,0,,,0,69
+AFL v AFL v. CIO v. unaffiliated,2,1,0,,1,0,"2,719",44,0,,"2,675",0,"2,301"
+5-union elections AFL v. AFL v AFL v. AFL v. CIO,1,1,0,,,0,17,17,0,,,0,16

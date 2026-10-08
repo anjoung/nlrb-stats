@@ -1,28 +1,26 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Hearings completed, total",1200,1150,955,45,150,5
-Initial hearings,1015,989,851,29,109,5
-Hearings on objections and/or challenges,185,161,104,16,41,0
-"Decisions issued, total",1032,982,812,58,112,13
-By Regional Directors,959,916,765,51,100,13
-Elections directed,860,820,688,44,88,13
-Dismissals on record,99,96,77,7,12,0
-By Board,73,66,47,7,12,0
-Transferred by Regional Directors for initial decon,4,4,4,0,0,0
-Elections directed,3,3,0,0,0,0
-Dismissals on record,,1,0,,0,
-Review of Regional Directors' decisions:,,,,,,
-Requests for review received,500,484,401,37,46,5
-Withdrawn before request ruled upon,3,3,2,0,1,0
-"Board action on request ruled upon, total",394,356,294,33,29,3
-Granted,48,42,27,6,9,
-Denied,330,302,260,24,18,3
-Remanded,16,12,7,3,2,0
-"Withdrawn after request granted, before Board review.",1,1,0,1,0,0
-"Board decision after review, total",69,62,43,7,12,0
-Regional Directors' decisions:,,,,,,
-Affirmed,34,32,25,3,4,
-Modified,17,17,9,2,6,
-Reversed,18,13,9,2,2,
-Outcome:,,,,,,
-Election directed,49,44,31,,,
-Dismissals on record,20,18,12,2,4,0
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,Total formal actions taken,CA,CB,CC,CD,CD,CE,CG,CP,CA combined with CB,C combined with representation cases,Other C combinations
+Types of formal actions taken,Cases in which formal actions taken,Total formal actions taken,CA,CB,CC,Jurisdictional disputes,Unfair labor practices,CE,CG,CP,CA combined with CB,C combined with representation cases,Other C combinations
+10(k) notices of hearings issued,37,33,,,,33,,,,,,,
+Complaints issued,"4,921","3,851","3,027",350,158,,1,6,2,23,42,49,193
+Backpay specifications issued,120,115,90,15,10,,0,0,0,0,0,0,0
+"Hearings completed, total",725,635,513,66,6,12,0,1,0,7,5,14,11
+Initial ULP hearings,675,597,479,62,6,12,0,1,0,7,5,14,11
+Backpay hearings,35,26,24,2,0,,0,0,0,0,0,0,0
+Other hearings,15,12,10,2,0,,0,0,0,0,0,0,0
+"Decisions by administrative law judges, total","1,050",713,574,89,7,,2,1,0,4,7,13,16
+Initial ULP decisions,994,674,540,84,7,,2,1,0,4,7,13,16
+Backpay decisions,32,26,24,2,0,,0,0,0,0,0,0,0
+Supplemental decisions,24,13,10,3,0,,0,0,0,0,0,0,0
+"Decisions and orders by the Board, total","1,113",907,728,80,14,13,2,2,0,2,17,39,10
+Upon consent of parties:,,,,,,,,,,,,,
+Initial decisions,89,48,32,10,4,,0,0,0,0,0,0,2
+Supplemental decisions,0,0,0,0,0,,0,0,0,0,0,0,0
+Adopting administrative law judges' decisions (no exceptions filed):,,,,,,,,,,,,,
+Initial ULP decisions,256,208,158,28,2,,1,0,0,2,6,10,1
+Backpay decisions,1,1,1,0,0,,0,0,0,0,0,0,0
+Contested:,,,,,,,,,,,,,
+Initial ULP decisions,659,573,475,36,6,13,0,1,0,0,11,28,3
+Decisions based on stipulated record,17,12,9,2,0,,0,1,0,0,0,0,0
+Supplemental ULP decisions,45,37,26,3,2,,1,0,0,0,0,1,4
+Backpay decisions,46,28,27,1,0,,0,0,0,0,0,0,0

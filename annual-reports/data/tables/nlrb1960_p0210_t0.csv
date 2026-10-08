@@ -1,7 +1,6 @@
-Division and State,Total,Number of elections in which representation rights were won by / AFL-CIO affiliates,Number of elections in which representation rights were won by / Unaffiliated unions,In which no representative was chosen,Employees eligible to vote,Total valid votes cast,Valid votes cast for / AFL-CIO affiliates,Valid votes cast for / Unaffiliated unions,Valid votes cast for / No union,Employees in units choosing representation
-Total,6380,2400,1340,2640,483964,436723,183528,96612,156583,286048
-New England,356,108,82,166,30457,33609,14794,7487,11328,21708
-Middle Atlantic,1197,475,254,468,122651,101035,41858,29471,29696,70536
-East North Central,1420,525,311,584,99743,92123,39058,20536,32556,63378
-West North Central,569,215,132,219,27573,24879,10718,5915,8516,17525
-Additional state-level,,,,,,,,,,
+Union affiliation,Elections participated in,Elections participated in,Elections participated in,Elections participated in,Elections participated in,Employees involved in elections (number eligible to vote),Employees involved in elections (number eligible to vote),Employees involved in elections (number eligible to vote),Employees involved in elections (number eligible to vote),Employees involved in elections (number eligible to vote),Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Union affiliation,Total,Resulting in certification,Resulting in certification,Resulting in decertification,Resulting in decertification,Total eligible,Resulting in certification,Resulting in certification,Resulting in decertification,Resulting in decertification,Total,Percent of total eligible,Cast for the union,Cast for the union
+Union affiliation,Total,Number,Percent of total,Number,Percent of total,Total eligible,Number,Percent of total eligible,Number,Percent of total eligible,Total,Percent of total eligible,Number,Percent of total cast
+Total,237,74,31.2,163,68.8,"17,421","8,726",50.1,"8,695",49.9,"15,340",88.1,"8,523",55.6
+AFL-CIO,162,51,31.5,111,68.5,"13,448","6,197",46.1,"7,251",53.9,"11,931",88.7,"6,249",52.4
+Unaffiliated,75,23,30.7,52,69.3,"3,973","2,529",63.7,"1,444",36.3,"3,409",85.8,"2,274",66.7

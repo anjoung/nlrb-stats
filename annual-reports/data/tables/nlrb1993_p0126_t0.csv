@@ -1,16 +1,20 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13
-A. By number of cases in- volved .,211286,,,,,,,,,,,,
-,3396,2496,1801,135,15,371,174,900,542,200,1,73,84
-Recognition or other assist- ance withdrawn .... . .....,51,51,31,1,0,13,6,,,,,,
-Employer-dominated union disestablished . .,21,21,14,I,0,4,2,,,,,,
-Employees offered reinstate-,1293,1293,860,116,16,209,92,,,,,,
-Employees placed on pref- erential hiring list ..........,453,453,297,46,7,72,31,,,,,,
-Hiring hall nghts restored ...,58,,,,,,,58,29,6,0,17,6
-Objections to employment,49,,,,,,,49,25,6,o,12,6
-Picketing ended,193,,,,,,,193,163,25,o,3,2
-Work stoppage ended .........,68,,,,,_,,68,41,27,o,0,0
-Collective bargaining begun,3470,3269,2948,64,30,141,86,201,195,1,o,5,0
-Backpay distributed . . .,2682,2514,2078,98,16,232,90,168,120,9,o,28,11
-"Reimbursement of fees, dues, and fines .. . . • •",709,597,411,50,6,100,30,112,79,7,1,18,7
-Other conditions of employ- ment improved .. ... .,0,0,0,0,0,0,0,0,o,0,o,0,0
-,0,0,0,0,0,o,o,0,0,o,0,o,0
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,AC,UC
+Hearings completed,89,9,77
+Decisions issued after hearing,119,11,107
+By Regional Directors,109,10,99
+By Board,10,1,8
+Transferred by Regional Directors for initial decision,0,0,0
+Review of Regional Directors' decisions,,,
+Requests for review received,40,1,37
+Withdrawn before request ruled upon,2,0,2
+"Board action on requests ruled upon, total",31,1,28
+Granted,10,0,9
+Denied,18,0,17
+Remanded,3,1,2
+"Withdrawn after request granted, before Board review",0,0,0
+"Board decision after review, total",10,1,8
+Regional Directors' decisions,,,
+Affirmed,6,0,5
+Modified,0,0,0
+Reversed,4,1,3

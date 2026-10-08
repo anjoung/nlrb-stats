@@ -1,13 +1,29 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7
-Board Region:,28,75,93,Region-Contd. 13,31,13 6,19 8
-1,27,12,28,14,12,,
-2,131,as,65,15,12,5,7
-3,19,10,14 2,16,30,7,13
-4,10 57,27,40,17,8,1,3
-5,,,,18,12,4,7
-6,17,8,13,19,21,7,16
-7 8,20 38,9 23,10 29,ao,38,32,36
-9,20,13,14,21,99,38,52
-10,30,22,23,22,9,2,3
-11,40,6,9,Total,,,514
-12,19,6,10,,728,364,
+,Cases on docket fiscal year 1937-38,Cases on docket fiscal year 1937-38,Before formal action,Before formal action,Before formal action,Before formal action,Before formal action,Before formal action,After formal action,After formal action,After formal action,After formal action,After formal action,After formal action,After formal action,After formal action,After formal action,Total cases disposed of,Cases pending,Cases pending,Cases pending,Cases pending
+,Cases on docket fiscal year 1937-38,Cases on docket fiscal year 1937-38,Settled,Settled,Settled,Dismissed,Withdrawn,Transferred to other agencies,Before Board decision,Before Board decision,Before Board decision,Before Board decision,Before Board decision,After Board decision,After Board decision,After Board decision,After Board decision,Total cases disposed of,Before hearing,After hearing,After hearing,Total
+,Cases on docket fiscal year 1937-38,Cases on docket fiscal year 1937-38,Consent election,Recognition,Pay-roll check,Dismissed,Withdrawn,Transferred to other agencies,Settled,Settled,Settled,Dismissed,Withdrawn,Certification,Certification,Dismissed,Dismissed,Total cases disposed of,Before hearing,Awaiting decision,Awaiting certification,Total
+,Number,Workers involved,Consent election,Recognition,Pay-roll check,Dismissed,Withdrawn,Transferred to other agencies,Consent election,Recognition,Pay-roll check,Dismissed,Withdrawn,Without election,After election,Without election,After election,Total cases disposed of,Before hearing,Awaiting decision,Awaiting certification,Total
+Board,155,"157,644",,,,1,,,,1,,5,,5,62,16,2,92,39,3,21,63
+Region:,,,,,,,,,,,,,,,,,,,,,,
+1. Boston,171,"57,522",56,12,7,8,28,1,,,,,,,19,4,2,137,19,13,2,34
+2. New York,958,"205,355",215,168,37,97,110,3,12,14,,4,17,23,30,6,4,740,157,53,8,218
+3. Buffalo,81,"25,207",18,5,5,3,19,1,1,,,,2,5,6,1,,66,9,4,2,15
+4. Philadelphia,195,"51,939",63,49,4,6,25,2,1,1,,,,1,,1,,153,35,7,,42
+5. Baltimore,219,"55,234",61,26,9,5,30,3,1,,3,,,4,22,9,1,174,25,16,4,45
+6. Pittsburgh,91,"137,876",10,13,9,2,21,,,,1,,,4,4,1,,65,17,7,2,26
+7. Detroit,143,"157,731",24,38,2,6,13,,,,,,3,1,4,,3,94,40,7,2,49
+8. Cleveland,144,"90,333",21,17,7,1,17,1,3,,,2,3,9,16,,3,100,32,9,3,44
+9. Cincinnati,219,"58,357",47,32,10,25,47,,1,,1,,2,8,3,,1,177,32,5,5,42
+10. Atlanta,108,"45,659",8,2,5,2,24,,3,1,,,5,,10,1,2,63,27,5,13,45
+11. Indianapolis,129,"45,040",31,18,10,2,14,,1,,,1,,4,1,,2,84,14,27,4,45
+12. Milwaukee,124,"34,076",28,29,13,,22,2,,,,3,1,2,6,,,105,10,8,1,19
+13. Chicago,169,"78,932",45,18,11,16,24,2,2,1,,2,2,5,9,1,1,140,16,9,4,29
+14. St. Louis,80,"24,167",11,3,6,3,22,,1,,,,1,1,6,1,,55,21,4,,25
+15. New Orleans,207,"25,323",24,30,18,12,16,1,2,3,,,,2,5,,,113,87,7,,94
+16. Fort Worth,110,"15,808",9,12,7,7,17,1,1,,,,1,6,2,,1,64,23,20,3,46
+17. Kansas City,80,"24,871",16,4,11,6,16,7,1,,,,2,2,1,,,66,11,3,,14
+18. Minneapolis,73,"17,127",13,17,5,3,9,,2,,,,3,3,2,1,,58,13,1,1,15
+19. Seattle,196,"31,653",46,5,15,7,31,,,,,,,8,2,1,1,116,71,5,4,80
+20. San Francisco,250,"68,573",15,11,7,18,83,,,,,41,1,4,4,,,184,34,5,27,66
+21. Los Angeles,483,"75,447",29,68,12,39,78,,2,,,1,27,11,18,3,1,289,134,40,20,194
+22. Denver,34,"4,775",6,5,1,,7,,,,,,,1,1,,1,22,6,6,,12
+Total,"4,419","1,488,649",796,582,211,269,673,24,34,21,5,59,70,109,233,46,25,"3,157",872,264,126,"1,262"

@@ -1,15 +1,24 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13
-A By number of cases involved,257q,,,,,,,,,,,,
-Notice posted Recormition or other assistance with-,2363,1732,992,103,83,249,305,631,405,73,17,82,54
-drawn,62,62,31,7,3,16,5,,,,,,
-Employer-dominated union disestablished_,27,27,8,6,2,6,5,,,,,,
-Employees offered reinstatement,1405,1405,866,85,49,183,222,,,,,,
-Employees placed on preferential hiring list,131,131,76,35,2,10,8,,,,,,
-Hiring hall rights restored,38,,,,,,,38,32,4,0,0,2
-Objections to employ- ment withdrawn _ _ _,118,,,,,,,118,82,22,1,5,8
-Picketing end-A Work stoppage ended_,733 270,,,_ _,,,,733 270,654 248,28 11,6 0,33 6,12 5
-Collective bargaining begun,1388,1244,981,36,18,90,119,144,132,4,2,5,1
-Backpay distributed _ _,1679,1514,991,85,51,196,191,165,104,24,3,11,23
-"Reimbursement of fees, dues, and fines_",91,45,24,2,2,9,8,46,29,2,6,8,1
-Other conditions of employment im- proved,561,262,261,0,0,0,1,299,294,0,0,5,0
-Other remedies,31,14,11,0,1,2,0,17,16,0,1,0,0
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,Total formal actions taken,RC,RM,RD,UD
+"Hearings completed, total","2,458","2,287","2,082",97,108,2
+Initial hearings,"2,203","2,036","1,848",83,105,2
+Hearings on objections and/or challenges,255,251,234,14,3,0
+"Decisions issued, total","2,144","1,999","1,819",85,95,4
+By regional directors,"1,983","1,872","1,702",78,92,4
+Elections directed,"1,752","1,670","1,524",67,79,3
+Dismissals on record,231,202,178,11,13,1
+By Board,161,127,117,7,3,0
+After transfer by regional directors for initial decision,132,100,91,6,3,0
+Elections directed,95,74,68,3,3,0
+Dismissals on record,37,26,23,3,0,0
+After review of regional directors' decisions,29,27,26,1,0,0
+Elections directed,21,19,18,1,0,0
+Dismissals on record,8,8,8,0,0,0
+"Decisions on objectives and/or challenges, total","1,093","1,065",984,59,22,10
+By regional directors,411,397,369,17,11,8
+By Board,724,712,654,47,11,2
+In stipulated elections,668,659,610,38,11,1
+No exceptions to regional directors' reports,436,428,391,32,5,0
+Exceptions to regional directors' reports,232,231,219,6,6,1
+In directed elections (after transfer by regional directors),39,36,29,7,0,1
+In directed elections after review of regional directors' supplemental decisions,17,17,15,2,0,0

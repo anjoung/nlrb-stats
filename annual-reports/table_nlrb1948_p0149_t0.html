@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -124,31 +132,59 @@ ul.link-list li { margin: 0.3rem 0; }
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th></th><th></th><th></th><th></th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">4-C-1677</th><td>Arton Studios.</td><td>18-C-1257</td><td>Oliver Corp., The.</td></tr>
-<tr><th class="stub" scope="row">1-C-2953</th><td>Brown &amp; Sharpe Manu- facturing Co.</td><td>5-C-2052 18-C-1250 10-C-1939</td><td>Parkside Hotel. Penokee Veneer Co. People Motor Express Inc.</td></tr>
-<tr><th class="stub" scope="row">20-C-1445</th><td>Ensher, Alexander &amp; Bar- soom, Inc.</td><td>91-C-1461</td><td>Pillsbury Flour Co. .</td></tr>
-<tr><th class="stub" scope="row">8-C-1801</th><td>Fairfield Engineerin Co., The.</td><td>10-0-1579 13-C-2459 2-C-5979</td><td>R. C. A. Manufacturing Co., Inc. Reynolds Corp. Russell Electric Co.</td></tr>
-<tr><th class="stub" scope="row">3-C-829</th><td>Geraldine Novelty &#x27;Co., , Inc.</td><td>15M-C-1222 15-C-1069</td><td>Salant &amp; Salant, Inc. Sturges Co.</td></tr>
-<tr><th class="stub" scope="row">10-0-1739</th><td>Gibbs Corp.</td><td class="blank"></td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">15-C-1052</th><td>Gibson County Electric Membership Corp.</td><td>15M-C-1002</td><td>Tishoming Country Elec- tric Power Association.</td></tr>
-<tr><th class="stub" scope="row">16-C-1292</th><td>Hagy, Harrington &amp; &#x27;Marsh, Inc.</td><td>5-0-1862</td><td>Tomlinson of High Point, Inc.</td></tr>
-<tr><th class="stub" scope="row">9-0-2203</th><td>Hoppes Manufacturing Co.</td><td>1-0-2629</td><td>Underwood Machinery</td></tr>
-<tr><th class="stub" scope="row">• 17-C-1325</th><td>Joffee, M. M.</td><td class="blank"></td><td>Co.</td></tr>
-<tr><th class="stub" scope="row">18-C-1317.</th><td>Kingston, Russell.</td><td class="blank"></td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">18-C-1192</th><td>Northwest Glove Co., Inc.</td><td>1-C-2871</td><td>Mills Worcester Woolen Corp.</td></tr>
+<tr><th class="stub" scope="row">10-RD-13</th><td>Southern Bell Telephone &amp; Telegraph Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-RD-16</th><td>Southern Iron &amp; Equipment Co.</td></tr>
+<tr><th class="stub" scope="row">2-RD-15</th><td>Standard Brands, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-RD-8</th><td>Staples-Smith Display Co.</td></tr>
+<tr><th class="stub" scope="row">2-RD-9</th><td>Terrytoons, Inc.</td></tr>
+<tr><th class="stub" scope="row">6-RD-4</th><td>Thiele, W. J., &amp; Son.</td></tr>
+<tr><th class="stub" scope="row">2-RD-30</th><td>Times Appliance Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">2-RD-2</th><td>Underwriters Salvage Co. of New York.</td></tr>
+<tr><th class="stub" scope="row">13-RD-3</th><td>Unique Manufacturing Co.</td></tr>
+<tr><th class="stub" scope="row">9-RD-20</th><td>Univis Lens Co., The.</td></tr>
+<tr><th class="stub" scope="row">1-RD-9</th><td>WORC, Radio Station, Alfred F. Kleindienst.</td></tr>
+<tr><th class="stub" scope="row">21-RD-2</th><td>West Coast Paperboard Mills.</td></tr>
+<tr><th class="stub" scope="row">8-RD-3</th><td>Westinghouse Electric Corp.</td></tr>
+<tr><th class="stub" scope="row">1-RD-6</th><td>Whitin Machine Works.</td></tr>
+<tr><th class="stub" scope="row">16-RD-3</th><td>Willborn Bros. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">18-RD-9</th><td>Woodmark Industries, Inc.</td></tr>
+<tr><th class="stub" scope="row">III. Union-Shop Authorization Cases</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">A. LMRA, UA cases—petition by a labor organization asking that a contract be authorized requiring membership in such union as a condition of employment under section 9 (e) (1)</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">17-UA-8</th><td>Brinks, Inc.</td></tr>
+<tr><th class="stub" scope="row">4-UA-325</th><td>Budd Co., The.</td></tr>
+<tr><th class="stub" scope="row">2-UA-87</th><td>Eastwood, Benjamin, Co.</td></tr>
+<tr><th class="stub" scope="row">35-UA-3</th><td>Indianapolis Water Co.</td></tr>
+<tr><th class="stub" scope="row">17-UA-598</th><td>Middle States Utilities Co., of Missouri.</td></tr>
+<tr><th class="stub" scope="row">18-UA-227</th><td>Northland Greyhound Lines, Inc.</td></tr>
+<tr><th class="stub" scope="row">35-UA-121</th><td>Universal Carloading &amp; Distributing Co.</td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1948_p0149_t0.csv" download>Download this table (CSV)</a></p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 149.</b> This is not a numeric table but an alphabetical list of cases from Appendix D, printed in two side-by-side panels (case number, case name) separated by a vertical rule. Following the two-panel instruction, each panel&#x27;s rows are given one under the other in a single two-column grid: for the top block (RD cases) the left panel&#x27;s 8 rows (10-RD-13 … 2-RD-2) come first, then the right panel&#x27;s 8 rows (13-RD-3 … 18-RD-9); for the bottom block (UA cases) the left panel&#x27;s 4 rows (17-UA-8 … 35-UA-3) come first, then the right panel&#x27;s 3 rows (17-UA-598 … 35-UA-121). No column headings are printed anywhere on the crop, so header_rows is empty.
+
+The two centered/full-width section lines (&quot;III. Union-Shop Authorization Cases&quot; and the italic &quot;A. LMRA, UA cases—…&quot;) span both panels; they are given as label-only rows in the stub between the two panel blocks, which is where they are printed.
+
+The running head and page number (&quot;Appendix D: Cases Heard During the Period August 22, 1947–June 30, 1948  141&quot;) are omitted as instructed.
+
+Case numbers are printed with en-dash-like short dashes (e.g. &quot;10–RD–13&quot;); they are transcribed with plain hyphens.
+
+&quot;Staples - Smith Display Co.&quot; is printed with spaces around the hyphen (justification/letterspacing artifact); transcribed as &quot;Staples-Smith Display Co.&quot;. In the italic section line, &quot;author- ized&quot; is broken by an end-of-line hyphen and has been rejoined as &quot;authorized&quot;.
+
+The crop appears to be cut off at the foot of the page: the UA list almost certainly continues below &quot;35-UA-121 Universal Carloading &amp; Distributing Co.&quot;, and the blank vertical gaps inside the UA block (after &quot;Budd Co., The.&quot; and after &quot;Eastwood, Benjamin, Co.&quot;, and in the right panel) are alphabetical spacing, not omitted rows.
+
+Blank space to the left of the right panel&#x27;s entries is panel layout, not empty cells. Some trailing periods on names are as printed (e.g. &quot;Univis Lens Co., The.&quot;).</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1948_p0149.webp" loading="lazy" alt="Source page 149 of NLRB FY1948 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1948_p0149_t0_p0149.webp" loading="lazy" alt="Source page 149 of NLRB FY1948 annual report">
 <figcaption>Source: NLRB Annual Report FY1948, p. 149.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

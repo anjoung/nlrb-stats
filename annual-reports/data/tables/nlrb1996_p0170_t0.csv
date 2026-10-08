@@ -1,22 +1,25 @@
-Type of litigation,Number of proceedings / Totals-all courts / Number decided,Number of proceedings / Totals-all courts / Court determination Upholding Board position,Number of proceedings / Totals-all courts / Court determination Contrary to Board position,Number of proceedings / In courts of appeals / Number decided,Number of proceedings / In courts of appeals / Court determination Upholding Board position,Number of proceedings / In courts of appeals / Court determination Contrary to Board position,Number of proceedings / In district courts / Number decided,Number of proceedings / In district courts / Court determination Upholding Board position,Number of proceedings / In district courts / Court determination Contrary to Board position,Number of proceedings / In bankruptcy courts / Court determination,col_11,col_12
-Totals-all types,20,18,2,9,8,1,10,9,1,1,1,0
-NLRB-initiated actions or interventions,0,0,0,0,0,0,0,0,0,0,0,0
-To quash state court subpoena,1,1,0,0,0,0,0,0,0,1,1,0
-To enforce subpoena,4,4,0,2,2,0,2,2,0,0,0,0
-To stay collateral action,0,0,0,0,0,0,0,0,0,0,0,0
-Action by review parties,0,0,0,0,0,0,0,0,0,0,0,0
-To review,0,0,0,0,0,0,0,0,0,0,0,0
-Prosecutorial discretion,1,1,0,0,0,0,1,1,0,0,0,0
-Nonfinal orders,0,0,0,0,0,0,0,0,0,0,0,0
-Attorney discipline orders,0,0,0,0,0,0,0,0,0,0,0,0
-To restrain NLRB from,0,0,0,0,0,0,0,0,0,0,0,0
-Enforcing Board subpoenas,1,1,0,1,1,0,0,0,0,0,0,0
-Proceeding in court,1,1,0,1,1,0,0,0,0,0,0,0
-Proceeding in unfair labor practice case,2,2,0,0,0,0,2,2,0,0,0,0
-Collecting pursuant to settlement agreement,1,1,0,0,0,0,1,1,0,0,0,0
-To compel NLRB to,0,0,0,0,0,0,0,0,0,0,0,0
-Issue complaint,3,3,0,2,2,0,1,1,0,0,0,0
-Take action in R case,3,3,0,2,2,0,1,1,0,0,0,0
-Comply with Freedom of Information Act (FOIA),1,1,0,0,0,0,1,1,0,0,0,0
-Take action in compliance proceeding,1,1,0,0,0,0,1,1,0,0,0,0
-Take action in C case,1,1,0,0,0,0,1,1,0,0,0,0
+,Total proceedings,Injunction proceedings,Injunction proceedings,Total dispositions,Disposition of injunctions,Disposition of injunctions,Disposition of injunctions,Disposition of injunctions,Disposition of injunctions,Disposition of injunctions,"Pending in district court Sept. 30, 1996"
+,Total proceedings,"Pending in district court Oct. 1, 1995",Filed in district court fiscal year 1996,Total dispositions,Granted,Denied,Settled,Withdrawn,Dismissed,Inactive,"Pending in district court Sept. 30, 1996"
+Under Sec. 10(e) total,2,0,2,2,1,1,0,0,0,0,0
+Under Sec. 10(j) total,49,11,38,44,24,6,13,1,0,0,5
+8(a)(1),1,0,1,1,0,0,1,0,0,0,0
+8(a)(1)(2)(3) 8(b)(1)(A) 8(b)(2),2,1,1,2,0,1,1,0,0,0,0
+8(a)(1)(2)(3)(5) 8(b)(1)(A) 8(b)(2),2,0,2,2,1,0,1,0,0,0,0
+8(a)(1)(2)(5),1,0,1,1,0,1,0,0,0,0,0
+8(a)(1)(3),18,3,15,17,8,1,7,1,0,0,1
+8(a)(1)(3)(4),1,0,1,1,1,0,0,0,0,0,0
+8(a)(1)(3)(5),13,6,7,11,8,3,0,0,0,0,2
+8(a)(1)(5),11,1,10,9,6,0,3,0,0,0,2
+Under Sec. 10(l) total,26,7,19,18,5,0,9,2,1,1,8
+8(a)(1)(3),1,0,1,0,0,0,0,0,0,0,1
+8(b)(3) 8(b)(4)(B),1,0,1,1,1,0,0,0,0,0,0
+8(b)(4),1,0,1,1,1,0,0,0,0,0,0
+8(b)(4)(A) 8(b)(4)(B),1,0,1,1,0,0,0,0,0,1,0
+8(b)(4)(B),11,3,8,7,2,0,4,0,1,0,4
+8(b)(4)(B) 8(b)(4)(D),1,0,1,1,0,0,0,1,0,0,0
+8(b)(4)(B) 8(b)(7)(C),1,0,1,0,0,0,0,0,0,0,1
+8(b)(4)(B) 8(e),1,1,0,1,0,0,1,0,0,0,0
+8(b)(4)(D),5,3,2,3,0,0,2,1,0,0,2
+8(b)(7)(A),2,0,2,1,0,0,1,0,0,0,1
+8(b)(7)(B),1,0,1,1,0,0,1,0,0,0,0
+8(b)(7)(C),1,0,1,1,1,0,0,0,0,0,0

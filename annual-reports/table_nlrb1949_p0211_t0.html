@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Cases heard — NLRB FY1949</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1949.html">FY1949</a> &rsaquo; Cases heard</p>
+<h1>Cases heard</h1>
+<p class="meta">source pages 211–212 &middot; <code>nlrb1949_p0211_t0</code></p>
+<p class="spans-note">Stitched from pp. 211–212.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">8-CA-111</th><td>Valley Broadcasting Co., The.</td></tr>
+<tr><th class="stub" scope="row">2-CA-283</th><td>Vanleeck, Everett, Y., Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">1-CA-154</th><td>Vermont American Furniture Corp.</td></tr>
+<tr><th class="stub" scope="row">21-CA-205</th><td>Virtue Brothers Manufacturing Co.</td></tr>
+<tr><th class="stub" scope="row">37-CA-8</th><td>Wagon Wheel, Dr. Charles Goo.</td></tr>
+<tr><th class="stub" scope="row">16-CA-45</th><td>Weatherford Spring Co.</td></tr>
+<tr><th class="stub" scope="row">4-CA-16</th><td>Weaver Wintark, H. Webb, C. A. Webb, Mary Webb, d/b/a.</td></tr>
+<tr><th class="stub" scope="row">18-CA-25</th><td>Webster Cooperative Dairy Association.</td></tr>
+<tr><th class="stub" scope="row">15-CA-26</th><td>West Boylston Manufacturing Co.</td></tr>
+<tr><th class="stub" scope="row">21-C-468</th><td>Western Wear of California Inc.</td></tr>
+<tr><th class="stub" scope="row">16-CA-38</th><td>Westex Boot &amp; Shoe Co.</td></tr>
+<tr><th class="stub" scope="row">20-CA-163</th><td>Westinghouse Pacific Coast Brake Co.</td></tr>
+<tr><th class="stub" scope="row">16-CA-26</th><td>West Texas Utilities Co.</td></tr>
+<tr><th class="stub" scope="row">21-CA-78</th><td>Wilshire Pictures Corp.</td></tr>
+<tr><th class="stub" scope="row">20-CA-67</th><td>Woolworth F. W. Co., Modesto Store.</td></tr>
+<tr><th class="stub" scope="row">6-CA-7</th><td>York &amp; Foster, Inc.</td></tr>
+<tr><th class="stub" scope="row">C. LMRA: CB cases—charge of unfair labor practices committed by a union under section 8 (b) (1) (2) (3) (5) (6)</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">8-CB-7</th><td>CIO-Auto Workers &amp; Local 951 (North Electric Manufacturing Co., The).</td></tr>
+<tr><th class="stub" scope="row">10-CB-27</th><td>AFL Boilermakers, Local 656 (Combustion Engineering Co.).</td></tr>
+<tr><th class="stub" scope="row">6-CB-30</th><td>AFL Bridge Structural Iron Workers, Local 3 &amp; O. J. Royer, Its Agent (Dinardo Inc.).</td></tr>
+<tr><th class="stub" scope="row">36-CB-2</th><td>AFL Building &amp; Construction Trades Council of Portland &amp; Vicinity, &amp; Millwrights &amp; Machine Erectors Local 1857 Affiliated with Carpenters AFL (Fry, Lloyd A. Roofing Co. &amp; Volney Felt Mills, Inc.).</td></tr>
+<tr><th class="stub" scope="row">21-CB-68</th><td>AFL Building Service Employees Pari-Mutuel Employees Guild Local 280 8 (b) 2 indicated in language of charge involving 1 employee. (Hollywood Turf Club).</td></tr>
+<tr><th class="stub" scope="row">30-CB-1</th><td>AFL Electrical Workers, Local B-1436 (Public Service Co. of Colorado, The).</td></tr>
+<tr><th class="stub" scope="row">3-CB-11</th><td>AFL Engineers, Operating, Engineers, Locals 545, 545A, &amp; 545B (Underpinning &amp; Foundation Co., Inc.).</td></tr>
+<tr><th class="stub" scope="row">2-CB-59</th><td>CIO Electrical, Radio Workers, Local 436 (General Instrument Corp.).</td></tr>
+<tr><th class="stub" scope="row">21-CB-18</th><td>AFL Garment Workers Ladies Sportswear &amp; Cotton Garment Workers Local 266 (Tan Juan of Hollywood).</td></tr>
+<tr><th class="stub" scope="row">14-CB-13</th><td>Grain Processors&#x27; Independent Union Local 1 (Union Starch &amp; Refining Co.).</td></tr>
+<tr><th class="stub" scope="row">20-CB-34</th><td>AFL Hotel &amp; Restaurant Employees Bartenders Union Local 52 (Tropical Club, Harry Diaz &amp; N. W. Maroosis d/b/a).</td></tr>
+<tr><th class="stub" scope="row">20-CB-19</th><td>CIO Longshoremen &amp; Warehousemen (Members of Waterfront Employers Association of the Pacific Coast).</td></tr>
+<tr><th class="stub" scope="row">20-CB-33</th><td>CIO Longshoremen &amp; Warehousemen &amp; Contract Guard&#x27;s &amp; Patrolmen&#x27;s Organizing Committee (Pinkerton&#x27;s National Detective Agency, Inc.).</td></tr>
+<tr><th class="stub" scope="row">20-CB-38</th><td>CIO Longshoremen &amp; Warehousemen (Waterfront Employers Association of the Pacific Coast. (Additional Charge 1) Waterfront Employers Association of California, San Francisco Bay Area. (Additional Charge 2) Waterfront Employers Association of California, Los Angeles Port Area including San Pedro. (Additional Charge 3) Waterfront Employers Association of Oregon &amp; Columbia River.)</td></tr>
+<tr><th class="stub" scope="row">36-CB-4</th><td>CIO Longshoremen &amp; Warehousemen Local 12 (Irwin-Lyons Lumber Co., a Corp.).</td></tr>
+<tr><th class="stub" scope="row">1-CB-24</th><td>Maine Seafood &amp; Fishermen&#x27;s Benevolent Association &amp; Its successor Independent Federation of Labor (Maine Fillet Co.).</td></tr>
+<tr><th class="stub" scope="row">2-CB-87</th><td>CIO Maritime U. &amp; Joseph Curran, M. Hedley Stone, Howard McKenzie, Ferdinand C. Smith &amp; Chester Young, Agents (Committee For Company&#x27;s &amp; Agents, Atlantic &amp; Gulf Coasts, Unlicensed Personnel).</td></tr>
+<tr><th class="stub" scope="row">14-CB-14</th><td>Mine Workers of America, Progressive &amp; Local Union 13 and District 1 and District 7 (Randolph Coal Co., Eureka No. 2 Mine).</td></tr>
+<tr><th class="stub" scope="row">6-CB-10</th><td>Mine Workers, District 31 (Ruthbell Coal Co.).</td></tr>
+<tr><th class="stub" scope="row">5-CB-14</th><td>Mine Workers, &amp; John L. Lewis (Jones &amp; Laughlin Steel Corp. et al.).</td></tr>
+<tr><th class="stub" scope="row">2-CB-75</th><td>CIO Packinghouse Workers, Locals 49, 86, 93, 97, and 102, 104 (Wilson &amp; Co., Inc.).</td></tr>
+<tr><th class="stub" scope="row">2-CB-88</th><td>CIO Radio Association, American &amp; Carl W. Lundquist &amp; William Steinberg, Agents (Atlantic &amp; Gulf Coasts, Radio Officers).</td></tr>
+<tr><th class="stub" scope="row">1-CB-33</th><td>Shoe &amp; Allied Craftsmen, Brotherhood of (E. J. Givren Shoe Co., Inc.).</td></tr>
+<tr><th class="stub" scope="row">21-CB-72</th><td>AFL Stage Employees Local 659 (Bell International Picture, Inc.).</td></tr>
+<tr><th class="stub" scope="row">21-CB-38</th><td>AFL Stage Empls. and Local 706 (Wilshire Pictures Corp.)</td></tr>
+<tr><th class="stub" scope="row">20-CB-29</th><td>AFL Teamsters Cannery Warehousemen, Food Processors, Drivers &amp; Helpers Local 679 (Clara-Val Packing Co.).</td></tr>
+<tr><th class="stub" scope="row">2-CB-62</th><td>AFL Teamsters, Local 456 (Newman, H. M., H. Milton Newman, d/b/a).</td></tr>
+<tr><th class="stub" scope="row">2-CB-109</th><td>Wholesale and Warehouse Workers Union, Local 65 Independent (MacCanlis, H., Co., Inc.).</td></tr>
+<tr><th class="stub" scope="row">2-CB-110</th><td>Wholesale and Warehouse Workers Union, Local 65 Independent (Feibusch, E., Co.).</td></tr>
+<tr><th class="stub" scope="row">D. LMRA: CC cases—charge of unfair labor practices committed by a union under section 8 (b) (4) (A), (B), (C)</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">6-CC-17</th><td>AFL Building &amp; Construction Trades Council of AFL Electrical Workers, Local 5 &amp; AFL Engineers, Operating Local 66, Local 66A, 66B, 66C, Carpenters District Council of Pittsburgh &amp; Vicinity, AFL Sheet Metal Workers Local 12 (Petredis &amp; Fryer, George C. Petredis &amp; Wm. S. Fryer, d/b/a).</td></tr>
+<tr><th class="stub" scope="row">17-CC-2</th><td>AFL Building &amp; Construction Trades Council &amp; AFL Carpenters, of Kansas City &amp; Vicinity &amp; AFL Teamsters, Local 541 (Steele, J. Ralph).</td></tr>
+<tr><th class="stub" scope="row">30-CC-3</th><td>AFL Denver Building &amp; Construction Trades Council (Fellers, D. W., Inc.).</td></tr>
+<tr><th class="stub" scope="row">30-CC-4</th><td>AFL Denver Building &amp; Construction Trades Council AFL Electrical Workers, Local 68, AFL Plumbers Local 3 (Grauman Co., The).</td></tr>
+<tr><th class="stub" scope="row">30-CC-5</th><td>AFL Denver Building &amp; Construction Trades Council (Churches, William G.).</td></tr>
+<tr><th class="stub" scope="row">2-CC-62</th><td>Department Store Employees Union, Local 1250 (Oppenheim Collins &amp; Co., Inc.).</td></tr>
+<tr><th class="stub" scope="row">35-CC-7</th><td>CIO Electrical, Radio Workers, &amp; Local 813 (Ryan Construction Corp.).</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1949_p0211_t0.csv" download>Download this table (CSV)</a></p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 211.</b> This crop is an appendix list of cases (case number in the stub, party name in column 2), not a numeric table; it carries no column headings, so header_rows is empty.
+
+Layout: the page holds two stacked blocks, each set as two side-by-side panels separated by a vertical rule. Following the two-panel rule, rows are given one panel under the other: first block = left panel (8-CA-111 … 4-CA-16) then right panel (18-CA-25 … 6-CA-7); then the section line &quot;C. LMRA: CB cases…&quot;; then second block = left panel (8-CB-7 … 21-CB-18) then right panel (14-CB-13 … 20-CB-38).
+
+Column-break continuation: the name for 21-CB-18 runs past the bottom of the second block&#x27;s left panel and resumes, without a case number, at the top of the right panel (&quot;Workers Local 266 (Tan Juan of Hollywood).&quot;). I joined those lines into the single 21-CB-18 row rather than leaving an orphan stub-less row; a reader comparing to the page will see those words printed at the top right.
+
+Doubtful readings (all in the name column): &quot;Tan Juan of Hollywood&quot; in 21-CB-18 (the first word is blurred; could be &quot;San Juan&quot;); &quot;Weaver Wintark&quot; in 4-CA-16; &quot;Dr. Charles Goo&quot; in 37-CA-8; &quot;Maroosis&quot; in 20-CB-34; &quot;Erectors&quot; in 36-CB-2 (ink smudge on the final letters).
+
+Printed-as-is items: 21-C-468 (Western Wear of California Inc.) is printed with the old &quot;C&quot; case prefix while every neighbor uses &quot;CA&quot; — transcribed as printed. 21-CB-18 is followed by a small stray ink mark that I read as dirt, not a footnote marker. The 21-CB-68 entry genuinely contains the clause &quot;8 (b) 2 indicated in language of charge involving 1 employee.&quot; inside the party name, as printed.
+
+Vertical blank gaps separate alphabetic groups (after 21-CA-205, after 4-CA-16 in the right panel before 6-CA-7); they are spacing only and no row was dropped. Blocks of blank space in the second block&#x27;s right panel are column-fill, not missing rows. The caption/running head (&quot;194 Fourteenth Annual Report…&quot;) and the page number are omitted; the list continues onto the following page.</p>
+<p><b>p. 212.</b> This is an Appendix C case list, not a numeric table: two printed columns (stub = case number, second column = union/case name). No column headings are printed on this page — the list continues from the preceding page — so header_rows is empty.
+
+Layout: the page holds two stacked blocks, each set as two side-by-side panels. Rows are given panel by panel: upper block left panel (36-CB-4 … 2-CB-75), then upper block right panel (2-CB-88 … 2-CB-110), then the section line &quot;D. LMRA: CC cases—charge of unfair labor practices committed by a union under section 8 (b) (4) (A), (B), (C)&quot; (a label spanning the full width, no value), then lower block left panel (6-CC-17, 17-CC-2), then lower block right panel (30-CC-3 … 35-CC-7).
+
+Panel-break join: the entry 2-CB-75 runs off the foot of the upper-left panel (&quot;… Locals 49, 86, 93, 97, and 102,&quot;) and continues at the head of the upper-right panel (&quot;104 (Wilson &amp; Co., Inc.).&quot;). I have joined it into the single row 2-CB-75; the right panel therefore has no orphan first row.
+
+Doubtful readings (all in the name column): &quot;E. J. Givren Shoe Co., Inc.&quot; at 1-CB-33 — the surname could be Giveen/Givren; &quot;MacCanlis, H., Co., Inc.&quot; at 2-CB-109; &quot;Bell International Picture, Inc.&quot; at 21-CB-72. 21-CB-38 ends without a period after &quot;Corp.)&quot; as printed. At 5-CB-14 a small stray ink mark follows &quot;Mine Workers,&quot; in the original; it is not a footnote marker and is not transcribed. Case numbers are printed with en dashes (36–CB–4); transcribed with plain hyphens. The running head &quot;Appendix C: Cases Heard During the Period July 1, 1948–June 30, 1949&quot; and page number 195 are omitted as instructed.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1949_p0211_t0_p0211.webp" loading="lazy" alt="Source page 211 of NLRB FY1949 annual report">
+<figcaption>Source: NLRB Annual Report FY1949, p. 211.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1949_p0211_t0_p0212.webp" loading="lazy" alt="Source page 212 of NLRB FY1949 annual report">
+<figcaption>Source: NLRB Annual Report FY1949, p. 212.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

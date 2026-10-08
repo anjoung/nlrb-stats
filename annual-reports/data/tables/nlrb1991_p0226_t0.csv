@@ -1,6 +1,32 @@
-Type of litigation,Total all courts — Number,Total all courts — Upholding Board Position,Total all courts — Contrary to Board Position,In courts of appeals — Number,In courts of appeals — Upholding Board Position,In courts of appeals — Contrary to Board Position,In district courts — Number,In district courts — Upholding Board Position,In district courts — Contrary to Board Position,In bankruptcy courts — Number,In bankruptcy courts — Upholding Board Position,In bankruptcy courts — Contrary to Board Position
-Application for EAJA fees,4,4,0,3,3,0,1,1,0,0,0,0
-Stale-complaint,2,1,1,2,1,1,0,0,0,0,0,0
+Type of litigation,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings
+Type of litigation,Total—all courts,Total—all courts,Total—all courts,In courts of appeals,In courts of appeals,In courts of appeals,In district courts,In district courts,In district courts,In bankruptcy courts,In bankruptcy courts,In bankruptcy courts
+Type of litigation,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination
+Type of litigation,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position
+Totals—all types,23,23,0,9,9,0,13,13,0,1,1,0
+NLRB-initiated actions or interventions,1,1,0,0,0,0,0,0,0,1,1,0
+To enforce subpoena,0,0,0,0,0,0,0,0,0,0,0,0
+To defend Board's jurisdiction,1,1,0,0,0,0,0,0,0,1,1,0
+To prevent conflict between NLRA and other statutes,0,0,0,0,0,0,0,0,0,0,0,0
+To stay collateral action,0,0,0,0,0,0,0,0,0,0,0,0
+Action by other parties,22,22,0,9,9,0,13,13,0,0,0,0
+To review settlement agreements,0,0,0,0,0,0,0,0,0,0,0,0
+To review nonfinal orders,0,0,0,0,0,0,0,0,0,0,0,0
+To restrain NLRB from,0,0,0,0,0,0,0,0,0,0,0,0
+Proceeding with 10(e) application,0,0,0,0,0,0,0,0,0,0,0,0
+Proceeding in R case,0,0,0,0,0,0,0,0,0,0,0,0
+Proceeding in unfair labor practice case,0,0,0,0,0,0,0,0,0,0,0,0
+Enforcing subpoena,0,0,0,0,0,0,0,0,0,0,0,0
+Other application of Rule,0,0,0,0,0,0,0,0,0,0,0,0
+To compel NLRB to,18,18,0,6,6,0,12,12,0,0,0,0
+Take action in C case,0,0,0,0,0,0,0,0,0,0,0,0
+Issue complaint or prosecute complaint,11,11,0,4,4,0,7,7,0,0,0,0
+Take action in R case,0,0,0,0,0,0,0,0,0,0,0,0
+Comply with Freedom of Information Act (FOIA),5,5,0,2,2,0,3,3,0,0,0,0
+Other—Testify in D.C. Ct. action,0,0,0,0,0,0,0,0,0,0,0,0
+Other—Provide evidence in priv. lawsuit,2,2,0,0,0,0,2,2,0,0,0,0
+Comply with subpoena,0,0,0,0,0,0,0,0,0,0,0,0
+Other,4,4,0,3,3,0,1,1,0,0,0,0
+Application for EAJA fees,2,2,0,2,2,0,0,0,0,0,0,0
+Nash Finch complaint,1,1,0,1,1,0,0,0,0,0,0,0
 Rule making court approval,0,0,0,0,0,0,0,0,0,0,0,0
-Contents of discovery in FOIA,1,0,1,0,0,0,1,0,1,0,0,0
-Other,1,1,0,0,0,0,0,0,0,0,0,0
+Contempt of discovery in FOIA,1,1,0,0,0,0,1,1,0,0,0,0

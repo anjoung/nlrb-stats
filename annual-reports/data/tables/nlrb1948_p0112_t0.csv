@@ -1,10 +1,27 @@
-Stage and method,All R cases / Number of cases,All R cases / Percent of cases closed,NLRA R cases / Number of cases,NLRA R cases / Percent of cases closed,RC cases / Number of cases,RC cases / Percent of cases closed,RM cases / Number of cases,RM cases / Percent of cases closed,RD cases / Number of cases,RD cases / Percent of cases closed
-Total number of cases closed,6817,100.0,3054,100.0,3142,100.0,334,100.0,287,100.0
-"Before formal action, total",5333,82.2,2172,71.1,2898,92.3,316,94.6,227,79.1
-"Before formal action — Adjusted, total",2833,41.6,802,26.3,1839,60.0,96,28.7,48,16.7
-Before formal action — Withdrawn,1887,27.7,827,27.1,,,,,120,41.8
-Before formal action — Dismissed,162,2.4,79,2.6,,,,,,
-"After formal action, total",1484,21.7,882,28.9,244,7.8,18,5.4,60,20.9
-"After formal action — Before hearing, total",156,2.3,70,2.3,51,1.6,4,1.2,11,3.8
-"After formal action — After hearing, total",281,4.1,215,7.0,49,1.6,,,,
-"After formal action — After Board decision, total",763,11.3,,,,,,,,
+Stage and method,All C cases,All C cases,"NLRA, C cases","NLRA, C cases","LMRA, CA cases","LMRA, CA cases","LMRA, other C cases","LMRA, other C cases"
+Stage and method,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"3,643",100.0,"2,048",100.0,"1,165",100.0,430,100.0
+"Before formal action, total","3,382",92.8,"1,799",87.8,"1,162",99.7,421,97.9
+Adjusted,559,15.3,192,9.4,297,25.5,70,16.3
+Withdrawn,"1,651",45.3,895,43.7,527,45.2,229,53.2
+Dismissed,"1,165",32.0,711,34.7,335,28.7,119,27.7
+Closed otherwise,7,.2,1,,3,.3,3,.7
+"After formal action, total",261,7.2,249,12.2,3,.3,9,2.1
+Before hearing,34,1.0,24,1.2,3,.3,7,1.6
+Adjusted,17,.5,14,.7,2,.2,1,.2
+Withdrawn,13,.4,7,.3,0,.0,6,1.4
+Dismissed,4,.1,3,.2,1,.1,0,.0
+After hearing,32,.9,30,1.4,0,.0,2,.5
+Adjusted,5,.1,5,.2,0,.0,0,.0
+Compliance with intermediate report,12,.4,12,.6,0,.0,0,.0
+Withdrawn,10,.3,8,.4,0,.0,2,.5
+Dismissed,5,.1,5,.2,0,.0,0,.0
+After Board decision,105,2.9,105,5.2,0,.0,0,.0
+Compliance,55,1.5,55,2.7,0,.0,0,.0
+Dismissed,43,1.2,43,2.1,0,.0,0,.0
+Otherwise,7,.2,7,.4,0,.0,0,.0
+After court action,90,2.4,90,4.4,0,.0,0,.0
+Compliance with consent decree,29,.8,29,1.4,0,.0,0,.0
+Compliance with court order,46,1.3,46,2.2,0,.0,0,.0
+Dismissed,9,.2,9,.5,0,.0,0,.0
+Closed otherwise,6,.1,6,.3,0,.0,0,.0

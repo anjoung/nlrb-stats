@@ -1,5 +1,21 @@
-Participating unions,Number of elections,AFL affiliates won — Number,AFL affiliates won — Percent,CIO affiliates won — Number,CIO affiliates won — Percent,Unaffiliated unions won — Number,Unaffiliated unions won — Percent,No union won — Number,No union won — Percent
-Total,5619,2101,37.4,1199,21.3,886,15.8,1433,25.5
-1 A.F. of L. affiliate,2463,1720,69.2,,,,,743,30.8
-1 C.I.O. affiliate,1335,,,770,68.3,,,380,31.7
-1 Unaffiliated union,695,,,,,496,71.9,194,28.1
+Type of case,Total elections,Total elections,Type of election,Type of election,Type of election,Type of election,Type of election,Type of election,Type of election,Type of election
+Type of case,Number,Percent,Consent,Consent,Stipulated,Stipulated,Regional director directed,Regional director directed,Board ordered,Board ordered
+Type of case,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+"All elections, total","11,322",100.0,"8,667",76.6,635,5.6,440,3.9,"1,580",13.9
+"Eligible voters, total","1,972,759",100.0,"931,363",47.2,"160,596",8.1,"368,051",18.7,"512,749",26.0
+"Valid votes, total","1,690,733",100.0,"802,765",47.5,"132,686",7.8,"300,412",17.8,"454,870",26.9
+"NLRA, R cases, total",14,100.0,1,7.1,0,.0,,,13,92.9
+Eligible voters,"2,081",100.0,270,13.0,0,.0,,,"1,811",87.0
+Valid votes,"1,682",100.0,222,13.2,0,.0,,,"1,460",86.8
+"RC cases, total","5,251",100.0,"3,386",64.5,557,10.6,,,"1,308",24.9
+Eligible voters,"604,006",100.0,"219,931",36.4,"89,744",14.9,,,"294,331",48.7
+Valid votes,"534,187",100.0,"194,459",36.4,"81,214",15.2,,,"258,514",48.4
+"RM cases, total",354,100.0,118,33.3,24,6.8,,,212,59.9
+Eligible voters,"284,281",100.0,"19,439",6.8,"61,636",21.7,,,"203,206",71.5
+Valid votes,"245,513",100.0,"17,246",7.0,"44,000",17.9,,,"184,267",75.1
+"RD cases, total",112,100.0,60,53.6,10,8.9,,,42,37.5
+Eligible voters,"9,474",100.0,"5,240",55.3,"1,329",14.0,,,"2,905",30.7
+Valid votes,"8,485",100.0,"4,746",55.9,"1,256",14.8,,,"2,483",29.3
+"UA cases, total","5,591",100.0,"5,102",91.3,44,.8,440,7.9,5,
+Eligible voters,"1,072,917",100.0,"686,483",64.0,"7,887",.7,"368,051",34.3,"10,496",1.0
+Valid votes,"900,866",100.0,"586,092",65.1,"6,216",.7,"300,412",33.3,"8,146",.9

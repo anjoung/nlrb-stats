@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -124,36 +132,42 @@ ul.link-list li { margin: 0.3rem 0; }
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th>Section of the Act</th><th>Description of Charge / Petition</th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">8(a)(1) [Employer]</th><td>Interfere with, restrain, or coerce employees in exercise of their rights under Section 7 (to join or assist a labor organization or to refrain).</td></tr>
-<tr><th class="stub" scope="row">8(a)(2) [Employer]</th><td>Dominate or interfere with the formation or administration of a labor organization or contribute financial or other support to it.</td></tr>
-<tr><th class="stub" scope="row">8(a)(3) [Employer]</th><td>Encourage or discourage membership in a labor organization (discrimination in regard to hire or tenure).</td></tr>
-<tr><th class="stub" scope="row">8(a)(4) [Employer]</th><td>Discourage or otherwise discriminate against an employee because he has given testimony under the Act.</td></tr>
-<tr><th class="stub" scope="row">8(a)(5) [Employer]</th><td>Refuse to bargain collectively with representatives of his employees.</td></tr>
-<tr><th class="stub" scope="row">8(b)(1)(A) [Union]</th><td>Restrain or coerce employees in exercise of their rights under Section 7 (to join or assist a labor organization or to refrain).</td></tr>
-<tr><th class="stub" scope="row">8(b)(1)(B) [Union]</th><td>Restrain or coerce an employer in the selection of his representatives for collective bargaining or adjustment of grievances.</td></tr>
-<tr><th class="stub" scope="row">8(b)(2) [Union]</th><td>Cause or attempt to cause an employer to discriminate against an employee.</td></tr>
-<tr><th class="stub" scope="row">8(b)(3) [Union]</th><td>Refuse to bargain collectively with employer.</td></tr>
-<tr><th class="stub" scope="row">8(b)(5) [Union]</th><td>Require of employees the payment of excessive or discriminatory fees for membership.</td></tr>
-<tr><th class="stub" scope="row">8(b)(6) [Union]</th><td>Cause or attempt to cause an employer to pay or agree to pay money or other thing of value for services which are not performed or not to be performed.</td></tr>
-<tr><th class="stub" scope="row">8(b)(4) [Union — Secondary Boycott]</th><td>TO ENGAGE IN, OR INDUCE ANY INDIVIDUAL EMPLOYED BY COMMERCE OR IN AN INDUSTRY AFFECTING COMMERCE TO ENGAGE IN A STRIKE OR A CONCERTED REFUSAL IN THE COURSE OF HIS EMPLOYMENT TO USE, MANUFACTURE, PROCESS, TRANSPORT, OR OTHERWISE HANDLE OR WORK ON ANY GOODS, ARTICLES, MATERIALS, OR COMMODITIES; OR TO PERFORM ANY SERVICES; OR (ii) TO THREATEN, COERCE, OR RESTRAIN ANY PERSON ENGAGED IN COMMERCE OR IN AN INDUSTRY AFFECTING COMMERCE: WHERE IN EITHER CASE AN OBJECT IS:</td></tr>
-<tr><th class="stub" scope="row">8(b)(4)(A)</th><td>To force or require any employer or self-employed person to join any labor or employer organization or to enter into any agreement prohibited by Sec. 8(e).</td></tr>
-<tr><th class="stub" scope="row">8(b)(4)(B)</th><td>To force or require any person to cease using, selling, handling, transporting, or otherwise dealing in the products of any other producer, processor, or manufacturer, or cease to do business with any other person, or force or require any other employer to recognize or bargain with a labor organization as the representative of his employees unless such labor organization has been so certified.</td></tr>
-<tr><th class="stub" scope="row">8(b)(4)(C)</th><td>To force or require any employer to recognize or bargain with a particular labor organization as the representative of his employees if another labor organization has been certified as the representative.</td></tr>
-<tr><th class="stub" scope="row">9(c)(1)(A)(i) [Petition — RC]</th><td>Asserting the designation of filing party as bargaining agent.</td></tr>
-<tr><th class="stub" scope="row">9(c)(1)(B) [Petition — RM]</th><td>Alleging that one or more claims for recognition as exclusive bargaining agent have been received by the employer.</td></tr>
+<tr><th class="stub" scope="row">Personnel compensation</th><td>$16,428,913</td></tr>
+<tr><th class="stub" scope="row">Personnel benefits</th><td>1,197,127</td></tr>
+<tr><th class="stub" scope="row">Travel and transportation of persons</th><td>1,233,100</td></tr>
+<tr><th class="stub" scope="row">Transportation of things</th><td>40,560</td></tr>
+<tr><th class="stub" scope="row">Communication services</th><td>596,926</td></tr>
+<tr><th class="stub" scope="row">Rents and utility services</th><td>36,890</td></tr>
+<tr><th class="stub" scope="row">Printing and reproduction</th><td>404,436</td></tr>
+<tr><th class="stub" scope="row">Other services</th><td>610,007</td></tr>
+<tr><th class="stub" scope="row">Supplies and materials</th><td>215,429</td></tr>
+<tr><th class="stub" scope="row">Equipment</th><td>149,236</td></tr>
+<tr><th class="stub" scope="row">Insurance claims and indemnities</th><td>117</td></tr>
+<tr><th class="stub" scope="row">Subtotal, obligations and expenditures</th><td>20,912,741</td></tr>
+<tr><th class="stub" scope="row">Transferred to Operating Expenses, Public Buildings Service (Rent)</th><td>63,481</td></tr>
+<tr><th class="stub" scope="row">Total Agency</th><td>20,976,222</td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1963_p0044_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 Includes $6,987 for reimbursable personal service costs.</li>
+<li>2 Includes $525 for reimbursable personnel benefits.</li>
+<li>3 Includes $1,221 for reimbursable travel expenses.</li>
+</ol>
+<p class="check"><b>0 of 14</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 44.</b> Two printed columns: the stub of object-class labels and a single unlabeled amount column. No column headings are printed on this crop (the caption/heading band is cut off at the top edge, where only the bottom sliver of a line of type is visible), so header_rows is empty. The footnote markers 1, 2 and 3 are printed as raised digits to the LEFT of the amounts on the first three rows; they are recorded after the value behind a caret per the convention. The dollar sign is printed only on the first amount. Horizontal rules appear above &quot;Subtotal, obligations and expenditures&quot; and above &quot;Total Agency&quot;; these are rules, not data. Below the three footnotes the crop clips the top of another line of text beginning with &quot;The&quot; (likely body text following the table, not part of it); it is not transcribed. Arithmetic check (not corrected): the eleven object-class amounts sum to 20,912,741, matching the printed subtotal, and 20,912,741 + 63,481 = 20,976,222, matching the printed total.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1963_p0044.webp" loading="lazy" alt="Source page 44 of NLRB FY1963 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1963_p0044_t0_p0044.webp" loading="lazy" alt="Source page 44 of NLRB FY1963 annual report">
 <figcaption>Source: NLRB Annual Report FY1963, p. 44.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

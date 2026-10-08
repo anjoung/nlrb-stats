@@ -1,18 +1,190 @@
-Case No.,Union and company,Date petition for injunction filed,Type of petition,Temporary restraining order — Date issued,Temporary restraining order — Date lifted,Date temporary injunction granted,Date injunction denied,Date injunction proceedings dismissed or dissolved,Date Board decision and order
-24-CC-42,"*Union de Trabajadores de Muelles y Ramas Anexas de Puerto Rico (Old Juan Fritz Andriaz et al, Puerto Rico American Sugar Refinery Co.)","Oct 24, 1956",10 (l),,,"Nov 7, 1956",,"Aug 26, 1957","Jan 17, 1957"
-21-CC-228,"*Teamsters, Laundry, Dane Sundry & Dry Cleaning Drivers, Local 928 (Southern Service Co., Ltd.)","Nov 2, 1956",10 (l),,,"Dec 3, 1956",,,"Sept. 25, 1957"
-16-CC-71,"*Teamsters, Dallas General Drivers, Warehousemen & Helpers, Local 745 (Associated Wholesale Grocery of Dallas, Inc.)","Nov 14, 1956",10 (l),,,,"Nov 23, 1956",,"Sept. 11, 1957"
-2-CB-1841,Longshoremen's Association (New York Shipping Association),"Nov 16, 1956",10 (l),"Nov 19, 1956","Dec 12, 1956",,,,"Sept. 30, 1957"
-"6-CC-125, CD-33","*Electrical Workers, Local 5 (West Penn Power Co.)","Dec 4, 1956",10 (l),,,,,"Sept. 13, 1957",Settled 6-CC-120; w/drawn 6-CD-33
-15-CC-89,"Seafarers, Atlantic & Gulf District (Gulf Dome Production Co.)","Dec 16, 1956",10 (l),,,,,,"Feb. 14, 1958"
-"11-CC-11, 12, 16","*Longshoremen, International Association, Local 1422 (Charleston Stevedoring Co. et al.)","Jan 3, 1957",10 (l),,,,,"Oct. 16, 1957","Aug. 1, 1957"
-4-CC-81-83,"*Teamsters, Highway Truck Drivers & Helpers, Local 107 (Coastal Tank Lines et al.)","Jan 14, 1957",10 (l),,,"Feb. 7, 1957",,"Sept. 6, 1957","July 24, 1957"
-2-CC-407,"Garment Workers, Ladies, Local 155 (Packard Knitwear, Inc.)","Jan 15, 1957",10 (l),,,"Feb 19, 1957",,,"July 16, 1957"
-2-CC-51-61,"*Teamsters, Locals 24, 407, et al. (A.C.E. Transportation Co.)","Jan 21, 1957",10 (l),,,,"Jan. 31, 1957","June 23, 1958","May 26, 1958"
-12-CC-1,"Electrical Workers, Local 480 (Buscayne Television Corp.)","Jan 21, 1957",10 (l),,,,,"Nov. 26, 1957","Mar. 20, 1957"
-5-CC-70,"Hod Carriers, Local 380 (The Kreger Co.)","Jan 23, 1957",10 (l),,,,,,"Jan. 2, 1958 (if R complies otherwise)"
-28-CC-29,Sheet Metal Workers and Local 49 et al. (Gadsden Heating & Sheet Metal Works),"Jan 25, 1957",10 (l),,,,,"Dec. 18, 1957","July 25, 1957"
-24-CC-49,"Garment Workers, Ladies, Local 480 (United Pants Factory of New York, Inc.)","Feb. 6, 1957",10 (l),,,,,,Settled.
-2-CC-44,"Longshoremen, District Council of Puerto Rico, et al. (Editorial 'El Imparcial', Inc. & Puerto Rico Steam Ship Association)","Mar. 6, 1957",10 (l),"Mar. 6, 1957",,"Mar. 11, 1957",,"Oct. 1, 1957","Aug. 2, 1957"
-9-CC-40,"*Teamsters, Local 175 (McLain Corp.)","Mar. 9, 1957",10 (l),,,,,"Nov. 18, 1957","July 5, 1957"
-2-CC-308,"Engineers, Operating, Local 18 (Ameru Drainage & Metal Products)","Mar. 11, 1957",10 (l),,,,,"Apr. 16, 1958","Mar. 24, 1958"
+Case No.,Union and company,Date petition for injunction filed,Type of petition,Temporary restraining order,Temporary restraining order,Date temporary injunction granted,Date injunction denied,Date injunction proceedings dismissed or dissolved,Date Board decision and/or order
+Case No.,Union and company,Date petition for injunction filed,Type of petition,Date issued,Date lifted,Date temporary injunction granted,Date injunction denied,Date injunction proceedings dismissed or dissolved,Date Board decision and/or order
+2-CD-125,"Longshoremen's Association, Locals 976-4, 1277 and 1804 (Abraham Kaplan, Associated Painting Employers of Brooklyn, Inc )","June 25, 1956",10 (l),,,"Apr 25, 1957 (denied Aug. 29, 1956, reversed on appeal).",,"June 3, 1958","Dec. 5, 1957."
+1-CC-148,"Teamsters, Local 340 (Maine Canned Foods, Inc.)","June 25, 1956",10 (l),,,,"Aug. 28, 1956","Dec. 19, 1957",Withdrawn
+1-CC-155,Carpenters et al. (J. G. Roy & Sons Co ),"June 28, 1956",10 (l),,,"July 12, 1956",,"July 29, 1957","June 24, 1957."
+3-CC-57,"Teamsters, Local 294 (E. G. DeLia & Sons).","July 26, 1956",10 (l),,,[1],,"Nov. 7, 1957","Apr. 29, 1957."
+3-CC-53,"Carpenters, Local 1016 (Boohner Lumber Co., Inc.)","July 26, 1956",10 (l),,,[1],,"Oct. 23, 1957","May 24, 1957."
+2-CD-126,"Lathers, Local 46 (Jacobson & Co., Inc.)","Aug. 1, 1956",10 (l),,,"May 1, 1957",,"May 19, 1958","Feb. 19, 1958."
+"10-CC-255, 256 12-CC-1-2","Teamsters, Local 390 (U & Me Transfer).","Aug 6, 1956",10 (l),,,"Aug 15, 1956",,"Mar. 12, 1958","Dec. 14, 1957."
+2-CC-391-392,"Garment Workers, Ladies, Local 155 (James Knitting Mills, Inc , et al )","Aug. 20, 1956",10 (l),,,"Jan. 3, 1957",,"Jan. 2, 1958","May 7, 1957."
+"10-CC-257-262, 264-266 12-CC-4-12","Bricklayers, Local 1, and Carpenters, Local 1685, et al (J Hilbert Sapp, Inc. & A C. West).","Aug. 21, 1956",10 (l),,,[1],,"June 3, 1958","Feb. 7, 1958"
+2-CD-133,"Engineers, Operating, Local 133 (Building Contractors Association of New Jersey)","Sept. 4, 1956",10 (l),,,,,"Apr. 2, 1958","Aug 7, 1957."
+15-CC-52,"Engineers, Operating, Locals 406, 406A, 406B, and 406C (Jahncke Service, Inc )","Sept. 18, 1956",10 (l),,,"Oct. 5, 1956",,,"June 30, 1958."
+8-CD-8,Lathers and Local 2 (Acoustical Contractors Association of Cleveland),"Sept. 20, 1956",10 (l),,,[1],,"Feb. 26, 1958","Jan. 17, 1958"
+7-CC-49,Grand Rapids Building & Construction Trades Council et al (Mooi Roofing Co ),"Sept 21, 1956",10 (l),,,"Nov. 3, 1956",,"Nov. 5, 1957","Nov. 19, 1956 (I R. compliance)."
+2-CC-394,"Retail, Wholesale, Employees, District 65 (Class-Knit Co )","Sept 26, 1956",10 (l),,,"Oct. 8, 1956",,"Aug. 2, 1957","Jan 2, 1957."
+19-CD-26,"Longshoremen and Warehousemen, Local 16 (Denali-McCray).","Oct. 12, 1956",10 (l),,,"Oct. 19, 1956",,"Nov. 5, 1957","June 7, 1957."
+24-CC-42,Union de Trabajadores de Muelles y Ramas Anexas de Puerto Rico (of Juan Diaz Andujar) et al. (Puerto Rico American Sugar Refinery Co ),"Oct 24, 1956",10 (l),,,"Nov. 2, 1956",,"Aug. 26, 1957","Jan 17, 1957."
+21-CC-238,"Teamsters, Laundry, Linen Supply & Dry Cleaning Drivers, Local 928 (Southern Service Co , Ltd ).","Nov. 2, 1956",10 (l),,,,"Dec. 3, 1956",,"Sept. 25, 1957."
+16-CC-71,"Teamsters, Dallas General Drivers, Warehousemen & Helpers, Local 745 (Associated Wholesale Grocery of Dallas, Inc )","Nov. 14, 1956",10 (l),,,"Nov 23, 1956",,"Sept. 11, 1957","Aug 29, 1957."
+2-CB-1841,Longshoremen's Association (New York Shipping Association).,"Nov. 21, 1956",10 (j),"Nov. 21, 1956",,"Dec 12, 1956",,"Oct. 18, 1957","Sept. 30, 1957"
+"6-CC-125, CD-53.","Electrical Workers, Local 5 (West Penn Power Co.).","Dec. 4, 1956",10 (l),,,[1],,"Sept. 13, 1957","Settled 6-CC-125, withdrawn 6-CD-53"
+"15-CC-59, 61","Seafarers, Atlantic & Gulf District (Salt Dome Production Co ).","Dec. 15, 1956",10 (l),"Dec 15, 1956",,,,,"Feb 14, 1958"
+"11-CC-11, 12.","Longshoremen, International Association, Local 1422 (Charleston Stevedoring Co et al ).","Jan 3, 1957",10 (l),,,[1],,"Oct. 16, 1957","Aug 1, 1957."
+4-CC-81-83,"Teamsters, Highway Truck Drivrs & Helpers, Local 107 (Coastal Tank Lines et al )","Jan. 15, 1957",10 (l),,,"Feb 2, 1957",,"Sept 6, 1957","July 24, 1957"
+2-CC-407,"Garment Workers, Ladies, Local 155 (Packard Knitwear, Inc.)","Jan. 15, 1957",10 (l),,,,"Feb 19, 1957",,"July 10, 1957."
+8-CC-51-61,"Teamsters, Locals 24, 407, et al. (A C. E. Transportation Co ).","Jan 21, 1957",10 (l),"Feb. 21, 1957",,"Jan 31, 1957",,"June 23, 1958","May 26, 1958."
+12-CC-3,"Electrical Workers, Local 349 (Biscayne Television Corp.)","Jan. 22, 1957",10 (l),,,"Jan 28, 1957",,"Nov. 26, 1957","Mar 20, 1957 (I R compliance)"
+5-CC-70,"Hod Carriers, Local 980 (The Kroger Co ).","Jan. 23, 1957",10 (l),,,[1],,"Jan. 2, 1958","Nov. 12, 1957."
+"10-CC-287, 288, CD-76, 77.",Sheet Metal Workers and Local 48 et al (Gadsden Heating & Sheet Metal),"Jan 31, 1957",10 (l),,,"Feb. 19, 1957",,"Dec. 18, 1957","July 26, 1957."
+5-CC-71,"Seafarers, Local 9, MEBA Local 11 (American Coal Shipping).","Feb. 7, 1957",10 (l),,,"Apr. 2, 1957",,,"Dec 14, 1957."
+2-CC-409,"Garment Workers, Ladies, Local 602 (United Parcel Service of New York, Inc.).","Feb. 13, 1957",10 (l),,,[1],,"Sept 3, 1957",Settled.
+"24-CC-44, 46.","Longshoremen, District Council of Puerto Rico, et al (Editorial ""El Imparcial, Inc "" & Puerto Rico Steamship Association)","Mar. 6, 1957",10 (l),"Mar 6, 1957","Mar 6, 1957","Mar 11, 1957 (consent)",,"Oct. 1, 1957","Aug. 2, 1957."
+9-CC-93,"Teamsters, Local 175 (McJunkin Corp.)","Mar. 11, 1957",10 (l),,,[1],,"Nov. 11, 1957","July 5, 1957"
+10-CC-308,"Engineers, Operating, Local 926 (Armco Drainage & Metal Products).","Mar. 11, 1957",10 (l),,,[1],,"Apr 16, 1958","Mar. 24, 1958"
+17-CC-57,"Teamsters, Building Materials and Construction, Ice and Coal Drivers, Local 659 (Associated General Contractors, Employers Association of Omaha, and Wilson Concrete Co.)","Mar. 12, 1957",10 (l),,,,,"Sept. 4, 1957","July 5, 1957"
+21-CC-257,"Clothing Workers, Los Angeles Joint Board (Encino Shirt Co.)","Mar. 13, 1957",10 (l),,,,,"Apr. 11, 1958","July 1, 1957"
+14-CC-101,"Machinists, District 9 (Concrete Transport Mixer)","Mar. 25, 1957",10 (l),,,,,"Jan. 29, 1958",Settled
+13-CC-135-137,"Barbers, Journeymen Barbers, Hairdressers, Cosmetologists & Proprietors (Chicago & Illinois Hairdressers).","Mar. 27, 1957",10 (l),,,"July 10, 1957",,,Settled.
+"5-CC-75, CD-24.","Plumbers, Local 5 (Construction Contractors Council)","Mar. 28, 1957",10 (l),,,,,"Nov. 20, 1957",Dismissed.
+5-CC-74,"Engineers, Operating, Engineers Local 137, and Hod Carriers, Local 194 (Harry T. Campbell Sons Corp.)","Apr. 1, 1957",10 (l),,,,,"Nov. 5, 1957","May 21, 1957."
+13-CC-131,"Teamsters, General Chauffeurs, Sales Drivers & Helpers Union, Local 423 (Gas Dealers Forum of Aurora)","Apr. 11, 1957",10 (l),,,,,"Sept. 19, 1957",Settled.
+"3-CC-64, CD-26.","Bricklayers, Local 11 (Building Trades Employers' Division of The Builders Exchange)","Apr. 16, 1957",10 (l),,,,,"Sept. 24, 1957",Withdrawn.
+21-CC-258,"Teamsters, New Furniture and Appliance Drivers Warehousemen and Helpers, Local Union 196 (Biltmore Furniture Manufacturing Co.).","Apr. 18, 1957",10 (l),,,"May 8, 1957",,,"June 30, 1958."
+"2-CD-126 (amended to include CD-140, 141).","Lathers, Local 46 (Jacobson & Co., Inc.).","Apr. 25, 1957",10 (l),,,"May 1, 1957",,"May 19, 1958","Feb. 19, 1958."
+24-CC-49,"Longshoremen, Local 1901 (Puerto Rico Steamship Co.)","May 2, 1957",10 (l),,,"May 8, 1957 (consent)",,"Mar. 6, 1958","Nov. 26, 1957."
+9-CC-96,"Bricklayers, Local 5 (Clark Construction Co.).","May 7, 1957",10 (l),,,,,"Oct. 11, 1957",Settled
+7-CC-58,"Congress of Industrial Organizations, Jackson City Council (Sink Co.).","May 13, 1957",10 (l),,,,,"Sept. 24, 1957",Settled.
+"2-CC-411, 412","Sheet Metal Workers, Local 28 (Flexible Tubing Corp. & Wire-mold Co.).","May 21, 1957",10 (l),,,[1],,"Sept. 24, 1957",Withdrawn.
+2-CD-146,"Electrical Wkrs., Local 1212 (Columbia Broadcasting Corp.)","May 24, 1957",10 (l),,,"July 1, 1957",,,
+9-CC-100,"Meatcutters, Local 227 (Gordon Foods, Inc.).","May 24, 1957",10 (l),,,"May 29, 1957 (consent)",,"Nov. 8, 1957",Withdrawn.
+6-CC-132,"Carpenters, District Council (Wendnagel & Co.).","June 10, 1957",10 (l),,,[1],,"Nov. 12, 1957",Settled.
+17-CC-59,"Plumbers, Local 8 (United Contractors & Kruse Plumbing Co.).","June 18, 1957",10 (l),,,[1],,"Feb. 5, 1958","Oct. 29, 1957 (I. R. compliance)."
+"2-CC-420, CD-148.","Electrical Workers, Local 3 (Brewery Dry Dock Co.)","June 20, 1957",10 (l),,,"July 25, 1957",,"Feb. 28, 1958",Withdrawn.
+2-CC-424,"Electrical Workers, Local 463 (Telechrome Manufacturing Corp.).","June 20, 1957",10 (l),,,[1],,"Feb. 28, 1958","Nov. 11, 1957."
+30-CC-30,"Brewery Workers, Local 366 (Adolph Coors Co.)","June 25, 1957",10 (l),,,"July 29, 1957",,,
+2-CC-436,"Teamsters, Eastern Conference of Teamsters, Local 391 Winston-Salem, N. C., and Local 863 of Newark, N. J., et al. (Holly Farms Poultry Co.).","July 3, 1957",10 (l),,,[1],,"Oct. 18, 1957",Withdrawn.
+"13-CC-139, CD-46.","Roofers, Local 11 (Fry & Sons)","July 8, 1957",10 (l),,,[1],,"Dec. 13, 1957","Nov. 26, 1957."
+10-CC-315,"Teamsters, Local 515 (Chattanooga Warehouse & Cold Storage Co.).","July 9, 1957",10 (l),"July 12, 1957","July 31, 1957","July 31, 1957",,,
+4-CC-86,"Teamsters, Local 596 (Bilt-Well Boat Trailer Co.).","July 11, 1957",10 (l),,,[1],,"Jan. 9, 1958",Settled.
+13-CB-505,"Mine Workers, District 50, Region 42, District 50, United Mine Workers of America, Independent and Westclox Workers Local 12573, District 50, United Mine Workers of America (General Time Corp., Westclox Division).","July 11, 1957",10 (j),,,"July 26, 1957",,"Nov. 4, 1957","Nov. 15, 1957."
+"3-CC-69, 70","Teamsters, Local 558 (Colonial Super Markets et al.).","July 15, 1957",10 (l),,,[1],,"Dec. 31, 1957",Settled.
+"9-CC-102, CD-30, CB-353.",Parkersburg Building & Construction Trades Council et al. (Howard Price & Co.),"July 16, 1957",10 (l),,,"July 19, 1957 (consent)",,,"Jan. 23, 1958."
+14-CD-71,"Teamsters, Local 610, and St. Louis Paper Handlers Local 16 (Pulitzer Publishing Co.).","July 16, 1957",10 (l),,,[1],,"Aug. 1, 1957",Withdrawn.
+39-CC-37,International Die Sinkers Conference and its Lodge 410 (General Metals Corp.).,"July 18, 1957",10 (l),,,[1],,,"June 4, 1958"
+2-CC-432,"Engineers, Operating, Locals 30, 30A, and 30B (Zinsser & Co., Inc.)","July 18, 1957",10 (l),,,[1],,,"Nov. 6, 1957."
+21-CC-270,"Carpenters, Local 929, et al. (Mengel Co. et al.).","July 23, 1957",10 (l),,,[1],,"Mar. 31, 1958","June 30, 1958."
+17-CC-66,"Teamsters, Local 696 and Manhattan Trades and Labor Assembly (Walters Sands Co., Inc.).","July 24, 1957",10 (l),,,[1],,"Nov. 21, 1957","Oct. 18, 1957."
+10-CC-316,"Teamsters, Local 515 (Baggett Transportation Co.).","July 24, 1957",10 (l),,,"Aug. 6, 1957",,,
+33-CC-16,"Atomic Projects & Production Workers Metal Trades Council et al. (Associated General Contractors of America, New Mexico Bldg. Branch)","July 26, 1957",10 (l),,,[1],,,"Apr. 14, 1958."
+36-CC-50,"Woodworkers, Local 6-221 (Medford Corp.)","July 26, 1957",10 (l),,,"Aug. 6, 1957",,"Jan. 27, 1958",Settled.
+16-CC-74,"Teamsters, Local 886 (Ryan Freight Lines).","July 30, 1957",10 (l),,,[1],,"Jan. 15, 1958","Nov. 16, 1957 (I. R. compliance)"
+1-CC-180,Springfield Building & Construction Trades Council et al. (Leo Spear Construction Co.),"July 30, 1957",10 (l),,,"Aug. 24, 1957",,"May 29, 1958","Apr. 25, 1958."
+13-CC-147,"Teamsters, Local 179 (Alexander Warehouse & Sales)","July 30, 1957",10 (l),,,"Aug. 7, 1957",,,
+"10-CC-317, 318, CD-88, 89.","Sheet Metal Workers, Local 48, and Agent T. E. Reid (Acousti Engineering of Alabama)","Aug. 1, 1957",10 (l),"Aug. 1, 1957","Aug. 5, 1957","Aug. 5, 1957 (consent)",,,
+13-CC-143,"Teamsters, Local 364 (The Light Co.)","Aug. 2, 1957",10 (l),,,,"Sept. 9, 1957",,
+1-CC-177,Boston Building & Construction Trades Council et al. (J. J. Reddington Electric Service).,"Aug. 2, 1957",10 (l),,,[1],,"May 15, 1958","Feb. 28, 1958."
+32-CC-18,"Teamsters, Local 984 and 667 (Humko Co., Inc.).","Aug. 5, 1957",10 (l),,,"Sept. 4, 1957",,,
+"21-CC-268, CD-43.","Lathers, Local 252 (James I. Barnes Constr.)","Aug. 8, 1957",10 (l),,,"Sept. 10, 1957",,,
+2-CC-437,Teamsters Locals 707 and 1205 (Atlantic-Pacific Manufacturing Corp.),"Aug. 14, 1957",10 (l),,,"Sept. 24, 1957",,,
+19-CC-101,"Plumbers, Local 243 (Haggerty-Messmer)","Aug. 14, 1957",10 (l),,,[1],,"Nov. 13, 1957","Nov. 6, 1957."
+15-CC-70,"Garment Workers, Ladies (Lillian Russell, Inc.)","Aug. 14, 1957",10 (l),,,"Aug. 22, 1957",,"Nov. 14, 1957",Withdrawn.
+2-CD-150,Electrical Workers and Local 166 (General Dynamics Corp.),"Aug. 15, 1957",10 (l),,,"Sept. 4, 1957",,"Nov. 20, 1957",Withdrawn.
+24-CC-50,"Longshoremen, District Council of Puerto Rico (Valencia Service Co.)","Aug. 22, 1957",10 (l),,,[1],,"Dec. 27, 1957","Nov. 26, 1957."
+"16-CC-76, 79.","Machinists Local Lodge 889, Oklahoma State Building Trades Council, and Lawton Building & Construction Trades Council (Freeman Construction Co. et al )","Aug. 26, 1957",10 (l),"Aug. 26, 1957","Sept. 13, 1957","Sept 13, 1957",,,
+"16-CC-77, 78.","National Association Broadcasters, Engineers & Technicians, and Local 48 (Central Plains Enterprizes, Inc ).","Aug. 29, 1957",10 (l),"Sept. 4, 1957","Sept 25, 1957","Sept. 25, 1957",,,
+5-CC-87,"Teamsters, Local 639 (Dixie Janitor Supply Co )","Sept. 3, 1957",10 (l),,,"Nov. 20, 1957",,"May 14, 1958","Apr. 17, 1958."
+6-CC-145,"Electrical Workers, Local 5 (Franklin Electric Construction).","Sept. 3, 1957",10 (l),,,[1],,,
+2-CD-155,Plumbers and Local 105 (General Dynamics Corp ).,"Sept 4, 1957",10 (l),,,[1],,"Apr. 28, 1958",Withdrawn.
+13-CC-151,"Typographical Union, Chicago Typographical Union 16 (Well-Linn Printing Co.","Sept. 4, 1957",10 (l),,,[1],,"Oct. 3, 1957",Withdrawn.
+10-CC-342,"Teamsters, Local 728 (Whitley Construction Co )","Sept. 6, 1957",10 (l),"Sept. 6, 1957","Sept. 17, 1957","Sept. 17, 1957",,"Apr. 18, 1958","Mar. 4, 1958."
+39-CC-40,"Engineers, Operating, Local 450 (J. E. Cook Steel Co ).","Sept. 6, 1957",10 (l),"Sept. 9, 1957","Sept. 17, 1957","Sept. 17, 1957",,,
+18-CC-45,"Engineers, Operating Local 49, and Teamsters Local 874 (Osmundson Bros )","Sept 9, 1957",10 (l),,,[1],,"Feb. 10, 1958",Settled
+1-CC-182,"Plumbers, Local 53 (Larkin Co )","Sept. 16, 1957",10 (l),,,[1],,"Jan. 27, 1958",Settled.
+10-CC-319,"Teamsters, Local 327 (Algernon Blair Constr ).","Sept. 18, 1957",10 (l),,,[1],,"Jan. 23, 1958","Jan. 6, 1958."
+5-CC-88,"Teamsters, Local 246 (Mayco, Inc )","Sept 19, 1957",10 (l),,,"Oct. 23, 1957",,,
+35-CC-45,"Teamsters, Local 691 (Morgan Drive-Away, Inc )","Sept 20, 1957",10 (l),,,"Nov. 1, 1957",,,
+22-CC-4,"Teamsters, Milk Drivers & Delivery Union, Local 680 (Crowley's Milk Co , Inc.).","Sept. 25, 1957",10 (l),,,[1],,,
+16-CC-81,"Teamsters, Tulsa General Drivers, Warehousemen & Helpers Union, Local 523 (Cooper Supply Co ).","Sept 26, 1957",10 (l),,,,"Oct. 17, 1957",,
+1-CC-190,Fitchburg Building Trades Council et al (Seppala & Aho Construction),"Oct. 1, 1957",10 (l),,,[1],,"Mar. 12, 1958",Settled
+20-CC-141,"Teamsters, Local 6341 (Devine Storage & Moving).","Oct. 1, 1957",10 (l),,,[1],,"Apr. 7, 1958","Mar. 28, 1958."
+19-CD-29,"Carpenters, Local 1849, et al. (Montag-Halvorson-Austin & Associates).","Oct. 4, 1957",10 (l),,,[1],,,
+1-CC-186,"Bridge, Structural Iron Workers, Local 501 (Oliver Whyte Co )","Oct 10, 1957",10 (l),,,[1],,"May 29, 1958","May 8, 1958."
+"2-CC-444, CD-157-159.","Teamsters, Local 282 (Building Trades Employers Association of L I., Inc )","Oct. 11, 1957",10 (l),,,[1],,"June 10, 1958","Mar 24, 1958."
+17-CD-25,"Carpenters, Local 978, and Hod Carriers, Local 676, et al. (Markwell & & Hartz Contractors)","Oct 12, 1957",10 (l),,,"Oct 22, 1957",,,
+"3-CC-68, 75","Teamsters, Local 118 (Scobel Chemical Co )","Oct 14, 1957",10 (l),,,"Dec 27, 1957",,,
+1-CC-184,"Carpenters, Local 7, et al (Rogers Heating & Engineering Co )","Oct 18, 1957",10 (l),,,,,"June 9, 1958","Apr 25, 1958."
+1-CC-191,"Building Construction Trades Council of Metropolitan District, etc (Solimando, M )","Oct. 21, 1957",10 (l),,,,"Oct 24, 1957","Apr 25, 1958",Settled
+"9-CC-104, 105, CD-31, 32","Teamsters, Local 697 (R O Wetz Transportation & McJunkin)","Oct 23, 1957",10 (l),,,"Nov 1, 1957",,,
+"7-CC-61, 65-69, 13-CC-159, 161.","Carpenters, Local 998 (Endicott Church Furniture, Inc )","Oct 23, 1957",10 (l),,,,,,
+1-CD-47,"Plumbers, Local 53 (Larkin Co )","Oct 25, 1957",10 (l),,,,,"Jan 27, 1958",Settled
+30-CC-32,"Meat Cutters, Local 634 Dennison Poultry & Egg Co )","Oct 28, 1957",10 (l),,,,,"Jan. 30, 1958","Jan 29, 1958."
+"9-CC-124, 125",Sheet Metal Workers Local 98 (York Corp ),"Oct 29, 1957",10 (l),,,,,,
+18-CC-44-46,"Marine Engineers Local 6, etc (W H. Barber Co )","Oct 31, 1957",10 (l),,,,,"Feb 10, 1958",Settled.
+2-CC-443,"Teamsters, Local 815 (Coty, Inc )","Nov. 1, 1957",10 (l),,,,,"Apr 30, 1958",Settled.
+33-CC-24,"Carpenters, Local 511 (Associated General Contractors, et al )","Nov 4, 1957",10(l),,,,,,"June 26, 1958."
+39-CC-42,"Carpenters, Roofers Local 1425 (Henke & Pillot, Division of Kroger Co.)","Nov 4, 1957",10(l),,,,,,"Dec 18, 1957 (I R compliance)"
+"22-CD-5, 6","Engineers, Operating Local 825 (Charles Simkin & Sons, Inc )","Nov 4, 1957",10(l),"Nov 18, 1957","Dec. 30, 1957","Dec 30, 1957",,,"May 7, 1958"
+15-CC-71,Seafarers et al (Superior Derrick Corp ),"Nov. 6, 1957",10(l),,,"Dec 21, 1957",,,
+11-CA-1071,Darlington Manufacturing Co (Textile Workers).,"Nov. 6, 1957",10(j),"Nov. 6, 1957","Nov 27, 1957","Nov 27, 1957 (consent)",,,"Dec 16, 1957"
+36-CC-51,"Teamsters, Local 324 (Truck Operators League of Oregon)","Nov 14, 1957",10(l),,,,,,
+"9-CC-126, 129",Hatters (Louisville Cap Co.),"Nov. 15, 1957",10(l),,,,"Dec. 13, 1957",,
+13-CC-157,"Carpenters, Local 1128 (Andersen Corp )","Nov 26, 1957",10(l),,,,,"Feb 4, 1958","Jan 30, 1958"
+13-CC-158,"Carpenter (Del-Mar Cabinet Co , Inc )","Nov 27, 1957",10(l),,,,"Mar 12, 1958",,
+8-CD-12,American Wire Weavers Protective Association (The Lindsay Wire Weaving Co),"Nov. 27, 1957",10(l),,,,"Dec. 30, 1957","Mar. 24, 1958","May 18, 1958."
+21-CC-279,"Bakery Workers, Local 400 (Beaudry Bros. Candy Co)","Dec 2, 1957",10(l),,,"Dec. 30, 1957",,"May 12, 1958","Apr. 1, 1958."
+3-CC-77,"Teamsters, Local 182 (Alling & Cory Co).","Dec 10, 1957",10(l),,,"Dec. 16, 1957",,,
+7-CC-67,Carpenters (National Door & Trim Co),"Dec. 11, 1957",10(l),,,[1],,"Mar 5, 1958",Settled.
+17-CC-60,"Teamsters, Locals 554 and 147 (Clark Bros Transfer Co)","Dec. 12, 1957",10(l),,,[1],,,
+9-CC-134,"Teamsters, Local 89 (Louisville Cap Co.).","Dec. 13, 1957",10(l),,,[1],,,Settled.
+4-CC-92,"Retail, Wholesale Employees, District 65 (Cellini Shoes, Inc).","Dec 16, 1957",10(l),,,"Dec 27, 1957",,,"May 28, 1958"
+"21-CC-281, 282","Electrical Workers, Local 11 (Hydro Co, d/b/a Paul Gordon Corp)","Dec 17, 1957",10(l),,,[1],,"Apr. 7, 1958",
+2-CC-448,"Maritime Union (Moore-McCormack Lines, Inc).","Dec 20, 1957",10(l),,,"Dec 30, 1957",,,
+"19-CC-104, 106","Carpenters, Local 2247 (Fuller Paint & Glass Co).","Dec. 27, 1957",10(l),,,"Jan 6, 1958",,"June 14, 1958","May 15, 1958."
+13-CB-518,"Teamsters, Local 442, 733 (Rudy Schroeder & Son)","Dec. 27, 1957",10(j),,,[1],,,"May 16, 1958."
+"9-CC-131, 132","Radio Artists (L B. Wilson, Inc)","Dec 30, 1957",10(l),,,"Jan. 10, 1958",,,
+21-CC-276,"Longshoremen & Warehousemen Union, Fishermen's Union, Local 33 (Seine & Line Fishermen's Union of San Pedro)","Jan 6, 1958",10(l),,,[1],,"Mar. 31, 1958","Mar. 24, 1958."
+2-CC-449,"Teamsters, Local 294 (Bonded Freightways, Inc)","Jan. 14, 1958",10 (l),,,,"Jan. 23, 1958",,
+9-CC-133,"Teamsters, Local 175 (McJunkin Corp)","Jan. 15, 1958",10 (l),,,"Feb 17, 1958",,,
+14-CC-114,"Teamsters, Local 688 (Bachman Machine Co).","Jan. 20, 1958",10 (l),"Feb 20, 1958","Apr. 18, 1958","Apr. 18, 1958",,,
+3-CC-80,"Plumbers, Local 204 (Vincent J Smith, Inc).","Feb 5, 1958",10 (l),,,"Feb 12, 1958 (consent)",,"June 21, 1958",Settled.
+1-CC-196,"Teamsters, Local 340 (Viner Brothers, Inc).","Feb 5, 1958",10 (l),,,,"Apr. 1, 1958",,
+1-CD-49,Typographical Union and Local 165 and its scale committee (Worcester Telegram Publishing Co),"Feb 6, 1958",10 (l),,,[5],,,
+16-CC-84,"Teamsters, Local 886 (Page Airways, Inc).","Feb 7, 1958",10 (l),"Feb. 7, 1958","Feb. 11, 1958","Feb. 11, 1958",,,
+15-CD-8,Typographical Union and Local 27 (Heiter-Stark Printing Co),"Feb 14, 1958",10 (l),"Feb. 14, 1958","Mar. 4, 1958","Mar. 4, 1958",,,
+8-CC-68,"Sheet Metal Workers and Locals 70, 65, 5, 105, and 73 (Burt Manufacturing Co).","Feb 17, 1958",10 (l),,,"Apr 23, 1958",,,
+8-CC-68,"Sheet Metal Workers Locals 70, 65, 5, 105, and 73 (Burt Manufacturing Co)","Feb. 17, 1958",10 (j),,,"Apr. 23, 1958",,,
+"2-CC-452, CD-161.","Stage Employees, Local 1 (Columbia Broadcasting System)","Feb. 18, 1958",10 (l),,,"Feb. 18, 1958 (consent)",,,
+1-CB-429,Typographical and Local 38 (Haverhill Gazette Co.),"Feb. 25, 1958",10 (j),,,"Mar. 19, 1958","May 7, 1958","June 6, 1958",
+7-CC-70,"Teamsters, Local 458 (Southern States Lumber Co.)","Feb. 26, 1958",10 (l),,,[1],,"June 27, 1958","May 12, 1958."
+22-CC-9,"Electrical Workers, Local 367, Engineers, Operating, Local 825, et al. (Board of Education of the town of Philipsburg)","Feb. 28, 1958",10 (l),,,"Apr. 17, 1958",,,Withdrawn.
+"10-CC-373, 374, CD-91, 92","Plumbers, Local 72 (Reeves Ditching & Contracting Co. and Wrenn Bros., Inc.).","Mar. 6, 1958",10 (l),,,[1],,,Settled.
+22-CC-10,Steel Workers and Local 3852 (Newark Brass & Iron Foundry),"Mar. 6, 1958",10 (l),,,"Mar. 18, 1958",,,Settled.
+"10-CC-375, 376","Teamsters, Local 728 (Georgia Highway Express).","Mar. 10, 1958",10 (l),"Mar. 10, 1958","Mar. 26, 1958","Mar. 26, 1958",,,
+18-CC-48,"Teamsters, Local 116, et al. (W. W. Wallwork Fargo, Inc.)","Mar. 10, 1958",10 (l),,,,"June 23, 1958",,
+35-CD-28,"Plumbers, Local 157 (Home Packing Co., Inc.).","Mar. 14, 1958",10 (l),"Mar. 14, 1958",,"Mar. 18, 1958 (consent)",,,"June 19, 1958"
+"3-CC-83, CD-34","Plasterers, Local 519 (O. R. Bell)","Mar. 18, 1958",10 (l),,,[1],,"Apr. 16, 1958",Withdrawn.
+18-CC-50,"Carpenters, Local 106, and Sheet Metal Workers, Local 45, and Desmoines Building Trades Council, et al. (Fred Maytag II)","Mar. 19, 1958",10 (l),,,[1],,"May 23, 1958",Withdrawn
+"9-CC-152, 153","Painters, Local 1195, and Charleston Building & Construction Trades Council (Pittsburgh Plate Glass Co.).","Mar. 21, 1958",10 (l),,,"Apr. 18, 1958 (Painters only)",,,
+36-CC-52,"Machinists, District Lodge 24 (Industrial Chrome Plating Co.).","Mar. 21, 1958",10 (l),"Mar. 27, 1958","Apr. 23, 1958","Apr. 23, 1958",,,
+"4-CC-94, 97","Packinghouse Workers, Local 80-A, and Joseph Speight, President, and Joseph Culongello, Business Agent (Campbell Soup Co.).","Mar. 25, 1958",10 (l),"Mar. 26, 1958","Apr. 2, 1958","Apr. 2, 1958 (consent)",,"June 4, 1958",Withdrawn.
+7-CC-70,"Teamsters, Local 458 (Southern States Lumber Co., Inc.).","Mar. 27, 1958",10 (l),,,[1],,"June 27, 1958","May 12, 1958."
+39-CC-44,Retail Clerks (Montgomery Ward & Co.),"Apr. 1, 1958",10 (l),,,"May 19, 1958",,,
+"21-CC-280, 287, CD-48","Retail Clerks and Local 770 (Food Employers Council, Inc.).","Apr. 3, 1958",10 (l),,,"May 9, 1958",,,
+4-CC-98,"Teamsters, Local 830 (Delaware Valley Beer Distributors).","Apr. 3, 1958",10 (l),"Apr. 3, 1958","May 1, 1958","May 1, 1958",,,
+12-CC-26,"Hod Carriers, Local 1019 (Thad Sizemore)","Apr. 9, 1958",10 (l),,,[1],,,Settled.
+2-CC-455,"Electrical Workers, Local 1212 (Joseph P. Blitz Co.).","Apr. 16, 1958",10 (l),,,[1],,"June 23, 1958",Withdrawn.
+22-CC-11,"Distillery Workers, Local 1 (Leonard Kreusch, Inc.)","Apr. 18, 1958",10 (l),"Apr. 18, 1958","Apr. 23, 1958","Apr. 23, 1958 (consent)",,,
+22-CD-13,"Hod Carriers, Local 147 (J. Rich Steers, Inc.).","Apr. 21, 1958",10 (l),,,[1],,,Withdrawn.
+"2-CC-456, CD-165","Teamsters, Local 807, et al. (New York Shipping Association, Inc., and its Member Employers).","Apr. 24, 1958",10 (l),"Apr. 24, 1958","Apr. 28, 1958","Apr. 28, 1958 (consent)",,,
+7-CC-72,"Carpenters, Local 982, et al. (Robert Hawes Co.)","Apr. 24, 1958",10 (l),,,"May 7, 1958",,,
+33-CB-104,"Sheetmetal Workers, Local 49, (New Mexico Sheet Metal)","May 1, 1958",10 (j),,,"May 9, 1958",,,
+"13-CC-168-172, 180","Longshoremen International Brotherhood Local 19 and M. M. P. Great Lakes District (Chicago Calumet Co., P. & V. Atlas Marine Corp., North Pier Terminal).","May 1, 1958",10 (l),"May 2, 1958","June 17, 1958","June 17, 1958",,,
+22-CC-12,"Garment Workers, Ladies, Local 155 (Moreelee Knitting Mills, Inc.).","May 1, 1958",10 (l),"May 12, 1958","May 16, 1958","May 16, 1958 (consent)",,,
+"2-CC-460, CD-166.","Electrical Workers, Local 203 (General Electric Co.)","May 7, 1958",10 (l),,,[1],,,
+6-CC-157-168.,"Butler Building Trades Council, and Carpenters, District Council of Pittsburgh and Vicinity (Fernway Homes, Inc.).","May 9, 1958",10 (l),,,[1],,,Settled.
+9-CC-154,"Carpenters, Ohio Valley District Council (Door Sales & Installation Co.).","May 14, 1958",10 (l),,,[1],,,Settled.
+18-CC-54,"Teamsters, Local 238 (Boyd & Rummelhart Plumbing & Heating)","May 28, 1958",10 (l),,,"June 6, 1958",,,
+9-CC-157,"Electrical Workers, Local 683 (Joseph Skilden & Co., Garwick & Ross, Inc., and Robert W. Setterlin & Sons)","May 28, 1958",10 (l),,,[1],,,
+12-CC-27-29,"Teamsters, Local 79, and J. W. Hughes, John Walker, Manuel Fernandez, Agents (Ryder Systems, Inc., Florida Retail owned Grocers, Inc., Barker & Co.).","June 2, 1958",10 (l),,,"June 6, 1958",,,
+"9-CC-155, CD-34.","Plumbers, Local 651 and Lowell Hunt, Business Agent (Maryland Foundation Corp.).","June 4, 1958",10 (l),,,[1],,,
+18-CC-55,"Teamsters, Warehouse Drivers & Helpers Union, Local 359, and Material Ice & Coal Drivers 221, and Warehouse Employees Local 503 (Ruberoid Co., The).","June 5, 1958",10 (l),,,"June 20, 1958",,,Withdrawn.
+2-CC-464,"Amalgamated Union, Local 5 UAW Independent (Dynamic Manufacturing Corp.).","June 9, 1958",10 (l),,,,,,
+"35-CC-47-51, CD-29-33.","Carpenters, Carpenters Local 1341, and Jake Hall Bros., Agent (Clark Construction Co.)","June 9, 1958",10 (l),,,[1],,,
+18-CC-57,"Eau Claire and Vicinity Bldg. Trades Council, Ralph Moe, Robert Powers (St. Bridget's Catholic Congregation, Inc.)","June 11, 1958",10 (l),,,,,,
+1-CD-57,"Electrical Workers, Local 90, et al. (Southern New England Telephone Co.)","June 11, 1958",10 (l),,,,,,
+2-CD-167,"Sailors Union of North America (Mack Klosty & Co., Inc.).","June 19, 1958",10 (l),,,,,,
+22-CC-13,"Clothing Workers, Washable Clothing, Sportswear, etc., Local 169 (Max Rubin T/A Made Rite Baby Togs)","June 23, 1958",10 (l),,,,,,
+2-CB-2216,"Electrical Workers, Local 1922 (Mid-Island Electrical Sales Copp., Mid-Island Lighting Fixtures Co., Inc.)","June 27, 1958",10 (j),,,,,,
+"22-CC-14, CD-18.","Teamsters, Local 478 (United States Steel Corp.) (United States Steel Supply Division).","June 27, 1958",10 (l),,,,,,

@@ -1,56 +1,41 @@
-row_label,col_1,col_2,col_3
-Abrasive Co,"Mar. 14,1938","Mar. 22, 1938","1June 14, 1938"
-"Acme Air Appliance Co., Inc","Mar. 10,1938","Mar. 15, 1938",(I)
-Aeolian American Corporation,"Jan. 10, 1938","Jan. 14, 1938",
-"Adolf Goebel, Inc","Aug. 13, 1937","Aug. 17, 1937",
-Afro-American Co,"Feb. 28, 1938","Mar. 5, 1938",
-"Aladdin Industries, Inc","Aug. 30, 1937","Oct. 13, 1937",(2)
-Alaska Glacier Sea Food Co,"Mar. 16,1938","Mar. 18, 1838","'June 6, 1938"
-"Alba Twine Mills, Inc","Feb. 7, 1938","Feb. 8,1938",a
-"Alexandria, Barcroft Liz Washington Transit Co","Oct. 28,1937","Oct. 28, 1937",
-Allen Manufacturing Co,"Sept. 27,1937","Oct. 2, 1937",
-Altorfer Brothers Co,"July 29, 1937","Aug. 21,1937","Mar. 1, 1938"
-American Can Co,"Jan. 27,1938","Jan. 27, 1938",
-Do,"Mar. 1, 1938","Mar. 1, 1938",43))
-American Chain dr Cable Co,"Apr. 18,1938","Apr. 21, 1938",
-"American Cloak Co., Liberty Cloak and Annette Sport Co.",,,(I)
-(bodies corporate),"Aug. 30,1937","Aug. 30,1937","Mar. 5, 1938"
-American-Hawaiian Steamship Co,"Aug. 19, 1937","Aug. 19, 1937",(1)
-Do,"Aug. 11, 1937","Aug. 12, 1937","Apr. 19, 1938"
-"American Machine &Foundry Co., Inc","Feb. 14, 1938 Oct. 11,1937","Feb. 28,1938 Oct. 14, 1937","(1) May 23, 1938"
-American Manufacturing Co,"Aug. 12,1937","Aug. 27, 1937","Feb. 18,1938"
-Do American Manufacturing Concern,"Dec. 17,1937","Dec. 22, 1937","June 7,1938"
-American Numbering Machine Co,"Feb. 3,1938","Feb. 14, 1938",
-American Oil Co. (Curtis Bay plant),"Apr. 14, 1938","Apr. 21, 1938",
-,"Sept. 20,1937","Oct. 8, 1937","June 24, 1938"
-"Airierican Radiator Co., a corporation","June 27, 1938",,
-American Rolling Mill Co,"May 2, 1938","May 5, 1938",(1)
-American Scale Co American Smelting dr Refining Co,"Oct. 7,1937","Oct. 26, 1937","June 7,1938"
-"Ainerican Paint Works, The (the Glldden Co.)","Feb. 14,1938","Feb. 22, 1938",(1)
-Airierican Petroleum Co,"Sept. 13,1937","Sept. 29,1937",
-AnderSon Mattress Co,"Apr. 21,1938","Apr. 27, 1938",
-Andrew Jergen's Co. of California,"Jan. 11, 1938","Mar. 11,1938",
-"Ann Arbor Press, The","May 2,1938","May 12, 1938",(2)
-Ansley Radio Corporation,"Jan. 13, 1938","Jan. 26, 1938",(1)
-Appalachian Mills,"Apr. 25,1938","May 7,1938",(1)
-Apohaugh Manufacturing Co,"July 12, 1937","July 12,1937",(1)
-"Arcade-Sunshine Co., Inc","Mar. 22,1938","Mar. 30, 1938",(1)
-Arcadia Hosiery Co,"Apr. 11, 1938","Apr. 20,1938",(1)
-Arma Ehgineering Co,"Jan. 31,1938","Feb. 14,1938",
-Armour &Co,"Mar. 31,1938","Apr. 11,1938",'1 )
-Do,"Feb. 7, 1938","Feb. 10, 1938",) 1
-Do,do,do,
-Do,do,do,
-"Armour Packing Co., The","Feb. 21,1938","Mar. 10, 1938",
-Aronsson Printing Co,"Jan. 27,1938","Feb. 8, 1938",
-Art Crayon Co,"July 22,1937","July 27, 1937","May 11, 1938"
-A. S. Abel Co,"Sept. 16,1937","Sept. 17,1937","Feb. 25, 1938"
-Asheville Hosiery Co,"Jan. 11, 1938","Jan. 22,1938",(1)
-Associated Press,"Dec. 6, 1937","Jan. 8, 1938","Jan. 29, 1938"
-Athens Stove Works.,"May 5,1938","May 6, 1938",(1)
-Atlantic Greyhound Corporation,"Dec. 6,1937","Dec. 7,1937","June 27, 1938"
-Do,"Mar. 10,1938","Mar. 24,1938",(1) (2)
-Atlas Powder Co,"June 23,1938","June 30,1938 Apr. 15, 1938",(1)
-"Auburn Foundry, Inc Automatic Radio Manufacturing Co., Inc","Apr. 7, 1938","July 21, 1937",(1)
-,"July 6, 1937",,
-,"Feb. 28,1938","Mar. 9, 1938",
+Name of case,Date hearing held,Date hearing held,Date decision issued
+Name of case,Date opened,Date closed,Date decision issued
+Aluminum Products Co.,"Apr. 20, 1936","June 16, 1936","June 28, 1938"
+American Potash & Chemical Co.,"May 4, 1936","June 3, 1936","July 28, 1937"
+Appalachian Electric Power Co.,"Feb. 25, 1937","Feb. 26, 1937","Aug. 7, 1937"
+Atlas Mills,"May 25, 1936","May 26, 1936","July 14, 1937"
+"Barrett, Frederick R.","Apr. 29, 1937","May 8, 1937","Aug. 31, 1937"
+Bemis Bros. Bag Co.,"Jan. 24, 1936","Feb. 25, 1936","Aug. 10, 1937"
+Do.,"Apr. 17, 1936","Apr. 18, 1936",Do.
+Black Diamond Steamship Co.,"Feb. 23, 1937","Feb. 25, 1937","July 21, 1937"
+Calvert-Maryland Distilling Co.,"Jan. 28, 1937","Jan. 29, 1937","Aug. 2, 1937"
+Canadian Fur Trappers Corporation,"June 24, 1937","June 30, 1937","Sept. 9, 1937"
+Cardinale Trucking Corporation,"June 17, 1937","June 18, 1937","Feb. 11, 1938"
+Central Truck Lines,"Feb. 26, 1937","Mar. 2, 1937","Aug. 12, 1937"
+Cherry Cotton Mills,"Mar. 23, 1936","Mar. 26, 1936","Dec. 30, 1937"
+Dickson-Jenkins Manufacturing Co.,"June 21, 1937","June 24, 1937","July 16, 1937"
+Electric Boat Co.,"May 20, 1937","June 17, 1937","June 1, 1938"
+Fansteel Metallurgical Co.,"June 7, 1937","June 25, 1937","Mar. 14, 1938"
+"Federal Bearing Co., Inc.","June 3, 1937","June 12, 1937","Dec. 10, 1937"
+"Grower Shipper Vegetable Association of Central California, a corporation","Apr. 12, 1937","May 18, 1937",[2]
+Highway Trailer Co.,"May 6, 1937","May 13, 1937","Sept. 10, 1937"
+"Honolulu Stevedores, Ltd., and Castle & Cook, Ltd.","Apr. 5, 1937","Apr. 29, 1937",[3]
+"Hopwood Retinning Company, Inc.","June 7, 1937","June 19, 1937","Jan. 15, 1938"
+Idaho-Maryland Mining Co.,"June 21, 1937","June 30, 1937","Jan. 10, 1938"
+Industrial Rayon Corporation,"May 27, 1937","June 10, 1937","June 14, 1938"
+"J. Freezer & Son, Inc.","May 7, 1936","May 7, 1936","July 26, 1937"
+Louisville Refining Co.,"Apr. 1, 1937","Apr. 8, 1937","Jan. 12, 1938"
+"Mansfield Mills, Inc.","June 10, 1937","June 14, 1937","Oct. 30, 1937"
+Memphis Furniture Mfg. Co.,"May 21, 1936","May 27, 1936","July 15, 1937"
+Metropolitan Engineering Co.,"June 10, 1937","June 17, 1937","Dec. 16, 1937"
+Oregon Worsted Co.,"Feb. 8, 1937","Mar. 25, 1937","July 16, 1937"
+Rocks Express Co.,"Dec. 21, 1936","Dec. 21, 1936","July 24, 1937"
+S. Cohen & Sons,"Mar. 30, 1936","Mar. 30, 1936","Dec. 29, 1937"
+Southgate Nelson Corporation,"May 13, 1937","May 14, 1937","Sept. 1, 1937"
+"Southgate Nelson Corporation of Norfolk, Va.","May 14, 1937",do,Do.
+Suburban Lumber Co.,"Feb. 18, 1937","Feb. 19, 1937","Aug. 2, 1937"
+"Thompson Products, Inc.","May 24, 1937","May 26, 1937","Aug. 16, 1937"
+Triplett Electric Instrument Co.,"June 17, 1937","June 23, 1937","Mar. 7, 1938"
+United States Stamping Co.,"May 17, 1937","May 21, 1937","Feb. 10, 1938"
+Uxbridge Worsted Co.,"July 9, 1936","Aug. 11, 1936","Apr. 21, 1938"
+Warfield Co.,"Mar. 12, 1936","Mar. 14, 1936","Mar. 18, 1938"

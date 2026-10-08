@@ -1,12 +1,15 @@
-row_label,col_1,Injunction proceedings / Total proceedings,"Injunction proceedings / Pending in district court July 1, 1971",Injunction proceedings / Filed in district court fiscal year 1972,Disposition of injunctions / Total dispositions,Disposition of injunctions / Granted,Disposition of injunctions / Denied,Disposition of injunctions / Settled,Disposition of injunctions / Withdrawn,Disposition of injunctions / Dismissed,Disposition of injunctions / Inactive,"Pending in district court June 30, 1972"
-"Under sec. 10(e), total",6,6,1,5,5,0,0,0,0,0,0,0
-"Under sec. 10(j), total",21,2,19,18,11,0,3,1,1,2,0,3
-8(a)(1),1,0,1,0,0,0,0,0,0,0,0,1
-8(a)(2),1,1,0,1,0,0,1,0,0,0,0,0
-8(a)(3),3,0,3,2,1,0,1,0,0,0,0,1
-8(a)(1)(2),1,0,1,1,1,0,0,0,0,0,0,0
-8(a)(1)(3),,,,,,,,,,,,
-"Under sec. 10(l), total",261,4,257,250,99,10,93,27,12,9,0,11
-8(b)(4)(A),5,0,5,5,3,0,2,0,0,0,0,0
-8(b)(4)(B),128,1,124,121,47,5,20,15,6,5,0,5
-8(b)(4)(C),,,,,,,,,,,,
+Circuit courts of appeals (headquarters),Total fiscal year 1972,Total fiscal years 1967-71,Affirmed in full,Affirmed in full,Affirmed in full,Affirmed in full,Modified,Modified,Modified,Modified,Remanded in full,Remanded in full,Remanded in full,Remanded in full,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Set aside,Set aside,Set aside,Set aside
+Circuit courts of appeals (headquarters),Total fiscal year 1972,Total fiscal years 1967-71,Fiscal year 1972,Fiscal year 1972,Cumulative fiscal years 1967-71,Cumulative fiscal years 1967-71,Fiscal Year 1972,Fiscal Year 1972,Cumulative fiscal years 1967-71,Cumulative fiscal years 1967-71,Fiscal Year 1972,Fiscal Year 1972,Cumulative fiscal years 1967-71,Cumulative fiscal years 1967-71,Fiscal Year 1972,Fiscal Year 1972,Cumulative fiscal years 1967-71,Cumulative fiscal years 1967-71,Fiscal Year 1972,Fiscal Year 1972,Cumulative fiscal year 1967-71,Cumulative fiscal year 1967-71
+Circuit courts of appeals (headquarters),Total fiscal year 1972,Total fiscal years 1967-71,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+Total all circuits,341,"1,601",239,70.1,"1,031",64.4,39,11.4,276,17.2,16,4.7,73,4.6,5,1.5,33,2.1,42,12.3,188,11.7
+"1. Boston, Mass.",11,62,8,72.7,42,67.7,0,0.0,6,9.7,0,0.0,3,4.8,0,0.0,2,3.3,3,27.3,9,14.5
+"2. New York, N.Y.",20,128,15,75.0,93,72.7,4,20.0,18,14.1,0,0.0,4,3.1,0,0.0,3,2.3,1,5.0,10,7.8
+"3. Philadelphia, Pa.",21,65,15,71.4,46,70.8,1,4.8,4,6.2,3,14.3,7,10.8,0,0.0,1,1.5,2,9.5,7,10.7
+"4. Richmond, Va.",27,139,17,63.0,89,64.0,2,7.4,35,25.2,3,11.1,2,1.4,0,0.0,0,0.0,5,18.5,13,9.4
+"5. New Orleans, La.",61,308,49,80.4,190,61.7,2,3.3,64,20.8,3,4.9,13,4.2,1,1.6,7,2.3,6,9.8,34,11.0
+"6. Cincinnati, Ohio",47,274,30,63.8,160,58.4,10,21.3,55,20.1,0,0.0,7,2.6,0,0.0,5,1.7,7,14.9,47,17.2
+"7. Chicago, Ill.",24,139,21,87.5,96,69.1,3,12.5,20,14.4,0,0.0,1,0.7,0,0.0,1,.7,0,0.0,21,15.1
+"8. St. Louis, Mo.",34,108,16,47.1,43,39.8,10,29.4,38,35.2,2,5.9,7,6.5,0,0.0,2,1.9,6,17.6,18,16.6
+"9. San Francisco, Calif.",60,175,42,70.0,134,76.6,6,10.0,9,5.1,3,5.0,15,8.6,1,1.7,2,1.1,8,13.3,15,8.6
+"10. Denver, Colo.",18,80,13,72.2,52,65.0,0,.0,16,20.0,0,0.0,4,5.0,1,5.6,1,1.3,4,22.2,7,8.7
+"Washington, D.C.",18,123,13,72.2,86,69.9,1,5.6,11,8.9,2,11.1,10,8.2,2,11.1,9,7.3,0,.0,7,5.7

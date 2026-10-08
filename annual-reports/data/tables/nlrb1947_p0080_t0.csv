@@ -1,8 +1,13 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-Total,6920,100.0,934558,100.0,806474,100.0
-Consent,4829,69.8,489125,52.3,419696,52.1
-Elections Cross checks,"4,183 646",60.5 9.8,"468,308 25,820",49.6 2.7,"401,008 18,690",49.8 2.3
-Stipulated,571,8.3,154263,16.5,138456,16.6
-Elections Cross checks,566 5,6.2 .1,"158,458 805",16.4 .1,"112,975 481",16.5 .1
-Preheating elections,644,9.8,80932,8.7,69305,8.6
-Ordered elections,876,12.6,216233,ZI. 5,188015,22.7
+Stage and method,Number of cases,Percent of cases closed,Percent of cases on docket
+After Board decision,"1,860",17.8,14.3
+Certified,"1,360",13.0,10.4
+Stipulated election and cross check,442,4.2,3.4
+Prehearing election and stipulation,94,.9,.7
+Ordered election,674,6.5,5.2
+Prehearing election and Board decision,150,1.4,1.1
+Dismissed,422,4.0,3.3
+Stipulated election and cross check,142,1.4,1.1
+Ordered election,172,1.5,1.4
+Prehearing election and Board decision,16,.2,.1
+Without election,92,.9,.7
+Withdrawn,78,.8,.6

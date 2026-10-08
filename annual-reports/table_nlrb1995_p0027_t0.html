@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -120,32 +128,68 @@ ul.link-list li { margin: 0.3rem 0; }
 <header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
 <p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1995.html">FY1995</a> &rsaquo; NLRB Board decisions by type and disposition</p>
 <h1>NLRB Board decisions by type and disposition</h1>
-<p class="meta">source page 27 &middot; <code>nlrb1995_p0027_t0</code></p>
+<p class="meta">source pages 27–28 &middot; <code>nlrb1995_p0027_t0</code></p>
+<p class="spans-note">Stitched from pp. 27–28.</p>
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th></th><th></th><th></th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">After review of Regional Direc- tor decisions</th><td>48</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">On objections and/or challenges</th><td>224</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Clarification of bargaining unit</th><td>13</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Amendment to certification</th><td>0</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Union-deauthorization</th><td>3</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Noncontested decisions</th><td>Noncontested decisions</td><td>423</td></tr>
-<tr><th class="stub" scope="row">Unfair labor practice</th><td>240</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Representation</th><td>180</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Other</th><td>3</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Total Board decisions</th><td class="blank"></td><td class="blank"></td><td>1,371</td></tr>
+<tr><th class="stub" scope="row">Contested decisions</th><td class="blank"></td><td class="blank"></td><td>948</td></tr>
+<tr><th class="stub" scope="row">Unfair labor practice decisions</th><td class="blank"></td><td>657</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Initial (includes those based on stipulated record)</th><td>558</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Supplemental</th><td>35</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Backpay</th><td>40</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Determinations in jurisdictional disputes</th><td>24</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Representation decisions</th><td class="blank"></td><td>275</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">After transfer by Regional Directors for initial decision</th><td>3</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">After review of Regional Director decisions</th><td>48</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">On objections and/or challenges</th><td>224</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Other decisions</th><td class="blank"></td><td>16</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Clarification of bargaining unit</th><td>13</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Amendment to certification</th><td>0</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Union-deauthorization</th><td>3</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Noncontested decisions</th><td class="blank"></td><td class="blank"></td><td>423</td></tr>
+<tr><th class="stub" scope="row">Unfair labor practice</th><td>240</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Representation</th><td>180</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Other</th><td>3</td><td class="blank"></td><td class="blank"></td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1995_p0027_t0.csv" download>Download this table (CSV)</a></p>
+<p class="check"><b>0 of 18</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 27.</b> This is not a ruled table but an indented breakdown list set in running text; it has no printed column headings, so header_rows is empty. The values sit at three distinct indent positions, transcribed here as three value columns: the rightmost column holds 1,371 and 948 (both underscored with rules in the original, a double rule under 1,371 and a single rule under 948), the middle column holds the category figures 657 and 275, and the leftmost value column holds the subcategory figures 558, 35, 40, 24 and 3.
+
+Two lines of surrounding prose appear above the list and were not transcribed as rows: a partial line cut off by the top of the crop reading &quot;...endered during fiscal year 1994.&quot; and the lead-in line &quot;A breakdown of Board decisions follows:&quot;.
+
+The list is cut off by the bottom of the crop: the row &quot;After transfer by Regional Directors for initial decision ..... 3&quot; is the last visible line, and the breakdown continues onto material not shown in this image.
+
+Hyphenated line breaks repaired: &quot;Regional Di-/rectors&quot; to &quot;Regional Directors&quot;. Multi-line labels joined: &quot;Initial (includes those based on stipulated record)&quot; and &quot;Determinations in jurisdictional disputes&quot;.</p>
+<p><b>p. 28.</b> Continuation crop: the table starts before this image (the first two rows are sub-items of a representation section carried over from the previous page) and no column headings are printed, so header_rows is empty.
+
+Column structure: the stub is followed by three value columns, distinguished by the right edge at which the figures align (innermost detail column ≈ the 48/224/13/0/3/240/180/3 figures; a middle column holding only 16; an outer column holding only the bold 423). The leader dots confirm this: the dots after &quot;Other decisions&quot; run past the detail column and stop at the start of the 16 column, and the dots after &quot;Noncontested decisions&quot; run past the 16 column and stop at the start of the 423 column.
+
+&quot;Other decisions&quot; value: the glyph is damaged in the scan and reads almost like &quot;i6&quot;; the first character is a broken &quot;1&quot;. Read as 16, which is also consistent with the detail lines beneath it (13 + 0 + 3 = 16).
+
+A short horizontal rule is printed beneath the bold 423, in the outer column only, followed by blank space before the &quot;Unfair labor practice / Representation / Other&quot; block. Those three rows are the breakdown of &quot;Noncontested decisions&quot; (240 + 180 + 3 = 423), but they are printed in the innermost detail column, the same column as the &quot;Clarification of bargaining unit&quot; group, not in the middle column that the hierarchy might suggest; they are transcribed in the column where they are printed.
+
+The row label &quot;After review of Regional Director decisions&quot; is printed on two lines with an end-of-line hyphen (&quot;Direc- / tor decisions&quot;) and has been joined.
+
+The bottom row (&quot;Other ... 3&quot;) sits at the very bottom edge of the crop; the table very likely continues below this image with further rows (e.g., a grand total), which are not visible here. Likewise, the outer column&#x27;s right edge is at the image boundary, so I cannot rule out a further column trimmed away, though nothing suggests one.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1995_p0027.webp" loading="lazy" alt="Source page 27 of NLRB FY1995 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1995_p0027_t0_p0027.webp" loading="lazy" alt="Source page 27 of NLRB FY1995 annual report">
 <figcaption>Source: NLRB Annual Report FY1995, p. 27.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1995_p0027_t0_p0028.webp" loading="lazy" alt="Source page 28 of NLRB FY1995 annual report">
+<figcaption>Source: NLRB Annual Report FY1995, p. 28.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

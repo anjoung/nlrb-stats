@@ -1,15 +1,7 @@
-row_label,col_1,col_2,col_3,col_4,col_5
-"Eligible voters, total",530811,134122,131666,263230,1793
-"Valid votes, total",466809,118028,117989,229269,1523
-"RC cases,5 total",4003,1728,1062,1.213,
-Eligible voters,471709,121276,123564,226869,
-Valid votes,416911,106948,110667,199290,
-"RMcases,5 total",212,91,47,74,
-Eligible voters,44286,8811,3622,31853,
-Valid votes,36531,7380,3155,25996,
-"RD cases,5 total",157,50,27,80,
-Eligible voters,13002,4022,4480,4500,
-Valid votes,11825,3689,4167,3969,
-"UD cases,5 total",20,1,0,1,18
-Eligible voters,1814,13,0,8,1793
-Valid votes,1542,11,0,s,1 523
+Stage of disposition,All R cases,All R cases,RC cases,RC cases,RM cases,RM cases,RD cases,RD cases
+Stage of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"7,442",100.0,"6,414",100.0,546,100.0,482,100.0
+Before issuance of notice of hearing,"3,414",45.9,"2,900",45.2,291,53.3,223,46.3
+"After issuance of notice of hearing, before opening of hearing","1,860",25.0,"1,642",25.6,110,20.2,108,22.4
+"After hearing opened, before issuance of Board decision",251,3.4,211,3.3,22,4.0,18,3.7
+After issuance of Board decision,"1,917",25.7,"1,661",25.9,123,22.5,133,27.6

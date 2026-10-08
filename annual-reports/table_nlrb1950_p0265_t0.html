@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Record of injunctions petitioned for under sec. 10 (j) and 10 (l) during fiscal year 1950 — NLRB FY1950</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1950.html">FY1950</a> &rsaquo; Record of injunctions petitioned for under sec. 10 (j) and 10 (l) during fiscal year 1950</p>
+<h1>Record of injunctions petitioned for under sec. 10 (j) and 10 (l) during fiscal year 1950</h1>
+<p class="meta">printed as Table 26 &middot; source pages 265–266 &middot; <code>nlrb1950_p0265_t0</code></p>
+<p class="spans-note">Stitched from pp. 265–266.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Case No.</th><th>Union and company</th><th>Date petition for injunction filed</th><th>Type of petition</th><th colspan="2">Temporary restraining order</th><th>Date temporary injunction granted</th><th>Date injunction denied</th><th>Date injunction proceedings withdrawn or dismissed</th><th>Date of Board decision and/or order</th></tr>
+<tr><th>Case No.</th><th>Union and company</th><th>Date petition for injunction filed</th><th>Type of petition</th><th>Date issued</th><th>Date lifted</th><th>Date temporary injunction granted</th><th>Date injunction denied</th><th>Date injunction proceedings withdrawn or dismissed</th><th>Date of Board decision and/or order</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">1-CC-44, 45</th><td>United Electrical Workers, CIO, Local 262 (Keystone Manufacturing Co.).</td><td>July 25, 1949</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Nov. 14, 1949</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">20-CD-5</th><td>Roofers and Waterproofers, Local 40 (Dan Goodwin).</td><td>July 19, 1949</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>Sept. 1, 1949</td><td class="blank"></td><td class="blank"></td><td>Feb. 23, 1950</td></tr>
+<tr><th class="stub" scope="row">2-CC-104</th><td>United Wire and Metal Workers, Local 24368, AFL (ABKO Products Inc).</td><td>July 20, 1949</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Aug. 3, 1949</td><td class="blank"></td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">2-CC-107</th><td>International Brotherhood of Teamsters, Local 138, AFL (Wilbert Products Co., et al)</td><td>Aug. 5, 1949</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>Aug. 19, 1949</td><td class="blank"></td><td class="blank"></td><td>Nov. 30, 1949</td></tr>
+<tr><th class="stub" scope="row">2-CC-103</th><td>Newspaper and Mail Deliverers Union of New York and vicinity (Interborough News Co)</td><td>Aug 23, 1949</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>[2]</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">20-CC-43, 44</th><td>International Longshoreman Union, CIO (Matson Terminals Inc, Elano)</td><td>Sept 6, 1949</td><td>10 (l)</td><td>Sept. 6, 1949</td><td>Dec. 12, 1949</td><td class="blank"></td><td class="blank"></td><td>Dec. 12, 1949</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">38-CB-30</th><td>Union De Trabajadares de la Industrial de; Cemento (Ponce Cement Corp.).</td><td>Sept 22, 1949</td><td>10 (j)</td><td class="blank"></td><td class="blank"></td><td>Oct. 3, 1949</td><td class="blank"></td><td class="blank"></td><td>Apr. 24, 1950</td></tr>
+<tr><th class="stub" scope="row">16-CC-9</th><td>General Drivers, Chauffeurs and Helpers, Local 886, AFL (Santa Fe Trail Transportation Co).</td><td>Oct 17, 1949</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>Oct 20, 1949</td><td class="blank"></td><td class="blank"></td><td>Feb. 13, 1950</td></tr>
+<tr><th class="stub" scope="row">36-CC-8</th><td>Salem Trades and Labor Council, et al (Valley Concrete Co).</td><td>Oct. 26, 1949</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Feb 13, 1950</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">2-CC-118</th><td>Retail and Wholesale Workers Union, Local 65 (Best Housekeeping Co)</td><td>Oct. 28, 1949</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>Nov 29, 1949</td><td class="blank"></td><td class="blank"></td><td>June 15, 1950</td></tr>
+<tr><th class="stub" scope="row">6-CD-3</th><td>International Brotherhood of Electrical Workers, Local 596, AFL (West Virginia Electric Co).</td><td>Nov. 22, 1949</td><td>10 (l)</td><td>Dec. 1, 1949</td><td class="blank"></td><td>Dec 8, 1949</td><td class="blank"></td><td class="blank"></td><td>June 21, 1950</td></tr>
+<tr><th class="stub" scope="row">39-CC-7</th><td>Oil Workers, Local 227, CIO (Waterman Steamship Corp).</td><td>Nov. 19, 1949</td><td>10 (l)</td><td>Nov. 19, 1949</td><td>Nov. 23, 1949</td><td class="blank"></td><td class="blank"></td><td>Nov. 23, 1949</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">2-CC-119</th><td>Teamsters, Local 294, AFL (Western Express Co, Inc)</td><td>Nov. 18, 1949</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Jan. 13, 1950</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">33-CB-6, 7, 8</th><td>Mine, Mill and Smelter Workers (Potash Co of America, et al).</td><td>Jan. 9, 1950</td><td>10 (j)</td><td class="blank"></td><td class="blank"></td><td>Jan. 10, 1950</td><td class="blank"></td><td class="blank"></td><td>June 9, 1950</td></tr>
+<tr><th class="stub" scope="row">5-CB-43, 47</th><td>United Mine Workers (Southern Coal Producers Association)</td><td>Jan. 18, 1950</td><td>10 (j)</td><td class="blank"></td><td class="blank"></td><td>Feb. 11, 1950</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">20-CC-53</th><td>AFL-Retail Shoe and Textile Salesmen&#x27;s Union, Local 410 (Cramer, A. E, Inc)</td><td>Jan. 26, 1950</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>Mar. 6, 1950</td><td class="blank"></td><td>May 18, 1950</td></tr>
+<tr><th class="stub" scope="row">6-CC-41</th><td>AFL-Teamster, Locals 249 and 635 (Swift and Co).</td><td>Mar. 7, 1950</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>Mar. 22, 1950</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">20-CC-55</th><td>AFL-Seafarers Sailor&#x27;s Union of Pacific (Moore Drydock Co.).</td><td>Mar. 3, 1950</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>Mar 14, 1950</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">2-CC-138</th><td>AFL-Teamsters, Local 456 (E. Rabinowe &amp; Co).</td><td>Apr. 12, 1950</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>May 16, 1950</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">32-CC-3</th><td>AFL-Teamsters, Local 878 (Arkansas Express Inc.)</td><td>Apr. 19, 1950</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>[3]</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">19-CA-301</th><td>Alaska Salmon Industry Inc. (Food Workers Cannery Workers and Farm Laborers, Local 77).</td><td>May 23, 1950</td><td>10 (j)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>June 7, 1950</td></tr>
+<tr><th class="stub" scope="row">21-CC-89</th><td>AFL-Los Angeles Building and Construction Trades Council (Blanchard Lumber Co.).</td><td>May 12, 1950</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>May 19, 1950</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">20-CB-128, 129</th><td>AFL-Teamsters, Local 85 (Distributor&#x27;s Association of Northern California)</td><td>May 18, 1950</td><td>10 (j)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>June 22, 1950</td></tr>
+<tr><th class="stub" scope="row">6-CC-44</th><td>AFL-Commercial Telegraphers Union, Division 47 (Pittsburgh Press Co.)</td><td>May 19, 1950</td><td>10 (l)</td><td>May 19, 1950</td><td>May 22, 1950</td><td class="blank"></td><td class="blank"></td><td>June 9, 1950</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">18-CC-9</th><td>National Brotherhood of Electrical Workers, Local 292, et al. (A and A Electric Co)</td><td>May 12, 1950</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>June 22, 1950</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">19-CC 27, 28, 29</th><td>CIO-Longshoremen, Locals 7C and 19 (Alaska Salmon Industry, Inc)</td><td>May 22, 1950</td><td>10 (l)</td><td>May 27, 1950</td><td class="blank"></td><td>June 1, 1950</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">20-CC-60</th><td>CIO-Longshoremen, Local 6 (Purity Stores, Ltd).</td><td>May 2, 1950</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>June 22, 1950</td></tr>
+<tr><th class="stub" scope="row">16-CC-14</th><td>AFL-Meat Cutters, Local 303 (Western, Inc.).</td><td>May 17, 1950</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">21-CC-92</th><td>AFL-Boilermakers Lodge 92, et al. (Richfield Oil Corp).</td><td>May 22, 1950</td><td>10 (l)</td><td class="blank"></td><td class="blank"></td><td>[2]</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1950_p0265_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 Dispute settled and proceeding discontinued</li>
+<li>2 Because of suspension of unfair labor practice, case carried on inactive court docket only.</li>
+<li>3 Petition dismissed because Board declined jurisdiction of employer in &quot;R&quot; proceeding.</li>
+<li>4 By consent.</li>
+<li>5 Reversed on appeal and remanded</li>
+<li>6 Case retained on court docket for further proceedings if appropriate.</li>
+<li>7 Case closed on compliance with intermediate report.</li>
+</ol>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 265.</b> Ten printed columns; the stub is &quot;Case No.&quot; and only &quot;Temporary restraining order&quot; splits into two sub-columns (&quot;Date issued&quot;, &quot;Date lifted&quot;), so all other headings are tall and repeated in both heading levels.
+
+Crop/footnotes: the image ends immediately below the last row (20-CC-55); no footnote block is visible, so `footnotes` is empty even though markers 1, 2, 3 and 4 are used in the body and a raised 1 follows the last column heading (&quot;Date of Board decision and/or order&quot;). The table may also continue onto a following page — the bottom rule is not shown.
+
+Footnote markers: raised digits are printed BEFORE the dates they attach to (e.g. &quot;¹Nov. 14, 1949&quot;, &quot;³Feb 13, 1950&quot;, &quot;⁴Jan. 10, 1950&quot;); per the conventions they are written after the value behind a caret. The cells reading &quot;(1)&quot; (rows 1-CC-44 45, 2-CC-104, 20-CC-43 44, 39-CC-7) and &quot;(2)&quot; (row 2-CC-103) are printed as small parenthesized numerals occupying the whole cell, i.e. they stand in place of a date rather than annotating one; they are transcribed as printed.
+
+Type of petition: the caption reads &quot;sec. 10 (j) and 10 (l)&quot;, so the lowercase letter in &quot;10 (l)&quot; is an el, not a digit one; at this resolution the glyph itself is ambiguous.
+
+Typography: many month abbreviations print without their period in this scan (&quot;Aug 23&quot;, &quot;Sept 6&quot;, &quot;Sept 22&quot;, &quot;Oct 17&quot;, &quot;Oct 20&quot;, &quot;Nov 29&quot;, &quot;Dec 8&quot;, &quot;Feb 13&quot;, &quot;Mar 14&quot;); these are transcribed as seen, and the difference from the periodded forms elsewhere in the same column is in the original, not introduced here. Stray spaces before closing parentheses (&quot;Inc )&quot;, &quot;Co )&quot;, &quot;et al )&quot;, &quot;A. E , Inc&quot;) have been closed up the same way as spaced digit groups.
+
+Doubtful cells: in row 38-CB-30 the company name reads &quot;Union De Trabajadares de la Industrial de; Cemento&quot; — the character after &quot;de&quot; looks like a semicolon or a broken &quot;l&quot; (probably intended &quot;del Cemento&quot;); transcribed as it appears. Handwritten ink check marks overlie the leader dots of the stub in rows 38-CB-30, 33-CB-6, 7, 8 and 5-CB-43, 47, and a faint pencil stroke sits in the &quot;Date issued&quot; column of row 6-CD-3; none of them obscure a printed value. The 2-CC-104 local number reads &quot;24368&quot;.</p>
+<p><b>p. 266.</b> Continuation page: the crop shows no column headings, so header_rows is empty. The body has 10 columns, counted from the vertical rules: (1) case number stub, (2) name of case, (3) a date column, (4) the statutory section, and six further date/disposition columns. Column positions were fixed from the x-ranges of the vertical rules; note in particular that &quot;May 16, 1950&quot; (row 2-CC-138) sits one column to the LEFT of the footnote-1 dates in rows 21-CC-89, 6-CC-44 and 18-CC-9, and that &quot;June 1, 1950&quot; (row 19-CC 27, 28, 29) sits in the same column as the two standalone footnote markers.
+
+Doubtful cells:
+- 32-CC-3 and 21-CC-92, column 7: the cell holds only a raised digit in parentheses, with no value attached. Transcribed as printed, &quot;(3)&quot; and &quot;(2)&quot;. The scan is faint and the two raised digits are hard to separate in this typeface; the pairing could be reversed.
+- 19-CC 27, 28, 29 (stub): printed with a space, not a hyphen, before &quot;27&quot;. Several case numbers in this scan render C/O ambiguously; all are read as &quot;CC&quot;/&quot;CB&quot;/&quot;CA&quot; per the Board&#x27;s docket prefixes.
+- 19-CC 27, 28, 29, column 2: &quot;Locals 7C and 19&quot; — the character after &quot;7&quot; may be the letter C or the digit 0.
+- 18-CC-9, column 2: reads &quot;National Brotherhood of Electrical Workers&quot; (not &quot;International&quot;); transcribed as printed, and this row carries no AFL-/CIO- prefix, unlike most others.
+- Rows 19-CA-301 and 20-CB-128, 129 have handwritten pen marks (an arrow/check) over the rule between columns 1 and 2 in the scan. These are annotations on the scanned page, not printed content, and nothing printed appears to be obscured by them.
+- Footnotes 1 and 5 appear to end without a period; transcribed that way.
+
+Cut off by the crop: a &quot;Note.—&quot; paragraph begins below footnote 7 and is clipped by the bottom edge, so it is not transcribed.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1950_p0265_t0_p0265.webp" loading="lazy" alt="Source page 265 of NLRB FY1950 annual report">
+<figcaption>Source: NLRB Annual Report FY1950, p. 265.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1950_p0265_t0_p0266.webp" loading="lazy" alt="Source page 266 of NLRB FY1950 annual report">
+<figcaption>Source: NLRB Annual Report FY1950, p. 266.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

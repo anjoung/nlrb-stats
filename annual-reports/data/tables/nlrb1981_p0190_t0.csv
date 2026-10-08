@@ -1,5 +1,33 @@
-Types of formal actions taken,Cases on which formal actions taken,Formal actions taken by type of case / Total formal actions taken,Formal actions taken by type of case / RC,Formal actions taken by type of case / RM,Formal actions taken by type of case / RD,Formal actions taken by type of case / UD
-"Decisions on objections and/or challenges, total",1229,1160,1023,29,108,13
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,Total formal actions taken,RC,RM,RD,UD
+"Hearings completed, total","2,486","2,299","1,983",81,235,7
+Initial hearings,"2,180","2,017","1,731",76,210,7
+Hearings on objections and/or challenges,306,282,252,5,25,0
+"Decisions issued, total","2,129","1,936","1,669",76,191,6
+By regional directors,"2,016","1,831","1,579",67,185,6
+Elections directed,"1,800","1,627","1,409",52,166,4
+Dismissals on record,216,204,170,15,19,2
+By Board,113,105,90,9,6,0
+Transferred by regional directors for initial decision,31,29,26,1,2,0
+Elections directed,19,19,17,0,2,0
+Dismissals on record,12,10,9,1,0,0
+Review of regional directors' decisions,,,,,,
+Requests for review received,741,644,593,16,35,2
+Withdrawn before request ruled upon,1,1,1,0,0,0
+"Board action on request ruled upon, total",666,586,540,14,32,1
+Granted,70,55,44,5,6,0
+Denied,593,528,493,9,26,1
+Remanded,3,3,3,0,0,0
+"Withdrawn after request granted, before Board review",0,0,0,0,0,0
+"Board decision after review, total",82,76,64,8,4,0
+Regional directors' decisions,,,,,,
+Affirmed,39,37,29,5,3,0
+Modified,17,16,16,0,0,0
+Reversed,26,23,19,3,1,0
+Outcome,,,,,,
+Elections directed,62,60,51,5,4,0
+Dismissals on record,18,16,13,3,0,0
+"Decisions on objections and/or challenges, total","1,229","1,160","1,023",29,108,13
 By regional directors,304,271,243,3,25,4
 By Board,925,889,780,26,83,9
 In stipulated elections,842,812,710,24,78,8

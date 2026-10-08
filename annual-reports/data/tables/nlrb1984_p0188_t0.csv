@@ -1,34 +1,92 @@
-row_label,col_1,col_2
-BI Analysis of 8(bX4),BI Analysis of 8(bX4),BI Analysis of 8(bX4)
-Total cases 8(bX4),1391,100 0
-8(bX4XA),110,79
-8(bX4)(B),939,67 5
-8(bX4XC),8,06
-8(b)(4XD),283,204
-8(bX4XAXB),43,31
-8(bX4XAXC),2,01
-8(bX4)(BXC),4,03
-8(bX4XAXBXC),2,0I
-',','
-8(b)(4XA),157,112
-8(bX4)(B),988,710
-8(bX4XC),16,1 I
-g(bX4XD),283,204
-B2 Analysts of 8(b)(7),B2 Analysts of 8(b)(7),B2 Analysts of 8(b)(7)
-Total cases 8(bX7),290,100 0
-8(b)(7XA),59,204
-8(bX7XB),16,55
-8(b)(7XC),208,717
-8(b)(7XAXB),2,07
-8(13)(7XAXC),3,to
-8(bX7XBXC),2,07
-',','
-8(b)(7XA),64,22 1
-8(bX7XB),20,69
-8(bX7)(C),213,73 4
-C Charges filed under sec 8(e),C Charges filed under sec 8(e),C Charges filed under sec 8(e)
-Total cases 8(e),63,100 0
-Against unions alone,60,95 2
-Against employers alone,2,32
-DCharges filed under sec 8(g),DCharges filed under sec 8(g),DCharges filed under sec 8(g)
-Total cases 8(g),34,100 0
+,Number of cases showing specific allegations,Percent of total cases
+A Charges filed against employers under sec 8(a),,
+Subsections of sec 8(a),,
+Total cases,"24,852",100.0
+8(a)(1),"3,824",15.4
+8(a)(1)(2),218,0.9
+8(a)(1)(3),"9,408",37.9
+8(a)(1)(4),205,0.8
+8(a)(1)(5),"7,280",29.3
+8(a)(1)(2)(3),176,0.7
+8(a)(1)(2)(4),4,0.0
+8(a)(1)(2)(5),124,0.5
+8(a)(1)(3)(4),653,2.6
+8(a)(1)(3)(5),"2,714",10.9
+8(a)(1)(4)(5),12,0.0
+8(a)(1)(2)(3)(4),15,0.1
+8(a)(1)(2)(3)(5),125,0.5
+8(a)(1)(2)(4)(5),8,0.0
+8(a)(1)(3)(4)(5),68,0.3
+8(a)(1)(2)(3)(4)(5),18,0.1
+Recapitulation,,
+8(a)(1),"24,852",100.0
+8(a)(2),688,2.8
+8(a)(3),"13,177",53.1
+8(a)(4),983,3.9
+8(a)(5),"10,349",40.2
+B Charges filed against unions under sec 8(b),,
+Subsections of sec 8(b),,
+Total cases,"10,580",100.0
+8(b)(1),"6,307",59.6
+8(b)(2),124,1.2
+8(b)(3),525,5.0
+8(b)(4),"1,391",13.2
+8(b)(5),7,0.1
+8(b)(6),4,0.0
+8(b)(7),290,2.7
+8(b)(1)(2),"1,432",13.5
+8(b)(1)(3),366,3.5
+8(b)(1)(5),8,0.1
+8(b)(1)(6),12,0.1
+8(b)(2)(3),4,0.0
+8(b)(3)(6),7,0.1
+8(b)(1)(2)(3),81,0.8
+8(b)(1)(2)(5),12,0.1
+8(b)(1)(2)(6),2,0.0
+8(b)(1)(3)(5),1,0.0
+8(b)(1)(3)(6),2,0.0
+8(b)(1)(2)(3)(5),2,0.0
+8(b)(1)(2)(3)(6),2,0.0
+8(b)(1)(2)(3)(5)(6),1,0.0
+Recapitulation,,
+8(b)(1),"8,228",77.7
+8(b)(2),"1,660",15.6
+8(b)(3),991,9.4
+8(b)(4),"1,391",13.2
+8(b)(5),31,0.3
+8(b)(6),30,0.2
+8(b)(7),290,2.7
+B1 Analysis of 8(b)(4),,
+Total cases 8(b)(4),"1,391",100.0
+8(b)(4)(A),110,7.9
+8(b)(4)(B),939,67.5
+8(b)(4)(C),8,0.6
+8(b)(4)(D),283,20.4
+8(b)(4)(A)(B),43,3.1
+8(b)(4)(A)(C),2,0.1
+8(b)(4)(B)(C),4,0.3
+8(b)(4)(A)(B)(C),2,0.1
+Recapitulation,,
+8(b)(4)(A),157,11.2
+8(b)(4)(B),988,71.0
+8(b)(4)(C),16,1.1
+8(b)(4)(D),283,20.4
+B2 Analysis of 8(b)(7),,
+Total cases 8(b)(7),290,100.0
+8(b)(7)(A),59,20.4
+8(b)(7)(B),16,5.5
+8(b)(7)(C),208,71.7
+8(b)(7)(A)(B),2,0.7
+8(b)(7)(A)(C),3,1.0
+8(b)(7)(B)(C),2,0.7
+Recapitulation,,
+8(b)(7)(A),64,22.1
+8(b)(7)(B),20,6.9
+8(b)(7)(C),213,73.4
+C Charges filed under sec 8(e),,
+Total cases 8(e),63,100.0
+Against unions alone,60,95.2
+Against employers alone,2,3.2
+Against unions and employers,1,1.6
+D Charges filed under sec 8(g),,
+Total cases 8(g),34,100.0

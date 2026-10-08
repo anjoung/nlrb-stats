@@ -1,2 +1,11 @@
-Participating unions,Number of elections and cross checks,Elections and cross checks won by / A. F. of L. affiliates / Number,Elections and cross checks won by / A. F. of L. affiliates / Percent,Elections and cross checks won by / C. I. O. affiliates / Number,Elections and cross checks won by / C. I. O. affiliates / Percent,Elections and cross checks won by / Unaffiliated unions / Number,Elections and cross checks won by / Unaffiliated unions / Percent,Elections and cross checks won by / No union / Number,Elections and cross checks won by / No union / Percent,Eligible voters / Number,Eligible voters / Percent casting valid votes,Valid votes cast for / Total,Valid votes cast for / A. F. of L. affiliates / Number,Valid votes cast for / A. F. of L. affiliates / Percent,Valid votes cast for / C. I. O. affiliates / Number,Valid votes cast for / C. I. O. affiliates / Percent,Valid votes cast for / Unaffiliated unions / Number,Valid votes cast for / Unaffiliated unions / Percent,Valid votes cast for / Against unions
-Total,5589,2004,35.9,1851,33.1,484,8.7,1250,22.4,846431,82.6,698812,175332,25.1,263641,37.7,90874,13.0,168965
+Type of election or cross check,Elections and cross checks,Elections and cross checks,Eligible voters,Eligible voters,Valid votes,Valid votes
+Type of election or cross check,Number,Percent,Number,Percent,Number,Percent
+Total,"5,589",100.0,"846,431",100.0,"698,812",100.0
+Consent,"3,796",67.9,"441,173",52.1,"362,714",51.9
+Elections,"3,218",57.6,"412,806",48.8,"342,303",49.0
+Cross checks,578,10.3,"28,367",3.3,"20,411",2.9
+Stipulated,467,8.4,"110,855",13.1,"93,171",13.4
+Elections,461,8.3,"110,585",13.1,"92,950",13.4
+Cross checks,6,0.1,270,,221,
+Prehearing elections,163,2.9,"16,658",2.0,"14,224",2.0
+Ordered elections,"1,163",20.8,"277,745",32.8,"228,703",32.7

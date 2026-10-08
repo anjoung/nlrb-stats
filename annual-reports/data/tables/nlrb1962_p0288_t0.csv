@@ -1,7 +1,6 @@
-Affiliation of participating union,Number of elections — Total,Number of elections — In which representation rights were won by AFL-CIO affiliates,Number of elections — In which representation rights were won by Unaffiliated unions,Number of elections — In which no representative was chosen,Number of employees involved (number eligible to vote) — Total,Number of employees involved — In units in which representation rights were won by AFL-CIO affiliates,Number of employees involved — In units in which representation rights were won by Unaffiliated unions,Number of employees involved — In units in which no representative was chosen,Total valid votes cast
-Total,7355,2708,1597,3050,536047,190858,115118,230071,482558
-AFL-CIO,4462,2557,,1905,274128,110435,,163609,230781
-Unaffiliated,2172,,1173,999,143524,,108250,35272,129358
-AFL-CIO + AFL-CIO,249,188,,61,40798,22415,,18383,35242
-AFL-CIO + Unaffiliated,643,298,290,67,113406,52457,39376,10649,100684
-Unaffiliated + Unaffiliated,135,,126,9,23047,,17008,1099,17708
+Affiliation of union holding union-shop contract,Number of polls,Number of polls,Number of polls,Number of polls,Number of polls,Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Affiliation of union holding union-shop contract,Total,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total eligible,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total,Percent of total eligible,Cast for deauthorization,Cast for deauthorization
+Affiliation of union holding union-shop contract,Total,Number,Percent of total,Number,Percent of total,Total eligible,Number,Percent of total,Number,Percent of total,Total,Percent of total eligible,Number,Percent of total eligible
+Total,28,19,67.9,9,32.1,"2,407","1,256",52.2,"1,151",47.8,"1,911",79.4,"1,293",53.7
+AFL-CIO,14,9,64.3,5,35.7,"1,256",664,52.9,592,47.1,"1,061",84.5,679,54.1
+Unaffiliated,14,10,71.4,4,28.6,"1,151",592,51.4,559,48.6,850,73.8,614,53.3

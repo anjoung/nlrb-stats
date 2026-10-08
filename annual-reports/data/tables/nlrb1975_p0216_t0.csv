@@ -1,16 +1,44 @@
-row_label,Total,Identification of filing party / AFL-CIO Unions,Identification of filing party / Teamsters,Identification of filing party / Other national unions,Identification of filing party / Other local unions,Identification of filing party / Individuals,Identification of filing party / Employers
-"RC cases — Pending July 1, 1974",3211,1989,846,189,173,14,
-RC cases — Received fiscal 1975,11037,6358,3154,591,824,110,
-RC cases — On docket fiscal 1975,14248,8347,4000,780,997,124,
-RC cases — Closed fiscal 1975,11275,6478,3364,597,745,91,
-"RC cases — Pending June 30, 1975",2973,1869,636,183,252,33,
-"RM cases — Pending July 1, 1974",257,,,,,,257
-RM cases — Received fiscal 1975,880,,,,,,880
-RM cases — On docket fiscal 1975,1137,,,,,,1137
-RM cases — Closed fiscal 1975,898,,,,,,898
-"RM cases — Pending June 30, 1975",239,,,,,,239
-"RD cases — Pending July 1, 1974",245,1,0,0,2,242,
-RD cases — Received fiscal 1975,1166,9,3,1,8,1145,
-RD cases — On docket fiscal 1975,1411,10,3,1,10,1387,
-RD cases — Closed fiscal 1975,1152,10,3,1,9,1129,
-"RD cases — Pending June 30, 1975",259,0,3,0,1,258,
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+CA cases,,,,,,,
+"Pending July 1, 1974","6,952","3,554",753,272,178,"2,185",10
+Received fiscal 1975,"20,311","8,255","2,170",646,492,"8,697",51
+On docket fiscal 1975,"27,263","11,809","2,923",918,670,"10,882",61
+Closed fiscal 1975,"19,144","7,804","2,075",580,474,"8,180",31
+"Pending June 30, 1975","8,119","4,005",848,338,196,"2,702",30
+CB cases,,,,,,,
+"Pending July 1, 1974","1,768",32,9,5,9,"1,230",483
+Received fiscal 1975,"7,575",65,11,10,22,"6,077","1,390"
+On docket fiscal 1975,"9,343",97,20,15,31,"7,307","1,873"
+Closed fiscal 1975,"7,419",72,16,12,25,"5,892","1,402"
+"Pending June 30, 1975","1,924",25,4,3,6,"1,415",471
+CC cases,,,,,,,
+"Pending July 1, 1974",624,3,0,1,12,20,588
+Received fiscal 1975,"2,098",7,0,39,19,66,"1,967"
+On docket fiscal 1975,"2,722",10,0,40,31,86,"2,555"
+Closed fiscal 1975,"2,101",6,0,36,12,52,"1,995"
+"Pending June 30, 1975",621,4,0,4,19,34,560
+CD cases,,,,,,,
+"Pending July 1, 1974",171,4,0,0,1,9,157
+Received fiscal 1975,586,12,2,3,3,13,553
+On docket fiscal 1975,757,16,2,3,4,22,710
+Closed fiscal 1975,557,12,2,3,3,15,522
+"Pending June 30, 1975",200,4,0,0,1,7,188
+CE cases,,,,,,,
+"Pending July 1, 1974",89,1,0,0,15,14,59
+Received fiscal 1975,120,1,1,0,14,12,92
+On docket fiscal 1975,209,2,1,0,29,26,151
+Closed fiscal 1975,81,0,1,0,6,3,71
+"Pending June 30, 1975",128,2,0,0,23,23,80
+CG cases,,,,,,,
+"Pending July 1, 1974",0,0,0,0,0,0,0
+Received fiscal 1975,60,0,0,0,0,0,60
+On docket fiscal 1975,60,0,0,0,0,0,60
+Closed fiscal 1975,25,0,0,0,0,0,25
+"Pending June 30, 1975",35,0,0,0,0,0,35
+CP cases,,,,,,,
+"Pending July 1, 1974",107,1,0,0,1,3,102
+Received fiscal 1975,503,3,0,2,1,20,477
+On docket fiscal 1975,610,4,0,2,2,23,579
+Closed fiscal 1975,481,2,0,2,2,21,454
+"Pending June 30, 1975",129,2,0,0,0,2,125

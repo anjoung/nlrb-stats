@@ -1,9 +1,7 @@
-Affiliation of participating unions,Number of elections — Total,Number of elections — In which representation rights were won by — AFL affiliates,Number of elections — In which representation rights were won by — CIO affiliates,Number of elections — In which representation rights were won by — Unaffiliated unions,Number of elections — In which no representative was chosen,Number of employees involved — Total,Number of employees involved — In which AFL affiliates,Number of employees involved — CIO affiliates,Number of employees involved — Unaffiliated,Number of employees involved — In units in which no representative was chosen,Total valid votes cast
-Total,4215,1721,804,324,1366,515995,140017,147614,91331,137033,453442
-1-union elections,3227,1345,557,324,1001,,,,,,
-A.F. of L. only,1996,1345,,,882,145679,69722,,,73917,127228
-C.I.O. only,986,,557,,439,100734,,53097,,,
-Unaffiliated only,207,,,149,58,11913,,,8089,3824,9387
-2-union elections,968,358,245,,365,,,,,,
-A.F.L. – C.I.O.,538,138,126,,274,69023,17946,80933,,37847,57167
-3-union elections,20,4,1,10,5,,,,,,
+Affiliation of union holding union-shop contract,Number of polls,Number of polls,Number of polls,Number of polls,Number of polls,Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Affiliation of union holding union-shop contract,Total,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total eligible,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total,Percent of total eligible,Cast for deauthorization,Cast for deauthorization
+Affiliation of union holding union-shop contract,Total,Number,Percent of total,Number,Percent of total,Total eligible,Number,Percent of total,Number,Percent of total,Total,Percent of total eligible,Number,Percent of total eligible
+Total elections,20,12,60.0,8,40.0,"1,814",433,23.9,"1,381",76.1,"1,542",85.0,842,46.4
+A. F. L.,15,11,73.3,4,26.7,471,335,71.1,136,28.9,407,86.4,282,59.9
+C. I. O.,3,0,.0,3,100.0,"1,187",0,0,"1,187",100.0,"1,010",85.1,486,40.9
+Unaffiliated,2,1,50.0,1,50.0,156,98,62.8,58,37.2,125,80.1,74,47.4

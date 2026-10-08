@@ -1,8 +1,17 @@
-Stage of disposition,All C cases — Number,All C cases — Percent of total cases closed,CA cases — Number,CA cases — Percent of total cases closed,CB cases — Number,CB cases — Percent of total cases closed,CC cases — Number,CC cases — Percent of total cases closed,CD cases — Number,CD cases — Percent of total cases closed,CE cases — Number,CE cases — Percent of total cases closed,CG cases — Number,CG cases — Percent of total cases closed,CP cases — Number,CP cases — Percent of total cases closed
-Total number of cases closed,30090,100.0,21156,100.0,7436,100.0,958,100.0,236,100.0,32,100.0,37,100.0,235,100.0
-Before issuance of complaint,25897,86.1,17562,83.0,6796,91.4,763,79.6,229,97.0,26,81.3,29,78.4,192,81.7
-"After issuance of complaint, before opening of hearing",3016,10.0,2357,11.1,411,5.5,171,17.8,0,0.0,5,15.6,5,13.5,37,15.7
-"After hearing opened, before issuance of administrative law judge's decision",165,0.5,116,0.5,39,0.5,3,0.3,0,0.0,0,0.0,0,0.0,7,3.0
-"After administrative law judge's decision, before issuance of Board decision",118,0.4,,,,,,,,,,,,,,
-After Board decision adopting administrative law judge's decision in absence of exceptions,358,1.2,,,,,,,,,,,,,,
-After Board decision,569,1.9,,,,,,,,,,,,,,
+Method and stage of disposition,Number of cases,Percent of total closed
+Total number of cases closed before issuance of complaint,229,100.0
+Agreement of the parties—informal settlement,91,39.7
+Before 10(k) notice,71,31.0
+"After 10(k) notice, before opening of 10(k) hearing",19,8.3
+"After opening of 10(k) hearing, before issuance of Board decision and determination of dispute",1,0.4
+Compliance with Board decision and determination of dispute,3,1.3
+Withdrawal,91,39.7
+Before 10(k) notice,75,32.8
+"After 10(k) notice, before opening of 10(k) hearing",11,4.8
+"After opening of 10(k) hearing, before issuance of Board decision and determination of dispute",5,2.2
+After Board decision and determination of dispute,0,0.0
+Dismissal,44,19.2
+Before 10(k) notice,36,15.7
+"After 10(k) notice, before opening of 10(k) hearing",5,2.2
+"After opening of 10(k) hearing, before issuance of Board decision and determination of dispute",1,0.4
+By Board decision and determination of dispute,2,0.9

@@ -1,7 +1,11 @@
-Stage of disposition,All R cases Number,All R cases Percent of cases closed,RC cases Number,RC cases Percent of cases closed,RM cases Number,RM cases Percent of cases closed,RD cases Number,RD cases Percent of cases closed,UD cases Number,UD cases Percent of cases closed
-Total number of cases closed,12409,100.0,10559,100.0,1103,100.0,747,100.0,143,100.0
-Before issuance of notice of hearing,6180,49.8,4937,46.8,743,67.4,500,66.9,95,66.4
-"After issuance of notice of hearing, before close of hearing",3922,31.6,3542,33.5,232,21.0,148,19.8,2,1.4
-"After hearing closed, before issuance of decision",76,0.6,68,0.6,8,0.7,0,0,0,0
-After issuance of regional director's decision,2036,16.4,1835,17.4,104,9.4,97,13.0,46,32.2
-After issuance of Board decision,195,1.6,177,1.7,16,1.5,2,0.3,0,0
+Stage of Disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CP cases,CP cases
+Stage of Disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"17,777",100.0,"11,779",100.0,"3,590",100.0,"1,404",100.0,475,100.0,37,100.0,492,100.0
+Before issuance of complaint,"15,246",85.8,"9,761",82.9,"3,335",92.9,"1,212",86.4,451,95.0,29,78.4,458,93.1
+"After issuance of complaint, before opening of hearing","1,117",6.3,851,7.2,132,3.7,111,7.9,4,0.8,4,10.8,15,3.1
+"After hearing opened, before issuance of trial examiner's decision",158,0.9,135,1.1,9,0.2,11,0.8,3,0.6,0,,0,
+"After trial examiner's decision, before issuance of Board decision",145,0.8,115,1.0,19,0.5,6,0.4,0,,0,,5,1.0
+After Board order adopting trial examiner's decision in absence of exceptions,108,0.6,90,0.8,10,0.3,3,0.2,2,0.4,0,,3,0.6
+"After Board decision, before circuit court decree",578,3.3,464,3.9,61,1.7,44,3.1,2,0.4,0,,7,1.4
+"After circuit court decree, before Supreme Court action",365,2.0,318,2.7,18,0.5,13,0.9,10,2.2,2,5.4,4,0.8
+After Supreme Court action,60,0.3,45,0.4,6,0.2,4,0.3,3,0.6,2,5.4,0,

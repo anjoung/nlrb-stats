@@ -1,21 +1,19 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"All types, total:",,,,,,
-Elections……………………,3639,17,3038,6,578,0
-Eligible voters ……………...,245768,367,191561,319,53521,0
-Validvotes…………………,212990,309,167748,262,44671,0
-RC cases:,,,,,,
-Elections……………………,3120,16,2598,6,500,0
-Eligible voters ……………...,221210,363,171428,319,49100,0
-Validvotes…………………,192450,305,150695,262,41188,0
-RMcases:,,,,,,
-Elections……………………,42,0,39,0,3,0
-Eligible voters ……………...,2029,0,1655,0,374,0
-Validvotes…………………,1644,0,1330,0,314,0
-RD cases:,,,,,,
-Elections……………………,423,1,369,0,53,0
-Eligible voters ……………...,18884,4,16347,0,2533,0
-Validvotes…………………,16293,4,14233,0,2056,0
-UD cases:,,,,,,
-Elections……………………,54,0,32,0,22,
-Eligible voters ……………...,3645,0,2131,0,1514,
-Validvotes…………………,2603,0,1490,0,1113,
+,AC,UC
+"Total, all",12,217
+Certification amended or unit clarified,8,43
+Before hearing,3,27
+By Regional Director's decision,3,27
+By Board decision,0,0
+After hearing,5,16
+By Regional Director's decision,5,16
+By Board decision,0,0
+Dismissed,2,57
+Before hearing,1,10
+By Regional Director's decision,1,10
+By Board decision,0,0
+After hearing,1,47
+By Regional Director's decision,1,47
+By Board decision,0,0
+Withdrawn,2,117
+Before hearing,2,109
+After hearing,0,8

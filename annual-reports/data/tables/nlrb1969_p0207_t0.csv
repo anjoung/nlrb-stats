@@ -1,36 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7
-"Pending July 1, 1968",5537,3048,598,193,145,1540,13
-Received fiscal 1969,12022,5234,1557,529,317,4375,10
-On docket fiscal 1969,17559,8282,2155,722,462,5915,23
-Closed fiscal 1969,12404,5453,1541,423,283,4692,12
-"Pending June 30, 1969",5155,2829,614,299,179,1223,11
-,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases
-"Pendmg July 1, 1968",1101,47,13,6,25,815,195
-Received fiscal 1969,3973,72,16,10,39,3023,813
-On docket fiscal 1969,5074,119,29,16,64,3838,1008
-Closed fiscal 1969,3909,69,16,10,47,3033,734
-"Pending June 30, 1969",1165,50,13,6,17,805,274
-,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases
-"Pending July 1, 1968",380,3,2,7,10,22,336
-Received fiscal 1969,1536,3,1,17,28,71,1416
-On docket fiscal 1969,1916,6,3,24,38,93,1752
-Closed fiscal 1969,1505,5,1,19,27,82,1371
-"Pending June 30, 1969",411,i,2,5,11,11,381
-,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases
-"Pending July 1, 1968",154,4,2,o,i,2,145
-Received fiscal 1969,579,13,4,3,8,16,535
-On docket fiscal 1969,733,17,6,3,9,18,680
-Closed fiscal 1969,545,12,5,2,6,16,504
-"Pending June 30, 1969",188,5,1,1,3,2,176
-,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases
-"Pending July 1, 196C",76,10,12,0,2,2,50
-Received fiscal 1969,52,8,1,2,2,4,35
-On docket fiscal 1969,128,18,13,2,4,6,85
-Closed fiscal 1969,98,18,13,2,3,3,59
-"Pending June 30, 1969",30,0,0,0,i,3,26
-,CI' Cases,CI' Cases,CI' Cases,CI' Cases,CI' Cases,CI' Cases,CI' Cases
-"Pending July 1, 1968",129,3,o,1,3,7,115
-Received fiscal 1969,489,3,i,9,69,19,388
-On docket fiscal 1969,618,6,i,10,72,26,503
-Closed fiscal 1969,478,3,o,9,36,21,409
-"Pending June 30, 1969",140,3,i,1,36,5,94
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending July 1, 1968","10,286","4,772","1,229",323,309,"2,573","1,080"
+Received fiscal 1969,"31,303","11,420","4,708","1,411",993,"8,476","4,295"
+On docket fiscal 1969,"41,589","16,192","5,937","1,734","1,302","11,049","5,375"
+Closed fiscal 1969,"31,597","11,739","4,718","1,247",866,"8,812","4,215"
+"Pending June 30, 1969","9,992","4,453","1,219",487,436,"2,237","1,160"
+Unfair labor practice cases,,,,,,,
+"Pending July 1, 1968","7,377","3,115",627,207,186,"2,388",854
+Received fiscal 1969,"18,651","5,333","1,580",570,463,"7,508","3,197"
+On docket fiscal 1969,"26,028","8,448","2,207",777,649,"9,896","4,051"
+Closed fiscal 1969,"18,939","5,560","1,576",465,402,"7,847","3,089"
+"Pending June 30, 1969","7,089","2,888",631,312,247,"2,049",962
+Representation cases,,,,,,,
+"Pending July 1, 1968","2,790","1,604",596,112,120,148,210
+Received fiscal 1969,"12,107","5,870","3,109",822,493,783,"1,030"
+On docket fiscal 1969,"14,897","7,474","3,705",934,613,931,"1,240"
+Closed fiscal 1969,"12,116","5,955","3,120",764,433,786,"1,058"
+"Pending June 30, 1969","2,781","1,519",585,170,180,145,182
+Union-shop deauthorization cases,,,,,,,
+"Pending July 1, 1968",37,,,,,37,
+Received fiscal 1969,173,,,,,173,
+On docket fiscal 1969,210,,,,,210,
+Closed fiscal 1969,170,,,,,170,
+"Pending June 30, 1969",40,,,,,40,
+Amendment of certification cases,,,,,,,
+"Pending July 1, 1968",27,20,3,0,2,0,2
+Received fiscal 1969,134,79,7,6,21,3,18
+On docket fiscal 1969,161,99,10,6,23,3,20
+Closed fiscal 1969,143,91,10,5,18,2,17
+"Pending June 30, 1969",18,8,0,1,5,1,3
+Unit clarification cases,,,,,,,
+"Pending July 1, 1968",55,33,3,4,1,0,14
+Received fiscal 1969,238,138,12,13,16,9,50
+On docket fiscal 1969,293,171,15,17,17,9,64
+Closed fiscal 1969,229,133,12,13,13,7,51
+"Pending June 30, 1969",64,38,3,4,4,2,13

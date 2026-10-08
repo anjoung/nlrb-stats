@@ -1,5 +1,25 @@
-Union affiliation,Elections participated in — Total,Elections participated in — Resulting in certification — Number,Elections participated in — Resulting in certification — Percent of total,Elections participated in — Resulting in decertification — Number,Elections participated in — Resulting in decertification — Percent of total,Employees involved in elections (number eligible to vote) — Total eligible,Employees involved in elections (number eligible to vote) — Resulting in certification — Number,Employees involved in elections (number eligible to vote) — Resulting in certification — Percent of total eligible,Employees involved in elections (number eligible to vote) — Resulting in decertification — Number,Employees involved in elections (number eligible to vote) — Resulting in decertification — Percent of total eligible,Valid votes cast — Total,Valid votes cast — Percent of total eligible,Valid votes cast — Cast for the union — Number,Valid votes cast — Cast for the union — Percent of total cast
-Total elections,157,55,35.0,102,65.0,13002,7478,57.5,5524,42.5,11825,90.9,5889,49.8
-A.F.L.,105,27,25.7,78,74.3,7351,3246,44.2,4105,55.8,6724,91.5,3061,45.5
-C.I.O.,41,24,58.5,17,41.5,4294,3134,73.0,1160,27.0,3905,91.6,2399,61.4
-Unaffiliated,11,4,36.4,7,63.6,1387,1098,79.2,289,20.8,1196,86.2,619,51.8
+Affiliation of participating unions,Number of elections,Number of elections,Number of elections,Number of elections,Number of elections,Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Total valid votes cast
+Affiliation of participating unions,Total,In which representation rights were won by—,In which representation rights were won by—,In which representation rights were won by—,In which no representative was chosen,Total,In units in which representation rights were won by—,In units in which representation rights were won by—,In units in which representation rights were won by—,In units where no representative was chosen,Total valid votes cast
+Affiliation of participating unions,Total,A. F. L. affiliates,C. I. O. affiliates,Unaffiliated unions,In which no representative was chosen,Total,A. F. L. affiliates,C. I. O. affiliates,Unaffiliated unions,In units where no representative was chosen,Total valid votes cast
+Total,"4,215","1,721",804,324,"1,366","515,995","140,017","147,614","91,331","137,033","453,442"
+1-union elections,,,,,,,,,,,
+A. F. L.,"2,227","1,345",,,882,"143,679","69,722",,,"73,957","127,270"
+C. I. O.,896,,537,,359,"100,754",,"53,097",,"47,657","92,116"
+Unaffiliated,207,,,149,58,"11,913",,,"8,089","3,824","9,887"
+2-union elections,,,,,,,,,,,
+A. F. L.-C. I. O.,358,138,184,,36,"65,022","17,946","40,916",,"6,160","56,847"
+A. F. L.-unaffiliated,134,55,,71,8,"66,475","25,801",,"36,867","3,807","57,141"
+A. F. L.-A. F. L.,166,151,,,15,"19,064","18,066",,,998,"17,140"
+C. I. O.-unaffiliated,147,,64,81,2,"81,071",,"49,732","31,332",7,"68,158"
+C. I. O.-C. I. O.,10,,8,,2,"1,665",,"1,384",,281,"1,533"
+Unaffiliated-unaffiliated,9,,,9,0,"1,780",,,"1,780",0,"1,477"
+3-union elections,,,,,,,,,,,
+A. F. L.-C. I. O.-unaffiliated,20,4,5,10,1,"13,352","2,896",611,"9,826",19,"11,653"
+A. F. L.-A. F. L.-A. F. L.,11,11,,,0,949,949,,,0,799
+A. F. L.-A. F. L.-C. I. O.,18,12,4,,2,"4,407","2,828","1,456",,123,"4,080"
+A. F. L.-A. F. L.-unaffiliated,5,2,,2,1,"3,810","1,431",,"2,179",200,"3,445"
+4-union elections,,,,,,,,,,,
+A. F. L.-A. F. L.-A. F. L.-C. I. O.,1,1,0,,0,6,6,0,,0,6
+A. F. L.-A. F. L.-C. I. O.-unaffiliated,2,2,0,0,0,372,372,0,0,0,354
+A. F. L.-C. I. O.-C. I. O.-unaffiliates,2,0,1,1,0,"1,301",0,403,898,0,"1,174"
+A. F. L.-C. I. O.-unaffiliated-unaffiliated,2,0,1,1,0,375,0,15,360,0,362

@@ -1,27 +1,120 @@
-row_label,col_1,col_2,col_3
-20-C-1676,Peerless Woolen Mills. Peerless Yeast Co.,10-C-2293 10-C-2183,Strachan Shipping Co. Swift Manufacturing
-16-C-1501,"Quarles Manufacturing Co., N. B. Quarels, d/b/a.",10-0-2294,Co. Tennessee Valley Broad-
-16-C-1420 15-C-1216,"Raizen & Raizen Oil Co. Rutter-Rex, J. H., Man- ufacturing Co., Inc.",2-0-6907,casting. Tide Water Associated Oil Co.
-19P-C-0018,S & K Lumber Co.,20-C-1722 17-G1542,United Engineering Co. United States Trailer Manufacturing Co.
-19P-C-0050 15M-C-1227 18-C-1417 16-C-1444,"Saelens Radio Service. Salant & Salant, Inc. Sioux City Brewing Co. Southern Pine Lumber",7-0-1769,Vulcan Forge Co.
-17-C-1444,Co. Springfield Garment Manufacturing Co. Stainless Ware Co. of,7-C-1537,Western Board & Paper Co. Western Can Co. Weyerhaeuser
-,,20-C-1716,Timber
-7-C-1747,America.,19P-C-0047,Co.
-10-C-2077,Standard-Coosa- Thatcher Co.,2-0-7036,"Zausner Foods, Inc."
-LMRA:,of unfair under,,by an
-B. CA cases-charges labor practices committed employer section 8 (a),B. CA cases-charges labor practices committed employer section 8 (a),B. CA cases-charges labor practices committed employer section 8 (a),B. CA cases-charges labor practices committed employer section 8 (a)
-3-CA-78 8-CA-96 21-CA-157,"Allied Mills Inc. Alside, Inc. American Foundry, Dominie Meaglia. American Packing Corp.",32-CA-26 20-CA-71 10-CA-261,"Black, L. A., Rice Mill- ing Association, Inc. Blackburn Auto Parts. Blue Ridge Glass Corp."
-2-CA-17 10-CA-115,"American Thread Co., The.",19-CA-95 6-CA-53 20-CA-87,"Boeing Airplane Co. Brookville Glove Co. Brown, L. G."
-10-CA-196 1-CA-18,"Anchor Rub Co. Anderson Manufactur- ing Co., Albert & J. M.",34-CA-22,"Burlington Mills Corp., Randleman Hosiery Plant."
-10-CA-201 7-CA-39,Andrew Co. Ann Arbor Press & Arthur J. Wiltse.,38-CA-18,"Carmelo Quetell h. n. c. Panaderia ""La Esper- anza."""
-2-CA-188 19-CA-28 10-CA-576,"Arval Terminal Inc. Atkinson, Guy F., Co.",36-CA-23 16-CA-82,"Carter Lumber Co. Carter, W. T., & Brother"
-10-CA-574,Atlanta Brick & Tile Co. At Broadcasting,7-CA-153 10-CA-91,Castaloy Corp. Cen-Tennial Cotton Gin Co.
-21-CA-246,Co. Axelson Manufacturing,8-CA-76,"Central Tower, Inc. Chicago Freight Car"
-,Co.,19-CA-13,& Parts Co.
-1-CA-286,"Barry, William J, Co., Inc.",10-CA-33,Chicopee Manufactur- ing Corp of Georgia.
-16-CA-46 8-CA-37,Beatrice Foods Co. Belden Brick Co.,9-CA-91,"Cincinnati Steel Cast- ings Co., The."
-10-CA-156 17-CA-12,Bell Bakeries Inc. Belle Maid Manufac-,20-04-117,Clara Val Packing Co. Coca-Cola Bottling Co.
-,"turing Co. Bercut-Richards Pack- ing Co., d/b/a Oregon",8-CA-113 2-CA-6,Colgate Manufacturing Corp.
-20-CA-26,House Lumber Co.,10-CA-554,Combustion Engineer- ing Co.
-4-CA-15,Bethlehem Steel Co. (Shipbuilding Divi- sion & Bethlehem,10-CA-173,"Cook, J. B., Auto Ma- chine Co., Inc."
-,Sparrows).,10-CA-101 10-CA-102,Cookeville Shirt Co. Cookeville Shirt Co.
+I. Unfair Labor Practice Cases,
+"A. NLRA: C cases—charges of unfair labor practices committed by an employer under section 8, prior to amendment",
+16-C-1530,"Abercrombie, J. S., Co."
+10-C-2206,Aragon-Baldwin Mills.
+2-C-6932,"Arvel Terminals, Inc."
+14-C-1264,Auto Stove Works.
+4-C-1809,B & Z Hosiery Products Co.
+15-C-1210,"Bentley, J. A., Lumber Co."
+19-C-1540,"Bitter Root Creosote Treating Co., Inc."
+17-C-1549,Black & Decker Manufacturing Co.
+10-C-2217,California Cotton Mills Co.
+15-C-1301,Cathey Lumber Co.
+10-C-2219,"Cedartown Yarn Mills, Inc."
+10-C-1949,Chicopee Manufacturing Corp.
+10-C-2056,Columbus Manufacturing Co.
+10-C-1937,Cordele Manufacturing Co.
+15-C-1298,"Crosby Chemicals, Inc."
+16-C-1540,Cummer Graham Co.
+10-C-2200,Curry Bros. & Artcraft Plating Works.
+10-C-2222,Dixie Mercerizing Co.
+2-C-6259,"E. A. Laboratories, Inc."
+10-C-2215,Eastman Cotton Mills
+16-C-1322,"Fleming & Sons, Inc."
+7-C-1790,Ford Motor Co.
+4-C-1837,"Franklin Hosiery Mills, Inc."
+14-C-1296,Granite City Steel Co.
+10-C-2259,"H & H Manufacturing Co., Inc."
+21-C-3104,"Hammond Lumber Co., Terminal Island Yard."
+10-C-2249,"Hassenfeld Bros., Inc., Empire Pencil Co., Division of."
+16E-C-0001,Hicks Hayward Co.
+10-C-2066,Highland Park Manufacturing Co. Plant.
+4-C-1722,Holloway Bus Co.
+10-C-2122,"Horton's Laundry, Inc."
+13-C-3187,Illinois Bell Telephone Co.
+16-C-1439,Jaques Powers Saw Co.
+6-C-1137,"Joy Togs, Inc."
+15M-C-0021,"Lingle Refrigerator Co., Inc."
+10-C-2279,MacDonald Printing Co.
+10-C-1961,"Mason & Hughes, Inc."
+16-C-1404,Master Tank & Welding.
+23-C-0068,Metropolitan Meat Market.
+13-C-2689,"Montgomery Ward & Co., Inc."
+13-C-3017,Myers Products Corp.
+10-C-2038,National Mattress Co.
+10-C-2112,"Neely Cotton Mills, Inc."
+5-C-2166,Old Colony Box Co.
+1-C-3107,"Olin Industries, Inc."
+10-C-2184,"Opelika Textile Mills, Inc."
+14-C-1273,"Opelika Textile Mills, Inc."
+16-C-1479,Pauls Valley Milling Co.
+10-C-2039,Peerless Woolen Mills.
+20-C-1676,Peerless Yeast Co.
+16-C-1501,"Quarles Manufacturing Co., N. B. Quarels, d/b/a."
+16-C-1420,Raizen & Raizen Oil Co.
+15-C-1216,"Rutter-Rex, J. H., Manufacturing Co., Inc."
+19P-C-0018,S & K Lumber Co.
+19P-C-0050,Saelens Radio Service.
+15M-C-1227,"Salant & Salant, Inc."
+18-C-1417,Sioux City Brewing Co.
+16-C-1444,Southern Pine Lumber Co.
+17-C-1444,Springfield Garment Manufacturing Co.
+7-C-1747,Stainless Ware Co. of America.
+10-C-2077,Standard-Coosa-Thatcher Co.
+16-C-1572,"Stone, J. E., Lumber Co."
+10-C-2293,Strachan Shipping Co.
+10-C-2183,Swift Manufacturing Co.
+10-C-2294,Tennessee Valley Broadcasting.
+2-C-6907,Tide Water Associated Oil Co.
+20-C-1722,United Engineering Co.
+17-C-1542,United States Trailer Manufacturing Co.
+7-C-1769,Vulcan Forge Co.
+7-C-1537,Western Board & Paper Co.
+20-C-1716,Western Can Co.
+19P-C-0047,Weyerhaeuser Timber Co.
+2-C-7036,"Zausner Foods, Inc."
+B. LMRA: CA cases—charges of unfair labor practices committed by an employer under section 8 (a),
+3-CA-78,Allied Mills Inc.
+8-CA-96,"Alside, Inc."
+21-CA-157,"American Foundry, Dominie Meaglia."
+2-CA-17,American Packing Corp.
+10-CA-115,"American Thread Co., The."
+10-CA-196,Anchor Rub Co.
+1-CA-18,"Anderson Manufacturing Co., Albert & J. M."
+10-CA-201,Andrew Co.
+7-CA-39,Ann Arbor Press & Arthur J. Wiltse.
+2-CA-188,Arval Terminal Inc.
+19-CA-28,"Atkinson, Guy F., Co."
+10-CA-576,Atlanta Brick & Tile Co.
+10-CA-574,Atlanta Broadcasting Co.
+21-CA-246,Axelson Manufacturing Co.
+1-CA-286,"Barry, William J., Co., Inc."
+16-CA-46,Beatrice Foods Co.
+8-CA-37,Belden Brick Co.
+10-CA-156,Bell Bakeries Inc.
+17-CA-12,Belle Maid Manufacturing Co.
+20-CA-26,"Bercut-Richards Packing Co., d/b/a Oregon House Lumber Co."
+4-CA-15,Bethlehem Steel Co. (Shipbuilding Division & Bethlehem Sparrows).
+32-CA-26,"Black, L. A., Rice Milling Association, Inc."
+20-CA-71,Blackburn Auto Parts.
+10-CA-261,Blue Ridge Glass Corp.
+19-CA-95,Boeing Airplane Co.
+6-CA-53,Brookville Glove Co.
+20-CA-87,"Brown, L. G."
+34-CA-22,"Burlington Mills Corp., Randleman Hosiery Plant."
+38-CA-18,"Carmelo Quetell h. n. c. Panaderia ""La Esperanza."""
+36-CA-23,Carter Lumber Co.
+16-CA-82,"Carter, W. T., & Brother"
+7-CA-153,Castaloy Corp.
+10-CA-91,Cen-Tennial Cotton Gin Co.
+8-CA-76,"Central Tower, Inc."
+19-CA-13,Chicago Freight Car & Parts Co.
+10-CA-33,Chicopee Manufacturing Corp of Georgia.
+9-CA-91,"Cincinnati Steel Castings Co., The."
+20-CA-117,Clara Val Packing Co.
+8-CA-113,Coca-Cola Bottling Co.
+2-CA-6,Colgate Manufacturing Corp.
+10-CA-554,Combustion Engineering Co.
+10-CA-173,"Cook, J. B., Auto Machine Co., Inc."
+10-CA-101,Cookeville Shirt Co.
+10-CA-102,Cookeville Shirt Co.

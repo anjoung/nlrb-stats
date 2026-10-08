@@ -1,23 +1,91 @@
-row_label,Types of formal actions taken,Cases in which formal actions taken,Total formal actions taken,Formal actions taken by type of case / CA,CB,CC,CD / Jurisdictional disputes,Unfair labor practices,CE,CP,CA combined with CB,CA combined with representation cases,Other C combinations
-10(k) notices of hearings issued,10(k) notices of hearings issued,123,55,,,,55,,,,,,
-Complaints issued,Complaints issued,3708,2869,2180,271,156,,,15,2,92,114,47
-Backpay specifications issued,Backpay specifications issued,86,60,54,4,,,,,,1,1,
-"Hearings completed, total","Hearings completed, total",1715,1734,881,126,49,55,4,0,13,37,74,13
-Initial ULP hearings,Initial ULP hearings,1616,1172,824,113,49,13,0,0,13,32,88,13
-Backpay hearings,Backpay hearings,47,52,45,3,0,,,,0,1,3,
-Other hearings,Other hearings,52,35,12,10,0,,,,0,4,9,0
-"Decisions by administrative law judges, total","Decisions by administrative law judges, total",1519,1070,773,124,36,,,2,1,38,71,13
-Initial ULP decisions,Initial ULP decisions,1397,990,726,109,36,,,2,1,32,68,12
-Backpay decisions,Backpay decisions,80,43,28,12,0,,,,0,1,2,0
-Supplemental decisions,Supplemental decisions,43,28,19,3,0,,,,0,1,4,1
-"Decisions and orders by the Board, total","Decisions and orders by the Board, total",1900,1387,954,159,61,59,6,1,16,34,67,30
-Upon consent of parties,Upon consent of parties,210,147,,,,,,,,,,
-Initial decisions,Initial decisions,,,,,,,,,,,,
-Backpay decisions,Backpay decisions,9,8,,,,,,,,,,
-Adopting administrative law judge's decision (no exceptions filed),Adopting administrative law judge's decision (no exceptions filed),354,265,224,32,9,,,,,,,
-Initial ULP decisions,Initial ULP decisions,,,,,,,,,,,,
-Backpay decisions,Backpay decisions,10,6,,,,,,,,,,
-Contested,Contested,,,,,,,,,,,,
-Initial ULP decisions,Initial ULP decisions,1155,837,576,88,34,50,6,1,16,22,44,19
-Decisions based on stipulated record,Decisions based on stipulated record,,,,,,,,,,,,
-Backpay decisions,Backpay decisions,85,57,42,7,1,,,,,,,
+,Number of cases showing specific allegations,Percent of total cases
+A. Charges filed against employers under sec. 8(a),,
+Subsections of sec. 8(a),,
+Total cases,"17,978",100.0
+8(a)(1),"2,131",11.9
+8(a)(1)(2),397,2.2
+8(a)(1)(3),"9,283",51.6
+8(a)(1)(4),83,0.5
+8(a)(1)(5),"3,614",20.1
+8(a)(1)(2)(3),244,1.4
+8(a)(1)(2)(4),5,0.0
+8(a)(1)(2)(5),111,0.6
+8(a)(1)(3)(4),330,1.8
+8(a)(1)(3)(5),"1,551",8.6
+8(a)(1)(4)(5),6,0.0
+8(a)(1)(2)(3)(4),13,0.1
+8(a)(1)(2)(3)(5),133,0.7
+8(a)(1)(2)(4)(5),11,0.1
+8(a)(1)(3)(4)(5),46,0.3
+8(a)(1)(2)(3)(4)(5),20,0.1
+Recapitulation,,
+8(a)(1),"17,978",100.0
+8(a)(2),934,5.2
+8(a)(3),"11,620",64.6
+8(a)(4),514,2.9
+8(a)(5),"5,492",30.5
+B. Charges filed against unions under sec. 8(b),,
+Subsections of sec. 8(b),,
+Total cases,"9,654",100.0
+8(b)(1),"4,239",43.9
+8(b)(2),199,2.1
+8(b)(3),463,4.8
+8(b)(4),"2,630",27.2
+8(b)(5),5,0.1
+8(b)(6),12,0.1
+8(b)(7),553,5.7
+8(b)(1)(2),"1,260",13.1
+8(b)(1)(3),197,2.0
+8(b)(1)(5),5,0.1
+8(b)(1)(6),2,0.0
+8(b)(2)(3),24,0.2
+8(b)(2)(5),1,0.0
+8(b)(2)(6),5,0.1
+8(b)(3)(6),2,0.0
+8(b)(1)(2)(3),45,0.5
+8(b)(1)(2)(5),5,0.1
+8(b)(1)(3)(5),1,0.0
+8(b)(1)(3)(6),3,0.0
+8(b)(2)(3)(6),1,0.0
+8(b)(1)(2)(3)(5),2,0.0
+Recapitulation,,
+8(b)(1),"5,759",59.7
+8(b)(2),"1,542",16.0
+8(b)(3),738,7.6
+8(b)(4),"2,630",27.2
+8(b)(5),19,0.2
+8(b)(6),25,0.3
+8(b)(7),553,5.7
+B1. Analysis of 8(b)(4),,
+Total cases 8(b)(4),"2,630",100.0
+8(b)(4)(A),70,2.7
+8(b)(4)(B),"1,902",72.3
+8(b)(4)(C),7,0.3
+8(b)(4)(D),604,23.0
+8(b)(4)(A)(B),32,1.2
+8(b)(4)(A)(C),1,0.0
+8(b)(4)(B)(C),1,0.0
+8(b)(4)(A)(B)(C),13,0.5
+Recapitulation,,
+8(b)(4)(A),116,4.4
+8(b)(4)(B),"1,948",74.1
+8(b)(4)(C),22,0.8
+8(b)(4)(D),604,23.0
+B2. Analysis of 8(b)(7),,
+Total cases 8(b)(7),553,100.0
+8(b)(7)(A),110,19.9
+8(b)(7)(B),27,4.9
+8(b)(7)(C),400,72.3
+8(b)(7)(A)(B),1,0.2
+8(b)(7)(A)(C),3,0.5
+8(b)(7)(B)(C),1,0.2
+8(b)(7)(A)(B)(C),11,2.0
+Recapitulation,,
+8(b)(7)(A),125,22.6
+8(b)(7)(B),40,7.2
+8(b)(7)(C),415,75.0
+C. Charges filed under sec. 8(e),,
+Total cases 8(e),94,100.0
+Against unions alone,80,85.1
+Against employers alone,0,
+Against unions and employers,14,14.9

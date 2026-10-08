@@ -1,4 +1,8 @@
-row_label,Participating unions,Total elections,Elections won by unions / Percent won,Elections won by unions / Total,Elections won by unions / AFL-CIO unions,Elections won by unions / Other national unions,Elections won by unions / Other local unions,Elections in which no representative chosen,Employees eligible to vote / Total,Employees eligible to vote / In elections won by unions / AFL-CIO unions,Employees eligible to vote / In elections won by unions / Other national unions,Employees eligible to vote / In elections won by unions / Other local unions,In elections where no representative chosen
-Section A. All representation elections — AFL-CIO,3022,45.2,1366,1366,,,1656,186082,71658,71658,,,115184
-Total representation elections,3399,47.4,1611,1420,49,142,1782,215137,86678,75248,2989,8441,128459
-Other rows,,,,,,,,,,,,,
+Affiliation of union holding union-shop contract,Number of polls,Number of polls,Number of polls,Number of polls,Number of polls,Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Affiliation of union holding union-shop contract,Total,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total eligible,In polls,In polls,In polls,In polls,Total,Percent of total eligible,Cast for deauthorization,Cast for deauthorization
+Affiliation of union holding union-shop contract,Total,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total eligible,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total,Percent of total eligible,Cast for deauthorization,Cast for deauthorization
+Affiliation of union holding union-shop contract,Total,Number,Percent of total,Number,Percent of total,Total eligible,Number,Percent of total,Number,Percent of total,Total,Percent of total eligible,Number,Percent of total eligible
+Total,31,13,41.9,18,58.1,"1,555",414,26.6,"1,141",73.4,"1,348",86.7,347,22.3
+AFL-CIO unions,25,10,40.0,15,60.0,"1,163",360,31.0,803,69.0,"1,000",86.0,301,25.9
+Other national unions,1,1,100.0,0,,12,12,100.0,0,,10,83.3,10,83.3
+Other local unions,5,2,40.6,3,60.0,380,42,11.1,338,88.9,338,88.9,36,9.5

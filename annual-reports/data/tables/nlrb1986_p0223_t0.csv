@@ -1,43 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7
-"Pending October 1, 1985","• 12,616",6219,1520,460,843,3570,4
-Received fiscal 1986,24084,10977,2823,835,1190,8259,0
-On docket fiscal 1986,36700,17196,4343,1295,2033,11829,4
-Closed fiscal 1986,23180,10430,2858,632,1141,8117,2
-"Pending September 30, 1986",13520,6766,1485,663,892,3712,2
-,CB cases,CB cases,CB cases,CB cases,CB cases,CB cases,CB cases
-"Pending October 1, 1985",,,,,,,
-,"• 2,823",37,14,9,26,2031,706
-Received fiscal 1986,8496,184,13,7,29,7117,1146
-On docket fiscal 1986,11319,22.1,27,16,55,9148,1852
-Closed fiscal 1986,8266,57,16,7,30,7012,1144
-"Pending September 30, 1986",3053,164,It,9,25,2136,708
-,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases
-"Pending October I, 1985",.641,9,0,I,17,1,613
-Received fiscal 1986,1206,8,0,10,13,0,1175
-On docket fiscal 1986,1847,17,0,II,30,1,1788
-Closed fiscal 1986,1320,14,0,II,17,0,1278
-"Pending September 30, 1986",527,3,0,0,13,I,510
-,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases
-"Pending October I, 1985",• 124,8,2,0,6,0,108
-Received fiscal 1986,298,9,1,0,5,0,283
-1986,,,,,,,
-On docket fiscal,422,17,3,0,II,0,391
-Closed fiscal 1986,323,14,2,0,8,0,299
-,CE cases,CE cases,CE cases,CE cases,CE cases,CE cases,CE cases
-"Pending October I, 1985",• 55,0,0,0,10,2,43
-Received fiscal 1986,67,2,0,2,3,0,60
-On docket fiscal 1986,122,2,0,2,13,2,103
-Closed fiscal 1986,75,2,0,I,6,0,66
-"Pending September 30, 1986",47,0,0,I,7,2,37
-,CG cases,CG cases,CG cases,CG cases,CG cases,CG cases,CG cases
-,,0,,,0,0,6
-"Pending 0,tober 1, 1985 Received fiscal 1986",•6 25,0,0 0,0 0,1,0,24
-On docket fiscal 1986,31,0,0,0,1,0,30
-Closed fiscal 1986,20,0,,0,1,0,19
-"Pending September 30, 1986",11,0,0 0,0,0,0,II
-,CP,CP,CP,CP,CP,CP,CP
-,,,,cases,,,
-"Pending October I, 1985",•I30,1,0,0,0,2,127
-Received fiscal 1986,259,1,0,6,6,0,246
-On docket fiscal 1986,389,2,0,6,6,2,373
-"Pending September 30, 1986",123,2,0,1,I,2,117
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending October 1, 1985","19,271","7,497","2,055",549,"1,111","6,143","1,916"
+Received fiscal 1986,"42,322","14,348","4,363","1,049","1,743","17,206","3,613"
+On docket fiscal 1986,"61,593","21,845","6,418","1,598","2,854","23,349","5,529"
+Closed fiscal 1986,"41,604","13,709","4,481",855,"1,708","17,015","3,836"
+"Pending September 30, 1986","19,989","8,136","1,937",743,"1,146","6,334","1,693"
+Unfair labor practice cases,,,,,,,
+"Pending October 1, 1985","16,395","6,274","1,536",470,902,"5,606","1,607"
+Received fiscal 1986,"34,435","11,181","2,837",860,"1,247","15,376","2,934"
+On docket fiscal 1986,"50,830","17,455","4,373","1,330","2,149","20,982","4,541"
+Closed fiscal 1986,"33,450","10,517","2,876",656,"1,208","15,129","3,064"
+"Pending September 30, 1986","17,380","6,938","1,497",674,941,"5,853","1,477"
+Representation cases,,,,,,,
+"Pending October 1, 1985","2,640","1,187",509,77,194,460,213
+Received fiscal 1986,"7,296","3,027","1,482",180,467,"1,615",525
+On docket fiscal 1986,"9,936","4,214","1,991",257,661,"2,075",738
+Closed fiscal 1986,"7,532","3,054","1,570",190,473,"1,652",593
+"Pending September 30, 1986","2,404","1,160",421,67,188,423,145
+Union-shop deauthorization cases,,,,,,,
+"Pending October 1, 1985",77,,,,,77,
+Received fiscal 1986,209,,,,,209,
+On docket fiscal 1986,286,,,,,286,
+Closed fiscal 1986,228,,,,,228,
+"Pending September 30, 1986",58,,,,,58,
+Amendment of certification cases,,,,,,,
+"Pending October 1, 1985",12,5,1,1,5,0,0
+Received fiscal 1986,27,13,12,1,1,0,0
+On docket fiscal 1986,39,18,13,2,6,0,0
+Closed fiscal 1986,24,13,7,2,2,0,0
+"Pending September 30, 1986",15,5,6,0,4,0,0
+Unit clarification cases,,,,,,,
+"Pending October 1, 1985",147,31,9,1,10,0,96
+Received fiscal 1986,355,127,32,8,28,6,154
+On docket fiscal 1986,502,158,41,9,38,6,250
+Closed fiscal 1986,370,125,28,7,25,6,179
+"Pending September 30, 1986",132,33,13,2,13,0,71

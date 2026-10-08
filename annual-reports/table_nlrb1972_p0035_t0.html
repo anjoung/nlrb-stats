@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -124,22 +132,42 @@ ul.link-list li { margin: 0.3rem 0; }
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th></th><th>Item</th><th>Count</th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">Dismissed</th><td>13</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Settled or placed on courts&#x27; inactive docket</th><td>105</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Awaiting action at end of the fiscal year</th><td>14</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Total NLRB cases ruled on</th><td>341</td></tr>
+<tr><th class="stub" scope="row">Affirmed in full</th><td>239</td></tr>
+<tr><th class="stub" scope="row">Affirmed with modification</th><td>39</td></tr>
+<tr><th class="stub" scope="row">Remanded to NLRB</th><td>16</td></tr>
+<tr><th class="stub" scope="row">Partially affirmed and partially remanded</th><td>5</td></tr>
+<tr><th class="stub" scope="row">Set aside</th><td>42</td></tr>
+<tr><th class="stub" scope="row">Granted</th><td>110</td></tr>
+<tr><th class="stub" scope="row">Denied</th><td>12</td></tr>
+<tr><th class="stub" scope="row">Withdrawn</th><td>28</td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1972_p0035_t0.csv" download>Download this table (CSV)</a></p>
+<p class="check"><b>0 of 9</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 35.</b> Structure: the crop is a page region, not a captioned numbered table, and it contains TWO separate inline tabulations separated by several paragraphs of narrative text. Both have the same two-column form (row label + one count), so they are transcribed one under the other in a single grid; a reader should treat them as two blocks.
+
+Block 1 (rows 1-6, &quot;Total NLRB cases ruled on&quot; through &quot;Set aside&quot;): a breakdown of appeals-court rulings in fiscal 1972. &quot;Total NLRB cases ruled on&quot; (341) is a total row, indented and set off by a horizontal rule above the five component lines; the components sum to 341 (239+39+16+5+42), so the block is internally consistent as printed.
+
+Block 2 (rows 7-9, &quot;Granted&quot;, &quot;Denied&quot;, &quot;Withdrawn&quot;): NLRB injunction activity in U.S. district courts in fiscal 1972, introduced by the sentence &quot;The following shows NLRB injunction activity in district courts in fiscal 1972:&quot;.
+
+No column headings are printed for either block, so header_rows is empty. No footnotes are printed under either block.
+
+Crop issues: the topmost line of the image is clipped to roughly its lower half and is the lead-in sentence to block 1 (legible only as something like &quot;A breakdown of appeals court rulings in fiscal 1972 follows:&quot;); it is running text, not a column heading, so it is not transcribed. At the bottom, &quot;Withdrawn ... 28&quot; sits flush against the crop edge; block 2 may continue with further lines (e.g. a total or additional dispositions) below the crop. Note that 110 + 12 + 28 = 150, and the narrative says the 110 granted were 90 percent of contested cases, which suggests the three printed lines are not a closed set.
+
+All values are legible and unambiguous; no doubtful digits or footnote markers were seen.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1972_p0035.webp" loading="lazy" alt="Source page 35 of NLRB FY1972 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1972_p0035_t0_p0035.webp" loading="lazy" alt="Source page 35 of NLRB FY1972 annual report">
 <figcaption>Source: NLRB Annual Report FY1972, p. 35.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

@@ -1,26 +1,39 @@
-Stage and method,All C cases / Number of cases,All C cases / Percent of cases closed,NLRA C cases / Number of cases,NLRA C cases / Percent of cases closed,LMRA CA cases / Number of cases,LMRA CA cases / Percent of cases closed,LMRA other C cases / Number of cases,LMRA other C cases / Percent of cases closed
-Total number of cases closed,3643,100.0,2048,100.0,1165,100.0,430,100.0
-"Before formal action, total",3382,92.8,1799,87.8,1162,99.7,421,97.9
-Before formal action — Adjusted,559,15.3,192,9.4,297,25.5,70,16.3
-Before formal action — Withdrawn,1651,45.3,895,43.7,527,45.2,229,53.2
-Before formal action — Dismissed,1165,32.0,711,34.7,335,28.7,119,27.7
-Before formal action — Closed otherwise,7,.2,1,,3,.3,3,.7
-"After formal action, total",261,7.2,249,12.2,3,.3,9,2.1
-"After formal action — Before hearing, total",34,.9,24,1.2,3,.3,7,1.6
-Before hearing — Adjusted,17,.5,14,.7,2,.2,1,.2
-Before hearing — Withdrawn,13,.4,7,.3,0,0,6,1.4
-Before hearing — Dismissed,4,.1,3,.2,1,.1,0,0
-"After formal action — After hearing, total",32,.9,30,1.4,0,0,2,.5
-After hearing — Adjusted,5,.1,5,.2,0,0,0,0
-After hearing — Compliance with intermediate report,12,.4,12,.6,0,0,0,0
-After hearing — Withdrawn,10,.3,8,.4,0,0,2,.5
-After hearing — Dismissed,5,.1,5,.2,0,0,0,0
-"After formal action — After Board decision, total",105,2.9,105,5.2,0,0,0,0
-After Board decision — Compliance,55,1.5,55,2.7,0,0,0,0
-After Board decision — Dismissed,43,1.2,43,2.1,0,0,0,0
-After Board decision — Closed otherwise,7,.2,7,.4,0,0,0,0
-"After formal action — After court action, total",90,2.4,90,4.4,0,0,0,0
-After court action — Compliance with consent decree,29,.8,29,1.4,0,0,0,0
-After court action — Compliance with court order,46,1.3,46,2.2,0,0,0,0
-After court action — Dismissed,9,.2,9,.5,0,0,0,0
-After court action — Closed otherwise,6,.1,6,.3,0,0,0,0
+Location of regional office,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases,Union authorization cases
+Location of regional office,All cases,"Total, C","NLRA, C","LMRA, C","Total, R","NLRA, R","LMRA, R",Union authorization cases
+Total,"36,735","3,598",296,"3,302","7,038",643,"6,395","26,099"
+Boston,"3,039",286,17,269,638,48,590,"2,115"
+New York,"5,190",525,30,495,689,49,640,"3,976"
+Buffalo,968,85,3,82,169,5,164,714
+Philadelphia,"1,510",139,8,131,264,29,235,"1,107"
+Baltimore and subregions,"1,301",219,14,205,385,47,338,697
+Baltimore,916,131,6,125,224,29,195,561
+Winston-Salem,174,58,8,50,114,17,97,2
+"Santurce, P. R.",211,30,0,30,47,1,46,134
+Pittsburgh,"1,056",133,10,123,221,14,207,702
+Detroit,"1,895",131,14,117,333,21,312,"1,431"
+Cleveland,"1,565",99,10,89,255,33,222,"1,211"
+Cincinnati and subregion,"1,866",164,16,148,406,45,361,"1,296"
+Cincinnati,"1,223",109,10,99,280,27,253,834
+Indianapolis,643,55,6,49,126,18,108,462
+Atlanta,790,304,20,284,376,39,337,110
+Chicago and subregion,"2,783",272,19,253,420,41,379,"2,091"
+Chicago,"2,106",142,12,130,368,38,330,"1,596"
+Milwaukee,677,130,7,123,52,3,49,495
+St. Louis,"2,601",125,14,111,414,23,391,"2,062"
+New Orleans and subregion,667,118,12,106,248,28,220,301
+New Orleans,541,80,8,72,168,17,151,293
+Memphis,126,38,4,34,80,11,69,8
+Fort Worth and subregion,743,119,14,105,351,58,293,273
+Fort Worth,645,103,13,90,290,47,243,252
+El Paso,98,16,1,15,61,11,50,21
+Kansas City and subregion,"1,975",90,18,72,376,25,351,"1,509"
+Kansas City,"1,403",57,11,46,262,17,245,"1,084"
+Denver,572,33,7,26,114,8,106,425
+Minneapolis,"1,458",69,8,61,223,12,211,"1,166"
+Seattle and subregion,"2,821",187,11,176,359,32,327,"2,275"
+Seattle,"1,568",152,8,144,190,13,177,"1,226"
+Portland,"1,253",35,3,32,169,19,150,"1,049"
+San Francisco,"1,863",181,29,152,319,34,285,"1,363"
+Los Angeles and subregion,"2,644",352,29,323,592,60,532,"1,700"
+Los Angeles,"2,577",336,27,309,557,52,505,"1,684"
+Honolulu,67,16,2,14,35,8,27,16

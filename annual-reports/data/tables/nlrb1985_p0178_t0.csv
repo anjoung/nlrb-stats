@@ -1,7 +1,11 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10
-Total number of cases closed,7807,100 0,5566,100 0,573,1000,1668,100 0,228,1000
-Before issuance of notice of hearing,2443,31 3,1331,239,295,515,817,490,171,750
-"After issuance of notice, before close of heanng",3945,505,3113,559,185,323,647,388,19,83
-"After hearing closed, before Issuance of decision",75,1 0,62,1 1,5,09,8,0 5,1,04
-After Issuance of Regional Director's decision,1168,150,922,166,74,129,172,103,34,149
-After Issuance of Board decision,176,22,138,25,14,24,24,14,3,13
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CG cases,CG cases,CP cases,CP cases
+Stage of disposition,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed
+Total number of cases closed,"33,946",100.0,"23,726",100.0,"8,444",100.0,"1,090",100.0,288,100.0,51,100.0,38,100.0,309,100.0
+Before issuance of complaint,"28,283",83.3,"19,300",81.3,"7,546",89.4,865,79.4,271,94.1,40,78.4,30,78.9,231,74.8
+"After issuance of complaint, before opening of hearing","3,736",11.0,"2,893",12.2,598,7.1,175,16.1,3,1.0,3,5.9,6,15.8,58,18.8
+"After hearing opened, before issuance of administrative law judge's decision",211,0.6,193,0.8,16,0.2,1,0.1,0,0.0,0,0.0,1,2.6,0,0.0
+"After administrative law judge's decision, before issuance of Board decision",27,0.1,23,0.1,4,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+After Board order adopting administrative law judge's decision in absence of exceptions,328,1.0,253,1.1,60,0.7,9,0.8,2,0.7,0,0.0,0,0.0,4,1.3
+"After Board decision, before circuit court decree",944,2.8,723,3.0,185,2.2,20,1.8,2,0.7,3,5.9,0,0.0,11,3.6
+"After circuit court decree, before Supreme Court action",401,1.2,336,1.4,35,0.4,13,1.2,10,3.5,1,2.0,1,2.6,5,1.6
+After Supreme Court action,16,0.0,5,0.0,0,0.0,7,0.6,0,0.0,4,7.8,0,0.0,0,0.0

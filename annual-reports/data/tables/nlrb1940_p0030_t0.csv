@@ -1,25 +1,36 @@
-Region,Total number of cases on docket during fiscal year,Total number of cases closed during fiscal year,Cases closed before formal action / Total,Cases closed before formal action / Settled,Cases closed before formal action / Dismissed,Cases closed before formal action / Withdrawn,Cases closed before formal action / Otherwise closed,Cases closed after formal action / Total,Cases closed after formal action / Prior to hearing / Settled,Cases closed after formal action / Prior to hearing / Dismissed,Cases closed after formal action / Prior to hearing / Withdrawn,Cases closed after formal action / Prior to issuance of intermediate report or proposed findings / Settled,Cases closed after formal action / Prior to issuance of intermediate report or proposed findings / Dismissed,Cases closed after formal action / Prior to issuance of intermediate report or proposed findings / Withdrawn,Cases closed after formal action / Prior to issuance of intermediate report or proposed findings / Otherwise closed,Cases closed after formal action / After issuance of intermediate report or proposed findings / Dismissed,Cases closed after formal action / After issuance of intermediate report or proposed findings / Withdrawn,Cases closed after formal action / After issuance of intermediate report or proposed findings / Compliance secured,Cases closed after formal action / After issuance of intermediate report or proposed findings / Co. liquidation,Cases closed after formal action / After Board decision / Dismissed,Cases closed after formal action / After Board decision / Withdrawn,Cases closed after formal action / After Board decision / Compliance secured,Cases closed after formal action / After Board decision / Otherwise closed,Cases closed after formal action / After court action / Dismissed,Cases closed after formal action / After court action / Compliance secured,Cases closed after formal action / After court action / Otherwise closed,"Total cases pending on June 30, 1940"
-1. Boston,438,365,332,174,70,87,1,33,1,,,,,,,2,,,,,,7,10,1,11,1,73
-2. New York,961,696,606,275,161,167,3,90,9,5,2,3,1,1,,1,,11,2,4,,11,4,,35,1,265
-3. Buffalo,122,79,63,30,13,17,3,16,,,,,,1,,,1,1,,2,,6,,,5,0,43
-4. Philadelphia,264,171,144,63,36,45,,27,,1,,,,,,2,,2,,3,,10,,,9,,93
-5. Baltimore,424,309,256,117,43,95,1,53,1,,1,,,,,,,,,13,2,13,3,1,19,,115
-6. Pittsburgh,176,115,107,40,18,49,,8,,,,1,,,,,,,,1,,1,,,5,,61
-7. Detroit,284,170,147,55,39,53,,23,2,,,1,,,,,,2,,8,,4,,,6,,114
-8. Cleveland,355,246,228,81,35,111,1,18,,,,,,,,,1,,,1,,9,,1,5,1,109
-9. Cincinnati,304,233,222,145,31,46,,11,1,,,,,,,,2,2,,,,3,,,3,,71
-10. Atlanta,279,182,142,65,43,34,,40,4,,1,2,,,,1,,1,,7,,10,,1,13,,97
-11. Indianapolis,234,159,132,40,40,50,2,27,,,,,,,,1,,2,,1,,5,2,,16,,75
-12. Milwaukee,233,174,162,117,8,37,,12,1,,,,,,,,,1,,,,5,,,5,,59
-13. Chicago,399,231,206,90,35,80,1,25,1,,,2,,,,,,,1,4,,6,1,1,9,,168
-14. St. Louis,152,73,65,19,9,37,,8,,,,,,,,,2,1,,2,,,,,3,,79
-15. New Orleans,198,145,117,69,21,23,4,28,,,,1,,,,,1,,,,,4,,1,21,,53
-16. Fort Worth,218,150,131,61,39,31,,19,,,,,,,,,1,2,,5,,3,3,,5,0,68
-17. Kansas City,276,150,132,67,18,47,,18,,,,,,,,,,,,1,,4,,,13,,126
-18. Minneapolis,198,120,113,47,23,43,,7,3,,,,,,,,,,,1,,,,,3,,78
-19. Seattle,260,173,156,53,41,62,,17,1,,,1,,,,,,1,,2,,7,,,5,,87
-20. San Francisco,426,275,259,85,115,59,,16,2,,,1,2,,1,3,,,,2,,1,,,4,,151
-21. Los Angeles,478,348,322,102,88,127,5,26,1,,1,,,,,,1,,,5,,7,1,,10,,130
-22. Denver,149,99,89,40,4,43,2,10,1,,,1,,,,,2,,,1,,2,2,,1,,50
-Board 1,8,1,1,1,,,,,,,,,,,,,,,,,,,,,,,7
-Total,6836,4664,4132,1838,930,1343,23,532,28,6,5,13,3,2,1,10,11,26,3,63,2,118,26,6,206,3,2172
+Docket record and method of disposition,Total number of cases,Total number of workers involved,A. F. of L. affiliates,A. F. of L. affiliates,C. I. O. affiliates,C. I. O. affiliates,Unaffiliated unions,Unaffiliated unions,Individual persons,Individual persons
+Docket record and method of disposition,Total number of cases,Total number of workers involved,Number of cases,Number of workers involved,Number of cases,Number of workers involved,Number of cases,Number of workers involved,Number of cases,Number of workers involved
+"Cases pending June 30, 1939","2,902","926,169","1,052","148,682","1,519","692,360",96,"79,377",237,"5,750"
+"Cases received July 1, 1939–June 30, 1940","3,934","707,439","1,800","321,541","1,443","304,689",207,"41,928",484,"39,281"
+Total cases on docket during fiscal year,"6,836","1,633,608","2,852","470,223","2,962","997,049",303,"121,305",721,"45,031"
+"Cases closed before formal action, total","4,132","707,182","1,854","289,142","1,558","365,190",175,"32,222",546,"20,628"
+Settled,"1,836","179,004",972,"62,769",664,"105,821",83,"6,085",117,"4,329"
+Dismissed,930,"239,634",298,"41,984",363,"180,523",42,"3,991",228,"13,136"
+Withdrawn,"1,343","281,244",573,"178,236",523,"77,742",49,"22,106",198,"3,160"
+Otherwise before formal action closed,23,"7,300",11,"6,153",8,"1,104",1,40,3,3
+"Closed after formal action, total",532,"165,469",165,"35,464",319,"124,282",28,"3,753",21,"1,970"
+Prior to hearing:,,,,,,,,,,
+Settled,28,"8,096",8,317,16,"7,695",1,,3,84
+Dismissed,6,"1,606",2,76,3,"1,423",,,1,107
+Withdrawn,5,754,3,564,2,190,,,,
+Prior to issuance of intermediate report or proposed findings:,,,,,,,,,,
+Settled,13,"5,287",5,661,8,"4,626",,,,
+Dismissed,3,901,,,3,901,,,,
+Withdrawn,2,141,2,141,,,,,,
+Otherwise closed,1,,,,1,,,,,
+After issuance of intermediate report or proposed findings:,,,,,,,,,,
+Dismissed,10,"2,269",6,"1,171",3,"1,097",1,1,,
+Withdrawn,11,"3,028",3,814,7,"2,012",1,202,,
+Compliance secured,26,"3,042",9,827,13,"1,671",2,442,2,102
+Closed because of company liquidation,3,95,2,81,1,14,,,,
+After Board decision:,,,,,,,,,,
+Dismissed,63,"12,591",14,"1,909",42,"10,273",2,140,5,269
+Withdrawn,2,27,2,27,,,,,,
+Compliance secured,118,"34,262",44,"4,866",63,"27,705",6,810,5,881
+Otherwise closed after decision,26,"4,944",6,663,18,"4,204",2,77,,
+After court action:,,,,,,,,,,
+Dismissed,6,"3,663",2,"1,037",4,"2,626",,,,
+Compliance secured,206,"84,108",55,"22,105",134,"59,395",13,"2,081",5,527
+Otherwise closed after court action,3,655,2,205,1,450,,,,
+Total cases closed during fiscal year,"4,664","872,651","2,019","324,606","1,877","489,472",203,"35,975",567,"22,598"
+"Cases pending June 30, 1940","2,172","760,957",833,"145,617","1,085","507,577",100,"85,330",154,"22,433"

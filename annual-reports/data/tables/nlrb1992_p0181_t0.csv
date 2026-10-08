@@ -1,5 +1,58 @@
-Size of unit (number of employees),Number eligible to vote,Total elections,Percent of total,Elections in which representation rights was won by — AFL-CIO unions — Number,AFL-CIO unions — Percent of size class,Teamsters — Number,Teamsters — Percent of size class,Other national unions — Number,Other national unions — Percent of size class,Other local unions — Number,Other local unions — Percent of size class,Elections in which representation was chosen — Number,Elections in which representation was chosen — Percent of size class
-Total RD elections,34174,606,100.0,177,100.0,45,100.0,8,100.0,,,425,100.0
-Under 10,1393,150,24.8,24,13.6,6,13.3,,,,,120,28.2
-10 to 19,1376,95,15.7,19,10.7,,,,,,,76,17.8
-Under-20 (Under 10 + 10-19) — combined,2769,245,40.4,,,,,,,,,,
+Size of unit (number of employees),Number eligible to vote,Total elections,Percent of total,Cumulative percent of total,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which no representative was chosen,Elections in which no representative was chosen
+Size of unit (number of employees),Number eligible to vote,Total elections,Percent of total,Cumulative percent of total,AFL-CIO unions,AFL-CIO unions,Teamsters,Teamsters,Other national unions,Other national unions,Other local unions,Other local unions,Elections in which no representative was chosen,Elections in which no representative was chosen
+Size of unit (number of employees),Number eligible to vote,Total elections,Percent of total,Cumulative percent of total,Number,Percent by size class,Number,Percent by size class,Number,Percent by size class,Number,Percent of size class,Number,Percent by size class
+A. Certification elections (RC and RM),,,,,,,,,,,,,,
+Total RC and RM elections,"185,556","2,993",100.0,,921,100.0,411,100.0,60,100.0,100,100.0,"1,501",100.0
+Under 10,"3,765",676,22.6,22.6,251,27.3,142,34.5,11,18.3,17,17.0,255,17.0
+10 to 19,"8,709",624,20.8,43.4,210,22.8,108,26.3,14,23.3,18,18.0,274,18.3
+20 to 29,"8,411",352,11.8,55.2,105,11.4,46,11.2,9,15.0,16,16.0,176,11.7
+30 to 39,"8,715",254,8.5,63.7,75,8.1,28,6.8,4,6.7,8,8.0,139,9.3
+40 to 49,"7,135",162,5.4,69.1,43,4.7,21,5.1,3,5.0,7,7.0,88,5.9
+50 to 59,"8,160",152,5.1,74.2,41,4.5,17,4.1,3,5.0,8,8.0,83,5.5
+60 to 69,"6,812",106,3.5,77.7,32,3.5,11,2.8,2,3.3,5,5.0,56,3.7
+70 to 79,"7,399",100,3.3,81.0,26,2.8,7,1.8,2,3.3,2,2.0,63,4.2
+80 to 89,"5,722",68,2.3,83.3,20,2.2,6,1.6,1,1.7,1,1.0,40,2.7
+90 to 99,"7,068",75,2.5,85.8,17,1.8,8,1.9,1,1.7,3,3.0,46,3.1
+100 to 109,"4,802",46,1.5,87.3,15,1.6,3,0.7,2,3.3,2,2.0,24,1.6
+110 to 119,"3,562",31,1.0,88.3,6,0.7,2,0.5,0,,4,4.0,19,1.3
+120 to 129,"5,231",42,1.4,89.7,15,1.6,2,0.5,3,5.0,2,2.0,20,1.3
+130 to 139,"2,413",18,0.6,90.3,6,0.7,1,0.2,0,,0,,11,0.7
+140 to 149,"3,319",23,0.8,91.1,7,0.8,1,0.2,0,,0,,15,1.0
+150 to 159,"3,847",25,0.8,91.9,6,0.7,1,0.2,0,,1,1.0,17,1.1
+160 to 169,"1,974",12,0.4,92.3,2,0.2,0,,0,,0,,10,0.7
+170 to 179,"2,087",12,0.4,92.7,3,0.3,1,0.2,0,,1,1.0,7,0.4
+180 to 189,"1,840",10,0.3,93.0,2,0.2,1,0.2,0,,0,,7,0.4
+190 to 199,"3,490",18,0.6,93.6,5,0.5,1,0.2,0,,0,,12,0.8
+200 to 299,"22,298",91,3.0,96.6,15,1.6,4,1.0,3,5.0,2,2.0,67,4.5
+300 to 399,"9,947",29,1.0,97.6,9,1.0,0,,0,,1,1.0,19,1.3
+400 to 499,"10,514",24,0.8,98.4,4,0.4,0,,1,1.7,0,,19,1.3
+500 to 599,"5,884",11,0.4,98.8,1,0.1,0,,0,,0,,10,0.7
+600 to 799,"8,070",12,0.4,99.2,2,0.2,0,,0,,1,1.0,9,0.6
+800 to 999,"7,817",9,0.3,99.5,1,0.1,0,,1,1.7,0,,7,0.4
+"1000 to 1,999","10,423",9,0.3,99.8,1,0.1,0,,0,,1,1.0,7,0.4
+"2,000 to 2,999","3,042",1,0.1,99.9,1,0.1,0,,0,,0,,0,
+"3,000 to 9,999","3,100",1,0.1,100.0,0,,0,,0,,0,,1,0.1
+B. Decertification elections (RD),,,,,,,,,,,,,,
+Total RD elections,"34,174",606,100.0,,127,100.0,45,100.0,1,100.0,8,100.0,425,100.0
+Under 10,813,150,24.8,24.8,9,7.1,3,6.7,0,,2,25.0,136,32.0
+10 to 19,"1,781",128,21.1,45.9,13,10.2,9,20.0,0,,1,12.5,105,24.7
+20 to 29,"1,573",65,10.7,56.6,18,14.2,3,6.7,0,,2,25.0,42,9.9
+30 to 39,"1,652",48,7.9,64.5,11,8.7,6,13.3,0,,2,25.0,29,6.8
+40 to 49,"1,933",44,7.3,71.8,12,9.4,7,15.6,0,,0,,25,5.9
+50 to 59,"1,280",24,4.0,75.8,6,4.7,5,11.1,0,,0,,13,3.1
+60 to 69,"1,422",22,3.6,79.4,6,4.7,3,6.7,0,,0,,13,3.1
+70 to 79,"1,269",17,2.8,82.2,7,5.5,3,6.7,0,,0,,7,1.6
+80 to 89,"1,002",12,2.0,84.2,6,4.7,0,,0,,0,,6,1.4
+90 to 99,937,10,1.7,85.9,3,2.4,2,4.4,0,,0,,5,1.2
+100 to 109,"1,244",12,2.0,87.9,5,3.9,0,,0,,1,12.5,6,1.4
+110 to 119,924,8,1.3,89.2,1,0.8,1,2.2,0,,0,,6,1.4
+120 to 129,"1,002",8,1.3,90.5,1,0.8,2,4.4,0,,0,,5,1.2
+130 to 139,806,6,1.0,91.5,3,2.4,0,,1,100.0,0,,2,0.5
+140 to 149,432,3,0.5,92.0,1,0.8,0,,0,,0,,2,0.5
+150 to 159,611,4,0.7,92.7,1,0.8,0,,0,,0,,3,0.7
+160 to 169,330,2,0.3,93.0,1,0.8,0,,0,,0,,1,0.2
+170 to 199,"1,640",9,1.5,94.5,4,3.1,1,2.2,0,,0,,4,0.9
+200 to 299,"3,652",15,2.3,96.8,10,7.9,0,,0,,0,,5,1.2
+300 to 499,"4,566",12,2.0,98.8,5,3.9,0,,0,,0,,7,1.6
+500 to 799,"2,682",4,0.7,99.5,2,1.6,0,,0,,0,,2,0.5
+800 and over,"2,623",3,0.5,100.0,2,1.6,0,,0,,0,,1,0.2

@@ -1,7 +1,11 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10
-Total number of cases closed,12116,100.0,10292,100.0,1068,100.0,766,100 0,170,100.0
-"Before issuance of notice of hearing After issuance of notice of hearing, before",6057,50.0,4831,46.9,724,68.4,602,65.5,107,62.9
-close Of hearing,3803,31.4,3433,38.4,198,18.7,172,22.5,0,
-"After hearing closed, before issuance of decision .",134,1.1,113,1.1,12,1.1,9,1.2,0,
-After issuance of regional director's decision _ _ _,1985,16.4,1805,17.5,99,9.4,81,10.6,60,- 851
-After issuance of Board decision,137,1.1,110,1.1,25,2.4,2,0.2,8,1.8
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CP cases,CP cases
+Stage of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"18,939",100.0,"12,404",100.0,"3,909",100.0,"1,505",100.0,545,100.0,98,100.0,478,100.0
+Before issuance of complaint,"16,135",85.2,"10,260",82.7,"3,572",91.4,"1,300",86.4,527,96.7,57,58.2,419,87.7
+"After issuance of complaint, before opening of hearing","1,251",6.6,951,7.6,167,4.3,107,7.1,3,0.6,1,1.0,22,4.6
+"After hearing opened, before issuance of trial examiner's decision",186,1.0,133,1.1,42,1.1,6,0.4,4,0.7,0,,1,0.2
+"After trial examiner's decision, before issuance of Board decision",134,0.7,110,0.9,15,0.4,6,0.4,0,,0,,3,0.6
+After Board order adopting trial examiner's decision in absence of exceptions,131,0.7,98,0.8,17,0.4,9,0.6,0,,0,,7,1.5
+"After Board decision, before circuit court decree",606,3.1,436,3.5,53,1.4,59,3.9,4,0.7,37,37.7,17,3.5
+"After circuit court decree, before Supreme Court action",427,2.3,356,2.9,37,0.9,15,1.0,7,1.3,3,3.1,9,1.9
+After Supreme Court action,69,0.4,60,0.5,6,0.1,3,0.2,0,,0,,0,

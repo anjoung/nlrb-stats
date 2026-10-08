@@ -1,17 +1,6 @@
-Unit size (number of employees),Group 1 / Number,Group 1 / Percent of total,Group 2 / Number,Group 2 / Percent of total,Group 3 / Number,Group 3 / Percent of total,Group 4 / Number,Group 4 / Percent of total,Group 5 / Number,Group 5 / Percent of total
-Total,150,100.0,29,100.0,14,100.0,5,100.0,102,100.0
-1-9,30,20.0,3,10.3,0,0,1,20.0,26,25.5
-10-19,31,20.7,4,13.8,0,0,0,0,27,26.5
-20-29,16,10.7,5,17.2,4,28.6,0,0,7,6.8
-30-39,14,9.3,1,3.4,1,7.1,1,20.0,11,10.8
-40-49,9,6.0,0,0,2,14.3,0,0,7,6.8
-50-59,5,3.3,1,3.4,0,0,0,0,4,3.9
-60-69,6,4.0,5,17.2,1,7.1,0,0,0,0
-70-79,7,4.7,1,3.5,1,7.2,1,20.0,4,3.9
-80-89,8,5.3,5,17.2,0,0,1,20.0,2,2.0
-90-99,3,2.0,1,3.5,0,0,0,0,2,2.0
-100-149,8,5.3,1,3.5,1,7.2,1,20.0,5,4.9
-150-199,2,1.3,0,0,0,0,0,0,2,2.0
-200-299,5,3.3,1,3.5,2,14.3,0,0,2,2.0
-300-399,1,.7,0,0,1,7.1,0,0,0,0
-400 and over,5,3.4,1,3.5,1,7.1,0,0,3,2.9
+Union affiliation,Elections in which a representative was redesignated,Elections in which a representative was redesignated,Elections in which a representative was redesignated,Elections in which a representative was redesignated,Elections in which a representative was redesignated,Elections resulting in decertification,Elections resulting in decertification,Elections resulting in decertification,Elections resulting in decertification,Elections resulting in decertification
+Union affiliation,Employees eligible to vote,Total valid votes cast,Percent casting valid votes,Votes cast for winning union,Votes cast for no union,Employees eligible to vote,Total valid votes cast,Percent casting valid votes,Votes cast for losing union,Votes cast for no union
+Total,"4,309","3,972",92.2,"2,552","1,420","5,935","5,117",86.2,"1,763","3,354"
+A. F. L.,"1,958","1,824",93.2,"1,146",678,"2,297","2,023",88.1,668,"1,355"
+C. I. O.,"2,019","1,855",91.9,"1,206",649,"1,592","1,397",87.8,536,861
+Unaffiliated,332,293,88.3,200,93,"2,046","1,697",82.9,559,"1,138"

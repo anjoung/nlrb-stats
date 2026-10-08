@@ -1,12 +1,21 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11
-All representation elections,2343,201,8 6,69,2 9,26,1.1,227,9 7,95,4 0
-"By type of case,",,,,,,,,,,,
-In RC cases_,2076,190,9 2,64,3 1,23,1 1,213,10.3,87,4 2
-In RM cases,90,4,4.4,2,2 2,2,2 2,6,6 6,4,4 4
-In RD cases,177,7,40,3,17,1,06,8,46,4,23
-"By type of election,",,,,,,,,,,,
-Consent elections,234,9,3 8,5,2.1,o,,9,3 8,5,2 1
-Stipulated elections,1633,132,8 1,40,2 4,14,0 9,146,9 0,54,3 3
-Expedited elections,11,0,0,0,0,0,,0,,o,
-Regional director-directed elections,446,60,13 5,17,3.8,12,2 7,72,16 2,29,6 5
-Board-directed elections,19,0,,7,36 8,0,,0,,7,36 8
+Type of election,All R elections,All R elections,All R elections,All R elections,RC elections,RC elections,RC elections,RC elections,RM elections,RM elections,RM elections,RM elections,RD elections,RD elections,RD elections,RD elections
+Type of election,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted
+Type of election,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification
+All types,"2,309",2,30,"2,277","2,045",2,30,"2,013",90,0,0,90,174,0,0,174
+Rerun required,,,30,,,,30,,,,0,,,,0,
+Runoff required,,,0,,,,0,,,,0,,,,0,
+Consent elections,234,0,0,234,203,0,0,203,7,0,0,7,24,0,0,24
+Rerun required,,,0,,,,0,,,,0,,,,0,
+Runoff required,,,0,,,,0,,,,0,,,,0,
+Stipulated elections,"1,611",1,22,"1,588","1,434",1,22,"1,411",60,0,0,60,117,0,,117
+Rerun required,,,22,,,,22,,,,0,,,,0,
+Runoff required,,,0,,,,0,,,,0,,,,0,
+Regional director-directed,438,1,8,429,390,1,8,381,15,0,0,15,35,0,0,33
+Rerun required,,,8,,,,8,,,,0,,,,0,
+Runoff required,,,0,,,,0,,,,0,,,,0,
+Board-directed,17,0,0,17,17,0,0,17,0,0,0,0,0,0,0,0
+Rerun required,,,0,,,,0,,,,0,,,,0,
+Runoff required,,,0,,,,0,,,,0,,,,0,
+Expedited—sec. 8(b)(7)(C),9,0,0,9,1,0,0,1,8,0,0,8,0,0,0,0
+Rerun required,,,0,,,,0,,,,0,,,,0,
+Runoff required,,,0,,,,0,,,,0,,,,0,

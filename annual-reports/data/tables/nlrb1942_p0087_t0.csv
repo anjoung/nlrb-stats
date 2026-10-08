@@ -1,10 +1,35 @@
-Stage and method of disposition,All cases / Number,All cases / Workers involved,Cases filed by A. F. of L. affiliates / Number,Cases filed by A. F. of L. affiliates / Workers involved,Cases filed by C. I. O. affiliates / Number,Cases filed by C. I. O. affiliates / Workers involved,Cases filed by unaffiliated unions / Number,Cases filed by unaffiliated unions / Workers involved,Cases filed by employers / Number,Cases filed by employers / Workers involved
-Closed by certification,949,599271,381,145322,444,394887,112,51967,12,7095
-After stipulated election (Closed by certification),199,160792,56,8158,115,143230,25,4025,3,5379
-After ordered election (Closed by certification),743,425642,322,137160,325,238832,86,47934,9,1716
-Without election (Closed by certification),7,12837,3,10,4,12825,1,0,0,0
-Dismissed,217,75603,113,25474,80,41985,21,7274,3,870
-After stipulated election (Dismissed),15,6602,6,4457,7,2105,1,40,0,0
-After ordered election (Dismissed),102,31907,58,8933,28,22451,5,363,0,160
-Without election (Dismissed),100,37094,58,12084,38,17429,5,6871,1,710
-Withdrawn,41,6347,30,2006,10,4259,,,1,82
+Stage and method of disposition,All cases,All cases,Cases filed by A. F. of L. affiliates,Cases filed by A. F. of L. affiliates,Cases filed by C. I. O. affiliates,Cases filed by C. I. O. affiliates,Cases filed by unaffiliated unions,Cases filed by unaffiliated unions,Cases filed by employers,Cases filed by employers
+Stage and method of disposition,Number,Workers involved,Number,Workers involved,Number,Workers involved,Number,Workers involved,Number,Workers involved
+"Cases closed, total","6,285","1,895,231","2,813","519,179","2,723","1,035,328",659,"214,305",92,"126,742"
+"Before formal action, total","4,875","1,168,206","2,184","337,822","2,112","565,235",509,"147,631",72,"117,841"
+Adjusted,"3,420","715,928","1,584","224,334","1,556","410,425",254,"77,404",28,"4,088"
+Recognition,404,"34,002",199,"14,539",165,"13,716",32,"4,608",9,"1,145"
+Consent election,"2,405","607,311","1,071","179,410","1,153","370,458",163,"54,596",18,"2,847"
+Pay-roll check,611,"74,615",314,"30,385",238,"26,251",59,"18,200",1,96
+Withdrawn,"1,027","297,494",447,"61,057",418,"103,670",135,"24,829",27,"107,938"
+Dismissed,428,"154,784",153,"52,431",138,"51,140",120,"45,398",17,"5,815"
+"After formal action, total","1,410","727,025",629,"181,357",611,"470,093",150,"66,674",20,"8,901"
+Before hearing,92,"24,645",28,"4,088",52,"18,677",10,"1,871",2,9
+Adjusted,68,"21,668",19,"3,342",40,"17,057",7,"1,260",2,9
+Recognition,9,361,3,67,4,177,2,117,0,0
+Consent election,59,"21,307",16,"3,275",36,"16,880",5,"1,143",2,9
+Pay-roll check,0,0,0,0,0,0,0,0,0,0
+Withdrawn,21,"2,347",8,691,11,"1,595",2,61,0,0
+Dismissed,3,630,1,55,1,25,1,550,0,0
+After hearing,111,"21,159",77,"4,467",25,"10,285",7,"5,562",2,845
+Adjusted,30,"13,586",12,"2,479",14,"8,525",4,"2,582",0,0
+Recognition,4,216,1,16,3,200,0,0,0,0
+Consent election,25,"13,351",11,"2,463",11,"8,325",3,"2,563",0,0
+Pay-roll check,1,19,0,0,0,0,1,19,0,0
+Withdrawn,70,"6,942",65,"1,988",10,"1,674",3,"2,980",1,300
+Dismissed,2,631,0,0,1,86,0,0,1,545
+After Board decision,"1,207","681,221",524,"172,802",534,"441,131",133,"59,241",16,"8,047"
+Closed by certification,949,"599,271",381,"145,322",444,"394,887",112,"51,967",12,"7,095"
+After stipulated election,199,"160,792",56,"8,158",115,"143,230",25,"4,025",3,"5,379"
+After ordered election,743,"425,642",323,"137,160",325,"238,832",86,"47,934",9,"1,716"
+Without election,7,"12,837",2,4,4,"12,825",1,8,0,0
+Dismissed,217,"75,603",113,"25,474",80,"41,985",21,"7,274",3,870
+After stipulated election,15,"6,602",7,"4,457",7,"2,105",1,40,0,0
+After ordered election,102,"31,907",58,"8,933",38,"22,451",5,363,1,160
+Without election,100,"37,094",48,"12,084",35,"17,429",15,"6,871",2,710
+Withdrawn,41,"6,347",30,"2,006",10,"4,259",0,0,1,82

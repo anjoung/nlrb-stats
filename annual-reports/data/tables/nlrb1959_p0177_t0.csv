@@ -1,4 +1,64 @@
-Division and State 1,All cases,Unfair labor practice cases / All C cases,Unfair labor practice cases / CA 2,Unfair labor practice cases / CB 2,Unfair labor practice cases / CC 2,Unfair labor practice cases / CD 2,Representation cases / All R cases,Representation cases / RC 2,Representation cases / RM 2,Representation cases / RD 2
+Division and State,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases,Representation cases
+Division and State,All cases,All C cases,CA,CB,CC,CD,All R cases,RC,RM,RD
+Total,"21,586","12,239","8,266","3,129",657,187,"9,347","7,959",847,541
+New England,971,468,350,95,22,1,503,428,50,25
+Maine,64,36,27,2,7,0,28,20,5,3
+New Hampshire,42,13,8,3,2,0,29,27,0,2
+Vermont,43,19,18,1,0,0,24,17,6,1
+Massachusetts,580,301,219,74,8,0,279,241,24,14
+Rhode Island,62,24,18,5,1,0,38,32,5,1
+Connecticut,180,75,60,10,4,1,105,91,10,4
+Middle Atlantic,"4,290","2,461","1,558",713,129,61,"1,829","1,511",207,111
+New York,"2,158","1,219",799,360,48,12,939,773,120,46
+New Jersey,839,471,281,130,50,10,368,295,36,37
+Pennsylvania,"1,293",771,478,223,31,39,522,443,51,28
+East North Central,"4,509","2,503","1,787",613,76,27,"2,006","1,647",217,142
+Ohio,"1,427",832,607,213,12,0,595,508,51,36
+Indiana,571,356,257,83,13,3,215,177,15,23
+Illinois,"1,137",585,390,156,23,16,552,450,77,25
+Michigan,"1,031",611,443,143,20,5,420,312,61,47
+Wisconsin,343,119,90,18,8,3,224,200,13,11
+West North Central,"1,361",517,341,119,43,14,844,736,70,38
+Iowa,161,37,28,4,4,1,124,114,7,3
+Minnesota,208,52,39,7,6,0,156,128,24,4
+Missouri,630,320,187,97,25,11,310,262,25,23
+North Dakota,50,10,10,0,0,0,40,34,4,2
+South Dakota,45,5,5,0,0,0,40,34,4,2
+Nebraska,119,30,23,3,3,1,89,87,0,2
+Kansas,148,63,49,8,5,1,85,77,6,2
+South Atlantic,"2,904","1,861","1,395",384,64,18,"1,043",955,54,34
+Delaware,39,22,12,2,8,0,17,15,2,0
+Maryland,282,135,85,43,6,1,147,134,8,5
+District of Columbia,95,30,16,9,3,2,65,62,0,3
+Virginia,240,119,102,13,4,0,121,107,6,8
+West Virginia,304,231,160,61,9,1,73,59,10,4
+North Carolina,300,184,172,9,3,0,116,104,9,3
+South Carolina,71,39,30,6,3,0,32,28,1,3
+Georgia,455,323,200,110,4,9,132,121,8,3
+Florida,"1,118",778,618,131,24,5,340,325,10,5
+East South Central,"1,958","1,529",872,490,136,31,429,370,26,33
+Kentucky,555,434,154,182,96,2,121,101,6,14
+Tennessee,689,515,319,186,8,2,174,148,11,15
+Alabama,571,476,318,100,31,27,95,85,8,2
+Mississippi,143,104,81,22,1,0,39,36,1,2
+West South Central,"1,452",809,569,184,50,6,643,585,28,30
+Arkansas,160,61,40,13,7,1,99,94,2,3
+Louisiana,442,318,222,72,21,3,124,119,3,2
+Oklahoma,104,33,26,4,3,0,71,66,2,3
+Texas,746,397,281,95,19,2,349,306,21,22
+Mountain,873,350,259,54,31,6,523,474,33,16
+Montana,63,35,19,6,8,2,28,23,4,1
+Idaho,75,33,31,1,0,1,42,36,3,3
+Wyoming,26,10,6,1,3,0,16,14,1,1
+Colorado,385,121,94,15,10,2,264,254,6,4
+New Mexico,126,73,55,11,6,1,53,36,13,4
+Arizona,130,49,29,16,4,0,81,75,5,1
+Utah,56,20,18,2,0,0,36,33,1,2
+Nevada,12,9,7,2,0,0,3,3,0,0
+Pacific,"2,710","1,464",946,412,87,19,"1,246",995,142,109
+Washington,392,226,141,78,4,3,166,128,16,22
+Oregon,297,145,95,24,23,3,152,106,29,17
+California,"2,021","1,093",710,310,60,13,928,761,97,70
 Outlying areas,558,277,189,65,19,4,281,258,20,3
 Alaska,48,31,15,8,4,4,17,17,0,0
 Hawaii,126,41,30,6,5,0,85,76,7,2

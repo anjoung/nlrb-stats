@@ -1,2 +1,8 @@
-Method and stage of disposition,All R cases / Num-ber,All R cases / Percent,All R cases / Num-ber,RC cases / Percent,RC cases / Num-ber,RC cases / Percent,RM cases / Num-ber,RM cases / Percent,RM cases / Num-ber,RD cases / Percent,RD cases / Num-ber,RD cases / Percent,UD cases / Num-ber,UD cases / Percent
-"Total, all cases",6565,100.0,5052,100.0,514,100.0,770,100.0,196,100.0,,,,
+Stage of disposition,All R cases,All R cases,RC cases,RC cases,RM cases,RM cases,RD cases,RD cases,UD cases,UD cases
+Stage of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"6,965",100.0,"5,052",100.0,514,100.0,"1,399",100.0,196,100.0
+Before issuance of notice of hearing,"2,416",34.7,"1,400",27.7,276,53.7,740,52.9,158,80.6
+"After issuance of notice, before close of hearing","3,444",49.4,"2,784",55.1,173,33.7,487,34.8,10,5.1
+"After hearing closed, before issuance of decision",121,1.7,90,1.8,6,1.2,25,1.8,3,1.5
+After issuance of Regional Director's decision,930,13.4,739,14.6,53,10.3,138,9.9,24,12.2
+After issuance of Board decision,54,0.8,39,0.8,6,1.2,9,0.6,1,0.5

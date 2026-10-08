@@ -1,42 +1,20 @@
-row_label,Number of cases showing specific allegations,Percent of total cases
-A. Charges filed against employers under sec. 8(a) — Total cases,23496,100.0
-Sec. 8(a) subsection breakdown,,
-8(a)(1),23496,100.0
-8(a)(2),1003,4.3
-8(a)(3),15090,64.2
-8(a)(4),758,3.2
-8(a)(5),6729,28.6
-B. Charges filed against unions under sec. 8(b) — Total cases,10806,100.0
-Sec. 8(b) subsection breakdown,,
-8(b)(1),7266,67.2
-8(b)(2),1921,17.8
-8(b)(3),854,7.9
-8(b)(4),2265,21.1
-8(b)(5),30,0.3
-8(b)(6),8,0.1
-8(b)(7),444,4.1
-B1. Analysis of 8(b)(4) — Total cases 8(b)(4),2265,100.0
-8(b)(4)(A),92,4.1
-8(b)(4)(B),1694,74.7
-8(b)(4)(C),3,0.1
-8(b)(4)(D),446,19.7
-8(b)(4)(A)(B),24,1.1
-8(b)(4)(B)(C),6,0.3
-8(b)(4)(A),116,5.1
-8(b)(4)(B),1724,76.1
-8(b)(4)(C),9,0.4
-8(b)(4)(D),446,19.7
-B2. Analysis of 8(b)(7) — Total cases 8(b)(7),444,100.0
-8(b)(7)(A),101,22.7
-8(b)(7)(B),27,6.1
-8(b)(7)(C),313,70.6
-8(b)(7)(A)(B),1,0.3
-8(b)(7)(B)(C),8,1.1
-8(b)(7)(A),110,24.8
-8(b)(7)(B),37,8.3
-8(b)(7)(C),321,72.3
-C. Charges filed under sec. 8(e) — Total cases 8(e),115,100.0
-Against unions alone,106,92.2
-Against employers alone,3,2.6
-Against unions and employers,6,5.2
-D. Charges filed under sec. 8(g),,
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO Unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+RC cases,,,,,,,
+"Pending July 1, 1975","2,973","1,869",636,183,252,33,
+Received fiscal 1976,"11,846","6,572","3,700",626,866,82,
+On docket fiscal 1976,"14,819","8,441","4,336",809,"1,118",115,
+Closed fiscal 1976,"11,024","6,210","3,388",624,713,89,
+"Pending June 30, 1976","3,795","2,231",948,185,405,26,
+RM cases,,,,,,,
+"Pending July 1, 1975",239,,,,,,239
+Received fiscal 1976,886,,,,,,886
+On docket fiscal 1976,"1,125",,,,,,"1,125"
+Closed fiscal 1976,834,,,,,,834
+"Pending June 30, 1976",291,,,,,,291
+RD cases,,,,,,,
+"Pending July 1, 1975",259,0,0,0,1,258,
+Received fiscal 1976,"1,457",10,6,1,9,"1,431",
+On docket fiscal 1976,"1,716",10,6,1,10,"1,689",
+Closed fiscal 1976,"1,326",9,4,1,8,"1,304",
+"Pending June 30, 1976",390,1,2,0,2,385,

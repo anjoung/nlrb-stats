@@ -1,3 +1,23 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"21-00-25, 26, 27, 28, 29, 34. I9-CA-95","ger). Kern County Farm Labor Union, et al. (Di Georgio Wine & Fruit Cos).","June 18, 1948",10 (l),"14, 1948",,"Deo. 16,1049"
-,Boeing Airplane Co. (Machinists Aero- nautical Industrial Lodge No. 751).,"June 11, 1948",10 (J)__,,"19,1948","Nov. 22, 1948"
+Case No.,Union and company,Date petition for injunction filed,Type of petition,Temporary restraining order,Temporary restraining order,Date temporary injunction granted,Date injunction denied,Date injunction proceedings withdrawn or dismissed,Date of Board decision and/or order
+Case No.,Union and company,Date petition for injunction filed,Type of petition,Date issued,Date lifted,Date temporary injunction granted,Date injunction denied,Date injunction proceedings withdrawn or dismissed,Date of Board decision and/or order
+10-CC-1,"Carpenters, Local 74 (Watson Specialty Store).","Sept. 22, 1947",10 (l),,,,"Oct. 28, 1947",,"Nov. 22, 1948"
+"2-CC-4, 7","International Longshoremen's Association, et al (Cargill Inc. & Cargo Carriers; Oil Transfer Corp.).","Oct. 2, 1947",10 (l),"Oct. 2, 1947","Oct. 7, 1947",,,"Oct. 23, 1947",
+9-CC-2,"United Mine Workers, et al. (Jackson Construction Co ).","Oct. 8, 1947",10 (l),,,,,"Dec. 2, 1947",[1]
+2-CC-12,"Teamsters, Local 294 (Montgomery Ward)","Nov. 29, 1947",10 (l),,,,,do,
+2-CC-14,"Teamsters, Local 294 (Conway's Express)",do,10 (j) and (l),,,"Jan. 17, 1948",,,"Dec. 16, 1949"
+17-CC-1,"Carpenters (Klassen, Hodgson & Wadsworth)","Dec. 1, 1947",10 (l),,,"Jan. 8, 1948",,,"Feb. 18, 1949"
+"2-CC-16, 18","Metropolitan Federation of Architects, Local 231 (Project Engineering & Design Service).","Dec. 2, 1947",10 (l),,,,"Jan. 26, 1948",,"Sept. 29, 1948"
+"2-CC-23, 24","Wine, Liquor & Distillery Workers, Local 1, AFL (Schenley Distillers & Jardine Liquor Corp )","Dec. 8, 1947",10 (l),"Dec. 11, 1947","Jan. 8, 1948",,"Jan. 26, 1948","Aug. 12, 1948","July 22, 1948"
+21-CC-13,"Printing Specialty & Paper Converters, Local 388 (Sealright Pacific, Ltd.).","Dec. 17, 1947",10 (l),,,"Feb. 16, 1948",,,"Mar. 24, 1949"
+9-CB-5,"International Typographical Union, et al. (American Newspaper Publishers Association).","Jan. 16, 1948",10 (j),,,"Mar. 27, 1948",,,"Oct. 28, 1949"
+"15-CC-1, 2, 3, 4","Teamsters, Local 201, AFL (International Rice Milling et al ).","Jan. 19, 1948",10 (l),,,"Feb. 17, 1948",,,"June 20, 1949"
+15-CC-5,"Carpenters, Local 1796, AFL (Montgomery Fair Co.)","Jan. 27, 1948",10 (l),,,"Feb. 17, 1948",,,"Mar. 18, 1949"
+7-CA-37,General Motors Corp. (UAW-CIO),"Jan. 29, 1948",10 (j),"Jan. 29, 1948","June 1, 1948",,,"June 1, 1948","Feb. 18, 1949"
+30-CC-2,"Carpenters, Local 55, AFL (Gould & Preisner).","Mar. 8, 1948",10 (l),,,,"Mar. 31, 1948",,"Apr. 13, 1949"
+21-CB-8,"Amalgamated Meat Cutters, Local 421, 587, 439, 551, AFL (Great Atlantic & Pacific Tea Co ).","Mar 8, 1948",10 (j),,,,,"April 20, 1948","Mar. 1, 1949"
+2-CC-30,"American Communications Association CIO and Local 40, CIO (Commercial Cable Co , et al ).","Mar. 17, 1948",10 (l),,,[2],,"Sept. 21, 1948",
+7-CC-2,"Bricklayers, Local 1, AFL (Osterink Construction Co.).","April 1, 1948",10 (l),,,"June 23, 1948",,,"Mar. 18, 1949"
+5-CB-9,United Mine Workers & Lewis (Southern Coal Producers Association).,"May 24, 1948",10 (j),,,"June 4, 1948",,"Nov. 10, 1948",[1]
+2-CC-40,"International Brotherhood of Electrical Workers, Local 501, AFL (Samuel Langer).","June 17, 1948",10 (l),,,"June 29, 1948",,,"Apr. 12, 1949"
+"21-CC-25, 26, 27, 28, 29, 34","Kern County Farm Labor Union, et al. (Di Georgio Wine & Fruit Cos.).","June 18, 1948",10 (l),,,"July 14, 1948",,,"Dec. 16, 1949"
+19-CA-95,Boeing Airplane Co. (Machinists Aeronautical Industrial Lodge No. 751).,"June 11, 1948",10 (j),,,,"June 19, 1948",,"Nov. 22, 1948"

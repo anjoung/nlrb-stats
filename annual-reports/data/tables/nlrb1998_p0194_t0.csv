@@ -1,22 +1,21 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12
-Totals -all types,27,22,5,13,10,3,13,11,2,1,I,o
-NLRB-initiated actions or interventions,o,o,o,o,o,o,0,o,o,o,o,o
-To quash district court subpoena,I,I,o,o,o,o,I,I,o,o,o,o
-To enforce subpoena or contempt of subpoena,3,2,I,2,I,I,I,I,o,o,o,o
-To dismiss action within Board's ezdusive Jurisdiction,1,1,o,I,I,o,o,o,o,o,o,o
-To compel compliance with reorganization plan,1,o,I,o,o,o,I,o,I,o,o,o
-To determine Board's claim to be nonchschargeable,0,o,0,b,o,o,o,o,o,o,o,o
-Action by other parties,o,o,0,o,o,o,o,o,o,o,o,o
-To review,o,o,o,o,o,o,o,o,o,o,o,o
-Prosecutorial discretion,3,3,o,3,3,0,0,0,o,o,o,0
-Nonfinal/representation order,0,o,o,o,o,o,o,o,o,o,o,0
-Attorney discipline orders,1,o,I,o,o,o,I,o,I,0,o,0
-To restrain NLRB from,0,o,0,o,o,o,o,o,o,o,o,o
-Enforcing Board subpoenas,0,o,0,o,o,o,o,o,o,o,o,0
-Proceeding in R case,1,1,0,1,1,o,o,o,o,o,o,o
-Proceeding in unfair labor practice case,1,1,0,0,o,o,I,I,o,o,o,o
-To compel NLRB to .,0,o,0,o,0,o,o,o,o,0,o,o
-Issue complaint,5,5,o,2,2,o,3,3,o,o,o,0
-Tette action in R case,1,1,0,0,o,o,I,I,o,o,o,-0
-Comply with freedom of Information Act i,1,1,o,o,o,o,I,I,o,0,o,o
-Take action in compliance proceeding,o,o,o,o,o,o,o,o,o,' o,0,0
+,Total proceedings,Injunction proceedings,Injunction proceedings,Total dispositions,Disposition of injunctions,Disposition of injunctions,Disposition of injunctions,Disposition of injunctions,Disposition of injunctions,Disposition of injunctions,"Pending in district court Sept 30, 1998"
+,Total proceedings,"Pending in district court Oct 1, 1997",Filed in district court fiscal year 1998,Total dispositions,Granted,Denied,Settled,Withdrawn,Dismissed,Inactive,"Pending in district court Sept 30, 1998"
+Under Sec 10(e) total,0,0,0,0,0,0,0,0,0,0,0
+Under Sec 10(j) total,37,5,32,33,19,2,10,2,0,0,4
+8(a)(1),1,0,1,1,0,0,1,0,0,0,0
+8(a)(1)(3),11,4,7,11,6,1,4,0,0,0,0
+8(a)(1)(3)(4),1,1,0,1,1,0,0,0,0,0,0
+8(a)(1)(3)(4)(5),1,0,1,0,0,0,0,0,0,0,1
+8(a)(1)(3)(5),13,0,13,11,5,1,4,1,0,0,2
+8(a)(1)(5),9,0,9,8,6,0,1,1,0,0,1
+8(b)(3),1,0,1,1,1,0,0,0,0,0,0
+Under Sec 10(l) total,20,7,13,18,5,1,6,3,0,3,2
+8(b)(4),1,0,1,1,1,0,0,0,0,0,0
+8(b)(4)(B),7,4,3,7,2,0,3,1,0,1,0
+8(b)(4)(D),6,1,5,6,0,1,2,2,0,1,0
+8(b)(4)(A) 8(b)(7)(C),2,1,1,1,0,0,0,0,0,1,0
+8(b)(4)(B) 8(b)(4)(D),1,0,1,1,1,0,0,0,0,0,0
+8(b)(4)(B) 8(b)(7)(A),0,0,0,0,0,0,0,0,0,0,1
+8(b)(7)(A),1,1,0,0,0,0,0,0,0,0,1
+8(b)(7)(C),1,0,1,1,0,0,1,0,0,0,0
+8(e),1,0,1,1,1,0,0,0,0,0,0

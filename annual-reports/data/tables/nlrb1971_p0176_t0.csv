@@ -1,7 +1,11 @@
-Stage of disposition,All R cases — Number,All R cases — Percent of cases closed,RC cases — Number,RC cases — Percent of cases closed,RM cases — Number,RM cases — Percent of cases closed,RD cases — Number,RD cases — Percent of cases closed,UD cases — Number,UD cases — Percent of cases closed
-Total number of cases closed,12896,100.0,10912,100.0,1077,100.0,907,100.0,163,100.0
-Before issuance of notice of hearing,6024,46.7,4734,43.4,709,65.8,581,64.0,124,76.1
-After issuance of notice before close of hearing,4538,35.2,4064,37.2,250,23.2,222,24.5,3,1.8
-After hearing closed before issuance of decision,137,1.1,122,1.1,8,0.7,7,0.8,0,0.0
-After issuance of regional director's decision,2006,15.5,1822,16.7,94,8.7,70,9.9,36,22.1
-After issuance of Board decision,193,1.5,170,1.6,16,1.4,7,1.5,,
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CP cases,CP cases
+Stage of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"23,840",100.0,"15,514",100.0,"5,363",100.0,"1,761",100.0,698,100.0,49,100.0,455,100.0
+Before issuance of complaint,"20,837",87.4,"13,221",85.2,"4,957",92.4,"1,544",87.7,678,97.1,34,69.4,403,88.6
+"After issuance of complaint, before opening of hearing","1,332",5.6,966,6.2,184,3.4,135,7.7,13,1.9,5,10.2,29,6.4
+"After hearing opened, before issuance of trial examiner's decision",164,.7,122,.8,28,.5,13,.7,0,,0,,1,.2
+"After trial examiner's decision, before issuance of Board decision",12,.1,7,.1,4,.1,1,0,0,,0,,0,
+After Board order adopting trial examiner's decision in absence of exceptions,199,.8,161,1.1,31,.6,4,.2,0,,0,,3,.7
+"After Board decision, before circuit court decree",779,3.3,593,3.8,118,2.2,46,2.6,3,.4,7,14.3,12,2.6
+"After circuit court decree, before Supreme Court action",460,1.9,393,2.5,40,.8,17,1.0,4,.6,1,2.0,5,1.1
+After Supreme Court action,57,.2,51,.3,1,0,1,.1,0,,2,4.1,2,.4

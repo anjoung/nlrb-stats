@@ -1,17 +1,6 @@
-Affiliation of participating unions,Number of elections / Total,Number of elections / in which representation rights were won by: / AFL affiliates,Number of elections / in which representation rights were won by: / CIO affiliates,Number of elections / in which representation rights were won by: / Unaffiliated unions,Number of elections / in units in which no representative was chosen,Number of employees involved (number eligible to vote) / Total,Number of employees involved (number eligible to vote) / in units in which representation rights were won by: / AFL affiliates,Number of employees involved (number eligible to vote) / in units in which representation rights were won by: / CIO affiliates,Number of employees involved (number eligible to vote) / in units in which representation rights were won by: / Unaffiliated unions,Number of employees involved (number eligible to vote) / in units where no representative was chosen
-Total,6050,2750,1114,486,1700,737966,267925,217165,99330,153548
-1-union elections,5031,2011,,,1020,167355,99765,,,67590
-A F L,2776,2011,,,765,165847,99765,,,66141
-C I O,1226,,946,,280,,,,,19584
-Unaffiliated,529,,,279,60,,,,,
-2-union elections,650,324,166,80,80,215050,107725,94073,19371,39330
-A F L-C I O,504,236,164,,65,26756,,,,
-A F L-Unaffiliated,214,88,,80,31,,,,,
-C I O-Unaffiliated,26,,2,,,,,,,
-Unaffiliated-Unaffiliated,11,,,15,0,2196,,,,
-3-union elections,54,21,14,15,4,9098,1376,14228,17321,13932
-A F L-C I O-Unaffiliated,47,19,14,11,3,,,,,
-A F L-Unaffiliated-Unaffiliated,4,2,,2,0,,,,,
-C I O-Unaffiliated-Unaffiliated,3,,0,2,1,,,,,
-4-union elections,2,,2,,0,2774,,2774,,0
-A F L-A F L-C I O-Unaffiliated,2,0,2,0,0,,,,,
+Affiliation of union holding union-shop contract,Number of polls,Number of polls,Number of polls,Number of polls,Number of polls,Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Affiliation of union holding union-shop contract,Total,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total eligible,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total,Percent of total eligible,Cast for deauthorization,Cast for deauthorization
+Affiliation of union holding union-shop contract,Total,Number,Percent of total,Number,Percent of total,Total eligible,Number,Percent of total,Number,Percent of total,Total,Percent of total eligible,Number,Percent of total eligible
+Total elections,17,8,47.1,9,52.9,"3,394",213,6.3,"3,181",93.7,"2,110",62.2,"1,343",39.6
+A. F. L.,13,6,46.2,7,53.8,"3,100",129,4.2,"2,971",95.8,"1,838",59.3,"1,222",39.4
+C. I. O.,4,2,50.0,2,50.0,294,84,28.6,210,71.4,272,92.5,121,41.2

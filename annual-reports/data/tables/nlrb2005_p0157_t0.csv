@@ -1,21 +1,110 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14
-Wood Product Manufacturing..................,8,2,2,0,0,6,1480,1366,570,570,0,0,796,317
-Paper Manufacturing................................,24,9,8,1,0,15,1439,1317,674,553,107,14,643,621
-Printing and Related Support Activities....,13,7,6,1,0,6,875,807,365,284,69,12,442,196
-Petroleum and Coal Products Manufacturing..........................................,15,7,5,0,2,8,565,361,259,129,0,130,102,456
-Chemical Manufacturing..........................,30,16,12,3,1,14,1846,1716,802,676,45,81,914,726
-Plastics and Rubber Products Manufacturing..........................................,27,7,7,0,0,20,5434,5028,2154,2154,0,0,2874,194
-Nonmetallic Mineral Product Manufacturing..........................................,33,14,14,0,0,19,1229,1128,595,595,0,0,533,570
-32-Manufacturing................................,150,62,54,5,3,88,12868,11723,5419,4961,221,237,6304,3080
-Primary Metal Manufacturing..................,18,5,5,0,0,13,1910,1764,705,699,0,6,1059,244
-Fabricated Metal Product Manufacturing,35,6,6,0,0,29,2189,2024,807,802,5,0,1217,412
-Machinery Manufacturing........................,28,12,12,0,0,16,1553,1467,627,625,0,2,840,373
-Computer and Electronic Product Manufacturing..........................................,5,0,0,0,0,5,346,328,127,127,0,0,201,0
-"Electrical Equipment, Appliance and Component Manufacturing......................",13,9,7,1,1,4,1122,1024,594,374,175,45,430,713
-Transportation Equipment Manufacturing,47,30,30,0,0,17,7219,6391,3598,3427,0,171,2793,5456
-Furniture and Related Product Manufacturing..........................................,7,3,2,0,1,4,914,822,296,263,0,33,526,176
-Miscellaneous Manufacturing..................,50,22,20,1,1,28,3603,3303,1556,1171,341,44,1747,1643
-33-Manufacturing................................,203,87,82,2,3,116,18856,17123,8310,7488,521,301,8813,9017
-"Wholesale Trade, Durable Goods............",28,16,16,0,0,12,867,797,399,394,5,0,398,469
-"Wholesale Trade, Nondurable Goods......",49,22,21,0,1,27,2563,2195,942,935,0,7,1253,864
-Wholesale Trade..................................,77,38,37,0,1,39,3430,2992,1341,1329,5,7,1651,1333
+Industrial Group,Total elections,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which no representative was chosen,Number of employees eligible to vote,Total valid votes cast,Valid votes cast for unions,Valid votes cast for unions,Valid votes cast for unions,Valid votes cast for unions,Total votes for no union,Eligible employees in units choosing representation
+Industrial Group,Total elections,Total,AFL-CIO unions,Other national unions,Other local unions,Number of elections in which no representative was chosen,Number of employees eligible to vote,Total valid votes cast,Total,AFL-CIO unions,Other national unions,Other local unions,Total votes for no union,Eligible employees in units choosing representation
+Crop Production,1,0,0,0,0,1,65,61,29,29,0,0,32,0
+Animal Production,3,2,1,0,1,1,3459,"3,018","2,247",771,0,"1,476",771,3406
+"Fishing, Hunting and Trapping",1,1,1,0,0,0,164,152,109,109,0,0,43,164
+Support Activities for Agriculture and Forestry,2,0,0,0,0,2,40,36,14,14,0,0,22,0
+"Agriculture, Forestry, Fishing, and Hunting",7,3,2,0,1,4,3728,"3,267","2,399",923,0,"1,476",868,3570
+Oil and Gas Extraction,2,1,1,0,0,1,36,34,19,19,0,0,15,21
+Mining (except Oil and Gas),16,5,5,0,0,11,906,800,375,375,0,0,425,387
+Support Activities for Mining,4,3,3,0,0,1,118,115,69,69,0,0,46,115
+Mining,22,9,9,0,0,13,1060,949,463,463,0,0,486,523
+Utilities,63,35,35,0,0,28,2472,"2,310","1,227","1,227",0,0,"1,083",1087
+"Building, Developing and General Contracting",32,14,12,1,1,18,917,712,295,182,54,59,417,298
+Heavy Construction,21,9,8,0,1,12,1032,644,384,365,0,19,260,684
+Special Trade Contractors,343,248,242,0,6,95,7893,"5,877","4,277","4,056",26,195,"1,600",5500
+Construction,396,271,262,1,8,125,9842,"7,233","4,956","4,603",80,273,"2,277",6482
+Food Manufacturing,74,36,33,2,1,38,15486,"12,412","5,038","4,963",30,45,"7,374",4663
+Beverage and Tobacco Product Manufacturing,23,7,6,0,1,16,3662,"3,344","1,380","1,133",0,247,"1,964",641
+Textile Mills,3,1,1,0,0,2,716,652,248,248,0,0,404,9
+Textile Product Mills,3,1,1,0,0,2,420,373,195,195,0,0,178,167
+Apparel Manufacturing,4,3,3,0,0,1,49,48,26,26,0,0,22,27
+31-Manufacturing,107,48,44,2,2,59,20333,"16,829","6,887","6,565",30,292,"9,942",5507
+Wood Product Manufacturing,8,2,2,0,0,6,1480,"1,366",570,570,0,0,796,317
+Paper Manufacturing,24,9,8,1,0,15,1439,"1,317",674,553,107,14,643,621
+Printing and Related Support Activities,13,7,6,1,0,6,875,807,365,284,69,12,442,196
+Petroleum and Coal Products Manufacturing,15,7,5,0,2,8,565,361,259,129,0,130,102,456
+Chemical Manufacturing,30,16,12,3,1,14,1846,"1,716",802,676,45,81,914,726
+Plastics and Rubber Products Manufacturing,27,7,7,0,0,20,5434,"5,028","2,154","2,154",0,0,"2,874",194
+Nonmetallic Mineral Product Manufacturing,33,14,14,0,0,19,1229,"1,128",595,595,0,0,533,570
+32-Manufacturing,150,62,54,5,3,88,12868,"11,723","5,419","4,961",221,237,"6,304",3080
+Primary Metal Manufacturing,18,5,5,0,0,13,1910,"1,764",705,699,0,6,"1,059",244
+Fabricated Metal Product Manufacturing,35,6,6,0,0,29,2189,"2,024",807,802,5,0,"1,217",412
+Machinery Manufacturing,28,12,12,0,0,16,1553,"1,467",627,625,0,2,840,373
+Computer and Electronic Product Manufacturing,5,0,0,0,0,5,346,328,127,127,0,0,201,0
+"Electrical Equipment, Appliance and Component Manufacturing",13,9,7,1,1,4,1122,"1,024",594,374,175,45,430,713
+Transportation Equipment Manufacturing,47,30,30,0,0,17,7219,"6,391","3,598","3,427",0,171,"2,793",5456
+Furniture and Related Product Manufacturing,7,3,2,0,1,4,914,822,296,263,0,33,526,176
+Miscellaneous Manufacturing,50,22,20,1,1,28,3603,"3,303","1,556","1,171",341,44,"1,747",1643
+33-Manufacturing,203,87,82,2,3,116,18856,"17,123","8,310","7,488",521,301,"8,813",9017
+"Wholesale Trade, Durable Goods",28,16,16,0,0,12,867,797,399,394,5,0,398,469
+"Wholesale Trade, Nondurable Goods",49,22,21,0,1,27,2563,"2,195",942,935,0,7,"1,253",864
+Wholesale Trade,77,38,37,0,1,39,3430,"2,992","1,341","1,329",5,7,"1,651",1333
+Motor Vehicle and Parts Dealers,37,16,16,0,0,21,957,833,460,456,0,4,373,545
+Furniture and Home Furnishings Stores,4,3,3,0,0,1,44,41,25,25,0,0,16,22
+Electronics and Appliance Stores,1,0,0,0,0,1,9,9,3,3,0,0,6,0
+Building Material and Garden Equipment and Supplies Dealers,12,7,7,0,0,5,684,603,313,313,0,0,290,293
+Food and Beverage Stores,55,17,17,0,0,38,5148,"4,648","1,760","1,753",0,7,"2,888",749
+Health and Personal Care Stores,25,14,12,1,1,11,612,502,290,144,8,138,212,301
+Gasoline Stations,1,0,0,0,0,1,25,25,9,9,0,0,16,0
+Clothing and Clothing Accessories Stores,4,2,2,0,0,2,74,69,40,40,0,0,29,62
+44-Retail Trade,139,59,57,1,1,80,7553,"6,730","2,900","2,743",8,149,"3,830",1972
+"Sporting Goods, Hobby, Book and Music Stores",1,1,1,0,0,0,19,18,11,11,0,0,7,19
+General Merchandise Stores,9,1,1,0,0,8,431,365,98,98,0,0,267,4
+Miscellaneous Store Retailers,8,4,4,0,0,4,236,221,135,125,0,10,86,153
+Nonstore Retailers,2,0,0,0,0,2,3,14,5,5,0,0,9,0
+45-Retail Trade,20,6,6,0,0,14,689,618,249,239,0,10,369,176
+Air Transportation,10,7,5,2,0,3,178,142,80,76,4,0,62,97
+Rail Transportation,2,2,2,0,0,0,92,81,54,54,0,0,27,92
+Water Transportation,1,0,0,0,0,1,11,11,5,5,0,0,6,0
+Truck Transportation,79,44,44,0,0,35,2623,"2,244","1,326","1,326",0,0,918,1682
+Transit and Ground Passenger Transportation,87,45,43,0,2,42,7011,"5,994","3,082","2,773",0,309,"2,912",3342
+Pipeline Transportation,1,1,1,0,0,0,77,76,49,49,0,0,27,77
+Scenic and Sightseeing Transportation,4,2,2,0,0,2,319,281,140,140,0,0,141,136
+Support Activities for Transportation,46,31,29,1,1,15,2930,"2,603","1,337","1,177",141,19,"1,266",1290
+48-Transportation,230,132,126,3,3,98,13241,"11,432","6,073","5,600",145,328,"5,359",6716
+Couriers and Messengers,62,48,45,1,2,14,1432,"1,239",854,819,13,22,385,1110
+Warehousing and Storage Facilities,57,32,29,2,1,25,2388,"2,111","1,041",922,109,10,"1,070",1090
+49-Transportation,119,80,74,3,3,39,3820,"3,350","1,895","1,741",122,32,"1,455",2200
+Publishing Industries,20,9,8,1,0,11,745,647,310,310,0,0,337,349
+Motion Picture and Sound Recording Industries,10,6,6,0,0,4,1700,"1,115",729,729,0,0,386,620
+Broadcasting and Telecommunications,68,22,19,2,1,46,3607,"3,355","1,326","1,309",0,17,"2,029",722
+Information Services and Data Processing Services,8,5,4,0,1,3,284,229,135,78,0,57,94,245
+Information,106,42,37,3,2,64,6336,"5,346","2,500","2,426",0,74,"2,846",1936
+Monetary Authorities - Central Bank,3,2,1,1,0,1,89,61,51,4,47,0,10,77
+Credit Intermediation and Related Activities,3,3,2,1,0,0,46,41,39,20,19,0,2,46
+"Securities, Commodity Contracts and Other Intermediation and Related Activities",1,1,0,1,0,0,46,25,1,0,0,1,24,0
+Insurance Carriers and Related Activities,1,0,0,0,0,1,26,26,11,11,0,0,15,0
+"Funds, Trusts and Other Financial Vehicles (U.S. Only)",1,1,0,1,0,0,23,11,10,0,10,0,1,23
+Finance and Insurance,9,7,3,4,0,2,230,164,112,35,76,1,52,146
+Real Estate,10,9,8,0,1,1,200,178,102,97,0,5,76,130
+Rental and Leasing Services,25,17,16,0,1,8,832,734,393,355,0,38,341,542
+Real Estate and Rental and Leasing,35,26,24,0,2,9,1032,912,495,452,0,43,417,672
+"Professional, Scientific and Technical Services",33,21,16,1,4,12,1143,"1,013",599,373,40,186,414,550
+Management of Companies and Enterprises,4,1,1,0,0,3,67,47,26,26,0,0,21,33
+Administrative and Support Services,172,109,45,41,23,63,10109,"7,294","4,543","1,372","2,014","1,157","2,751",5539
+Waste Management and Remediation Services,65,27,24,0,3,38,2210,"1,945",930,871,0,59,"1,015",747
+"Administrative and Support, Waste Management and Remediation Services",237,136,69,41,26,101,12319,"9,239","5,473","2,243","2,014","1,216","3,766",6286
+Educational Services,46,35,20,2,13,11,4024,"3,037","2,151","1,463",30,658,886,3598
+Ambulatory Health Care Services,56,35,27,1,7,21,4496,"3,018","1,687","1,534",23,130,"1,331",2674
+Hospitals,108,73,61,3,9,35,14759,"11,936","6,517","5,493",210,814,"5,419",8665
+Nursing and Residential Care Facilities,192,122,115,5,2,70,16225,"12,077","7,356","6,763",200,393,"4,721",10303
+Social Assistance,55,38,38,0,0,17,5528,"3,972","2,460","2,456",0,4,"1,512",3523
+Health Care and Social Assistance,411,268,241,9,18,143,41008,"31,003","18,020","16,246",433,"1,341","12,983",25165
+"Performing Arts, Spectator Sports and Related Industries",17,12,8,1,3,5,1082,856,763,199,90,474,93,999
+"Museums, Historical Sites and Similar Institutions",5,4,3,0,1,1,126,109,75,56,0,19,34,121
+"Amusement, Gambling and Recreation Industries",9,5,4,1,0,4,4293,"3,534","1,266","1,205",61,0,"2,268",518
+"Arts, Entertainment and Recreation",31,21,15,2,4,10,5501,"4,499","2,104","1,460",151,493,"2,395",1638
+Accommodation,25,14,11,0,3,11,2210,"1,819",724,641,0,83,"1,095",787
+Foodservices and Drinking Places,32,12,11,0,1,20,2084,"1,579",727,620,20,87,852,803
+Accommodation and Foodservices,57,26,22,0,4,31,4294,"3,398","1,451","1,261",20,170,"1,947",1590
+Repair and Maintenance,35,18,17,0,1,17,1205,"1,107",570,544,0,26,537,546
+Personal and Laundry Services,36,19,17,2,0,17,1123,930,558,527,31,0,372,634
+"Religious, Grantmaking, Civic, and Professional and Similar Organizations",32,17,12,1,4,15,1308,"1,115",570,535,7,28,545,624
+Other Services (except Public Administration),103,54,46,3,5,49,3636,"3,152","1,698","1,606",38,54,"1,454",1804
+"Executive, Legislative, Public Finance and General Government",3,2,2,0,0,1,29,29,24,24,0,0,5,19
+"Justice, Public Order, and Safety",9,8,2,5,1,1,505,410,289,101,157,31,121,467
+Administration of Economic Programs,1,1,1,0,0,0,22,20,15,15,0,0,5,22
+Public Administration,13,11,5,5,1,2,556,459,328,140,157,31,131,508
+Unclassified Establishments,56,36,33,2,1,20,1774,"1,611",781,732,40,9,830,658
+"Total, all industrial groups","2,674","1,514","1,320",89,105,"1,160",179812,"148,436","77,857","66,345","4,131","7,381","70,579",86247

@@ -1,11 +1,46 @@
-Division and State 1,Total,Number of elections in which representation rights were won by: / AFL-CIO affiliates,Number of elections in which representation rights were won by: / Unaffiliated unions,In which no representative was chosen,Employees eligible to vote,Total valid votes cast,Valid votes cast for — / AFL-CIO affiliates,Valid votes cast for — / Unaffiliated unions,Valid votes cast for — / No union,Employees in units representation
-Total,5428,2302,1108,2018,430033,385794,177351,70516,137927,257028
-New England,305,130,70,115,28663,26299,11821,3803,10674,14689
-Maine,,,,,,,,,,
-Middle Atlantic,979,419,233,327,82056,74004,33968,19713,18413,20927
-New York,428,190,105,143,38238,34092,16106,10457,7309,20148
-"Additional Middle Atlantic states (NJ, PA)",,,,,,,,,,
-East North Central,1211,540,238,433,110821,99646,48874,14084,36588,62961
-"Additional East North Central states (OH, IN, IL, MI, WI)",,,,,,,,,,
-West North Central,557,215,134,208,26016,22076,10021,4815,8240,16206
-"Additional West North Central states (MN, MO, ND, SD, NE, KS, IA)",,,,,,,,,,
+Size of unit (number of employees),Number of elections,Percent of total,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which no representative was chosen,Elections in which no representative was chosen
+Size of unit (number of employees),Number of elections,Percent of total,AFL-CIO affiliates,AFL-CIO affiliates,Unaffiliated unions,Unaffiliated unions,Elections in which no representative was chosen,Elections in which no representative was chosen
+Size of unit (number of employees),Number of elections,Percent of total,Number,Percent,Number,Percent,Number,Percent
+A. COLLECTIVE-BARGAINING ELECTIONS,,,,,,,,
+Total,"5,428",100.0,"2,302",100.0,"1,108",100.0,"2,018",100.0
+1-9,"1,131",20.8,416,18.1,355,32.0,360,17.8
+10-19,"1,171",21.6,495,21.5,249,22.5,427,21.1
+20-29,710,13.1,325,14.1,124,11.2,261,12.9
+30-39,468,8.6,211,9.2,78,7.0,179,8.9
+40-49,283,5.2,139,6.0,40,3.6,104,5.2
+50-59,231,4.3,102,4.4,33,3.0,96,4.8
+60-69,195,3.6,84,3.7,33,3.0,78,3.9
+70-79,144,2.7,68,3.0,31,2.8,45,2.2
+80-89,119,2.2,43,1.9,23,2.1,53,2.6
+90-99,94,1.7,47,2.0,17,1.5,30,1.5
+100-149,286,5.3,120,5.2,41,3.7,125,6.2
+150-199,163,3.0,71,3.1,15,1.3,77,3.8
+200-299,174,3.2,74,3.2,28,2.5,72,3.6
+300-399,87,1.6,32,1.4,16,1.4,39,1.9
+400-499,53,1.0,23,1.0,6,.5,24,1.2
+500-599,29,.5,16,.7,3,.3,10,.5
+600-799,28,.5,10,.4,4,.4,14,.7
+800-999,17,.3,9,.4,1,.1,7,.3
+"1,000-1,999",29,.5,14,.6,5,.5,10,.5
+"2,000-2,999",10,.2,2,.1,3,.3,5,.2
+"3,000-3,999",2,,1,,0,.0,1,.1
+"4,000-4,999",1,,0,.0,1,.1,0,.0
+"5,000-9,999",3,.1,0,.0,2,.2,1,.1
+"10,000 and over",0,.0,0,.0,0,.0,0,.0
+B. DECERTIFICATION ELECTIONS,,,,,,,,
+Total,216,100.0,60,100.0,14,100.0,142,100.0
+1-9,30,13.9,3,5.0,0,.0,27,19.0
+10-19,57,26.4,7,11.7,5,35.7,45,31.7
+20-29,31,14.3,8,13.3,0,.0,23,16.2
+30-39,20,9.2,5,8.3,2,14.3,13,9.2
+40-49,12,5.6,3,5.0,2,14.3,7,4.9
+50-59,13,6.0,3,5.0,4,28.6,6,4.2
+60-69,6,2.8,3,5.0,0,.0,3,2.1
+70-79,5,2.3,1,1.7,0,.0,4,2.8
+80-89,4,1.9,3,5.0,1,7.1,0,.0
+90-99,3,1.4,2,3.3,0,.0,1,.7
+100-149,16,7.4,9,15.0,0,.0,7,4.9
+150-199,3,1.4,3,5.0,0,.0,0,.0
+200-299,10,4.6,7,11.7,0,.0,3,2.1
+300-399,2,.9,1,1.7,0,.0,1,.7
+400 and over,4,1.9,2,3.3,0,.0,2,1.4

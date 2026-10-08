@@ -1,6 +1,26 @@
-row_label,Total,Number of cases / Identification of petitioner / Em- ployer,Number of cases / Identification of petitioner / Union,Number of cases / Identification of petitioner / Courts,Number of cases / Identification of petitioner / State boards
-"Pending October 1, 1993",0,0,0,0,0
-Received fiscal 1994,10,10,0,0,0
-On docket fiscal 1994,10,10,0,0,0
-Closed fiscal 1994,10,10,0,0,0
-"Pending September 30, 1994",0,0,0,0,0
+Type of litigation,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings
+Type of litigation,Total—all courts,Total—all courts,Total—all courts,In courts of appeals,In courts of appeals,In courts of appeals,In district courts,In district courts,In district courts,In bankruptcy courts,In bankruptcy courts,In bankruptcy courts
+Type of litigation,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination
+Type of litigation,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position
+Totals—all types,27,23,4,14,12,2,12,11,1,1,0,1
+NLRB-initiated actions or interventions,5,4,1,3,2,1,2,2,0,0,0,0
+To enforce subpoena,0,0,0,0,0,0,0,0,0,0,0,0
+To defend Board's jurisdiction,5,4,1,3,2,1,2,2,0,0,0,0
+To prevent conflict between NLRA and other statutes,0,0,0,0,0,0,0,0,0,0,0,0
+Action by other parties,22,19,3,11,10,1,10,9,1,1,0,1
+To review nonfinal orders,2,2,0,2,2,0,0,0,0,0,0,0
+To restrain NLRB from,3,3,0,0,0,0,3,3,0,0,0,0
+Proceeding in R case,1,1,0,0,0,0,1,1,0,0,0,0
+Proceeding in unfair labor practice case,1,1,0,0,0,0,1,1,0,0,0,0
+Enforcing subpoena,0,0,0,0,0,0,0,0,0,0,0,0
+Other,1,1,0,0,0,0,1,1,0,0,0,0
+To compel NLRB to,14,13,1,7,7,0,7,6,1,0,0,0
+"Take action in ""C"" case",3,3,0,2,2,0,1,1,0,0,0,0
+Issue complaint,4,4,0,1,1,0,3,3,0,0,0,0
+Take action in R case,2,2,0,1,1,0,1,1,0,0,0,0
+Comply with Freedom of Information Act (FOIA),3,2,1,1,1,0,2,1,1,0,0,0
+Other—Pay fees under EAJA,2,2,0,2,2,0,0,0,0,0,0,0
+Other,3,1,2,2,1,1,0,0,0,1,0,1
+Objection to Board's Proof of Claim,1,0,1,1,0,1,0,0,0,0,0,0
+NLRA preempts State Regulation,1,1,0,1,1,0,0,0,0,0,0,0
+Backpay returned as voidable preference,1,0,1,0,0,0,0,0,0,1,0,1

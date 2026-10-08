@@ -1,42 +1,37 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Pending October 1, 1998 ……….….",27104,17211,2597,1595,5701,0
-Received fiscal 1999 ……………...,21063,13312,1999,1030,4722,0
-On docket fiscal 1999……………..,48167,30523,4596,2625,10423,0
-Closed fiscal 1999 ………………....,22966,14350,2314,1093,5209,0
-"Pending September 30, 1999 ……...",25201,16173,2282,1532,5214,0
-,CB Cases 2,CB Cases 2,CB Cases 2,CB Cases 2,CB Cases 2,CB Cases 2
-"Pending October 1, 1998 …………..",4339,89,1,34,3666,549
-Received fiscal 1999 ……………...,5611,102,3,66,4789,651
-On docket fiscal 1999……………..,9950,191,4,100,8455,1200
-Closed fiscal 1999 ………………....,5848,101,2,60,4934,751
-"Pending September 30, 1999 ……...",4102,90,2,40,3521,449
-,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases
-"Pending October 1, 1998 …………..",410,3,2,7,0,398
-Received fiscal 1999 ……………...,461,7,11,9,0,434
-On docket fiscal 1999……………..,871,10,13,16,0,832
-Closed fiscal 1999 ………………...,570,7,9,7,0,547
-"Pending September 30, 1999 ……...",301,3,4,9,0,285
-,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases
-"Pending October 1, 1998 …………..",119,5,0,2,0,112
-Received fiscal 1999 ……………....,155,15,3,5,0,132
-On docket fiscal 1999……………..,274,20,3,7,0,244
-Closed fiscal 1999 ………………....,168,15,1,1,0,151
-"Pending September 30, 1999 ……...",106,5,2,6,0,93
-,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases
-"Pending October 1, 1998………….",53,1,1,1,2,48
-Received fiscal 1999 ……………...,35,0,0,2,0,33
-On docket fiscal 1999……………..,88,1,1,3,2,81
-Closed fiscal 1999 ………………....,60,0,0,0,2,58
-"Pending September 30, 1999 ……...",28,1,1,3,0,23
-,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases
-"Pending October 1, 1998 …………..",19,0,0,0,0,19
-Received fiscal 1999 ……………....,45,0,2,2,0,41
-On docket fiscal 1999……………..,64,0,2,2,0,60
-Closed fiscal 1999 ………………....,49,0,1,2,0,46
-"Pending September 30, 1999 ……...",15,0,1,0,0,14
-,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases
-"Pending October 1,1998…………",62,1,1,0,0,60
-Received fiscal 1999……………..,80,1,1,4,0,74
-On docket fiscal 1999…………….,142,2,2,4,0,134
-Closed fiscal 1999………………..,80,1,1,1,0,77
-"Pending September 30, 1999 ……..",62,1,1,3,0,57
+,Total,AFL-CIO Unions,Other National Unions,Other Local Unions,Individuals,Employers
+All cases,,,,,,
+"Pending October 1, 1998","34,630","18,771","2,947","1,829","9,745","1,338"
+Received fiscal 1999,"33,232","17,041","2,931","1,450","10,289","1,521"
+On docket fiscal 1999,"67,862","35,812","5,878","3,279","20,034","2,859"
+Closed fiscal 1999,"35,806","18,214","3,282","1,526","10,985","1,799"
+"Pending September 30, 1999","32,056","17,598","2,596","1,753","9,049","1,060"
+Unfair labor practice cases,,,,,,
+"Pending October 1, 1998","32,106","17,310","2,602","1,639","9,369","1,186"
+Received fiscal 1999,"27,450","13,437","2,019","1,118","9,511","1,365"
+On docket fiscal 1999,"59,556","30,747","4,621","2,757","18,880","2,551"
+Closed fiscal 1999,"29,741","14,474","2,328","1,164","10,145","1,630"
+"Pending September 30, 1999","29,815","16,273","2,293","1,593","8,735",921
+Representation cases,,,,,,
+"Pending October 1, 1998","2,250","1,378",311,173,311,77
+Received fiscal 1999,"5,462","3,496",861,306,686,113
+On docket fiscal 1999,"7,712","4,874","1,172",479,997,190
+Closed fiscal 1999,"5,708","3,620",895,339,735,119
+"Pending September 30, 1999","2,004","1,254",277,140,262,71
+Union-shop deauthorization cases,,,,,,
+"Pending October 1, 1998",74,0,9,0,65,0
+Received fiscal 1999,110,0,18,0,92,0
+On docket fiscal 1999,184,0,27,0,157,0
+Closed fiscal 1999,128,0,23,0,105,0
+"Pending September 30, 1999",56,0,4,0,52,0
+Amendment of certification cases,,,,,,
+"Pending October 1, 1998",8,4,0,1,0,3
+Received fiscal 1999,15,10,2,1,0,2
+On docket fiscal 1999,23,14,2,2,0,5
+Closed fiscal 1999,12,7,2,1,0,2
+"Pending September 30, 1999",11,7,0,1,0,3
+Unit clarification cases,,,,,,
+"Pending October 1, 1998",192,79,25,16,0,72
+Received fiscal 1999,195,98,31,25,0,41
+On docket fiscal 1999,387,177,56,41,0,113
+Closed fiscal 1999,217,113,34,22,0,48
+"Pending September 30, 1999",170,64,22,19,0,65

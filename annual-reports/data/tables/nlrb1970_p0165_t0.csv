@@ -1,31 +1,38 @@
-row_label,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
-"CA cases - Pending July 1, 1969",5155,2835,612,298,179,1219,12
-CA cases - Received fiscal 1970,13501,5822,1634,658,373,5096,18
-CA cases - On docket fiscal 1970,18756,8657,2246,966,552,6315,30
-CA cases - Closed fiscal 1970,12815,5520,1596,648,355,4694,12
-"CA cases - Pending June 30, 1970",5941,3137,650,318,197,1621,18
-"CB cases - Pending July 1, 1969",1165,50,13,6,17,803,276
-CB cases - Received fiscal 1970,4631,54,21,14,23,3567,952
-CB cases - On docket fiscal 1970,5796,104,34,20,40,4370,1228
-CB cases - Closed fiscal 1970,4319,60,25,11,22,3334,867
-"CB cases - Pending June 30, 1970",1477,44,9,9,18,1036,361
-"CC cases - Pending July 1, 1969",411,1,2,5,11,10,382
-CC cases - Received fiscal 1970,1596,9,1,45,33,62,1446
-CC cases - On docket fiscal 1970,2007,10,3,50,44,72,1828
-CC cases - Closed fiscal 1970,1491,10,3,40,28,56,1354
-"CC cases - Pending June 30, 1970",516,0,0,10,16,16,474
-"CD cases - Pending July 1, 1969",188,5,1,1,3,2,176
-CD cases - Received fiscal 1970,694,28,3,1,2,23,632
-CD cases - On docket fiscal 1970,882,33,4,2,5,25,808
-CD cases - Closed fiscal 1970,673,21,4,1,7,24,615
-"CD cases - Pending June 30, 1970",209,12,0,1,0,1,193
-"CE cases - Pending July 1, 1969",30,1,,,1,3,26
-CE cases - Received fiscal 1970,107,1,10,,3,3,90
-CE cases - On docket fiscal 1970,137,1,10,,4,6,116
-CE cases - Closed fiscal 1970,83,1,10,,2,3,67
-"CE cases - Pending June 30, 1970",54,0,0,,2,3,49
-"CP cases - Pending July 1, 1969",140,3,1,2,36,5,93
-CP cases - Received fiscal 1970,409,2,1,2,5,8,375
-CP cases - On docket fiscal 1970,549,5,2,4,44,23,468
-CP cases - Closed fiscal 1970,470,3,2,1,42,19,401
-"CP cases - Pending June 30, 1970",79,2,1,3,8,4,62
+,Total,Identification of Filing Party,Identification of Filing Party,Identification of Filing Party,Identification of Filing Party,Identification of Filing Party,Identification of Filing Party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending July 1, 1969","9,992","4,459","1,215",489,436,"2,230","1,163"
+Received fiscal 1970,"33,581","11,729","4,675","1,656","1,246","9,709","4,566"
+On docket fiscal 1970,"43,573","16,188","5,890","2,145","1,682","11,939","5,729"
+Closed fiscal 1970,"32,353","11,584","4,637","1,587","1,102","9,077","4,366"
+"Pending June 30, 1970","11,220","4,604","1,253",558,580,"2,862","1,363"
+Unfair labor practice cases,,,,,,,
+"Pending July 1, 1969","7,089","2,894",629,312,247,"2,042",965
+Received fiscal 1970,"21,038","5,916","1,670",734,446,"8,759","3,513"
+On docket fiscal 1970,"28,127","8,810","2,299","1,046",693,"10,801","4,478"
+Closed fiscal 1970,"19,851","5,615","1,639",705,456,"8,120","3,316"
+"Pending June 30, 1970","8,276","3,195",660,341,237,"2,681","1,162"
+Representation cases,,,,,,,
+"Pending July 1, 1969","2,781","1,519",583,172,180,145,182
+Received fiscal 1970,"12,077","5,661","2,984",890,777,786,979
+On docket fiscal 1970,"14,858","7,180","3,567","1,062",957,931,"1,161"
+Closed fiscal 1970,"12,000","5,801","2,977",849,615,785,973
+"Pending June 30, 1970","2,858","1,379",590,213,342,146,188
+Union-shop deauthorization cases,,,,,,,
+"Pending July 1, 1969",40,,,,,40,
+Received fiscal 1970,158,,,,,158,
+On docket fiscal 1970,198,,,,,198,
+Closed fiscal 1970,165,,,,,165,
+"Pending June 30, 1970",33,,,,,33,
+Amendment of certification cases,,,,,,,
+"Pending July 1, 1969",18,8,0,1,5,1,3
+Received fiscal 1970,107,56,6,10,14,2,19
+On docket fiscal 1970,125,64,6,11,19,3,22
+Closed fiscal 1970,116,60,6,9,19,2,20
+"Pending June 30, 1970",9,4,0,2,0,1,2
+Unit clarification cases,,,,,,,
+"Pending July 1, 1969",64,38,3,4,4,2,13
+Received fiscal 1970,201,96,15,22,9,4,55
+On docket fiscal 1970,265,134,18,26,13,6,68
+Closed fiscal 1970,221,108,15,24,12,5,57
+"Pending June 30, 1970",44,26,3,2,1,1,11

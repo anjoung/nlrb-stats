@@ -1,42 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Pending October 1, 1993","*19,702",12782,1028,981,4911,
-Received fiscal 1994,26058,16863,820,1114,7261,
-On docket fiscal 1994,45760,"- 29,645",1848,2095,12172,
-Closed fiscal 1994,23705,14953,745,965,7042,
-"Pending September 30, 1994",22055,14692,1103,1130,5130,
-,CB cases,CB cases,CB cases,CB cases,CB cases,CB cases
-"Pending October 1, 1993","*4,030",55,3,30,3150,792
-Received fiscal 1994,7817,77,0,36,6945,759
-On docket fiscal 1994,11847,132,3,66,10095,1551
-Closed fiscal 1994,7660,61,2,29,6731,837
-"Pending September 30, 1994",4187,71,1,37,3364,714
-,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases
-"Pending October 1, 1993",*546,1,,12,,533
-Received fiscal 1994,532,16,,16,,500
-On docket fiscal 1994,1078,17,,28,,1033
-Closed fiscal 1994,624,15,,23,,586
-"Pending September 30, 1994",454,2,,5,,447
-,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases
-"Pending October I, 1993",*127,3,,,,123
-Received fiscal 1994,211,14,,4,,192
-On docket fiscal 1994,338,17,,5,,- 315
-Closed fiscal 1994,186,13,,3,,170
-Pending September 30. 1994,152,4,,2,,145
-,CE cases,CE cases,CE cases,CE cases,CE cases,CE cases
-"Pending October 1, 1993",50,2,,4,2,42
-Received fiscal 1994,27,0,,0,1,26
-On docket fiscal 1994,77,2,,4,3,68
-Closed fiscal 1994,35,2,,2,0,31
-"Pending September 30, 1994",42,0,,2,3,37
-,CG cases,CG cases,CG cases,CG cases,CG cases,CG cases
-"Pending October I, 1993",20,,,,,20
-Received fiscal 1994,23,,,,,22
-On docket fiscal 1994,43,,,,,42
-Closed fiscal 1994,27,,,,,27
-"Pending September 30, 1994",16,,,,,15
-,Cl' cases,Cl' cases,Cl' cases,Cl' cases,Cl' cases,Cl' cases
-"Pending October 1, 1993",51,2,,,,48
-Received fiscal 1994,114,2,,,,112
-On docket fiscal 1994,165,4,,,,160
-Closed fiscal 1994,109,3,,,,105
-"Pending September 30, 1994",56,1,,,,55
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,
+"Pending October 1, 1993","27,433","14,770","1,132","1,210","8,539","1,782"
+Received fiscal 1994,"40,861","21,057","1,021","1,532","15,321","1,930"
+On docket fiscal 1994,"68,294","35,827","2,153","2,742","23,860","3,712"
+Closed fiscal 1994,"38,551","19,282",959,"1,380","14,858","2,072"
+"Pending September 30, 1994","29,743","16,545","1,194","1,362","9,002","1,640"
+Unfair labor practice cases,,,,,,
+"Pending October 1, 1993","24,526","12,845","1,031","1,029","8,063","1,558"
+Received fiscal 1994,"34,782","16,972",821,"1,171","14,207","1,611"
+On docket fiscal 1994,"59,308","29,817","1,852","2,200","22,270","3,169"
+Closed fiscal 1994,"32,346","15,047",747,"1,023","13,773","1,756"
+"Pending September 30, 1994","26,962","14,770","1,105","1,177","8,497","1,413"
+Representation cases,,,,,,
+"Pending October 1, 1993","2,659","1,849",96,163,423,128
+Received fiscal 1994,"5,634","3,920",186,331,"1,024",173
+On docket fiscal 1994,"8,293","5,769",282,494,"1,447",301
+Closed fiscal 1994,"5,802","4,073",200,328,"1,000",201
+"Pending September 30, 1994","2,491","1,696",82,166,447,100
+Union-shop deauthorization cases,,,,,,
+"Pending October 1, 1993",53,,,,53,
+Received fiscal 1994,90,,,,90,
+On docket fiscal 1994,143,,,,143,
+Closed fiscal 1994,85,,,,85,
+"Pending September 30, 1994",58,,,,58,
+Amendment of certification cases,,,,,,
+"Pending October 1, 1993",9,4,1,3,0,1
+Received fiscal 1994,14,9,2,2,0,1
+On docket fiscal 1994,23,13,3,5,0,2
+Closed fiscal 1994,10,6,3,1,0,0
+"Pending September 30, 1994",13,7,0,4,0,2
+Unit clarification cases,,,,,,
+"Pending October 1, 1993",186,72,4,15,0,95
+Received fiscal 1994,341,156,12,28,0,145
+On docket fiscal 1994,527,228,16,43,0,240
+Closed fiscal 1994,308,156,9,28,0,115
+"Pending September 30, 1994",219,72,7,15,0,125

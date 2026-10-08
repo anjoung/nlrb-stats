@@ -1,13 +1,46 @@
-Division and State,All cases,Unfair labor practice cases — All C cases,Unfair labor practice cases — CA cases,Unfair labor practice cases — CB cases,Unfair labor practice cases — CC cases,Unfair labor practice cases — CD cases,Representation cases — All R cases,Representation cases — RC cases,Representation cases — RM cases,Representation cases — RD cases
-Total,16659,9260,6068,2473,527,192,7399,6284,626,489
-New England,774,420,266,107,33,14,354,296,36,22
-Middle Atlantic,3343,1836,1123,555,108,50,1507,1241,152,114
-New York,1791,1058,638,351,46,23,733,595,71,67
-East North Central,3385,1818,1199,502,92,25,1567,1331,129,104
-West North Central,1265,532,399,115,29,9,733,639,31,43
-South Atlantic,2232,1372,995,315,45,17,860,779,46,35
-East South Central,1286,894,582,188,106,18,392,344,23,25
-West South Central,1230,659,443,162,28,26,571,486,66,19
-Mountain,737,409,228,97,44,30,348,296,24,24
-Pacific,1915,1017,595,365,36,21,898,715,99,84
-California,1485,775,453,277,30,15,710,561,80,69
+Industrial group,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases,Representation cases
+Industrial group,All cases,All C cases,CA,CB,CC,CD,All R cases,RC,RM,RD
+Total,"16,659","9,260","6,068","2,473",527,192,"7,399","6,284",626,489
+Manufacturing,"9,440","4,542","3,438",944,120,40,"4,898","4,149",390,359
+Ordnance and accessories,25,13,11,2,0,0,12,12,0,0
+Food and kindred products,"1,663",691,498,166,21,6,972,850,67,55
+Tobacco manufacturers,15,8,7,1,0,0,7,7,0,0
+Textile mill products,337,233,205,26,1,1,104,82,11,11
+Apparel and other finished products made from fabric and similar materials,387,265,188,65,11,1,122,69,40,13
+Lumber and wood products (except furniture),347,156,128,24,3,1,191,155,22,14
+Furniture and fixtures,377,194,150,32,9,3,183,146,22,15
+Paper and allied products,326,117,94,14,9,0,209,177,18,14
+"Printing, publishing, and allied industries",444,202,144,47,3,8,242,218,11,13
+Chemicals and allied products,478,220,186,30,4,0,258,225,16,17
+Products of petroleum and coal,226,148,99,46,3,0,78,66,6,6
+Rubber products,129,46,39,7,0,0,83,71,6,6
+Leather and leather products,153,79,59,15,4,1,74,64,6,4
+"Stone, clay, and glass products",369,159,129,22,3,5,210,179,15,16
+Primary metal industries,480,226,154,61,9,2,254,217,21,16
+Fabricated metal products (except machinery and transportation equipment),898,442,347,86,8,1,456,402,22,32
+Machinery (except electrical),844,362,276,69,14,3,482,391,40,51
+"Electrical machinery, equipment, and supplies",606,292,216,64,9,3,314,264,18,32
+Aircraft and parts,265,171,124,45,0,2,94,82,6,6
+Ship and boat building and repairing,90,49,40,9,0,0,41,37,4,0
+Automotive and other transportation equipment,470,242,172,64,3,3,228,210,7,11
+"Professional, scientific, and controlling instruments",123,61,48,11,2,0,62,54,8,0
+Miscellaneous manufacturing,388,166,124,38,4,0,222,171,24,27
+"Agriculture, forestry, and fisheries",4,3,1,1,0,1,1,0,1,0
+Mining,417,304,250,53,1,0,113,97,12,4
+Metal mining,72,25,19,6,0,0,47,41,6,0
+Coal mining,221,216,178,38,0,0,5,5,0,0
+Crude petroleum and natural gas production,46,24,22,2,0,0,22,19,2,1
+Nonmetallic mining and quarrying,78,39,31,7,1,0,39,32,4,3
+Construction,"1,848","1,674",652,673,231,118,174,157,16,1
+Wholesale trade,"1,028",419,312,59,41,7,609,507,55,47
+Retail trade,"1,428",640,417,156,59,8,788,674,79,35
+"Finance, insurance, and real estate",43,18,15,2,0,1,25,18,4,3
+"Transportation, communication, and other public utilities","2,033","1,424",829,518,63,14,609,512,60,37
+Highway passenger transportation,98,60,43,16,1,0,38,34,2,2
+Highway freight transportation,877,679,442,212,21,4,198,171,22,5
+Water transportation,519,450,199,236,11,4,69,62,5,2
+Warehousing and storage,160,60,42,12,5,1,100,72,16,12
+Other transportation,55,32,21,8,3,0,23,21,1,1
+Communication,183,76,47,21,6,2,107,90,8,9
+"Heat, light, power, water, and sanitary services",141,67,35,13,16,3,74,62,6,6
+Services,418,236,154,67,12,3,182,170,9,3

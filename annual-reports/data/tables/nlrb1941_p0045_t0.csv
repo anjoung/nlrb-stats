@@ -1,9 +1,42 @@
-Participating unions,Number of elections (or pay-roll checks) conducted,Won by A. F. of L. — Number,Won by A. F. of L. — Percent,Won by C. I. O. — Number,Won by C. I. O. — Percent,Won by national unaffiliated — Number,Won by national unaffiliated — Percent,Won by local unaffiliated — Number,Won by local unaffiliated — Percent,Votes cast — For A. F. of L.,Votes cast — For C. I. O.,Votes cast — For national unaffiliated,Votes cast — For local unaffiliated
-C. I. O. alone,3,,,,,644,,,,123,767,,
-A. F. L.-C. I. O.,14,,,1086,1520,,,121,2727,,,,
-A. F. L.-National unaffiliated union,1,544,,339,,883,1766,,,,,,
-A. F. L.-Local unaffiliated union,4,825,,,479,29,1333,,,,,,
-C. I. O.-National unaffiliated union,2,,168,84,,5,257,,,,,,
-C. I. O.-Local unaffiliated union,3,,474,,206,34,714,,,,,,
-A. F. L.-C. I. O.-Local unaffiliated union,1,4,111,1,,116,,,,,,,
-Total,32,,,3108,2917,423,686,1334,8468,,,,
+,Number of elections and pay-roll checks,Number won by petitioner,Percent won by petitioner,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Percent of total votes cast for petitioner
+,Number of elections and pay-roll checks,Number won by petitioner,Percent won by petitioner,For A. F. L. affiliates,For C. I. O. affiliates,For national unaffiliated unions,For local unaffiliated unions,For no union,Total,Percent of total votes cast for petitioner
+A. F. L. affiliates—Petitioners:,,,,,,,,,,
+No other party on ballot,918,731,79.6,"94,833",,,,"33,216","128,049",74.1
+A. F. L.—C. I. O.,115,53,46.1,"28,439","25,370",,,"5,114","58,923",48.3
+A. F. L.—National unaffiliated union,13,9,69.2,"2,043",,"1,604",,55,"3,702",55.2
+A. F. L.—Local unaffiliated union,68,40,58.8,"9,081",,,"7,555",778,"17,414",52.1
+A. F. L.—C. I. O.—National unaffiliated union,2,0,0,74,108,38,,2,222,33.3
+A. F. L.—C. I. O.—Local unaffiliated union,10,1,10.0,"1,163","1,009",,"1,521",831,"4,524",25.7
+Total,"1,126",834,74.1,"135,633","26,487","1,642","9,076","39,996","212,834",63.7
+C. I. O. affiliates—Petitioners:,,,,,,,,,,
+No other party on ballot,891,726,81.5,,"168,221",,,"77,883","246,104",68.4
+C. I. O.—A. F. L.,232,107,46.1,"42,782","94,147",,,"8,738","145,667",64.6
+C. I. O.—National unaffiliated union,20,12,60.0,,"6,294","3,447",,"3,305","13,046",48.2
+C. I. O.—Local unaffiliated union,102,62,60.8,,"31,042",,"20,501","4,266","55,809",55.6
+C. I. O.—A. F. L.—National unaffiliated union,5,3,60.0,201,"2,918","3,618",,382,"7,119",41.0
+C. I. O.—Local unaffiliated union,10,4,40.0,616,"3,960",,"2,587",261,"7,424",53.3
+Total,"1,260",914,72.1,"43,599","306,582","7,065","23,088","94,835","475,169",64.5
+National unaffiliated unions—Petitioners:,,,,,,,,,,
+No other party on ballot,48,39,81.3,,,"10,421",,"4,258","14,679",71.0
+National unaffiliated union—A. F. L.,8,4,50.0,"1,118",,187,,11,"1,316",14.0
+National unaffiliated union—C. I. O.,8,3,37.5,,"1,722","2,846",,428,"4,996",57.2
+National unaffiliated union-Local unaffiliated union,5,2,40.0,,,344,398,29,771,44.6
+National Unaffiliated Union-C. I. O.—A. F. L.,1,1,100.0,102,862,"3,374",,41,"4,379",77.0
+Total,70,49,70.0,"1,220","2,584","17,172",398,"4,767","26,141",65.7
+Local unaffiliated unions-Petitioners:,,,,,,,,,,
+No other party on ballot,62,58,93.5,,,,"8,827","1,092","9,919",89.0
+Local unaffiliated union—A. F. L.,29,22,75.8,"3,220",,,"4,210",241,"7,671",54.9
+Local unaffiliated union—C. I. O.,30,15,50.0,,"5,753",,"6,067",482,"12,302",49.3
+Local unaffiliated union-National unaffiliated union,1,1,100.0,,,9,33,2,44,75.0
+Local unaffiliated union—A. F. L.—C. I. O.,7,0,0,282,"2,905",,"2,246",151,"5,584",40.2
+Total,129,96,74.4,"3,502","8,658",9,"21,383","1,968","35,520",60.2
+Employer-Petitioners:,,,,,,,,,,
+A. F. L. alone,4,,,649,,,,139,788,
+C. I. O. alone,3,,,,644,,,123,767,
+A. F. L.-C. I. O.,14,,,"1,086","1,520",,,121,"2,727",
+A. F. L.-National unaffiliated union,1,,,544,,339,,883,"1,766",
+A. F. L.-Local unaffiliated union,4,,,825,,,479,29,"1,333",
+C. I. O.-National unaffiliated union,2,,,,168,84,,5,257,
+C. I. O.-Local unaffiliated union,3,,,,474,,206,34,714,
+A. F. L.-C. I. O.-Local unaffiliated union,1,,,4,111,,1,,116,
+Total,32,,,"3,108","2,917",423,686,"1,334","8,468",

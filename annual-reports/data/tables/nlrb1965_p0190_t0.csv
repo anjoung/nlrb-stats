@@ -1,31 +1,38 @@
-row_label,Total 1,Identification of filing party / AFL-CIO unions,Identification of filing party / Teamsters,Identification of filing party / Other national unions,Identification of filing party / Other local unions,Identification of filing party / Individuals,Identification of filing party / Employers
-"CA cases — Pending July 1, 1964",4159,2283,475,156,94,1140,1
-CA — Received fiscal 1965,10931,5465,1378,410,200,3471,7
-CA — On docket fiscal 1965,15090,7748,1853,566,294,4611,8
-CA — Closed fiscal 1965,10360,4903,1320,385,199,3547,6
-"CA — Pending June 30, 1965",4730,2845,533,181,95,1064,2
-"CB cases — Pending July 1, 1964",796,31,2,7,14,569,173
-CB — Received fiscal 1965,2703,79,20,10,39,1929,627
-CB — On docket fiscal 1965,3499,110,22,17,52,2498,800
-CB — Closed fiscal 1965,2659,62,12,12,44,1944,585
-"CB — Pending June 30, 1965",840,48,12,5,8,554,215
-"CC cases — Pending July 1, 1964",436,4,0,13,10,16,393
-CC — Received fiscal 1965,1256,28,1,22,19,30,1156
-CC — On docket fiscal 1965,1692,32,1,35,29,46,1549
-CC — Closed fiscal 1965,1253,24,0,25,18,36,1150
-"CC — Pending June 30, 1965",439,8,0,10,11,10,399
-"CD cases — Pending July 1, 1964",158,6,0,0,1,8,143
-CD — Received fiscal 1965,461,28,1,3,7,8,414
-CD — On docket fiscal 1965,619,34,1,3,8,16,557
-CD — Closed fiscal 1965,465,25,1,3,5,11,420
-"CD — Pending June 30, 1965",154,9,0,0,3,5,137
-"CE cases — Pending July 1, 1964",63,5,0,1,2,3,52
-CE — Received fiscal 1965,56,3,1,1,3,2,45
-CE — On docket fiscal 1965,119,10,1,2,5,5,97
-CE — Closed fiscal 1965,69,8,1,0,5,3,56
-"CE — Pending June 30, 1965",50,2,0,2,0,4,41
-"CP cases — Pending July 1, 1964",119,1,0,0,2,1,115
-CP — Received fiscal 1965,393,4,0,1,13,6,368
-CP — On docket fiscal 1965,512,5,0,1,14,7,483
-CP — Closed fiscal 1965,413,4,0,0,11,6,390
-"CP — Pending June 30, 1965",99,1,0,0,3,1,93
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending July 1, 1964","8,085","3,612",989,311,202,"1,864","1,107"
+Received fiscal 1965,"28,025","11,989","4,241","1,132",722,"6,148","3,793"
+On docket fiscal 1965,"36,110","15,601","5,230","1,443",924,"8,012","4,900"
+Closed fiscal 1965,"27,199","11,305","4,146","1,112",646,"6,243","3,747"
+"Pending June 30, 1965","8,911","4,296","1,084",331,278,"1,769","1,153"
+Unfair labor practice cases,,,,,,,
+"Pending July 1, 1964","5,731","2,332",488,177,120,"1,737",877
+Received fiscal 1965,"15,800","5,607","1,401",447,282,"5,446","2,617"
+On docket fiscal 1965,"21,531","7,939","1,889",624,402,"7,183","3,494"
+Closed fiscal 1965,"15,219","5,026","1,334",426,281,"5,545","2,607"
+"Pending June 30, 1965","6,312","2,913",555,198,121,"1,638",887
+Representation cases,,,,,,,
+"Pending July 1, 1964","2,334","1,280",501,134,82,107,230
+Received fiscal 1965,"11,989","6,302","2,832",683,435,596,"1,141"
+On docket fiscal 1965,"14,323","7,582","3,333",817,517,703,"1,371"
+Closed fiscal 1965,"11,797","6,225","2,807",685,361,603,"1,116"
+"Pending June 30, 1965","2,526","1,357",526,132,156,100,255
+Union-shop deauthorization cases,,,,,,,
+"Pending July 1, 1964",20,,,,,20,
+Received fiscal 1965,106,,,,,106,
+On docket fiscal 1965,126,,,,,126,
+Closed fiscal 1965,95,,,,,95,
+"Pending June 30, 1965",31,,,,,31,
+Amendment of certification cases,,,,,,,
+"Pending July 1, 1964",,,,,,,
+Received fiscal 1965,45,30,4,0,1,0,10
+On docket fiscal 1965,45,30,4,0,1,0,10
+Closed fiscal 1965,28,17,3,0,1,0,7
+"Pending June 30, 1965",17,13,1,0,0,0,3
+Unit clarification cases,,,,,,,
+"Pending July 1, 1964",,,,,,,
+Received fiscal 1965,85,50,4,2,4,0,25
+On docket fiscal 1965,85,50,4,2,4,0,25
+Closed fiscal 1965,60,37,2,1,3,0,17
+"Pending June 30, 1965",25,13,2,1,1,0,8

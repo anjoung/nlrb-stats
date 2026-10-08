@@ -1,4 +1,15 @@
-row_label,Total proceedings,"Injunctions proceedings / Pending in district court July 1, 1973",Injunctions proceedings / Filed in fiscal year 1974,Total dispositions fiscal year 1974,Disposition of injunctions / Granted,Disposition of injunctions / Denied,Disposition of injunctions / Settled,Disposition of injunctions / Withdrawn,Disposition of injunctions / Dismissed,Disposition of injunctions / Inactive,"Pending in district court June 30, 1974"
-"Under sec 10(e), total",2,0,2,2,2,0,0,0,0,0,0
-"Under sec 10(j), total",18,1,17,14,9,1,3,1,0,0,4
-"Under sec 10(l), total",233,18,215,204,70,10,83,14,15,12,29
+Circuit courts of appeals (headquarters),Total fiscal year 1974,Total fiscal years 1969-73,Affirmed in full,Affirmed in full,Affirmed in full,Affirmed in full,Modified,Modified,Modified,Modified,Remanded in full,Remanded in full,Remanded in full,Remanded in full,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Set aside,Set aside,Set aside,Set aside
+Circuit courts of appeals (headquarters),Total fiscal year 1974,Total fiscal years 1969-73,Fiscal year 1974,Fiscal year 1974,Cumulative fiscal years 1969-1973,Cumulative fiscal years 1969-1973,Fiscal year 1974,Fiscal year 1974,Cumulative fiscal years 1969-1973,Cumulative fiscal years 1969-1973,Fiscal year 1974,Fiscal year 1974,Cumulative fiscal years 1969-1973,Cumulative fiscal years 1969-1973,Fiscal year 1974,Fiscal year 1974,Cumulative fiscal years 1969-1973,Cumulative fiscal years 1969-1973,Fiscal year 1974,Fiscal year 1974,Cumulative fiscal years 1969-1973,Cumulative fiscal years 1969-1973
+Circuit courts of appeals (headquarters),Total fiscal year 1974,Total fiscal years 1969-73,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+Total all circuits,298,"1,747",230,77.2,"1,193",68.3,26,8.7,237,13.6,12,4.0,84,4.8,1,0.4,31,1.8,29,9.7,202,11.5
+"1. Boston, Mass.",13,60,10,76.9,43,71.7,1,7.7,4,6.7,1,7.7,2,3.3,0,0.0,1,1.7,1,7.7,10,16.6
+"2. New York, N.Y.",19,140,15,78.9,107,76.4,2,10.5,16,11.4,1,5.3,2,1.4,0,0.0,1,0.8,1,5.3,14,10.0
+"3. Philadelphia, Pa.",21,75,17,80.9,57,76.0,0,0.0,5,6.7,1,4.8,7,9.3,0,0.0,1,1.3,3,14.3,5,6.7
+"4. Richmond, Va.",12,117,9,75.0,79,67.5,3,25.0,20,17.1,0,0.0,5,4.3,0,0.0,0,0.0,0,0.0,13,11.1
+"5. New Orleans, La.",43,330,33,76.8,233,70.6,4,9.3,42,12.7,1,2.3,12,3.7,0,0.0,7,2.1,5,11.6,36,10.9
+"6. Cincinnati, Ohio",53,299,42,79.3,191,63.9,2,3.8,48,16.1,4,7.5,7,2.3,0,0.0,6,2.0,5,9.4,47,15.7
+"7. Chicago, Ill.",30,151,22,73.3,111,73.5,3,10.0,22,14.5,0,0.0,3,2.0,0,0.0,1,0.7,5,16.7,14,9.3
+"8. St. Louis, Mo.",21,146,12,57.2,71,48.6,7,33.3,42,28.8,0,0.0,11,7.5,0,0.0,0,0.0,2,9.5,22,15.1
+"9. San Francisco, Calif.",52,229,44,84.6,166,72.5,2,3.9,18,7.9,1,1.9,19,8.3,1,1.9,3,1.3,4,7.7,23,10.0
+"10. Denver, Colo.",16,76,12,75.0,54,71.1,1,6.2,8,10.5,0,0.0,2,2.6,0,0.0,2,2.6,3,18.8,10,13.2
+"Washington, D.C.",18,124,14,77.8,81,65.3,1,5.5,12,9.6,3,16.7,14,11.3,0,0.0,9,7.3,0,0.0,8,6.5

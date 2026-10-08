@@ -1,13 +1,46 @@
-Division and State,Number of elections / Total,Number of elections / In which representation rights were won by — A.F.L. affiliates,Number of elections / In which representation rights were won by — C.I.O. affiliates,Number of elections / In which representation rights were won by — Unaffiliated unions,Number of elections / In which no representative was chosen,Employees eligible to vote,Total valid votes cast,Valid votes cast for / A.F.L. affiliates,Valid votes cast for / C.I.O. affiliates,Valid votes cast for / Unaffiliated unions,Valid votes cast for / No union,Employees choosing representation
-Total,4663,1925,780,351,1603,511430,449673,128100,118138,68463,134972,343092
-New England,281,98,33,25,125,51677,45220,7171,16578,10003,12308,37101
-Maine,19,4,0,0,8,8062,3113,344,780,0,1991,2207
-Middle Atlantic,932,376,175,90,285,114206,101258,32700,23653,15963,29002,74743
-New York,461,209,59,40,153,,,20800,10752,8177,6489,
-East North Central,1084,418,223,92,261,133408,116303,25569,36123,16977,31832,95330
-Ohio,318,120,61,24,104,,,,,,,
-Indiana,134,49,25,9,30,,,,,,,
-Illinois,260,113,20,27,62,,,,,,,
-Michigan,227,82,84,19,42,,,,,,,
-Wisconsin,139,54,33,13,23,,,,,,,
-West North Central,535,233,60,37,149,32328,28520,11635,6774,2639,7671,23706
+Size of unit (number of employees),Number of elections,Percent of total,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which no representative was chosen,Elections in which no representative was chosen
+Size of unit (number of employees),Number of elections,Percent of total,A. F. L. affiliates,A. F. L. affiliates,C. I. O. affiliates,C. I. O. affiliates,Unaffiliated unions,Unaffiliated unions,Elections in which no representative was chosen,Elections in which no representative was chosen
+Size of unit (number of employees),Number of elections,Percent of total,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+A. COLLECTIVE-BARGAINING ELECTIONS,,,,,,,,,,
+Total,"4,663",100.0,"1,924",100.0,781,100.0,355,100.0,"1,603",100.0
+1-9,"1,079",23.1,603,31.3,110,14.1,58,16.3,308,19.2
+10-19,856,18.4,405,21.0,118,15.1,46,13.0,287,18.0
+20-29,545,11.7,219,11.4,86,11.0,41,11.5,199,12.4
+30-39,322,6.9,126,6.5,61,7.8,21,5.9,114,7.1
+40-49,249,5.3,102,5.3,42,5.4,15,4.2,90,5.6
+50-59,196,4.2,68,3.5,43,5.5,18,5.1,67,4.2
+60-69,160,3.4,55,2.9,34,4.3,20,5.6,51,3.2
+70-79,123,2.6,38,2.0,26,3.3,10,2.8,49,3.1
+80-89,102,2.2,36,1.9,17,2.2,10,2.8,39,2.4
+90-99,92,2.0,27,1.4,17,2.2,14,4.0,34,2.1
+100-149,273,5.9,78,4.0,56,7.2,21,5.9,118,7.4
+150-199,161,3.4,47,2.4,35,4.5,14,4.0,65,4.0
+200-299,179,3.8,38,2.0,53,6.8,18,5.1,70,4.4
+300-399,92,2.0,28,1.5,24,3.1,11,3.1,29,1.8
+400-499,41,.9,12,.6,8,1.0,6,1.7,15,.9
+500-599,41,.9,11,.6,14,1.8,4,1.1,12,.7
+600-799,45,1.0,7,.4,11,1.4,5,1.4,22,1.4
+800-999,27,.6,7,.4,8,1.0,2,.6,10,.6
+"1,000-1,999",50,1.1,11,.6,13,1.7,8,2.2,18,1.1
+"2,000-2,999",16,.3,3,.2,3,.4,7,2.0,3,.2
+"3,000-3,999",6,.1,1,,1,.1,3,.8,1,.1
+"4,000-4,999",3,.1,0,.0,0,0,1,.3,2,.1
+"5,000-9,999",4,.1,2,.1,0,.0,2,.6,0,.0
+"10,000-15,000",1,,0,0,1,.1,0,.0,0,.0
+B. DECERTIFICATION ELECTIONS,,,,,,,,,,
+Total,150,100.0,29,100.0,14,100.0,5,100.0,102,100.0
+1-9,30,20.0,3,10.3,0,0,1,20.0,26,25.5
+10-19,31,20.7,4,13.8,0,0,0,0,27,26.5
+20-29,16,10.7,5,17.2,4,28.6,0,0,7,6.8
+30-39,14,9.3,1,3.4,1,7.1,1,20.0,11,10.8
+40-49,9,6.0,0,.0,2,14.3,0,0,7,6.8
+50-59,5,3.3,1,3.4,0,0,0,0,4,3.9
+60-69,6,4.0,5,17.2,1,7.1,0,.0,0,0
+70-79,7,4.7,1,3.5,1,7.2,1,20.0,4,3.9
+80-89,8,5.3,5,17.2,0,0,1,20.0,2,2.0
+90-99,3,2.0,1,3.5,0,0,0,0,2,2.0
+100-149,8,5.3,1,3.5,1,7.2,1,20.0,5,4.9
+150-199,2,1.3,0,0,0,0,0,0,2,2.0
+200-299,5,3.3,1,3.5,2,14.3,0,0,2,2.0
+300-399,1,.7,0,0,1,7.1,0,0,0,0
+400 and over,5,3.4,1,3.5,1,7.1,0,.0,3,2.9

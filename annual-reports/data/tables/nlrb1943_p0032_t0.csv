@@ -1,7 +1,5 @@
-Petitioning union,Intervening union,Elections / Number,Elections / Percent won by petitioner,Valid votes / Number,Valid votes / Percent won by petitioner
-A. F. of L.,C. I. O.,199,60.8,96110,41.3
-A. F. of L.,Unaffiliated,108,73.1,42674,57.7
-C. I. O.,A. F. of L.,305,67.5,152906,57.4
-C. I. O.,Unaffiliated,177,70.1,152217,53.3
-Unaffiliated,A. F. of L.,53,47.2,10683,42.1
-Unaffiliated,C. I. O.,45,57.8,17813,49.3
+Participating union,Elections in which union participated,Elections in which union participated,Elections in which union participated,Elections won by union,Elections won by union,Valid votes cast for union,Valid votes cast for union
+Participating union,Number,Number of eligible voters,Number of valid votes cast,Number,Percent elections in which union participated,Number,Percent of total
+A. F. of L.,"2,018","642,384","513,815","1,398",69.3,"267,118",41.6
+C. I. O.,"2,350","1,044,265","833,406","1,766",75.1,"515,271",61.8
+Unaffiliated,745,"368,381","300,332",416,55.8,"140,780",46.9

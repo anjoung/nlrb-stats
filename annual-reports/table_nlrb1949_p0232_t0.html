@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -124,43 +132,29 @@ ul.link-list li { margin: 0.3rem 0; }
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th></th><th></th><th></th><th></th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">16-C-1530</th><td>Abercrombie, J. S., Co.</td><td>20-C-1566</td><td>Califruit Canning Co.</td></tr>
-<tr><th class="stub" scope="row">13-C-2483</th><td>Agar Packing &amp; Provi- sion Corp.</td><td>13-C-2799</td><td>Carnegie-Illinois Steel Corp.</td></tr>
-<tr><th class="stub" scope="row">14-C-1238</th><td>Alder Metal Products Corp.</td><td>10-C-2219</td><td>Cedartown Yarn Mills, Inc.</td></tr>
-<tr><th class="stub" scope="row">10-C-1811</th><td>Aldora Mills.</td><td>217C-2505</td><td>Columbia Pictures.</td></tr>
-<tr><th class="stub" scope="row">5-C-1976</th><td>Allen Morrison Sign Co., Inc.</td><td>17-C-1405</td><td>Columbian Carbon Co. Cookersville Shirt Co.</td></tr>
-<tr><th class="stub" scope="row">2-C-5963</th><td>American Book-Strat- ford Press, Inc.</td><td>10-C-1942 15M-C-1220</td><td>Cuff man Lumber Co., Inc., The.</td></tr>
-<tr><th class="stub" scope="row">7-C-1799</th><td>American District Tele- graph Co.</td><td>10-C-2179</td><td>Dalton Telephone Co.</td></tr>
-<tr><th class="stub" scope="row">15-C-1175</th><td>Amory Garment Co., Inc.</td><td>13-C-2943</td><td>Dearborn Glass Co. Deere, John, Plow Co.</td></tr>
-<tr><th class="stub" scope="row">15M-C-1217</th><td>Artcraft Hosiery Co., Inc.</td><td>10-C-1963 17-C-1415</td><td>Des Moines Springfield &amp; Southern Route,</td></tr>
-<tr><th class="stub" scope="row">21-C-2735</th><td>Association of Motion Picture Producers, Inc.</td><td>7-C-1303</td><td>The. Detroit Gasket &amp; Man- ufacturing Co.</td></tr>
-<tr><th class="stub" scope="row">10-C-1940</th><td>Atlanta Broadcasting Co.</td><td>10-C-1538</td><td>Dixie Manufacturing Co.</td></tr>
-<tr><th class="stub" scope="row">10-C-1772</th><td>Atlantic Ice &amp; Coal Co.</td><td>10-C-1906</td><td>Dixie Shirt Co., Inc.</td></tr>
-<tr><th class="stub" scope="row">10-C-1893</th><td>Atlantic Stages, J. A. Booker d/b/a.</td><td>2-C-6533</td><td>Don Juan, Inc. Dorsey Trailers, Inc</td></tr>
-<tr><th class="stub" scope="row">13-C-3110</th><td>Autopart Manufactur- ing Co.</td><td>15-C-1315 2-C-6509</td><td>Duro Test Corp.</td></tr>
-<tr><th class="stub" scope="row">14-C-1264</th><td>Auto Stove Works.</td><td>2-C-5751</td><td>E. A. Laboratories&#x27;, Inc. Eastern Coal Corp.</td></tr>
-<tr><th class="stub" scope="row">7-C-1405</th><td>Barton Brass Works &amp; Precision Machined Part Co.</td><td>9-C-2133 8-C-2014</td><td>Efficient Tool &amp; Die Co., The.</td></tr>
-<tr><th class="stub" scope="row">1-C-2790</th><td>Bean, D. D., &amp; Sons.</td><td>13-C-3058</td><td>Electric Autolite Co., The.</td></tr>
-<tr><th class="stub" scope="row">15-C-1210</th><td>Bentley, J. A., Lumber Co.</td><td>4-C-1624</td><td>Electric City Dyeing Co.</td></tr>
-<tr><th class="stub" scope="row">2-C-6055</th><td>Bergen Point Iron Works, a Corp.</td><td>10-C-2082</td><td>Empire Box Corp.</td></tr>
-<tr><th class="stub" scope="row">10-C-1995</th><td>Bibb Manufacturing Co., Plant No. 1.</td><td>4-C-1609</td><td>Fogel Refrigerator Co.</td></tr>
-<tr><th class="stub" scope="row">13-C-2757</th><td>Bingham&#x27;s Samuel, Sons Manufacturing Co.</td><td>16-C-1226 4-C-1837</td><td>Fort Worth Transit Co. Franklin Hosiery Mills, Inc.</td></tr>
-<tr><th class="stub" scope="row">17-C-1479</th><td>Boss Manufacturing Co.</td><td>17D-C-1477</td><td>Fulton Bag &amp; Cotton</td></tr>
-<tr><th class="stub" scope="row">2-C-6876</th><td>Brooklyn Corset Co., Inc.</td><td class="blank"></td><td>Mills.</td></tr>
-<tr><th class="stub" scope="row">7-C-1611 10-C-1923</th><td>Burnette Casting Co. Burns Brick Co.</td><td>2-C-6517 10-C-2267</td><td>General Electric Corp. Gluck Bros., Inc.</td></tr>
+<tr><th class="stub" scope="row">18-UA-108</th><td>Furniture Firms of Duluth.</td></tr>
+<tr><th class="stub" scope="row">19-UA-1767</th><td>Gold Medal Dairies.</td></tr>
+<tr><th class="stub" scope="row">21-UA-811</th><td>Refrigeration Engineering Co.</td></tr>
+<tr><th class="stub" scope="row">19-UA-582</th><td>St. Paul &amp; Tacoma Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">19-UA-1654</th><td>Suburban Transportation System.</td></tr>
+<tr><th class="stub" scope="row">2-UA-3661</th><td>Western Electric Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">2-UA-4702</th><td>Wilson, Prescott C.</td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1949_p0232_t0.csv" download>Download this table (CSV)</a></p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 232.</b> The crop is a continuation fragment of an alphabetical case list (case number in the stub, company/party name in column 1); no column headings are printed on this image, so header_rows is empty. The page is set as two side-by-side panels separated by a vertical rule; following the panel rule, the left panel&#x27;s four rows are given first and the right panel&#x27;s three rows after them. Case numbers are printed with en dashes; they are transcribed with plain hyphens. Row labels that wrap onto a second printed line (Furniture Firms of Du-luth., Refrigeration Engineer-ing Co., St. Paul &amp; Tacoma Lum-ber Co., Suburban Transporta-tion System., Western Electric Co., Inc.) have been joined and the end-of-line hyphens repaired. A small stray ink speck appears below the &quot;2-UA-4702&quot; stub cell in the right panel; it is not a footnote marker and is not transcribed. The alphabetical sequence of the names suggests rows continue onto adjacent pages beyond this crop.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1949_p0232.webp" loading="lazy" alt="Source page 232 of NLRB FY1949 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1949_p0232_t0_p0232.webp" loading="lazy" alt="Source page 232 of NLRB FY1949 annual report">
 <figcaption>Source: NLRB Annual Report FY1949, p. 232.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

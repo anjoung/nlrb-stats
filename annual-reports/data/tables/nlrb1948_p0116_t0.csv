@@ -1,15 +1,17 @@
-Type of case,Total elections / Number,Total elections / Percent,Consent / Number,Consent / Percent,Stipulated / Number,Stipulated / Percent,Regional director directed / Number,Regional director directed / Percent,Board ordered / Number,Board ordered / Percent
-"All elections, total",21277,100.0,19367,91.0,720,3.4,722,3.4,468,2.2
-"Eligible voters, total",2245734,100.0,1877674,83.6,125506,5.6,130667,5.8,111827,5.0
-"Valid votes, total",1971087,100.0,1661806,84.3,105997,5.4,107899,5.5,95385,4.8
-"NLRA R cases, total",885,100.0,479,54.1,81,9.2,11,1.2,314,35.5
-NLRA R cases — Eligible voters,145506,100.0,63295,43.5,9624,6.6,1535,1.1,71052,48.8
-NLRA R cases — Valid votes,124365,100.0,53436,43.0,8599,6.9,1347,1.1,60983,49.0
-"RC cases, total",2243,100.0,1566,69.8,551,24.6,0,0,126,5.6
-RC cases — Eligible voters,228034,100.0,107562,47.0,82942,36.3,,,38130,16.1
-RC cases — Valid votes,200706,100.0,96411,48.0,72003,35.9,,,32292,16.1
-"RM cases, total",94,100.0,74,78.7,5,5.3,15,16.0,0,0
-"RD cases, total",97,100.0,71,73.2,4,4.1,0,0,22,22.7
-"UA cases, total",17958,100.0,17177,95.6,69,.4,711,4.0,1,
-UA cases — Eligible voters,1852333,100.0,1696517,91.6,26683,1.4,129132,7.0,1,
-UA cases — Valid votes,1629330,100.0,1502694,92.2,20083,1.2,106552,6.5,1,
+,All cases,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases,Representation cases,Union authorization cases,Union authorization cases
+,All cases,All cases,N. L. R. A. C cases,N. L. R. A. C cases,L. M. R. A. CA cases,L. M. R. A. CA cases,Other C cases,Other C cases,N. L. R. A. R cases,N. L. R. A. R cases,L. M. R. A. R cases,L. M. R. A. R cases,Union authorization cases,Union authorization cases
+,Number of cases,Formal actions,Number of cases,Formal actions,Number of cases,Formal actions,Number of cases,Formal actions,Number of cases,Formal actions,Number of cases,Formal actions,Number of cases,Formal actions
+Complaints issued,305,207,104,93,139,86,62,42,,,,,,
+Notices of hearing issued,"1,405","1,217",,,,,4,4,362,307,"1,029",911,10,9
+Cases heard,"1,344","1,138",66,63,72,32,40,28,356,314,803,714,7,7
+Intermediate reports issued,129,113,88,83,16,14,25,17,,,,,,
+Decisions issued,"2,054","1,947",181,169,8,7,0,0,594,544,773,765,498,498
+Decisions and orders,166,146,164,144,2,2,0,0,,,,,,
+Decisions and consent orders,23,20,17,15,6,5,0,0,,,,,,
+Elections directed,560,508,,,,,,,332,292,225,221,3,3
+Certifications and dismissals after stipulated elections,687,677,,,,,,,116,115,512,511,59,59
+Dismissals on record,116,98,,,,,,,80,75,36,33,,
+Certification after prehearing elections and stipulations,13,12,,,,,,,13,12,,,,
+Certifications and dismissals on record after prehearing elections,52,49,,,,,,,52,49,,,,
+Certifications after regional director directed elections,433,433,,,,,,,,,,,433,433
+Decisions on appeals,4,4,0,0,0,0,0,0,1,1,0,0,3,3

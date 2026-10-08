@@ -1,10 +1,84 @@
-Action,Cases in which formal actions taken,Total formal actions taken,Formal actions taken by type of case / CA,Formal actions taken by type of case / CB,Formal actions taken by type of case / CC,Formal actions taken by type of case / CD Jurisdictional dispute,Formal actions taken by type of case / CD Unfair labor practices,Formal actions taken by type of case / CE,Formal actions taken by type of case / CP,Formal actions taken by type of case / CA combined with CB,Formal actions taken by type of case / C combined with representation cases,Formal actions taken by type of case / Other combinations
-10(k) notices of hearings issued,86,,,,,86,,,,,,
-Complaints issued,2039,2061,1493,171,139,,,2,12,84,117,29
-Backpay specifications issued,73,82,,,,,,,,,,
-"Hearings completed, total",1491,1047,713,85,56,47,,3,2,9,34,83
-Hearings completed,,,,,,,,,,,,
-"Decisions by trial examiners, total",1363,967,690,77,50,,,2,1,9,34,89
-Decisions by trial examiners,,,,,,,,,,,,
-"Decisions and orders by the Board, total",1553,1063,727,73,70,47,,2,2,12,38,77
-Decisions and orders by the Board,,,,,,,,,,,,
+,Number of cases showing specific allegations,Percent of total cases
+A. CHARGES FILED AGAINST EMPLOYEES UNDER SEC. 8(a),,
+Subsections of Sec. 8(a): Total cases,"12,002",100.0
+8(a)(1),947,7.9
+8(a)(1)(2),236,2.0
+8(a)(1)(3),"6,410",53.3
+8(a)(1)(4),36,0.3
+8(a)(1)(5),"2,572",21.4
+8(a)(1)(2)(3),188,1.6
+8(a)(1)(2)(4),1,0.0
+8(a)(1)(2)(5),104,0.9
+8(a)(1)(3)(4),220,1.8
+8(a)(1)(3)(5),"1,193",9.9
+8(a)(1)(4)(5),4,0.0
+8(a)(1)(2)(3)(4),17,0.1
+8(a)(1)(2)(3)(5),69,0.6
+8(a)(1)(3)(4)(5),18,0.1
+8(a)(1)(2)(3)(4)(5),7,0.1
+RECAPULATION,,
+8(a)(1),"12,022",100.0
+8(a)(2),622,5.2
+8(a)(3),"8,122",67.6
+8(a)(4),303,2.5
+8(a)(5),"3,967",33.0
+B. CHARGES FILED AGAINST UNIONS UNDER SEC. 8(b),,
+Subsections of Sec. 8(b): Total cases,"6,577",100.0
+8(b)(1),"1,900",28.9
+8(b)(2),144,2.2
+8(b)(3),310,4.7
+8(b)(4),"2,115",32.2
+8(b)(5),2,0.0
+8(b)(6),15,0.2
+8(b)(7),489,7.5
+8(b)(1)(2),"1,376",20.9
+8(b)(1)(3),143,2.2
+8(b)(1)(5),6,0.1
+8(b)(1)(6),1,0.0
+8(b)(2)(3),5,0.1
+8(b)(2)(5),3,0.0
+8(b)(3)(5),1,0.0
+8(b)(3)(6),5,0.1
+8(b)(1)(2)(3),48,0.7
+8(b)(1)(2)(5),13,0.2
+8(b)(1)(2)(6),1,0.0
+RECAPULATION,,
+8(b)(1),"3,488",53.0
+8(b)(2),"1,590",24.2
+8(b)(3),512,7.8
+8(b)(4),"2,115",32.2
+8(b)(5),25,0.4
+8(b)(6),22,0.3
+8(b)(7),489,7.5
+B1 ANALYSIS OF 8(b)(4),,
+Total cases 8(b)(4),"2,115",100.0
+8(b)(4)(A),57,2.7
+8(b)(4)(B),"1,370",64.8
+8(b)(4)(C),20,0.9
+8(b)(4)(D),579,27.4
+8(b)(4)(A)(B),76,3.6
+8(b)(4)(A)(C),1,0.1
+8(b)(4)(B)(C),9,0.4
+8(b)(4)(A)(B)(C),3,0.1
+RECAPULATION,,
+8(b)(4)(A),137,6.5
+8(b)(4)(B),"1,458",68.9
+8(b)(4)(C),33,1.6
+8(b)(4)(D),579,27.4
+B2. ANALYSIS OF 8(b)(7),,
+Total cases 8(b)(7),489,100.0
+8(b)(7)(A),136,27.8
+8(b)(7)(B),62,12.7
+8(b)(7)(C),273,55.8
+8(b)(7)(A)(B),8,1.6
+8(b)(7)(A)(C),9,1.9
+8(b)(7)(A)(B)(C),1,0.2
+RECAPULATION,,
+8(b)(7)(A),154,31.5
+8(b)(7)(B),71,14.5
+8(b)(7)(C),283,57.9
+C. CHARGES FILED UNDER SEC. 8(e),,
+Total cases 8(e),52,100.0
+Against unions alone,35,67.3
+Against employers alone,0,0.0
+Against union and employers,17,32.7

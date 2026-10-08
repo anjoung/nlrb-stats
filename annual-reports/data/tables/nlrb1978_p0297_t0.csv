@@ -1,6 +1,23 @@
-row_label,col_1,col_2,col_3,col_4,col_5
-"Pending October 1, 1977",2,2,0,o,o
-Received fiscal 1978,9,5,3,o,1
-On docket fiscal 1978,11,7,3,o,1
-Closed fiscal 1978,10,6,3,o,1
-"Pending September 30, 1978",1,1,0,o,o
+Type of litigation,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings
+Type of litigation,Total—all courts,Total—all courts,Total—all courts,In courts of appeals,In courts of appeals,In courts of appeals,In district courts,In district courts,In district courts
+Type of litigation,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination
+Type of litigation,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position
+Totals—all types,59,53,6,22,20,2,37,33,4
+NLRB-initiated actions or interventions,7,7,0,0,0,0,7,7,0
+To enforce subpena,1,1,0,0,0,0,1,1,0
+To restrain dissipation of assets by respondent,0,0,0,0,0,0,0,0,0
+To defend Board's jurisdiction,4,4,0,0,0,0,4,4,0
+To dissolve bankruptcy stay,2,2,0,0,0,0,2,2,0
+Action by other parties,52,46,6,22,20,2,30,26,4
+To restrain NLRB from,13,13,0,4,4,0,9,9,0
+Proceeding in R case,8,8,0,3,3,0,5,5,0
+Proceeding in unfair labor practice case,5,5,0,1,1,0,4,4,0
+Proceeding in backpay case,0,0,0,0,0,0,0,0,0
+Other,0,0,0,0,0,0,0,0,0
+To compel NLRB to,38,32,6,18,16,2,20,16,4
+Issue complaint,3,3,0,1,1,0,2,2,0
+Seek injunction,1,1,0,1,1,0,0,0,0
+Take action in R case,11,9,2,3,3,0,8,6,2
+Comply with Freedom of Information Act,20,16,4,13,11,2,7,5,2
+Other,3,3,0,0,0,0,3,3,0
+Other,1,1,0,0,0,0,1,1,0

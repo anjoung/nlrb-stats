@@ -1,8 +1,98 @@
-row_label,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
-3 (or more)-union elections,10309,9235,3234,893,2163,2849,202,360,286,45,29,0,512
-Total representation elections,526415,213784,120992,27523,27207,38062,56131,92226,64154,13309,13643,0,170278
-B. ELECTIONS IN RC CASES (section header),,,,,,,,,,,,,
-1-union elections,355977,92316,62571,14748,11876,3121,42040,77870,54612,11385,10912,,143551
-1-union breakdown,,,,,,,,,,,,,
-2-union elections,125063,89092,44801,8881,12076,31142,3103,8375,5166,1164,1007,138,14543
-2-union,,,,,,,,,,,,,
+Participating unions,Total valid votes cast,Valid votes cast in election won,Valid votes cast in election won,Valid votes cast in election won,Valid votes cast in election won,Valid votes cast in election won,Valid votes cast in election won,Valid votes cast in election lost,Valid votes cast in election lost,Valid votes cast in election lost,Valid votes cast in election lost,Valid votes cast in election lost,Valid votes cast in election lost
+Participating unions,Total valid votes cast,Votes for unions,Votes for unions,Votes for unions,Votes for unions,Votes for unions,Total votes for no Union,Votes for unions,Votes for unions,Votes for unions,Votes for unions,Votes for unions,Total votes for no union
+Participating unions,Total valid votes cast,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Total votes for no Union,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Total votes for no union
+A. ALL REPRESENTATION ELECTIONS,,,,,,,,,,,,,
+AFL-CIO,"267,798","68,604","68,604",,,,"32,487","58,083","58,083",,,,"108,624"
+Teamsters,"58,786","16,534",,"16,534",,,"6,664","11,938",,"11,938",,,"23,650"
+Other national unions,"50,621","12,645",,,"12,645",,"6,700","11,707",,,"11,707",,"19,569"
+Other local unions,"7,073","3,199",,,,"3,199",814,982,,,,982,"2,078"
+1-union elections,"384,278","100,982","68,604","16,534","12,645","3,199","46,665","82,710","58,083","11,938","11,707",982,"153,921"
+AFL-CIO v. AFL-CIO,"20,041","7,452","7,452",,,,798,"4,360","4,360",,,,"7,431"
+AFL-CIO v. Teamsters,"21,231","15,045","7,051","7,994",,,872,"1,831",643,"1,188",,,"3,483"
+AFL-CIO v. Natl,"27,015","19,943","10,349",,"9,594",,589,"2,351",736,,"1,615",,"4,132"
+AFL-CIO v. Local,"53,267","52,211","24,202",,,"28,009",663,151,46,,,105,242
+Teamsters v. Teamsters,37,33,,33,,,4,0,,0,,,0
+Teamsters v. Natl,"1,194",770,,441,329,,93,155,,40,115,,176
+Teamsters v. Local,"3,678","3,264",,"1,632",,"1,632",174,104,,98,,6,136
+Natl v. Natl,957,910,,,910,,8,17,,,17,,22
+Natl v. Local,"3,455","3,009",,,"1,566","1,443",36,187,,,160,27,223
+Local v. Local,957,930,,,,930,27,0,,,,0,0
+2-union elections,"131,832","103,567","49,054","10,100","12,399","32,014","3,264","9,156","5,785","1,326","1,907",138,"15,845"
+AFL-CIO v. AFL-CIO v. AFL-CIO,561,531,531,,,,30,0,0,,,,0
+AFL-CIO v. AFL-CIO v. Teamsters,680,663,426,237,,,17,0,0,0,,,0
+AFL-CIO v. AFL-CIO v. Natl,"1,119",352,301,,51,,46,299,270,,29,,422
+AFL CIO v. AFL-CIO v. Local,554,475,335,,,140,31,16,16,,,0,32
+AFL-CIO v. Teamsters v. Natl,629,624,326,221,77,,5,0,0,0,0,,0
+AFL-CIO v. Teamsters v. Local,853,743,219,299,,225,7,45,0,45,,0,58
+AFL-CIO v. Natl. v. Natl,789,777,308,,469,,12,0,0,,0,,0
+AFL-CIO v. Natl. v. Local,"1,144","1,144",93,,146,905,0,0,0,,0,0,0
+Natl. v. Natl. v. Local,"2,049","1,999",,,432,"1,567",50,0,,,0,0,0
+AFL-CIO v. AFL-CIO v. AFL-CIO v. AFL-CIO,33,31,31,,,,2,0,0,,,,0
+AFL-CIO v. AFL-CIO v. Teamsters v. Natl,181,181,53,24,104,,0,0,0,0,0,,0
+AFL-CIO v. AFL-CIO v. Natl. v. Local,"1,203","1,203",423,,780,0,0,0,0,,0,0,0
+AFL-CIO v Natl. v. Local v. Local,359,358,242,,104,12,1,0,0,,0,0,0
+AFL-CIO v AFL-CIO v. AFL-CIO v Teams. v. Local,155,154,46,108,,0,1,0,0,0,,0,0
+3 (or more)-union elections,"10,309","9,235","3,334",889,"2,163","2,849",202,360,286,45,29,0,512
+Total representation elections,"526,419","213,784","120,992","27,523","27,207","38,062","50,131","92,226","64,154","13,309","13,643","1,120","170,278"
+B. ELECTIONS IN RC CASES,,,,,,,,,,,,,
+AFL-CIO,"248,071","62,571","62,571",,,,"29,411","54,612","54,612",,,,"101,477"
+Teamsters,"54,158","14,748",,"14,748",,,"5,819","11,385",,"11,385",,,"22,206"
+Other national unions,"46,861","11,876",,,"11,876",,"6,205","10,912",,,"10,912",,"17,868"
+Other local unions,"6,887","3,121",,,,"3,121",805,961,,,,961,"2,000"
+1-union elections,"355,977","92,316","62,571","14,748","11,876","3,121","42,240","77,870","54,612","11,385","10,912",961,"143,551"
+AFL-CIO v. AFL-CIO,"17,990","6,637","6,637",,,,767,"3,783","3,783",,,,"6,803"
+AFL-CIO v. Teamsters,"18,249","12,972","6,197","6,775",,,841,"1,627",601,"1,026",,,"2,809"
+AFL-CIO v Natl,"26,300","19,253","9,967",,"9,286",,564,"2,351",736,,"1,615",,"4,132"
+AFL-CIO v. Local,"52,387","51,344","24,092",,,"27,252",650,151,46,,,105,242
+Teamsters v. Teamsters,37,33,,33,,,4,0,,0,,,0
+Teamsters v Natl,"1,194",770,,441,329,,93,155,,40,115,,176
+Teamsters v. Local,"3,678","3,264",,"1,632",,"1,632",174,104,,98,,6,136
+Natl v. Natl,957,910,,,910,,8,17,,,17,,22
+Natl. v. Local,"3,361","2,923",,,"1,551","1,372",28,187,,,160,27,223
+Local v. Local,910,886,,,,886,24,0,,,,0,0
+2-union elections,"125,063","98,992","46,893","8,881","12,076","31,142","3,153","8,375","5,166","1,164","1,907",138,"14,543"
+,561,531,531,,,,30,0,0,,,,0
+AFL-CIO v AFL-CIO v. Teamsters,610,593,388,205,,,17,0,0,0,,,0
+AFL-CIO v. AFL-CIO v. Natl,"1,119",352,301,,51,,46,299,270,,29,,422
+AFL-CIO v. AFL-CIO v. Local,554,475,335,,,140,31,16,16,,,0,32
+AFL-CIO v. Teamsters v. Natl,629,624,326,221,77,,5,0,0,0,0,,0
+AFL-CIO v Teamsters v Local,853,743,219,299,,225,7,45,0,45,,0,58
+AFL-CIO v. Natl. v. Natl,789,777,208,,469,,12,0,0,,0,,0
+AFL-CIO v. Natl. v. Local,"1,144","1,144",93,,146,905,0,0,0,,0,0,0
+Natl. v. Natl v. Local,"2,049","1,999",,,432,"1,567",50,0,,,0,0,0
+AFL-CIO v. AFL-CIO v. AFL-CIO v. AFL-CIO,33,31,31,,,,2,0,0,,,,0
+AFL-CIO v. AFL-CIO v. Teamsters v. Natl,181,181,53,24,104,,0,0,0,0,0,,0
+AFL-CIO v. AFL-CIO v. Natl. v. Local,"1,203","1,203",423,,780,0,0,0,0,,0,0,0
+AFL-CIO v Natl. v. Local v. Local,359,358,242,,104,12,1,0,0,,0,0,0
+AFL-CIO v. AFL-CIO v. AFL-CIO v. Teams. v. Local,155,154,46,108,,0,1,0,0,0,,0,0
+3 (or more)-union elections,"10,239","9,165","3,296",857,"2,163","2,849",202,360,286,45,29,0,512
+Total RC elections,"491,279","200,473","112,760","24,486","26,115","37,112","45,595","86,605","60,064","12,594","12,848","1,099","158,606"
+C. ELECTIONS IN RM CASES,,,,,,,,,,,,,
+AFL-CIO,"8,358","2,178","2,178",,,,"1,061","1,757","1,757",,,,"3,362"
+Teamsters,"2,702","1,162",,"1,162",,,374,331,,331,,,835
+Other national unions,"1,787",297,,,297,,226,439,,,439,,825
+Other local unions,115,78,,,,78,9,5,,,,5,23
+1-union elections,"12,962","3,715","2,178","1,162",297,78,"1,670","2,532","1,757",331,439,5,"5,045"
+AFL-CIO v. AFL-CIO,"1,954",718,718,,,,31,577,577,,,,628
+AFL-CIO v. Teamsters,"1,126",486,216,270,,,13,127,12,115,,,500
+AFL-CIO v. Natl,64,64,52,,12,,0,0,0,,0,,0
+AFL-CIO v. Local,70,70,30,,,40,0,0,0,,,0,0
+Natl v. Local,76,74,,,15,59,2,0,,,0,0,0
+Natl. v. Local,47,44,,,,44,3,0,,,,0,0
+2-union elections,"3,337","1,456","1,016",270,27,143,49,704,589,115,0,0,"1,128"
+Total RM elections,"16,299","5,171","3,194","1,432",324,221,"1,719","3,236","2,346",446,439,5,"6,173"
+D. ELECTIONS IN RD CASES,,,,,,,,,,,,,
+AFL-CIO,"11,369","3,855","3,855",,,,"2,015","1,714","1,714",,,,"3,785"
+Teamsters,"1,926",624,,624,,,471,222,,222,,,609
+Other national unions,"1,973",472,,,472,,269,356,,,356,,876
+Other local unions,71,0,,,,0,0,16,,,,16,55
+1-union elections,"15,339","4,951","3,855",624,472,0,"2,755","2,308","1,714",222,356,16,"5,325"
+AFL-CIO v AFL-CIO,97,97,97,,,,0,0,0,,,,0
+AFL-CIO v. Teamsters,"1,856","1,587",638,949,,,18,77,30,47,,,174
+AFL-CIO v. Natl,651,626,330,,296,,25,0,0,,0,,0
+AFL-CIO v. Local,810,797,80,,,717,13,0,0,,,0,0
+Natl. v. Local,18,12,,,0,12,6,0,,,0,0,0
+2-union elections,"3,432","3,119","1,145",949,296,729,62,77,30,47,0,0,174
+AFL-CIO v. AFL-CIO v. Teamsters,70,70,38,32,,,0,0,0,0,,,0
+3 (or more)-union elections,70,70,38,32,0,0,0,0,0,0,0,0,0
+Total RD elections,"18,841","8,140","5,038","1,605",768,729,"2,817","2,385","1,744",269,356,16,"5,499"

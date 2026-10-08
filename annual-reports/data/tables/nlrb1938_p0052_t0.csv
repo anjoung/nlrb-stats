@@ -1,29 +1,33 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Cases pending June 30, 1937",2112,,11.2,210318,,20.7
-"Cases received July 1, 1937, to June 30, 1938_",2069,,88.8,804898,,79.3
-Total cases on docket,2331,,100.0,1015216,,100.0
+,Number of cases,Percentage of—,Percentage of—,Number of workers involved,Percentage of—,Percentage of—
+,Number of cases,Total cases closed,Total cases on docket,Number of workers involved,Total number of workers involved in cases closed,Total number of workers involved in cases on docket
+"Cases pending June 30, 1937",329,,22.9,"93,887",,36.0
+"Cases received July 1, 1937, to June 30, 1938","1,105",,77.1,"166,601",,64.0
+Total cases on docket,"1,434",,100.0,"260,488",,100.0
 Cases closed before formal action:,,,,,,
-By settlement: (a) Consent election,523,31.6,", 22. 5",125858,20.6,12.4
-(6) Recognition of representatives_,242,14.6,10.4,56399,9.2,2.5
-(c) Pay roll check,127,7.7,5.4,14673,2.4,1.4
-By dismissal,89,54,3.8,33428,5.5,3.3
-By withdrawal,374,22.6,16.1,184056,26.9,16.2
-By transfer to other agencies,18,1.1,.8,3737,.6,.4
-Total cases closed before formal action,1373,83.0,59.0,398151,88.2,39.2
+By settlement:,,,,,,
+(a) Consent election,228,20.2,15.9,"35,175",18.6,13.4
+(b) Recognition of representatives,301,26.7,21.0,"21,862",11.6,8.4
+(c) Payroll check,74,6.6,5.2,"12,509",6.6,4.8
+By dismissal,73,6.5,5.1,"15,064",8.0,5.8
+By withdrawal,208,18.4,14.5,"29,078",15.4,11.2
+By transfer to other agencies,5,.4,.3,"3,037",1.6,1.2
+Total cases closed before formal action,889,78.8,62.0,"116,725",61.8,44.8
 Cases closed after formal action:,,,,,,
-By settlement: (a) Consent election,23,1.4,1.0,34313,5.6,3.4
-(5) Recognition of representatives_,8,. 5,. 3,6715,1.1,. 7
-(c) Pay roll cheek,3,.2,. 1,667,. 1,. 1
-By dismissal before issuance of Board decisions By withdrawal before Issuance of,10,. 6,.4,13201,2.2,1.3
-Board decision,33,2.0,1.4,14011,2.3,1.4
-By certification by Board without election,63,3.8,2.7,49149,8.1,4.8
-By certification by Board after election_,119,7.1,5.1,89739,14.7,8.8
-By dismissal of petition by Board without election,10,.6,.4,963,.2,. 1
-By dismissal of petition by Board after election_,13,.8,.6,2929,. 5,. 3
-Total cases closed after formal action_,282,17.0,12.0,211687,34.8,20.0
-"Total cases closed July 1,1937, to June 30, 1938",1655,100.0,71.0,609838,100.0,60.1
+By settlement:,,,,,,
+(a) Consent election,11,1.0,.8,"3,337",1.8,1.3
+(b) Recognition of representatives,2,.2,.1,425,.2,.2
+(c) Payroll check,2,.2,.1,30,[1],[1]
+By dismissal before issuance of Board decision,9,.8,.6,"3,318",1.8,1.3
+By withdrawal before issuance of Board decision,34,3.0,2.4,"4,019",2.1,1.5
+By certification by Board without election,36,3.2,2.5,"4,997",2.6,1.9
+By certification by Board after election,104,9.2,7.3,"44,784",23.6,17.2
+By dismissal of petition by Board without election,31,2.7,2.2,"8,608",4.6,3.3
+By dismissal of petition by Board after election,10,.9,.7,"2,757",1.5,1.1
+Total cases closed after formal action,239,21.2,16.7,"72,275",38.2,27.8
+"Total cases closed July 1, 1937 to June 30, 1938","1,128",100.0,78.7,"189,000",100.0,72.6
 Cases pending:,,,,,,
-Before hearing,439,,18.8,222881,,21.9
-After hearing:,185,,8.0,155737,,15.3
-Awaiting decision Awaiting certification_,52,,2.2,26990,,2.7
-"Total cases pending June 30, 1938._",876,,29.0,405378,,39.9
+Before hearing,202,,14.1,"40,504",,15.5
+After hearing:,,,,,,
+Awaiting decision,59,,4.1,"16,259",,6.2
+Awaiting certification,45,,3.1,"14,725",,5.7
+"Total cases pending June 30, 1938",306,,21.3,"71,488",,27.4

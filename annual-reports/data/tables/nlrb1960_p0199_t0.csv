@@ -1,13 +1,45 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12
-Donstruction,2.305,2013,876,732,256,109,2,38,292,272,19,1
-Wholesale trade,1558,525,394,69,38,7,1,16,1033,907,71,15
-Retail trade,2375,1025,756,118,49,6,4,92,1350,1089,162,99
+Industrial group,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases,Representation cases
+Industrial group,All cases,All C cases,CA,CB,CC,CD,CE,CP,All R cases,RC,RM,RD
+Total,"21,847","11,357","7,723","2,505",644,186,26,273,"10,130","8,795",728,607
+Manufacturing,"11,014","5,199","4,009",878,183,32,10,87,"5,815","5,067",367,381
+Ordnance and accessories,35,19,11,6,2,0,0,0,16,15,1,0
+Food and kindred products,"1,650",738,529,156,36,6,2,9,912,807,57,48
+Tobacco manufacturers,24,10,8,2,0,0,0,0,14,13,1,0
+Textile mill products,262,144,116,22,4,0,0,2,118,97,14,7
+Apparel and other finished products made from fabric and similar materials,421,267,180,45,18,2,3,19,154,102,36,16
+Lumber and wood products (except furniture),404,162,146,13,2,0,0,1,242,209,19,14
+Furniture and fixtures,474,219,194,16,2,2,1,4,255,220,14,21
+Paper and allied products,403,145,113,24,4,0,1,3,258,237,10,11
+"Printing, publishing, and allied industries",644,293,201,53,14,7,1,17,351,308,23,20
+Chemicals and allied products,589,199,155,23,16,2,0,3,390,337,21,32
+Products of petroleum and coal,141,70,55,12,2,1,0,0,71,66,2,3
+Rubber products,347,159,132,18,6,0,0,3,188,167,10,11
+Leather and leather products,181,116,90,19,3,0,0,4,65,60,2,3
+"Stone, clay, and glass products",739,389,289,63,25,6,0,6,350,292,36,22
+Primary metal industries,668,313,226,74,9,1,1,2,355,305,14,36
+Fabricated metal products (except machinery and transportation equipment),"1,243",576,450,100,13,3,0,10,667,587,32,48
+Machinery (except electrical),828,317,256,48,8,2,1,2,511,445,37,29
+"Electrical machinery, equipment, and supplies",768,387,317,66,4,0,0,0,381,333,14,34
+Aircraft and parts,219,134,94,34,6,0,0,0,85,77,1,7
+Ship and boat building and repairing,126,77,58,18,1,0,0,0,49,42,1,6
+Automotive and other transportation equipment,375,224,196,25,3,0,0,0,151,134,10,7
+"Professional, scientific, and controlling instruments",149,84,70,13,1,0,0,0,56,52,3,1
+Miscellaneous manufacturing,333,157,123,28,4,0,0,2,176,162,9,5
+"Agriculture, forestry, and fisheries",23,8,8,0,0,0,0,0,15,13,1,1
+Mining,357,256,150,90,9,2,0,5,101,87,9,5
+Metal mining,75,45,25,13,5,2,0,0,30,29,0,1
+Coal mining,193,164,93,68,1,0,0,2,29,27,1,1
+Crude petroleum and natural gas production,9,4,2,2,0,0,0,0,5,4,1,0
+Nonmetallic mining and quarrying,80,43,30,7,3,0,0,3,37,27,7,3
+Construction,"2,305","2,013",876,732,256,109,2,38,292,272,19,1
+Wholesale trade,"1,558",525,394,69,38,7,1,16,"1,033",907,71,55
+Retail trade,"2,375","1,025",756,118,49,6,4,92,"1,350","1,089",162,99
 "Finance, insurance, and real estate",123,58,51,3,3,0,0,1,65,62,0,3
-"Dansportation, communication, and other public utilities",2359,1459,935,413,73,21,2,15,900,801,60,39
-Local passenger transportation,,91,68,23,0,0,0,0,62,53,5,4
-"Motor freight, warehousing, and transportation services","153 1,232",741,538,147,35,11,2,8,491,442,30,19
+"Transportation, communication, and other public utilities","2,359","1,459",935,413,73,21,2,15,900,801,60,39
+Local passenger transportation,153,91,68,23,0,0,0,0,62,53,5,4
+"Motor freight, warehousing, and transportation services","1,232",741,538,147,35,11,2,8,491,442,30,19
 Water transportation,427,343,148,167,24,2,0,2,84,78,5,1
 Other transportation,79,39,22,8,4,2,0,3,40,38,0,2
 Communications,226,94,78,8,2,4,0,2,132,111,12,9
 "Heat, light, power, water, and sanitary services",242,151,81,60,8,2,0,0,91,79,8,4
-Services,1373,814,544,202,33,9,7,19,559,497,39,23
+Services,"1,373",814,544,202,33,9,7,19,559,497,39,23

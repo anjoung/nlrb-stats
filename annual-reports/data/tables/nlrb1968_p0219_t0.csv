@@ -1,9 +1,36 @@
-Action taken,Total all,Remedial action by Employer / Emp Total,Remedial action by Employer / Emp Informal settlement,Remedial action by Employer / Emp Formal settlement,Remedial action by Employer / Emp Order-Trial examiner,Remedial action by Employer / Emp Order-Board,Remedial action by Employer / Emp Order-Court,Remedial action by Union / Union Total,Remedial action by Union / Union Informal settlement,Remedial action by Union / Union Formal settlement,Remedial action by Union / Union Order-Trial examiner,Remedial action by Union / Union Order-Board,Remedial action by Union / Union Order-Court
+Action taken,Total all,Remedial action taken by—,Remedial action taken by—,Remedial action taken by—,Remedial action taken by—,Remedial action taken by—,Remedial action taken by—,Remedial action taken by—,Remedial action taken by—,Remedial action taken by—,Remedial action taken by—,Remedial action taken by—,Remedial action taken by—
+Action taken,Total all,Employer,Employer,Employer,Employer,Employer,Employer,Union,Union,Union,Union,Union,Union
+Action taken,Total all,Total,Pursuant to—,Pursuant to—,Pursuant to—,Pursuant to—,Pursuant to—,Total,Pursuant to—,Pursuant to—,Pursuant to—,Pursuant to—,Pursuant to—
+Action taken,Total all,Total,Agreement of parties,Agreement of parties,Recommendation of trial examiner,Order of—,Order of—,Total,Agreement of parties,Agreement of parties,Recommendation of trial examiner,Order of—,Order of—
+Action taken,Total all,Total,Informal settlement,Formal settlement,Recommendation of trial examiner,Board,Court,Total,Informal settlement,Formal settlement,Recommendation of trial examiner,Board,Court
+A. By number of cases involved,"5,674",,,,,,,,,,,,
+Notice posted,"2,861","2,158","1,303",64,101,368,322,703,480,60,26,89,48
+Recognition or other assistance withdrawn,89,89,57,11,0,12,9,,,,,,
+Employer-dominated union disestablished,20,20,13,1,1,3,2,,,,,,
+Employees offered reinstatement,"1,281","1,281",837,35,50,184,175,,,,,,
+Employees placed on preferential hiring list,122,122,96,0,1,12,13,,,,,,
+Hiring hall rights restored,28,,,,,,,28,26,0,0,0,2
+Objections to employment withdrawn,102,,,,,,,102,87,2,4,4,5
+Picketing ended,665,,,,,,,665,620,9,6,21,9
+Work stoppage ended,296,,,,,,,296,266,12,2,15,1
+Collective bargaining begun,"1,531","1,371","1,080",28,27,107,129,160,145,1,0,8,6
+Backpay distributed,"1,726","1,615","1,075",43,62,222,213,111,77,6,7,15,6
+"Reimbursement of fees, dues, and fines",100,60,34,6,0,17,3,40,26,3,1,5,5
+Other conditions of employment improved,373,193,189,0,1,2,1,180,175,0,0,5,0
+Other remedies,131,65,64,0,1,0,0,66,64,0,0,2,0
 B. By number of employees affected,,,,,,,,,,,,,
-"Employers offered reinstatement, total",3107,3107,2166,178,94,292,377,,,,,,
-Accepted,2061,2061,1395,90,60,157,159,,,,,,
-Declined,1046,1046,771,88,34,135,218,,,,,,
-B section additional,,,,,,,,,,,,,
-"C. By amounts of monetary recovery, total",3228000,3147000,1178520,218210,334183,1106940,80910,27890,2570,10680,23830,15940,
-"Backpay (includes all monetary payments except backpay, dues, and fines)",3189340,3117560,1159910,104320,216210,330550,1104820,71780,23180,1470,10990,23310,13220
-"Reimbursement of fees, dues, and fines",38660,29520,18830,3210,,3630,3870,9130,4710,1100,,520,2710
+"Employers offered reinstatement, total","3,107","3,107","2,166",178,94,292,377,,,,,,
+Accepted,"2,061","2,061","1,595",90,60,157,159,,,,,,
+Declined,"1,046","1,046",571,88,34,135,218,,,,,,
+Employees placed on preferential hiring list,510,510,456,0,1,27,26,,,,,,
+Hiring hall rights restored,31,,,,,,,31,28,0,0,0,3
+Objections to employment withdrawn,128,,,,,,,128,110,1,4,7,6
+Employees receiving backpay,,,,,,,,,,,,,
+From either employer or union,"6,258","6,144","3,897",297,192,731,"1,027",114,67,1,20,21,5
+From both employer and union,16,16,13,0,0,2,1,16,13,0,0,2,1
+"Employees reimbursed for fees, dues, and fines",,,,,,,,,,,,,
+From either employer or union,"1,700","1,580","1,128",97,0,98,257,120,97,0,17,4,2
+From both employer and union,127,127,93,34,0,0,0,127,93,34,0,0,0
+"C. By amounts of monetary recovery, total","$3,228,000","$3,147,090","$1,178,630","$107,730","$218,210","$534,180","$1,108,340","$80,910","$27,890","$2,570","$10,680","$23,830","$15,940"
+"Backpay (includes all monetary payments except fees, dues, and fines)","3,189,340","3,117,560","1,159,810","104,520","218,210","530,550","1,104,470","71,780","23,180","1,470","10,590","23,310","13,230"
+"Reimbursement of fees, dues, and fines","38,660","29,530","18,820","3,210",0,"3,630","3,870","9,130","4,710","1,100",90,520,"2,710"

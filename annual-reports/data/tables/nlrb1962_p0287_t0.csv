@@ -1,4 +1,17 @@
-Affiliation of union holding union-shop contract,Number of polls — Total,Number of polls — Resulting in deauthorization — Number,Number of polls — Resulting in deauthorization — Percent of total,Number of polls — Resulting in continued authorization — Number,Number of polls — Resulting in continued authorization — Percent of total,Employees involved (number eligible to vote) — Total eligible,Employees involved — Resulting in deauthorization — Number,Employees involved — Resulting in deauthorization — Percent of total,Employees involved — Resulting in continued authorization — Number,Employees involved — Resulting in continued authorization — Percent of total,Valid votes cast — Total,Valid votes cast — Percent of total eligible,Valid votes cast — Cast for deauthorization — Number,Valid votes cast — Cast for deauthorization — Percent of total eligible
-Total,28,19,67.9,9,32.1,2407,1256,52.2,1151,47.8,1911,79.4,1293,53.7
-AFL-CIO,14,9,64.3,5,35.7,1256,664,52.9,592,47.1,1061,84.5,679,54.1
-Unaffiliated,14,10,71.4,4,28.6,1151,592,51.4,559,48.6,850,73.8,614,53.3
+Type of case,Total elections,Type of election,Type of election,Type of election,Type of election,Type of election
+Type of case,Total elections,Consent,Stipulated,Board ordered,Regional director directed,Expedited elections under 8(b)7(C)
+"All elections, total","7,668","3,513","1,919",744,"1,450",42
+"Eligible voters, total","557,707","166,912","180,214","83,983","125,299","1,299"
+"Valid votes, total","501,250","150,384","165,222","73,074","111,468","1,102"
+"RC cases, total","6,916","3,181","1,783",686,"1,253",13
+Eligible voters,"514,394","152,498","165,779","82,076","113,306",735
+Valid votes,"463,259","137,588","151,875","71,419","101,706",671
+"RM cases, total",439,200,91,26,93,29
+Eligible voters,"21,653","6,499","10,620",459,"3,511",564
+Valid votes,"19,299","5,747","9,879",376,"2,866",431
+"RD cases, total",285,125,44,32,84,0
+Eligible voters,"19,253","7,147","3,797","1,448","6,861",0
+Valid votes,"16,781","6,371","3,450","1,279","5,681",0
+"UD cases, total",28,7,1,0,20,
+Eligible voters,"2,407",768,18,0,"1,621",
+Valid votes,"1,911",678,18,0,"1,215",

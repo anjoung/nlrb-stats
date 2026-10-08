@@ -1,19 +1,38 @@
-Stage,Total,Identification of filing party / AFL-CIO unions,Identification of filing party / Teamsters,Identification of filing party / Other national unions,Identification of filing party / Other local unions,Identification of filing party / Individuals,Identification of filing party / Employers
-RC cases — section header,,,,,,,
-"Pending July 1, 1965 (RC)",2170,1356,526,132,155,1,
-Received fiscal 1966 (RC),10820,6627,3193,666,328,6,
-On docket fiscal 1966 (RC),12990,7983,3719,798,483,7,
-Closed fiscal 1966 (RC),10687,6461,3187,639,393,7,
-"Pending June 30, 1966 (RC)",2303,1522,532,159,90,0,
-RM cases — section header,,,,,,,
-"Pending July 1, 1965 (RM)",255,,,,,,255
-Received fiscal 1966 (RM),1149,,,,,,1149
-On docket fiscal 1966 (RM),1404,,,,,,1404
-Closed fiscal 1966 (RM),1160,,,,,,1160
-"Pending June 30, 1966 (RM)",244,,,,,,244
-RD cases — section header,,,,,,,
-"Pending July 1, 1965 (RD)",101,1,0,0,1,99,
-Received fiscal 1966 (RD),651,9,0,1,1,640,
-On docket fiscal 1966 (RD),752,10,0,1,2,739,
-Closed fiscal 1966 (RD),640,5,0,1,2,632,
-"Pending June 30, 1966 (RD)",112,5,0,0,2,107,
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+CA cases,,,,,,,
+"Pending July 1, 1965","4,730","2,845",543,181,95,"1,064",2
+Received fiscal 1966,"10,902","5,210","1,414",482,370,"3,418",8
+On docket fiscal 1966,"15,632","8,055","1,957",663,465,"4,482",10
+Closed fiscal 1966,"10,643","5,218","1,350",472,272,"3,326",5
+"Pending June 30, 1966","4,989","2,837",607,191,193,"1,156",5
+CB cases,,,,,,,
+"Pending July 1, 1965",840,48,10,5,8,554,215
+Received fiscal 1966,"2,869",60,16,17,46,"2,036",694
+On docket fiscal 1966,"3,709",108,26,22,54,"2,590",909
+Closed fiscal 1966,"2,784",67,18,16,21,"2,017",645
+"Pending June 30, 1966",925,41,8,6,33,573,264
+CC cases,,,,,,,
+"Pending July 1, 1965",439,8,1,10,11,10,399
+Received fiscal 1966,"1,206",8,2,23,23,37,"1,113"
+On docket fiscal 1966,"1,645",16,3,33,34,47,"1,512"
+Closed fiscal 1966,"1,220",14,2,25,26,37,"1,116"
+"Pending June 30, 1966",425,2,1,8,8,10,396
+CD cases,,,,,,,
+"Pending July 1, 1965",154,9,0,0,3,5,137
+Received fiscal 1966,486,17,1,10,23,16,419
+On docket fiscal 1966,640,26,1,10,26,21,556
+Closed fiscal 1966,483,15,0,10,23,13,422
+"Pending June 30, 1966",157,11,1,0,3,8,134
+CE cases,,,,,,,
+"Pending July 1, 1965",50,2,1,0,2,4,41
+Received fiscal 1966,90,4,2,2,4,14,64
+On docket fiscal 1966,140,6,3,2,6,18,105
+Closed fiscal 1966,86,6,0,2,5,5,68
+"Pending June 30, 1966",54,0,3,0,1,13,37
+CP cases,,,,,,,
+"Pending July 1, 1965",99,1,0,2,2,1,93
+Received fiscal 1966,380,2,0,5,30,9,334
+On docket fiscal 1966,479,3,0,7,32,10,427
+Closed fiscal 1966,371,2,0,6,14,8,341
+"Pending June 30, 1966",108,1,0,1,18,2,86

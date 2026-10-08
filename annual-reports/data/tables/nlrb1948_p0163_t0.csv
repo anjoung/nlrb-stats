@@ -1,32 +1,1201 @@
-row_label,col_1,col_2,col_3
-19-R-2159 19-11-2189,Montgomery Ward & Co. Montgomery Ward & Co.,9-R-2750,"Strobridge Lithographic Co., The."
-19-11-2167 20-11-2311,"Pacific Airmotive Corp. Pacific Airmotive Corp., Oakland Branch.",5W-R-127 19P-R-53,"Textron Southern, Inc. Tide Water Associated Oil Co."
-13-R-4368 13-R-4446,Peanut Specialty Co. Peoria Casket Co.,14-11-1730,Union Starch & Refining Co.
-9-11-2759,"Pfening, Fred D., Co., The.",13-R-4483,"United States Industries Chemicals, Inc."
-13-R-4543,Productive Equipment Corp.,13-R-4417,United States Rubber Co.
-14-11-1795,Public Ice Service Co.,,
-20-R-2194,"Remington Rand, Inc.",10-R-2809,"Wehadkee Yarn Mill, Chinabee Mill Divi- sion."
-14-11-1384,Sohio Pipe Line Co.,,Westinghouse Electric
-6-11-1742,"Sperti Foods, Inc.",6-R-1733,Corp.
-2. LMRA-RC cases,2. LMRA-RC cases,2. LMRA-RC cases,2. LMRA-RC cases
-13-RC-86,A. B. T. Manufacturing Co.,1-RC-161,Anderson Engineering Co.
-13-RC-92,A. B. T. Manufacturing Co.,14-RC-71 5-RC-3,"Anheuser-Busch, Inc. Appalachian Electric"
-17-RC-142,Acme Foundry & Ma- chine Co.,13-RC-100,"""Power Co. Arcola Foundry & Man-"
-18-RC-94,Addressograph Sales Agency.,15-RC-74,ufacturing Co. Arkansas Fuel Oil Co.
-35-RC-12 2-RC-39,Admiral Corp. Aircraft Parts & Tool,13-RC-63 • 2-RC-23,Arlington Seating Co. Armour & Co. Armour & Co.
-13-RC-27,Manufacturing Co. Alco-Deree Co.,13-RC-83 16-RC-26,Armour & Co. Arrow Manufacturing
-13-RC-28 14-RC-119,Alco-Deree Co. Alco Valve Co.,2-RC-209,Co. Inc.
-14-RC-16 14-RC-141,"All-Die, Inc. American Asphalt Roof",14-RC-145 14-RC-55,' Atlas Leather Co. Autocar Sales & Service
-17-RC-95,Corp. American Asphalt Roof-,14-RC-125,"Co. Automatic Devices, Inc."
-1-RC-329,ing Co. American Belt Co. (for-,8-RC-40,Babcock Printing Press Corp.
-13-RC-213,merly Atlas Felt Prod- ucts). American Brake Shoe,21-RC-17 13-RC-185 1-RC-22,"Bagdad Copper Corp. Bakelite Corp. Baker Ice Machine Co.,"
-14-RC-304,"Co., American Forge Division, Upset Plant. American • Brake Shoe Co., Ramapo Ajax",16-RC-1(12 13-RC-144,"Inc. Baker Oil Tools. Inc. Barnes & Reinecke, Inc.,"
-,Division. American Calendar Co.,7-RC-6,Shoeberg Division of. Bechtold Upholstering
-10-RC-134 1-RC-146,"American Can Co., Lubec",,Co. Bemis Bros. Bag Co.
-4-RC-20,"Maine Plant. American Cyanamid Co., Caleo Chemical Divi-",21-RC-26 4-RC-101,Berks Building Block Corp. •
-14-RC-88,sion. American Lithofold Corp. American Machine De-,14-RC-289 1-RC-362,Bianco Upholstering Co. Blake Manufacturing
-5-RC-5,velopment Corp.,,Corp.
-14-RC-268,"American Stove Co., St.",17-RC-15 2-RC-307,"Blended Products, Inc. Bliss, E. W., Co."
-5-RC-69,"Louis Division. American Suppliers, Inc.",13-RC-93,"Blue Island Specialty Co., Inc."
-31-RC-14,American Welding & En-,4-RC-149,Boiardi Steel Corp.
-,gineering Corp.,2-RC-364,"Bolinders Co., Inc."
+4. LMRA—RD cases,
+10-RD-12,"Acme Boot Manufacturing Co., Inc."
+14-RD-3,Barrett Equipment Co.
+4-RD-6,Burry Biscuit Corp.
+5-RD-4,"Colonial Hardwood Flooring Co., Inc."
+2-RD-23,Cross Paper Products Corp.
+3-RD-9,"Du Pont, E. I., de Nemours Co."
+1-RD-15,"East Greenwich Dairy Co., Inc."
+10-RD-19,Federal-Mogul Corp.
+18-RD-2,Free Press Co.
+2-RD-14,"Freund, Joseph, Knitting Mills, Inc."
+10-RD-8,Harris Foundry & Machine Co.
+1-RD-17,"Hawridge Brothers Co., Inc."
+21-RD-10,Hollyvogue Sportswear.
+13-RD-1,Illinois Bell Telephone Co.
+16-RD-6,International Harvester Co.
+16-RD-9,International Harvester Co.
+4-RD-2,Kraft Foods Co.
+1-RD-4,Limerick Yarn Mills.
+1-RD-3,Magnesium Casting Co.
+4-RD-4,Plastoid Corp.
+21-RD-4,"Riley's Lemon Pies, J. Riley Rackliffe, d/b/a."
+21-RD-5,"Riley's Lemon Pies, J. Riley Rackliffe, d/b/a."
+1-RD-5,Snow & Nealey Co.
+6-RD-2,Solar Electric Corp.
+2-RD-15,"Standard Brands, Inc."
+13-RD-3,Unique Manufacturing Co.
+9-RD-20,"Univis Lens Co., The."
+21-RD-2,West Coast Paperboard Mills.
+8-RD-3,Westinghouse Electric Corp.
+1-RD-6,Whitin Machine Works.
+B. Cases decided on the basis of stipulated election,
+1. NLRA—R cases,
+13-R-4531,Accurate Spring Manufacturing Co.
+14-R-1766,American Radiator & Standard Sanitary Corp.
+10-R-2402,"Armco Drainage & Metal Products, Inc."
+5W-R-50,"Behnson Co., The."
+13-R-4532,Bear Manufacturing Co.
+1-R-3904,Bird Machine Co.
+14-R-1823,"Celotex Corp., The."
+9-R-2749,"Central Carton Co., The."
+13-R-4221,Chicago Metal Hose Corp.
+13-R-4541,Colbourne Manufacturing Co.
+2-R-7751,Columbia Metal Frame Co.
+2-R-7924,Consolidated Wire Products.
+5-R-3038,"Cudahy Packing Co., The."
+1-R-3899,"Curtman Co., Inc., The."
+13-R-4486,Daniel-Kummer Engraving Co.
+14-R-1821,Danuser Machine Co.
+19-R-2100,"Deere-Lindeman, John Co."
+4-R-2750,"Earl Gear & Machine Co., The."
+20-R-2292,Frigidaire Sales Corp.
+2-R-7985,General Electric Co.
+13M-R-30,General Electric X-ray Corp.
+8-R-2696,General Motors Corp.
+16-R-2412,"General Motors Corp., G. M. C. Truck & Coach Division."
+5-R-3017,"Goldenberg Co., The."
+9-R-2737,International Harvester Co.
+20-R-2313,"KSMO, Radio Station, Amphlett Printing Co., d/b/a."
+4-RE-34,Krueger Brewing Co.
+14-R-1792,Lewin-Mathis Co.
+10-R-2673,"Liggett Drug Store Co., Inc."
+16-R-2064,"M. & V. Tank Co., Inc."
+13-R-3744,Mackie-Lovejoy Manufacturing Co.
+13-R-4527,"Miley, L. J., Co., Inc."
+19-R-2159,Montgomery Ward & Co.
+19-R-2189,Montgomery Ward & Co.
+19-R-2167,Pacific Airmotive Corp.
+20-R-2311,"Pacific Airmotive Corp., Oakland Branch."
+13-R-4368,Peanut Specialty Co.
+13-R-4446,Peoria Casket Co.
+9-R-2759,"Pfening, Fred D., Co., The."
+13-R-4543,Productive Equipment Corp.
+14-R-1795,Public Ice Service Co.
+20-R-2194,"Remington Rand, Inc."
+14-R-1384,Sohio Pipe Line Co.
+6-R-1742,"Sperti Foods, Inc."
+13-R-4529,"Star Machine, Inc."
+9-R-2750,"Strobridge Lithographic Co., The."
+5W-R-127,"Textron Southern, Inc."
+19P-R-53,Tide Water Associated Oil Co.
+14-R-1730,Union Starch & Refining Co.
+13-R-4483,"United States Industries Chemicals, Inc."
+13-R-4417,United States Rubber Co.
+10-R-2809,"Wehadkee Yarn Mill, Chinabee Mill Division."
+6-R-1733,Westinghouse Electric Corp.
+2. LMRA—RC cases,
+13-RC-86,A. B. T. Manufacturing Co.
+13-RC-92,A. B. T. Manufacturing Co.
+17-RC-142,Acme Foundry & Machine Co.
+18-RC-94,Addressograph Sales Agency.
+35-RC-12,Admiral Corp.
+2-RC-39,Aircraft Parts & Tool Manufacturing Co.
+13-RC-27,Alco-Deree Co.
+13-RC-28,Alco-Deree Co.
+14-RC-119,Alco Valve Co.
+14-RC-16,"All-Die, Inc."
+14-RC-141,American Asphalt Roof Corp.
+17-RC-95,American Asphalt Roofing Co.
+1-RC-329,American Belt Co. (formerly Atlas Felt Products).
+13-RC-213,"American Brake Shoe Co., American Forge Division, Upset Plant."
+14-RC-304,"American Brake Shoe Co., Ramapo Ajax Division."
+10-RC-134,American Calendar Co.
+1-RC-146,"American Can Co., Lubec Maine Plant."
+4-RC-20,"American Cyanamid Co., Calco Chemical Division."
+14-RC-88,American Lithofold Corp.
+5-RC-5,American Machine Development Corp.
+14-RC-268,"American Stove Co., St. Louis Division."
+5-RC-69,"American Suppliers, Inc."
+31-RC-14,American Welding & Engineering Corp.
+1-RC-161,Anderson Engineering Co.
+14-RC-71,"Anheuser-Busch, Inc."
+5-RC-3,Appalachian Electric Power Co.
+13-RC-100,Arcola Foundry & Manufacturing Co.
+15-RC-74,Arkansas Fuel Oil Co.
+13-RC-63,Arlington Seating Co.
+2-RC-23,Armour & Co.
+13-RC-83,Armour & Co.
+16-RC-26,Armour & Co.
+2-RC-209,"Arrow Manufacturing Co., Inc."
+14-RC-145,Atlas Leather Co.
+14-RC-55,Autocar Sales & Service Co.
+14-RC-125,"Automatic Devices, Inc."
+8-RC-40,Babcock Printing Press Corp.
+21-RC-17,Bagdad Copper Corp.
+13-RC-185,Bakelite Corp.
+1-RC-22,"Baker Ice Machine Co., Inc."
+16-RC-102,"Baker Oil Tools, Inc."
+13-RC-144,"Barnes & Reinecke, Inc., Shoeberg Division of."
+7-RC-6,Bechtold Upholstering Co.
+21-RC-26,Bemis Bros. Bag Co.
+4-RC-101,Berks Building Block Corp.
+14-RC-289,Bianco Upholstering Co.
+1-RC-362,Blake Manufacturing Corp.
+17-RC-15,"Blended Products, Inc."
+2-RC-307,"Bliss, E. W., Co."
+13-RC-93,"Blue Island Specialty Co., Inc."
+4-RC-149,Boiardi Steel Corp.
+2-RC-364,"Bolinders Co., Inc."
+13-RC-134,"Borden Co., The."
+31-RC-21,"Borg, George W., Corp."
+2-RC-195,"Brassner Manufacturing Co., Inc. & Bryam Plating Co."
+1-RC-351,Brown Co.
+17-RC-85,"Brown, Sam, Auto Parts Distributing Co."
+10-RC-186,Buckeye Cotton Oil Co.
+14-RC-264,"Buckeye Cotton Eye Oil Co., The."
+3-RC-4,Buffalo Tool & Die Manufacturing Co.
+18-RC-87,"Burlington Truck Lines, Inc."
+4-RC-30,Camden County Beverage Co.
+10-RC-1,"Carbide & Carbon Chemical Corp., The."
+10-RC-91,Certain-Teed Products Corp.
+10-RC-98,Certain-Teed Products Corp.
+14-RC-25,Central Die & Supply Co.
+14-RC-302,Central Fire Truck Corp.
+14-RC-282,"Century Brass Works, Inc."
+5-RC-40,Chesapeake & Potomac Telephone Co. of West Virginia.
+2-RC-320,Chris Craft Textile Co.
+2-RC-68,Citro Chemical Co. of America.
+37-RC-3,"City Welding Co., Ltd."
+14-RC-157,Clearview Equipment & Manufacturing Co.
+18-RC-23,"Clinton Garment Co., The."
+1-RC-88,"Clover Bead & Jewelry Co., Inc."
+34-RC-1,Cocker Machine & Foundry Co.
+14-RC-214,Colonial Baking Co.
+14-RC-76,Columbia Brewing Co.
+14-RC-205,Columbia Motors Service Co.
+14-RC-204,Columbia Terminals Co.
+35-RC-16,"Columbus Process Co., Inc."
+14-RC-208,Commercial Stoker Repair Co.
+14-RC-323,"Complete Auto Transit, Inc."
+13-RC-59,"Conkey, H. D., & Co."
+16-RC-63,Consolidated Vultee Aircraft Corp.
+34-RC-34,Continental Furniture Co.
+13-RC-46,Craft Manufacturing Co.
+18-RC-17,"Crankshaft Service Co., Inc."
+14-RC-103,Curran Printing Co.
+14-RC-9,D & S Pulley Co.
+13-RC-58,Daniels-Kummer Engraving Co.
+18-RC-35,Daniels Manufacturing Co.
+14-RC-43,Darling & Co.
+18-RC-16,"Davison Chemicals Corp., The."
+16-RC-56,Dearborn Stove Co.
+1-RC-152,"Dedham Transfer Co., Inc."
+18-RC-44,"Deere, John, Des Moines Works."
+18-RC-43,"Deere Manufacturing Co., John Deere Des Moines Works."
+18-RC-47,"Deere Manufacturing Co., John Deere Des Moines Works."
+18-RC-85,"Delman Corp., The."
+10-RC-122,"Delmar Cabinet Co., Inc."
+2-RC-313,Detroit Mold Engineering Co.
+10-RC-52,"Dickey, W. S., Clay Manufacturing Co."
+16-RC-44,"Dickey, W. S., Clay Manufacturing Co."
+9-RC-32,"Dieckbrader, R. E."
+14-RC-153,Diestal Tool & Die Co.
+14-RC-183,Diestal Tool & Die Co.
+5-RC-19,Dobson Hosiery Mills.
+1-RC-162,Doelcam Corp.
+34-RC-33,Drexel Furniture Co.
+34-RC-52,Drexel Furniture Co.
+13-RC-14,"Droll, J. W., Co."
+14-RC-28,"Dunham, Co., The."
+6-RC-88,Duquesne Light Co.
+6-RC-90,Duquesne Light Co.
+14-RC-89,Duro-Chrome Corp.
+14-RC-202,Dyer & O'Hare Hauling Co.
+1-RC-304,"Eastern Industries, Inc."
+7-RC-11,Eaton Furniture Shop.
+14-RC-20,Echo Supplies Co.
+13-RC-37,"Edelmann, E., & Co."
+13-RC-44,"Edelmann, E., & Co."
+18-RC-125,"Electric Service System, Inc."
+5-RC-53,Emerson & Orme.
+7-RC-5,"Erstein, Bernard L., Co., Inc."
+2-RC-225,Esso Standard Oil Co.
+1-RC-181,Fairmont Foods Co.
+14-RC-72,Falstaff Brewing Corp.
+18-RC-8,Faribault Woolen Mills.
+7-RC-12,Firestone Tire & Rubber Co.
+5-RC-60,Fisher Brush Machinery Corp.
+8-RC-90,"Flexible Co., The."
+14-RC-22,Foley Hallquist Die Co.
+3-RC-82,Food Machinery Corp.
+35-RC-7,"Food Machinery Corp., Peerless Pump Division."
+4-RC-152,"Ford Motor Co., Lincoln-Mercury Plant."
+2-RC-55,"Four Plating Co., Inc."
+4-RC-10,"Friedrich & Dimmock, Inc."
+14-RC-267,Fulton Iron Works Co.
+2-RC-186,Garden State Bus Lines & Intercity Transportation.
+13-RC-9,Gardner Wire Co.
+6-RC-5,Gem Manufacturing Co.
+9-RC-22,"General Cigar Co., Inc."
+14-RC-131,General Conveyor & Manufacturing Co.
+17-RC-120,General Diecasting Co.
+21-RC-287,"General Electric Appliance, Inc."
+10-RC-108,General Electric Co.
+13-RC-35,General Electric Co.
+13-RC-161,General Electric Co.
+3-RC-64,General Electric Supply Corp.
+5-RC-124,General Electric Supply Corp.
+14-RC-184,General Metal Products Co.
+1-RC-202,"General Mills, Inc., Farm Service Division."
+2-RC-96,"General Motors Corp., United Motors Service Division of."
+4-RC-129,General Motors Corp.
+7-RC-61,"General Motors Corp., AC Spark Plug Division."
+10-RC-152,"General Motors Corp., Buick, Oldsmobile & Pontiac Division."
+13-RC-120,"General Motors Corp., Edelco Radio Division."
+13-RC-156,"General Motors Corp., Electromotive Division."
+17-RC-30,General Motors Corp.
+17-RC-36,"General Motors Corp., United Motor Service, Division of."
+18-RC-91,General Motors Corp.
+21-RC-135,"General Motors Corp., Truck & Coach Division."
+5-RC-100,General Outdoor Advertising Co.
+17-RC-3,General Steel Products Co.
+9-RC-5,"Gil Galyean Co., The."
+13-RC-192,Globe Valve Corp.
+1-RC-101,"Goodrich, B. F. Co., The Hood Rubber Co., Division of."
+4-RC-50,"Goodrich, B. F., Co., The Hood Rubber Co., Division of."
+4-RC-51,"Goodrich, B. F. Co."
+8-RC-19,"Goodrich, B. F. Co."
+17-RC-26,"Goodyear Tire & Rubber Co., The."
+2-RC-380,Gould Woven Label Co.
+21-RC-70,Grand Central Airport Co.
+20-RC-70,Grass Valley Lumber Co.
+14-RC-75,Griesediek Brothers Brewery Co.
+14-RC-171,Griesediek Western Brewing Co.
+16-RC-109,"Gulf Refining Co., Houston Pipe Line Division."
+1-RC-193,"Gum Products, Inc."
+1-RC-221,H & B American Machine Co.
+20-RC-137,Hassler Lumber Co.
+20-RC-167,Hassler Lumber Co.
+23-RC-1,Hawaii Welding Co.
+14-RC-4,Heeter Koelling Metal Co.
+20-RC-10,Helipot Corp.
+1-RC-352,"Henry & Wright Manufacturing Co., The."
+1-RC-292,"Hercules-Campbell Body Co., Inc."
+8-RC-104,Hercules Stamping Co.
+8-RC-113,"Hill, F. H., Co., Inc."
+13-RC-186,Hill-Kastien Automotive Machine & Parts Co.
+2-RC-19,"Hinnekens Machine Co., Inc."
+37-RC-11,"Honolulu Rapid Transit Co., Ltd."
+1-RC-122,"Horne, J. H., & Sons."
+31-RC-9,"Hotpoint, Inc."
+2-RC-111,Hudson Fixture Co.
+31-RC-3,Huebch Manufacturing Co.
+16-RC-126,Humble Oil & Refining Co.
+13-RC-178,Humphrey & Sons Co.
+18-RC-9,Huot Manufacturing Co.
+14-RC-74,"Hyde Park Breweries Association, Inc."
+14-RC-283,Ideal Stencil Machine Co.
+13-RC-60,Illinois Sand & Gravel Co.
+14-RC-19,Independent Die Co.
+14-RC-196,Independent Engineering Co.
+5-RC-107,"Inta-Roto Machine Co., Inc., The."
+1-RC-64,International Harvester Co.
+1-RC-95,International Harvester Co.
+9-RC-19,International Harvester Co.
+13-RC-199,"International Harvester Co., Motor Truck Parts Department."
+17-RC-5,International Harvester Co.
+20-RC-3,International Harvester Co.
+32-RC-20,International Harvester Co.
+2-RC-45,"International Nickel Co., Inc."
+14-RC-266,International Oil Burner Co.
+13-RC-210,International Register Co.
+17-RC-172,"Interstate Bakeries, Inc."
+33-RC-3,Isbell Construction Co.
+33-RC-4,Isbell Construction Co.
+14-RC-215,Jackes-Evans Manufacturing Co.
+2-RC-240,"Jenkins Bros., Inc."
+1-RC-183,"John, B., Manufacturing Co., The."
+14-RC-6,John's Body Co.
+14-RC-247,"Johnson, William C., & Sons Machinery Co."
+5-RC-7,"Jordan, Thaden, Furniture Corp."
+21-RC-149,KOBL Radio Station.
+18-RC-6,"KSTP, Inc."
+17-RC-83,Kansas City Coca-Cola Bottling Co.
+17-RC-56,Kansas City Star Co.
+14-RC-45,Karr Range Co.
+1-RC-260,Kenny Manufacturing Co.
+13-RC-132,"Kent Distributors, Inc."
+14-RC-146,Key Co.
+14-RC-147,Key Co.
+1-RC-312,"Kiley, James A., Co."
+14-RC-12,Knapheide Manufacturing Co.
+14-RC-272,Knapp-Monarch Co.
+14-RC-152,"Knight, W. B., Machinery Co."
+14-RC-169,Laclede-Christy Clay Products Co.
+14-RC-181,Lambert Engineering Co.
+4-RC-3,Lamont Gear & Machine Co.
+1-RC-119,Lang Jewelry Co.
+14-RC-190,"Lasalco, Inc."
+14-RC-230,Lehmann Machine Co.
+14-RC-126,Lewis Invisible Stitch Machine Co.
+2-RC-10,Liberty Products Corp.
+18-RC-31,Liberty Products Manufacturing Co.
+6-RC-19,Linde Air Products Co.
+8-RC-57,Linde Air Products Co.
+8-RC-58,Linde Air Products Co.
+8-RC-73,Linde Air Products Co.
+10-RC-143,Linde Air Products Co.
+10-RC-144,Linde Air Products Co.
+16-RC-12,Linde Air Products Co.
+35-RC-20,Linde Air Products Co.
+35-RC-21,Linde Air Products Co.
+2-RC-205,Linotone Corp.
+14-RC-116,Loose Leaf Metals Co.
+1-RC-121,"McCristy, W. A., Co., The."
+6-RC-12,McCrosky Tool Corp.
+13-RC-10,McGill Metal Products Co.
+13-RC-117,"McGuire Industries, Inc."
+16-RC-118,McKissick Products Corp.
+10-RC-160,"M & M Clays, A. R. Mohr & Homer M. Mier, d/b/a."
+4-RC-150,Mack-International Motor Truck Corp.
+16-RC-116,Magnolia Petroleum Co.
+1-RC-38,Malkin Motor Freight Co.
+14-RC-284,Marsh Stencil Machine Co.
+14-RC-104,Marstan Typewriter Co.
+13-RC-79,"Masterform Tool Co., Barbara K. Titterington."
+37-RC-1,"Maui Publishing Co., Ltd."
+13-RC-88,Maxant Button & Supply Co.
+4-RC-6,Merchant Calculating Machine Co.
+2-RC-41,Metal Etching Corp.
+13-RC-154,Metropolitan Chevrolet Co.
+14-RC-307,"Meyer, Charles, & Co."
+13-RC-91,Midland Die & Engraving Co.
+13-RC-11,Midwest Tool Works.
+18-RC-51,Minneapolis Electric Steel Casting Co.
+18-RC-53,Minneapolis Honeywell Regulator Co.
+4-RC-138,"Mita, Frank P., & Co."
+21-RC-292,Mitchell Camera Corp.
+14-RC-185,"Modern Engineering Co., Inc."
+20-RC-139,Moline Power & Implement Co.
+17-RC-143,Monarch Machine Co.
+10-RC-21,Montgomery Ward & Co.
+21-RC-180,Montgomery Ward & Co.
+21-RC-247,Montgomery Ward & Co.
+17-RC-178,"Muehlebach, George, Brewing Co."
+17-RC-144,"Mueller, Paul, Co."
+9-RC-15,"Murray Manufacturing Co., The."
+10-RC-113,National Paper Co.
+13-RC-70,National Sheet Metal Co.
+18-RC-64,National Tea Co.
+1-RC-24,"National Tool & Findings Co., Inc."
+2-RC-316,"National Transportation Co., Inc."
+8-RC-88,"National Tube Co., The."
+13-RC-203,"Nelson, L. R., Manufacturing Co., Inc."
+2-RC-361,Neptune Meter Co.
+2-RC-362,Neptune Meter Co.
+14-RC-161,"Nestle's Milk Products, Inc."
+14-RC-237,"Nestle's Milk Products, Inc."
+2-RC-321,"Neuss & Hesslein Co., Inc."
+5-RC-49,"New Jersey Zinc Co., The."
+17-RC-86,"Newlin-Mosbacher Co., Inc."
+14-RC-203,Nordberg Manufacturing Co.
+18-RC-90,Northwestern Aeronautical Co.
+13-RC-158,Northwestern Telephone Co.
+18-RC-27,"North West Publications, Inc., St. Paul Dispatch Pioneer Press."
+10-RC-96,"Oakley Co., Inc., The."
+30-RC-74,"Ohio Oil Co., The, Producing Department, Unit Operator."
+16-RC-128,Oil City Brass Works.
+16-RC-156,Orbit Valve Co.
+30-RC-66,Oriental Refining Co.
+14-RC-243,Ortleb Machinery Co.
+9-RC-8,"Owensboro Forging Co., The."
+17-RC-114,Pacific Airmotive Corp.
+37-RC-9,"Pacific Frontier Broadcasting Co., Ltd."
+21-RC-162,"Pacific Press, Inc."
+18-RC-73,Page & Hill Co.
+1-RC-289,"Parker Bros., Inc."
+5-RC-50,"Paul Knitting Mills, Inc."
+14-RC-77,Pavyer Printing Machinery Works.
+10-RC-51,Peerless Pipe & Foundry Co. Inc.
+10-RC-85,Pekor Iron Works.
+4-RC-102,Penn Industrial Chemical Corp.
+34-RC-40,"Penney, J. C., Co."
+4-RC-2,Petroleum Heat & Power Co. of Pennsylvania.
+18-RC-18,"Pillsbury Mills, Inc."
+2-RC-279,Plastylite Corp.
+1-RC-112,Plax Corp.
+30-RC-12,Port Collins Producing Corp.
+14-RC-148,Portnoy Garment Co.
+2-RC-231,Procter & Gamble Co.
+14-RC-26,Progressive Service Co.
+2-RC-31,"Purolator Products, Inc."
+2-RC-32,"Purolator Products, Inc."
+2-RC-33,"Purolator Products, Inc."
+13-RC-19,"Quaker Oats Co., The."
+2-RC-65,"RCA Service Co., Inc."
+2-RC-239,"RCA Service Co., Inc."
+2-RC-245,"RCA Service Co., Inc."
+2-RC-291,"RCA Service Co., Inc."
+2-RC-335,"RCA Service Co., Inc."
+2-RC-384,"RCA Service Co., Inc."
+4-RC-121,"RCA Service Co., Inc."
+5-RC-57,"RCA Service Co., Inc."
+21-RC-189,"RCA Service Co., Inc."
+2-RC-343,"Radio Corp. of America, Inc."
+21-RC-13,Radio Recorders.
+14-RC-24,Randolph Cutting Die Co.
+16-RC-127,Rector Well Equipment Co.
+18-RC-45,"Red Owl Stores, Inc."
+18-RC-81,"Red Owl Stores, Inc."
+13-RC-151,Reflector Hardware Corp.
+5-RC-116,"Remington-Rand, Inc."
+5-RC-122,"Reo Washington Co., Inc."
+14-RC-128,Republic Die Casting Co.
+16-RC-80,Rex Baking Co.
+17-RC-106,Rex Welder & Engineering Co.
+10-RC-30,Reynolds Brothers Lumber Co.
+17-RC-19,Reynolds Manufacturing Co.
+17-RC-145,Reynolds Manufacturing Co.
+13-RC-180,Richlit Manufacturing Co.
+36-RC-6,"Rilco Laminated Products, Inc."
+17-RC-154,Robinson Packer Co.
+3-RC-91,"Roelin Engraving Works, Inc."
+18-RC-28,"Rollco, Inc."
+3-RC-31,"Rowell, E. N., Co. Inc."
+2-RC-134,S & H Bearing & Manufacturing Co.
+32-RC-15,"Safeway Stores, Inc."
+14-RC-33,"St. Louis Black & White Cabs, Inc."
+14-RC-35,"St. Louis Flying Service, Kratz Corp., The, d/b/a."
+14-RC-124,"St. Louis Hospital Equipment Co., Inc."
+14-RC-29,St. Louis Mill Equipment Co.
+1-RC-53,"Sandsea, Inc."
+14-RC-156,"Sauer, L. E., Machine Co."
+21-RC-219,Schaible Co.
+2-RC-323,"Schilling, J. L., Corp."
+21-RC-227,"Schwien, L. N., Engineering Co."
+5-RC-35,Seaboard Salvage Co.
+13-RC-139,"Sebastin Hat Co., Edward F. Swartzloff & Otto R., d/b/a."
+2-RC-236,"Sedgwick Machine Works, Inc."
+18-RC-68,Selmix Dispenser Corp.
+13-RC-62,Shafer Bearing Corp.
+16-RC-119,Shamrock Oil & Gas Corp.
+1-RC-201,"Shannoc Narrow Fabric Co., Trimtex Division of."
+8-RC-114,Shelby Salesbook Co.
+14-RC-115,"Shell Oil Co., Inc., Wood River Refinery."
+2-RC-187,Sinclair Refining Co.
+5-RC-8,"Sinclair-Scott Co., The."
+4-RC-115,Skyline Hosiery Co.
+17-RC-42,"Smith-Dorsey Co., The."
+18-RC-75,"Smith, Hinchman & Grylls, Inc."
+10-RC-61,Southeastern Metals Co.
+14-RC-229,Southern Equipment Co.
+14-RC-187,South Side Machine Co.
+14-RC-285,Specialty Tool Manufacturing Co.
+18-RC-49,"Speedometer Service & Accessories Co., Inc."
+19-RC-55,"Spokane Dry Goods Co., d/b/a The Crescent."
+17-RC-29,Springfield Grocery Co.
+9-RC-41,"Springfield Leather Products Co., The."
+2-RC-226,"Standard Gage Co., Inc."
+14-RC-244,Standard Machine & Manufacturing Co.
+1-RC-431,Standard Machinery Co.
+9-RC-67,Standard Oil Co.
+9-RC-68,Standard Oil Co.
+20-RC-164,Standard Oil Co. of California Motor Transport Department.
+30-RC-14,Standard Oil Co. of Indiana.
+1-RC-10,"Stanley Works, The Preston Plant."
+16-RC-36,Star Engraving Co.
+14-RC-172,Star Peerless Brewing Co.
+14-RC-278,Staunton Telephone Co.
+35-RC-15,"Stedman Foundry & Machine Works, Inc."
+14-RC-118,"Sterling Aluminum Products, Inc."
+2-RC-142,"Stern, I., & Co., Inc."
+1-RC-173,"Stibbs Transportation Lines, Inc."
+3-RC-68,Stromberg-Carlson Co.
+13-RC-78,Studebaker Machine Co.
+10-RC-218,"Sunshine Biscuit Co., Inc."
+14-RC-17,Superior Cutting Die Co.
+14-RC-188,"Swaine, Fred J., Manufacturing Co."
+9-RC-99,Swift & Co.
+10-RC-193,Swift & Co.
+16-RC-25,"Swift & Co., Houston Texas Oil Mill."
+31-RC-26,"Swift & Co., Food Division."
+3-RC-88,"Syracuse Auto Parts, Inc."
+17-RC-21,Tamko Asphalt Products Co.
+13-RC-145,"Taylor Engineering Co., The."
+10-RC-28,Tennessee Coach Co.
+16-RC-70,"Texas Co., The, Port Arthur Works & Terminal."
+10-RC-101,"Textile Broadcasting Co., Radio Station WMRC."
+4-RC-94,"Textile Machine Works, Inc."
+30-RC-29,Thermo Petroleum Co.
+13-RC-20,"Todt, R. G., Co."
+13-RC-1,Tousey Varnish Co.
+1-RC-344,"Underwood Corp., New Hartford Plant."
+5-RC-12,Underwood Corp.
+14-RC-21,Unexcelled Die & Supply Co.
+13-RC-43,Union Iron Works.
+18-RC-39,Unique Balance Co.
+8-RC-115,United Screw & Bolt Corp.
+2-RC-317,United States Galvanizing & Plating Equipment Co.
+13-RC-109,United States Rubber Co.
+14-RC-286,United States Smelting Furnace Co.
+14-RC-18,Universal Die Co.
+14-RC-154,Universal Match Corp.
+18-RC-21,University Truck Sales.
+1-RC-250,Vermont American Furniture Corp.
+10-RC-54,Vestal Lumber & Manufacturing Co.
+14-RC-90,"Victory Engineering & Machine Works, Inc."
+14-RC-112,Vulcan Iron Works
+1-RC-39,Walsh Body & Trailer Corp.
+14-RC-198,"Walworth Co., East St. Louis Works."
+1-RC-406,"Waterbury Companies, Inc."
+10-RC-31,Watkins Lumber Co.
+17-RC-74,Waxide Paper Co.
+15-RC-29,"Weatherhead Co., The."
+1-RC-251,Wells Bronze & Aluminum Corp.
+4-RC-122,"Well-Worth Slipper Co., Inc."
+5-RC-11,"Western Auto Supply Stores, Greensboro Division."
+7-RC-40,Western Auto Supply Co.
+21-RC-266,Western Gulf Oil Co.
+17-RC-105,Western Laundry Machinery Co.
+14-RC-23,Western Supplies Co.
+6-RC-7,Westinghouse Electric Corp.
+6-RC-15,Westinghouse Electric Corp.
+6-RC-20,Westinghouse Electric Corp.
+16-RC-53,Westinghouse Electric Corp.
+20-RC-51,Westinghouse Electric Corp.
+14-RC-143,Westinghouse Electric Supply Co.
+20-RC-156,Westinghouse Electric Supply Co.
+4-RC-9,"WFIL, Triangle Publications, Philadelphia Inquirer, d/b/a."
+1-RC-381,White Fuel Corp.
+3-RC-63,"White Motor Co., The."
+16-RC-94,"White Motor Co., The."
+35-RC-8,"White Motor Co., The."
+14-RC-54,"White Motor Truck Co., The."
+13-RC-118,"Wiebolt Stores, Inc."
+8-RC-10,Wiggins Industrial Research Co.
+17-RC-7,Wilde Drop Forge & Tool Co.
+10-RC-42,Wilson & Co.
+17-RC-155,Winkel Man Diecasting Co.
+3-RC-1,"Wise, J. B., Inc."
+9-RC-39,"Wocher, Max & Son, Co., The."
+9-RC-24,Wright-Bachman Lumber Co.
+1-RC-339,Wyoming Valley Paper Mill.
+3. LMRA—RM cases,
+9-RM-11,"American Cyanamid Co., Calco Chemical Division."
+2-RM-46,American Felt Co.
+21-RM-48,Bells-International Pictures.
+18-RM-18,"Farwell Ozmun Kirk & Co., Farwell Metal Fabricating Division."
+18-RM-20,Federal Aircraft Works.
+9-RM-8,"Gallaher Drug Co., The."
+5-RM-8,"Hampden Transfer & Storage Co., The."
+21-RM-18,"Holm, Walter, & Co."
+13-RM-18,"Kautenberg, W. E., Co."
+1-RM-6,Providence Body Co.
+10-RM-5,Reynolds Brothers Lumber Co.
+3-RM-24,"Roehlin Engraving Works, Inc."
+3-RM-17,"Rowell, E. N., Co., Inc."
+18-RM-9,St. Paul Machinery Manufacturing Co.
+10-RM-7,"Southern Metal Co., Inc."
+14-RM-3,Southwestern Bell Telephone Co.
+6-RM-2,"Sperti Foods, Inc."
+13-RM-8,"Union Motor Coach Terminal Co., a Corporation."
+10-RM-4,Watkins Lumber Co.
+10-RM-6,"Wehadkee Yarn Mills, Inc."
+4. LMRA—RD cases,
+16-RD-26,"Atlantic Refining Co., The."
+4-RD-7,Rohm & Haas Co.
+2-RD-28,S & H Bearing & Manufacturing Co.
+C. Cases dismissed on the basis of the record,
+1. NLRA—R cases,
+14-R-1754,American Fixture & Manufacturing Co.
+10-R-2716,American Manufacturing Co.
+2-R-7759,American Packing Co.
+13-R-4410,"Automatic Electric Co., The."
+4-R-2715,"Baldwin Locomotive Works, The."
+19-R-2172,Bunker Hill & Sullivan Mining & Concentrating Co.
+21-R-4090,California Walnut Growers Association.
+19-R-2128,Cedargreen Frozen Pack Corp.
+19-R-2173,Coeur D'Alene Mining Corp.
+21-R-4020,Colonial Radio Co.
+14-R-1603,"Combustion Engineering Co., Inc."
+8-R-2720,Consolidated Steamship Co.
+2-R-7418,Consolidated Telegraph & Electrical Subway Co.
+19-R-2168,"Day Mines, Inc."
+5-R-2886,"Delaware Knitting Co., Inc."
+16-R-1964,Denver Producing & Refining Co.
+9-R-2764,Dunbar Glass Corp.
+5W-R-28,French Broad Electric Membership Corp.
+1-R-3743,"Gair, Robert Co., Inc."
+1-R-3759,"Great Atlantic & Pacific Tea Co., The."
+16-R-2155,Hardwicke-Etter Co.
+2-R-7922,Hardy Plastics & Chemical Corp.
+16-R-2427,"Hom-Ond Food Stores, Inc."
+5W-R-117,Hudson Hosiery Co.
+14-R-1714,Illinois Power Co.
+13-R-4271,International Harvester Co.
+19-R-2194,Interstate Telephone Co.
+17-R-1701,"Kansas City Star Co., The."
+1-R-3768,"Lehrolite, Inc."
+5W-R-2567,"Liberty Hosiery Mills, Inc."
+4-R-2681,"Link-Belt Co., The."
+9I-R-1356,"Mayer, George J., Co."
+17-R-1806,"Montgomery Ward & Co., Inc."
+13-R-4414,Monumental Life Insurance Co.
+5W-R-84,Myrtle Desk Co.
+9-R-2678,National Carbide Corp.
+8-R-2476,National Tube Co.
+19-R-2065,Pacific Car & Foundry Co.
+5W-R-2775,Patterson Mills
+4-R-2735,"Pomeroy's, Inc."
+14-R-1699,St. Louis Public Service.
+1-R-3621,Scovill Manufacturing Co.
+6-R-1744,"Sharon Herald Co., The."
+21-R-4036,"Southwest Lumber Mills, Inc."
+20-RE-56,"Standard Brands, Inc."
+13-R-4523,"Standard Oil Co. of Indiana, Whiting Refinery."
+16-R-2345,Texas Paper Box Manufacturing Co.
+14-R-1796,Vevier Loose Leaf Co.
+10-R-2793,"Wilson & Co., Inc."
+2. LMRA—RC cases,
+13-RC-22,American Cabinet Hardware Corp.
+9-RC-7,American Container Co.
+14-RC-27,"Borg-Warner Corp., Norge Division."
+13-RC-40,"Chiniquy, William F,. Co."
+14-RC-34,Dazey Corp.
+18-RC-12,"General Mills, Inc., Mechanical Division."
+7-RC-102,"General Motors Corp., Cadillac Motor Car Division."
+15-RC-5,"Green Lumber Co., The."
+16-RC-68,"Hom-Ond Food Stores, Inc."
+36-RC-1,"Iron Fireman Manufacturing Co., The."
+2-RC-56,"Jensen, George, Inc."
+2-RC-29,"Kove, L. O., & Bros., Inc."
+21-RC-66,Lane-Wells Co.
+1-RC-52,Lynn Gas & Electric Co.
+16-RC-58,Magnolia Paper Co.
+1-RC-172,"Paulis Silk Mill, Inc."
+10-RC-58,Roane-Anderson Co.
+35-RC-9,"Schenley Distilleries, Inc., Old Quaker Division."
+14-RC-111,Shampaine Co.
+1-RC-85,Smith & Wesson Co.
+8-RC-18,Standard Oil Co. of Ohio.
+7-RC-44,United States Gypsum Co.
+2-RC-109,"Whiteford Flastics Co., Inc."
+3. LMRA—RM cases,
+21-RM-36,"Ballerino, Louella, a California Corp."
+21-RM-29,"Johnson, De De."
+13-RM-3,"Ny-Lint Tool & Manufacturing Co., Bernard & Grace Klint, et al, d/b/a."
+4. LMRA—RD cases,
+2-RD-7,Ceco Steel Products Corp.
+9-RD-5,"Cronin Motor Co., Inc."
+34-RD-6,Duke Power Co.
+2-RD-13,"Goodman, A. S., & Sons."
+4-RD-9,Lehigh Valley Broadcasting Co.
+30-RD-3,"Merris, Clyde J., Individual Owner."
+20-RD-2,Moore Dry Dock Co.
+2-RD-4,"Norwich Pharmacal Co., The."
+9-RD-7,"Queen City Warehouse, Inc."
+30-RD-1,Riggs Optical Co.
+10-RD-16,Southern Iron & Equipment Co.
+2-RD-9,"Terrytoons, Inc."
+2-RD-2,Underwriters Salvage Co. of New York.
+16-RD-3,"Willborn Bros. Co., Inc."
+D. Cases in which the Board issued a decision following a prehearing election,
+1. NLRA—R cases,
+9-R-2693,Carrollton Furniture Manufacturing Co.
+4-R-2579,"Evans, S. W., & Son."
+2-R-7743,Farmer Feed Co.
+18-R-1887,"Grede Foundry, Inc., Iron Mountain Division."
+4-R-2543,"Lehigh River Mill, Inc."
+5W-R-2678,Morowebb Cotton Mills Co.
+2-R-7880,"N. A. P. A., New York Warehouse, Inc."
+20-R-2250,Wasatch Oil Refining Co.
+III. Union Shop Authorization Cases,
+A. Cases in which elections were directed,
+17-UA-8,Brinks Inc.
+2-UA-87,"Eastwood, Benjamin Co."
+35-UA-121,Universal Carloading & Distributing Co.
+B. Cases decided on the basis of stipulated elections,
+13-UA-451,"Acme Visible Records, Inc."
+13-UA-954,"Acme Visible Records, Inc."
+2-UA-1475,American Felt Co.
+35-UA-1,"Automatic Control Engineers, Inc."
+35-UA-6,Bedford Foundry & Machine Co.
+35-UA-8,Bedford Foundry & Machine Co.
+35-UA-52,Bedford Foundry & Machine Co.
+35-UA-34,"Bell Bakeries, Inc."
+2-UA-3348,Chivers Book Binding Co.
+35-UA-11,"Cook, A. D., Inc."
+21-UA-303,"Douglas Aircraft Co., Inc."
+17-UA-666,Emery Bird Thayer Dry Goods Co.
+35-UA-5,"Food Machinery Corp., Peerless Pump Division."
+31-UA-125,Frehauf Trailer Co.
+16-UA-214,General Baking Co.
+13-UA-107,General Electric Supply Corp.
+35-UA-114,General Electric Supply Corp.
+35-UA-35,"Hayes Freight Lines, Inc."
+35-UA-13,"Hazledine, E. T., Co."
+9-UA-57,"Hirlinger Tire & Motor Service, Inc."
+13-UA-127,Howard Radio Co.
+9-UA-20,"Imperial Electric Co., The."
+10-UA-78,Linde-Air Products Co.
+9-UA-3,McBee Co.
+13-UA-198,Marquette Cement Manufacturing Co.
+13-UA-699,Masterform Tool Co. Barbara K. Titterington.
+20-UA-430,Michigan-California Lumber Co.
+3-UA-466,National Cash Register Co.
+9-UA-24,Noma Electric Corp. of Maryland.
+9-UA-75,Owensboro Forging Co.
+13-UA-432,Peerless Tool & Engineering Co.
+35-UA-37,"Potter & Brumfield Manufacturing Co., Inc."
+8-UA-399,"Pure Oil Co., The Toledo Refinery."
+8-UA-400,"Pure Oil Co., The Toledo Refinery."
+16-UA-153,Rex Baking Co.
+17-UA-884,Robinson Packer Co.
+4-UA-91,Rohm & Haas Co.
+35-UA-32,"Schenley Distilleries, Inc."
+9-UA-10,"Stagg, George T., Co., The."
+35-UA-36,"Terre Haute Brewing Co., Inc."
+20-UA-112,Tidewater Associated Oil Co.
+2-UA-1456,Union Carbide & Carbon Corp.
+2-UA-1457,Union Carbide & Carbon Corp.
+35-UA-67,"Wesson Co., Indiana Railroad Division of."
+35-UA-117,"Wesson Co., Indiana Railroad Division of."
+1-UA-1477,Westinghouse Electric Corp.
+1-UA-1532,"Westinghouse Electric Corp., Sturtevant Division."
+1-UA-1620,"Westinghouse Radio Station, Inc."
+1-UA-1621,"Westinghouse Radio Station, Inc."
+1-UA-1626,"Westinghouse Electric Corp., Sturtevant Division."
+2-UA-2937,Westinghouse Electric Corp.
+2-UA-2938,Westinghouse Electric Corp.
+2-UA-2939,Westinghouse Electric Corp.
+6-UA-92,"Westinghouse Radio Stations, Inc."
+9-UA-369,Westinghouse Electric Corp.
+13-UA-97,"Westinghouse Radio Stations, Inc."
+14-UA-1435,Westinghouse Electric Supply Co.
+20-UA-91,Westinghouse Electric Corp.
+13-UA-719,"Wurlitzer, Rudolph Co., The."
+C. Certification of results of elections held by order of regional directors,
+2-UA-1899,Abelard Realty Corp.
+36-UA-336,Air Reduction Pacific Co.
+15-UA-49,Air Reduction Sales Co.
+36-UA-305,Air Reduction Sales Co.
+8-UA-497,Air Way Electric Appliance Corp.
+8-UA-178,"Alliance Clay Products Co., The."
+4-UA-417,Alpha Portland Cement Co.
+9-UA-582,Alpha Portland Cement Co.
+13-UA-795,Alpha Portland Cement Co.
+8-UA-286,American Brake Shoe Co.
+13-UA-750,American Brake Shoe Co.
+19-UA-136,American Brake Shoe Co.
+1-UA-800,American Felt Co.
+31-UA-30,American Hair & Felt Co.
+18-UA-889,American Lines Supply.
+13-UA-944,Arcade Manufacturing.
+15-UA-103,Arkansas Fuel Oil Co.
+2-UA-553,Armour & Co.
+5-UA-337,Armour & Co.
+13-UA-671,Armstrong Bros. Tool. Co.
+18-UA-184,Augsburg Publishing House.
+36-UA-154,Automatic Oil Co.
+35-UA-253,Avco Manufacturing. Corp.
+6-UA-197,Avonmore Foundry & Machine Co.
+36-UA-634,B & R Lumber Co.
+1-UA-953,Baker Ice Co.
+1-UA-367,Bates Manufacturing Company.
+1-UA-368,Bates Manufacturing Co.
+1-UA-369,Bates Manufacturing Co.
+1-UA-370,Bates Manufacturing.
+1-UA-381,Bates Manufacturing Co.
+5-UA-80,Berkeley Woolens Co.
+18-UA-210,Bethlehem Steel Co.
+21-UA-230,Bethlehem Steel Co.
+16-UA-146,Bethlehem Supply Co.
+10-UA-43,Birmington Tank Co.
+5-UA-252,Blair Limestone Co.
+1-UA-313,"Blood, J. B., Co."
+1-UA-1103,"Blood, J. B., Co."
+2-UA-3026,Blumstein's Department Store.
+36-UA-86,Bly Logging Co.
+15-UA-50,Boulet Transportation Co.
+13-UA-882,Borgwarner Corp.
+2-UA-422,Bridge Photo Engraving Co.
+20-UA-788,Brimley Bros. Sign Co.
+1-UA-1362,Brooklyn Cooperage Co.
+36-UA-129,"Brooks Scanlon, Inc."
+36-UA-192,"Brooks Scanlon, Inc."
+36-UA-418,"Brooks Scanlon, Inc."
+8-UA-533,Bryant Heater Co.
+4-UA-325,"Budd Company, The."
+13-UA-84,Butler Bros.
+21-UA-458,California Portland Cement Co.
+4-UA-255,Camden County Beverage Co.
+20-UA-952,Campbell Soup Co.
+8-UA-163,"Canfield Oil Co., Plant No. 1."
+35-UA-109,Cannelton Sewer Pipe Co.
+15-UA-11,Capitol Broadcasting Co.
+9-UA-103,Capitol Greyhound Lines.
+18-UA-218,Carnegie Dock & Fuel Co.
+2-UA-1813,Carnegie Hall.
+18-UA-16,Casket Industry of Minneapolis.
+13-UA-116,Casway Corp.
+2-UA-424,Central Photo Engraving Corp.
+8-UA-568,Champion-Forge Co.
+2-UA-1881,"Chanin, L. S."
+2-UA-426,Circle Photo Engraving Co.
+8-UA-949,Cities Service Oil Co.
+36-UA-61,Clackamas Lumber Co.
+21-UA-409,Coca-Cola Bottling Co. of Los Angeles.
+2-UA-1774,"Cohen, Elias A."
+1-UA-325,"Colonial, Wool Co."
+2-UA-427,Color Crafts Inc.
+36-UA-420,Columbia River Paper Mills.
+9-UA-653,Columbus Bolt Works Co.
+1-UA-1110,"Conn. Co., The."
+21-UA-629,Consolidated Vultee Aircraft Corp.
+13-UA-796,Continental Diamond Fibre Co.
+2-UA-429,"Craftsman Color Plate Co., Inc."
+18-UA-91,Cream of Wheat Co.
+8-UA-570,"Cromwell Quality Tools Co., The."
+2-UA-1821,Cross & Brown.
+2-UA-1829,Cross & Brown.
+5-UA-199,Crosse & Blackwell Co.
+2-UA-1832,Cushman & Wakefield Inc.
+13-UA-994,"Deagan, J. C. Inc."
+30-UA-231,Denver Tramway Corp.
+30-UA-297,Denver Tramway Corp.
+1-UA-374,"Dewey, Gould & Co."
+2-UA-431,"Dillon, J. C., Co., Inc."
+15-UA-12,"Dixie Broadcasting Co., Inc."
+21-UA-408,Dr. Pepper Bottling Co.
+21-UA-411,Dr. Pepper Bottling Co.
+13-UA-1177,"Dole Valve Co., The."
+2-UA-1776,Dome Trading.
+36-UA-433,Dubois Lumber Co.
+36-UA-432,Dubois-Matlock Lumber Co.
+18-UA-105,"Dugan, Dan Inc."
+5-UA-81,Dunn Woolen Co.
+20-UA-53,Eagle-Picher Co.
+5-UA-214,"Eastern Box Co., The"
+4-UA-347,"Eavenson, J., & Sons."
+18-UA-360,Electric Auto Lite Instrument & Gauge Division.
+18-UA-843,"Engineering Research Association's, Inc."
+36-UA-113,Ewauna Box Co.
+15-UA-158,"Fair, D. L. Lumber Co."
+18-UA-148,Fairmont Creamery Co.
+18-UA-260,Fairmont Creamery Co.
+20-UA-873,Federal Ornamental Iron & Bronze Work.
+36-UA-320,"Ferem, Walter, Co."
+2-UA-1868,Fifteen West Thirty-eight Street Corp.
+13-UA-841,"Fifth Avenue Ford, Inc."
+2-UA-1802,Fifty Broad Street Corp.
+2-UA-1280,Firestone Tire & Rubber Co.
+14-UA-1019,Firestone Tire & Rubber Co.
+15-UA-38,Firestone Tire & Rubber Co.
+18-UA-347,Firestone Tire & Rubber Co.
+21-UA-125,Firestone Tire & Rubber Co.
+21-UA-139,Firestone Tire & Rubber Co.
+21-UA-232,Firestone Tire & Rubber Co.
+36-UA-56,Firestone Stores & Firestone Retread Division.
+1-UA-1167,Firestone Textiles.
+8-UA-254,"Forker Corp., The."
+20-UA-378,Fruit Growers Supply Co.
+4-UA-108,"Gas Construction Co., Inc."
+14-UA-1192,General Box Co.
+14-UA-1248,"General Box Co., East St. Louis Plant."
+21-UA-737,General Chemical Co.
+21-UA-628,"General Electric Co., Service Shop."
+13-UA-825,General Motors Manufacturing Corp.
+21-UA-369,General Motors Corp.
+20-UA-170,Geneva Steel Co.
+4-UA-353,Giant Portland Cement Co.
+1-UA-85,"Gibson Woolen Mills, Inc."
+36-UA-9,Gilchrist Timber Co.
+2-UA-2815,Gimbel Bros. Inc.
+21-UA-412,Globe Bottling Co.
+1-UA-1022,Gloucester Coal & Lumber Co.
+1-UA-1117,Gloucester Ice & Cold Storage Co.
+14-UA-1021,"Goodrich, B. F., Co."
+8-UA-631,"Goodyear Tire & Rubber Co., The."
+10-UA-51,Goodyear Tire & Rubber Co. of Alabama.
+14-UA-1022,"Goodyear Tire & Rubber Co., Inc."
+21-UA-1110,Goodyear Synthetic Rubber Plant.
+21-UA-1260,Goodyear Synthetic Rubber Plant.
+2-UA-1842,"Graham, Thos."
+2-UA-1396,Grand View Structural Steel Co.
+2-UA-1883,"Gresham Management Co., Inc."
+5-UA-273,"Greyhound Garage of Washington, Inc."
+13-UA-129,Greyhound Motors & Supply Co.
+13-UA-630,Greyhound Motor & Supply Co.
+1-UA-330,"Hallowell, Jones & Donald."
+31-UA-191,Hall Steel Co.
+2-UA-435,Harris-Union Photo Engraving Co.
+31-UA-153,"Hawaiian Electric Company Ltd., The."
+6-UA-75,Haws Refractories Co.
+18-UA-648,Heinrich Envelope Co.
+2-UA-1843,"Herbert, McLean & Purdy."
+1-UA-1406,Heywood-Wakefield Co.
+35-UA-95,Hoosier Desk Co.
+2-UA-1455,"Hudson Transit Lines, Inc."
+10-UA-29,Huntsville Manufacturing Co.
+2-UA-436,Illustration Engraving Co.
+36-UA-259,Independence Lumber Manufacturing Co.
+10-UA-61,Industrial Cotton Mills Inc.
+36-UA-362,Industrial Iron Works.
+10-UA-37,Ingalls Iron Works Co.
+1-UA-1564,International Harvester Co.
+9-UA-14,International Harvester Co.
+9-UA-204,International Harvester Co.
+9-UA-636,International Harvester Co.
+9-UA-637,"International Harvester Co., Louisville Works."
+13-UA-890,International Harvester Co.
+14-UA-1375,International Harvester Co.
+21-UA-315,International Harvester Co.
+33-UA-16,International Mineral & Chemical Corp.
+9-UA-248,Ironton Fire Brick Co.
+13-UA-763,"Issacson Iron Works, Inc."
+14-UA-1370,Jackes Evans Manufacturing Co.
+35-UA-94,Jasper Desk Co.
+35-UA-53,Jasper Office Furniture Co.
+35-UA-54,Jasper Seating Co.
+35-UA-320,"Jasper Veneer Mills, Inc."
+5-UA-278,"Jessup & Moore Paper Co., The."
+36-UA-434,"Johnson, D. C., Lumber Corp."
+18-UA-802,Jones & Kroger Co.
+17-UA-429,Kansas State Telephone Co.
+2-UA-1845,"Katz, S."
+2-UA-1846,"Kaufman, David K."
+4-UA-366,Keasbey & Mattison Co.
+6-UA-109,"Kelly, George A., Co."
+18-UA-176,Kelly How Thompson Co.
+8-UA-620,Kennedy Manufacturing Co.
+36-UA-110,"Klamath Basin Pine Mills, Inc."
+18-UA-326,La Crosse Rubber Mills Co.
+8-UA-532,Lamb Electric Co.
+20-UA-641,Lambertson Sales Co.
+14-UA-1355,Larkin Packer Co.
+4-UA-462,Lawrence Portland Cement Co.
+2-UA-1631,Lehigh Portland Cement Co.
+3-UA-333,Lehigh Portland Cement Co.
+4-UA-416,Lehigh Portland Cement Co.
+5-UA-275,Lehigh Portland Cement Co.
+17-UA-320,Lehigh Portland Cement Co.
+35-UA-108,Lehigh Portland Cement Co.
+18-UA-803,"Leicht Press, Inc."
+13-UA-110,Lena Casket Co.
+2-UA-1847,Lewittes & Sons.
+10-UA-16,Lincoln Mills of Alabama.
+36-UA-398,Linscott Manufacturing Co.
+15-UA-51,Liquid Carbonic Corp.
+2-UA-1848,"Loew's Theatres, Inc."
+2-UA-1632,Lone Star Cement Corp.
+2-UA-1781,"Long, David J."
+20-UA-167,McCloud River Lumber Co.
+20-UA-168,McCloud River Lumber Co.
+20-UA-272,McCloud River Lumber Co.
+18-UA-651,McGill Paper Products.
+18-UA-248,McGill Warner Co.
+18-UA-183,McGill Warner Holding Co.
+18-UA-752,McGill Warner Holding Co.
+2-UA-1844,M & L Hess Van Arx.
+2-UA-3105,Mack-International Motor Truck Co.
+14-UA-1376,Mack-International Truck Co.
+31-UA-2,Madison Plow Co.
+2-UA-344,Majestic Iron Works.
+13-UA-1080,Marshall Field & Co.
+18-UA-109,Marshall Wells Co.
+21-UA-706,Martin Bros. Box Co.
+36-UA-242,Martin Bros. Box Co.
+37-UA-7,"Matson Navigation Co. Hawaiian Hotels, Division."
+18-UA-249,Mereene-Johnson Machine Co.
+3-UA-131,Michigan Limestone & Chemical Corp.
+8-UA-616,"Midwest Reclaiming Co., The."
+14-UA-1132,Midwest Rubber Reclaiming Co.
+36-UA-334,"Miers & Bockenfeld, Inc."
+2-UA-2378,Milgrim Bros.
+18-UA-913,Minneapolis Electric Steel Casting Co.
+18-UA-477,Minneapolis-Honeywell Regulator Co.
+18-UA-345,"Minneapolis House of Butler Bros., The."
+18-UA-649,Minnesota Envelope Co.
+36-UA-125,Mist Logging Co.
+15-UA-13,"Montgomery Broadcasting Co., Inc."
+1-UA-773,"Morinis & Co., Inc."
+9-UA-113,Murray Manufacturing Co.
+1-UA-477,"Mystic Coal Docks, Inc."
+15-UA-52,National Cylinder & Gas Co.
+4-UA-150,National Licorice Co.
+2-UA-1849,National Renovating.
+18-UA-804,"National Weeklies, Inc."
+21-UA-415,Nehi Beverage Co. of Los Angeles.
+9-UA-9,Nelson Transfer & Storage Co.
+1-UA-458,New Bedford Cotton Manufacturing Association.
+1-UA-1006,New York Bakery.
+2-UA-666,"New York Employing Printers Association, Inc."
+2-UA-668,"New York Employing Printers Association, Inc."
+2-UA-1426,"New York Employing Printers Association, Inc."
+3-UA-338,New York Produce Exchange.
+2-UA-121,New York Stock Exchange.
+2-UA-1239,North American Cement Corp.
+5-UA-193,North American Cement Corp.
+5-UA-245,North American Cement Corp.
+18-UA-647,Northern States Envelope Co.
+18-UA-330,"Northern Transit Co., Inc."
+18-UA-290,North Star Foundry Co.
+6-UA-226,"Nubone Co., Inc., The."
+1-UA-331,Oelrichs Warehouse & Trucking Co.
+9-UA-455,"Ohio Falls Dye & Finishing Works, Inc."
+9-UA-456,Ohio Falls Dye & Finishing Works.
+8-UA-109,"Ohio Greyhound Lines, Inc."
+8-UA-461,"Ohio Machine & Boiler Co., The."
+8-UA-129,"Ohio Match Co., The."
+36-UA-431,Olson Lumber Co.
+13-UA-232,Operadio Manufacturing Co.
+36-UA-435,Oregon Plywood Corp.
+36-UA-116,Oregon Trail Box Co.
+36-UA-263,Oregon Worsted Co.
+2-UA-1892,Optical Products Corp.
+36-UA-668,Pacific Greyhound Lines.
+13-UA-199,"Parke, Davis & Co."
+9-UA-278,Parkersburg Ice & Fuel Co.
+8-UA-274,"Parkdrop Forge Co., The."
+4-UA-285,Pavia Shuttle Co.
+1-UA-226,"Peck, Stowe & Wilcox Co., The."
+36-UA-379,Peerless Pacific Co.
+18-UA-558,Peerless Yale Co.
+1-UA-371,Pepperell Manufacturing Co.
+1-UA-405,Pepperell Manufacturing Co.
+21-UA-416,Pepsi Cola Bottling Co.
+4-UA-274,Perth Amboy Dry Dock Co.
+19-UA-143,Phillips Petroleum Co.'s Home Oil Refinery.
+2-UA-447,Pilot Photo Engraving Co.
+6-UA-332,Pittsburgh Motor Coach Co.
+1-UA-719,"Pocahontas Fuel Co.,Inc."
+36-UA-213,"Pope & Talbot, Inc."
+36-UA-214,"Pope & Talbot, Inc."
+36-UA-260,"Pope & Talbot, Inc."
+36-UA-340,Pope & Talbot Lumber Co.
+36-UA-551,Pope & Talbot Inc. Lumber Division.
+36-UA-142,Portland Oil Co.
+36-UA-436,Portland Shipbuilding Co.
+2-UA-1261,Post Road Iron Works.
+35-UA-15,Potash Co. of America.
+13-UA-108,Quaker Oats Co.
+13-UA-118,"Quaker Oats Co., The."
+18-UA-652,Quality Park Envelope Co.
+18-UA-252,"Ready Mixed Concrete Corp., The."
+1-UA-829,"Rhodes, M. H., Inc."
+6-UA-194,Robinson Clay Products Co.
+8-UA-220,"Robinson Clay Products Co., The."
+8-UA-221,Robinson Clay Products Co.
+8-UA-434,Robinson Clay Products Co.
+13-UA-982,Rockwell Manufacturing Co.
+13-UA-1073,Rockwell Manufacturing Co.
+2-UA-1856,Rogers Peet Co.
+20-UA-577,Roma Wine Co.
+6-UA-101,Rosedale Foundry & Machine Co.
+36-UA-341,St. Helens Wood Products.
+17-UA-899,St. Joseph Brick.
+14-UA-1194,St. Louis Independent Packing Co.
+18-UA-48,St. Paul Union Bus Depot Co.
+2-UA-2814,Saks Thirty-fourth Street Inc.
+2-UA-451,Salvation Army.
+2-UA-1857,"Sanford, Floyd S."
+20-UA-599,Santa Chuz Portland Cement Co. R.
+10-UA-27,Saratoga Victory Mill.
+10-UA-28,Saratoga Victory Mill.
+2-UA-1783,"Schlesinger, Kurt, Nardine Properties."
+2-UA-1784,"Schlesinger, Kurt."
+2-UA-1794,Schlesinger and Leventon.
+2-UA-1858,"Schloss, Leo."
+1-UA-777,"Schultz, E. F., Trucking Service."
+2-UA-1793,"Sclang Bros., Inc."
+2-UA-29,"Scott, Walter & Co."
+21-UA-417,Shasta Water Co.
+13-UA-648,"Shell Oil Co., Inc."
+36-UA-130,"Shelvin Hixon Co., The."
+36-UA-123,Simmons Logging Co.
+18-UA-241,"Smyth, H. M., Printing Co."
+9-UA-303,"Springfield City Lines, Inc."
+2-UA-1262,"Stamford Iron Supply Co., Inc."
+1-UA-975,Standard Box Co.
+13-UA-1106,Standard Coil Products Co.
+5-UA-197,Standard Lime & Stone Co.
+5-UA-280,Standard Lime Stone Co.
+5-UA-281,Standard Lime & Stone Co.
+21-UA-573,Standard Oil Co.
+13-UA-536,Standard Wire & Steel Works.
+21-UA-225,Stanyer & Edmundson.
+8-UA-130,"Starr, A. E., Co."
+36-UA-421,"Stebco, Inc."
+35-UA-87,"Stedmans Foundry & Machine Works, Inc."
+14-UA-1395,Steelwold Equipment Co.
+2-UA-1796,"Stoddard, H. C."
+31-UA-154,Stolper Steel Products Co.
+8-UA-433,"Stowe-Fuller Refractories Co., The."
+9-UA-360,Superior Die & Engineering Co.
+18-UA-632,Superior Metal Products Co.
+8-UA-116,Sun Rubber Co.
+9-UA-362,Surface Combustion Co.
+21-UA-418,Tastee Beverage Co.
+2-UA-1798,Taylor Durant Co.
+2-UA-1799,Taylor-Durant Co.
+18-UA-650,Tension Envelope Co.
+2-UA-3237,"Texas Co., The."
+4-UA-295,"Texas Co., The."
+7-UA-490,"Texas Co., The."
+7-UA-494,"Texas Co., The."
+13-UA-659,"Texas Co., The."
+12-UA-1149,"Texas Co., The."
+14-UA-1136,"Texas Co., The."
+21-UA-742,"Texas Co., The."
+21-UA-744,Texas Co.
+21-UA-895,"Texas Co., The."
+21-UA-896,"Texas Co., The."
+21-UA-897,"Texas Co., The."
+21-UA-898,"Texas Co., The."
+21-UA-899,"Texas Co., The."
+21-UA-900,"Texas Co., The."
+21-UA-901,"Texas Co., The."
+21-UA-902,"Texas Co., The."
+21-UA-903,"Texas Co., The."
+35-UA-215,"Texas Co., The."
+10-UA-30,"Textron-Southern, Inc."
+1-UA-15,"Thames Broadcasting Corp., The."
+20-UA-113,Tidewater Associated Oil Co.
+20-UA-126,Tide Water Associated Oil Co.
+20-UA-127,Tidewater Associated Oil Co.
+20-UA-128,Tide Water Associated Oil Co.
+36-UA-55,Tire Dealers' Association of Portland.
+15-UA-104,"Todd-Johnson Dry Docks, Inc."
+13-UA-474,"Tropic Aire, Inc."
+18-UA-140,Triangle Manufacturing Co.
+36-UA-630,Triangle Milling Co.
+6-UA-320,Triangle Railways Co.
+9-UA-5,Tri-City Common Carriers Trucking Association.
+13-UA-628,"Tropic-Aire, Inc."
+4-UA-541,Truscon Steel Co.
+13-UA-732,Union Motor Coach Terminal Co.
+1-UA-1624,Union Street Railway Co.
+2-UA-3143,"Unique Balance Co., Inc."
+15-UA-14,"United Broadcasting Co., Inc."
+36-UA-150,United Oil Co.
+32-UA-18,United States Potash Co.
+21-UA-486,United States Gypsum Co.
+33-UA-17,United States Potash Co.
+33-UA-19,United States Potash Co.
+17-UA-355,Universal Atlas Portland Cement Co.
+17-UA-21,Universal Manufacturing Co.
+18-UA-268,Urban Telephone Co.
+2-UA-1779,V. P. Home Life Insurance Co.
+4-UA-365,WCAU Inc.
+2-UA-1800,"Wachter, Carl O., Insurance Department."
+1-UA-334,"Warehouse 13, Inc."
+20-UA-391,Wasatch Oil Co.
+1-UA-846,Waterbury Iron Works
+18-UA-805,"Watkins, J. R. Co."
+20-UA-462,Wesco Machinery Co.
+36-UA-395,Western Door and Plywood Corp.
+13-UA-853,Western Foundry Co.
+36-UA-373,Western Foundry Co.
+9-UA-369,Westinghouse Electric Corp.
+36-UA-686,"Westinghouse Radio Stations, Inc."
+36-UA-111,Weyerhaeuser Timber Co.
+2-UA-1864,"White, Wm. A. & Sons."
+4-UA-29,Widder Bros.
+18-UA-801,Winona Printing Co.
+36-UA-372,Woodbury & Co.
+36-UA-371,Woodbury Hardware Co.
+2-UA-1479,Worthington Pump & Machinery Corp.
+36-UA-290,"Yosak, John, Logging Co."
+20-UA-786,Young Electric Sign Co.
+36-UA-370,Zidell Machinery & Supply Co.

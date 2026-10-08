@@ -1,14 +1,35 @@
-row_label,col_1,col_2
-I.,Applications for fees and expenses filed with the Board under 5 U.S.C. § 504 during this fiscal year: A. Number of applications filed:.................................................................................................................,5
-,"B. Decisions in EAJA cases ruled on by the Board during this fiscal year (includes ALJ awards adopted by the Board, and settlements): Grantingfees:…………………………………………………………………………………….",1
-,Denyingfees:…………………………………………………………………………………….,5
-,"C. Amount of fees and expenses in cases listed in B, above: Claimed:………….………………………………………………………………………………",355204.05
-,Recovered:……………….………………………………………………………………………,35000.00
-II.,Petitions for Review of Board Orders denying fees under 5 U.S.C. § 504: Awards granting fees (includes settlements):………………………………………………………..,0
-,A. B. Awardsdenyingfees:…………………………………………………………………………………,0
-,C. Amount of fees and expenses recovered pursuant to court award or settlement (includes fees recovered in cases in which court finds merit to claim but remands to Board for determination offeeamount):………………………………………………………………………………………,0
-III.,Applications for fees and expenses before Circuit Courts of Appeals under 28 U.S.C. § 2412: A. Awards granting fees (includes settlements):……………………………………………………….. B. Awardsdenyingfees:………………………………………………………………………………...,3
-,,1
-,C. Amount of fees and expensesrecovered:…………………………………………………………….,140631.22
-IV.,Applications for fees and expenses before District Courts under 28 U.S.C. § 2412:,1
-,A. Awards granting fees (includes settlements):………………………………………………………... B. Awardsdenyingfees:…………………………………………………………………………………,0
+Stage,Median days
+I. Unfair Labor Practice Cases:,
+A. Major Stages Completed—,
+1. Filing of charge to issuance of complaint,87
+2. Complaint to close of hearing,114
+3. Close of hearing to administrative law judge's decision,78
+4. Receipt of briefs or submissions to issuance of administrative law judge's decision,27
+5. Administrative law judge's decision to issuance of Board decision,392
+6. Originating document to Board decision,206
+7. Assignment to Board decision,154
+8. Filing of charge to issuance of Board decision,690
+"B. Age of cases pending administrative law judge's decision, September 30, 2004",
+1. From filing of charge,332
+2. From close of hearing,70
+"C. Age of cases pending Board decision, September 30, 2004",
+1. From filing of charge,1159
+2. From originating document,583
+3. From assignment,521
+II. Representation cases:,
+A. Major stages completed—,
+1. Filing of petition to notice of hearing issued,1
+2. Notice of hearing to close of hearing,14
+3. Close of hearing to Regional Director's decision issued,21
+4. Close of pre-election hearing to Board's decision issued,485
+5. Close of post-election hearing to Board's decision issued,133
+6. Filing of petition to—,
+a. Board decision issued,304
+b. Regional Director's decision issued,38
+7. Originating document to Board decision,129
+8. Assignment to Board's decision,94
+"B. Age of cases pending Board decision, September 30, 2004",
+1. From filing of petition,576
+2. From originating document,336
+3. From assignment,426
+"C. Age of cases pending Regional Director's decision, September 30, 2004",135

@@ -1,22 +1,55 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11
-National v. Local......................................,277,276,0,117,159,1,0,,,,
-Local v. Local..........................................,1342,1314,0,0,1314,28,0,,,,
-AFL-CIO v. AFL-CIO............................,3816,2301,2301,,,170,732,732,,,613
-AFL-CIO v. Local....................................,3856,3432,1745,,1687,141,207,76,,131,76
-AFL-CIO v. National..............................,414,262,116,146,,22,58,57,1,,72
-National v. National................................,367,348,0,348,0,19,0,,,,
-2-union elections..................................,10072,7933,4162,611,3160,381,997,865,1,131,761
-AFL-CIO v. AFL-CIO v. AFL-CIO v. AFL-CIO..................................................,20,20,20,0,0,0,0,,,,
-AFL-CIO v. AFL-CIO v. National..........,93,64,62,2,0,29,0,,,,
-National v. Local v. Local........................,11,11,0,0,11,0,0,,,,
-3 (or more)-union elections..................,124,95,82,2,11,29,0,0,0,0,0
-Total RC elections................................,140734,44326,36943,1898,5485,15427,28899,26570,924,1405,52082
-C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases,C. Elections in RMcases
-Other national unions..............................,10,10,0,10,0,0,0,,,,
-Other local unions....................................,348,240,0,0,240,108,0,,,,
-AFL-CIO..................................................,1494,426,426,,,187,253,253,,,628
-1-union elections..................................,1852,676,426,10,240,295,253,253,0,0,628
-AFL-CIO v. AFL-CIO............................,100,41,41,,,0,59,59,,,0
-Local v. Local..........................................,42,41,0,0,41,1,0,,,,
-2-union elections..................................,142,82,41,0,41,1,59,59,0,0,0
-Total RMelections..............................,1994,758,467,10,281,296,312,312,0,0,628
+Participating unions,Total valid votes cast,Valid votes cast in elections won,Valid votes cast in elections won,Valid votes cast in elections won,Valid votes cast in elections won,Valid votes cast in elections won,Valid votes cast in elections lost,Valid votes cast in elections lost,Valid votes cast in elections lost,Valid votes cast in elections lost,Valid votes cast in elections lost
+Participating unions,Total valid votes cast,Votes for unions,Votes for unions,Votes for unions,Votes for unions,Total votes for no union,Votes for unions,Votes for unions,Votes for unions,Votes for unions,Total votes for no union
+Participating unions,Total valid votes cast,Total,AFL-CIO unions,Other national unions,Other local unions,Total votes for no union,Total,AFL-CIO unions,Other national unions,Other local unions,Total votes for no union
+A. All representation elections,,,,,,,,,,,
+AFL-CIO,"143,394","38,977","38,977",,,"16,907","30,810","30,810",,,"56,700"
+Other local unions,"7,349","2,626",,,"2,626",843,"1,287",,,"1,287","2,593"
+Other national unions,"5,130","1,504",,"1,504",,647,975,,975,,"2,004"
+1-union elections,"155,873","43,107","38,977","1,504","2,626","18,397","33,072","30,810",975,"1,287","61,297"
+AFL-CIO v. AFL-CIO,"4,228","2,448","2,448",,,219,807,807,,,754
+AFL-CIO v. Local,"4,142","3,543","1,812",,"1,731",149,366,77,,289,84
+AFL-CIO v. National,414,262,116,146,,22,58,57,1,,72
+Local v. Local,"1,384","1,355",,,"1,355",29,0,,,0,0
+National v. Local,277,276,,117,159,1,0,,0,0,0
+National v. National,367,348,,348,,19,0,,0,,0
+2-union elections,"10,812","8,232","4,376",611,"3,245",439,"1,231",941,1,289,910
+AFL-CIO v. AFL-CIO v. AFL-CIO v. AFL-CIO,20,20,20,,,0,0,0,,,0
+AFL-CIO v. AFL-CIO v. National,93,64,62,2,,29,0,0,0,,0
+National v. Local v. Local,11,11,,0,11,0,0,,0,0,0
+3 (or more)-union elections,124,95,82,2,11,29,0,0,0,0,0
+Total representation elections,"166,809","51,434","43,435","2,117","5,882","18,865","34,303","31,751",976,"1,576","62,207"
+B. Elections in RC cases,,,,,,,,,,,
+AFL-CIO,"119,049","32,699","32,699",,,"13,814","25,705","25,705",,,"46,831"
+Other local unions,"6,849","2,314",,,"2,314",707,"1,274",,,"1,274","2,554"
+Other national unions,"4,640","1,285",,"1,285",,496,923,,923,,"1,936"
+1-union elections,"130,538","36,298","32,699","1,285","2,314","15,017","27,902","25,705",923,"1,274","51,321"
+National v. Local,277,276,0,117,159,1,0,,,,
+Local v. Local,"1,342","1,314",0,0,"1,314",28,0,,,,
+AFL-CIO v. AFL-CIO,"3,816","2,301","2,301",,,170,732,732,,,613
+AFL-CIO v. Local,"3,856","3,432","1,745",,"1,687",141,207,76,,131,76
+AFL-CIO v. National,414,262,116,146,,22,58,57,1,,72
+National v. National,367,348,0,348,0,19,0,,,,
+2-union elections,"10,072","7,933","4,162",611,"3,160",381,997,865,1,131,761
+AFL-CIO v. AFL-CIO v. AFL-CIO v. AFL-CIO,20,20,20,0,0,0,0,,,,
+AFL-CIO v. AFL-CIO v. National,93,64,62,2,0,29,0,,,,
+National v. Local v. Local,11,11,0,0,11,0,0,,,,
+3 (or more)-union elections,124,95,82,2,11,29,0,0,0,0,0
+Total RC elections,"140,734","44,326","36,943","1,898","5,485","15,427","28,899","26,570",924,"1,405","52,082"
+C. Elections in RM cases,,,,,,,,,,,
+Other national unions,10,10,0,10,0,0,0,,,,
+Other local unions,348,240,0,0,240,108,0,,,,
+AFL-CIO,"1,494",426,426,,,187,253,253,,,628
+1-union elections,"1,852",676,426,10,240,295,253,253,0,0,628
+AFL-CIO v. AFL-CIO,100,41,41,,,0,59,59,,,0
+Local v. Local,42,41,0,0,41,1,0,,,,
+2-union elections,142,82,41,0,41,1,59,59,0,0,0
+Total RM elections,"1,994",758,467,10,281,296,312,312,0,0,628
+D. Elections in RD cases,,,,,,,,,,,
+Other local unions,152,72,,,72,28,13,,,13,39
+Other national unions,480,209,,209,,151,52,,52,,68
+AFL-CIO,"22,851","5,852","5,852",,,"2,906","4,852","4,852",,,"9,241"
+1-union elections,"23,483","6,133","5,852",209,72,"3,085","4,917","4,852",52,13,"9,348"
+AFL-CIO v. AFL-CIO,312,106,106,,,49,16,16,,,141
+AFL-CIO v. Local,286,111,67,,44,8,159,1,,158,8
+2-union elections,598,217,173,0,44,57,175,17,0,158,149
+Total RD elections,"24,081","6,350","6,025",209,116,"3,142","5,092","4,869",52,171,"9,497"

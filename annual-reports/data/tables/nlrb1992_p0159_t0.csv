@@ -1,12 +1,13 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
-All representation elections,328,100.0,104,31.7,213,64.9,11,3.4
-By type of case:,,,,,,,,
-RC cases,284,100.0,93,32.8,185,65.1,6,2.1
-EMcases,5,100.0,3,60.0,2,40.0,0,
-RD cases,39,100.0,8,20.5,26,66.7,5,12.8
-By type of election:,,,,,,,,
-Consent elections,0,,0,,0,,0,
-Stipulated elections,249,100.0,69,27.7,169,67.9,11,4.4
-Expedited elections,I,100.0,0,,1,100.0,0,
-Regional Director-directed elections,78,100.0,35,44.9,43,55.1,0,
-Board-directed elections,0,,0,,0,,0,
+,Total elections,Objections only,Objections only,Challenges only,Challenges only,Objections and challenges,Objections and challenges,Total objections,Total objections,Total challenges,Total challenges
+,Total elections,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+All representation elections,"3,788",161,4.3,105,2.8,43,1.1,204,5.4,148,3.9
+By type of case:,,,,,,,,,,,
+In RC cases,"3,094",129,4.2,91,2.9,38,1.2,167,5.4,129,4.2
+In RM cases,69,5,7.2,3,4.3,0,,5,7.2,3,4.3
+In RD cases,625,27,4.3,11,1.8,5,0.8,32,5.1,16,2.6
+By type of election:,,,,,,,,,,,
+Consent elections,33,0,,2,6.1,0,,0,,2,6.1
+Stipulated elections,"3,083",117,3.8,82,2.7,35,1.1,152,4.9,117,3.8
+Expedited elections,3,1,33.3,1,33.3,0,,1,33.3,1,33.3
+Regional Director-directed elections,661,43,6.5,20,3.0,8,1.2,51,7.7,28,4.2
+Board-directed elections,8,0,,0,,0,,0,,0,

@@ -1,11 +1,36 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9
-Complaints issued,279,401,361,279,401,361,,,
-Notice of Hearing issued,1631,1326,1011,,,,1631,1326,1011
-Hearings held I,1753,1525,1186,219,305,256,1534,1220,930
-Intermediate Reports or proposed findings issued,185,252`,199,185,252,", 199",,,
-Decisions Issued',1856,1754,1257,211,401,285,1645,1353,972
-Decisions and Orders,139,260,173,139,260,173,,,
-Decisions and Consent Orders,72,141,112,72,141,112,,,
-Elections directed,1229,1036,714,,°,,1229,1036,714
-Certifications or dismissals after stipulated elections,291,236,207,,,,291,236,207
-Certification or dismissal on the record •,125,81,51,,,,125,81,51
+Stage and method,Number of cases,Percent of cases closed,Percent of cases on docket
+Cases on docket during the year,"7,900",,100.0
+Total number of cases closed,"6,507",100.0,82.4
+"Before formal action, total","4,353",66.9,55.1
+Adjusted,"2,980",45.8,37.7
+Direct recognition,196,3.0,2.5
+Recognition following election or pay-roll check,"2,345",36.0,29.7
+Union unsuccessful in election or pay-roll check,439,6.8,5.5
+Withdrawn,899,13.8,11.4
+Dismissed,474,7.3,6.0
+"After formal action, total","2,154",33.1,27.3
+Before hearing,108,1.7,1.4
+Adjusted,56,.9,.7
+Direct recognition,6,.1,.1
+Recognition following election or pay-roll check,43,.7,.5
+Union unsuccessful in election or pay-roll check,7,.1,.1
+Withdrawn,39,.6,.5
+Dismissed,13,.2,.2
+After hearing,117,1.8,1.5
+Adjusted,68,1.0,.9
+Direct recognition,1,,
+Recognition following election or pay-roll check,59,.9,.8
+Union unsuccessful in election or pay-roll check,8,.1,.1
+Withdrawn,40,.6,.5
+Dismissed,9,.2,.1
+After Board decision,"1,929",29.6,24.4
+Certification,"1,468",22.5,18.6
+After stipulated election,263,4.0,3.4
+After ordered election,"1,202",18.5,15.2
+Without election,3,,
+Dismissed,425,6.5,5.4
+After stipulated election,38,.6,.5
+After ordered election,180,2.7,2.3
+Without election,207,3.2,2.6
+Withdrawn,32,.5,.4
+Closed otherwise,4,.1,

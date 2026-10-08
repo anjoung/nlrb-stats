@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Unfair labor practice cases — NLRB FY1939</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1939.html">FY1939</a> &rsaquo; Unfair labor practice cases</p>
+<h1>Unfair labor practice cases</h1>
+<p class="meta">source pages 177–182 &middot; <code>nlrb1939_p0177_t0</code></p>
+<p class="spans-note">Stitched from pp. 177–182.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Name of case</th><th colspan="2">Date hearing held</th><th>Date decision issued</th></tr>
+<tr><th>Name of case</th><th>Date opened</th><th>Date closed</th><th>Date decision issued</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Acme-Evans Co.</th><td>April 10, 1939</td><td>May 5, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Acme Transfer</th><td>July 29, 1938</td><td>Jan. 19, 1939</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Adams Bros. Salesbook Co.</th><td>Dec. 15, 1938</td><td>Dec. 22, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Adriondack Foundries &amp; Steel, Inc.</th><td>July 21, 1938</td><td>July 23, 1938</td><td>[4]</td></tr>
+<tr><th class="stub" scope="row">A. E. Staley Mfg. Co.</th><td>Dec. 12, 1938</td><td>Dec. 16, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Air Associates, Inc.</th><td>Sept. 22, 1938</td><td>Oct. 18, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">A. Krueger Brewing Co., Inc.</th><td>[5]</td><td>[5]</td><td>Apr. 27, 1939</td></tr>
+<tr><th class="stub" scope="row">Alabama Hosiery Mills</th><td>July 18, 1938</td><td>July 21, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Alabama Power Co.</th><td>Nov. 3, 1938</td><td>Dec. 7, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Albert S. Bartson</th><td>Sept. 19, 1938</td><td>Sept. 20, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Algoma Net Company</th><td>June 5, 1939</td><td>June 9, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Allsteel Products Manufacturing Co.</th><td>July 25, 1938</td><td>July 29, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Alma Mills</th><td>Dec. 13, 1928</td><td>Jan. 7, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">A. L. Tucker</th><td>Jan. 12, 1939</td><td>Jan. 19, 1939</td><td>Feb. 11, 1929</td></tr>
+<tr><th class="stub" scope="row">Aluminum Goods Manufacturing Co.</th><td>Aug. 22, 1938</td><td>Sept. 20, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">American Brake Shoe &amp; Foundry Co.</th><td>[5]</td><td>[5]</td><td>May 17, 1939</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>[5]</td><td>[5]</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">American Hair &amp; Belt Co.</th><td>Nov. 7, 1938</td><td>Nov. 15, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">American Newspapers, Inc., Illinois Publishing &amp; Printing Co.</th><td>Oct. 22, 1938</td><td>Nov. 18, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">American Scantic Line</th><td>Mar. 20, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Aniline Works</th><td>Apr. 3, 1939</td><td>May 2, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Argonne Worsted Co.</th><td>Oct. 13, 1938</td><td>Oct. 18, 1938</td><td>Nov. 16, 1938</td></tr>
+<tr><th class="stub" scope="row">Art Metal Construction Co.</th><td>Dec. 19, 1938</td><td>Dec. 19, 1938</td><td>May 27, 1939</td></tr>
+<tr><th class="stub" scope="row">A. Sartorious Co.</th><td>Apr. 24, 1939</td><td>June 3, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Associated Motor Carriers of Louisiana</th><td>July 29, 1938</td><td>Jan. 19, 1939</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Atlas Tack Co.</th><td>[5]</td><td>[5]</td><td>Oct. 8, 1938</td></tr>
+<tr><th class="stub" scope="row">Atlas Underwear Co.</th><td>June 19, 1939</td><td>June 27, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Azar &amp; Solomon</th><td>[5]</td><td>[5]</td><td>Sept. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Baldwin Locomotive Works</th><td>Dec. 16, 1938</td><td>May 27, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Baltimore Type &amp; Composition Corporation</th><td>[5]</td><td>[5]</td><td>Nov. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Bauman Bros. Furniture Co.</th><td>Oct. 13, 1938</td><td>Oct. 25, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Bayuk Cigars, Inc.</th><td>Apr. 25, 1939</td><td>May 6, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">B. Blumenthal &amp; Co., Inc.</th><td>Oct. 10, 1938</td><td>Dec. 5, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Beacon Ladies Hat</th><td>July 29, 1938</td><td>July 30, 1938</td><td>[4]</td></tr>
+<tr><th class="stub" scope="row">Bernard Schwartz Cigar Co.</th><td>Mar. 13, 1939</td><td>Mar. 14, 1939</td><td>Apr. 3, 1939</td></tr>
+<tr><th class="stub" scope="row">Best Coat &amp; Apron Manufacturing Corporation</th><td>[5]</td><td>[5]</td><td>May 20, 1939</td></tr>
+<tr><th class="stub" scope="row">B. F. Johnson Lumber Co.</th><td>[5]</td><td>[5]</td><td>Apr. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>[5]</td><td>[5]</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Bilt-Well Umbrella Co.</th><td>Apr. 17, 1939</td><td>Apr. 26, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Bisbee Linseed Co.</th><td>Oct. 13, 1938</td><td>Oct. 18, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Bishop &amp; Co., Inc.</th><td>Aug. 16, 1938</td><td>Aug. 20, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Blocksom &amp; Co.</th><td>[5]</td><td>[5]</td><td>Mar. 30, 1939</td></tr>
+<tr><th class="stub" scope="row">Blossom Products Co.</th><td>Oct. 6, 1938</td><td>Oct. 11, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Bluff City Lime Co.</th><td>Nov. 7, 1938</td><td>Nov. 12, 1938</td><td>Jan. 3, 1939</td></tr>
+<tr><th class="stub" scope="row">Booth Fisheries Co.</th><td>Mar. 23, 1939</td><td>Mar. 24, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">B. &amp; P. Transfer Co.</th><td>Sept. 1, 1938</td><td>Sept. 2, 1938</td><td>Nov. 15, 1939</td></tr>
+<tr><th class="stub" scope="row">Boulet Transportation Co.</th><td>Jan. 12, 1939</td><td>Jan. 19, 1939</td><td>[5]</td></tr>
+<tr><th class="stub" scope="row">Bradley Lumber Co. of Arkansas</th><td>[5]</td><td>[5]</td><td>Mar. 9, 1939</td></tr>
+<tr><th class="stub" scope="row">Brewer-Tichener Corporation</th><td>Aug. 15, 1938</td><td>Aug. 19, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Brooklyn Union Gas Co.</th><td>Oct. 17, 1938</td><td>Nov. 7, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Brown Shoe Co.</th><td>July 5, 1938</td><td>July 20, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Buckley Hemlock Mills, Inc.</th><td>July 25, 1938</td><td>July 29, 1938</td><td>[5]</td></tr>
+<tr><th class="stub" scope="row">Bunte Bros. Candy Manufacturing Co.</th><td>June 29, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Burk Bros.</th><td>Jan. 5, 1939</td><td>Jan. 6, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Cactus Mines Co.</th><td>Nov. 17, 1938</td><td>Nov. 29, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">California Cotton Oil Corporation</th><td>Sept. 26, 1938</td><td>Oct. 5, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Capital Shingle Co.</th><td>Aug. 4, 1938</td><td>Aug. 9, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Capital Theatre Bus Terminal</th><td>Aug. 25, 1938</td><td>Aug. 29, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Carbola Chemical Co., Inc.</th><td>July 7, 1938</td><td>July 7, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Forest City Manufacturing Co.</th><td>Feb. 23, 1939</td><td>Mar. 27, 1939</td><td>Apr. 22, 1939</td></tr>
+<tr><th class="stub" scope="row">Foster Bros. Manufacturing Co.</th><td>Aug. 18, 1938</td><td>Aug. 25, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Franklin Printing Co.</th><td>[5]</td><td>[5]</td><td>Nov. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Frederic H. Burnham</th><td>Mar. 16, 1939</td><td>Mar. 29, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Freed Heater Mfg. Co.</th><td>[5]</td><td>[5]</td><td>Aug. 20, 1938</td></tr>
+<tr><th class="stub" scope="row">Ft. Worth Well Machinery &amp; Supply Co.</th><td>July 18, 1938</td><td>July 20, 1939</td><td>[5]</td></tr>
+<tr><th class="stub" scope="row">Fulton Metal Bed Co.</th><td>July 14, 1938</td><td>July 16, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Gaffney Manufacturing Co.</th><td>[5]</td><td>[5]</td><td>May 31, 1939</td></tr>
+<tr><th class="stub" scope="row">Gates Rubber Co.</th><td>Dec. 8, 1938</td><td>Dec. 8, 1938</td><td>June 8, 1939</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">General Dry Battery Co.</th><td>May 4, 1939</td><td>May 6, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">General Furniture Co.</th><td>July 1, 1938</td><td>Aug. 1, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Geo. J. Hefler</th><td>July 29, 1938</td><td>Aug. 6, 1938</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Geo. P. Pilling &amp; Son Co.</th><td>Feb. 23, 1939</td><td>Feb. 24, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Golden Cycle Corp.</th><td>July 21, 1938</td><td>Aug. 2, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Goodyear Tire &amp; Rubber Co.</th><td>May 22, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Graves Co.</th><td>June 20, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Great States Manufacturing Co.</th><td>[5]</td><td>[5]</td><td>June 7, 1939</td></tr>
+<tr><th class="stub" scope="row">Greer Steel Co.</th><td>[5]</td><td>[5]</td><td>Jan. 7, 1939</td></tr>
+<tr><th class="stub" scope="row">Gudebrod Bros., Inc.</th><td>[5]</td><td>[5]</td><td>Nov. 25, 1938</td></tr>
+<tr><th class="stub" scope="row">Gulf Produce Co-op., Inc.</th><td>July 21, 1938</td><td>July 21, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Gulf Public Service Co.</th><td>Aug. 8, 1938</td><td>Sept. 6, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Gunn Furniture Co.</th><td>May 25, 1939</td><td>May 26, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Gutman &amp; Co.</th><td>Aug. 18, 1938</td><td>Aug. 27, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Halff Manufacturing Co.</th><td>Apr. 24, 1939</td><td>Apr. 28, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hamann&#x27;s Transfer Co., Inc.</th><td>Jan. 12, 1939</td><td>Jan. 19, 1939</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Hamilton-Brown Shoe Co., Poplar Bluff, Mo., Plant</th><td>Apr. 10, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Hammond Box Co., Inc.</th><td>Aug. 30, 1938</td><td>Aug. 31, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Hamrick Mills</th><td>Dec. 13, 1938</td><td>Jan. 7, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hanover Cordage Co.</th><td>Mar. 30, 1939</td><td>Mar. 21, 1939</td><td>Apr. 27, 1939</td></tr>
+<tr><th class="stub" scope="row">Harbor Plywood Corporation</th><td>June 29, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Harry S. Scott, Inc.</th><td>[5]</td><td>[5]</td><td>Nov. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Harriss Woolen Co.</th><td>July 28, 1938</td><td>July 30, 1938</td><td>Mar. 7, 1939</td></tr>
+<tr><th class="stub" scope="row">Hartsell Mills Co.</th><td>July 21, 1938</td><td>July 23, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hatfield Wire &amp; Cable Co.</th><td>Nov. 7, 1938</td><td>Nov. 15, 1938</td><td>Dec. 21, 1938</td></tr>
+<tr><th class="stub" scope="row">Harvey H. Huth, doing business as St. Charles Transfer Co.</th><td>Jan. 12, 1939</td><td>Jan. 19, 1939</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Hatfield Clothing Co.</th><td>[5]</td><td>[5]</td><td>Jan. 24, 1939</td></tr>
+<tr><th class="stub" scope="row">H. Bomze &amp; Bros.</th><td>Oct. 10, 1938</td><td>Oct. 10, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Heintz Mfg. Co.</th><td>May 8, 1939</td><td>May 12, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Henry Glass &amp; Co.</th><td>Jan. 5, 1939</td><td>Jan. 13, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hirsch Shirt Corporation</th><td>[5]</td><td>[5]</td><td>Apr. 28, 1939</td></tr>
+<tr><th class="stub" scope="row">Hobbs-Wall Co.</th><td>Aug. 8, 1938</td><td>Sept. 1, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hobbs-Wall &amp; Co.</th><td>do</td><td>do</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Holland Manufacturing Co.</th><td>Oct. 13, 1938</td><td>Oct. 19, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hollywood Citizen-News Co.</th><td>July 5, 1938</td><td>July 12, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Holston Manufacturing Co.</th><td>July 7, 1938</td><td>July 8, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hoosier Veneer Co.</th><td>Oct. 6, 1938</td><td>Oct. 12, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">H. R. Webb Neckwear Manufacturing Co</th><td>Nov. 28, 1938</td><td>Nov. 29, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hubbard Division, Continental Roll &amp; Steel Foundry</th><td>Jan. 26, 1939</td><td>Feb. 20, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hummer Manufacturing Co., branch of Montgomery Ward &amp; Co.</th><td>Sept. 1, 1938</td><td>Sept. 2, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Ideal Electric Manfuacturing Co.</th><td>Oct. 3, 1938</td><td>Oct. 17, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Illinois Electric Porcelain Co.</th><td>Mar. 9, 1939</td><td>Mar. 28, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Illinois Tool Works</th><td>May 8, 1939</td><td>May 9, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Illinois Zinc Co.</th><td>Aug. 15, 1938</td><td>Aug. 29, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Indiana &amp; Michigan Electric Co.</th><td>Nov. 28, 1938</td><td>Dec. 9, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Indiana Ox Fibre Brush Co.</th><td>[5]</td><td>[5]</td><td>Sept. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Inman Poulsen Lumber Co.</th><td>[5]</td><td>[5]</td><td>Apr. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Inter-Allied Slipper Co., Inc.</th><td>May 22, 1939</td><td>May 23, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Interlake Iron Corporation</th><td>May 1, 1939</td><td>June 30, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">International Furniture Co.</th><td>Aug. 29, 1938</td><td>Sept. 14, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td>May 26, 1939</td></tr>
+<tr><th class="stub" scope="row">International Harvester Co.</th><td>June 22, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">International Harvester Co., Farmall Works</th><td>do</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">International Harvester Co.</th><td>do</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Interstate Fireproof Storage Co.</th><td>July 5, 1938</td><td>July 5, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Irving Tanning Co., and Hartland Tanning Co.</th><td>Jan. 30, 1939</td><td>Feb. 11, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Isle of Dreams Broadcasting Corporation</th><td>May 11, 1939</td><td>May 15, 1939</td><td>June 26, 1939</td></tr>
+<tr><th class="stub" scope="row">Israel G. Cutler et al., and Continental Upholstered Furniture and Medford Upholsterers, Inc.</th><td>Feb. 9, 1939</td><td>Feb. 20, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">I. Youlin &amp; Co.</th><td>Aug. 20, 1938</td><td>Aug. 25, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">J. A. Boswell Co.</th><td>June 12, 1939</td><td>June 16, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Jacobs Manufacturing Co.</th><td>Sept. 8, 1938</td><td>Sept. 8, 1938</td><td>Feb. 10, 1939</td></tr>
+<tr><th class="stub" scope="row">Jacobs Stove Manufacturing Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Jacob Finkelstein &amp; Sons</th><td>[5]</td><td>[5]</td><td>Sept. 9, 1938</td></tr>
+<tr><th class="stub" scope="row">Jamestown Metal Equipment Co. et al</th><td>Oct. 24, 1938</td><td>Oct. 27, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">John Morrell &amp; Co.</th><td>Apr. 13, 1939</td><td>Apr. 16, 1939</td><td>[10]</td></tr>
+<tr><th class="stub" scope="row">J. A. Thomas, proprietor, Thomas Trucking &amp; Freight Forwarding</th><td>Jan. 21, 1939</td><td>Jan. 19, 1939</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">J. Dunitz, Gloray Knitting Mills</th><td>Mar. 27, 1939</td><td>Mar. 31, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">J. E. Pearce Contracting &amp; Stevedoring Co.</th><td>Nov. 21, 1938</td><td>Mar. 2, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">J. Greenbaum Tanning Co.</th><td>Jan. 9, 1939</td><td>Jan. 9, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>Mar. 30, 1939</td><td>May 5, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">John Grieves Sons</th><td>Oct. 10, 1938</td><td>Oct. 10, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Johns-Manville Corporation</th><td>Aug. 4, 1938</td><td>Aug. 24, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">John S. Roebling&#x27;s Sons Co.</th><td>July 7, 1938</td><td>July 14, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Johnston Pump Co.</th><td>May 11, 1939</td><td>May 16, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Jones Lumber Co.</th><td>[5]</td><td>[5]</td><td>Apr. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Joseph Freeman Shoe Co., Inc.</th><td>[5]</td><td>[5]</td><td>May 5, 1939</td></tr>
+<tr><th class="stub" scope="row">J. S. Popper, Inc.</th><td>Jan. 3, 1939</td><td>Jan. 3, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Keystone Frame &amp; Manufacturing Co.</th><td>May 22, 1939</td><td>May 26, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Klauer Manufacturing Co.</th><td>Feb. 2, 1939</td><td>Feb. 8, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Koch Refrigerator Co.</th><td>[5]</td><td>[5]</td><td>Nov. 21, 1938</td></tr>
+<tr><th class="stub" scope="row">Kramer &amp; Uchitelle</th><td>May 22, 1939</td><td>June 7, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">LaFavorite Rubber Co.</th><td>Jan. 26, 1939</td><td>Feb. 3, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">LaParee Undergarment Co.</th><td>Dec. 20, 1938</td><td>Dec. 22, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">LaSalle Hat Co.</th><td>Sept. 15, 1938</td><td>Oct. 1, 1938</td><td>Nov. 26, 1938</td></tr>
+<tr><th class="stub" scope="row">Lebanon Paper Box Co.</th><td>[5]</td><td>[5]</td><td>Apr. 27, 1939</td></tr>
+<tr><th class="stub" scope="row">Lennox Furnace Co.</th><td>Feb. 20, 1939</td><td>Mar. 2, 1939</td><td>[3]</td></tr>
+<tr><th class="stub" scope="row">Letellier Transfer Co., Inc.</th><td>July 29, 1938</td><td>Aug. 6, 1938</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Liberty Dry Docks &amp; Repair</th><td>July 12, 1938</td><td>July 12, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Limestone Mills</th><td>Dec. 13, 1938</td><td>Jan. 7, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Litwin &amp; Sons</th><td>July 7, 1938</td><td>July 13, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Loew&#x27;s, Inc.</th><td>Aug. 29, 1938</td><td>Oct. 6, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Los Angeles Drug Co.</th><td>Feb. 1, 1939</td><td>Feb. 4, 1939</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Los Angeles Spring Bed Co.</th><td>June 15, 1939</td><td>June 19, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Louis Shoe Co.</th><td>Feb. 27, 1939</td><td>Mar. 10, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Lucas Bros.</th><td>[5]</td><td>[5]</td><td>Nov. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Luxuray, Inc.</th><td>Aug. 18, 1938</td><td>Aug. 18, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">McAlbert Oil Co., Inc.</th><td>Sept. 22, 1938</td><td>Sept. 27, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">McKesson &amp; Robbins, Inc.</th><td>Sept. 19, 1938</td><td>Sept. 22, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">McQuay-Norris Manufacturing Co.</th><td>Mar. 9, 1939</td><td>Mar. 11, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Magnolia Petroleum Co.</th><td>Dec. 12, 1938</td><td>Dec. 20, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Majestic Dress Co. and Boston Maid Dress Co.</th><td>Jan. 23, 1939</td><td>Jan. 30, 1939</td><td>[4]</td></tr>
+<tr><th class="stub" scope="row">Mall Tool Co.</th><td>May 25, 1939</td><td>June 5, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Malone Aluminum &amp; Bronze Powder Co.</th><td>Oct. 3, 1938</td><td>Oct. 14, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Maloney Trucking &amp; Storage Co.</th><td>July 29, 1938</td><td>Aug. 6, 1938</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Mandan Radio Association</th><td>May 18, 1939</td><td>May 19, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Mandell Chevrolet Co., Inc.</th><td>[7]</td><td>[7]</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Marlin Rockwell Corporation</th><td>Aug. 25, 1938</td><td>Aug. 30, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Marshall Field &amp; Co.</th><td>Mar. 2, 1939</td><td>Mar. 8, 1939</td><td>Apr. 20, 1939</td></tr>
+<tr><th class="stub" scope="row">Martell Mills Corporation</th><td>Feb. 2, 1939</td><td>Feb. 3, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Maryland Color Printing Co.</th><td>[5]</td><td>[5]</td><td>Nov. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Massachusetts Trawling Co.</th><td>Mar. 23, 1939</td><td>Mar. 24, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Max Ams, Inc.</th><td>Dec. 19, 1938</td><td>Dec. 19, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Mayer Handbag Co.</th><td>Aug. 4, 1938</td><td>Aug 15, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Meadville Malleable Iron Co.</th><td>[5]</td><td>[5]</td><td>Nov. 14, 1938</td></tr>
+<tr><th class="stub" scope="row">Medusa Portland Cement Co.</th><td>Mar. 17, 1939</td><td>Mar. 29, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Mercer Textile Co.</th><td>Aug. 1, 1938</td><td>Aug. 3, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Metal Door &amp; Trim Co.</th><td>[5]</td><td>[5]</td><td>Apr. 27, 1939</td></tr>
+<tr><th class="stub" scope="row">Metal Hose &amp; Tubing Co.</th><td>Jan. 23, 1939</td><td>Feb. 15, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Meyer &amp; Thalheimer</th><td>[5]</td><td>[5]</td><td>Nov. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Mid Continent Petroleum Co.</th><td>May 18, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Milam Manufacturing Co.</th><td>Aug. 8, 1938</td><td>Aug. 10, 1938</td><td>Sept. 20, 193</td></tr>
+<tr><th class="stub" scope="row">Milan Shirt Manufacturing Co.</th><td>Apr. 24, 1939</td><td>May 3, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Miller Abattoir Co.</th><td>Nov. 17, 1938</td><td>Nov. 18, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Mine B. Coal Co., a corporation</th><td>[5]</td><td>[5]</td><td>Sept. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Model Blouse Co.</th><td>Nov. 3, 1938</td><td>Nov. 22, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Monarch Mills, Inc.</th><td>July 25, 1938</td><td>Jan. 19, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Monmouth Country Publishing Co.</th><td>[5]</td><td>[5]</td><td>July 29, 1938</td></tr>
+<tr><th class="stub" scope="row">Monte Glove Co.</th><td>Apr. 6, 1939</td><td>Apr. 10, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Montgomery Ward &amp; Co.</th><td>July 21, 1938</td><td>July 26, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Monticello Manufacturing Co.</th><td>July 20, 1938</td><td>July 27, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Mooremach Gulf Lines, Inc.</th><td>Mar. 20, 1939</td><td>[5]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Moore-Lowry Flour Mill Co.</th><td>July 7, 1935</td><td>July 9, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Motor Specialties Co.</th><td>Apr. 10, 1939</td><td>Apr. 14, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Muncie Gear Co., succeeded by Muncie Gear Works, Inc.</th><td>[5]</td><td>[5]</td><td>Dec. 13, 1938</td></tr>
+<tr><th class="stub" scope="row">Murray Hat Co.</th><td>July 14, 1938</td><td>July 27, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Murray Shoe Co.</th><td>[5]</td><td>[5]</td><td>Jan. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Narragansett Plush, Inc.</th><td>Aug. 1, 1938</td><td>Aug. 10, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Nash-Kelvinator Corporation</th><td>do</td><td>Aug. 8, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">National Advertising Sales Aid Products</th><td>Oct. 27, 1938</td><td>Nov. 2, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">National Battery Co.</th><td>May 1, 1939</td><td>May 12, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">National Cash Register Co</th><td>Apr. 24, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">National City Lines et al</th><td>Mar. 13 1939</td><td>Mar. 15, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">National Electric Products Corporation</th><td>Oct. 25, 1938</td><td>Oct. 25, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">National Herald, Inc.</th><td>Sept. 26, 1938</td><td>Sept. 27, 1938</td><td>Nov. 16, 1938</td></tr>
+<tr><th class="stub" scope="row">National Mattress Co., Terre Haute National Mattress Co., Specialty Mattress Co</th><td>[5]</td><td>[5]</td><td>July 9, 1938</td></tr>
+<tr><th class="stub" scope="row">National Motor Rebuilding Corporation</th><td>Mar. 13, 1939</td><td>Mar. 20, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">National Pneumatic Co.</th><td>Dec. 21, 1938</td><td>Dec. 29, 1938</td><td>Jan. 30, 1939</td></tr>
+<tr><th class="stub" scope="row">National Tea Co.</th><td>[5]</td><td>[5]</td><td>Oct. 12, 1938</td></tr>
+<tr><th class="stub" scope="row">Newark Morning Ledger Co.</th><td>July 22, 1938</td><td>Sept. 16, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Newberry Lumber &amp; Chemical Co.</th><td>Nov. 7, 1938</td><td>Nov. 12, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">New Era Die Co.</th><td>Mar. 23, 1939</td><td>Mar. 24, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Neuhoff Packing Co.</th><td>Oct. 4, 1938</td><td>Oct. 11, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">New York Times Co.</th><td>Jan. 3, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Niagara Box Factory Inc., and Eagle Pencil Co.</th><td>July 18, 1938</td><td>Sept. 10, 1939</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">North Electric Manufacturing Co.</th><td>Oct. 24, 1938</td><td>Nov. 3, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Nutrena Mills, Inc.</th><td>July 14, 1938</td><td>July 16, 1938</td><td>May 10, 1939</td></tr>
+<tr><th class="stub" scope="row">Oberman Co., Inc.</th><td>Jan. 23, 1939</td><td>Feb. 4, 1939</td><td>Mar. 20, 1939</td></tr>
+<tr><th class="stub" scope="row">Odanah Iron Co. et al</th><td>June 29, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">O&#x27;Hara Bros. Co., Inc.</th><td>Mar. 23, 1939</td><td>Mar. 24, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Ohio Greyhound Lines, Inc.</th><td>Jan. 23, 1939</td><td>Jan. 27, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Ohio Match Co.</th><td>Mar. 30, 1939</td><td>Mar. 30, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Old Straight Creek Coal Co.</th><td>July 14, 1938</td><td>July 19, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Omaha &amp; Council Bluffs St. Ry. Co.</th><td>July 11, 1938</td><td>Aug. 18, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Oneita Knitting Mills</th><td>[5]</td><td>[5]</td><td>Dec. 13, 1938</td></tr>
+<tr><th class="stub" scope="row">Pacific Freight Lines</th><td>Aug. 11, 1938</td><td>Aug. 27, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Pacific Gas &amp; Electric Co.</th><td>Aug. 29, 1938</td><td>Sept. 14, 1938</td><td>June 14, 1939</td></tr>
+<tr><th class="stub" scope="row">Pacific Gas Radiator Co.</th><td>Jan. 26, 1939</td><td>Feb. 16, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Pacific Greyhound Lines</th><td>June 29, 1939</td><td>June 30, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Paramount Broadcasting Co.</th><td>Sept. 8, 1938</td><td>Sept. 9, 1938</td><td>June 3, 1939</td></tr>
+<tr><th class="stub" scope="row">Paramount Pictures, Inc.</th><td>Aug. 29, 1938</td><td>Oct. 6, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Paul A. Reichelt Co.</th><td>Aug. 15, 1938</td><td>Aug. 16, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Paul Siewers &amp; McKay</th><td>July 5, 1938</td><td>July 7, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">P. Ballantine &amp; Sons</th><td>Apr. 24, 1939</td><td>May 11, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Peter Pan Co., Inc.</th><td>Nov. 17, 1938</td><td>Nov. 17, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Peter Pan Co.</th><td>May 22, 1939</td><td>May 23, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Peerless White Line Co.</th><td>Nov. 7, 1938</td><td>Nov. 12, 1938</td><td>Jan. 3, 1939</td></tr>
+<tr><th class="stub" scope="row">Perfection Steel Body Co.</th><td>July 1, 1938</td><td>July 6, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Phelps Dodge Corporation</th><td>June 1, 1939</td><td>June 8, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Phelps Dodge Corporation, United Verde Branch</th><td>Dec. 8, 1938</td><td>Dec. 9, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Phillips Petroleum Co.</th><td>Aug. 8, 1938</td><td>Aug. 12, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>Aug. 11, 1938</td><td>Aug. 18, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Pickands, Mather &amp; Co., Zenith mine</th><td>June 29, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Piedmont Shirt Co.</th><td>Feb. 20, 1939</td><td>Feb. 23, 1939</td><td>June 2, 1939</td></tr>
+<tr><th class="stub" scope="row">Pioneer Baking Co.</th><td>Jan. 16, 1939</td><td>Jan. 18, 1939</td><td>[5]</td></tr>
+<tr><th class="stub" scope="row">Pittsburgh Metallurgical Co.</th><td>Sept. 13, 1938</td><td>Sept. 13, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Pittsburgh Plate Glass Co.</th><td>Mar. 6, 1939</td><td>Mar. 6, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Pittsburgh Plate Glass Co. No. 9</th><td>July 18, 1938</td><td>July 22, 1938</td><td>Sept. 22, 1938</td></tr>
+<tr><th class="stub" scope="row">Portland Lumber Mills Co.</th><td>[5]</td><td>[5]</td><td>Apr. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Premier Furnace Co.</th><td>May 25, 1939</td><td>June 3, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Princess Garment Co., Fashion Frocks, Inc., and Harford Frocks, Inc.</th><td>Apr. 13, 1939</td><td>Apr. 29, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Producers Produce Co.</th><td>July 14, 1938</td><td>July 18, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Pullman Standard Car Manufacturing Co.</th><td>Mar. 9, 1939</td><td>Apr. 5, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Pure Oil Co.</th><td>July 18, 1938</td><td>July 25, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Radcliff Motor Co.</th><td>Oct. 27, 1938</td><td>Nov. 7, 1938</td><td>Dec. 16, 1938</td></tr>
+<tr><th class="stub" scope="row">Radio Condenser Co.</th><td>June 29, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">R. Burke, doing business as Vaughan Transfer Co.</th><td>Jan. 12, 1939</td><td>Jan. 19, 1939</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">R. C. Can Co.</th><td>[5]</td><td>[5]</td><td>Apr. 25, 1939</td></tr>
+<tr><th class="stub" scope="row">Rebecca Fabacher, Inc., under the trade name of Fabacher Drayage Co.</th><td>Jan. 12, 1939</td><td>Jan. 19, 1939</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Red River Lumber Co.</th><td>Oct. 13, 1938</td><td>Oct. 25, 1938</td><td>Dec. 13, 1938</td></tr>
+<tr><th class="stub" scope="row">Reed Bros. Inc.</th><td>Aug. 8, 1938</td><td>Aug. 10, 1938</td><td>Sept. 20 1938</td></tr>
+<tr><th class="stub" scope="row">Republic Rubber Co. (Lee Rubber &amp; Tire)</th><td>May 22, 1939</td><td>June 8, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Republic Steel Corporation</th><td>May 25, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>May 2, 1939</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Resnick Cleaners</th><td>Aug. 4, 1938</td><td>Aug. 9, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Revere Copper &amp; Brass Co.</th><td>July 11, 1938</td><td>July 15, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Rex Textile Co., Inc.</th><td>June 26, 1939</td><td>[5]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Renold Wine Co.</th><td>May 15, 1939</td><td>May 24, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">R. H. H. Steel Laundry</th><td>Nov. 17, 1938</td><td>Dec. 5, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Richard Bros. Corporation</th><td>Mar. 7, 1939</td><td>Mar. 7, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Richland Co-operative Creamery Co.</th><td>[5]</td><td>[5]</td><td>July 30, 1938</td></tr>
+<tr><th class="stub" scope="row">Ritholz Optical Co.</th><td>Sept. 29, 1938</td><td>[6]</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Riverside Manufacturing Co.</th><td>Aug. 8, 1938</td><td>Aug. 16, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Riverside Transfer Co., Inc.</th><td>Jan. 12, 1939</td><td>Jan. 19, 1939</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">R. K. O. Radio Pictures</th><td>Aug. 29, 1938</td><td>Oct. 6, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Race Bros.</th><td class="blank"></td><td class="blank"></td><td>Apr. 27, 1939</td></tr>
+<tr><th class="stub" scope="row">Roche Harbor Lime &amp; Cement Co.</th><td class="blank"></td><td class="blank"></td><td>Nov. 21, 1938</td></tr>
+<tr><th class="stub" scope="row">Rockford Mitten &amp; Hosiery Co.</th><td>July 25, 1938</td><td>July 27, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Roseland Manufacturing Co., Inc.</th><td>Aug. 30, 1938</td><td>Aug. 31, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Rushmore Paper Co.</th><td>Jan. 26, 1939</td><td>Feb. 1, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Rust Parker Co.</th><td>Apr. 10, 1939</td><td>Apr. 12, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Ryan Coal Co.</th><td>Aug. 11, 1938</td><td>Aug. 12, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Sagamore Metal Goods, Inc.</th><td>Mar. 27, 1939</td><td>Mar. 31, 1939</td><td>May 8, 1939</td></tr>
+<tr><th class="stub" scope="row">Salt Lake Transfer Co.</th><td>July 8, 1938</td><td>July 12, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Samuel Goldwyn, Inc., Ltd.</th><td>Aug. 29, 1938</td><td>Oct. 6, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Samuel Stamping &amp; Enameling Co.</th><td>May 29, 1939</td><td>May 30, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">S. Blechman &amp; Sons, Inc.</th><td>Sept. 19, 1938</td><td>Sept. 21, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Schieber Hat Co.</th><td>Apr. 6, 1939</td><td>May 2, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Schierbrock Motors</th><td>Nov. 21, 1938</td><td>Nov. 21, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Schneidereith &amp; Sons</th><td class="blank"></td><td class="blank"></td><td>Nov. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Schreiber Milling &amp; Grain Co.</th><td class="blank"></td><td class="blank"></td><td>Apr. 27, 1939</td></tr>
+<tr><th class="stub" scope="row">Scottdale Mills</th><td>Nov 7, 1938</td><td>Jan. 26, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Se-Ling Hosiery Mills, Inc.</th><td>July 11, 1938</td><td>July 14, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Selznick International Pictures, Inc.</th><td>Aug. 29, 1938</td><td>Oct. 6, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Service Drayage Co., Inc.</th><td>July 29, 1938</td><td>Aug. 6, 1938</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Shepard Steamship Co.</th><td>Jan. 12, 1939</td><td>Jan. 12, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Shewan Jones Winery Co.</th><td>Jan. 26, 1939</td><td>Feb. 3, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Sierra Madre Lamanda Citrus Association</th><td>Oct. 4, 1938</td><td>Oct. 10, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Sinclair Refining Co.</th><td>Feb. 23, 1939</td><td>Feb. 28, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Singer Manufacturing Co.</th><td>May 4, 1939</td><td>May 9, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">S. Jackson &amp; Son, Inc.</th><td>Jan. 12, 1939</td><td>Jan. 19, 1939</td><td>Feb. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Solvay Process Co.</th><td>Sept. 15, 1938</td><td>Oct. 7, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Somersworth Shoe Co.</th><td class="blank"></td><td class="blank"></td><td>May 3, 1939</td></tr>
+<tr><th class="stub" scope="row">Sorg Paper Co.</th><td>Mar. 6, 1939</td><td>Apr. 8, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Southern Cotton Oil Co.</th><td>June 26, 1939</td><td>June 28, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Southern Manufacturing Co.</th><td class="blank"></td><td class="blank"></td><td>June 15, 1939</td></tr>
+<tr><th class="stub" scope="row">Southern Steamship Co.</th><td>Dec. 5, 1938</td><td>Jan. 9, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Southern Texas Coaches et al</th><td>Apr. 20, 1939</td><td>May 6, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Sparks-Withington Co.</th><td>Sept. 22, 1938</td><td>Sept. 28, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Sprague Specialties Co.</th><td>Sept. 16, 1938</td><td>Sept. 22, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Springfield Photo Mount Co.</th><td class="blank"></td><td class="blank"></td><td>June 2, 1939</td></tr>
+<tr><th class="stub" scope="row">Standard Hat Co.</th><td>Apr. 27, 1939</td><td>Apr. 28, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Standard Rendering Co.</th><td>Sept. 15, 1938</td><td>Sept. 16, 1938</td><td>Nov. 16, 1938</td></tr>
+<tr><th class="stub" scope="row">Star &amp; Crescent Boat Co.</th><td>Jan. 5, 1939</td><td>Jan. 13, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Ste. Genevieve Lime &amp; Quarry Co.</th><td>Nov. 7, 1938</td><td>Nov. 12, 1938</td><td>Jan. 3, 1939</td></tr>
+<tr><th class="stub" scope="row">Stoddard Lumber Co.</th><td>Oct. 17, 1938</td><td>Oct. 28, 1938</td><td>May 16, 1939</td></tr>
+<tr><th class="stub" scope="row">Summers Printing Co.</th><td class="blank"></td><td class="blank"></td><td>Nov. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Sunnyvale Dress Co.</th><td class="blank"></td><td class="blank"></td><td>Dec. 9, 1938</td></tr>
+<tr><th class="stub" scope="row">Sunday Lake Iron Co. et al</th><td>June 29, 1939</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Superfine Slipper Co.</th><td>July 25, 1938</td><td>July 26, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Superior Cabinet Corporation et al</th><td>June 5, 1939</td><td>June 15, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Superior Reed &amp; Rattan Furniture Co.</th><td>Jan. 3, 1939</td><td>Jan. 10, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Superior Table Novelty Corporation</th><td>June 5, 1939</td><td>June 15, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Supplee-Wills-Jones-Milk Co.</th><td class="blank"></td><td class="blank"></td><td>Mar. 7, 1939</td></tr>
+<tr><th class="stub" scope="row">Swift &amp; Co.</th><td>Aug. 8, 1938</td><td>Aug. 11, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Swift Packing Co.</th><td>Oct. 17, 1938</td><td>Nov. 11, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Taylor Milling Corporation</th><td>Mar. 27, 1939</td><td>Apr. 15, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Tennessee Electric Power Co.</th><td>Nov. 7, 1938</td><td>Nov. 10, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Terminal Manufacturing Co.</th><td>Feb. 27, 1939</td><td>Mar. 8, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">The Afro-American Co.</th><td class="blank"></td><td class="blank"></td><td>Mar. 16, 1939</td></tr>
+<tr><th class="stub" scope="row">The Atlas Underwear Co.</th><td class="blank"></td><td class="blank"></td><td>Jan. 18, 1939</td></tr>
+<tr><th class="stub" scope="row">The Bloomfield Manufacturing Co.</th><td>June 19, 1939</td><td>June 22, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">The Calco Chemical Co.</th><td>Oct. 17, 1938</td><td>Feb. 7, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">The Celluloid Corporation of America</th><td>Jan. 23, 1939</td><td>Jan. 23, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">The Gulf Refining Co.</th><td>May 18, 1939</td><td>June 9, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">The Maytag Co.</th><td>July 18, 1938</td><td>Oct. 19, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">The Mode Novelty Co.</th><td class="blank"></td><td class="blank"></td><td>Apr. 27, 1939</td></tr>
+<tr><th class="stub" scope="row">The Pure Oil Co.</th><td>Feb. 3, 1939</td><td>Feb. 15, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">The Sanitary Market</th><td>Mar. 27, 1939</td><td>Mar. 38, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">The Texas Co.</th><td>Sept. 12, 1938</td><td>Nov. 29, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>Feb. 3, 1939</td><td>Feb. 15, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">The Valley Camp Coal Co.</th><td>Feb. 9, 1939</td><td>Feb. 17, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">The Sanitary Market</th><td>Mar. 27, 1939</td><td>Mar. 28, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Thompson Products, Inc.</th><td>Apr. 3, 1939</td><td>Apr. 6, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Thomsen-Ellis-Hutton Co.</th><td class="blank"></td><td class="blank"></td><td>Nov. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Trawler Maris Stella, Inc.</th><td>Oct. 31, 1938</td><td>Nov. 5, 1938</td><td>Apr. 21, 1939</td></tr>
+<tr><th class="stub" scope="row">Tupelo Garment Co.</th><td>Aug. 8, 1938</td><td>Aug. 10, 1938</td><td>Sept. 20, 1938</td></tr>
+<tr><th class="stub" scope="row">20th Century-Fox Film Corporation</th><td>Aug. 29, 1938</td><td>Oct. 6, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Union Forging Co.</th><td>May 15, 1939</td><td>May 23, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">United Container Co.</th><td>Mar 9, 1939</td><td>Mar. 15, 1939</td><td>Apr. 27, 1939</td></tr>
+<tr><th class="stub" scope="row">United Dredging Co</th><td>May 25, 1939</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Universal Engraving &amp; Colorplate Co.</th><td>Mar. 9, 1939</td><td>Mar. 18, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Universal Pictures Co., Inc.</th><td>Aug. 29, 1938</td><td>Oct. 6, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Upland Citrus Association</th><td>Nov. 29, 1938</td><td>Dec. 28, 1938</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">U. S. Brass Turning Co., Inc.</th><td>Feb. 14, 1939</td><td>Feb. 14, 1939</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">U. S Pipe &amp; Foundry Co.</th><td>Feb. 21, 1939</td><td>Feb. 22, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Utah Copper Co</th><td>June 8, 1939</td><td>June 9, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Valley Mould &amp; Iron Corporation</th><td>May 1, 1939</td><td>May 3, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Vaughn Furniture Co., Inc.</th><td>Sept. 15, 1938</td><td>Sept. 24, 1938</td><td>Nov. 28, 1938</td></tr>
+<tr><th class="stub" scope="row">Viking Pump Co.</th><td>Dec. 5, 1938</td><td>Dec. 5, 1938</td><td>[11]</td></tr>
+<tr><th class="stub" scope="row">Vincennes Steel Corporation</th><td>Dec. 1, 1938</td><td>Dec. 7, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">V. La Rosa &amp; Sons, Inc.</th><td>July 8, 1938</td><td>July 25, 1938</td><td>Dec. 6, 1938</td></tr>
+<tr><th class="stub" scope="row">Volupte, Inc</th><td>[5]</td><td>[5]</td><td>Mar. 8, 1939</td></tr>
+<tr><th class="stub" scope="row">Walter Wanger Products, Inc</th><td>Aug. 29, 1938</td><td>Oct. 6, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Warner Brothers Pictures, Inc.</th><td>do</td><td>do</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Warren Textile Print Works</th><td>July 5, 1938</td><td>July 6, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Washington Tin Plate Co.</th><td>Aug. 11, 1938</td><td>Aug. 12, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Watkins Printing Co.</th><td>[5]</td><td>[5]</td><td>Nov. 19, 1938</td></tr>
+<tr><th class="stub" scope="row">Waverly Press, Inc.</th><td>[5]</td><td>[5]</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">West Coast Wholesale Drug Co</th><td>Sept. 19, 1938</td><td>Sept. 22, 1938</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">West Kentucky Coal Co.</th><td>May 22, 1939</td><td>May 23, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>Sept. 15, 1938</td><td>Sept. 16, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">West Texas Utilities Co.</th><td>July 25, 1938</td><td>Aug. 16, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">White Swan Laundry</th><td>May 18, 1939</td><td>May 27, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Whittier Mills Co. and Silver Lake Co.</th><td>Nov. 7, 1938</td><td>Jan. 26, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Wickwire Bros. Inc.</th><td>Aug. 1, 1938</td><td>Aug. 12, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Williams Meat Co.</th><td>[5]</td><td>[5]</td><td>May 8, 1939</td></tr>
+<tr><th class="stub" scope="row">Wilson &amp; Co.</th><td>Nov. 28, 1938</td><td>Nov. 30, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>Oct. 31, 1938</td><td>Nov. 2, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Wilson H. Lee Co.</th><td>May 15, 1939</td><td>June 2, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Wilson Line Inc.</th><td>Oct. 21, 1938</td><td>Dec. 17, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Windsor Manufacturing Co.</th><td>Mar. 9, 1939</td><td>Mar. 13, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Woodside Cotton Mills Co.</th><td>June 8, 1939</td><td>June 9, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Woodward &amp; Lothrop</th><td>Oct. 3, 1938</td><td>Oct. 3, 1938</td><td>Nov. 4, 1938</td></tr>
+<tr><th class="stub" scope="row">Yellow Cab &amp; Baggage Co.</th><td>Oct. 6, 1938</td><td>Oct. 17, 1938</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Youngstown Mines Corporation</th><td>June 29, 1939</td><td>[5]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Youngstown Mines Corporation et al</th><td>do</td><td>[6]</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Young&#x27;s Transfer, Inc.</th><td>Jan. 12, 1939</td><td>Jan. 19, 1939</td><td>Feb. 11, 1939</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1939_p0177_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>See footnotes at end of table, p. 175.</li>
+<li>1 Awaiting decision.</li>
+<li>2 Additional hearing on Oct. 27, 1938, and Oct. 28, 1938.</li>
+<li>3 Decision issued by stipulation after hearing.</li>
+<li>4 Case closed by compliance with intermediate report.</li>
+<li>5 Decision issued by stipulation before hearing.</li>
+<li>6 Resumed hearing on May 15, 1939, which is still in progress.</li>
+<li>7 Settled after hearing.</li>
+<li>8 Case closed by intermediate report dismissing complaint.</li>
+<li>9 Withdrawn after hearing.</li>
+<li>10 Dismissed after hearing.</li>
+</ol>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 177.</b> Four printed columns: stub (Name of case), then &quot;Date hearing held&quot; split into &quot;Date opened&quot; and &quot;Date closed&quot;, then &quot;Date decision issued&quot;; the stub heading and &quot;Date decision issued&quot; each span both heading levels and are repeated.
+
+Caption block omitted per instructions: the page head &quot;LIST OF CASES HEARD AND DECISIONS RENDERED&quot;, the lead-in line &quot;Following is a list of cases heard during the fiscal year 1938-39:&quot;, and the italic centred sub-caption &quot;Unfair labor practice cases&quot;. All three sit above the table&#x27;s top rule, so I treated &quot;Unfair labor practice cases&quot; as part of the caption rather than as a body section line; if the project convention is to carry it as a label-only row, it would be the first row.
+
+Footnotes: none are printed on this crop. A partially cut line at the foot of the image reads approximately &quot;See footnotes at end of table, p. 175&quot; (the lower half of the type is sheared off by the crop), so the numbered footnote definitions live on a later page. `footnotes` is therefore empty.
+
+Standalone parenthesised superscript numerals — (1), (4), (5), (6), (7) — are printed in place of a date and are reference marks, not values; I kept them as printed with their parentheses rather than caret notation, since the whole cell is the marker.
+
+Superscript digits attached to dates are the least reliable part of this transcription; they are 2-3 px tall in a 1-bit scan. Specific cases:
+- &quot;Acme Transfer&quot; / Date opened: I read the mark after 1938 as 3, but &quot;Associated Motor Carriers of Louisiana&quot; — which carries the identical date triplet (July 29, 1938 / Jan. 19, 1939 / Feb. 11, 1939) and is almost certainly the same consolidated hearing — reads as 5 in the same position. One of the two is likely misread; I transcribed each as seen.
+- All leading marks in &quot;Date decision issued&quot; on rows whose hearing dates are themselves footnoted (5) read consistently as 5 (A. Krueger Brewing, American Brake Shoe and its Do., Atlas Tack, Azar &amp; Solomon, Baltimore Type, Best Coat &amp; Apron, B. F. Johnson and its Do., Blocksom, Bradley Lumber). Rows with real printed hearing dates generally take a leading 3 (Acme Transfer, A. L. Tucker, Argonne Worsted, Associated Motor Carriers, Bernard Schwartz Cigar). Two rows break that pattern in my reading and may be misread: &quot;Bluff City Lime Co.&quot; decision, read as 5 but plausibly 3; and &quot;B. &amp; P. Transfer Co.&quot; decision, read as 2 but plausibly 3.
+- &quot;Art Metal Construction Co.&quot; / Date decision issued shows no leading mark before &quot;May 27, 1939&quot;; that is how it prints.
+
+Doubtful year digits (8 vs 9 is the hardest discrimination in this face at this scan quality); all transcribed as read, uncorrected:
+- &quot;Allsteel Products Manufacturing Co.&quot; / Date closed: read &quot;July 29, 1939&quot; against an opening of July 25, 1938; 1938 would be the sensible value, so this is either a misprint or my misreading.
+- &quot;Alma Mills&quot; / Date opened: read &quot;Dec. 13, 1928&quot;; given the closing date of Jan. 7, 1939 this is almost certainly a misprint for 1938.
+- &quot;A. L. Tucker&quot; / Date decision issued: read &quot;Feb. 11, 1929&quot;; the same decision date on the Acme Transfer and Associated Motor Carriers rows prints as 1939, so 1929 is very likely a misprint.
+- &quot;Bilt-Well Umbrella Co.&quot; / Date closed: read &quot;Apr. 26, 1938&quot; against an opening of Apr. 17, 1939; 1939 would be expected.
+- &quot;B. &amp; P. Transfer Co.&quot; / Date decision issued: read &quot;Nov. 15, 1939&quot; against a hearing closed Sept. 2, 1938; 1938 would be expected.
+
+Punctuation normalised in two cells where the scan shows what looks like a full stop in the day/year position: &quot;B. Blumenthal &amp; Co., Inc.&quot; Date opened (Oct. 10. 1938) and &quot;Bluff City Lime Co.&quot; Date closed (Nov. 12. 1938). Both are written with commas here; broken or filled type at this resolution cannot be told apart from a comma reliably.
+
+Company-name readings where the printed glyph is ambiguous between a and o and I followed the attested name: &quot;Adriondack Foundries &amp; Steel, Inc.&quot; (the Adriond- transposition does appear to be in the printed copy) and &quot;Atlas Tack Co.&quot; Also kept as printed without correction: &quot;A. Sartorious Co.&quot;, &quot;Brewer-Tichener Corporation&quot;, &quot;Beacon Ladies Hat&quot; (no trailing &quot;Co.&quot;), &quot;Albert S. Bartson&quot;. &quot;Bayuk Cigars, Inc.&quot; — the leader dots begin immediately after &quot;Inc&quot; and I could not confirm the final period.
+
+The &quot;Do.&quot; repeat rows are kept in place; where the date columns print &quot;----do----&quot; the cell is given as &quot;do&quot;. &quot;American Newspapers, Inc., Illinois Publishing &amp; Printing Co.&quot; wraps onto two printed lines with its dates set on the second line; joined into one row.
+
+Table continues past the bottom of this crop (the list runs on alphabetically after &quot;Carbola Chemical Co., Inc.&quot;).</p>
+<p><b>p. 178.</b> Four columns: stub \&quot;Name of case\&quot;, two columns under the spanner \&quot;Date hearing held\&quot; (\&quot;Date opened\&quot;, \&quot;Date closed\&quot;), and \&quot;Date decision issued\&quot;.\n\nThe only line printed under the table is the cross-reference \&quot;See footnotes at end of table, p. 175.\&quot;; it carries no marker but is listed in `footnotes` because it is the sole matter printed below the rule. The numbered footnote texts themselves (1, 2, 3, 5, 6, 7) are not on this page.\n\nMarker conventions: parenthesised raised digits that stand alone as a cell value are given as (1), (5), (6), (7). Raised digits printed immediately BEFORE a date in the \&quot;Date decision issued\&quot; column are moved behind a caret after the date per the instructions (e.g. the printed \&quot;^3 Apr. 22, 1939\&quot; is written \&quot;Apr. 22, 1939^3\&quot;).\n\nDoubtful cells:\n- The raised digits are small and partly broken in this scan; 3 vs 5 and 5 vs 6 are the hardest pairs. I resolved them by context (rows whose hearing dates are (5)(5) take a ^5 decision marker; rows with real hearing dates take ^3), so individual markers may be off.\n- Greer Steel Co., \&quot;Date decision issued\&quot;: the raised digit before \&quot;Jan. 7, 1939\&quot; could read as 4; transcribed as ^5 to match the (5)(5) pattern of the surrounding rows.\n- International Harvester Co. block (the six rows beginning \&quot;International Harvester Co. / June 22, 1939\&quot;): the raised digits in the \&quot;Date closed\&quot; and \&quot;Date decision issued\&quot; columns are ambiguous between 5 and 6 on several lines; all transcribed as (6) to match the first row of the block, which is legible.\n- Geo. J. Hefler: a raised 2 is printed before the opened date AND after the closed date; both are recorded.\n\nApparent misprints, transcribed as printed:\n- Ft. Worth Well Machinery &amp; Supply Co.: opened \&quot;July 18, 1938\&quot; but closed \&quot;July 20, 1939\&quot; — the year on the closing date is probably meant to be 1938.\n- Hanover Cordage Co.: opened \&quot;Mar. 30, 1939\&quot; is later than closed \&quot;Mar. 21, 1939\&quot;; the opening day may be a misprint for 20.\n- \&quot;Ideal Electric Manfuacturing Co.\&quot; is printed with the letters of \&quot;Manufacturing\&quot; transposed.\n- \&quot;H. R. Webb Neckwear Manufacturing Co\&quot; appears to be printed without a final period before the leader dots.\n\n\&quot;do\&quot; cells (ditto) are transcribed as the word alone, with the surrounding leader dashes dropped; the stub ditto is \&quot;Do.\&quot; and the decision-column ditto for Gates Rubber Co. and Jacobs Stove Manufacturing Co. is \&quot;Do.\&quot; as printed.\n\nThe caption line \&quot;Unfair labor practice cases—Continued\&quot; at the head of the crop is omitted per instructions. No part of the table appears cut off at the left or right edges.</p>
+<p><b>p. 179.</b> Continuation page of an alphabetical case list (J through N); no total or section rows. The only matter printed under the table is the referral line \&quot;See footnotes at end of table, p. 175.\&quot;, recorded in footnotes; the footnote texts themselves are on another page and are not on this crop.\n\nFootnote markers: in the \&quot;Date decision issued\&quot; column the raised digit is printed BEFORE the date; per instruction it is written after the date behind a caret (e.g. printed \&quot;⁵ Sept. 9, 1938\&quot; -&gt; \&quot;Sept. 9, 1938^5\&quot;). Distinguishing raised 3 / 5 / 8 at this scan resolution is unreliable. I read the marker as 5 on every row whose two hearing-date cells hold \&quot;(5)\&quot;, and as 3 on the six rows that carry printed hearing dates plus a marked decision date (J. A. Thomas; LaSalle Hat Co.; Letellier Transfer Co., Inc.; Maloney Trucking &amp; Storage Co.; Marshall Field &amp; Co.; Milam Manufacturing Co.). Any of those 3s could be an 8.\n\nParenthesised references such as (1), (3), (4), (5), (6), (7), (10) are the entire printed contents of those cells (a footnote reference standing in for a date), not markers attached to a value, so they are transcribed with their parentheses.\n\nDoubtful cells:\n- Loew&#x27;s, Inc. / Los Angeles Drug Co. / Max Ams, Inc., Date decision issued: read \&quot;(7)\&quot;; could be a degraded \&quot;(1)\&quot;, which is the value on most rows.\n- Lennox Furnace Co., Date decision issued: read \&quot;(3)\&quot;; could be \&quot;(8)\&quot;.\n- Milam Manufacturing Co., Date decision issued: printed \&quot;Sept. 20, 193\&quot; — the final digit is missing or clipped at the column rule; presumably 1938.\n- Moore-Lowry Flour Mill Co., Date opened: reads \&quot;July 7, 1935\&quot;, which is outside the period this table covers (hearing closed July 9, 1938); likely a misprint or scan damage for 1938. Transcribed as printed.\n- Montgomery Ward &amp; Co., Date closed: second digit of the day is broken; read as \&quot;July 26, 1938\&quot;.\n- Mayer Handbag Co., Date closed: printed \&quot;Aug 15, 1938\&quot; with no period after \&quot;Aug\&quot; (every other row has one); transcribed as printed.\n- Mid Continent Petroleum Co., Date opened: typeset as \&quot;May1 8, 1939\&quot; with the stray space; normalised to \&quot;May 18, 1939\&quot;.\n- Monmouth Country Publishing Co.: printed \&quot;Country\&quot;; the firm is most likely \&quot;Monmouth County Publishing Co.\&quot; Transcribed as printed.\n\nApparent misprint: J. A. Thomas, proprietor, Thomas Trucking &amp; Freight Forwarding shows Date closed (Jan. 19, 1939) earlier than Date opened (Jan. 21, 1939). Transcribed as printed.\n\nOther marks: the \&quot;Do.\&quot; rows (after J. Greenbaum Tanning Co., after LaParee Undergarment Co., after McKesson &amp; Robbins, Inc.) and the Nash-Kelvinator Corporation \&quot;Date opened\&quot; cell print \&quot;do\&quot; centred in a dash rule; the word is kept and the rule dropped. A stray \&quot;(\&quot; sits in the LaParee \&quot;Do.\&quot; Date opened rule and a stray \&quot;4\&quot; sits in the right margin beside the Johns-Manville Corporation row, outside the table&#x27;s rules; both are treated as artefacts and not transcribed.</p>
+<p><b>p. 180.</b> Crop is a continuation page (running head &quot;Unfair labor practice cases—Continued&quot;); the table has 4 printed columns and the column headings (&quot;Date hearing held&quot; spanning &quot;Date opened&quot; and &quot;Date closed&quot;) are reprinted on this page, so header_rows is given.
+
+The only text under the table is the cross-reference line &quot;See footnotes at end of table, p. 175.&quot;; it carries no marker and the actual footnote definitions (1, 3, 4, 5, 6, 7) are printed on an earlier page, outside this crop. I placed that line in footnotes since it is printed beneath the table rule.
+
+Cell values of the form (1), (5), (6), (7) are raised parenthesized footnote references used as the cell&#x27;s entire content, so they are transcribed as the cell text rather than as markers attached to a value. The small raised digit printed immediately BEFORE a date in the &quot;Date decision issued&quot; column is treated as a marker and moved behind a caret after the date.
+
+Doubtful cells:
+- The raised prefix digit in &quot;Date decision issued&quot; is degraded throughout. I read it as 3 in most rows and as 4 in three rows (National Mattress Co. …, National Tea Co., Portland Lumber Mills Co.); a 3/4 confusion in either direction is possible in any of these rows, including Oneita Knitting Mills, R. C. Can Co. and Richland Co-operative Creamery Co.
+- Pacific Gas &amp; Electric Co., Date decision issued: &quot;June 14, 1939&quot; appears to have NO raised prefix digit, unlike every other spelled-out decision date on the page. A faint/dropped marker is possible.
+- National City Lines et al, Date opened: printed as &quot;Mar. 13 1939&quot; with no comma visible after the day; transcribed as printed.
+- Reed Bros. Inc., Date decision issued: printed as &quot;Sept. 20 1938&quot; with no comma visible after the day; transcribed as printed.
+- Oberman Co., Inc., Date decision issued: the day reads &quot;20&quot; but the second digit is broken; &quot;29&quot; cannot be ruled out.
+- Pioneer Baking Co., Date decision issued: read as &quot;(5)&quot;; this is unusual because both hearing dates are given, and &quot;(1)&quot; is possible.
+- Rex Textile Co., Inc., Date closed: read as &quot;(5)&quot;; every other row with a printed opening date and a footnote in this column uses &quot;(6)&quot;, so &quot;(6)&quot; is plausible here.
+- Ritholz Optical Co.: Date closed &quot;(6)&quot; with Date decision issued read as &quot;(1)&quot;; the other rows with &quot;(6)&quot; in Date closed carry &quot;(6)&quot; in the decision column as well, so &quot;(6)&quot; is possible.
+- Niagara Box Factory Inc., and Eagle Pencil Co., Date closed: read as &quot;Sept. 10, 1939&quot; (opened July 18, 1938); the year digit is faint and 1938 cannot be ruled out.
+- Row labels &quot;National Cash Register Co&quot;, &quot;National Mattress Co., … Specialty Mattress Co&quot;, &quot;National City Lines et al&quot;, &quot;Odanah Iron Co. et al&quot; and &quot;Do&quot; appear without a terminal period, but a period merged into the leader dots cannot be excluded.
+- Spellings read but not fully certain: &quot;Renold Wine Co.&quot;, &quot;Radcliff Motor Co.&quot;, &quot;Paul Siewers &amp; McKay&quot;, &quot;Harford Frocks, Inc.&quot;.
+
+Printed ordering anomalies, transcribed as printed and not resequenced: &quot;Peter Pan Co., Inc.&quot; and &quot;Peter Pan Co.&quot; precede &quot;Peerless White Line Co.&quot;, and &quot;Rex Textile Co., Inc.&quot; precedes &quot;Renold Wine Co.&quot;, both out of alphabetical order. The two &quot;Do&quot; rows repeat the preceding company (Phillips Petroleum Co. and Republic Steel Corporation respectively).</p>
+<p><b>p. 181.</b> Continuation page of an alphabetical case list (&quot;Unfair labor practice cases—Continued&quot;), covering case names from &quot;Race Bros.&quot; through &quot;Upland Citrus Association&quot;; 4 printed columns, no total or section rows.
+
+Marker convention: many cells contain nothing but a raised reference numeral set in parentheses; these are rendered as (^1), (^5), (^6), (^7) — the parentheses are printed, the numeral is the raised footnote marker. In the &quot;Date decision issued&quot; column a raised numeral is printed BEFORE the date; per the caret rule it is moved to the end, e.g. printed &quot;^5 Apr. 27, 1939&quot; is transcribed &quot;Apr. 27, 1939^5&quot;.
+
+Doubtful / notable cells:
+- &quot;The Sanitary Market&quot;, Date closed = &quot;Mar. 38, 1939&quot;: transcribed as printed; &quot;38&quot; is an impossible date and is almost certainly a misprint for &quot;Mar. 28, 1939&quot;.
+- &quot;The Sanitary Market&quot; is printed twice (once between &quot;The Pure Oil Co.&quot; and &quot;The Texas Co.&quot;, once between &quot;The Valley Camp Coal Co.&quot; and &quot;Thompson Products, Inc.&quot;), with the same opened date and nearly the same closed date. This duplication is in the original; the second occurrence is printed without leader dots.
+- Raised numerals before dates in the &quot;Date decision issued&quot; column read as 3 for Sagamore Metal Goods, Service Drayage, S. Jackson &amp; Son, Standard Rendering, Ste. Genevieve Lime &amp; Quarry, Tupelo Garment and United Container, and 4 for Stoddard Lumber; the 3/5 distinction is small at this scan resolution, though the pattern is consistent (rows whose hearing dates are present carry 3 or 4, rows whose hearing dates are (^5) carry 5).
+- &quot;The Mode Novelty Co.&quot;, Date decision issued: printed &quot;Apr. 27, 1939&quot; with no visible raised marker, unlike every other (^5)/(^5) row in this column; a faint marker may have dropped out in the scan. &quot;Trawler Maris Stella, Inc.&quot; likewise shows &quot;Apr. 21, 1939&quot; with no marker.
+- Abbreviation periods appear to be missing in the scan for &quot;Nov 7, 1938&quot; (Scottdale Mills, Date opened), &quot;Mar 9, 1939&quot; (United Container Co., Date opened) and the row label &quot;United Dredging Co&quot;; transcribed as they appear rather than normalised.
+- &quot;Southern Manufacturing Co.&quot;: a stray period appears after &quot;Manufacturing&quot; in the print (&quot;Southern Manufacturing. Co.&quot;); read as the first leader dot / an artifact and omitted.
+- &quot;The Afro-American Co.&quot;: the &quot;r&quot; is broken in the scan and reads like &quot;Afto-American&quot;; transcribed as &quot;Afro-American&quot;.
+- Row labels beginning &quot;S.&quot; (&quot;S. Blechman &amp; Sons, Inc.&quot;, &quot;S. Jackson &amp; Son, Inc.&quot;) are degraded and resemble &quot;8.&quot;; read as &quot;S.&quot;.
+- The bottom line &quot;See footnotes at end of table, p. 175.&quot; carries no marker but is printed under the table and is recorded in footnotes; the numbered footnotes themselves are on an earlier page and are not on this crop.</p>
+<p><b>p. 182.</b> Four printed columns: stub &quot;Name of case&quot;, then &quot;Date opened&quot; and &quot;Date closed&quot; under the spanner &quot;Date hearing held&quot;, then &quot;Date decision issued&quot;. The crop continues an alphabetical case list, so the body has no section or total lines.
+
+Crop truncation: the footnote block is cut off at the bottom edge of the image. Footnote 10 is the last line visible and is itself clipped, and the &quot;Date decision issued&quot; cell for &quot;Viking Pump Co.&quot; reads &quot;(11)&quot;, so at least footnote 11 (and probably further lines) exists below the crop and is not transcribed here.
+
+Superscript markers in &quot;Date decision issued&quot;: the raised digit is printed BEFORE the date in the original; per instruction it has been moved behind a caret after the text. These one-character raised digits are the least certain part of the transcription — 3 and 5 are hard to separate at this resolution. Read as 3 for Vaughn Furniture Co., Inc.; V. La Rosa &amp; Sons, Inc.; Watkins Printing Co.; Woodward &amp; Lothrop; Young&#x27;s Transfer, Inc., and as 5 for Volupte, Inc; Waverly Press, Inc.; Williams Meat Co. Note that &quot;Watkins Printing Co.&quot; has &quot;(5)&quot; in both hearing-date columns (i.e. no hearing was held), which fits footnote 5 (&quot;Decision issued by stipulation before hearing&quot;) rather than the 3 I read on its decision date; that marker in particular may be a 5.
+
+&quot;Youngstown Mines Corporation&quot;, Date closed: read as &quot;(5)&quot; but doubtful — it may be &quot;(6)&quot;, which is what the row below (&quot;Youngstown Mines Corporation et al&quot;) carries in the same column and which is the footnote (&quot;Resumed hearing on May 15, 1939, which is still in progress&quot;) that would explain a missing closing date. Transcribed as seen rather than corrected.
+
+Stub punctuation: several labels end flush against the leader dots so a final period cannot be resolved; where a clear gap precedes the leaders no period is shown (&quot;Utah Copper Co&quot;, &quot;Vincennes Steel Corporation&quot;, &quot;Volupte, Inc&quot;, &quot;Walter Wanger Products, Inc&quot;, &quot;West Coast Wholesale Drug Co&quot;, &quot;Youngstown Mines Corporation et al&quot;). &quot;U. S Pipe &amp; Foundry Co.&quot; is printed with no period after the &quot;S&quot;.
+
+Cells printed as &quot;----do------&quot; (ditto for the date above) are given as &quot;do&quot;; repeated case names printed as &quot;Do.&quot; are kept as &quot;Do.&quot; in the stub.
+
+The caption line &quot;Unfair labor practice cases—Continued&quot; at the top of the crop is excluded as instructed.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0177_t0_p0177.webp" loading="lazy" alt="Source page 177 of NLRB FY1939 annual report">
+<figcaption>Source: NLRB Annual Report FY1939, p. 177.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0177_t0_p0178.webp" loading="lazy" alt="Source page 178 of NLRB FY1939 annual report">
+<figcaption>Source: NLRB Annual Report FY1939, p. 178.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0177_t0_p0179.webp" loading="lazy" alt="Source page 179 of NLRB FY1939 annual report">
+<figcaption>Source: NLRB Annual Report FY1939, p. 179.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0177_t0_p0180.webp" loading="lazy" alt="Source page 180 of NLRB FY1939 annual report">
+<figcaption>Source: NLRB Annual Report FY1939, p. 180.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0177_t0_p0181.webp" loading="lazy" alt="Source page 181 of NLRB FY1939 annual report">
+<figcaption>Source: NLRB Annual Report FY1939, p. 181.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0177_t0_p0182.webp" loading="lazy" alt="Source page 182 of NLRB FY1939 annual report">
+<figcaption>Source: NLRB Annual Report FY1939, p. 182.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

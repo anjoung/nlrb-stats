@@ -1,6 +1,22 @@
-row_label,Total,Number of cases / Identification of petitioner / Employer,Union,Courts,State boards
-"Pending July 1, 1976",1,1,0,0,0
-Received 19TQ,3,3,0,0,0
-On docket 19TQ,4,4,0,0,0
-Closed 19TQ,0,0,0,0,0
-"Pending Sept. 30, 1976",4,4,0,0,0
+Type of litigation,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings
+Type of litigation,Total—all courts,Total—all courts,Total—all courts,In courts of appeals,In courts of appeals,In courts of appeals,In district courts,In district courts,In district courts
+Type of litigation,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination
+Type of litigation,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position
+Totals—all types,10,9,1,2,2,0,8,7,1
+NLRB-initiated actions or interventions,2,2,0,0,0,0,2,2,0
+To enforce subpena,0,0,0,0,0,0,0,0,0
+To prevent discovery against Board,1,1,0,0,0,0,2,1,0
+To defend Board's jurisdiction,0,0,0,0,0,0,0,0,0
+To lift bankruptcy stay,1,1,0,0,0,0,1,1,0
+Action by other parties,0,0,0,0,0,0,0,0,0
+To review R case determination,0,0,0,0,0,0,0,0,0
+To review 10(k) determination,0,0,0,0,0,0,0,0,0
+To restrain NLRB from,0,0,0,0,0,0,0,0,0
+Proceeding in R case,0,0,0,0,0,0,0,0,0
+Proceeding in unfair labor practice case,0,0,0,0,0,0,0,0,0
+Proceeding in 10(k) case,0,0,0,0,0,0,0,0,0
+To compel NLRB to,8,7,1,2,2,0,6,5,1
+To take action in backpay case,0,0,0,0,0,0,0,0,0
+Issue complaint,1,1,0,0,0,0,1,1,0
+Take action in R case,0,0,0,0,0,0,0,0,0
+Comply with Freedom of Information Act,7,6,1,2,2,0,5,4,1

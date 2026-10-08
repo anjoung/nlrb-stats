@@ -1,18 +1,8 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13
-AFL-CIO..........................................,2642,49.4,1304,1299,4,1,1338,168709,66227,65922,282,23,102482
-Other local unions..............................,98,65.3,64,,,64,34,8031,4151,,,4151,3880
-Other national unions........................,118,67.8,80,,80,,38,6902,3888,,3888,,3014
-1-union elections..........................,2858,50.7,1448,1299,84,65,1410,183642,74266,65922,4170,4174,109376
-National v. Local..............................,6,66.7,4,,1,3,2,530,500,,52,448,30
-AFL-CIO v. Local............................,14,78.6,11,6,,5,3,1784,1033,421,,612,751
-Local v. Local....................................,7,100.0,7,,,7,0,1993,1993,,,1993,0
-AFL-CIO v. National........................,11,100.0,11,3,8,,0,951,951,129,822,,0
-National v. National..........................,8,87.5,7,,7,,1,1003,888,,888,,115
-AFL-CIO v. AFL-CIO......................,106,81.1,86,86,,,20,9431,7137,7137,,,2294
-2-union elections..........................,152,82.9,126,95,16,15,26,15692,12502,7687,1762,3053,3190
-AFL-CIO v. AFL-CIO v. Local........,1,100.0,1,0,,1,0,1086,1086,0,,1086,0
-AFL-CIO v. AFL-CIO v. National....,1,100.0,1,0,1,,0,91,91,0,91,,0
-AFL-CIO v. AFL-CIO v. AFL-CIO..,25,100.0,25,25,,,0,396,396,396,,,0
-AFL-CIO v. AFL-CIO v. AFL-CIO v. AFL-CIO........................................,6,83.3,5,5,,,1,242,140,140,,,102
-3 (or more)-union elections..........,33,97.0,32,30,1,1,1,1815,1713,536,91,1086,102
-Total representation elections........,3043,52.8,1606,1424,101,81,1437,201149,88481,74145,6023,8313,112668
+Affiliation of union holding union-shop contract,Number of polls,Number of polls,Number of polls,Number of polls,Number of polls,Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Affiliation of union holding union-shop contract,Total,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total eligible,In polls,In polls,In polls,In polls,Total,Percent of total eligible,Cast for deauthorization,Cast for deauthorization
+Affiliation of union holding union-shop contract,Total,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total eligible,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total,Percent of total eligible,Cast for deauthorization,Cast for deauthorization
+Affiliation of union holding union-shop contract,Total,Number,Percent of total,Number,Percent of total,Total eligible,Number,Percent of total,Number,Percent of total,Total,Percent of total eligible,Number,Percent of total eligible
+Total,58,18,31.0,40,69.0,5326,1815,34.1,3511,65.9,3652,68.6,1050,19.7
+AFL-CIO unions,55,17,30.9,38,69.1,5092,1781,35.0,3311,65.0,3475,68.2,1016,20.0
+Other national unions,1,1,100.0,0,0.0,34,34,100.0,0,0.0,34,100.0,34,100.0
+Other local unions,2,0.0,0.0,2,100.0,200,0,0.0,200,100.0,143,71.5,0,0.0

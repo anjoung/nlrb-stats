@@ -1,17 +1,46 @@
-Division and State,All cases,Unfair labor practice cases — CA,Unfair labor practice cases — CB,Unfair labor practice cases — CC,Unfair labor practice cases — CD,Representation cases — RC,Representation cases — RM,Representation cases — RD
-Total,13336,4362,1382,345,82,6160,545,460
-New England,844,228,49,16,3,476,27,45
-Maine,39,12,2,1,0,23,0,1
-Massachusetts,493,115,28,8,1,301,20,22
-Connecticut,151,49,7,5,1,85,1,3
-Middle Atlantic,2996,952,457,62,30,1255,138,102
-New York,1655,553,302,37,17,618,91,37
-New Jersey,588,174,90,7,2,286,20,29
-Pennsylvania,753,225,95,18,11,351,27,36
-East North Central,2670,787,249,60,14,1355,97,98
-West North Central,1166,367,84,30,11,564,63,47
-South Atlantic,1318,467,94,40,8,629,45,35
-East South Central,695,276,66,19,0,311,10,13
-West South Central,909,262,95,48,3,436,35,30
-Mountain,453,137,39,4,1,237,17,15
-Pacific,2008,752,224,54,9,762,126,87
+Industrial group,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases
+Industrial group,All cases,CA,CB,CC,CD,RC,RM,RD
+Total,"13,336","4,362","1,382",345,82,"6,160",545,460
+Manufacturing,"8,287","2,755",513,111,17,"4,243",313,335
+Ordnance and accessories,45,16,2,0,0,18,1,8
+Food and kindred products,"1,034",303,68,23,3,550,41,46
+Tobacco manufacturers,7,0,0,0,0,6,1,0
+Textile mill products,280,124,14,2,0,117,13,10
+Apparel and other finished products made from fabrics and similar materials,357,180,35,5,0,103,24,10
+Lumber and wood products (except furniture),731,440,11,10,0,195,40,35
+Furniture and fixtures,319,99,18,10,1,174,9,8
+Paper and allied products,324,63,9,4,0,236,5,7
+"Printing, publishing, and allied industries",319,72,37,5,2,187,8,8
+Chemicals and allied products,531,121,31,4,2,316,22,35
+Products of petroleum and coal,146,33,12,2,0,87,6,6
+Rubber products,90,31,2,1,0,48,3,5
+Leather and leather products,195,54,9,0,0,112,13,7
+"Stone, clay, and glass products",261,84,27,6,2,129,7,6
+Primary metal industries,488,133,36,3,0,276,20,20
+"Fabricated metal products (except ordnance, machinery, and transportation equipment)",802,242,44,15,1,454,22,24
+Machinery (except electrical),794,241,48,11,4,433,21,36
+"Electrical machinery, equipment, and supplies",534,192,39,3,0,264,15,21
+Aircraft and parts,210,61,9,0,1,120,7,12
+Ship and boat building and repairing,71,25,11,0,0,32,1,2
+Automotive and other transportation equipment,259,72,24,2,0,137,10,14
+"Professional, scientific, and controlling instruments",111,38,9,1,0,59,2,2
+Miscellaneous manufacturing,379,131,18,4,1,190,22,13
+"Agriculture, forestry, and fisheries",9,4,0,2,0,2,0,1
+Mining,184,73,28,3,0,73,3,4
+Metal mining,63,19,6,0,0,35,1,2
+Coal mining,50,30,17,2,0,1,0,0
+Crude petroleum and natural gas production,5,0,0,0,0,3,2,0
+Nonmetallic mining and quarrying,66,24,5,1,0,34,0,2
+Construction,"1,082",413,363,116,44,133,13,0
+Wholesale trade,922,228,55,28,1,481,88,41
+Retail trade,872,242,39,22,4,488,48,29
+"Finance, insurance, and real estate",46,15,0,0,0,28,2,1
+"Transportation, communication, and other public utilities","1,645",552,358,56,16,563,68,32
+Highway passenger transportation,48,15,3,1,0,20,6,3
+Highway freight transportation,613,275,107,24,8,165,27,7
+Water transportation,470,161,222,18,3,62,4,0
+Warehousing and storage,199,30,7,8,1,130,16,7
+Other transportation,34,6,2,3,0,23,0,0
+Communication,179,41,8,1,2,107,11,9
+"Heat, light, power, water, and sanitary services",102,24,9,1,2,56,4,6
+Services,289,80,26,7,0,149,10,17

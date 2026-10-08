@@ -1,5 +1,17 @@
-Affiliation of union holding union-shop contract,Number of polls — Total,Number of polls — Resulting in deauthorization — Number,Number of polls — Resulting in deauthorization — Percent of total,Number of polls — Resulting in continued authorization — Number,Number of polls — Resulting in continued authorization — Percent of total,Employees involved — Total eligible to vote,Employees involved — Resulting in deauthorization — Number eligible,Employees involved — Resulting in deauthorization — Percent of total,Employees involved — Resulting in continued authorization — Number eligible,Employees involved — Resulting in continued authorization — Percent of total,Valid votes cast — Total,Valid votes cast — Percent of total eligible,Cost for deauthorization — Number,Cost for deauthorization — Percent of total eligible
-Total elections,20,12,60.0,8,40.0,1814,433,23.9,1381,76.1,1542,85.0,842,46.4
-A.F. of L.,15,11,73.3,4,26.7,471,335,71.1,136,28.9,407,86.4,282,59.9
-C.I.O.,3,0,0,3,100.0,1187,0,0,1187,100.0,1010,85.1,486,40.9
-Unaffiliated,2,1,50.0,1,50.0,156,98,62.8,58,37.2,125,80.1,74,47.4
+Type of case,Total elections,Type of election,Type of election,Type of election,Type of election
+Type of case,Total elections,Consent,Stipulated,Board ordered,Regional directed
+"All elections, total","4,392","1,870","1,136","1,368",18
+"Eligible voters, total","530,811","134,122","131,666","263,230","1,793"
+"Valid votes, total","466,809","118,028","117,989","229,269","1,523"
+"RC cases, total","4,003","1,728","1,062","1,213",
+Eligible voters,"471,709","121,276","123,564","226,869",
+Valid votes,"416,911","106,948","110,667","199,296",
+"RM cases, total",212,91,47,74,
+Eligible voters,"44,286","8,811","3,622","31,853",
+Valid votes,"36,531","7,380","3,155","25,996",
+"RD cases, total",157,50,27,80,
+Eligible voters,"13,002","4,022","4,480","4,500",
+Valid votes,"11,825","3,689","4,167","3,969",
+"UD cases, total",20,1,0,1,18
+Eligible voters,"1,814",13,0,8,"1,793"
+Valid votes,"1,542",11,0,8,"1,523"

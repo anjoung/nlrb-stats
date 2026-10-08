@@ -1,6 +1,21 @@
-Status,Number of Cases — Total,Number of Cases — Identification of Petitioner — Employer,Number of Cases — Identification of Petitioner — Union,Number of Cases — Identification of Petitioner — Courts,Number of Cases — Identification of Petitioner — State Board
-"Pending October 1, 2007",0,0,0,0,0
-Received fiscal 2008,0,0,0,0,0
-On docket fiscal 2008,0,0,0,0,0
-Closed fiscal 2008,0,0,0,0,0
-"Pending September 30, 2008",0,0,0,0,0
+Type of Litigation,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings
+Type of Litigation,Total—All Courts,Total—All Courts,Total—All Courts,In Courts of Appeals,In Courts of Appeals,In Courts of Appeals,In District Courts,In District Courts,In District Courts,In Bankruptcy Courts,In Bankruptcy Courts,In Bankruptcy Courts,In State Courts,In State Courts,In State Courts
+Type of Litigation,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination,Court Determination
+Type of Litigation,No. Dec.,Uphold. Board Position,Contrary to Board Position,No. Dec.,Uphold. Board Position,Contrary to Board Position,No. Dec.,Uphold. Board Position,Contrary to Board Position,No. Dec.,Uphold. Board Position,Contrary to Board Position,No. Dec.,Uphold. Board Position,Contrary to Board Position
+TOTALS—ALL TYPES,18,18,0,9,9,0,5,5,0,3,3,0,1,1,0
+NLRB-initiated actions or interventions,2,2,0,1,1,0,1,1,0,0,0,0,0,0,0
+To enforce NLRB subpoenas,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+To intervene,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+Action by other parties,16,16,0,8,8,0,4,4,0,3,3,0,1,1,0
+To review:,3,3,0,3,3,0,0,0,0,0,0,0,0,0,0
+Subject matter jurisdiction,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+Prosecutorial discretion,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+Nonfinal/representation orders,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+To restrain NLRB from:,4,4,0,1,1,0,1,1,0,1,1,0,1,1,0
+Proceeding in unfair labor practice case,4,4,0,1,1,0,1,1,0,1,1,0,1,1,0
+To compel NLRB to:,6,6,0,3,3,0,3,3,0,0,0,0,0,0,0
+Issue complaint,4,4,0,3,3,0,1,1,0,0,0,0,0,0,0
+Provide docs under FOIA,2,2,0,0,0,0,2,2,0,0,0,0,0,0,0
+Other,3,3,0,1,1,0,0,0,0,2,2,0,0,0,0
+Obj. to Board’s proof of claim,2,2,0,0,0,0,0,0,0,2,2,0,0,0,0
+Appeal of Board’s 10(k) Order,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0

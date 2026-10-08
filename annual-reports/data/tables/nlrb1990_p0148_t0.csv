@@ -1,18 +1,44 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7
-"Pending October I, 1989.","*2,369",1553,528,71,216,I,
-Received fiscal 1990,5678,3623,1570,170,315,0,
-On docket fiscal 1990,8047,5176,2098,241,531,1,
-Closed fiscal 1990.,5743,3660,1587,162,334,0,
-"Pending September 30, 1990",2304,1516,511,79,197,1,
-,RMcases,RMcases,RMcases,RMcases,RMcases,RMcases,RMcases
-"Pending October I, 1989",*174,,,,,,174
-Received fiscal 1990,327,,,,,,327
-On docket fiscal 1990,501,,,,,,501
-Closed fiscal 1990.,331,,,,,,331
-"Pending September 30, 1990.... ... . .",170,,,,,,170
-,RD cases,RD cases,RD cases,RD cases,RD cases,RD cases,RD cases
-"Pending October I, 1989","""471",3,1,I,3,463,
-Received fiscal 1990,1168,2,0,0,0,1166,
-On docket fiscal 1990,1639,5,1,1,3,1629,
-Closed fiscal 1990.,1197,3,1,0,1,1192,
-"Pending September 30, 1990",442,2,0,1,2,",, 437",
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+CA cases,,,,,,,
+"Pending October 1, 1989","16,337","8,106","1,812",864,"1,071","4,484",0
+Received fiscal 1990,"24,075","12,485","2,691",747,"1,022","7,130",0
+On docket fiscal 1990,"40,412","20,591","4,503","1,611","2,093","11,614",0
+Closed fiscal 1990,"23,156","11,665","2,661",720,"1,095","7,015",0
+"Pending September 30, 1990","17,256","8,926","1,842",891,998,"4,599",0
+CB cases,,,,,,,
+"Pending October 1, 1989","3,730",58,14,6,15,"2,707",930
+Received fiscal 1990,"8,157",88,18,7,27,"6,854","1,163"
+On docket fiscal 1990,"11,887",146,32,13,42,"9,561","2,093"
+Closed fiscal 1990,"7,966",86,22,8,21,"6,723","1,106"
+"Pending September 30, 1990","3,921",60,10,5,21,"2,838",987
+CC cases,,,,,,,
+"Pending October 1, 1989",913,3,1,1,10,0,898
+Received fiscal 1990,965,7,0,13,8,0,937
+On docket fiscal 1990,"1,878",10,1,14,18,0,"1,835"
+Closed fiscal 1990,949,10,0,12,12,0,915
+"Pending September 30, 1990",929,0,1,2,6,0,920
+CD cases,,,,,,,
+"Pending October 1, 1989",118,3,0,0,0,0,115
+Received fiscal 1990,297,13,1,1,5,0,277
+On docket fiscal 1990,415,16,1,1,5,0,392
+Closed fiscal 1990,288,13,1,0,4,0,270
+"Pending September 30, 1990",127,3,0,1,1,0,122
+CE cases,,,,,,,
+"Pending October 1, 1989",60,1,0,0,3,0,56
+Received fiscal 1990,44,4,0,0,3,1,36
+On docket fiscal 1990,104,5,0,0,6,1,92
+Closed fiscal 1990,62,3,0,0,4,1,54
+"Pending September 30, 1990",42,2,0,0,2,0,38
+CG cases,,,,,,,
+"Pending October 1, 1989",30,1,0,0,0,0,29
+Received fiscal 1990,30,1,0,0,1,0,28
+On docket fiscal 1990,60,2,0,0,1,0,57
+Closed fiscal 1990,41,2,0,0,1,0,38
+"Pending September 30, 1990",19,0,0,0,0,0,19
+CP cases,,,,,,,
+"Pending October 1, 1990",125,1,1,0,0,0,123
+Received fiscal 1990,265,1,0,4,2,0,258
+On docket fiscal 1990,390,2,1,4,2,0,381
+Closed fiscal 1990,294,1,1,4,0,0,288
+"Pending September 30, 1990",96,1,0,0,2,0,93

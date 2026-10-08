@@ -1,16 +1,27 @@
-row_label,Number of cases showing specific allegations,Percent of total cases,col_3,Number of cases showing specific allegations,Percent of total cases
-A. CHARGES FILED AGAINST EMPLOYERS UNDER SEC. 8 (a),,,,,
-Total cases,3522,100.0,8 (a) (3),2661,75.6
-8 (a) (1),3522,100.0,8 (a) (4),74,2.1
-8 (a) (2),383,10.9,8 (a) (5),838,23.8
-B. CHARGES FILED AGAINST UNIONS UNDER SEC. 8 (b),,,,,
-Total cases,1743,100.0,8 (b) (3),97,5.6
-8 (b) (1),1072,61.5,8 (b) (4),572,32.8
-8 (b) (2),857,49.2,8 (b) (5),9,.5
-(blank CB row left; 8(b)(6) right),,,8 (b) (6),6,.3
-C. ANALYSES OF 8 (b) (1) AND 8 (b) (4),,,,,
-Total cases 8 (b) (1),1072,100.0,Total cases 8 (b) (4),572,100.0
-8 (b) (1) (A),1054,98.3,8 (b) (4) (A),397,69.4
-8 (b) (1) (B),22,2.1,8 (b) (4) (B),135,23.6
-(blank left; 8(b)(4)(C) right),,,8 (b) (4) (C),66,11.5
-(blank left; 8(b)(4)(D) right),,,8 (b) (4) (D),151,26.4
+,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of representation cases,Number of representation cases,Number of representation cases,Number of representation cases,Number of representation cases,Number of representation cases,Number of representation cases
+,Total,Identification of complainant,Identification of complainant,Identification of complainant,Identification of complainant,Identification of complainant,Identification of complainant,Total,Identification of petitioner,Identification of petitioner,Identification of petitioner,Identification of petitioner,Identification of petitioner,Identification of petitioner
+,Total,AFL affiliates,CIO affiliates,AFL-CIO affiliates,Unaffiliated unions,Individuals,Employers,Total,AFL affiliates,CIO affiliates,AFL-CIO affiliates,Unaffiliated unions,Individuals,Employers
+,CA cases,CA cases,CA cases,CA cases,CA cases,CA cases,CA cases,RC cases,RC cases,RC cases,RC cases,RC cases,RC cases,RC cases
+"Pending July 1, 1955","1,804",689,402,,78,635,0,"1,252",809,339,,102,2,
+Received fiscal 1956,"3,522",671,300,"1,105",147,"1,298",1,"7,121","2,141",912,"3,467",583,18,
+On docket fiscal 1956,"5,326","1,360",702,"2,022",225,"1,933",1,"8,373","2,950","1,251","4,402",685,20,
+Closed fiscal 1956,"3,841",799,346,"1,114",158,"1,424",0,"7,093","2,295",971,"3,236",572,19,
+"Pending June 30, 1956","1,485",,,908,67,509,1,"1,280",,,"1,166",113,1,
+,CB cases,CB cases,CB cases,CB cases,CB cases,CB cases,CB cases,RM cases,RM cases,RM cases,RM cases,RM cases,RM cases,RM cases
+"Pending July 1, 1955",683,36,15,,11,505,116,106,,,,,,106
+Received fiscal 1956,"1,171",17,4,25,18,803,304,595,,,,,,595
+On docket fiscal 1956,"1,854",53,19,66,29,"1,308",420,701,,,,,,701
+Closed fiscal 1956,"1,245",20,11,31,25,891,267,602,,,,,,602
+"Pending June 30, 1956",609,,,35,4,417,153,99,,,,,,99
+,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases,RD cases,RD cases,RD cases,RD cases,RD cases,RD cases,RD cases
+"Pending July 1, 1955",151,2,1,,0,6,142,80,0,0,,0,80,
+Received fiscal 1956,421,1,0,23,2,3,392,360,0,0,0,4,356,
+On docket fiscal 1956,572,3,1,24,2,9,534,440,0,0,0,4,436,
+Closed fiscal 1956,384,2,1,6,1,8,366,375,0,0,0,3,372,
+"Pending June 30, 1956",188,,,18,1,1,168,65,,,0,1,64,
+,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases,,,,,,,
+"Pending July 1, 1955",34,6,0,,0,1,27,,,,,,,
+Received fiscal 1956,151,3,0,17,0,1,130,,,,,,,
+On docket fiscal 1956,185,9,0,20,0,2,157,,,,,,,
+Closed fiscal 1956,149,6,0,14,0,2,127,,,,,,,
+"Pending June 30, 1956",36,,,6,0,0,30,,,,,,,

@@ -1,16 +1,44 @@
-Case stage,Total,Identification of filing party — AFL-CIO unions,Identification of filing party — Teamsters,Identification of filing party — Other national unions,Identification of filing party — Other local unions,Identification of filing party — Individuals,Identification of filing party — Employers
-"RC cases — Pending October 1, 1991",2418,1553,569,99,196,1,
-RC cases — Received fiscal 1992,4697,2996,1254,158,289,0,
-RC cases — On docket fiscal 1992,7115,4549,1823,257,485,1,
-RC cases — Closed fiscal 1992,4538,2707,1342,164,325,0,
-"RC cases — Pending September 30, 1992",2577,1842,481,93,160,1,
-"RM cases — Pending October 1, 1991",128,,,,,,128
-RM cases — Received fiscal 1992,249,,,,,,249
-RM cases — On docket fiscal 1992,377,,,,,,377
-RM cases — Closed fiscal 1992,232,,,,,,232
-"RM cases — Pending September 30, 1992",145,,,,,,145
-"RD cases — Pending October 1, 1991",412,2,0,1,2,407,
-RD cases — Received fiscal 1992,1130,0,0,0,0,1130,
-RD cases — On docket fiscal 1992,1542,2,0,1,2,1537,
-RD cases — Closed fiscal 1992,1090,0,0,0,0,1090,
-"RD cases — Pending September 30, 1992",452,2,0,1,2,447,
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+CA cases,,,,,,,
+"Pending October 1, 1991","18,208","9,573","1,934",904,"1,003","4,794",0
+Received fiscal 1992,"23,119","11,632","2,777",818,799,"7,093",0
+On docket fiscal 1992,"41,327","21,205","4,711","1,722","1,802","11,887",0
+Closed fiscal 1992,"22,785","11,342","2,787",718,876,"7,062",0
+"Pending September 30, 1992","18,542","9,863","1,924","1,004",926,"4,825",0
+CB cases,,,,,,,
+"Pending October 1, 1991","4,216",59,18,4,28,"3,250",857
+Received fiscal 1992,"8,077",68,11,1,26,"7,074",897
+On docket fiscal 1992,"12,293",127,29,5,54,"10,324","1,754"
+Closed fiscal 1992,"8,382",70,20,2,25,"7,230","1,035"
+"Pending September 30, 1992","3,911",57,9,3,29,"3,094",719
+CC cases,,,,,,,
+"Pending October 1, 1991",903,3,1,0,7,0,892
+Received fiscal 1992,684,2,0,16,17,0,649
+On docket fiscal 1992,"1,587",5,1,16,24,0,"1,541"
+Closed fiscal 1992,938,3,1,4,17,0,913
+"Pending September 30, 1992",649,2,0,12,7,0,628
+CD cases,,,,,,,
+"Pending October 1, 1991",129,3,0,0,1,0,125
+Received fiscal 1992,280,6,3,8,7,0,256
+On docket fiscal 1992,409,9,3,8,8,0,381
+Closed fiscal 1992,278,7,2,2,7,0,260
+"Pending September 30, 1992",131,2,1,6,1,0,121
+CE cases,,,,,,,
+"Pending October 1, 1991",141,1,0,0,4,3,133
+Received fiscal 1992,45,1,0,0,6,2,36
+On docket fiscal 1992,186,2,0,0,10,5,169
+Closed fiscal 1992,143,0,0,0,7,2,134
+"Pending September 30, 1992",43,2,0,0,3,3,35
+CG cases,,,,,,,
+"Pending October 1, 1991",22,0,0,0,0,0,22
+Received fiscal 1992,29,0,0,0,0,0,29
+On docket fiscal 1992,51,0,0,0,0,0,51
+Closed fiscal 1992,31,0,0,0,0,0,31
+"Pending September 30, 1992",20,0,0,0,0,0,20
+CP cases,,,,,,,
+"Pending October 1, 1991",77,1,1,0,1,0,74
+Received fiscal 1992,208,2,0,6,2,0,198
+On docket fiscal 1992,285,3,1,6,3,0,272
+Closed fiscal 1992,193,3,0,4,2,0,184
+"Pending September 30, 1992",92,0,1,2,1,0,88

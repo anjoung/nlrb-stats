@@ -1,16 +1,44 @@
-row_label,Total,Identification of filing party — AFL-CIO unions,Identification of filing party — Teamsters,Identification of filing party — Other national unions,Identification of filing party — Other local unions,Identification of filing party — Indivduals,Identification of filing party — Employers
-"RC — Pending October 1, 1979",2920,1707,787,196,214,16,
-RC — Received fiscal 1980,9828,5577,2923,629,635,64,
-RC — On docket fiscal 1980,12748,7284,3710,825,849,80,
-RC — Closed fiscal 1980,10000,5612,3007,647,671,63,
-"RC — Pending September 30, 1980",2748,1672,703,178,178,17,
-"RM — Pending October 1, 1979",192,,,,,,192
-RM — Received fiscal 1980,794,,,,,,794
-RM — On docket fiscal 1980,986,,,,,,986
-RM — Closed fiscal 1980,827,,,,,,827
-"RM — Pending September 30, 1980",159,,,,,,159
-"RD — Pending October 1, 1979",352,3,0,0,2,347,
-RD — Received fiscal 1980,1778,14,2,1,9,1752,
-RD — On docket fiscal 1980,2130,17,2,1,11,2099,
-RD — Closed fiscal 1980,1791,15,2,1,9,1765,
-"RD — Pending September 30, 1980",339,2,0,0,1,334,
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+CA cases,,,,,,,
+"Pending October 1, 1979","13,213","6,388","1,523",553,419,"4,293",37
+Received fiscal 1980,"31,281","12,746","3,534","1,162",799,"12,976",64
+On docket fiscal 1980,"44,494","19,134","5,057","1,715","1,218","17,269",101
+Closed fiscal 1980,"29,411","12,043","3,211",995,739,"12,362",61
+"Pending September 30, 1980","15,083","7,091","1,846",720,479,"4,907",40
+CB cases,,,,,,,
+"Pending October 1, 1979","2,342",30,7,6,13,"1,596",690
+Received fiscal 1980,"8,976",66,17,6,37,"7,219","1,631"
+On docket fiscal 1980,"11,318",96,24,12,50,"8,815","2,321"
+Closed fiscal 1980,"8,916",62,14,9,31,"7,096","1,704"
+"Pending September 30, 1980","2,402",34,10,3,19,"1,719",617
+CC cases,,,,,,,
+"Pending October 1, 1979",730,1,1,1,29,29,669
+Received fiscal 1980,"2,468",7,3,5,47,205,"2,201"
+On docket fiscal 1980,"3,198",8,4,6,76,234,"2,870"
+Closed fiscal 1980,"2,445",7,4,5,57,175,"2,197"
+"Pending September 30, 1980",753,1,0,1,19,59,673
+CD cases,,,,,,,
+"Pending October 1, 1979",107,1,0,0,0,2,104
+Received fiscal 1980,519,18,2,0,0,74,425
+On docket fiscal 1980,626,19,2,0,0,76,529
+Closed fiscal 1980,477,10,2,0,0,59,406
+"Pending September 30, 1980",149,9,0,0,0,17,123
+CE cases,,,,,,,
+"Pending October 1, 1979",123,1,0,0,26,3,93
+Received fiscal 1980,154,2,2,0,5,8,137
+On docket fiscal 1980,277,3,2,0,31,11,230
+Closed fiscal 1980,168,3,2,0,7,5,151
+"Pending September 30, 1980",109,0,0,0,24,6,79
+CG cases,,,,,,,
+"Pending October 1, 1979",33,1,0,0,0,0,32
+Received fiscal 1980,65,0,0,0,1,2,62
+On docket fiscal 1980,98,1,0,0,1,2,94
+Closed fiscal 1980,70,1,0,0,0,2,67
+"Pending September 30, 1980",28,0,0,0,1,0,27
+CP cases,,,,,,,
+"Pending October 1, 1979",109,0,0,0,1,1,107
+Received fiscal 1980,600,3,0,0,2,67,528
+On docket fiscal 1980,709,3,0,0,3,68,635
+Closed fiscal 1980,560,2,0,0,3,59,496
+"Pending September 30, 1980",149,1,0,0,0,9,139

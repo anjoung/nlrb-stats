@@ -1,11 +1,65 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10
-Total number of cases closed,45868,100.0,4710,100.0,882,100.0,168,100.0,3 78,100.0
-Before issuance of complaint,5103,87.0,4116,87.2,767,87.0,142,84.5,3 78,100 0
-"After issuance of complaint, before opening of hearing i After hearing opened, before",198,3.4,147,3.1,41,4.6,10,5.9,,
-issuance of intermediate re- port I,3 85,1.4,74,1.6,7,.8,2,1.2,,
-"After intermediate report, before issuance of Board decision",48,.8,43,.9,5,.6,0,.0,,
-After Board order adopting intermediate report in ab- sence of exceptions,44,.8,35,.8,7,.8,2,1.2,,
-"After Board decision, before court decree",6 205,3.5,165,3.5,29,3.3,8,4.8,,
-After Board order adopting intermediate report followed by circuit court decree,6,. 1,6,.1,0,.0,0,.0,,
-"After circuit court decree, before Supreme Court ac- tion",7 155,2.6,117,2.5,21,2.3,4,2.4,,
-After Supreme Court action 2 _,6 24,.4,16,.3,5,.6,0,.0,,
+Division and State,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases
+Division and State,All cases,CA,CB,CC,CD,RC,RM,RD
+Total,"14,712","4,409",810,179,71,"8,241",518,484
+New England,874,279,41,10,1,485,26,32
+Maine,51,17,1,0,0,30,2,1
+New Hampshire,35,10,1,0,0,21,2,1
+Vermont,28,12,0,0,0,16,0,0
+Massachusetts,477,150,27,5,0,258,14,23
+Rhode Island,75,22,8,3,1,35,3,3
+Connecticut,208,68,4,2,0,125,5,4
+Middle Atlantic,"3,382",998,268,47,27,"1,797",150,95
+New York,"1,952",610,186,31,8,978,94,45
+New Jersey,615,166,28,5,8,371,26,11
+Pennsylvania,815,222,54,11,11,448,30,39
+East North Central,"3,112",879,157,35,16,"1,790",103,132
+Ohio,799,198,44,4,3,491,28,31
+Indiana,469,158,27,7,1,246,11,19
+Illinois,850,259,46,15,11,440,40,39
+Michigan,637,169,32,2,1,393,16,24
+Wisconsin,357,95,8,7,0,220,8,19
+West North Central,"1,352",367,45,18,6,839,37,40
+Iowa,132,30,0,1,0,90,6,5
+Minnesota,245,34,3,3,0,191,7,7
+Missouri,690,227,35,13,5,376,16,18
+North Dakota,45,8,0,0,0,34,2,1
+South Dakota,18,5,0,0,0,10,1,2
+Nebraska,75,22,4,1,0,44,1,3
+Kansas,147,41,3,0,1,94,4,4
+South Atlantic,"1,224",478,36,13,1,636,26,34
+Delaware,22,4,0,0,0,17,1,0
+Maryland,155,57,5,4,0,86,1,2
+District of Columbia,70,25,6,2,0,30,4,3
+Virginia,138,54,4,2,0,65,4,9
+West Virginia,113,54,6,2,1,46,2,2
+North Carolina,232,121,4,1,0,99,3,4
+South Carolina,65,24,1,1,0,37,1,1
+Georgia,206,70,7,1,0,118,7,3
+Florida,223,69,3,0,0,138,3,10
+East South Central,731,213,27,12,2,436,28,13
+Kentucky,192,52,18,2,0,116,3,1
+Tennessee,300,90,5,9,2,174,17,3
+Alabama,167,44,3,1,0,106,6,7
+Mississippi,72,27,1,0,0,40,2,2
+West South Central,"1,008",294,36,6,4,595,30,43
+Arkansas,158,38,1,2,0,102,6,9
+Louisiana,230,78,12,3,0,125,5,7
+Oklahoma,133,45,6,1,0,66,9,6
+Texas,487,133,17,0,4,302,10,21
+Mountain,605,202,25,9,2,307,34,26
+Montana,46,17,7,0,0,14,7,1
+Idaho,71,28,3,1,0,32,2,5
+Wyoming,36,19,3,2,0,12,0,0
+Colorado,191,68,5,1,0,105,6,6
+New Mexico,94,35,3,1,1,41,6,7
+Arizona,105,24,3,3,0,61,10,4
+Utah,38,9,0,0,0,25,1,3
+Nevada,24,2,1,1,1,17,2,0
+Pacific,"1,939",520,141,25,12,"1,098",78,65
+Washington,270,95,29,5,0,116,15,10
+Oregon,260,78,15,5,7,122,21,12
+California,"1,409",347,97,15,5,860,42,43
+Outlying areas,485,179,34,4,0,258,6,4
+Alaska,49,16,3,0,0,29,1,0
+Hawaii,83,26,3,1,0,51,2,0
+Puerto Rico,353,137,28,3,0,178,3,4

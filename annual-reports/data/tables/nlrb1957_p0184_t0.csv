@@ -1,4 +1,17 @@
-Union affiliation,Elections participated in / Total,Elections participated in / Won,Elections participated in / Percent won,Employees involved (number eligible to vote) / Total eligible,Employees involved (number eligible to vote) / Employees in units selecting bargaining agent — Number,Employees involved (number eligible to vote) / Employees in units selecting bargaining agent — Percent of total eligible,Valid votes cast / Total,Valid votes cast / Percent of total eligible,Valid votes cast / Cast for the union — Number,Valid votes cast / Cast for the union — Percent of total cast
-Total,4729,2942,62.2,458904,264920,57.7,410619,89.5,261762,63.7
-AFL-CIO,4464,2619,58.7,444960,176497,39.7,398612,89.6,199441,50.0
-Unaffiliated,510,323,63.3,125030,88423,70.7,107695,86.1,62321,57.9
+Type of case,Total elections,Type of election,Type of election,Type of election,Type of election
+Type of case,Total elections,Consent,Stipulated,Board ordered,Regional director directed
+"All elections, total","4,888","2,059","1,687","1,130",12
+"Eligible voters, total","470,926","111,245","175,552","183,341",788
+"Valid votes, total","421,544","101,221","159,248","160,506",569
+"RC cases, total","4,499","1,905","1,567","1,027",
+Eligible voters,"441,542","104,257","161,898","175,387",
+Valid votes,"394,773","94,796","146,634","153,343",
+"RM cases, total",230,100,84,46,
+Eligible voters,"17,362","4,112","8,877","4,373",
+Valid votes,"15,846","3,809","8,057","3,980",
+"RD cases, total",145,53,36,56,
+Eligible voters,"11,018","2,735","4,777","3,506",
+Valid votes,"10,156","2,487","4,557","3,112",
+"UD cases, total",14,1,0,1,12
+Eligible voters,"1,004",141,0,75,788
+Valid votes,769,129,0,71,569

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Collective-Bargaining Elections by Affiliation of Participating Unions, Fiscal Year 1953 — NLRB FY1953</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1953.html">FY1953</a> &rsaquo; Collective-Bargaining Elections by Affiliation of Participating Unions, Fiscal Year 1953</p>
+<h1>Collective-Bargaining Elections by Affiliation of Participating Unions, Fiscal Year 1953</h1>
+<p class="meta">printed as Table 13 &middot; source page 115 &middot; <code>nlrb1953_p0115_t1</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Union affiliation</th><th colspan="3">Elections participated in</th><th colspan="3">Employees involved (Number eligible to vote)</th><th colspan="4">Valid votes cast</th></tr>
+<tr><th>Union affiliation</th><th>Total</th><th>Won</th><th>Percent won</th><th>Total eligible</th><th colspan="2">Employees in units selecting bargaining agent</th><th>Total</th><th>Percent of total eligible</th><th colspan="2">Cast for the union</th></tr>
+<tr><th>Union affiliation</th><th>Total</th><th>Won</th><th>Percent won</th><th>Total eligible</th><th>Number</th><th>Percent of total eligible</th><th>Total</th><th>Percent of total eligible</th><th>Number</th><th>Percent of total cast</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Total</th><td>6,050</td><td>4,350</td><td>71.9</td><td>737,998</td><td>584,450</td><td>79.2</td><td>639,739</td><td>86.7</td><td>497,286</td><td>77.7</td></tr>
+<tr><th class="stub" scope="row">A. F. L.</th><td>4,292</td><td>2,750</td><td>64.1</td><td>502,382</td><td>267,925</td><td>53.3</td><td>431,392</td><td>85.9</td><td>228,801</td><td>53.0</td></tr>
+<tr><th class="stub" scope="row">C. I. O.</th><td>2,141</td><td>1,114</td><td>52.0</td><td>464,451</td><td>217,165</td><td>46.8</td><td>404,440</td><td>87.1</td><td>192,060</td><td>47.5</td></tr>
+<tr><th class="stub" scope="row">Unaffiliated</th><td>802</td><td>486</td><td>60.6</td><td>173,403</td><td>99,360</td><td>57.3</td><td>150,529</td><td>86.8</td><td>76,425</td><td>50.8</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1953_p0115_t1.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 The term &quot;collective-bargaining election&quot; is used to cover representation elections requested by a union or other candidate for employee representative or by the employer. This term is used to distinguish this type of election from a decertification election, which is one requested by employees seeking to revoke the representation rights of a union which is already certified or which is recognized by the employer without a Board certification.</li>
+<li>2 Elections involving 2 or more unions of different affiliations are counted under each affiliation, but only once in the total. Therefore, the total is less than the sum of the figures or the 3 groupings by affiliation.</li>
+</ol>
+<p class="check"><b>0 of 24</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 115.</b> 11 columns: stub plus 3 under &quot;Elections participated in&quot;, 3 under &quot;Employees involved (Number eligible to vote)&quot;, and 4 under &quot;Valid votes cast&quot;. The stub heading and the single-level headings (&quot;Total&quot;, &quot;Won&quot;, &quot;Percent won&quot;, &quot;Total eligible&quot;, and the &quot;Total&quot; / &quot;Percent of total eligible&quot; under &quot;Valid votes cast&quot;) are tall cells spanning the lower heading levels, so they are repeated.
+
+Decimal points in the percent columns print very faintly in this scan: several cells read like &quot;71 9&quot;, &quot;79 2&quot;, &quot;86 7&quot;, &quot;77 7&quot;, &quot;53 3&quot;, &quot;85 9&quot;, &quot;53 0&quot;, &quot;52 0&quot;, &quot;46 8&quot;, &quot;87 1&quot;, &quot;47 5&quot;, &quot;86 8&quot;, &quot;50 8&quot; with the point barely or not visible, while neighbouring cells in the same columns (&quot;64.1&quot;, &quot;60.6&quot;, &quot;57.3&quot;) show the point clearly. All of these are one-decimal percentages, so I transcribed them with the decimal point rather than with the gap.
+
+Same faint-punctuation issue in the row labels: the image shows roughly &quot;A  F. L.&quot; and &quot;C  I  O&quot;. I transcribed them as the standard &quot;A. F. L.&quot; and &quot;C. I. O.&quot;; the periods are partly lost in the scan rather than absent in the original typesetting.
+
+The raised 2 markers in the Total row are printed to the left of the values (&quot;² 6,050&quot;, &quot;² 737,998&quot;, &quot;² 639,739&quot;); per the convention I placed them after the number as &quot;6,050^2&quot;, &quot;737,998^2&quot;, &quot;639,739^2&quot;.
+
+Footnote 1&#x27;s marker is attached to the caption (&quot;Collective-Bargaining Elections ¹&quot;), which is excluded from the grid.
+
+Footnote 2 appears to contain a misprint: &quot;the total is less than the sum of the figures or the 3 groupings by affiliation&quot; — &quot;or&quot; is almost certainly a typo for &quot;for&quot;. Transcribed as printed.
+
+The Total row&#x27;s figures are deliberately smaller than the column sums (per footnote 2), so the apparent total mismatch is not a transcription error.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1953_p0115_t1_p0115.webp" loading="lazy" alt="Source page 115 of NLRB FY1953 annual report">
+<figcaption>Source: NLRB Annual Report FY1953, p. 115.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

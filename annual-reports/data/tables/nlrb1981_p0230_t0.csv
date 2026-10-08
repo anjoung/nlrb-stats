@@ -1,8 +1,59 @@
-Industrial group,Total elections / Total elec-tions,Number of elections in which representation rights were won by unions / Total,Number of elections in which representation rights were won by unions / AFL-CIO unions,Number of elections in which representation rights were won by unions / Team-sters,Number of elections in which representation rights were won by unions / Other national unions,Number of elections in which representation rights were won by unions / Other local unions,Number of elections in which no representative was chosen / Number of elec-tions in which no rep-resent-ative was chosen,Number employees eligible to vote / Number employ-ees eligible to vote,Total valid votes cast,Valid votes cast for unions / Total,Valid votes cast for unions / AFL-CIO unions,Valid votes cast for unions / Team-sters,Valid votes cast for unions / Other national unions,Valid votes cast for unions / Other local unions,Total votes for no union,Eligible employees in units choosing representation / Eligible employ-ees in units choosing rep-resent-ation
-Mining,88,44,,,,,44,3097,2711,1860,,,,,1061,
-Wholesale trade,,,,,,,,,,,,,,,,
-Retail trade,,,,,,,,,,,,,,,,
-"Transportation, communication, and other public utilities",114,36,,,,,78,8442,7067,2547,,,,1518,4498,
-Services,1635,789,,,,,846,106766,86512,45765,,,,,40762,54476
-Public administration,0,,,,,,,,,,,,,,217,
-"Total, all industrial groups",7512,3254,2025,868,131,215,4275,443948,392157,166750,104683,,,,207224,165202
+Industrial group,Total elections,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which no representative was chosen,Number of employees eligible to vote,Total valid votes cast,Valid votes cast for unions,Valid votes cast for unions,Valid votes cast for unions,Valid votes cast for unions,Valid votes cast for unions,Total votes for no union,Eligible employees in units choosing representation
+Industrial group,Total elections,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Number of elections in which no representative was chosen,Number of employees eligible to vote,Total valid votes cast,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Total votes for no union,Eligible employees in units choosing representation
+Food and kindred products,375,144,77,59,0,8,231,"27,530","24,164","10,720","5,730","3,348",33,"1,609","13,444","7,588"
+Tobacco manufacturers,7,2,0,2,0,0,5,813,729,255,212,28,0,15,474,18
+Textile mill products,64,20,13,5,1,1,44,"9,298","8,524","3,528","2,664",571,238,55,"4,996","1,669"
+Apparel and other finished products made from fabric and similar materials,72,29,24,5,0,0,43,"9,898","8,942","3,598","3,347",240,0,11,"5,344","2,252"
+Lumber and wood products (except furniture),130,39,29,6,2,2,91,"6,933","6,332","2,851","2,207",401,15,228,"3,481","2,170"
+Furniture and fixtures,83,34,21,9,2,2,49,"5,984","5,480","2,437","1,651",524,107,155,"3,043","2,503"
+Paper and allied products,74,27,17,10,0,0,47,"3,717","3,402","1,755","1,327",234,0,194,"1,647","1,503"
+"Printing, publishing, and allied products",209,89,72,11,1,5,120,"12,008","10,374","4,499","3,610",741,9,139,"5,875","3,226"
+Chemicals and allied products,170,72,42,24,1,5,98,"8,054","7,426","3,433","2,363",677,106,287,"3,993","2,570"
+Petroleum refining and related industries,53,21,13,4,1,3,32,"2,712","2,394","1,127",917,62,81,67,"1,267","1,652"
+Rubber and miscellaneous plastic products,137,46,29,12,1,4,91,"12,246","11,192","4,709","3,929",550,9,221,"6,483","3,896"
+Leather and leather products,24,8,5,3,0,0,16,"3,287","3,054","1,261","1,036",225,0,0,"1,793",977
+"Stone, clay, glass, and concrete products",134,62,36,22,2,2,72,"7,149","6,544","3,610","2,701",622,127,160,"2,934","3,475"
+Primary metal industries,177,81,58,15,4,4,96,"9,570","8,499","4,241","3,241",594,64,342,"4,258","4,151"
+Fabricated metal products (except machinery and transportation equipment),353,137,106,23,2,6,216,"21,554","19,387","8,795","6,830","1,218",156,591,"10,592","6,778"
+Machinery (except electrical),337,114,78,29,1,6,223,"25,029","22,901","9,670","7,235","1,863",265,307,"13,231","5,656"
+"Electrical and electronic machinery, equipment, and supplies",211,85,57,16,5,7,126,"28,317","25,492","11,647","7,898","2,714",239,796,"13,845","8,015"
+Aircraft and parts,105,44,28,8,3,5,61,"15,944","14,687","7,927","5,305",881,"1,437",304,"6,760","6,842"
+Ship and boat building and repairing,19,8,6,0,1,1,11,"4,995","4,248","3,084","2,156",140,14,774,"1,164","3,266"
+Automotive and other transportation equipment,21,9,8,1,0,0,12,"1,731","1,543",764,726,36,0,2,779,608
+"Measuring, analyzing, and controlling instruments, photographic, medical, and optical goods, watches and clocks",73,30,22,7,1,0,43,"5,495","5,048","2,105","1,679",394,32,0,"2,943","1,321"
+Miscellaneous manufacturing industries,246,99,57,35,2,5,147,"13,791","12,363","5,475","3,376","1,603",189,307,"6,888","3,246"
+Manufacturing,"3,074","1,200",798,306,30,66,"1,874","236,055","212,725","97,491","70,140","17,666","3,121","6,564","115,234","73,382"
+Metal mining,12,3,3,0,0,0,9,750,697,275,202,34,0,39,422,295
+Coal mining,50,28,8,3,15,2,22,"2,316","2,137","1,178",196,178,609,195,959,"1,167"
+Oil and gas extraction,1,0,0,0,0,0,1,220,205,52,52,0,0,0,153,0
+Mining and quarrying of nonmetallic minerals (except fuels),25,13,9,4,0,0,12,711,672,355,289,54,5,7,317,301
+Mining,88,44,20,7,15,2,44,"3,997","3,711","1,860",739,266,614,241,"1,851","1,763"
+Construction,220,94,68,15,4,7,126,"5,683","4,687","2,381","2,079",202,33,67,"2,806","3,002"
+Wholesale trade,626,248,79,158,5,6,378,"19,991","18,093","7,859","3,854","3,754",132,119,"10,234","6,104"
+Retail trade,843,329,218,87,6,18,514,"34,792","29,824","12,047","8,961","2,452",114,520,"17,777","9,952"
+"Finance, insurance, and real estate",164,93,80,12,0,1,71,"6,906","6,113","3,029","2,705",272,23,29,"3,084","2,574"
+U.S. Postal Service,7,5,2,3,0,0,2,436,393,232,130,99,3,0,161,364
+Local and suburban transit and interurban highway passenger transportation,90,36,16,16,0,4,54,"5,791","4,523","2,295","1,273",731,0,291,"2,228","2,192"
+Motor freight transportation and warehousing,406,178,37,129,5,7,228,"11,325","9,959","4,712",839,"3,612",94,167,"5,247","5,347"
+Water transportation,26,10,7,1,2,0,16,646,571,192,146,8,26,12,379,181
+Other transportation,48,26,16,9,0,1,22,"2,408","2,156","1,005",790,193,0,22,"1,151","1,008"
+Communication,260,119,102,6,4,7,141,"8,360","7,439","3,523","3,072",155,65,231,"3,916","2,842"
+"Electric, gas, and sanitary services",114,50,36,12,1,1,64,"5,442","5,067","2,347","1,518",630,136,63,"2,720","1,828"
+"Transportation, communication, and other utilities",944,419,214,173,12,20,525,"33,972","29,715","14,074","7,638","5,329",321,786,"15,641","13,398"
+"Hotels, rooming houses, camps, and other lodging places",129,51,40,5,1,5,78,"9,215","6,919","3,167","2,339",278,165,385,"3,752","3,763"
+Personal services,55,28,17,10,1,0,27,"1,276","1,132",565,405,153,7,0,567,572
+"Automotive repair, services, and garages",144,72,34,38,0,0,72,"2,826","2,518","1,225",468,733,16,8,"1,293","1,181"
+Motion pictures,20,16,12,2,0,2,4,438,353,285,122,81,0,82,68,371
+Amusement and recreation services (except motion pictures),60,24,19,1,2,2,36,"1,397","1,164",501,431,24,14,32,663,440
+Health services,653,343,251,18,32,42,310,"65,931","55,591","28,567","20,459","1,719","3,879","2,510","27,024","31,120"
+Educational services,50,33,20,4,0,9,17,"3,963","3,337","1,770","1,456",96,0,218,"1,567","2,606"
+Membership organizations,9,2,1,0,0,1,7,276,257,77,73,0,0,4,180,6
+Business services,269,141,78,18,21,24,128,"11,153","8,667","4,811","2,023",583,434,"1,771","3,856","6,159"
+Miscellaneous repair services,43,15,10,4,1,0,28,"1,448","1,337",546,349,180,17,0,791,263
+"Museums, art galleries, botanical and zoological gardens",2,1,1,0,0,0,1,94,87,32,32,0,0,0,55,28
+Legal services,9,8,4,0,0,4,1,291,251,180,61,0,0,119,71,268
+Social services,79,59,52,2,1,4,20,"8,348","4,631","3,909","3,806",49,7,47,722,"7,544"
+Miscellaneous services,13,6,4,2,0,0,7,339,301,148,85,62,0,1,153,155
+Services,"1,535",799,543,104,59,93,736,"106,995","86,545","45,783","32,109","3,958","4,539","5,177","40,762","54,476"
+Public administration,11,3,3,0,0,0,8,416,351,177,156,17,0,4,174,217
+"Total, all industrial groups","7,512","3,234","2,025",865,131,213,"4,278","449,243","392,157","184,933","128,511","34,015","8,900","13,507","207,224","165,232"

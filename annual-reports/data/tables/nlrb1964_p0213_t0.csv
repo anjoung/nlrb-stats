@@ -1,14 +1,23 @@
-row_label,col_1,Fiscal year 1964 / Number of proceedings 1 / Total,Fiscal year 1964 / Number of proceedings 1 / Vs employers only,Fiscal year 1964 / Number of proceedings 1 / Vs unions only,Fiscal year 1964 / Number of proceedings 1 / Vs both employers and unions,Fiscal year 1964 / Number of proceedings 1 / Board dismissal,Fiscal year 1964 / Percentages / Vs employers only,Fiscal year 1964 / Percentages / Vs unions only,Fiscal year 1964 / Percentages / Vs both employers and unions,Fiscal year 1964 / Percentages / Board dismissal,"July 1, 1935 - June 30, 1964 / Number","July 1, 1935 - June 30, 1964 / Percent"
-Proceedings decided by U.S. courts of appeals,259,193,43,11,12,,,,,,,
-On petitions for review and/or enforcement,244,184,37,11,12,100,100,100,100,2719,100,
-Board orders affirmed in full,134,105,20,1,8,57,54,9,67,1559,57,
-Board orders affirmed with modification,55,41,7,3,4,22,19,46,0,569,21,
-Remanded to Board,10,4,3,0,3,4,8,0,25,104,4,
-Board orders partially affirmed and partially remanded,1,1,0,0,0,1,0,0,0,21,1,
-Board orders set aside,44,33,6,4,1,18,16,36,8,477,18,
-On petitions for contempt,15,9,6,0,0,100,100,,,,,
-"Compliance after filing of petition, before court order",5,4,1,0,0,44,17,,,,,
-Court orders holding respondent in contempt,10,5,5,0,0,56,83,,,,,
-Court orders denying petition,0,0,0,0,0,,,,,,,
-Proceedings decided by U.S. Supreme Court,6,3,1,0,2,100,100,,100,153,100,
-Supreme Court,,,,,,,,,,,,
+Size of establishment (number of employees),Total,Total,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations
+Size of establishment (number of employees),Total,Total,CA,CA,CB,CB,CC,CC,CD,CD,CE,CE,CP,CP,CA-CB combinations,CA-CB combinations,Other C combinations,Other C combinations
+Size of establishment (number of employees),Percent of all situations,Cumulative percent of all situations,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—,Percent by size class—
+Size of establishment (number of employees),Percent of all situations,Cumulative percent of all situations,of all situations,of CA situations,of all situations,of CB situations,of all situations,of CC situations,of all situations,of CD situations,of all situations,of CE situations,of all situations,of CP situations,of all situations,of CA-CB situations,of all situations,of other C situations
+,100.0,,68.0,100.0,12.4,100.0,7.3,100.0,2.1,100.0,0.4,100.0,2.6,100.0,6.0,100.0,1.2,100.0
+1-24,33.5,33.5,67.6,32.6,9.1,27.3,10.6,50.8,2.0,33.2,.4,42.5,4.6,57.6,3.8,21.3,1.9,50.3
+25-49,17.7,51.2,73.1,18.5,10.0,15.7,6.6,16.4,1.8,16.2,[3],3.0,2.8,18.2,4.7,13.8,1.0,14.7
+50-74,9.3,60.5,75.9,10.2,8.9,7.4,4.3,5.6,1.2,5.7,.4,12.2,2.2,7.6,6.1,9.5,1.0,7.7
+75-99,5.6,66.1,68.8,5.5,10.3,5.2,7.4,5.9,1.8,5.2,.5,9.1,1.2,2.5,8.8,8.2,1.2,5.6
+100-149,6.7,72.8,74.2,7.1,9.8,5.9,3.9,3.7,3.0,10.0,.1,3.0,1.3,3.2,6.7,7.5,1.0,5.6
+150-199,5.5,78.3,73.2,5.9,11.7,5.7,3.6,2.8,1.9,5.2,.2,3.0,.9,1.9,7.9,7.2,.6,2.8
+200-299,5.2,83.5,71.6,5.4,15.8,7.3,4.3,3.2,1.2,3.1,.0,.0,.7,1.3,5.6,4.9,.8,3.5
+300-399,3.0,86.5,72.4,3.1,12.4,3.3,3.8,1.6,1.4,2.2,.0,.0,1.1,1.3,7.8,3.9,1.1,2.8
+400-499,2.4,88.9,58.5,2.0,17.8,3.9,7.4,2.6,3.9,4.8,.7,6.1,1.8,1.6,8.5,3.4,1.4,2.8
+500-599,1.3,90.2,72.5,1.3,9.4,1.1,4.6,.9,2.7,1.7,.0,.0,.7,.3,9.4,2.0,.7,.7
+600-799,1.5,91.7,62.1,1.3,16.6,2.1,8.3,1.7,1.8,1.3,.6,3.0,.6,.3,10.0,2.4,.0,.0
+800-999,1.5,93.2,53.7,1.2,20.3,2.8,6.8,1.5,1.1,.9,.6,3.0,2.2,1.3,15.3,3.9,.0,.0
+"1,000-1,999",2.6,95.8,60.3,2.3,19.7,4.6,5.2,2.0,4.9,6.5,.3,3.0,1.3,1.3,7.6,3.3,.7,1.4
+"2,000-2,999",1.1,96.9,54.2,.9,22.1,2.2,3.8,.6,1.5,.9,.0,.0,.8,.3,16.8,3.2,.8,.7
+"3,000-3,999",.6,97.5,65.7,.5,17.9,.9,.0,.0,.0,.0,.0,.0,4.5,1.0,10.4,1.0,1.5,3.7
+"4,000-4,999",.6,98.1,48.5,.4,26.5,1.4,1.5,.1,4.4,1.3,2.9,6.1,.0,.0,14.7,1.4,1.5,.7
+"5,000-9,999",.8,98.9,63.0,.7,20.7,1.5,4.3,.5,2.2,.9,1.1,3.0,1.1,.3,7.6,1.0,.0,.0
+"10,000 and over",1.1,100.0,69.2,1.1,16.5,1.7,.8,.1,1.5,.9,.8,3.0,.0,.0,11.2,2.1,.0,.0

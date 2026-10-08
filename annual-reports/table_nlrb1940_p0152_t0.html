@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Cases heard during the fiscal year 1939-40—Unfair labor practice cases — NLRB FY1940</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1940.html">FY1940</a> &rsaquo; Cases heard during the fiscal year 1939-40—Unfair labor practice cases</p>
+<h1>Cases heard during the fiscal year 1939-40—Unfair labor practice cases</h1>
+<p class="meta">source pages 152–155 &middot; <code>nlrb1940_p0152_t0</code></p>
+<p class="spans-note">Stitched from pp. 152–155.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Name of case</th><th colspan="2">Hearing</th><th>Decision issued</th></tr>
+<tr><th>Name of case</th><th>Opened</th><th>Closed</th><th>Decision issued</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Abinante &amp; Nola Packing Co.</th><td>July 17, 1939</td><td>Aug. 11, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Algoma Plywood and Veneer Co.</th><td>Feb. 13, 1940</td><td>Feb. 28, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Allied Yarns Corporation</th><td>Sept. 18, 1939</td><td>Sept. 22, 1939</td><td>Aug. 26, 1940</td></tr>
+<tr><th class="stub" scope="row">Alloy Cast Steel Co.</th><td>July 20, 1939</td><td>July 20, 1939</td><td>Jan. 2, 1940</td></tr>
+<tr><th class="stub" scope="row">American Auto Parts Co.</th><td>Nov. 13, 1939</td><td>Nov. 13, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">American Enka Corporation</th><td>Apr. 15, 1940</td><td>Apr. 26, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">American Hat Mfg. Co., Inc.</th><td>Feb. 5, 1940</td><td>Feb. 8, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>May 13, 1940</td><td>May 18, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">American Products Inc.</th><td>May 14, 1940</td><td>May 27, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">American Rolling Mill Co.</th><td>Mar. 7, 1940</td><td>Mar. 14, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">American Shoe Machinery &amp; Tool Co.</th><td>Sept. 11, 1939</td><td>Sept. 20, 1939</td><td>May 28, 1940</td></tr>
+<tr><th class="stub" scope="row">American Smelting &amp; Refining Co.</th><td>Apr. 23, 1940</td><td>May 4, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">American White Cross Laboratories, Inc.</th><td>July 6, 1939</td><td>July 18, 1939</td><td>June 4, 1940</td></tr>
+<tr><th class="stub" scope="row">Armour and Co.</th><td>July 24, 1939</td><td>July 26, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Bank of America</th><td>Dec. 18, 1939</td><td>Jan. 11, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Barre Wool Combing Co.</th><td>Aug. 24, 1939</td><td>Jan. 24, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">A. S. Beck Shoe Corporation</th><td>Sept. 18, 1939</td><td>Sept. 22, 1939</td><td>[4]</td></tr>
+<tr><th class="stub" scope="row">Belding Hosiery Co.</th><td>Aug. 14, 1939</td><td>Aug. 21, 1939</td><td>Feb. 19, 1940</td></tr>
+<tr><th class="stub" scope="row">Bemis Bros. Bag Co.</th><td>Jan. 8, 1940</td><td>Jan. 8, 1940</td><td>Feb. 5, 1940</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>June 10, 1940</td><td>June 12, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Blackburn, Jasper Products Corporation</th><td>Nov. 2, 1939</td><td>Nov. 7, 1939</td><td>Mar. 27, 1940</td></tr>
+<tr><th class="stub" scope="row">Blue-Bell Globe Mfg. Co.</th><td>Sept. 11, 1939</td><td>Sept. 12, 1939</td><td>May 29, 1940</td></tr>
+<tr><th class="stub" scope="row">George Bollman &amp; Co.</th><td>Feb. 5, 1940</td><td>Feb. 9, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Bradburn Motors Co.</th><td>July 6, 1939</td><td>July 22, 1939</td><td>Nov. 28, 1939</td></tr>
+<tr><th class="stub" scope="row">Brasewell Motor Freight Lines</th><td>June 3, 1940</td><td>June 6, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Brillo Mfg. Co.</th><td>Nov. 6, 1939</td><td>Nov. 17, 1939</td><td>Feb. 24, 1940</td></tr>
+<tr><th class="stub" scope="row">Brown-McLaren Mfg. Co.</th><td>Nov. 9, 1939</td><td>Nov. 17, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Buhl Optical Co. and Steel City Optical Corp.</th><td>Feb. 19, 1940</td><td>Mar. 5, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Bunte Bros. Candy Mfg. Co.</th><td>June 29, 1939</td><td>July 15, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Burry Biscuit Corporation (Educator plant)</th><td>Dec. 21, 1939</td><td>Jan. 6, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">B-Z-B Knitting Co.</th><td>Apr. 29, 1940</td><td>May 1, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">California Prune &amp; Apricot Growers Association</th><td>Mar. 27, 1940</td><td>Mar. 29, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Calumet Steel Division of Borg-Warner Corporation</th><td>July 27, 1939</td><td>July 28, 1939</td><td>Apr. 23, 1940</td></tr>
+<tr><th class="stub" scope="row">Capitol Piece Dye Works</th><td>Apr. 11, 1940</td><td>May 7, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">M. Carpenter Baking Co.</th><td>Mar. 25, 1940</td><td>Apr. 11, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Castle &amp; Cook Terminals, Ltd.</th><td>Mar. 14, 1940</td><td>Apr. 19, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Cayuga Linen &amp; Cotton Mills, Inc.</th><td>Jan. 8, 1940</td><td>Jan. 9, 1940</td><td>Feb. 9, 1940</td></tr>
+<tr><th class="stub" scope="row">Central Glove Co.</th><td>Oct. 12, 1939</td><td>Oct. 16, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Central Metallic Casket Co.</th><td>July 24, 1939</td><td>July 28, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Chattanooga Bakery, Inc., and Mountain City Mill Co.</th><td>Dec. 14, 1939</td><td>Dec. 20, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Chippewa County Dairy</th><td>May 27, 1940</td><td>May 27, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">C. Clemens Horst Co.</th><td>July 27, 1939</td><td>July 28, 1939</td><td>May 25, 1940</td></tr>
+<tr><th class="stub" scope="row">Colonial Togs Co., Nathan Levine doing business as</th><td>Apr. 25, 1940</td><td>Apr. 25, 1940</td><td>June 13, 1940</td></tr>
+<tr><th class="stub" scope="row">Colt-Brady Co.</th><td>June 29, 1939</td><td>July 22, 1939</td><td>Nov. 28, 1939</td></tr>
+<tr><th class="stub" scope="row">Cook Coffee Co.</th><td>July 20, 1939</td><td>July 27, 1939</td><td>Apr. 13, 1940</td></tr>
+<tr><th class="stub" scope="row">Crown Central Petroleum Corporation</th><td>Aug. 24, 1939</td><td>Aug. 30, 1939</td><td>May 31, 1940</td></tr>
+<tr><th class="stub" scope="row">Cudahy Packing Co.</th><td>Oct. 16, 1939</td><td>Oct. 24, 1939</td><td>Feb. 3, 1940</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>Jan. 4, 1940</td><td>Jan. 25, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Dain Mfg. Co.</th><td>Feb. 8, 1940</td><td>Feb. 15, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Davidson Granite Co.</th><td>July 17, 1939</td><td>Aug. 26, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Decatur Iron and Steel Co.</th><td>June 17, 1940</td><td>July 19, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Deere, John Harvester Works of Deere &amp; Co.</th><td>Aug. 21, 1939</td><td>Aug. 24, 1939</td><td>Sept. 30, 1939</td></tr>
+<tr><th class="stub" scope="row">Dining Room, Inc., The</th><td>June 24, 1940</td><td>June 26, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Donnelly Garment Co.</th><td>June 5, 1939</td><td>July 15, 1939</td><td>Mar. 6, 1940</td></tr>
+<tr><th class="stub" scope="row">Downie Bros. Inc. et al</th><td>Oct. 16, 1939</td><td>June 3, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">E. I. Du Pont de Nemours &amp; Co.</th><td>June 22, 1939</td><td>Aug. 4, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Eagle-Ottawa Leather Co.</th><td>June 8, 1939</td><td>Sept. 13, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Eavenson &amp; Levering Co., Inc.</th><td>June 26, 1940</td><td>July 3, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Eavenson, J., &amp; Sons, Inc.</th><td>Aug. 7, 1939</td><td>Sept. 25, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Entwistle Mfg. Co.</th><td>Aug. 18, 1939</td><td>Aug. 22, 1939</td><td>May 22, 1940</td></tr>
+<tr><th class="stub" scope="row">Evelyn Coats</th><td>Dec. 1, 1938</td><td>Dec. 28, 1939</td><td>Apr. 17, 1940</td></tr>
+<tr><th class="stub" scope="row">Excel Curtain Co., Inc.</th><td>Sept. 25, 1939</td><td>Oct. 6, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Faribault Woolen Mills</th><td>Apr. 25, 1940</td><td>Apr. 26, 1940</td><td>May 23, 1940</td></tr>
+<tr><th class="stub" scope="row">Federbush Loose Leaf &amp; Binder Co., Inc.</th><td>Feb. 15, 1940</td><td>Feb. 23, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Firth Carpet Co. (Firthcliffe plant)</th><td>Feb. 5, 1940</td><td>Feb. 16, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Fletcher Paper Co.</th><td>Jan. 26, 1940</td><td>Jan. 31, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Flour City Box &amp; Crating Co.</th><td>Oct. 30, 1939</td><td>Nov. 1, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Ford Motor Co.</th><td>Feb. 14, 1938</td><td>July 19, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>Feb. 26, 1940</td><td>Mar. 28, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td>May 23, 1940</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">F. S. Frost &amp; F. N. Netzel</th><td>Dec. 11, 1939</td><td>Dec. 11, 1939</td><td>May 22, 1940</td></tr>
+<tr><th class="stub" scope="row">Frost Rubber Works, The</th><td>do.</td><td>do.</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">General Baking Co., Inc.</th><td>Feb. 19, 1940</td><td>Feb. 19, 1940</td><td>Mar. 26, 1940</td></tr>
+<tr><th class="stub" scope="row">General Shale Products Corporation</th><td>Apr. 25, 1940</td><td>Apr. 30, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Gillespie Furniture Co.</th><td>Dec. 7, 1939</td><td>Dec. 7, 1939</td><td>Jan. 11, 1940</td></tr>
+<tr><th class="stub" scope="row">Goldblatt Bros., Inc.</th><td>Apr. 2, 1940</td><td>Apr. 2, 1940</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">Goodyear Tire &amp; Rubber Co.</th><td>May 22, 1939</td><td>Apr. 8, 1940</td><td>[8]</td></tr>
+<tr><th class="stub" scope="row">Graves Co.</th><td>June 20, 1939</td><td>July 7, 1939</td><td>Mar. 26, 1940</td></tr>
+<tr><th class="stub" scope="row">Great Southern Trucking Co.</th><td>Dec. 14, 1939</td><td>Dec. 21, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Greer Steel Co.</th><td>Feb. 13, 1940</td><td>Feb. 22, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Gregory, Joseph R.</th><td>May 9, 1940</td><td>May 10, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Grity Adrian Mfg. Co.</th><td>Feb. 8, 1940</td><td>Feb. 15, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Gunlocke Chair Co., The W. H.</th><td>Feb. 26, 1940</td><td>Feb. 27, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hat Corporation of America</th><td>July 1, 1940</td><td>[8]</td><td>[8]</td></tr>
+<tr><th class="stub" scope="row">Hawk and Buck Mfg. Co.</th><td>Oct. 23, 1939</td><td>Oct. 27, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Haylind Artificial Flower Co., Inc.</th><td>May 23, 1940</td><td>June 6, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hazel Atlas Glass Co.</th><td>Apr. 15, 1940</td><td>May 31, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Heilig Bros. Co., Inc.</th><td>May 7, 1940</td><td>May 16, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Heinsheimer Bros.</th><td>Feb. 29, 1940</td><td>Mar. 8, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Herald Statesman, Inc., Westchester Co. Pub., Inc.</th><td>Nov. 27, 1939</td><td>Dec. 22, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">C. G. Hitchcock &amp; Co.</th><td>June 24, 1940</td><td>June 27, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hobart Cabinet Co.</th><td>Apr. 1, 1940</td><td>Apr. 1, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Holly Hosiery Mills</th><td>Aug. 21, 1939</td><td>Aug. 25, 1939</td><td>Dec. 8, 1939</td></tr>
+<tr><th class="stub" scope="row">Hollywood Maxwell Brassiere Co.</th><td>July 10, 1939</td><td>July 28, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Honolulu Stevedores, Ltd.</th><td>Mar. 14, 1940</td><td>Apr. 19, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hudson Motor Car Co.</th><td>May 7. 1940</td><td>June 11, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Hydril Company of California</th><td>Feb. 5, 1940</td><td>Feb. 5, 1940</td><td>May 18, 1940</td></tr>
+<tr><th class="stub" scope="row">Ideal Leather Mfg. Co.</th><td>Sept. 7, 1939</td><td>Sept. 9, 1939</td><td>[9]</td></tr>
+<tr><th class="stub" scope="row">Imperial Reed and Fibre Co.</th><td>Apr. 22, 1940</td><td>Apr. 23, 1940</td><td>May 6, 1940</td></tr>
+<tr><th class="stub" scope="row">Indianapolis Power and Light Co.</th><td>July 31, 1939</td><td>Aug. 4. 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Inland Lime &amp; Stone Co.</th><td>Nov. 24, 1939</td><td>Nov. 25, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">International Envelope Co.</th><td>June 13, 1940</td><td>June 14, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">International Harvester Co.</th><td>June 22, 1939</td><td>Oct. 5, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">International Harvester Co., Farmall works</th><td>do.</td><td>do.</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Jackee Mfg. Co.</th><td>Jan. 8, 1940</td><td>Jan. 9, 1940</td><td>May 31, 1940</td></tr>
+<tr><th class="stub" scope="row">Jackson Shoe Mfg. Co., doing business as H. Jacob &amp; Sons, Inc.,</th><td>May 6, 1940</td><td>May 7, 1940</td><td>[10]</td></tr>
+<tr><th class="stub" scope="row">Jahn &amp; Ollier Engraving Co.</th><td>Jan. 29, 1940</td><td>Jan. 31, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Jensen Radio Mfg. Co.</th><td>Mar. 25, 1940</td><td>Mar. 30, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Jersey Maid Dairy Co., Inc.</th><td>Mar. 1, 1940</td><td>Mar. 1, 1940</td><td>Mar. 25, 1940</td></tr>
+<tr><th class="stub" scope="row">Johnson Spring Co., Inc., The</th><td>June 6, 1940</td><td>June 14, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Joma Manufacturing Co.</th><td>Feb. 8, 1940</td><td>Feb. 16, 1940</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">David Karron, Inc.</th><td>Nov. 6, 1939</td><td>Dec. 15, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Kennecott Copper Corporation &amp; Santa Rita Stores Co.</th><td>Dec. 7, 1939</td><td>Dec. 7, 1939</td><td>Aug. 24, 1940</td></tr>
+<tr><th class="stub" scope="row">Kentucky Utilities Co.</th><td>Apr. 8, 1940</td><td>Apr. 19, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Keystone Freight Line</th><td>Oct. 26, 1939</td><td>Oct. 31, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Morris P. Kirk &amp; Son</th><td>June 10, 1940</td><td>June 20, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">W. H. Kistler Stationery Co.</th><td>Apr. 15, 1940</td><td>Apr. 15, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Kramer Co., The</th><td>May 16, 1940</td><td>May 18, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Kraus Cleaners</th><td>Apr. 15, 1940</td><td>Apr. 20, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">S. H. Kress &amp; Co.</th><td>Nov. 16, 1939</td><td>Feb. 13, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Kroger Grocery &amp; Baking Co.</th><td>July 12, 1939</td><td>July 27, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Kudile Bros., trading as Hasbrouck Heights Dairy</th><td>June 10, 1940</td><td>June 15, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">M. Kutz Co.</th><td>May 13, 1940</td><td>May 18, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Lawrenceburg Roller Mills Co.</th><td>Aug. 28, 1939</td><td>Sept. 8, 1939</td><td>May 18, 1940</td></tr>
+<tr><th class="stub" scope="row">Leitz Carpet Co.</th><td>May 2, 1940</td><td>May 3, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Henry Levear, Inc.</th><td>July 6, 1939</td><td>July 22, 1939</td><td>Nov. 28, 1939</td></tr>
+<tr><th class="stub" scope="row">Leybrow Manufacturing Co.</th><td>July 31, 1939</td><td>Sept. 20, 1939</td><td>June 17, 1940</td></tr>
+<tr><th class="stub" scope="row">Libby McNeil &amp; Libby</th><td>Nov. 13, 1939</td><td>Nov. 17, 1939</td><td>May 11, 1940</td></tr>
+<tr><th class="stub" scope="row">Lincoln Telephone &amp; Telegraph Co.</th><td>Apr. 25, 1940</td><td>May 9, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Link Belt Co.</th><td>Sept. 18, 1939</td><td>Oct. 24, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Link Belt Co., Dodge plant</th><td>do</td><td>do</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Long Bell Lumber Co.</th><td>Sept. 28, 1939</td><td>Sept. 29, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Long Lake Lumber Co.</th><td>Mar. 11, 1940</td><td>Mar. 21, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Los Angeles Examiner</th><td>Sept. 28, 1939</td><td>Nov. 16, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">R. C. Mahon Co.</th><td>July 17, 1939</td><td>July 20, 1939</td><td>May 22, 1940</td></tr>
+<tr><th class="stub" scope="row">Mayfair Bag Co., Inc.</th><td>July 24, 1939</td><td>Aug. 28, 1939</td><td>Nov. 2, 1939</td></tr>
+<tr><th class="stub" scope="row">Mellus Bros. &amp; Co., Inc., et al</th><td>Oct. 16, 1939</td><td>June 3, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">M. F. A. Milling Co.</th><td>Nov. 27, 1939</td><td>Dec. 23, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Midwest Steel Corporation</th><td>Apr. 29, 1940</td><td>May 1, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Missouri Portland Cement Co.</th><td>June 27, 1940</td><td>July 3, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Missouri Utilities Co.</th><td>Jan. 11, 1940</td><td>Jan. 16, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Moore-McCormick Lines, Inc., filed as American Scantic Lines</th><td>Mar. 20, 1939</td><td>Aug. 18, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Motor Products Corporation</th><td>Apr. 22, 1940</td><td>Apr. 26, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">National Cash Register Co.</th><td>Apr. 24, 1939</td><td>July 25, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">National Herald, Inc.</th><td>Apr. 11, 1940</td><td>Apr. 11, 1940</td><td>Apr. 30, 1940</td></tr>
+<tr><th class="stub" scope="row">National Steel Equipment Co.</th><td>Aug. 31, 1939</td><td>Aug. 31, 1939</td><td>Jan. 27, 1940</td></tr>
+<tr><th class="stub" scope="row">New Idea, Inc.</th><td>July 6, 1939</td><td>July 14, 1939</td><td>Mar. 7, 1940</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>Apr. 25, 1940</td><td>May 1, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">New York &amp; Cuba Mail Steamship Co.</th><td>Mar. 22, 1940</td><td>[5]</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">New York &amp; Porto Rico Steamship Co.</th><td>do</td><td>[5]</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Nippu Jiji Co.</th><td>Mar. 4, 1940</td><td>Mar. 9, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Northern Ohio Telephone Co.</th><td>May 27, 1940</td><td>June 1, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Odanah Iron Co. et al</th><td>June 29, 1939</td><td>July 19, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Ohio Calcium Co.</th><td>July 31, 1939</td><td>Aug. 25, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Ohio Fuel Gas Co., The</th><td>June 3, 1940</td><td>June 4, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Paper, Calmenson &amp; Co.</th><td>Sept. 25, 1939</td><td>Sept. 26, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Paragon Die Casting Co.</th><td>Apr. 8, 1940</td><td>Apr. 12, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Park Hosiery Dyeing &amp; Finishing Co., The</th><td>Oct. 2, 1939</td><td>Oct. 2, 1939</td><td>Nov. 1, 1939</td></tr>
+<tr><th class="stub" scope="row">Pequanoc Rubber Co.</th><td>Apr. 18, 1940</td><td>Apr. 26, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Philadelphia Gear Works</th><td>Feb. 29, 1940</td><td>Mar. 2, 1940</td><td>[10]</td></tr>
+<tr><th class="stub" scope="row">Pickands-Mather Co.</th><td>June 7, 1940</td><td>June 8, 1940</td><td>[10]</td></tr>
+<tr><th class="stub" scope="row">Pickands, Mather &amp; Co., Zenith mine</th><td>June 29, 1939</td><td>July 19, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Poe Manufacturing Co.</th><td>Feb. 15, 1940</td><td>Feb. 19, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Poultry Producers of Central California</th><td>Jan. 29, 1940</td><td>Feb. 2, 1940</td><td>July 13, 1940</td></tr>
+<tr><th class="stub" scope="row">Precision Castings Co., Inc.</th><td>Mar. 11, 1940</td><td>Apr. 3, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Pueblo Gas &amp; Fuel Co.</th><td>Oct. 9, 1939</td><td>Oct. 9, 1939</td><td>May 20, 1940</td></tr>
+<tr><th class="stub" scope="row">Radio Condenser Co.</th><td>June 29, 1939</td><td>July 6, 1939</td><td>July 31, 1939</td></tr>
+<tr><th class="stub" scope="row">Radio Station WCOV, doing business as G. W. Covington</th><td>June 3, 1940</td><td>June 6, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Ralston Purina Co.</th><td>Oct. 2, 1939</td><td>Oct. 12, 1939</td><td>June 12, 1940</td></tr>
+<tr><th class="stub" scope="row">Rapid Roller Co.</th><td>Dec. 11, 1939</td><td>Jan. 16, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Ray Bell Films, Inc.</th><td>June 10, 1940</td><td>June 11, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Remington Rand, Inc.</th><td>Sept. 25, 1939</td><td>Mar. 29, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Republic Steel Corporation</th><td>May 25, 1939</td><td>Aug. 25, 1939</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>Feb. 15, 1940</td><td>July 31, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>June 24, 1940</td><td>[5]</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Rex Textile Co., Inc.</th><td>June 26, 1939</td><td>July 12, 1939</td><td>Sept. 11, 1939</td></tr>
+<tr><th class="stub" scope="row">Robbins Tire &amp; Rubber Co.</th><td>Nov. 9, 1939</td><td>Nov. 15, 1939</td><td>Apr. 30, 1940</td></tr>
+<tr><th class="stub" scope="row">Rock Hill Printing &amp; Finishing Co.</th><td>Mar. 11, 1940</td><td>Apr. 24, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Rosedale Knitting Co.</th><td>Oct. 2, 1939</td><td>Oct. 3, 1939</td><td>Feb. 10, 1940</td></tr>
+<tr><th class="stub" scope="row">Royal Lace Paper Works</th><td>June 3, 1940</td><td>June 7, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Rutland Courts Apartments</th><td>do</td><td>June 4, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Sanco Piece Dye Works</th><td>Apr. 11, 1940</td><td>May 7, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Sbicca, Inc.</th><td>Jan. 11, 1940</td><td>Jan. 18, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Schmidt Baking Co.</th><td>Apr. 25, 1940</td><td>Apr. 25, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Schult Trailers, Inc.</th><td>May 27, 1940</td><td>June 6, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Security Warehouse &amp; Cold Storage Co.</th><td>Jan. 15, 1940</td><td>Mar. 22, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">J. Allen Smith Co.</th><td>Feb. 23, 1940</td><td>Feb. 24, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Socony Vacuum Oil Co.</th><td>Apr. 18, 1940</td><td>Apr. 23, 1940</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">Southern Manufacturing Co.</th><td>May 2, 1940</td><td>May 9, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Sport Wear Hosiery Co.</th><td>Feb. 29, 1940</td><td>Mar. 1, 1940</td><td>May 6, 1940</td></tr>
+<tr><th class="stub" scope="row">Standard Cap &amp; Molding Co.</th><td>Nov. 30, 1939</td><td>Nov. 30, 1939</td><td>Jan. 30, 1940</td></tr>
+<tr><th class="stub" scope="row">Standard Hat Co.</th><td>May 13, 1940</td><td>May 18, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Standard Knitting Mills, Inc.</th><td>Jan. 8, 1940</td><td>Jan. 12, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Standard Novelty Co. and Julius Miller</th><td>July 24, 1939</td><td>July 24, 1939</td><td>Apr. 8, 1940</td></tr>
+<tr><th class="stub" scope="row">Standard Wholesale Phosphate &amp; Acid Works, Inc.</th><td>Feb. 15, 1940</td><td>Feb. 16, 1940</td><td>Mar. 13, 1940</td></tr>
+<tr><th class="stub" scope="row">Stoner Manufacturing Corporation</th><td>July 6, 1939</td><td>Aug. 4, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Stonewall Cotton Mills, Inc.</th><td>June 17, 1940</td><td>June 28, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Sunday Lake Iron Co. et al.</th><td>June 29, 1939</td><td>July 19, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Sun Tent Luebbert Co.</th><td>Oct. 16, 1939</td><td>June 3, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Superior Packing Co.</th><td>Apr. 29, 1940</td><td>Apr. 29, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Swift &amp; Co.</th><td>Jan. 11, 1940</td><td>Jan. 26, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Technical Porcelain &amp; China Ware Co.</th><td>Jan. 22, 1940</td><td>Jan. 22, 1940</td><td>Apr. 4, 1940</td></tr>
+<tr><th class="stub" scope="row">Texarkana Bus Co.</th><td>Mar. 7, 1940</td><td>Mar. 13, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Texas Co., The</th><td>Sept. 7, 1939</td><td>Sept. 13, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Texas Corporation</th><td>Apr. 1, 1940</td><td>Apr. 11, 1940</td><td>Aug. 8, 1940</td></tr>
+<tr><th class="stub" scope="row">Tex-O-Kan Co., Burrus Mill &amp; Elevator Co.</th><td>Sept. 18, 1939</td><td>Sept. 28, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Tex-O-Kan Co., Morten Milling Co. branch</th><td>do</td><td>do</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Thermoid Co.</th><td>Apr. 8, 1940</td><td>Apr. 26, 1940</td><td>May 31, 1940</td></tr>
+<tr><th class="stub" scope="row">Triplett Electrical Instrument Co. &amp; Readrite Meter Co.</th><td>June 17, 1940</td><td>June 18, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Ulich, Paul &amp; Co., Inc.</th><td>Sept. 18, 1939</td><td>Oct. 7, 1939</td><td>Aug. 16, 1940</td></tr>
+<tr><th class="stub" scope="row">Union Mfg. Co.</th><td>Mar. 21, 1940</td><td>Mar. 22, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Do</th><td>May 6, 1940</td><td>May 6, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">United Dredging Co.</th><td>May 25, 1939</td><td>July 11, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">United Tent &amp; Awning Co., Ltd., et al.</th><td>Oct. 16, 1939</td><td>Jan. 8, 1940</td><td>Feb. 14, 1940</td></tr>
+<tr><th class="stub" scope="row">Vermont Dairy Co., Inc.</th><td>Dec. 21, 1939</td><td>Dec. 28, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Victor Monaghan Co.</th><td>July 20, 1939</td><td>July 21, 1939</td><td>May 15, 1940</td></tr>
+<tr><th class="stub" scope="row">P. Wall Mfg. &amp; Supply Co.</th><td>Sept. 15, 1939</td><td>Sept. 16, 1939</td><td>Oct. 16, 1939</td></tr>
+<tr><th class="stub" scope="row">Walnut Hosiery Mills, also known as Lark Hosiery Mills</th><td>May 23, 1940</td><td>May 24, 1940</td><td>June 25, 1940</td></tr>
+<tr><th class="stub" scope="row">WFBM Broadcasting Stations, Indianapolis Power &amp; Light Co.</th><td>July 31, 1939</td><td>Aug. 4, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Webster Mfg. Co.</th><td>June 24, 1940</td><td>June 25, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Weirton Coal Co.</th><td>June 17, 1940</td><td>July 24, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Wessel Co., The</th><td>Apr. 11, 1940</td><td>Apr. 13, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Westchester Newspapers, Inc., et al.</th><td>Nov. 27, 1939</td><td>Dec. 22, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Western Union Telegraph Co.</th><td>Dec. 11, 1939</td><td>Dec. 21, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Westinghouse Air-Brake Co.</th><td>Sept. 28, 1939</td><td>Oct. 3, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Weyerhauser Timber Co.</th><td>Oct. 30, 1939</td><td>Oct. 31, 1939</td><td>May 31, 1940</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>May 23, 1940</td><td>May 29, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">White, Bob Mills, Inc.</th><td>May 6, 1940</td><td>May 6, 1940</td><td>June 6, 1940</td></tr>
+<tr><th class="stub" scope="row">H. F. Wilcox Oil &amp; Gas Co.</th><td>Feb. 12, 1940</td><td>Feb. 23, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Williams Motor Co.</th><td>Feb. 29, 1940</td><td>Mar. 5, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Wilson &amp; Co., Inc.</th><td>Nov. 27, 1939</td><td>Dec. 5, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Woonsocket Rayon Co.</th><td>May 16, 1940</td><td>June 21, 1940</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Yale Leather Goods Co. and Aaron Miller</th><td>July 24, 1939</td><td>July 24, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Youngstown Mines Corporation</th><td>June 29, 1939</td><td>July 19, 1939</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Youngstown Mines Corporation et al.</th><td>do</td><td>do</td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1940_p0152_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>See footnotes at end of table.</li>
+<li>1 Awaiting decision.</li>
+<li>2 Additional hearing on Feb. 26, 1940.</li>
+<li>3 Decision issued by stipulation after hearing.</li>
+<li>4 Case closed by compliance with intermediate report.</li>
+<li>5 Subsequently set aside by Board.</li>
+<li>6 Settled after hearing.</li>
+<li>7 Hearing adjourned indefinitely.</li>
+<li>8 Hearing still in progress.</li>
+<li>9 Settled after issuance of intermediate report.</li>
+<li>10 Case closed by intermediate report dismissing complaint.</li>
+<li>11 Additional hearing on Jan. 4, 1940.</li>
+<li>12 Decision issued by stipulation after hearing; set aside Dec. 6, 1939.</li>
+<li>13 Additional hearing on June 3, 1940.</li>
+<li>14 Withdrawn; company went out of business.</li>
+</ol>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 152.</b> Caption block excluded per instructions: the page carries the section head &quot;B. CASES HEARD DURING THE FISCAL YEAR 1939-40&quot; and, below it, the italic sub-caption &quot;Unfair labor practice cases&quot;; both sit above the table&#x27;s top rule, so neither is transcribed as a body row.
+
+No footnote texts are printed on this page. The line below the table reads &quot;See footnotes at end of table.&quot; (slightly clipped by the bottom of the crop); it carries no marker, so `footnotes` is empty. The table continues onto later pages (the alphabetical list stops mid-F).
+
+Parenthesized footnote references standing alone as a cell value are printed as a raised digit inside parentheses; I have transcribed them as &quot;(1)&quot;, &quot;(4)&quot; with no caret, since the whole parenthesis is the cell content rather than a marker attached to a value.
+
+Raised markers printed to the LEFT of a date in the &quot;Decision issued&quot; column have been moved behind a caret after the date, per the marker rule: Belding Hosiery Co., Bemis Bros. Bag Co. (first line), American White Cross Laboratories, Bradburn Motors Co., Cayuga Linen &amp; Cotton Mills, Colonial Togs Co., Colt-Brady Co., Deere John Harvester Works, Evelyn Coats, Faribault Woolen Mills.
+
+Doubtful glyphs: the superscript digit on those &quot;Decision issued&quot; dates is small and partly broken; it reads most like a 3 but a 2 cannot be ruled out — if one is wrong they are all likely wrong together, since the same glyph is used throughout. The marker on &quot;Evelyn Coats&quot; is clearly a different, taller digit, read as 5. The marker in the &quot;Decision issued&quot; cell for &quot;A. S. Beck Shoe Corporation&quot; is read as (4) but is faint and could be (6). The trailing superscript on the &quot;Closed&quot; cell of &quot;Allied Yarns Corporation&quot; (Sept. 22, 1939) is the only marker printed after a value in that column and is read as 3 with the same uncertainty.
+
+Values printed outside the stated fiscal year, transcribed as printed and not corrected: &quot;Decatur Iron and Steel Co.&quot; closed July 19, 1940; &quot;Eavenson &amp; Levering Co., Inc.&quot; closed July 3, 1940; &quot;Allied Yarns Corporation&quot; decision Aug. 26, 1940; &quot;Evelyn Coats&quot; opened Dec. 1, 1938 (the only 1938 date on the page).
+
+&quot;Do&quot; (ditto) rows under American Hat Mfg. Co., Bemis Bros. Bag Co. and Cudahy Packing Co. are indented in the original; the indentation is not reproduced in the stub text.
+
+Blank typographic gaps between alphabetical letter groups are spacing only, not printed rows, and are not transcribed.</p>
+<p><b>p. 153.</b> Continuation page of an alphabetical case list (section \&quot;B. CASES HEARD DURING THE FISCAL YEAR 1939-40\&quot;, subsection \&quot;Unfair labor practice cases\&quot;); the table runs on from the previous page and continues past this crop. No numeric footnotes are printed on this page — only the line \&quot;See footnotes at end of table.\&quot;, which is clipped at the very bottom edge of the crop (the descenders are cut); I have put that line in `footnotes` even though it carries no marker.\n\nDitto marks: the stub and the \&quot;Decision issued\&quot; column print a capitalised \&quot;Do.\&quot;; the \&quot;Opened\&quot; and \&quot;Closed\&quot; columns print a lower-case ditto set inside leader dashes (\&quot;-----do-------\&quot;). I dropped the leaders and transcribed those as \&quot;do.\&quot;; whether the printed lower-case ditto carries a final period is not fully legible at this resolution.\n\nFootnote markers that stand alone in a cell are printed as small raised parenthesised numerals — (1), (6), (8), (9), (10). Because they are the entire content of the cell with no value attached, I transcribed them as \&quot;(1)\&quot; etc. rather than with caret notation. Markers attached to a date are given behind a caret, and note that in the original the marker is printed BEFORE the date in every case except Kroger Grocery &amp; Baking Co., where the \&quot;11\&quot; follows \&quot;July 27, 1939\&quot;.\n\nDoubtful readings:\n- The raised marker printed before \&quot;Mar. 26, 1940\&quot; (General Baking Co., Inc.), \&quot;Dec. 8, 1939\&quot; (Holly Hosiery Mills), \&quot;May 6, 1940\&quot; (Imperial Reed and Fibre Co.) and \&quot;Mar. 25, 1940\&quot; (Jersey Maid Dairy Co., Inc.) in the \&quot;Decision issued\&quot; column is small and thickened by the scan; I read it as 3 in all four places, but 5 is possible. The four are consistent with one another.\n- Hudson Motor Car Co., \&quot;Opened\&quot;: printed as \&quot;May 7. 1940\&quot; with what appears to be a period rather than a comma; transcribed as printed. There is also a stray ink speck to the right of \&quot;June 11, 1940\&quot; in that row&#x27;s \&quot;Closed\&quot; cell, which I treated as dirt and not as a footnote marker.\n- Indianapolis Power and Light Co., \&quot;Closed\&quot;: printed as \&quot;Aug. 4. 1939\&quot;, again with an apparent period for the comma; transcribed as printed.\n- Stub label \&quot;Grity Adrian Mfg. Co.\&quot; is transcribed as it appears; the first word may be a misprint or a broken letter (e.g. \&quot;Gritzy\&quot;).\n- Stub label \&quot;Jackson Shoe Mfg. Co., doing business as H. Jacob &amp; Sons, Inc.,\&quot; wraps onto two printed lines and is joined here; it ends with a comma before the leader dots in the original.\n\nBlank lines separating the alphabetical blocks (F/G, G/H, H/I, I/J, J/K) are typographic spacing only and are not transcribed as rows.</p>
+<p><b>p. 154.</b> Four printed columns: stub &quot;Name of case&quot;, &quot;Hearing&quot; split into &quot;Opened&quot; and &quot;Closed&quot;, and &quot;Decision issued&quot;. This crop is a continuation page; the caption block above the headings (&quot;B. CASES HEARD DURING THE FISCAL YEAR 1939-40—Continued&quot; and the italic sub-caption &quot;Unfair labor practice cases—Continued&quot;) has been left out as caption material.
+
+No numbered footnote texts are printed on this page; the only line below the body is the reference &quot;See footnotes at end of table.&quot;, so `footnotes` is empty.
+
+Ditto marks: cells reading &quot;do&quot; (printed as &quot;do&quot; followed by leader dots) are kept as &quot;do&quot;; row labels printed as &quot;Do&quot; under a repeated case name are kept as &quot;Do&quot;.
+
+Parenthesised raised digits that stand alone in a value cell — (1), (5), (10) — are transcribed as printed, in parentheses, since they occupy the whole cell rather than being attached to a value. Raised markers attached to a date have been moved behind a caret, e.g. a raised 3 printed before &quot;Nov. 2, 1939&quot; is written &quot;Nov. 2, 1939^3&quot;; &quot;Aug. 18, 1939^15&quot; has its raised 15 printed after the date.
+
+Doubtful cells:
+- &quot;New York &amp; Porto Rico Steamship Co.&quot;, Closed: the raised digit inside the parentheses is blurred and could be 5, 6 or 8; transcribed as (5) to match the companion row &quot;New York &amp; Cuba Mail Steamship Co.&quot; directly above it and the third &quot;Do&quot; row under Republic Steel, both of which read (5) more clearly. Flagging in case the three are not in fact the same footnote.
+- &quot;Ohio Calcium Co.&quot;, Decision issued: the parenthesised marker is smudged/overinked; read as (1) from context (every neighbouring row carries (1)), but the glyph itself is not legible.
+- &quot;Philadelphia Gear Works&quot; and &quot;Pickands-Mather Co.&quot;, Decision issued: read as (10); the second digit is faint and could conceivably be a different numeral.
+- The raised markers transcribed as ^3 (six rows: Mayfair Bag, National Herald, National Steel Equipment, Park Hosiery, Rex Textile, Robbins Tire) are small and could be 5 or 8; 3 is the most consistent reading across all six.
+- Three date cells appear to be set with a period rather than a comma before the year — &quot;R. C. Mahon Co.&quot; Closed (&quot;July 20. 1939&quot;), &quot;Poultry Producers of Central California&quot; Closed (&quot;Feb. 2. 1940&quot;), and &quot;J. Allen Smith Co.&quot; Opened (&quot;Feb. 23. 1940&quot;). These are almost certainly commas filled in by the scan, and have been normalised to commas to match every other date in the table; noting it rather than carrying a probable scan artefact into the data.
+
+Spellings kept as printed even where they differ from the usual corporate name: &quot;Libby McNeil &amp; Libby&quot; (usually Libby, McNeill &amp; Libby), &quot;Moore-McCormick Lines, Inc.&quot; (usually Moore-McCormack), &quot;Leybrow Manufacturing Co.&quot;, &quot;Henry Levear, Inc.&quot;.
+
+Blank lines separating the alphabetical groups (L, M, N, O, P, R, S) are typographic spacing only and carry no label, so they are not transcribed as rows. The table continues beyond this crop at both ends.</p>
+<p><b>p. 155.</b> Continuation page of an alphabetical case list (names S through Y); 4 columns: stub &quot;Name of case&quot;, &quot;Hearing&quot; spanning &quot;Opened&quot; and &quot;Closed&quot;, and &quot;Decision issued&quot;.
+
+Footnote references: in the &quot;Decision issued&quot; column a cell that holds only a raised parenthesized numeral is transcribed as printed with a caret on the raised digit, e.g. &quot;(^1)&quot;. Where a raised marker is printed immediately BEFORE a date (e.g. a raised 3 ahead of &quot;May 6, 1940&quot;), it is written after the value per the marker rule, e.g. &quot;May 6, 1940^3&quot;.
+
+Doubtful cells:
+- The small raised markers preceding decision dates are mushy at this scan resolution; I read all of them as 3 (&quot;Decision issued by stipulation after hearing&quot;), which is the only footnote consistent with a printed decision date. Affected rows: Sport Wear Hosiery Co., Standard Cap &amp; Molding Co., Standard Novelty Co. and Julius Miller, Standard Wholesale Phosphate &amp; Acid Works, Technical Porcelain &amp; China Ware Co., Texas Corporation, Thermoid Co., United Tent &amp; Awning Co., P. Wall Mfg. &amp; Supply Co., Walnut Hosiery Mills, White Bob Mills. Individually some rendered to me more like 8 or 9, but 8 (&quot;hearing still in progress&quot;) and 9 (&quot;settled after issuance of intermediate report&quot;) are incompatible with a decision date.
+- Western Union Telegraph Co., &quot;Decision issued&quot;: read as (^6); the digit could be 0 or 5, but footnote 6 &quot;Settled after hearing&quot; fits.
+- &quot;WFBM Broadcasting Stations, Indianapolis Power &amp; Light Co.&quot;: the second letter rendered to me closer to &quot;E&quot; (&quot;WEBM&quot;), but the Indianapolis Power &amp; Light station was WFBM, so I transcribed WFBM. Flagging in case the page truly prints WEBM.
+- Standard Knitting Mills, Inc., &quot;Opened&quot;: a small stray mark sits just before the &quot;8&quot; in &quot;Jan. 8, 1940&quot;; I read it as a printing speck / kerning artifact, not a footnote marker or digit.
+- &quot;Weyerhauser Timber Co.&quot; is transcribed as printed (not the modern spelling &quot;Weyerhaeuser&quot;).
+- Cells printed as &quot;-----do-----&quot; (Tex-O-Kan Morten Milling branch; Youngstown Mines Corporation et al.) are given as &quot;do&quot; with the surrounding dash leaders dropped.
+- &quot;et al.&quot; periods in row labels run into the leader dots and cannot be distinguished with certainty; I rendered them with the period.
+
+Crop: the caption lines (&quot;B. CASES HEARD DURING THE FISCAL YEAR 1939-40—Continued&quot; and the italic subtitle &quot;Unfair labor practice cases—Continued&quot;) are omitted per instructions. Footnote 14 is the last fully legible footnote; a further line appears to begin at the very bottom edge of the crop and may be cut off.
+
+Blank lines separating the alphabetical groups (S / T / U / V / W / Y) are spacing only and are not transcribed as rows.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1940_p0152_t0_p0152.webp" loading="lazy" alt="Source page 152 of NLRB FY1940 annual report">
+<figcaption>Source: NLRB Annual Report FY1940, p. 152.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1940_p0152_t0_p0153.webp" loading="lazy" alt="Source page 153 of NLRB FY1940 annual report">
+<figcaption>Source: NLRB Annual Report FY1940, p. 153.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1940_p0152_t0_p0154.webp" loading="lazy" alt="Source page 154 of NLRB FY1940 annual report">
+<figcaption>Source: NLRB Annual Report FY1940, p. 154.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1940_p0152_t0_p0155.webp" loading="lazy" alt="Source page 155 of NLRB FY1940 annual report">
+<figcaption>Source: NLRB Annual Report FY1940, p. 155.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

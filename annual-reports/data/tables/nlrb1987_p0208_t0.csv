@@ -1,4 +1,20 @@
-Action taken,Total all,Employer - Total,Employer - Agreement of parties - Informal settlement,Employer - Agreement of parties - Formal settlement,Employer - Pursuant to - Recommendations of administrative law judge,Employer - Pursuant to - Order of - Board,Employer - Pursuant to - Order of - Court,Union - Total,Union - Agreement of parties - Informal settlement,Union - Agreement of parties - Formal settlement,Union - Pursuant to - Recommendations of administrative law judge,Union - Pursuant to - Order of - Board,Union - Pursuant to - Order of - Court
-A. By number of cases involved.,,,,,,,,,,,,,
-Notices posted or other assistance with notices,,,,,,,,,,,,,
-B. Other types of employees affected.,,,,,,,,,,,,,
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,AC,UC
+Hearings completed,111,6,98
+Decisions issued after hearing,121,6,107
+By Regional Directors,116,6,103
+By Board,5,0,4
+Transferred by Regional Directors for initial decision,3,0,2
+Review of Regional Directors' decisions:,,,
+Requests for review received,10,2,11
+Withdrawn before request ruled upon,0,0,0
+"Board action on requests ruled upon, total",15,2,11
+Granted,6,1,5
+Denied,7,1,5
+Remanded,2,0,1
+"Withdrawn after request granted, before Board review",0,0,0
+"Board decision after review, total",2,0,2
+Regional Directors' decisions:,,,
+Affirmed,1,0,2
+Modified,1,0,0
+Reversed,0,0,0

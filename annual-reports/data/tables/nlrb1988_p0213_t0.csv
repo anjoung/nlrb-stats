@@ -1,6 +1,68 @@
-row_label,Division and State,All cases,Under labor practices cases — All,Under labor practices cases — CA,Under labor practices cases — CB,Under labor practices cases — CC,Under labor practices cases — CD,Under labor practices cases — CE,Under labor practices cases — CG,Under labor practices cases — CP,Representation cases — All,Representation cases — RC,Representation cases — RM,Representation cases — RD,Union deauthorization cases — UD,Amendment of certification cases — AC,Unit clarification cases — UC
-District of Columbia,344,207,162,43,0,0,0,0,2,137,76,1,60,0,0,0,
-South Atlantic (subtotal — Delaware/Maryland/DC/Virginia/West Virginia/North Carolina/South Carolina/Georgia/Florida),4400,3376,2696,583,66,13,0,1,17,622,519,39,64,91,7,26,
-East South Central (subtotal — Kentucky/Tennessee/Alabama/Mississippi),2131,1733,1466,232,19,6,0,0,10,377,301,12,64,5,1,15,
-West South Central (subtotal — Arkansas/Louisiana/Oklahoma/Texas),3193,2556,,,,,,,,,,,,,,,
-Mountain (subtotal — Montana/Idaho/Wyoming/Colorado/New Mexico/Arizona/Utah/Nevada),1107,869,,,,,,,,,,,,,,,
+Division and State,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases,Representation cases,Union deauthorization cases,Amendment of certification cases,Unit clarification cases
+Division and State,All cases,All C cases,CA,CB,CC,CD,CE,CG,CP,All R cases,RC,RM,RD,Union deauthorization cases,Amendment of certification cases,Unit clarification cases
+Division and State,All cases,All C cases,CA,CB,CC,CD,CE,CG,CP,All R cases,RC,RM,RD,UD,AC,UC
+Maine,105,79,69,10,0,0,0,0,0,25,16,1,8,1,0,0
+New Hampshire,67,54,46,6,2,0,0,0,0,13,10,0,3,0,0,0
+Vermont,37,28,22,6,0,0,0,0,0,8,6,0,2,0,0,1
+Massachusetts,"1,093",904,646,161,53,35,1,3,5,169,140,3,26,3,0,17
+Rhode Island,183,152,123,24,3,1,0,1,0,26,23,0,3,0,0,5
+Connecticut,636,528,405,110,6,2,0,4,1,96,75,8,13,5,0,7
+New England,"2,121","1,745","1,311",317,64,38,1,8,6,337,270,12,55,9,0,30
+New York,"3,495","2,846","1,781",937,64,32,4,7,21,588,485,23,80,13,1,47
+New Jersey,"1,479","1,177",857,258,41,15,0,1,5,275,224,10,41,9,1,17
+Pennsylvania,"2,591","2,160","1,614",423,74,33,5,5,6,392,300,18,74,10,6,23
+Middle Atlantic,"7,565","6,183","4,252","1,618",179,80,9,13,32,"1,255","1,009",51,195,32,8,87
+Ohio,"2,412","1,936","1,496",366,54,1,1,1,17,437,337,13,87,19,2,18
+Indiana,"1,390","1,169",809,291,47,10,3,0,9,198,142,8,48,11,1,11
+Illinois,"2,451","1,858","1,252",481,70,28,2,1,24,575,473,46,56,6,0,12
+Michigan,"2,224","1,757","1,324",384,31,4,0,1,13,433,348,16,69,9,1,24
+Wisconsin,837,657,482,152,14,4,0,0,5,168,122,5,41,3,2,7
+East North Central,"9,314","7,377","5,363","1,674",216,47,6,3,68,"1,811","1,422",88,301,48,6,72
+Iowa,323,214,158,44,9,2,0,0,1,107,84,6,17,0,0,2
+Minnesota,527,356,261,65,25,3,0,0,2,160,124,5,31,2,0,9
+Missouri,"1,256","1,024",687,241,57,19,3,1,16,218,143,15,60,6,1,7
+North Dakota,25,16,12,4,0,0,0,0,0,9,7,0,2,0,0,0
+South Dakota,42,31,25,6,0,0,0,0,0,11,6,3,2,0,0,0
+Nebraska,123,95,60,19,7,0,0,0,9,27,21,2,4,0,0,1
+Kansas,225,160,118,35,4,1,0,0,2,62,49,3,10,0,3,0
+West North Central,"2,521","1,896","1,321",414,102,25,3,1,30,594,434,34,126,8,4,19
+Delaware,114,96,40,49,7,0,0,0,0,16,12,0,4,0,0,2
+Maryland,709,615,407,193,11,2,0,0,2,88,72,2,14,2,1,3
+District of Columbia,244,207,162,43,1,0,0,0,1,26,24,0,2,2,0,9
+Virginia,575,504,383,111,6,2,1,0,1,70,53,3,14,0,0,1
+West Virginia,563,499,391,92,10,0,0,0,6,59,47,2,10,2,1,2
+North Carolina,405,353,279,74,0,0,0,0,0,48,41,1,6,0,0,4
+South Carolina,156,121,86,35,0,0,0,0,0,35,28,2,5,0,0,0
+Georgia,626,513,381,128,3,1,0,0,0,111,92,6,13,0,1,1
+Florida,"1,012",837,569,260,8,0,0,0,0,169,150,2,17,0,0,6
+South Atlantic,"4,404","3,745","2,698",985,46,5,1,0,10,622,519,18,85,6,3,28
+Kentucky,647,534,441,83,4,3,0,0,3,107,79,3,25,2,0,4
+Tennessee,790,657,558,89,9,1,0,0,0,129,105,7,17,0,1,3
+Alabama,474,364,294,60,2,2,0,0,6,107,86,0,21,0,0,3
+Mississippi,210,175,153,20,0,0,0,2,0,34,31,0,3,1,0,0
+East South Central,"2,121","1,730","1,446",252,15,6,0,2,9,377,301,10,66,3,1,10
+Arkansas,177,134,115,18,0,0,0,0,1,37,26,0,11,0,0,6
+Louisiana,237,200,157,39,2,0,0,0,2,35,30,1,4,0,1,1
+Oklahoma,243,192,151,41,0,0,0,0,0,50,37,5,8,0,1,0
+Texas,"1,136",980,660,307,11,0,2,0,0,149,103,6,40,0,1,6
+West South Central,"1,793","1,506","1,083",405,13,0,2,0,3,271,196,12,63,0,3,13
+Montana,174,111,91,12,4,2,0,0,2,57,37,6,14,5,0,1
+Idaho,79,63,53,9,0,1,0,0,0,16,7,0,9,0,0,0
+Wyoming,53,45,39,4,2,0,0,0,0,7,6,0,1,0,0,1
+Colorado,582,474,349,114,11,0,0,0,0,96,72,3,21,1,4,7
+New Mexico,160,121,78,42,0,0,0,1,0,33,27,1,5,2,2,2
+Arizona,472,332,245,82,3,0,0,0,2,137,109,9,19,0,1,2
+Utah,116,80,61,14,1,1,0,0,3,32,29,1,2,0,2,2
+Nevada,531,462,201,249,2,1,1,1,7,67,60,3,4,0,0,2
+Mountain,"2,167","1,688","1,117",526,23,5,1,2,14,445,347,23,75,8,9,17
+Washington,894,642,460,155,17,1,1,0,8,234,143,28,63,9,0,9
+Oregon,527,357,255,69,22,5,0,2,4,158,107,18,33,7,0,5
+California,"5,302","4,127","2,598","1,271",149,31,15,4,59,"1,098",834,89,175,30,2,45
+Alaska,138,104,70,31,1,0,0,0,2,33,25,6,2,0,0,1
+Hawaii,174,117,87,21,4,2,0,0,3,48,46,0,2,5,0,4
+Guam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific,"7,035","5,347","3,470","1,547",193,39,16,6,76,"1,571","1,155",141,275,51,2,64
+Puerto Rico,295,224,194,28,0,0,0,2,0,62,45,2,15,0,1,8
+Virgin Islands,15,12,11,1,0,0,0,0,0,3,2,1,0,0,0,0
+Outlying areas,310,236,205,29,0,0,0,2,0,65,47,3,15,0,1,8
+"Total, all States and areas","39,351","31,453","22,266","7,767",851,245,39,37,248,"7,348","5,700",392,"1,256",165,37,348

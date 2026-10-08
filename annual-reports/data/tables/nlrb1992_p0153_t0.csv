@@ -1,7 +1,11 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10
-Total number of cases closed,5860,103.0,4538,100.0,232,100.0,1090,100.0,145,100.0
-Before issuance of notice of hearing. -- ............ ------_____....--,1900,32.4,1203,26.5,119,51.3,578,53.0,115,79.3
-"After issuance of notice, before close of hearing _ ...... -.-",3120,53.2,2618,57.7,86,37.1,416,38.2,14,9.7
-"After hearing closed, before issuance of decision",69,1.2,56,1.2,1,0.4,12,1.1,1,0.6
-After issuance of Regional Director's decision,771,13.2,661,14.6,26,11.2,84,7.7,15,10.3
-After issuance of Board decision,0,,0,,0,,0,,0,
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CG cases,CG cases,CP cases,CP cases
+Stage of disposition,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed
+Total number of cases closed,"32,750",100.0,"22,785",100.0,"8,382",100.0,938,100.0,278,100.0,143,100.0,31,100.0,193,100.0
+Before issuance of complaint,"28,606",87.3,"19,558",85.8,"7,835",93.5,614,65.5,273,98.2,124,86.7,27,87.1,175,90.7
+"After issuance of complaint, before opening of hearing","3,001",9.2,"2,244",9.8,434,5.2,294,31.3,2,0.7,12,8.4,2,6.5,13,6.7
+"After hearing opened, before issuance of administrative law judge's decision",161,0.5,142,0.6,8,0.1,10,1.1,0,,0,,1,3.2,0,
+"After administrative law judge's decision, before issuance of Board decision",51,0.2,48,0.2,0,,3,0.3,0,,0,,0,,0,
+After Board order adopting administrative law judge's decision in absence of exceptions,246,0.8,209,0.9,24,0.3,5,0.5,1,0.4,3,2.1,1,3.2,3,1.6
+"After Board decision, before circuit court decree",389,1.2,317,1.4,60,0.7,10,1.1,0,,2,1.4,0,,0,
+"After circuit court decree, before Supreme Court action",276,0.8,248,1.1,20,0.2,2,0.2,2,0.7,2,1.4,0,,2,1.0
+After Supreme Court action,2,,2,,0,,0,,0,,0,,0,,0,

@@ -1,3 +1,23 @@
-row_label,Circuit courts of appeals (headquarters),Total transition Qtr July-Sept 1976,Total fiscal years 1972-76,Affirmed in full / TQ July-Sept 76 Number,TQ July-Sept 76 Percent,Cumulative fiscal years 1972-76 Number,Cumulative fiscal years 1972-76 Percent,Modified / TQ July-Sept 76 Number,TQ July-Sept 76 Percent,Cumulative fiscal years 1972-76 Number,Cumulative fiscal years 1972-76 Percent,Remanded in full / TQ July-Sept 76 Number,TQ July-Sept 76 Percent,Cumulative fiscal years 1972-76 Number,Cumulative fiscal years 1972-76 Percent,Affirmed in part and remanded in part / TQ July-Sept 76 Number,TQ July-Sept 76 Percent,Cumulative fiscal years 1972-76 Number,Cumulative fiscal years 1972-76 Percent,Set aside / TQ July-Sept 76 Number,TQ July-Sept 76 Percent,Cumulative fiscal years 1972-76 Number,Cumulative fiscal years 1972-76 Percent
-Total all circuits,55,1500,33,60.0,1005,73.0,7,12.7,140,9.3,4,7.3,73,4.9,1,2.0,27,1.8,10,18.2,165,11.0,
-"1. Boston, Mass.",,,,,,,,,,,,,,,,,,,,,,,
+,Transition Qtr (July-September 1976),Transition Qtr (July-September 1976),Transition Qtr (July-September 1976),Transition Qtr (July-September 1976),Transition Qtr (July-September 1976),Transition Qtr (July-September 1976),Transition Qtr (July-September 1976),Transition Qtr (July-September 1976),Transition Qtr (July-September 1976),"July 5, 1935-Sept. 30, 1976","July 5, 1935-Sept. 30, 1976"
+,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Percentages,Percentages,Percentages,Percentages,"July 5, 1935-Sept. 30, 1976","July 5, 1935-Sept. 30, 1976"
+,Total,Vs. employers only,Vs. unions only,Vs. both employers and unions,Board dismissal,Vs. employers only,Vs. unions only,Vs. both employers and unions,Board dismissal,Number,Percent
+Proceedings decided by U.S. courts of appeals,55,45,9,0,1,,,,,,
+On petitions for review and/or enforcement,55,45,9,0,1,100.0,100.0,100.0,100.0,"6,263",100.0
+Board orders affirmed in full,33,24,9,0,0,53.3,100.0,,,"3,951",63.1
+Board orders affirmed with modification,7,7,0,0,0,15.6,,,,"1,028",16.4
+Remanded to Board,5,4,0,0,1,8.9,,,100.0,278,4.4
+Board orders partially affirmed and partially remanded,0,0,0,0,0,,,,,97,1.6
+Board orders set aside,10,10,0,0,0,22.2,,,,909,14.5
+On petitions for contempt,0,0,0,0,0,,,,,,
+"Compliance after filing of petition, before court order",0,0,0,0,0,,,,,,
+Court orders holding respondent in contempt,0,0,0,0,0,,,,,,
+Court orders denying petition,0,0,0,0,0,,,,,,
+Proceedings decided by U.S. Supreme Court,0,0,0,0,0,,,,,215,100.0
+Board orders affirmed in full,0,0,0,0,0,,,,,128,59.5
+Board orders affirmed with modification,0,0,0,0,0,,,,,16,7.4
+Board orders set aside,0,0,0,0,0,,,,,34,15.8
+Remanded to Board,0,0,0,0,0,,,,,18,8.4
+Remanded to court of appeals,0,0,0,0,0,,,,,16,7.4
+Board's request for remand or modification of enforcement order denied,0,0,0,0,0,,,,,1,0.5
+Contempt cases remanded to courts of appeals,0,0,0,0,0,,,,,1,0.5
+Contempt cases enforced,0,0,0,0,0,,,,,1,0.5

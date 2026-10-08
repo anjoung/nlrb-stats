@@ -1,43 +1,38 @@
-row_label,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
-CA cases,,,,,,,
-"Pending October 1, 1978",12957,6066,1504,551,422,4377,37
-Received fiscal 1979,29026,12036,3144,912,688,12156,90
-On docket fiscal 1979,41983,18102,4648,1463,1110,16543,127
-Closed fiscal 1979,28770,11714,3125,910,691,12240,90
-"Pending September 30, 1979",13213,6388,1523,553,419,4293,37
-CB cases,,,,,,,
-"Pending October 1, 1978",2695,30,7,6,17,1952,683
-Received fiscal 1979,9157,79,9,3,34,7487,1545
-On docket fiscal 1979,11852,109,16,9,51,9439,2228
-Closed fiscal 1979,9510,79,9,6,38,7841,1558
-"Pending September 30, 1979",2342,30,7,3,13,1596,670
-CC cases,,,,,,,
-"Pending October 1, 1978",784,1,0,2,44,25,712
-Received fiscal 1979,1947,10,5,14,75,16,1812
-On docket fiscal 1979,2731,12,2,16,119,41,2524
-Closed fiscal 1979,2001,11,1,17,16,31,1855
-"Pending September 30, 1979",730,1,4,1,29,26,699
-CD cases,,,,,,,
-"Pending October 1, 1978",170,8,0,2,1,1,158
-Received fiscal 1979,421,4,0,1,8,12,396
-On docket fiscal 1979,591,12,0,3,9,13,554
-Closed fiscal 1979,484,11,0,8,9,6,450
-"Pending September 30, 1979",107,1,0,0,0,2,104
-CE cases,,,,,,,
-"Pending October 1, 1978",154,1,0,0,32,6,115
-Received fiscal 1979,128,3,0,0,6,3,116
-On docket fiscal 1979,282,4,0,0,38,9,231
-Closed fiscal 1979,159,3,0,0,12,6,138
-"Pending September 30, 1979",123,1,0,0,26,3,93
-CG cases,,,,,,,
-"Pending October 1, 1978",27,0,0,1,0,0,26
-Received fiscal 1979,50,1,0,0,0,0,49
-On docket fiscal 1979,77,1,0,1,0,0,75
-Closed fiscal 1979,44,0,0,0,0,0,44
-"Pending September 30, 1979",33,1,0,1,0,0,31
-CP cases,,,,,,,
-"Pending October 1, 1978",155,0,0,1,1,2,151
-Received fiscal 1979,530,1,0,1,12,5,511
-On docket fiscal 1979,685,1,0,2,13,8,661
-Closed fiscal 1979,576,1,0,0,8,32,633
-"Pending September 30, 1979",109,0,0,0,5,31,102
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending October 1, 1978","21,211","8,190","2,418",788,766,"6,871","2,178"
+Received fiscal 1979,"54,907","18,135","6,389","1,526","1,521","21,934","5,402"
+On docket fiscal 1979,"76,118","26,325","8,807","2,314","2,287","28,805","7,580"
+Closed fiscal 1979,"55,794","18,139","6,482","1,554","1,580","22,417","5,622"
+"Pending September 30, 1979","20,324","8,186","2,325",760,707,"6,388","1,958"
+Unfair labor practice cases,,,,,,,
+"Pending October 1, 1978","16,942","6,107","1,512",562,517,"6,362","1,882"
+Received fiscal 1979,"41,259","12,134","3,154",943,757,"19,781","4,490"
+On docket fiscal 1979,"58,201","18,241","4,666","1,505","1,274","26,143","6,372"
+Closed fiscal 1979,"41,544","11,819","3,135",945,786,"20,219","4,640"
+"Pending September 30, 1979","16,657","6,422","1,531",560,488,"5,924","1,732"
+Representation cases,,,,,,,
+"Pending October 1, 1978","4,024","2,020",898,221,233,408,244
+Received fiscal 1979,"12,905","5,819","3,198",568,733,"1,808",779
+On docket fiscal 1979,"16,929","7,839","4,096",789,966,"2,216","1,023"
+Closed fiscal 1979,"13,465","6,129","3,309",593,750,"1,853",831
+"Pending September 30, 1979","3,464","1,710",787,196,216,363,192
+Union-shop deauthorization cases,,,,,,,
+"Pending October 1, 1978",96,,,,,96,
+Received fiscal 1979,330,,,,,330,
+On docket fiscal 1979,426,,,,,426,
+Closed fiscal 1979,328,,,,,328,
+"Pending September 30, 1979",98,,,,,98,
+Amendment of certification cases,,,,,,,
+"Pending October 1, 1978",32,21,1,2,2,1,5
+Received fiscal 1979,64,35,4,3,11,2,9
+On docket fiscal 1979,96,56,5,5,13,3,14
+Closed fiscal 1979,81,43,4,5,12,3,14
+"Pending September 30, 1979",15,13,1,0,1,0,0
+Unit clarification cases,,,,,,,
+"Pending October 1, 1978",117,42,7,3,14,4,47
+Received fiscal 1979,349,147,33,12,20,13,124
+On docket fiscal 1979,466,189,40,15,34,17,171
+Closed fiscal 1979,376,148,34,11,32,14,137
+"Pending September 30, 1979",90,41,6,4,2,3,34

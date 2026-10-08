@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Final Outcome of Representation Elections in Cases Closed, Fiscal Year 1974 — NLRB FY1974</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1974.html">FY1974</a> &rsaquo; Final Outcome of Representation Elections in Cases Closed, Fiscal Year 1974</p>
+<h1>Final Outcome of Representation Elections in Cases Closed, Fiscal Year 1974</h1>
+<p class="meta">printed as Table 13 &middot; source pages 235–238 &middot; <code>nlrb1974_p0235_t0</code></p>
+<p class="spans-note">Stitched from pp. 235–238.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Participating unions</th><th>Total elections</th><th colspan="6">Elections won by unions</th><th>Elections in which no representative chosen</th><th colspan="6">Employees eligible to vote</th><th>In elections where no representative chosen</th></tr>
+<tr><th>Participating unions</th><th>Total elections</th><th>Percent won</th><th>Total won</th><th>AFL-CIO unions</th><th>Teamsters</th><th>Other national unions</th><th>Other local unions</th><th>Elections in which no representative chosen</th><th>Total</th><th>In elections won</th><th colspan="4">In units won by</th><th>In elections where no representative chosen</th></tr>
+<tr><th>Participating unions</th><th>Total elections</th><th>Percent won</th><th>Total won</th><th>AFL-CIO unions</th><th>Teamsters</th><th>Other national unions</th><th>Other local unions</th><th>Elections in which no representative chosen</th><th>Total</th><th>In elections won</th><th>AFL-CIO unions</th><th>Teamsters</th><th>Other national unions</th><th>Other local unions</th><th>In elections where no representative chosen</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">A. All representation elections</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">AFL-CIO</th><td>4,887</td><td>47.1</td><td>2,302</td><td>2,302</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>2,585</td><td>324,321</td><td>106,155</td><td>106,155</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>218,166</td></tr>
+<tr><th class="stub" scope="row">Teamsters</th><td>2,647</td><td>48.2</td><td>1,276</td><td class="blank"></td><td>1,276</td><td class="blank"></td><td class="blank"></td><td>1,371</td><td>85,011</td><td>30,356</td><td class="blank"></td><td>30,356</td><td class="blank"></td><td class="blank"></td><td>54,655</td></tr>
+<tr><th class="stub" scope="row">Other national unions</th><td>481</td><td>51.6</td><td>248</td><td class="blank"></td><td class="blank"></td><td>248</td><td class="blank"></td><td>233</td><td>43,801</td><td>14,147</td><td class="blank"></td><td class="blank"></td><td>14,147</td><td class="blank"></td><td>29,654</td></tr>
+<tr><th class="stub" scope="row">Other local unions</th><td>244</td><td>57.4</td><td>140</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>140</td><td>104</td><td>14,674</td><td>4,456</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>4,456</td><td>10,218</td></tr>
+<tr><th class="stub" scope="row">1-union elections</th><td>8,259</td><td>48.0</td><td>3,966</td><td>2,302</td><td>1,276</td><td>248</td><td>140</td><td>4,293</td><td>467,807</td><td>155,114</td><td>106,155</td><td>30,356</td><td>14,147</td><td>4,456</td><td>312,693</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO</th><td>145</td><td>67.6</td><td>98</td><td>98</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>47</td><td>17,224</td><td>6,280</td><td>6,280</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>10,944</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. Teamsters</th><td>194</td><td>74.2</td><td>144</td><td>66</td><td>78</td><td class="blank"></td><td class="blank"></td><td>50</td><td>22,135</td><td>12,674</td><td>5,798</td><td>6,876</td><td class="blank"></td><td class="blank"></td><td>9,461</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. national</th><td>41</td><td>75.6</td><td>31</td><td>15</td><td class="blank"></td><td>16</td><td class="blank"></td><td>10</td><td>4,580</td><td>2,738</td><td>1,237</td><td class="blank"></td><td>1,501</td><td class="blank"></td><td>1,842</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. local</th><td>98</td><td>83.7</td><td>82</td><td>43</td><td class="blank"></td><td class="blank"></td><td>39</td><td>16</td><td>15,717</td><td>13,100</td><td>7,517</td><td class="blank"></td><td class="blank"></td><td>5,583</td><td>2,617</td></tr>
+<tr><th class="stub" scope="row">Teamsters v. national</th><td>15</td><td>66.7</td><td>10</td><td class="blank"></td><td>4</td><td>6</td><td class="blank"></td><td>5</td><td>2,617</td><td>1,442</td><td class="blank"></td><td>636</td><td>806</td><td class="blank"></td><td>1,175</td></tr>
+<tr><th class="stub" scope="row">Teamsters v. local</th><td>46</td><td>91.3</td><td>42</td><td class="blank"></td><td>23</td><td class="blank"></td><td>19</td><td>4</td><td>4,322</td><td>3,731</td><td class="blank"></td><td>1,961</td><td class="blank"></td><td>1,770</td><td>591</td></tr>
+<tr><th class="stub" scope="row">Teamsters v. Teamsters</th><td>4</td><td>100.0</td><td>4</td><td class="blank"></td><td>4</td><td class="blank"></td><td class="blank"></td><td>0</td><td>373</td><td>373</td><td class="blank"></td><td>373</td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">National v. local</th><td>13</td><td>92.3</td><td>12</td><td class="blank"></td><td class="blank"></td><td>5</td><td>7</td><td>1</td><td>1,115</td><td>1,063</td><td class="blank"></td><td class="blank"></td><td>669</td><td>394</td><td>52</td></tr>
+<tr><th class="stub" scope="row">National v. national</th><td>4</td><td>100.0</td><td>4</td><td class="blank"></td><td class="blank"></td><td>4</td><td class="blank"></td><td>0</td><td>382</td><td>382</td><td class="blank"></td><td class="blank"></td><td>382</td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">Local v. local</th><td>17</td><td>82.4</td><td>14</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>14</td><td>3</td><td>2,543</td><td>1,603</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>1,603</td><td>940</td></tr>
+<tr><th class="stub" scope="row">2-union elections</th><td>577</td><td>76.4</td><td>441</td><td>222</td><td>109</td><td>31</td><td>79</td><td>136</td><td>71,008</td><td>43,386</td><td>20,832</td><td>9,846</td><td>3,358</td><td>9,350</td><td>27,622</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO v. AFL-CIO</th><td>3</td><td>33.3</td><td>1</td><td>1</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>2</td><td>239</td><td>53</td><td>53</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>186</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO v. Teamsters</th><td>1</td><td>100.0</td><td>1</td><td>1</td><td>0</td><td class="blank"></td><td class="blank"></td><td>0</td><td>61</td><td>61</td><td>61</td><td>0</td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO v. national</th><td>2</td><td>50.0</td><td>1</td><td>0</td><td class="blank"></td><td>1</td><td class="blank"></td><td>1</td><td>581</td><td>206</td><td>0</td><td class="blank"></td><td>206</td><td class="blank"></td><td>375</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO v. local</th><td>3</td><td>100.0</td><td>3</td><td>2</td><td class="blank"></td><td class="blank"></td><td>1</td><td>0</td><td>160</td><td>160</td><td>153</td><td class="blank"></td><td class="blank"></td><td>7</td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. Teamsters v. Teamsters</th><td>1</td><td>100.0</td><td>1</td><td>1</td><td>0</td><td class="blank"></td><td class="blank"></td><td>0</td><td>36</td><td>36</td><td>36</td><td>0</td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. Teamsters v. national</th><td>1</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="blank"></td><td>1</td><td>190</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="blank"></td><td>190</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. Teamsters v. local</th><td>4</td><td>100.0</td><td>4</td><td>2</td><td>2</td><td class="blank"></td><td>0</td><td>0</td><td>360</td><td>360</td><td>324</td><td>36</td><td class="blank"></td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. national v. local</th><td>1</td><td>100.0</td><td>1</td><td>0</td><td class="blank"></td><td>1</td><td>0</td><td>0</td><td>2,075</td><td>2,075</td><td>0</td><td class="blank"></td><td>2,075</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. local v. local</th><td>3</td><td>100.0</td><td>3</td><td>2</td><td class="blank"></td><td class="blank"></td><td>1</td><td>0</td><td>484</td><td>484</td><td>464</td><td class="blank"></td><td class="blank"></td><td>20</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Teamsters v. local v. local</th><td>2</td><td>100.0</td><td>2</td><td class="blank"></td><td>0</td><td class="blank"></td><td>2</td><td>0</td><td>105</td><td>105</td><td class="blank"></td><td>0</td><td class="blank"></td><td>105</td><td>0</td></tr>
+<tr><th class="stub" scope="row">National v. local v. local</th><td>1</td><td>100.0</td><td>1</td><td class="blank"></td><td class="blank"></td><td>0</td><td>1</td><td>0</td><td>1,225</td><td>1,225</td><td class="blank"></td><td class="blank"></td><td>0</td><td>1,225</td><td>0</td></tr>
+<tr><th class="stub" scope="row">(3 or more)-union elections</th><td>22</td><td>81.8</td><td>18</td><td>9</td><td>2</td><td>2</td><td>5</td><td>4</td><td>5,516</td><td>4,765</td><td>1,091</td><td>36</td><td>2,281</td><td>1,357</td><td>751</td></tr>
+<tr><th class="stub" scope="row">Total representation elections</th><td>8,858</td><td>50.0</td><td>4,425</td><td>2,533</td><td>1,387</td><td>281</td><td>224</td><td>4,433</td><td>544,331</td><td>203,265</td><td>128,078</td><td>40,238</td><td>19,786</td><td>15,163</td><td>341,066</td></tr>
+<tr><th class="stub" scope="row">B. Elections in RC cases</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">AFL-CIO</th><td>4,397</td><td>48.9</td><td>2,151</td><td>2,151</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>2,246</td><td>301,226</td><td>96,295</td><td>96,295</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>204,931</td></tr>
+<tr><th class="stub" scope="row">Teamsters</th><td>2,366</td><td>50.4</td><td>1,193</td><td class="blank"></td><td>1,193</td><td class="blank"></td><td class="blank"></td><td>1,173</td><td>75,887</td><td>26,382</td><td class="blank"></td><td>26,382</td><td class="blank"></td><td class="blank"></td><td>49,505</td></tr>
+<tr><th class="stub" scope="row">Other national unions</th><td>456</td><td>51.8</td><td>236</td><td class="blank"></td><td class="blank"></td><td>236</td><td class="blank"></td><td>220</td><td>42,972</td><td>13,730</td><td class="blank"></td><td class="blank"></td><td>13,730</td><td class="blank"></td><td>29,242</td></tr>
+<tr><th class="stub" scope="row">Other local unions</th><td>222</td><td>60.4</td><td>134</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>134</td><td>88</td><td>13,897</td><td>4,200</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>4,200</td><td>9,697</td></tr>
+<tr><th class="stub" scope="row">1-union elections</th><td>7,441</td><td>49.9</td><td>3,714</td><td>2,151</td><td>1,193</td><td>236</td><td>134</td><td>3,727</td><td>433,982</td><td>140,607</td><td>96,295</td><td>26,382</td><td>13,730</td><td>4,200</td><td>293,375</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO</th><td>138</td><td>65.9</td><td>91</td><td>91</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>47</td><td>16,897</td><td>5,953</td><td>5,953</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>10,944</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. Teamsters</th><td>175</td><td>72.6</td><td>127</td><td>55</td><td>72</td><td class="blank"></td><td class="blank"></td><td>48</td><td>20,648</td><td>11,286</td><td>5,318</td><td>5,968</td><td class="blank"></td><td class="blank"></td><td>9,362</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. national</th><td>37</td><td>73.0</td><td>27</td><td>14</td><td class="blank"></td><td>13</td><td class="blank"></td><td>10</td><td>4,435</td><td>2,593</td><td>1,142</td><td class="blank"></td><td>1,451</td><td class="blank"></td><td>1,842</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. local</th><td>92</td><td>83.7</td><td>77</td><td>40</td><td class="blank"></td><td class="blank"></td><td>37</td><td>15</td><td>13,989</td><td>11,391</td><td>5,873</td><td class="blank"></td><td class="blank"></td><td>5,518</td><td>2,598</td></tr>
+<tr><th class="stub" scope="row">Teamsters v. national</th><td>12</td><td>66.7</td><td>8</td><td class="blank"></td><td>3</td><td>0</td><td class="blank"></td><td>4</td><td>2,451</td><td>1,306</td><td class="blank"></td><td>515</td><td>791</td><td class="blank"></td><td>1,145</td></tr>
+<tr><th class="stub" scope="row">Teamsters v. local</th><td>45</td><td>91.1</td><td>41</td><td class="blank"></td><td>22</td><td class="blank"></td><td>19</td><td>4</td><td>4,132</td><td>3,541</td><td class="blank"></td><td>1,771</td><td class="blank"></td><td>1,770</td><td>591</td></tr>
+<tr><th class="stub" scope="row">Teamsters v. Teamsters</th><td>3</td><td>100.0</td><td>3</td><td class="blank"></td><td>3</td><td class="blank"></td><td class="blank"></td><td>0</td><td>226</td><td>226</td><td class="blank"></td><td>226</td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">National v. local</th><td>12</td><td>91.7</td><td>11</td><td class="blank"></td><td class="blank"></td><td>5</td><td>6</td><td>1</td><td>1,085</td><td>1,033</td><td class="blank"></td><td class="blank"></td><td>669</td><td>364</td><td>52</td></tr>
+<tr><th class="stub" scope="row">National v. national</th><td>3</td><td>100.0</td><td>3</td><td class="blank"></td><td class="blank"></td><td>3</td><td class="blank"></td><td>0</td><td>351</td><td>351</td><td class="blank"></td><td class="blank"></td><td>351</td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">Local v. local</th><td>16</td><td>81.3</td><td>13</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>13</td><td>3</td><td>2,493</td><td>1,553</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>1,553</td><td>940</td></tr>
+<tr><th class="stub" scope="row">2-union elections</th><td>533</td><td>75.2</td><td>401</td><td>200</td><td>100</td><td>26</td><td>75</td><td>132</td><td>66,707</td><td>39,233</td><td>18,286</td><td>8,480</td><td>3,262</td><td>9,205</td><td>27,474</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO v. AFL-CIO</th><td>3</td><td>33.3</td><td>1</td><td>1</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>2</td><td>239</td><td>53</td><td>53</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>186</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO v. Teamsters</th><td>1</td><td>100.0</td><td>1</td><td>1</td><td>0</td><td class="blank"></td><td class="blank"></td><td>0</td><td>61</td><td>61</td><td>61</td><td>0</td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO v. national</th><td>2</td><td>50.0</td><td>1</td><td>0</td><td class="blank"></td><td>1</td><td class="blank"></td><td>1</td><td>581</td><td>0</td><td>0</td><td class="blank"></td><td>236</td><td class="blank"></td><td>375</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO v. local</th><td>2</td><td>100.0</td><td>2</td><td>1</td><td class="blank"></td><td class="blank"></td><td>1</td><td>0</td><td>25</td><td>25</td><td>18</td><td class="blank"></td><td class="blank"></td><td>7</td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. Teamsters v. Teamsters</th><td>1</td><td>100.0</td><td>1</td><td>1</td><td>0</td><td class="blank"></td><td class="blank"></td><td>0</td><td>36</td><td>36</td><td>36</td><td>0</td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. Teamsters v. national</th><td>1</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="blank"></td><td>1</td><td>190</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="blank"></td><td>190</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. Teamsters v. local</th><td>3</td><td>100.0</td><td>3</td><td>2</td><td>1</td><td class="blank"></td><td>0</td><td>0</td><td>337</td><td>337</td><td>324</td><td>13</td><td class="blank"></td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. national v. local</th><td>1</td><td>100.0</td><td>1</td><td>0</td><td class="blank"></td><td>1</td><td>0</td><td>0</td><td>2,075</td><td>2,075</td><td>0</td><td class="blank"></td><td>2,075</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. local v. local</th><td>3</td><td>100.0</td><td>3</td><td>2</td><td class="blank"></td><td class="blank"></td><td>1</td><td>0</td><td>484</td><td>484</td><td>464</td><td class="blank"></td><td class="blank"></td><td>20</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Teamsters v. local v. local</th><td>2</td><td>100.0</td><td>2</td><td class="blank"></td><td>0</td><td class="blank"></td><td>2</td><td>0</td><td>105</td><td>105</td><td class="blank"></td><td>0</td><td class="blank"></td><td>105</td><td>0</td></tr>
+<tr><th class="stub" scope="row">National v. local v. local</th><td>1</td><td>100.0</td><td>1</td><td class="blank"></td><td class="blank"></td><td>0</td><td>1</td><td>0</td><td>1,225</td><td>1,225</td><td class="blank"></td><td class="blank"></td><td>0</td><td>1,225</td><td>0</td></tr>
+<tr><th class="stub" scope="row">(3 or more)-union elections</th><td>20</td><td>80.0</td><td>16</td><td>8</td><td>1</td><td>2</td><td>5</td><td>0</td><td>5,358</td><td>4,607</td><td>956</td><td>13</td><td>2,281</td><td>1,357</td><td>751</td></tr>
+<tr><th class="stub" scope="row">Total RC elections</th><td>7,994</td><td>51.7</td><td>4,131</td><td>2,359</td><td>1,294</td><td>264</td><td>214</td><td>3,863</td><td>506,047</td><td>184,447</td><td>115,537</td><td>34,875</td><td>19,273</td><td>14,762</td><td>321,600</td></tr>
+<tr><th class="stub" scope="row">C. Elections in RM cases</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">AFL-CIO</th><td>207</td><td>34.8</td><td>72</td><td>72</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>135</td><td>9,175</td><td>3,221</td><td>3,221</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>5,954</td></tr>
+<tr><th class="stub" scope="row">Teamsters</th><td>131</td><td>34.4</td><td>45</td><td class="blank"></td><td>45</td><td class="blank"></td><td class="blank"></td><td>86</td><td>2,992</td><td>1,357</td><td class="blank"></td><td>1,357</td><td class="blank"></td><td class="blank"></td><td>1,635</td></tr>
+<tr><th class="stub" scope="row">Other national unions</th><td>6</td><td>66.7</td><td>4</td><td class="blank"></td><td class="blank"></td><td>4</td><td class="blank"></td><td>2</td><td>82</td><td>41</td><td class="blank"></td><td class="blank"></td><td>41</td><td class="blank"></td><td>41</td></tr>
+<tr><th class="stub" scope="row">Other local unions</th><td>12</td><td>33.3</td><td>4</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>4</td><td>8</td><td>404</td><td>68</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>68</td><td>336</td></tr>
+<tr><th class="stub" scope="row">1-union elections</th><td>356</td><td>35.1</td><td>125</td><td>72</td><td>45</td><td>4</td><td>4</td><td>231</td><td>12,653</td><td>4,687</td><td>3,221</td><td>1,357</td><td>41</td><td>68</td><td>7,966</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO</th><td>6</td><td>100.0</td><td>6</td><td>6</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>0</td><td>306</td><td>306</td><td>306</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. Teamsters</th><td>3</td><td>100.0</td><td>3</td><td>3</td><td>0</td><td class="blank"></td><td class="blank"></td><td>0</td><td>20</td><td>20</td><td>20</td><td>0</td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. national</th><td>2</td><td>100.0</td><td>2</td><td>0</td><td class="blank"></td><td>0</td><td class="blank"></td><td>0</td><td>17</td><td>17</td><td>0</td><td class="blank"></td><td>17</td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. local</th><td>2</td><td>100.0</td><td>2</td><td>1</td><td class="blank"></td><td class="blank"></td><td>1</td><td>0</td><td>171</td><td>171</td><td>150</td><td class="blank"></td><td class="blank"></td><td>21</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Teamsters v. national</th><td>2</td><td>50.0</td><td>1</td><td class="blank"></td><td>0</td><td>1</td><td class="blank"></td><td>1</td><td>45</td><td>15</td><td class="blank"></td><td>0</td><td>15</td><td class="blank"></td><td>30</td></tr>
+<tr><th class="stub" scope="row">Teamsters v. local</th><td>1</td><td>100.0</td><td>1</td><td class="blank"></td><td>1</td><td class="blank"></td><td>0</td><td>0</td><td>190</td><td>190</td><td class="blank"></td><td>190</td><td class="blank"></td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Local v. local</th><td>1</td><td>100.0</td><td>1</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>1</td><td>0</td><td>50</td><td>50</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>50</td><td>0</td></tr>
+<tr><th class="stub" scope="row">2-union elections</th><td>17</td><td>94.1</td><td>16</td><td>10</td><td>1</td><td>3</td><td>2</td><td>1</td><td>799</td><td>769</td><td>476</td><td>190</td><td>32</td><td>71</td><td>30</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. AFL-CIO v. local</th><td>1</td><td>100.0</td><td>1</td><td>1</td><td class="blank"></td><td class="blank"></td><td>0</td><td>0</td><td>135</td><td>135</td><td>135</td><td class="blank"></td><td class="blank"></td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">3(or more)-union elections</th><td>1</td><td>100.0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>135</td><td>135</td><td>135</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Total RM elections</th><td>374</td><td>38.0</td><td>142</td><td>83</td><td>46</td><td>7</td><td>6</td><td>232</td><td>13,587</td><td>5,591</td><td>3,832</td><td>1,547</td><td>73</td><td>139</td><td>7,996</td></tr>
+<tr><th class="stub" scope="row">D. Elections in RD cases</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">AFL-CIO</th><td>283</td><td>27.9</td><td>79</td><td>79</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>204</td><td>13,920</td><td>6,639</td><td>6,639</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>7,281</td></tr>
+<tr><th class="stub" scope="row">Teamsters</th><td>150</td><td>25.3</td><td>38</td><td class="blank"></td><td>38</td><td class="blank"></td><td class="blank"></td><td>112</td><td>6,132</td><td>2,617</td><td class="blank"></td><td>2,617</td><td class="blank"></td><td class="blank"></td><td>3,515</td></tr>
+<tr><th class="stub" scope="row">Other national unions</th><td>19</td><td>42.1</td><td>8</td><td class="blank"></td><td class="blank"></td><td>8</td><td class="blank"></td><td>11</td><td>747</td><td>376</td><td class="blank"></td><td class="blank"></td><td>376</td><td class="blank"></td><td>371</td></tr>
+<tr><th class="stub" scope="row">Other local unions</th><td>10</td><td>20.0</td><td>2</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>2</td><td>8</td><td>373</td><td>188</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>188</td><td>185</td></tr>
+<tr><th class="stub" scope="row">1-union elections</th><td>462</td><td>27.5</td><td>127</td><td>79</td><td>38</td><td>8</td><td>2</td><td>335</td><td>21,172</td><td>9,820</td><td>6,639</td><td>2,617</td><td>376</td><td>188</td><td>11,352</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v AFL-CIO</th><td>1</td><td>100.0</td><td>1</td><td>1</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>0</td><td>21</td><td>21</td><td>21</td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v Teamsters</th><td>16</td><td>87.5</td><td>14</td><td>8</td><td>6</td><td class="blank"></td><td class="blank"></td><td>2</td><td>1,467</td><td>1,368</td><td>460</td><td>908</td><td class="blank"></td><td class="blank"></td><td>99</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v national</th><td>2</td><td>100.0</td><td>2</td><td>1</td><td class="blank"></td><td>1</td><td class="blank"></td><td>0</td><td>128</td><td>128</td><td>95</td><td class="blank"></td><td>33</td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v local</th><td>4</td><td>75.0</td><td>3</td><td>2</td><td class="blank"></td><td class="blank"></td><td>1</td><td>1</td><td>1,557</td><td>1,538</td><td>1,494</td><td class="blank"></td><td class="blank"></td><td>44</td><td>19</td></tr>
+<tr><th class="stub" scope="row">Teamsters v national</th><td>1</td><td>100.0</td><td>1</td><td class="blank"></td><td>1</td><td>0</td><td class="blank"></td><td>0</td><td>121</td><td>121</td><td class="blank"></td><td>121</td><td>0</td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">Teamsters v Teamsters</th><td>1</td><td>100.0</td><td>1</td><td class="blank"></td><td>1</td><td class="blank"></td><td class="blank"></td><td>0</td><td>147</td><td>147</td><td class="blank"></td><td>147</td><td class="blank"></td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">National v local</th><td>1</td><td>100.0</td><td>1</td><td class="blank"></td><td class="blank"></td><td>0</td><td>1</td><td>0</td><td>30</td><td>30</td><td class="blank"></td><td class="blank"></td><td>0</td><td>30</td><td>0</td></tr>
+<tr><th class="stub" scope="row">National v national</th><td>1</td><td>100.0</td><td>1</td><td class="blank"></td><td class="blank"></td><td>1</td><td class="blank"></td><td>0</td><td>31</td><td>31</td><td class="blank"></td><td class="blank"></td><td>31</td><td class="blank"></td><td>0</td></tr>
+<tr><th class="stub" scope="row">2-union elections</th><td>27</td><td>88.9</td><td>24</td><td>12</td><td>8</td><td>2</td><td>2</td><td>3</td><td>3,502</td><td>3,384</td><td>2,070</td><td>1,176</td><td>64</td><td>74</td><td>118</td></tr>
+<tr><th class="stub" scope="row">AFL-CIO v. Teamsters v local</th><td>1</td><td>100.0</td><td>1</td><td>0</td><td>1</td><td class="blank"></td><td>0</td><td>0</td><td>23</td><td>23</td><td>0</td><td>23</td><td class="blank"></td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">3(or more)-union elections</th><td>1</td><td>100.0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>23</td><td>23</td><td>0</td><td>23</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Total RD elections</th><td>490</td><td>31.0</td><td>152</td><td>91</td><td>47</td><td>10</td><td>4</td><td>338</td><td>24,697</td><td>13,227</td><td>8,709</td><td>3,816</td><td>440</td><td>262</td><td>11,470</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1974_p0235_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>Footnotes at end of table.</li>
+<li>1 See Glossary for definitions of terms.</li>
+<li>2 Includes each unit in which a choice as to collective-bargaining agent was made, for example, there may have been more than 1 election in a single case, or several cases may have been involved in 1 election unit</li>
+</ol>
+<p class="check"><b>768 of 772</b> figures sit in a row or column sum that works out. <b>6 cells break a sum:</b> &#x27;Teamsters v. national&#x27;, column 4: prints 8, columns 5 to 8 add to 3; &#x27;AFL-CIO v. national&#x27;, column 4: prints 2, columns 5 to 8 add to 0; &#x27;(3 or more)-union elections&#x27;, column 2: prints 20, the subtotals in columns 4 to 9 add to 16; &#x27;AFL-CIO v. AFL-CIO v. national&#x27;, column 10: prints 581, the subtotals in columns 11 to 16 add to 375; &#x27;2-union elections&#x27;, column 7: prints 3, rows &#x27;AFL-CIO v. AFL-CIO&#x27; to &#x27;Local v. local&#x27; add to 1; &#x27;2-union elections&#x27;, column 7: prints 26, rows &#x27;AFL-CIO v. AFL-CIO&#x27; to &#x27;Local v. local&#x27; add to 21.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 235.</b> Crop is cut off at the bottom: the body ends mid-table at &quot;AFL-CIO v. local v. local&quot; (the 3-union block is incomplete, and no 3-union subtotal, no section B, and no printed footnotes are visible). Footnote markers 1 (on the caption) and 2 (on &quot;Total elections&quot;) are referenced but their texts are not on this crop, so `footnotes` is empty.
+
+Decimal points in the &quot;Percent won&quot; column are frequently lost in this scan and print as a gap (e.g. &quot;48 2&quot;, &quot;51 6&quot;, &quot;100 0&quot;, &quot;0 0&quot;). They are one-decimal percentages and are transcribed with the point restored (&quot;48.2&quot;, &quot;51.6&quot;, &quot;100.0&quot;, &quot;0.0&quot;); a few (&quot;47.1&quot;, &quot;57.4&quot;, &quot;100.0&quot; on National v. national, &quot;82.4&quot;, &quot;76.4&quot;) do show the point clearly. Every restored value is consistent with won/total for its row, so the placement is not in doubt.
+
+Likewise, the period after &quot;v&quot; in the row labels is visible on some lines and dropped on others (&quot;AFL-CIO v  national&quot;, &quot;Teamsters v  Teamsters&quot;, &quot;AFL-CIO v  local v. local&quot;); all have been written uniformly as &quot;v.&quot; .
+
+&quot;AFL-CIO v. Teamsters&quot; row, last column (&quot;In elections where no representative chosen&quot;): the leading digit is degraded and could read as 0 or 9. Transcribed as 9,461 — the figure is consistent both with that row (22,135 - 12,674 = 9,461) and with the 2-union elections subtotal of 27,622 in the same column.
+
+All totals cross-check against their components: the 1-union elections and 2-union elections subtotal rows reconcile with the rows above them in every numeric column, and the &quot;no representative chosen&quot; employee counts equal Total minus In elections won in every data row.</p>
+<p><b>p. 236.</b> CROP / STRUCTURE. The crop carries no column headings (continuation page), so header_rows is empty. The grid is the stub plus 15 value columns, counted from the column rules and confirmed on every row; the first four rows finish a section begun on the previous page, then the section line &quot;B. Elections in RC cases&quot; opens the second section. The columns are, by position: 1 elections total, 2 percent won by unions, 3 elections won by unions, 4-7 won by AFL-CIO / Teamsters / other national / other local, 8 won by no union, 9 valid votes total, 10 votes for unions, 11-14 votes for AFL-CIO / Teamsters / other national / other local, 15 votes for no union. (That reading is inferred from the arithmetic, not from any heading printed here.)
+
+ARITHMETIC CHECK. Every row and every column of both sections was summed against the printed subtotals and totals; all agree except the four cells listed next, which are transcribed exactly as I read them on the page, uncorrected.
+
+DOUBTFUL CELLS (all read as a &quot;0&quot;-shaped glyph; each conflicts with the printed subtotals, so each may be either a misprint or a misreading of a degraded digit):
+1. &quot;Teamsters v. national&quot;, column 6 (won by other national): read 0. The row&#x27;s own total won is 8 and column 5 holds 3, and the &quot;2-union elections&quot; subtotal for column 6 is 26 against 21 from the printed rows; both imply this cell should be 5.
+2. &quot;AFL-CIO v. AFL-CIO v. national&quot;, column 10 (votes for unions): read 0. Column 9 is 581 and column 15 is 375, and the &quot;(3 or more)-union elections&quot; subtotal for column 10 is 4,607 against 4,401 from the printed rows; both imply 206.
+3. &quot;AFL-CIO v. AFL-CIO v. national&quot;, column 13 (votes for other national): read 236. The &quot;(3 or more)-union elections&quot; subtotal for column 13 is 2,281 against 2,311 from the printed rows, implying 206 here. (Note that 206 in columns 10 and 13 would make this row internally consistent, so a single garbled 206 may underlie both cells 2 and 3.)
+4. &quot;(3 or more)-union elections&quot; in section B, column 8 (won by no union): read 0. 20 elections less 16 won is 4, and the &quot;Total RC elections&quot; figure 3,863 equals 3,727 + 132 + 4; both imply 4.
+
+TYPOGRAPHY. The scan drops many small periods. In the percent column several cells image as &quot;100 0&quot;, &quot;81 8&quot;, &quot;73 0&quot; and so on; the column is one-decimal throughout (visible in 100.0, 48.9, 50.4, 51.8, 65.9, 72.6, 51.7, 0.0) and every value matches the ratio of the adjoining counts, so the decimal point is written in each. The same applies to &quot;v.&quot; in the row labels, which images as a bare &quot;v&quot; in some rows and &quot;v.&quot; in others; it is written &quot;v.&quot; consistently. The period after &quot;B&quot; in the section line is likewise faint. Three labels wrap and were joined, repairing the end-of-line hyphens: &quot;AFL-CIO v. AFL-CIO v. AFL-CIO&quot;, &quot;AFL-CIO v. AFL-CIO v. Teamsters&quot;, &quot;AFL-CIO v. Teamsters v. Teamsters&quot;.
+
+ARTIFACTS. Isolated specks sit beside several values (the 4 in the first &quot;(3 or more)-union elections&quot; row, the 0 ending the second row, 515 in &quot;Teamsters v. national&quot;, 27,474 in &quot;2-union elections&quot;, the 1 in &quot;AFL-CIO v. Teamsters v. local&quot;, the 0 in &quot;AFL-CIO v. Teamsters v. Teamsters&quot;); these are scan dirt, not footnote markers, and are not transcribed. No footnote markers appear anywhere in this crop. The only line under the table is &quot;Footnotes at end of table.&quot;, which carries no marker; it is reported in footnotes because it is printed beneath the table, though it is a pointer rather than a footnote.</p>
+<p><b>p. 237.</b> Continuation page of Table 13; only panel &quot;C. Elections in RM cases&quot; is printed here, and no footnote texts appear under the table on this crop (the markers ^1 on the caption and ^2 on &quot;Total elections&quot; refer to notes printed on an earlier page of the table).
+
+Doubtful cell: row &quot;AFL-CIO v. national&quot;, column &quot;Elections won by unions / Other national unions&quot;. I read the printed glyph as 0 and transcribed it as seen, but it is almost certainly 2: the row&#x27;s &quot;Total won&quot; is 2 with &quot;AFL-CIO unions&quot; = 0, the row&#x27;s employee columns give 0 to AFL-CIO and 17 (all) to other national unions, and the &quot;2-union elections&quot; subtotal of 3 in that column requires 2 here plus the 1 from &quot;Teamsters v. national&quot;. Treat the cell as suspect.
+
+Scan quality: the decimal point in the &quot;Percent won&quot; column is faint or lost in several cells (&quot;34 8&quot;, &quot;33 3&quot;, &quot;35 1&quot;, &quot;94 1&quot;, &quot;50 0&quot;, and most &quot;100 0&quot;); since the column is clearly printed to one decimal (34.4, 66.7, 100.0, 38.0 are legible and the values match the ratios), I wrote the decimal point in every cell. Likewise the period after &quot;v&quot; is not visible in the labels &quot;AFL-CIO v national&quot;, &quot;AFL-CIO v local&quot;, &quot;Teamsters v national&quot;, &quot;Local v local&quot; and in the first &quot;v&quot; of &quot;AFL-CIO v AFL-CIO v. local&quot;; I wrote &quot;v.&quot; consistently. In the section line the period after &quot;C&quot; is not visible and &quot;Elections&quot; is degraded (&quot;Electicns&quot;); transcribed as &quot;C. Elections in RM cases&quot;.
+
+Empty cells in the body are printed dash rules (------), which mark union types that were not participants in that match-up; printed zeros are kept as 0. In the last two rows (&quot;AFL-CIO v. AFL-CIO v. local&quot; and &quot;3(or more)-union elections&quot;) the right-hand end is smudged by the rule below; I read 0 in the &quot;Other local unions&quot; and final columns of both, which is what the grand total requires.
+
+All other columns cross-foot exactly against the printed subtotals and the &quot;Total RM elections&quot; line (e.g. 83+46+7+6=142, 142+232=374, 3,832+1,547+73+139=5,591, 5,591+7,996=13,587), so the column alignment is well anchored.</p>
+<p><b>p. 238.</b> Column headings: none are printed on this crop. It is a continuation panel of a table whose headings (and the footnote 1 and 2 markers that the footnotes below answer to) appear on an earlier page, so header_rows is empty. The grid has 16 columns: stub plus 15 value columns, counted from the column rules.
+
+Section line: &quot;D. Elections in RD cases&quot; is printed centered above the table&#x27;s top rule. I treated it as a label-only section row (first row) rather than a caption, since it is a lettered section divider of the same kind as &quot;A./B./C.&quot; panels, not a &quot;Table N.—...&quot; caption.
+
+Percent column (column 2): the decimal points in this column scanned very faintly, so the cells read as &quot;27 9&quot;, &quot;42 1&quot;, &quot;20 0&quot;, &quot;27 5&quot;, &quot;100 0&quot;, &quot;87 5&quot;, &quot;75 0&quot;, &quot;88 9&quot;, &quot;31 0&quot; on the image. They are one-decimal percentages and I transcribed them with the decimal point (27.9, 42.1, 20.0, 27.5, 100.0, 87.5, 75.0, 88.9, 31.0). Only &quot;25.3&quot; (Teamsters) shows its point clearly. Each value equals column 3 divided by column 1 to one decimal, which confirms the reading.
+
+Internal consistency: every cross-footing checks out as transcribed, which is the main support for the placement of the sparse single-digit cells in columns 4-7 and the employee cells in columns 11-14. Columns 4-7 sum to column 3 and columns 11-14 sum to column 10 in every subtotal row; columns 9 minus 10 equals column 15; the three subtotals (1-union, 2-union, 3(or more)-union) sum to &quot;Total RD elections&quot; in all 15 columns. No printed figure appears to be a misprint.
+
+Blank versus zero: in the data rows the inapplicable cells are printed as dash rules and are transcribed as &quot;&quot;, while the subtotal rows &quot;3(or more)-union elections&quot; and several two-union rows print explicit 0s; I kept that distinction exactly as printed. In &quot;AFL-CIO v. Teamsters v local&quot; columns 6 and 13 are dash rules (no &quot;other national&quot; union in that contest) whereas the &quot;3(or more)-union elections&quot; line below prints 0 in the same columns.
+
+Scanning specks, none affecting a value: a stray comma-like mark sits just left of the &quot;1&quot; in &quot;AFL-CIO v national&quot;, column 6; a short stray dash sits just left of the &quot;376&quot; in &quot;Other national unions&quot;, column 13; a small tick floats in the right margin beside the &quot;AFL-CIO v. Teamsters v local&quot; row, outside the last column rule.
+
+Row labels: &quot;AFL-CIO&quot; is set with an en-dash-like hyphen throughout and transcribed with a plain hyphen. &quot;AFL-CIO v. Teamsters v local&quot; is transcribed with the period after the first &quot;v&quot; only, as printed; all other &quot;v&quot; separators in the stub are printed without a period. Footnote 2 appears to end without a terminal period.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1974_p0235_t0_p0235.webp" loading="lazy" alt="Source page 235 of NLRB FY1974 annual report">
+<figcaption>Source: NLRB Annual Report FY1974, p. 235.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1974_p0235_t0_p0236.webp" loading="lazy" alt="Source page 236 of NLRB FY1974 annual report">
+<figcaption>Source: NLRB Annual Report FY1974, p. 236.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1974_p0235_t0_p0237.webp" loading="lazy" alt="Source page 237 of NLRB FY1974 annual report">
+<figcaption>Source: NLRB Annual Report FY1974, p. 237.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1974_p0235_t0_p0238.webp" loading="lazy" alt="Source page 238 of NLRB FY1974 annual report">
+<figcaption>Source: NLRB Annual Report FY1974, p. 238.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

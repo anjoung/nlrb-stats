@@ -1,10 +1,22 @@
-Type of election,All R cases / Total representation elections,All R cases / Objections and/or challenges Number of total R elections involved,All R cases / Objections and/or challenges Percent of total R elections,RC cases / Total RC elections,RC cases / Number of total RC elections involved,RC cases / Percent of total RC elections,RM cases / Total RM elections,RM cases / Number of total RM elections involved,RM cases / Percent of total RM elections,RD cases / Total RD elections,RD cases / Number of total RD elections involved,RD cases / Percent of total RD elections,UD cases / Total union deauthorization elections,UD cases / Number of total UD elections involved,UD cases / Percent of total UD elections
-"All types, total",7529,1151,15.4,6940,1092,15.7,369,46,12.5,220,25,11.4,34,5,14.7
-All types — Objections alone or with challenges,,651,,,797,,,30,,,21,,,4,
-All types — Challenges only,,310,,,295,,,10,,,4,,,1,
-"In consent elections, total",3453,421,12.3,3147,394,12.5,180,18,10.0,100,9,9.5,8,1,12.8
-"In stipulated elections, total",2438,373,15.3,2280,354,15.5,109,12,11.0,49,8,16.2,0,0,0
-"In expedited elections, total",16,6,37.5,12,0,0,3,1,33.3,1,1,100.0,,,
-"In regional director-ordered elections, total",1531,322,20.8,1434,309,21.6,56,7,12.5,41,6,14.6,,,
-"In Board-ordered elections, total",91,34,40.7,79,34,43.0,9,4,44.4,3,1,33.3,,,
-Each election type also has 2,,,,,,,,,,,,,,,
+Type of case,Total,Type of election,Type of election,Type of election,Type of election,Type of election
+Type of case,Total,Consent,Stipulated,Board ordered,Regional director directed,Expedited elections under 8(b) (7)(C)
+"All types, total",,,,,,
+Elections,"7,563","3,441","2,438",91,"1,577",16
+Eligible voters,"554,562","163,756","238,767","12,748","138,835",456
+Valid votes,"501,064","148,345","218,384","11,179","122,757",399
+RC cases,,,,,,
+Elections,"6,940","3,147","2,280",79,"1,434",0
+Eligible voters,"517,661","146,785","228,378","10,710","131,788",0
+Valid votes,"468,961","133,255","209,105","9,761","116,840",0
+RM cases,,,,,,
+Elections,369,180,109,9,56,15
+Eligible voters,"20,358","12,370","3,902","1,899","1,740",447
+Valid votes,"17,612","10,956","3,411","1,293","1,562",390
+RD cases,,,,,,
+Elections,220,106,49,3,61,1
+Eligible voters,"13,732","4,217","6,487",139,"2,880",9
+Valid votes,"12,419","3,851","5,868",125,"2,566",9
+UD cases,,,,,,
+Elections,34,8,0,0,26,
+Eligible voters,"2,811",384,0,0,"2,427",
+Valid votes,"2,072",283,0,0,"1,789",

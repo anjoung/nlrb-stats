@@ -1,10 +1,35 @@
-Item,All unions and individuals,A. F. of L. affiliates,C. I. O. affiliates,Unaffiliated unions,Individuals
-Notice posted,1365,666,628,29,44
-Company unions disestablished,283,116,160,2,7
-Workers placed on preferential hiring list,208,102,93,2,11
-Collective bargaining begun,1032,603,405,22,3
-WORKERS,,,,,
-Workers reinstated to remedy discriminatory discharge,8251,3630,4230,114,277
-Workers receiving back pay,5925,2210,3525,76,114
-Back-pay awards,1266408,299575,868823,32880,65130
-Strikers reinstated,32137,13987,17205,939,6
+Stage and method,Cases,Cases,Cases,Workers involved
+Stage and method,Number,Percent of cases closed,Percent of cases on docket,Workers involved
+"Cases closed, total","6,285",100.0,85.2,"1,895,231"
+"Before formal action, total","4,875",77.6,66.1,"1,168,206"
+Adjusted,"3,420",54.4,46.4,"715,928"
+Recognition,404,6.5,5.5,"34,002"
+Consent election,"2,405",38.3,32.6,"607,311"
+Pay-roll check,611,9.7,8.3,"74,615"
+Withdrawn,"1,027",16.3,13.9,"297,494"
+Dismissed,428,6.8,5.8,"154,784"
+"After formal action, total","1,410",22.4,19.1,"727,025"
+Before hearing,92,1.5,1.2,"24,645"
+Adjusted,68,1.1,.9,"21,668"
+Recognition,9,.2,.1,361
+Consent election,59,.9,.8,"21,307"
+Pay-roll check,0,.0,.0,0
+Withdrawn,21,.3,.3,"2,347"
+Dismissed,3,.1,.0,630
+After hearing,111,1.8,1.5,"21,159"
+Adjusted,30,.5,.4,"13,586"
+Recognition,4,.1,.1,216
+Consent election,25,.4,.3,"13,351"
+Pay-roll check,1,.0,.0,19
+Withdrawn,79,1.3,1.1,"6,942"
+Dismissed,2,.0,.0,631
+After Board decision,"1,207",19.2,16.4,"681,221"
+Closed by certification,949,15.1,12.9,"599,271"
+After stipulated election,199,3.2,2.7,"160,792"
+After ordered election,743,11.8,10.1,"425,642"
+Without election,7,.1,.1,"12,837"
+Dismissed,217,3.4,2.9,"75,603"
+After stipulated election,15,.2,.2,"6,602"
+After ordered election,102,1.6,1.4,"31,907"
+Without election,100,1.6,1.3,"37,094"
+Withdrawn,41,.7,.6,"6,347"

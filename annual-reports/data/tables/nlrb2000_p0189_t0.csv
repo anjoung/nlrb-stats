@@ -1,9 +1,31 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14,col_15,col_16
-Other ……………………........................................................,3,3,0,0,0,0,3,3,0,0,0,0,,0,0,0
-Objection to Board's proof of claim .....…………...........,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0
-Intervention in § 301 suit ............................………........,1,1,0,0,0,0,1,1,0,0,0,0,,0,0,0
-EAJA …………………………………………................,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0
-Denying attorney's fees in FOIA ……..………………...,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0
-Denying stay in FOIA case …….............,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0
-Suit for violation of constitutional rights,1,1,0,0,0,0,1,1,0,0,0,0,,0,0,0
-Federal Tort Claims Act,1,1,0,0,0,0,1,1,0,0,,0,0,0,0,0
+Type of Litigation,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings
+Type of Litigation,Total – all courts,Total – all courts,Total – all courts,In courts of appeals,In courts of appeals,In courts of appeals,In district courts,In district courts,In district courts,In bankruptcy courts,In bankruptcy courts,In bankruptcy courts,In state courts,In state courts,In state courts
+Type of Litigation,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination
+Type of Litigation,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position
+Totals -- all types,12,8,4,5,4,1,6,4,2,1,0,1,0,0,0
+NLRB-initiated actions or interventions,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0
+To quash district court subpoena,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+To enforce subpoena or contempt of subpoena,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+To enjoin local ordinance as preempted,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0
+To sanction failure to respond to discovery,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Action by other parties,11,8,3,4,4,0,6,4,2,1,0,1,0,0,0
+To review:,3,2,1,2,2,0,1,0,1,0,0,0,0,0,0
+Prosecutorial discretion,3,2,1,2,2,0,1,0,1,0,0,0,0,0,0
+Nonfinal/representation order,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+To restrain NLRB from:,4,2,2,1,1,0,2,1,1,1,0,1,0,0,0
+Enforcing Board subpoenas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Proceeding in R case,2,2,0,1,1,0,1,1,0,0,0,0,0,0,0
+Proceeding in unfair labor practice case,2,0,2,0,0,0,1,0,1,1,0,1,0,0,0
+To compel NLRB to:,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+Issue complaint,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Take action in R case,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Comply with Freedom of Information Act (FOIA),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+To issue decision or take specific action,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+Other,3,3,0,0,0,0,3,3,0,0,0,0,0,0,0
+Objection to Board's proof of claim,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Intervention in § 301 suit,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+EAJA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Denying attorney's fees in FOIA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Denying stay in FOIA case,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Suit for violation of constitutional rights,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+Federal Tort Claims Act,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0

@@ -1,18 +1,49 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,Total formal actions taken,RC,RM,RD,UD
+"Hearings completed, total",988,959,835,16,108,7
+Initial hearings,836,815,711,15,89,6
+Hearings on objections and/or challenges,152,144,124,1,19,1
+"Decisions issued, total",825,798,708,16,74,5
+By Regional Directors,776,753,666,15,72,5
+Elections directed,685,664,587,11,66,5
+Dismissals on record,91,89,79,4,6,0
+By Board,49,45,42,1,2,0
+Transferred by Regional Directors for initial decision,11,9,9,0,0,0
+Elections directed,11,9,9,0,0,0
+Dismissals on record,0,0,0,0,0,0
+Review of Regional Directors' decisions,,,,,,
+Requests for review received,353,329,304,7,18,1
+Withdrawn before request ruled upon,23,21,19,2,0,0
+"Board action on request ruled upon, total",277,260,240,4,16,1
+Granted,48,40,36,1,3,0
+Denied,224,215,200,3,12,1
+Remanded,5,5,4,0,1,0
+"Withdrawn after request granted, before Board review",2,2,2,0,0,0
+"Board decision after review, total",38,36,33,1,2,0
+Regional Directors' decisions,,,,,,
+Affirmed,24,23,21,1,1,0
+Modified,4,4,3,0,1,0
+Reversed,10,9,9,0,0,0
+Outcome:,,,,,,
+Election directed,31,30,28,0,2,0
+Dismissals on record,7,6,5,1,0,0
 "Decisions on objections and/or challenges, total",437,426,362,5,59,1
-By Regional Directors,58,56,45,1,10,o
+By Regional Directors,58,56,45,1,10,0
 By Board,379,370,317,4,49,1
 In stipulated elections,343,334,284,4,46,1
-No exceptions to Regional Directors' reports Exceptions to Regional Directors' reports,214 129,209 125,172 112,4 0,33 13,1 0
-In directed elections (after. transfer by Regional Director),30,30,27,0,3,0
-Review of Regional Directors' supplemental decisions Request for review received Withdrawn before request ruled upon,59 2,58 2,52 2,1 0,5 0,o o
+No exceptions to Regional Directors' reports,214,209,172,4,33,1
+Exceptions to Regional Directors' reports,129,125,112,0,13,0
+In directed elections (after transfer by Regional Director),30,30,27,0,3,0
+Review of Regional Directors' supplemental decisions,,,,,,
+Request for review received,59,58,52,1,5,0
+Withdrawn before request ruled upon,2,2,2,0,0,0
 "Board action on request ruled upon, total",52,51,44,1,6,0
-Granted,6,6,6,o,o,o
-Denied,39,39,33,1,5,o
-Remanded,7,6,5,,,
-,,,,o,1,o
-"Withdrawn after request granted, before Board review .",0,0,0,0,0,0
-"Board decision after review, total .",6,6,6,o,0,0
-Regional Directors' decisions' Affinned ...... .........,3,3,3,o,0,o
-Modified,I,1,1,o,o,o
-Reversed,2,2,2,o,0,0
+Granted,6,6,6,0,0,0
+Denied,39,39,33,1,5,0
+Remanded,7,6,5,0,1,0
+"Withdrawn after request granted, before Board review",0,0,0,0,0,0
+"Board decision after review, total",6,6,6,0,0,0
+Regional Directors' decisions,,,,,,
+Affirmed,3,3,3,0,0,0
+Modified,1,1,1,0,0,0
+Reversed,2,2,2,0,0,0

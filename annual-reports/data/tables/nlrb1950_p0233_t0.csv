@@ -1,15 +1,33 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10
-Total,21532,5809,9279,16544,100 0,100.0,100 0,26 9,42.9,30 2
-1949,,,,,,,,,,
-July,1427,445,562,420,77,60,64,31 2,39.4,29 4
-August,1820,555,729,I 536,95,78,82,30.5,40 1,29.4
-September,1197,451,704,442,78,76,6.7,282,44 1,27 7
-October,1593,475,630,488,82,68,75,29 8,39 6,30 6
-November,1595,441,686,2 468,76,74,72,27.7,43.0,293
-December,1719,411,760,3 548,71,82,84,23.9,44.2,31.9
-1950 January,1676,433,729,514,74,79,7.9,25 8,43.5,30 7
-February,1878,476,896,2 506,82,97,7.7,25.4,47 7,26 9
-March,2150,489,995,666,8.4,10 7,10 2,22 7,46 3,31 0
-April,2073,523,882,668,90,9.5,10 2,25 2,42.6,32 2
-May,2086,562,827,2 697,97,89,10 6,26 9,39.7,33 4
-June,2018,548,879,2 591,9.4,9.5,9.0,27.1,43.6,29.3
+,Total,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases
+,Total,Identification of petitioner,Identification of petitioner,Identification of petitioner,Identification of petitioner,Identification of petitioner
+,Total,A. F. of L affiliates,C I. O. affiliates,Unaffiliated unions,Individuals,Employers
+NLRA R cases,,,,,,
+"Cases pending July 1, 1949",27,10,16,1,0,0
+"Cases received July 1, 1949–June 30, 1950",,,,,,
+"Cases on docket July 1, 1949–June 30, 1950",27,10,16,1,0,0
+"Cases closed July 1, 1949–June 30, 1950",22,8,13,1,0,0
+"Cases pending June 30, 1950",5,2,3,0,0,0
+RC cases,,,,,,
+"Cases pending July 1, 1949","1,727",972,412,341,2,
+"Cases received July 1, 1949–June 30, 1950","8,206","4,547","2,124","1,524",11,
+"Cases on docket July 1, 1949–June 30, 1950","9,933","5,519","2,536","1,865",13,
+"Cases closed July 1, 1949–June 30, 1950","7,719","4,352","1,991","1,365",11,
+"Cases pending June 30, 1950","2,214","1,167",545,500,2,
+RM cases,,,,,,
+"Cases pending July 1, 1949",122,,,,,122
+"Cases received July 1, 1949–June 30, 1950",699,,,,,699
+"Cases on docket July 1, 1949–June 30, 1950",821,,,,,821
+"Cases closed July 1, 1949–June 30, 1950",659,,,,,659
+"Cases pending June 30, 1950",162,,,,,162
+RD cases,,,,,,
+"Cases pending July 1, 1949",86,0,0,2,84,0
+"Cases received July 1, 1949–June 30, 1950",374,3,2,9,359,1
+"Cases on docket July 1, 1949–June 30, 1950",460,3,2,11,443,1
+"Cases closed July 1, 1949–June 30, 1950",361,3,2,9,346,1
+"Cases pending June 30, 1950",99,0,0,2,97,0
+UA cases,,,,,,
+"Cases pending July 1, 1949",711,518,132,60,1,
+"Cases received July 1, 1949–June 30, 1950","6,544","3,899","1,455","1,183",7,
+"Cases on docket July 1, 1949–June 30, 1950","7,255","4,417","1,587","1,243",8,
+"Cases closed July 1, 1949–June 30, 1950","6,264","3,836","1,344","1,076",8,
+"Cases pending June 30, 1950",991,581,243,167,0,

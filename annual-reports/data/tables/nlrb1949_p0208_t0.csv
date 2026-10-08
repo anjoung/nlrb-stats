@@ -1,30 +1,255 @@
-row_label,col_1,col_2,col_3
-5-CA-78,Co. Craddock-Terry Shoe Corp.,15-CA-70,"Supply Co. Holm, Walter, & Co."
-19-CA-27,Cream Top Dairy.,21-CA-134 10-CA-580,Home Stores Inc.
-15-CA-35,"Crosby Chemicals, Inc. Curry Brothers.",8-CA-109 7-CA-99,"Hoover Co., The. Horst Manufacturing"
-10-CA-18,"Dairy Mart Farms, Inc.",10-CA-6,Co. Horton's Laundry Inc.
-21-CA-216 13-CA- 127 9-CA-44,"Daly Brothers Shoe Co., Inc. Deena Artware, Inc.",13-CA-63 31-CA-119,Indianapolis Glove Co. In-Sink-Erator Manu- facturing Co.
-21-CA-162 6-CA- 112,"Deere, John, Killefer Co.",13-CA-113,International Harvester Co.
-32-CA-13 32-CA-32 16-CA-47,"Dinardo, Inc. C Dixie ulvert Manu- facturing Co.",32-CA-41 1-CA-299 5-CA-56,"International Shoe Co. Isreal Putnam Mills, Inc. IX, Frank & Sons Co."
-,"Dixie Cup Co. Dorsey Co., The.",10-CA-36,Jasper National Mat- tress Co.
-19-CA-132 4-CA-62,"Douglas Canning Co. Duplex Hosiery Mills,",10-CA-45,"Kallaher & Mee, Inc. Kentucky Utilities Co.,"
-20-CA-69,Inc. El Dorado Limestone Co.,1-CA-41 9-CA-57,"Joy Silk Mills, Inc."
-33-CA-7,El Paso-Ysleta Bus,,Inc.
-30-CA-21 1-CA-57 14-CA-119,"Lines, a Corp. Empire Petroleum Co. Erving Paper Mills. Eureka Mine No. 2",10-CA-176 17-CA-42',"L H Shirt Co., Inc. Laclede Metal Products Co."
-16-CA-4 34-CA-32 10-CA-264,"Randolph Corp. Fleming & Sons, Inc. Fli-Black Co., The. Florence Manufacturing",6-CA-122 10-CA-282,"Landis Tool Co. Lane, John G., Lines, John G. Lane. Laredo Daily Times,"
-,"Co., Inc.",39-CA-5,The. Lerner Shops of Ala-
-10-CA- 234 16-CA-64 2-CA-303,"Foremost Dairies, Inc. Forest Oil Corp. Frierich, Julian Co., Ju-",10-CA-531 10-CA-279,"bama, Inc. Lily-Tulip Cup Corp."
-16-CA-79,"lian, & Selma Frei- rich. Fry, Lloyd A., Roofing Co.",35-CA-9 21-CA-299 33-CA-4,"Linde Air Products Co., The. Lloyd Corp. Lone Star Cotton Mills"
-36-CA-1,Fry Lloyd A. Roofing Co & St. Jones Mo- tors Express.,21-CA-320,"Inc., The. Los Angeles Turf Club, Inc."
-21-CA-256 2-CA-209,General Controls Co. General Instrument Corp.,8-CA-59 10-CA-252,"Louisville Title. Maclin, John H., Pea- nut Co., Inc. Madix Asphalt Roofing"
-1-CA-289,"Givren, E. J., Shoe Co., Inc.",34-CA-54,Corp.
-10-CA-597 10-CA-20,"Goodall Co. Goodrich, B.' F, Co. Grandview Dairy, Inc.,",1-CA-177 5-CA-86 10-CA-153,"Maine Fillet Co. Matlack E. Brooke, Inc. Merry Brothers Brick &"
-3-CA-35,"Arkport Dairies, Inc., & Cohocton Cream- eries.",10-CA-94 32-CA-21,"Tile Co. Miller, Georgia, Inc. Minnesota Mining"
-,,,&
-,,,Manufacturing Co.
-15-CA-57 15-CA-53,"Grede Foundries, Inc. Gulport Transport Co.",15-CA-86,"Inc. Mitchell Canneries, Monterey Modes."
-18-CA-40,,10-CA-188,Mississippi
-,"Gullett Gin Company,",,"Products, Inc."
-,Inc.,21-CA-110 13-CA-250,Morand Brothers Bev- erage Co.
-10-CA-163,Hamm Daniel Drayage Co.,34-CA-37,Morowebb Cotton Mills
-20-CA-175,Handy Spot Co.,,Co.
+16-C-1479,Pauls Valley Milling Co.
+10-C-2039,Peerless Woolen Mills.
+20-C-1676,Peerless Yeast Co.
+16-C-1501,"Quarles Manufacturing Co., N. B. Quarels, d/b/a."
+16-C-1420,Raizen & Raizen Oil Co.
+15-C-1216,"Rutter-Rex, J. H., Manufacturing Co., Inc."
+19P-C-0018,S & K Lumber Co.
+19P-C-0050,Saelens Radio Service.
+15M-C-1227,"Salant & Salant, Inc."
+18-C-1417,Sioux City Brewing Co.
+16-C-1444,Southern Pine Lumber Co.
+17-C-1444,Springfield Garment Manufacturing Co.
+7-C-1747,Stainless Ware Co. of America.
+10-C-2077,Standard-Coosa-Thatcher Co.
+16-C-1572,"Stone, J. E., Lumber Co."
+10-C-2293,Strachan Shipping Co.
+10-C-2183,Swift Manufacturing Co.
+10-C-2294,Tennessee Valley Broadcasting.
+2-C-6907,Tide Water Associated Oil Co.
+20-C-1722,United Engineering Co.
+17-C-1542,United States Trailer Manufacturing Co.
+7-C-1769,Vulcan Forge Co.
+7-C-1537,Western Board & Paper Co.
+20-C-1716,Western Can Co.
+19P-C-0047,Weyerhaeuser Timber Co.
+2-C-7036,"Zausner Foods, Inc."
+B. LMRA: CA cases—charges of unfair labor practices committed by an employer under section 8 (a),
+3-CA-78,Allied Mills Inc.
+8-CA-96,"Alside, Inc."
+21-CA-157,"American Foundry, Dominie Meaglia."
+2-CA-17,American Packing Corp.
+10-CA-115,"American Thread Co., The."
+10-CA-196,Anchor Rub Co.
+1-CA-18,"Anderson Manufacturing Co., Albert & J. M."
+10-CA-201,Andrew Co.
+7-CA-39,Ann Arbor Press & Arthur J. Wiltse.
+2-CA-188,Arval Terminal Inc.
+19-CA-28,"Atkinson, Guy F., Co."
+10-CA-576,Atlanta Brick & Tile Co.
+10-CA-574,Atlanta Broadcasting Co.
+21-CA-246,Axelson Manufacturing Co.
+1-CA-286,"Barry, William J., Co., Inc."
+16-CA-46,Beatrice Foods Co.
+8-CA-37,Belden Brick Co.
+10-CA-156,Bell Bakeries Inc.
+17-CA-12,Belle Maid Manufacturing Co.
+20-CA-26,"Bercut-Richards Packing Co., d/b/a Oregon House Lumber Co."
+4-CA-15,Bethlehem Steel Co. (Shipbuilding Division & Bethlehem Sparrows).
+32-CA-26,"Black, L. A., Rice Milling Association, Inc."
+20-CA-71,Blackburn Auto Parts.
+10-CA-261,Blue Ridge Glass Corp.
+19-CA-95,Boeing Airplane Co.
+6-CA-53,Brookville Glove Co.
+20-CA-87,"Brown, L. G."
+34-CA-22,"Burlington Mills Corp., Randleman Hosiery Plant."
+38-CA-18,"Carmelo Quetell h. n. c. Panaderia ""La Esperanza."""
+36-CA-23,Carter Lumber Co.
+16-CA-82,"Carter, W. T., & Brother"
+7-CA-153,Castaloy Corp.
+10-CA-91,Cen-Tennial Cotton Gin Co.
+8-CA-76,"Central Tower, Inc."
+19-CA-13,Chicago Freight Car & Parts Co.
+10-CA-33,Chicopee Manufacturing Corp of Georgia.
+9-CA-91,"Cincinnati Steel Castings Co., The."
+20-CA-117,Clara Val Packing Co.
+8-CA-113,Coca-Cola Bottling Co.
+2-CA-6,Colgate Manufacturing Corp.
+10-CA-554,Combustion Engineering Co.
+10-CA-173,"Cook, J. B., Auto Machine Co., Inc."
+10-CA-101,Cookeville Shirt Co.
+10-CA-102,Cookeville Shirt Co.
+10-CA-7,Cordele Manufacturing Co.
+5-CA-78,Craddock-Terry Shoe Corp.
+19-CA-27,Cream Top Dairy.
+15-CA-35,"Crosby Chemicals, Inc."
+10-CA-18,Curry Brothers.
+21-CA-216,"Dairy Mart Farms, Inc."
+13-CA-127,"Daly Brothers Shoe Co., Inc."
+9-CA-44,"Deena Artware, Inc."
+21-CA-162,"Deere, John, Killefer Co."
+6-CA-112,"Dinardo, Inc."
+32-CA-13,Dixie Culvert Manufacturing Co.
+32-CA-32,Dixie Cup Co.
+16-CA-47,"Dorsey Co., The."
+19-CA-132,Douglas Canning Co.
+4-CA-62,"Duplex Hosiery Mills, Inc."
+20-CA-69,El Dorado Limestone Co.
+33-CA-7,"El Paso-Ysleta Bus Lines, a Corp."
+30-CA-21,Empire Petroleum Co.
+1-CA-57,Erving Paper Mills.
+14-CA-119,Eureka Mine No. 2 Randolph Corp.
+16-CA-4,"Fleming & Sons, Inc."
+34-CA-32,"Fli-Black Co., The."
+10-CA-264,"Florence Manufacturing Co., Inc."
+10-CA-234,"Foremost Dairies, Inc."
+16-CA-64,Forest Oil Corp.
+2-CA-303,"Frierich, Julian Co., Julian, & Selma Freirich."
+16-CA-79,"Fry, Lloyd A., Roofing Co."
+36-CA-1,Fry Lloyd A. Roofing Co & St. Jones Motors Express.
+21-CA-256,General Controls Co.
+2-CA-209,General Instrument Corp.
+1-CA-289,"Givren, E. J., Shoe Co., Inc."
+10-CA-597,Goodall Co.
+10-CA-20,"Goodrich, B. F., Co."
+3-CA-35,"Grandview Dairy, Inc., Arkport Dairies, Inc., & Cohocton Creameries."
+18-CA-40,"Grede Foundries, Inc."
+15-CA-57,Gulport Transport Co.
+15-CA-53,"Gullett Gin Company, Inc."
+10-CA-163,Hamm Daniel Drayage Co.
+20-CA-175,Handy Spot Co.
+10-CA-143,"Happ Brothers Co., Inc."
+15-CA-70,Hattiesburg Lumber & Supply Co.
+21-CA-134,"Holm, Walter, & Co."
+10-CA-580,Home Stores Inc.
+8-CA-109,"Hoover Co., The."
+7-CA-99,Horst Manufacturing Co.
+10-CA-6,Horton's Laundry Inc.
+13-CA-63,Indianapolis Glove Co.
+31-CA-119,In-Sink-Erator Manufacturing Co.
+13-CA-113,International Harvester Co.
+32-CA-41,International Shoe Co.
+1-CA-299,"Isreal Putnam Mills, Inc."
+5-CA-56,"IX, Frank & Sons Co."
+10-CA-36,Jasper National Mattress Co.
+10-CA-45,"Joy Silk Mills, Inc."
+1-CA-41,"Kallaher & Mee, Inc."
+9-CA-57,"Kentucky Utilities Co., Inc."
+10-CA-176,"L & H Shirt Co., Inc."
+17-CA-42,Laclede Metal Products Co.
+6-CA-122,Landis Tool Co.
+10-CA-282,"Lane, John G., Lines, John G. Lane."
+39-CA-5,"Laredo Daily Times, The."
+10-CA-531,"Lerner Shops of Alabama, Inc."
+10-CA-279,Lily-Tulip Cup Corp.
+35-CA-9,"Linde Air Products Co., The."
+21-CA-299,Lloyd Corp.
+33-CA-4,"Lone Star Cotton Mills Inc., The."
+21-CA-320,"Los Angeles Turf Club, Inc."
+8-CA-59,Louisville Title.
+10-CA-252,"Maclin, John H., Peanut Co., Inc."
+34-CA-54,Madix Asphalt Roofing Corp.
+1-CA-177,Maine Fillet Co.
+5-CA-86,"Matlack E. Brooke, Inc."
+10-CA-153,Merry Brothers Brick & Tile Co.
+10-CA-94,"Miller, Georgia, Inc."
+32-CA-21,Minnesota Mining & Manufacturing Co.
+15-CA-86,"Mississippi Products, Inc."
+10-CA-188,"Mitchell Canneries, Inc."
+21-CA-110,Monterey Modes.
+13-CA-250,Morand Brothers Beverage Co.
+34-CA-37,Morowebb Cotton Mills Co.
+10-CA-191,Morristown Knitting Mill.
+2-CA-284,"Mosow, William A."
+3-CA-46,"McGraw Construction Co., Inc."
+2-CA-239,McMullen-Leavens Co.
+15-CA-45,"Nabors, W. C., Co."
+6-CA-69,National Biscuit Co.
+17-CA-113,"Newberry, J. J., Co."
+2-CA-233,"Newman, H. Milton."
+4-CA-33,"New Jersey Carpet Mills, Inc."
+10-CA-557,"New York Laundry, New York Steam Laundry, d/b/a."
+5-CA-100,Norfold Southern Bus Corp.
+13-CA-117,"Northeastern Indiana Broadcasting Co., Inc., WKJG."
+8-CA-25,"North Electric Manufacturing Co., The."
+20-CA-81,Northern Motor Co.
+3-CA-26,Norwich Knitting Co.
+4-CA-117,"Nu-Car Co., Nu-Car Carrier Co."
+13-CA-109,Nye Tool Co.
+21-CA-300,Ohio Oil Co.
+16-CA-115,Oklahoma Coca-Cola Bottling Co.
+32-CA-38,Ozark Dam Constructors & Fillippin Material Co.
+18-CA-65,Pacific Gamble Robinson Co.
+38-CA-50,Panaderia La Reguladora Jose Garcia Donis.
+38-CA-13,Panaderia Sucesion Alonso.
+13-CA-59,"Patterson, J. H., Co."
+10-CA-553,"Pepsi-Cola Bottling Co., of Garsden."
+4-CA-63,"Pettins, George F., Inc."
+10-CA-205,"Phillips, Dr. P., Canning Co."
+20-CA-120,"Pinkerton's National Detective Agency, Inc."
+38-CA-1,Porto Rico Container Corp. The.
+32-CA-27,Powell Brothers Truck Line.
+34-CA-44,Premier Worsted Mill.
+30-CA-13,Public Service Co.
+21-CA-151,"Punch & Judy Togs, Inc."
+32-CA-31,Pure Automotive Service.
+13-CA-27,"Rawleigh, W. T., Co."
+10-CA-211,"Red Rock Co., The & The Red Rock Cola Co."
+19-CA-9,Red Spot Electric Co.
+20-CA-136,"Remington Rand, Inc."
+3-CA-32,"Resnick, Julius, Inc."
+20-CA-155,"Rico, Manuel."
+8-CA-83,Roadway Express Inc.
+5-CA-132,Roanoke Garment Co.
+36-CA-29,Rough & Ready Lumber Co.
+10-CA-190,"Rowland, D. H. Lumber Mills, L. O. Rowland."
+14-CA-41,Rub-R-Engraving Co.
+15-CA-33,"Rutter-Rex, J. H., Manufacturing Co., Inc."
+33-CA-2,Savage Painting Co.
+8-CA-82,Shields Engineering & Manufacturing Co.
+13-CA-29,Skyline Co. The
+10-CA-30,Smith & Kelly Co.
+16-CA-119,Smith Ray Transport Co.
+10-CA-276,"Southeastern Optical Co., Inc."
+10-CA-40,"Southern Dairies, Inc."
+7-CA-8,Stainless Ware Co. of America.
+4-CA-119,"Star Metal Manufacturing Co., Inc"
+10-CA-99,Stockham Pipe Fittings Co.
+4-CA-141,Stoker Manufacturing Co.
+16-CA-72,Sunray Oil Corp.
+1-CA-207,"Sussex Hat, Inc."
+34-CA-15,"Swift & Co., Dairy & Poultry Division Plant."
+10-CA-274,Tampa Sand & Material Co.
+21-CA-73,Tan Juan of Hollywood.
+8-CA-99,"Telephone Service Co., of Ohio The, Mount Vernon Telephone Corp."
+10-CA-158,Tennessee Egg Co.
+10-CA-286,"Tennessee Knitting Mills, Inc."
+16-CA-62,"Texas Miller Hat Products, Inc."
+10-CA-26,Thomaston Cotton Mills.
+14-CA-10,Tiffany Stand Co.
+21-CA-135,"Towsend, M. L., ""Red"", Hudson Car Dealer."
+16-CA-71,Tri State Casualty Insurance Co.
+14-CA-85,Union Starch & Refining Co.
+16-CA-130,United Aircraft Corp.
+21-CA-180,U. S. Gypsum Co.
+8-CA-111,"Valley Broadcasting Co., The."
+2-CA-283,"Vanleeck, Everett, Y., Co., Inc."
+1-CA-154,Vermont American Furniture Corp.
+21-CA-205,Virtue Brothers Manufacturing Co.
+37-CA-8,"Wagon Wheel, Dr. Charles Goo."
+16-CA-45,Weatherford Spring Co.
+4-CA-16,"Weaver Wintark, H. Webb, C. A. Webb, Mary Webb, d/b/a."
+18-CA-25,Webster Cooperative Dairy Association.
+15-CA-26,West Boylston Manufacturing Co.
+21-C-468,Western Wear of California Inc.
+16-CA-38,Westex Boot & Shoe Co.
+20-CA-163,Westinghouse Pacific Coast Brake Co.
+16-CA-26,West Texas Utilities Co.
+21-CA-78,Wilshire Pictures Corp.
+20-CA-67,"Woolworth F. W. Co., Modesto Store."
+6-CA-7,"York & Foster, Inc."
+C. LMRA: CB cases—charge of unfair labor practices committed by a union under section 8 (b) (1) (2) (3) (5) (6),
+8-CB-7,"CIO-Auto Workers & Local 951 (North Electric Manufacturing Co., The)."
+10-CB-27,"AFL Boilermakers, Local 656 (Combustion Engineering Co.)."
+6-CB-30,"AFL Bridge Structural Iron Workers, Local 3 & O. J. Royer, Its Agent (Dinardo Inc.)."
+36-CB-2,"AFL Building & Construction Trades Council of Portland & Vicinity, & Millwrights & Machine Erectors Local 1857 Affiliated with Carpenters AFL (Fry, Lloyd A. Roofing Co. & Volney Felt Mills, Inc.)."
+21-CB-68,AFL Building Service Employees Pari-Mutuel Employees Guild Local 280 8 (b) 2 indicated in language of charge involving 1 employee. (Hollywood Turf Club).
+30-CB-1,"AFL Electrical Workers, Local B-1436 (Public Service Co. of Colorado, The)."
+3-CB-11,"AFL Engineers, Operating, Engineers, Locals 545, 545A, & 545B (Underpinning & Foundation Co., Inc.)."
+2-CB-59,"CIO Electrical, Radio Workers, Local 436 (General Instrument Corp.)."
+21-CB-18,AFL Garment Workers Ladies Sportswear & Cotton Garment Workers Local 266 (Tan Juan of Hollywood).
+14-CB-13,Grain Processors' Independent Union Local 1 (Union Starch & Refining Co.).
+20-CB-34,"AFL Hotel & Restaurant Employees Bartenders Union Local 52 (Tropical Club, Harry Diaz & N. W. Maroosis d/b/a)."
+20-CB-19,CIO Longshoremen & Warehousemen (Members of Waterfront Employers Association of the Pacific Coast).
+20-CB-33,"CIO Longshoremen & Warehousemen & Contract Guard's & Patrolmen's Organizing Committee (Pinkerton's National Detective Agency, Inc.)."
+20-CB-38,"CIO Longshoremen & Warehousemen (Waterfront Employers Association of the Pacific Coast. (Additional Charge 1) Waterfront Employers Association of California, San Francisco Bay Area. (Additional Charge 2) Waterfront Employers Association of California, Los Angeles Port Area including San Pedro. (Additional Charge 3) Waterfront Employers Association of Oregon & Columbia River.)"

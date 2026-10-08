@@ -1,5 +1,19 @@
-Union affiliation,Elections participated in / Total,Elections participated in / Resulting in certification / Number,Elections participated in / Resulting in certification / Percent of total,Elections participated in / Resulting in decertification / Number,Elections participated in / Resulting in decertification / Percent of total,Employees involved in elections (number eligible to vote) / Total eligible,Employees involved in elections (number eligible to vote) / Resulting in certification / Number,Employees involved in elections (number eligible to vote) / Resulting in certification / Percent of total eligible,Employees involved in elections (number eligible to vote) / Resulting in decertification / Number,Employees involved in elections (number eligible to vote) / Resulting in decertification / Percent of total eligible,Valid votes cast / Total,Valid votes cast / Percent of total eligible,Valid votes cast / Cast for the union / Number,Valid votes cast / Cast for the union / Percent of total cast
-Total elections,150,48,32.0,102,68.0,10244,4309,42.1,5935,57.9,9089,88.7,4315,47.5
-A.F.L.,97,29,29.9,68,70.1,4255,1958,46.0,2297,54.0,3847,90.4,1814,47.2
-C.I.O.,34,14,41.2,20,58.8,3611,2019,55.9,1592,44.1,3252,90.1,1742,53.6
-Unaffiliated,19,5,26.3,14,73.7,2378,332,14.0,2046,86.0,1990,83.7,759,38.1
+Affiliation of participating unions,Employees eligible to vote,Total valid votes cast,Percent casting valid votes,Valid votes cast for losing unions,Valid votes cast for losing unions,Valid votes cast for losing unions,Valid votes cast for no union
+Affiliation of participating unions,Employees eligible to vote,Total valid votes cast,Percent casting valid votes,A. F. L. affiliates,C. I. O. affiliates,Unaffiliated unions,Valid votes cast for no union
+Total,"168,338","153,724",91.3,"25,370","25,705","1,558","101,091"
+1-union elections:,,,,,,,
+A. F. L.,"69,868","63,875",91.4,"20,597",,,"43,278"
+C. I. O.,"70,136","63,885",91.1,,"22,353",,"41,532"
+Unaffiliated,"2,876","2,512",87.3,,,821,"1,691"
+2-union elections:,,,,,,,
+A. F. L.-C. I. O.,"18,740","17,559",93.7,"3,220","3,213",,"11,126"
+A. F. L.-unaffiliated,"1,360","1,242",91.3,104,,456,682
+A. F. L.-A. F. L.,"1,789","1,541",86.1,593,,,948
+C. I. O.-unaffiliated,860,714,83.0,,98,182,434
+Unaffiliated-unaffiliated,4,2,50.0,,,2,0
+3-union elections:,,,,,,,
+A. F. L.-C. I. O.-unaffiliated,129,118,91.5,2,13,34,69
+A. F. L.-A. F. L.-A. F. L.,"1,399","1,299",92.9,448,,,851
+A. F. L.-A. F. L.-C. I. O.,258,245,95.0,105,28,,112
+4-union elections:,,,,,,,
+A. F. L.-A. F. L.-A. F. L.-unaffiliated,919,732,79.7,301,,63,368

@@ -1,0 +1,1350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Cases heard — NLRB FY1942</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1942.html">FY1942</a> &rsaquo; Cases heard</p>
+<h1>Cases heard</h1>
+<p class="meta">source pages 97–110 &middot; <code>nlrb1942_p0097_t0</code></p>
+<p class="spans-note">Stitched from pp. 97–110.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">I. Unfair Labor Practice Cases</th></tr>
+<tr><th class="stub" scope="row">AAA Dental Laboratory, AAA Dental Laboratories, Inc., et al.</th></tr>
+<tr><th class="stub" scope="row">A. P. Parts Corp.</th></tr>
+<tr><th class="stub" scope="row">Abbott Worsted Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Adel Clay Products Co.</th></tr>
+<tr><th class="stub" scope="row">Aintree Corp.</th></tr>
+<tr><th class="stub" scope="row">Alco Feed Mills.</th></tr>
+<tr><th class="stub" scope="row">Allen, T. V., &amp; Ritter, C. M., Co.</th></tr>
+<tr><th class="stub" scope="row">Aluminum Ore Co.</th></tr>
+<tr><th class="stub" scope="row">American Bread Co.</th></tr>
+<tr><th class="stub" scope="row">American Broach &amp; Machine Co.</th></tr>
+<tr><th class="stub" scope="row">American Creosoting Co.</th></tr>
+<tr><th class="stub" scope="row">American Foundry.</th></tr>
+<tr><th class="stub" scope="row">American Oil Co.</th></tr>
+<tr><th class="stub" scope="row">American Sheet Metal Works.</th></tr>
+<tr><th class="stub" scope="row">Arkansas Fuel Oil Co.</th></tr>
+<tr><th class="stub" scope="row">Armour Fertilizer Works.</th></tr>
+<tr><th class="stub" scope="row">Arnessen Electric Co.</th></tr>
+<tr><th class="stub" scope="row">Atlanta Flour &amp; Grain Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Atlantic Asbestos Corp.</th></tr>
+<tr><th class="stub" scope="row">Atlas Oil &amp; Refining Corp.</th></tr>
+<tr><th class="stub" scope="row">Austell Cabinet Co.</th></tr>
+<tr><th class="stub" scope="row">Austin, Charles E., Inc.</th></tr>
+<tr><th class="stub" scope="row">Bachelder, T. S., an individual.</th></tr>
+<tr><th class="stub" scope="row">Bahan Machine Works.</th></tr>
+<tr><th class="stub" scope="row">Baltimore Transit Co. &amp; Baltimore Coach Co.</th></tr>
+<tr><th class="stub" scope="row">Barker Poultry Equipment Co.</th></tr>
+<tr><th class="stub" scope="row">Barrett Co.</th></tr>
+<tr><th class="stub" scope="row">Bear Brand Hosiery Co.</th></tr>
+<tr><th class="stub" scope="row">Bemidji Wood Products Co.</th></tr>
+<tr><th class="stub" scope="row">Best Coat &amp; Apron Mfg. Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Bicking, Austin S., Paper Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Blatt, M. E., &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Bloom, Charles, Inc.</th></tr>
+<tr><th class="stub" scope="row">Blue Ridge Glass Corp.</th></tr>
+<tr><th class="stub" scope="row">Boeing Airplane Co., Wichita Division.</th></tr>
+<tr><th class="stub" scope="row">Bonafide Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Borg Warner Corp., Marvel-Schebler Division.</th></tr>
+<tr><th class="stub" scope="row">Bradford Machine Tool Co.</th></tr>
+<tr><th class="stub" scope="row">Bright Biscuit Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Briktex, Inc.</th></tr>
+<tr><th class="stub" scope="row">Brock, John David.</th></tr>
+<tr><th class="stub" scope="row">Buckeye Cotton Oil Co.</th></tr>
+<tr><th class="stub" scope="row">Budd, Edward G., Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Buffalo Forge Co.</th></tr>
+<tr><th class="stub" scope="row">Buffalo Wall Paper Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Burgess Battery Co.</th></tr>
+<tr><th class="stub" scope="row">Burton-Dixie Corp.</th></tr>
+<tr><th class="stub" scope="row">C &amp; G Foundry &amp; Pattern Works.</th></tr>
+<tr><th class="stub" scope="row">California Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Cambridge Iron &amp; Metal Co.</th></tr>
+<tr><th class="stub" scope="row">Campbell, William, an individual.</th></tr>
+<tr><th class="stub" scope="row">Cardwell, Allen D., Mfg. Corp.</th></tr>
+<tr><th class="stub" scope="row">Carpenter, A. D., an individual.</th></tr>
+<tr><th class="stub" scope="row">Carter Carbureter Corp.</th></tr>
+<tr><th class="stub" scope="row">Casady Coal Co.</th></tr>
+<tr><th class="stub" scope="row">Central Drapery Co.</th></tr>
+<tr><th class="stub" scope="row">Central Paint &amp; Varnish Co.</th></tr>
+<tr><th class="stub" scope="row">Cherry River Boom &amp; Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Chicago Molded Products Corp.</th></tr>
+<tr><th class="stub" scope="row">Ciba Pharmaceutical Products, Inc.</th></tr>
+<tr><th class="stub" scope="row">Cincinnati Chemical Works.</th></tr>
+<tr><th class="stub" scope="row">City Service Transit Co.</th></tr>
+<tr><th class="stub" scope="row">Coffee, H. P., Co.</th></tr>
+<tr><th class="stub" scope="row">Colonial Products Co.</th></tr>
+<tr><th class="stub" scope="row">Columbian Iron Works.</th></tr>
+<tr><th class="stub" scope="row">Commonwealth Edison Co.</th></tr>
+<tr><th class="stub" scope="row">Crane Enamelware Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Crown Can Co.</th></tr>
+<tr><th class="stub" scope="row">Curtiss-Wright Corp., Caldwell and Clifton, N. J.</th></tr>
+<tr><th class="stub" scope="row">Curtiss-Wright Corp., Caldwell, N. J.</th></tr>
+<tr><th class="stub" scope="row">Curtiss-Wright Corp., Airplane Division, Buffalo, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Curtiss-Wright Corp., Airplane Division, Columbus, Ohio.</th></tr>
+<tr><th class="stub" scope="row">Dadourian Export Corp.</th></tr>
+<tr><th class="stub" scope="row">Dale &amp; Son.</th></tr>
+<tr><th class="stub" scope="row">Detroit Coca Cola Bottling Co.</th></tr>
+<tr><th class="stub" scope="row">Dewree &amp; Bailey.</th></tr>
+<tr><th class="stub" scope="row">Dowty Equipment Corp.</th></tr>
+<tr><th class="stub" scope="row">Durand Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">E Z Sportcraft Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Eastern Wiping Material Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Ellis-Klatcher &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Elvine Knitting Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Ely &amp; Walker Dry Goods Co.</th></tr>
+<tr><th class="stub" scope="row">Emerson Radio &amp; Phonograph Corp.</th></tr>
+<tr><th class="stub" scope="row">Empire Ordnance Co. &amp; West Pittston Iron Works, Inc.</th></tr>
+<tr><th class="stub" scope="row">Empire Ordnance Corp. &amp; Pencoyd Realty Co., Inc., Roxboro Steel Co., Manayunk Forging Corp., Schuylkill Mfg. Co., Wissahickon Tool Works, Inc.</th></tr>
+<tr><th class="stub" scope="row">Engelhorn, John &amp; Sons.</th></tr>
+<tr><th class="stub" scope="row">Express Publishing Co.</th></tr>
+<tr><th class="stub" scope="row">Fairbanks Paint Shop.</th></tr>
+<tr><th class="stub" scope="row">Fairchild Engine &amp; Aircraft Corp.</th></tr>
+<tr><th class="stub" scope="row">Fairmont Creamery Co., Devils Lake Plant.</th></tr>
+<tr><th class="stub" scope="row">Faultless Caster Corp.</th></tr>
+<tr><th class="stub" scope="row">Feinberg, Jac, Hosiery Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Fentress Coal &amp; Coke Co.</th></tr>
+<tr><th class="stub" scope="row">Fiss Corp.</th></tr>
+<tr><th class="stub" scope="row">Food Machinery Corp.</th></tr>
+<tr><th class="stub" scope="row">Frank Bros. Co.</th></tr>
+<tr><th class="stub" scope="row">Fruit Growers Supply Co., The.</th></tr>
+<tr><th class="stub" scope="row">Garden City Plating &amp; Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Gates Rubber Co.</th></tr>
+<tr><th class="stub" scope="row">General Motors Truck &amp; Coach Division, Yellow Truck &amp; Coach Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Gilcher, W. H. Co.</th></tr>
+<tr><th class="stub" scope="row">Gladding-McBean Co.</th></tr>
+<tr><th class="stub" scope="row">Glensder Textile Co.</th></tr>
+<tr><th class="stub" scope="row">Goshen Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Gray Envelope Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Greater New York Broadcasting Corp., and Arde Bulova.</th></tr>
+<tr><th class="stub" scope="row">Greenport Basin Construction Co.</th></tr>
+<tr><th class="stub" scope="row">Greer Steel Co., The.</th></tr>
+<tr><th class="stub" scope="row">Gulf States Utilities Co.</th></tr>
+<tr><th class="stub" scope="row">Hackensack Water Co.</th></tr>
+<tr><th class="stub" scope="row">Hall Tug &amp; Barge Corp.</th></tr>
+<tr><th class="stub" scope="row">Hamel, L. H., Leather Co.</th></tr>
+<tr><th class="stub" scope="row">Hancock Brick &amp; Tile Co., The.</th></tr>
+<tr><th class="stub" scope="row">Harbison-Walker Refractories, Inc.</th></tr>
+<tr><th class="stub" scope="row">Hardy, L., Co., The.</th></tr>
+<tr><th class="stub" scope="row">Harlich Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Haydu, S. &amp; Sons.</th></tr>
+<tr><th class="stub" scope="row">Hearst Mercantile Co.</th></tr>
+<tr><th class="stub" scope="row">Hearst Publications, Inc., The (Los Angeles Evening Herald &amp; Express Depts.).</th></tr>
+<tr><th class="stub" scope="row">Hearst Publications, Inc. (Los Angeles Examiner Dept.).</th></tr>
+<tr><th class="stub" scope="row">Heather Handkerchief Works, Inc.</th></tr>
+<tr><th class="stub" scope="row">Henrietta Mills.</th></tr>
+<tr><th class="stub" scope="row">Hesslein &amp; Samstat, Inc.</th></tr>
+<tr><th class="stub" scope="row">Hickory Chair Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Highland Park Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Hirsch Mercantile Co., The.</th></tr>
+<tr><th class="stub" scope="row">Hobbs, Clinton E., Co.</th></tr>
+<tr><th class="stub" scope="row">Holston Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Hooven Letters, Inc.</th></tr>
+<tr><th class="stub" scope="row">Houdaille-Hershey Corp. and Houde Engineering Corp.</th></tr>
+<tr><th class="stub" scope="row">Imperial Lighting Products Co.</th></tr>
+<tr><th class="stub" scope="row">Indian River Citrus Associates.</th></tr>
+<tr><th class="stub" scope="row">Jacobs Bros., Inc.</th></tr>
+<tr><th class="stub" scope="row">Jaeger Watch Co.</th></tr>
+<tr><th class="stub" scope="row">Johnson Steel &amp; Wire Co.</th></tr>
+<tr><th class="stub" scope="row">Karp Metal Products Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Kayser &amp; Co., Julius (Walton Plant).</th></tr>
+<tr><th class="stub" scope="row">Kentucky Ridge Coal Co.</th></tr>
+<tr><th class="stub" scope="row">Kline, Richard F., Co.</th></tr>
+<tr><th class="stub" scope="row">Knipchild Dehydrater Co.</th></tr>
+<tr><th class="stub" scope="row">Lake Shore Photo Engraving Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Layne Bowler, Inc.</th></tr>
+<tr><th class="stub" scope="row">Leach Relay Co.</th></tr>
+<tr><th class="stub" scope="row">Lebanon News Publishing Co., Lebanon Daily News-Times, Lebanon Semi-Weekly News Co.</th></tr>
+<tr><th class="stub" scope="row">Lees-Bradner Co., The.</th></tr>
+<tr><th class="stub" scope="row">Lettie Lee, Inc.</th></tr>
+<tr><th class="stub" scope="row">Lexington Telephone Co.</th></tr>
+<tr><th class="stub" scope="row">Liquor Publications, Inc.</th></tr>
+<tr><th class="stub" scope="row">Locomotive Finished Material Co.</th></tr>
+<tr><th class="stub" scope="row">M. B. Mfg. Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">McLachlan, H., &amp; Co., Inc., Maclan Hat Co., The, and Edward Fenton, East Brookfield, Mass.</th></tr>
+<tr><th class="stub" scope="row">McLachlan, H., &amp; Co., Inc., and Edward Fenton, Danbury, Conn.</th></tr>
+<tr><th class="stub" scope="row">Magnolia Petroleum Co.</th></tr>
+<tr><th class="stub" scope="row">Marietta Mfg. Co., The.</th></tr>
+<tr><th class="stub" scope="row">Mathis Yacht Building Co., a Corp.</th></tr>
+<tr><th class="stub" scope="row">Maxon, W. L., Inc.</th></tr>
+<tr><th class="stub" scope="row">May Co., The.</th></tr>
+<tr><th class="stub" scope="row">Medo Photo Supply Corp.</th></tr>
+<tr><th class="stub" scope="row">Metal Textile Co.</th></tr>
+<tr><th class="stub" scope="row">Miami Broadcasting Co.</th></tr>
+<tr><th class="stub" scope="row">Miller Oil Co.</th></tr>
+<tr><th class="stub" scope="row">Minneapolis Brewing Co.</th></tr>
+<tr><th class="stub" scope="row">Minneapolis-Honeywell Regulator Co.</th></tr>
+<tr><th class="stub" scope="row">Mit-Shel Stamping Mfg. Co. and Sheer, H. M., Co.</th></tr>
+<tr><th class="stub" scope="row">Monsieur Henri Wines &amp; Feinburg, Harry.</th></tr>
+<tr><th class="stub" scope="row">Montgomery Ward &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Monumental Iron &amp; Metal Co.</th></tr>
+<tr><th class="stub" scope="row">Mortimer, Charley, an individual.</th></tr>
+<tr><th class="stub" scope="row">Morten-Davis Co.</th></tr>
+<tr><th class="stub" scope="row">Mt. Clemens Pottery Co. and S. S. Kresge Co.</th></tr>
+<tr><th class="stub" scope="row">Mt. Clemens Tool &amp; Gear Works.</th></tr>
+<tr><th class="stub" scope="row">National Linen Service Corp., United Linen Supply Co., and Linen Service Corp. of Texas.</th></tr>
+<tr><th class="stub" scope="row">National Tank &amp; Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">National Traffic Guard Co.</th></tr>
+<tr><th class="stub" scope="row">National Vulcanized Fibre Co., and Phenolite Co.</th></tr>
+<tr><th class="stub" scope="row">Natt&#x27;s, Mrs., Bakery.</th></tr>
+<tr><th class="stub" scope="row">Nerland Paint Shop.</th></tr>
+<tr><th class="stub" scope="row">New Jersey Broadcasting Corp., The.</th></tr>
+<tr><th class="stub" scope="row">New York Merchandise Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Niagara Searchlight Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">North American Aviation, Inc.</th></tr>
+<tr><th class="stub" scope="row">North Carolina Finishing Co.</th></tr>
+<tr><th class="stub" scope="row">Northern Commercial Co.</th></tr>
+<tr><th class="stub" scope="row">Northwestern Mutual Fire Assn. and Northwest Casualty Co.</th></tr>
+<tr><th class="stub" scope="row">Norwood Sash &amp; Door Co. (Sears-Roebuck &amp; Co.).</th></tr>
+<tr><th class="stub" scope="row">Nye-Wait Carpet Co.</th></tr>
+<tr><th class="stub" scope="row">Ohio Match Co.</th></tr>
+<tr><th class="stub" scope="row">Ohio Wax Paper Co., The.</th></tr>
+<tr><th class="stub" scope="row">Oklahoma Tire &amp; Supply Co.</th></tr>
+<tr><th class="stub" scope="row">Opp Cotton Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Outwest Broadcasting Co.</th></tr>
+<tr><th class="stub" scope="row">Ozan Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Pacific Gas &amp; Electric Co. and Valley Electric Supply Co.</th></tr>
+<tr><th class="stub" scope="row">Pekarsky Cap Fronts, Inc.</th></tr>
+<tr><th class="stub" scope="row">Pennsylvania Handbag Frames Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Pequanoc Rubber Co.</th></tr>
+<tr><th class="stub" scope="row">Phillips Petroleum Co.</th></tr>
+<tr><th class="stub" scope="row">Platte Valley Telephone Corp.</th></tr>
+<tr><th class="stub" scope="row">Polish National Alliance of The U. S. A.</th></tr>
+<tr><th class="stub" scope="row">Polson Logging Co. and Ozette Railway Co.</th></tr>
+<tr><th class="stub" scope="row">Poultrymen&#x27;s Service Corp.</th></tr>
+<tr><th class="stub" scope="row">Premo Pharmaceutical Lab., Inc.</th></tr>
+<tr><th class="stub" scope="row">Providence Gas Co.</th></tr>
+<tr><th class="stub" scope="row">Puccinelli Packing Co.</th></tr>
+<tr><th class="stub" scope="row">Pullman-Standard Car Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Quaker Maid Dress Co.</th></tr>
+<tr><th class="stub" scope="row">Quality &amp; Service Laundry, Inc.</th></tr>
+<tr><th class="stub" scope="row">Red Diamond Mining Co.</th></tr>
+<tr><th class="stub" scope="row">Register Publishing Co., Ltd.</th></tr>
+<tr><th class="stub" scope="row">Richter Bakery Corp.</th></tr>
+<tr><th class="stub" scope="row">Rieke Metal Products Corp.</th></tr>
+<tr><th class="stub" scope="row">Rubinstein, Helena Inc., and H. R. Laboratories, Inc., H. R. Container Inc.</th></tr>
+<tr><th class="stub" scope="row">Rushton Company, The, and/or Atlanta Playthings Co.</th></tr>
+<tr><th class="stub" scope="row">Schaeffer-Hitchcox Pole Co.</th></tr>
+<tr><th class="stub" scope="row">Scullin Steel Co.</th></tr>
+<tr><th class="stub" scope="row">Seybold Baking Co., Columbia Baking Co.</th></tr>
+<tr><th class="stub" scope="row">Siebenthaler, J. M., an individual.</th></tr>
+<tr><th class="stub" scope="row">Snow, Fred A., Co., The.</th></tr>
+<tr><th class="stub" scope="row">Solberg, Leo, an individual.</th></tr>
+<tr><th class="stub" scope="row">Somersville Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">South Bend Fish Corp.</th></tr>
+<tr><th class="stub" scope="row">Southern Prison Co.</th></tr>
+<tr><th class="stub" scope="row">Southern Wood Preserving Co.</th></tr>
+<tr><th class="stub" scope="row">Spandsco Oil &amp; Royalty Co.</th></tr>
+<tr><th class="stub" scope="row">Sport Specialty Shoemakers, Inc.</th></tr>
+<tr><th class="stub" scope="row">Sportswear Hosiery Mills.</th></tr>
+<tr><th class="stub" scope="row">Springfield Woolen Mills Co. and Clinard, J. G.</th></tr>
+<tr><th class="stub" scope="row">Square D Co., Kollsman Instrument Co., Inc., Div. of.</th></tr>
+<tr><th class="stub" scope="row">Standard Knitting Mills.</th></tr>
+<tr><th class="stub" scope="row">Standard Oil Co. of N. J.</th></tr>
+<tr><th class="stub" scope="row">Stark Bros. Nurseries &amp; Orchards Co.</th></tr>
+<tr><th class="stub" scope="row">Stein-way Clothing Co.</th></tr>
+<tr><th class="stub" scope="row">Stockholders Publishing Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Strandberg, C. J., an individual.</th></tr>
+<tr><th class="stub" scope="row">Sunbeam Electric Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Switlik Parachute &amp; Equipment Co.</th></tr>
+<tr><th class="stub" scope="row">Taitel, I., &amp; Sons.</th></tr>
+<tr><th class="stub" scope="row">Taylor-Colquitt &amp; LeBoone, (Mrs.) Elma.</th></tr>
+<tr><th class="stub" scope="row">Tennessee Products Corp.</th></tr>
+<tr><th class="stub" scope="row">Texas, New Mexico &amp; Oklahoma Coaches.</th></tr>
+<tr><th class="stub" scope="row">Tide Water Associated Oil Co. (Associated Division).</th></tr>
+<tr><th class="stub" scope="row">Times-Mirror Co.</th></tr>
+<tr><th class="stub" scope="row">Transue &amp; Williams Steel Forging Corp.</th></tr>
+<tr><th class="stub" scope="row">Trico Products Corp.</th></tr>
+<tr><th class="stub" scope="row">Trio Curtain Corp.</th></tr>
+<tr><th class="stub" scope="row">Trojan Powder Co.</th></tr>
+<tr><th class="stub" scope="row">Twentieth Century Fox Film Corp., and Sonja Henie Topping.</th></tr>
+<tr><th class="stub" scope="row">Utah Copper Co. &amp; Kennecott Copper Corp., Bingham, Utah.</th></tr>
+<tr><th class="stub" scope="row">Utah Copper Co., Salt Lake City, Utah.</th></tr>
+<tr><th class="stub" scope="row">Utility Tool Mfg. Co. and The Utility Electric Company.</th></tr>
+<tr><th class="stub" scope="row">V-O Milling Co.</th></tr>
+<tr><th class="stub" scope="row">Van Deusen Dress Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Verplex Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Wadesboro Full Fashioned Hosiery Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Walgreen Co.</th></tr>
+<tr><th class="stub" scope="row">Warner Gear Co., Borg-Warner Division.</th></tr>
+<tr><th class="stub" scope="row">Waxberg, A. E., an individual.</th></tr>
+<tr><th class="stub" scope="row">Wee Tog Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Wells-Lamont-Smith Corp., Louisiana, Mo.</th></tr>
+<tr><th class="stub" scope="row">Wells-Lamont-Smith Corp., Elsberry, Mo.</th></tr>
+<tr><th class="stub" scope="row">West Coast Growers &amp; Packers.</th></tr>
+<tr><th class="stub" scope="row">West Virginia Glass Specialty Co.</th></tr>
+<tr><th class="stub" scope="row">Western Cartridge Co., Winchester Repeating Arms Co. Division.</th></tr>
+<tr><th class="stub" scope="row">Western Cartridge Company &amp; East Alton Mfg.</th></tr>
+<tr><th class="stub" scope="row">Wetmore Pulverizing &amp; Machine Company.</th></tr>
+<tr><th class="stub" scope="row">Whiterock Quarries, Inc.</th></tr>
+<tr><th class="stub" scope="row">Whiting-Mead Co.</th></tr>
+<tr><th class="stub" scope="row">Wilbur &amp; Son.</th></tr>
+<tr><th class="stub" scope="row">Wilson &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Wright Products, Inc., Ideal Brass Works.</th></tr>
+<tr><th class="stub" scope="row">Wurlitzer, Rudolph Co., The.</th></tr>
+<tr><th class="stub" scope="row">Zylocase Co. and Opticase Co.</th></tr>
+<tr><th class="stub" scope="row">II. Representation Cases</th></tr>
+<tr><th class="stub" scope="row">Ace Foundry Ltd.</th></tr>
+<tr><th class="stub" scope="row">Adams-Westlake Co.</th></tr>
+<tr><th class="stub" scope="row">Aetna Iron &amp; Steel Co.</th></tr>
+<tr><th class="stub" scope="row">Air-Way Electric Appliance Corp.</th></tr>
+<tr><th class="stub" scope="row">Alabama Drydock &amp; Shipbuilding Co.</th></tr>
+<tr><th class="stub" scope="row">Albers Milling Co.</th></tr>
+<tr><th class="stub" scope="row">Alexander Film Co. and Alexander Preview Co.</th></tr>
+<tr><th class="stub" scope="row">Allegheny Ludlum Steel Corp.</th></tr>
+<tr><th class="stub" scope="row">Allen Coal Co.</th></tr>
+<tr><th class="stub" scope="row">Allied Chemical &amp; Dye Corp., Nat&#x27;l Aniline Division, New York, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Allied Chemical &amp; Dye Corp., Nat&#x27;l Aniline Division, Buffalo, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Allied Kid Co., Standard &amp; Sterling Division.</th></tr>
+<tr><th class="stub" scope="row">Allied Paper Mills, Monarch Division.</th></tr>
+<tr><th class="stub" scope="row">Allis-Chalmers Mfg. Co., La Crosse Works.</th></tr>
+<tr><th class="stub" scope="row">All Steel Welded Truck Corp.</th></tr>
+<tr><th class="stub" scope="row">Aluminum Co. of America.</th></tr>
+<tr><th class="stub" scope="row">American Brake Shoe &amp; Foundry Co., Brake Shoe &amp; Casting Division.</th></tr>
+<tr><th class="stub" scope="row">American Brass Co.</th></tr>
+<tr><th class="stub" scope="row">American Bridge Co., Gary, Ind.</th></tr>
+<tr><th class="stub" scope="row">American Bridge Co., Trenton, N. J.</th></tr>
+<tr><th class="stub" scope="row">American Can Co., a corporation, Proviso Factory Branch.</th></tr>
+<tr><th class="stub" scope="row">American Compressed Steel Corp.</th></tr>
+<tr><th class="stub" scope="row">American Hawaiian Steamship Co.</th></tr>
+<tr><th class="stub" scope="row">American Linen Service Co., and American Laundries, Inc.</th></tr>
+<tr><th class="stub" scope="row">American Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">American Medical Assn.</th></tr>
+<tr><th class="stub" scope="row">American Oil Co., Annapolis, Md.</th></tr>
+<tr><th class="stub" scope="row">American Oil Co., South Washington, Va., and Rosslyn, Va.</th></tr>
+<tr><th class="stub" scope="row">American Oil Co., Baltimore, Md.</th></tr>
+<tr><th class="stub" scope="row">American Radiator &amp; Standard Sanitary Corp., Litchfield, Ill.</th></tr>
+<tr><th class="stub" scope="row">American Radiator &amp; Standard Sanitary Corp., Pittsburgh, Pa.</th></tr>
+<tr><th class="stub" scope="row">American Rolbal Corp.</th></tr>
+<tr><th class="stub" scope="row">American Smelting &amp; Refining Co., Alton, Ill.</th></tr>
+<tr><th class="stub" scope="row">American Smelting &amp; Refining Co., Baltimore, Md.</th></tr>
+<tr><th class="stub" scope="row">American Thread Co., Kerr Mills.</th></tr>
+<tr><th class="stub" scope="row">American Tube Bending Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">American Warming &amp; Ventilating Co.</th></tr>
+<tr><th class="stub" scope="row">Ampco Metal, Inc.</th></tr>
+<tr><th class="stub" scope="row">Aponaug Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Appalachian Electric Power Co.</th></tr>
+<tr><th class="stub" scope="row">Arcrods Corp.</th></tr>
+<tr><th class="stub" scope="row">Arkwright Corp.</th></tr>
+<tr><th class="stub" scope="row">Armour &amp; Co., Jersey City, N. J.</th></tr>
+<tr><th class="stub" scope="row">Armour &amp; Co., St. Joseph, Mo.</th></tr>
+<tr><th class="stub" scope="row">Armour &amp; Co., Dennison, Iowa.</th></tr>
+<tr><th class="stub" scope="row">Armour &amp; Co., Des Moines, Iowa.</th></tr>
+<tr><th class="stub" scope="row">Armour &amp; Co. of Chicago, Lookout Oil &amp; Refining Co. subsidiary of, Chattanooga, Tenn.</th></tr>
+<tr><th class="stub" scope="row">Armour &amp; Co., Chicago, Ill.</th></tr>
+<tr><th class="stub" scope="row">Armour &amp; Co. of Delaware, Knoxville, Tenn.</th></tr>
+<tr><th class="stub" scope="row">Armour &amp; Co., Oklahoma City, Okla.</th></tr>
+<tr><th class="stub" scope="row">Armour &amp; Co., Huron, S. Dak.</th></tr>
+<tr><th class="stub" scope="row">Armour &amp; Co. of Delaware, New York, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Armour &amp; Co., Stoughton, Wis.</th></tr>
+<tr><th class="stub" scope="row">Armour Leather Co., Noen, Pa.</th></tr>
+<tr><th class="stub" scope="row">Armour Leather Co., St. Marys, Pa.</th></tr>
+<tr><th class="stub" scope="row">Armour Leather Co., Williamsport, Pa.</th></tr>
+<tr><th class="stub" scope="row">Armstrong Brothers Tool Co.</th></tr>
+<tr><th class="stub" scope="row">Armstrong Rubber Co.</th></tr>
+<tr><th class="stub" scope="row">Art Metal Construction Co.</th></tr>
+<tr><th class="stub" scope="row">Atkin, C. B., Co.</th></tr>
+<tr><th class="stub" scope="row">Atlantic Refining Co.</th></tr>
+<tr><th class="stub" scope="row">Atlas Powder Co., The.</th></tr>
+<tr><th class="stub" scope="row">Atwood Machine Co.</th></tr>
+<tr><th class="stub" scope="row">Auburn Rubber Corp.</th></tr>
+<tr><th class="stub" scope="row">Augusta Chronicle Publishing Co., The.</th></tr>
+<tr><th class="stub" scope="row">Automatic Products Co.</th></tr>
+<tr><th class="stub" scope="row">Automotive Maintenance Machine Co.</th></tr>
+<tr><th class="stub" scope="row">Bagley Sewall Co.</th></tr>
+<tr><th class="stub" scope="row">Baldwin, A., &amp; Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Balentine Packing Co.</th></tr>
+<tr><th class="stub" scope="row">Barnaby, Charles H., Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Bath, M. L., Co., Ltd.</th></tr>
+<tr><th class="stub" scope="row">Bauski Bros.</th></tr>
+<tr><th class="stub" scope="row">Bay De Noquet Co.</th></tr>
+<tr><th class="stub" scope="row">Bayer, A. J., Co.</th></tr>
+<tr><th class="stub" scope="row">Bear Brand Hosiery.</th></tr>
+<tr><th class="stub" scope="row">Beatrice Creamery Co.</th></tr>
+<tr><th class="stub" scope="row">Beck, A. S., Shoe Co.</th></tr>
+<tr><th class="stub" scope="row">Bell Electrotype Co.</th></tr>
+<tr><th class="stub" scope="row">Bellingham Plywood Corp.</th></tr>
+<tr><th class="stub" scope="row">Belmont Products Co., The.</th></tr>
+<tr><th class="stub" scope="row">Belz Upholstered Furniture Co.</th></tr>
+<tr><th class="stub" scope="row">Bendix Aviation Corp.</th></tr>
+<tr><th class="stub" scope="row">Bendix Aviation Corp., Bendix Products, Division of.</th></tr>
+<tr><th class="stub" scope="row">Ben-Hur Products, Inc.</th></tr>
+<tr><th class="stub" scope="row">Bennett Mining Co. and Pickands Mather &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Berg, Jalmer.</th></tr>
+<tr><th class="stub" scope="row">Berkowitz Envelope Co.</th></tr>
+<tr><th class="stub" scope="row">Bernz, Otto Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Besser Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Bethlehem Fairfield Shipyard, Inc.</th></tr>
+<tr><th class="stub" scope="row">Bethlehem Steel Co. (Shipbuilding Division, Brooklyn, N. Y.).</th></tr>
+<tr><th class="stub" scope="row">Bethlehem Steel Corp. (Simpson &amp; Atlantic Works Plant), East Boston, Mass.</th></tr>
+<tr><th class="stub" scope="row">Bethlehem Steel Co., Staten Island, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Bethlehem Steel Co. (Shipbuilding Division), Hoboken, N. J.</th></tr>
+<tr><th class="stub" scope="row">Bethlehem Supply Co.</th></tr>
+<tr><th class="stub" scope="row">Bingham, J. F., Co.</th></tr>
+<tr><th class="stub" scope="row">Bisbee Linseed Co.</th></tr>
+<tr><th class="stub" scope="row">Blaw-Knox Co., Lewis Foundry &amp; Machine Co. Division.</th></tr>
+<tr><th class="stub" scope="row">Bohannon, F. M., Tobacco Mfr., Inc.</th></tr>
+<tr><th class="stub" scope="row">Bohn Aluminum &amp; Brass Corp.</th></tr>
+<tr><th class="stub" scope="row">Bolton Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Bonafide Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Booth Kelly Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Border City Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Boston Store of Chicago, Inc.</th></tr>
+<tr><th class="stub" scope="row">Bound Brook Oil-Less Bearing Co.</th></tr>
+<tr><th class="stub" scope="row">Boyar-Schultz Corp.</th></tr>
+<tr><th class="stub" scope="row">Boyle Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Braman, Chas. &amp; Son, Inc.</th></tr>
+<tr><th class="stub" scope="row">Bremner Bros.</th></tr>
+<tr><th class="stub" scope="row">Broderick &amp; Bascom Rope Co.</th></tr>
+<tr><th class="stub" scope="row">Brown Paper Goods Co.</th></tr>
+<tr><th class="stub" scope="row">Brown &amp; Sharpe Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Brown &amp; Sharpe Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Brown Shoe Co.</th></tr>
+<tr><th class="stub" scope="row">Brust Tool Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Bryant, Lane, Inc.</th></tr>
+<tr><th class="stub" scope="row">Bryce Brothers Co.</th></tr>
+<tr><th class="stub" scope="row">Buckeye Cotton Oil Co., The.</th></tr>
+<tr><th class="stub" scope="row">Bucyrus Erie Corp.</th></tr>
+<tr><th class="stub" scope="row">Buehler Tank &amp; Welding Works.</th></tr>
+<tr><th class="stub" scope="row">Buffalo Forge Co.</th></tr>
+<tr><th class="stub" scope="row">Builders Iron Foundry.</th></tr>
+<tr><th class="stub" scope="row">Bull, A. H., Steamship Co. and Baltimore-Insular Line.</th></tr>
+<tr><th class="stub" scope="row">Bunker Hill &amp; Sullivan Mining &amp; Concentrating Co.</th></tr>
+<tr><th class="stub" scope="row">Burke, Edward &amp; John, Ltd.</th></tr>
+<tr><th class="stub" scope="row">Burton-Dixie Co., Newark, N. J.</th></tr>
+<tr><th class="stub" scope="row">Burton-Dixie Corp., Chicago, Ill.</th></tr>
+<tr><th class="stub" scope="row">Bushman Bag Service, Ltd.</th></tr>
+<tr><th class="stub" scope="row">Buzard-Burkhart Pine Co.</th></tr>
+<tr><th class="stub" scope="row">California Brass Co.</th></tr>
+<tr><th class="stub" scope="row">Campbell Transportation Co.</th></tr>
+<tr><th class="stub" scope="row">Canisteo Mining Co., Mesaba Cliffs Mining Co., and Cleveland Cliffs Iron Co., The, Agent.</th></tr>
+<tr><th class="stub" scope="row">Cannon Shoe Co.</th></tr>
+<tr><th class="stub" scope="row">Capital Elevator &amp; Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Cardwell Mfg. Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Carey, Philip, Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Carnegie-Illinois Steel Corp., Pittsburgh, Pa.</th></tr>
+<tr><th class="stub" scope="row">Carnegie-Illinois Steel Corp., Gary, Ind.</th></tr>
+<tr><th class="stub" scope="row">Case, J. I., Co.</th></tr>
+<tr><th class="stub" scope="row">Case, Crane &amp; Kilbourne Jacobs Co.</th></tr>
+<tr><th class="stub" scope="row">Caterpillar Tractor Co.</th></tr>
+<tr><th class="stub" scope="row">Central Dispensary and Emergency Hospital.</th></tr>
+<tr><th class="stub" scope="row">Central Foundry Co.</th></tr>
+<tr><th class="stub" scope="row">Champion Machine &amp; Forging Co., The.</th></tr>
+<tr><th class="stub" scope="row">Chapman &amp; Dewey Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Chapman Valve Mfg. Co., The.</th></tr>
+<tr><th class="stub" scope="row">Chic Pottery Co.</th></tr>
+<tr><th class="stub" scope="row">Chrysler Corp., Atlanta, Ga.</th></tr>
+<tr><th class="stub" scope="row">Chrysler Corp., Centerville, Mich.</th></tr>
+<tr><th class="stub" scope="row">Chrysler Corp. (Chrysler Detroit Co.)</th></tr>
+<tr><th class="stub" scope="row">Chrysler Corp. (Dodge Forge Division), Detroit, Mich.</th></tr>
+<tr><th class="stub" scope="row">Chrysler Corp. (Motor Division), Detroit, Mich.</th></tr>
+<tr><th class="stub" scope="row">Chrysler Corp. (Dodge Truck Plant), Detroit, Mich.</th></tr>
+<tr><th class="stub" scope="row">Chrysler Corp. (Truck Body Division), Highland Park, Mich.</th></tr>
+<tr><th class="stub" scope="row">Chrysler Corp., Kokomo, Ind.</th></tr>
+<tr><th class="stub" scope="row">Chrysler Corp., Marysville, Mich.</th></tr>
+<tr><th class="stub" scope="row">Chrysler Corp. (Chrysler Pittsburgh Co.)</th></tr>
+<tr><th class="stub" scope="row">Church, Bruce, Co.</th></tr>
+<tr><th class="stub" scope="row">Cincinnati Concrete Pipe Co.</th></tr>
+<tr><th class="stub" scope="row">Cincinnati Gas &amp; Electric Co., The, et al.</th></tr>
+<tr><th class="stub" scope="row">Cincinnati Gas &amp; Electric Co.</th></tr>
+<tr><th class="stub" scope="row">Cincinnati Gas &amp; Electric Co., Union Light, Heat &amp; Power Co.</th></tr>
+<tr><th class="stub" scope="row">Cincinnati Times-Star Co., The.</th></tr>
+<tr><th class="stub" scope="row">Cities Service Co., Bartlesville, Oklahoma, Texas, Kansas, Missouri.</th></tr>
+<tr><th class="stub" scope="row">Cities Service Oil Co. (Production &amp; Service Dept., State of Kansas).</th></tr>
+<tr><th class="stub" scope="row">Cities Service Oil Co., Pettys Island Refinery Division, Pettys Island, N. J.</th></tr>
+<tr><th class="stub" scope="row">City Machine &amp; Tool Co.</th></tr>
+<tr><th class="stub" scope="row">Clark, E. H., Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Cleveland Container Co., The.</th></tr>
+<tr><th class="stub" scope="row">Cohen, L. S., &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Colonial Life Insurance Co. of America.</th></tr>
+<tr><th class="stub" scope="row">Colonial Sugars Co., Gramercy Refinery.</th></tr>
+<tr><th class="stub" scope="row">Columbia Pictures Corp., New York, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Columbia Pictures Corp., Los Angeles, Calif.</th></tr>
+<tr><th class="stub" scope="row">Columbia Pictures Corp., Hollywood, Calif.</th></tr>
+<tr><th class="stub" scope="row">Columbia Pictures Corp.</th></tr>
+<tr><th class="stub" scope="row">Columbia Rivers Packers Assn., Inc., Vancouver, Wash.</th></tr>
+<tr><th class="stub" scope="row">Columbia River Packers Assn., Inc., Altoona, Wash.</th></tr>
+<tr><th class="stub" scope="row">Columbian Bronze Corp.</th></tr>
+<tr><th class="stub" scope="row">Columbian Carbon Co.</th></tr>
+<tr><th class="stub" scope="row">Columbus Citizen Publishing Co.</th></tr>
+<tr><th class="stub" scope="row">Columbus Dispatch Printing &amp; Publishing Co.</th></tr>
+<tr><th class="stub" scope="row">Columbus &amp; Southern Ohio Electric Co.</th></tr>
+<tr><th class="stub" scope="row">Commander-Larabee Milling Co.</th></tr>
+<tr><th class="stub" scope="row">Commercial Solvents Corp., Newark, N. J.</th></tr>
+<tr><th class="stub" scope="row">Commercial Solvents Corp., Peoria, Ill.</th></tr>
+<tr><th class="stub" scope="row">Commercial Solvents Corp., Agnew, Calif.</th></tr>
+<tr><th class="stub" scope="row">Company of Master Craftsmen, Inc., The.</th></tr>
+<tr><th class="stub" scope="row">Coney Island, Inc.</th></tr>
+<tr><th class="stub" scope="row">Coney Island, Inc.</th></tr>
+<tr><th class="stub" scope="row">Consolidated Crystal Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Consolidated Laundries Corp.</th></tr>
+<tr><th class="stub" scope="row">Continental Baking Co., Akron Branch.</th></tr>
+<tr><th class="stub" scope="row">Continental Oil Co.</th></tr>
+<tr><th class="stub" scope="row">Continental Products, Inc.</th></tr>
+<tr><th class="stub" scope="row">Conveyor Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Cordiano Can Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Cramp Shipbuilding Co.</th></tr>
+<tr><th class="stub" scope="row">Crane Company &amp; Crane Co. of Minn.</th></tr>
+<tr><th class="stub" scope="row">Crater Lake Box &amp; Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Crawfordsville Foundry Co.</th></tr>
+<tr><th class="stub" scope="row">Creamery Package Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Crescent Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Crocker Wheeler Electric Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Crowley, Henry L., &amp; Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Crowley&#x27;s Milk Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Cuban Cigar Co.</th></tr>
+<tr><th class="stub" scope="row">Cudahy Packing Co., Jersey City, N. J.</th></tr>
+<tr><th class="stub" scope="row">Cudahy Packing Co., The, Memphis, Tenn.</th></tr>
+<tr><th class="stub" scope="row">Cudahy Packing Co., The, Newport, Minn.</th></tr>
+<tr><th class="stub" scope="row">Cudahy Packing Co., North Salt Lake, Utah.</th></tr>
+<tr><th class="stub" scope="row">Curtiss-Wright Corp., Airplane Division, Columbus, Ohio.</th></tr>
+<tr><th class="stub" scope="row">Curtiss-Wright Corp., Cheektowaga &amp; Tonowanda, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Dain Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Davenport Besler Corp.</th></tr>
+<tr><th class="stub" scope="row">Davis-Noland-Merrill Grain Co. (Santa Fe Elevator &quot;A&quot;).</th></tr>
+<tr><th class="stub" scope="row">Dayton Steel Foundry Co.</th></tr>
+<tr><th class="stub" scope="row">Day &amp; Zimmermann, Inc., Iowa Ordnance Plant.</th></tr>
+<tr><th class="stub" scope="row">Decatur Iron &amp; Steel Co.</th></tr>
+<tr><th class="stub" scope="row">Deep River Timber Co.</th></tr>
+<tr><th class="stub" scope="row">Deere, John, Tractor Co.</th></tr>
+<tr><th class="stub" scope="row">Deisel-Wemmer-Gilbert Corp.</th></tr>
+<tr><th class="stub" scope="row">Delta-Star Electric Co.</th></tr>
+<tr><th class="stub" scope="row">De Soto Creamery &amp; Produce Co.</th></tr>
+<tr><th class="stub" scope="row">De Soto Paint and Varnish Co.</th></tr>
+<tr><th class="stub" scope="row">Detroit &amp; Cleveland Navigation Co.</th></tr>
+<tr><th class="stub" scope="row">Detroit Electrotype Co.</th></tr>
+<tr><th class="stub" scope="row">Detroit Plating Industries.</th></tr>
+<tr><th class="stub" scope="row">Diamond Match Co.</th></tr>
+<tr><th class="stub" scope="row">Dillonvale Cooperative Mining Co.</th></tr>
+<tr><th class="stub" scope="row">Dominion Electrical Mfg., Inc.</th></tr>
+<tr><th class="stub" scope="row">Dorset Foods, Ltd.</th></tr>
+<tr><th class="stub" scope="row">Double M. Shingle Mill Co.</th></tr>
+<tr><th class="stub" scope="row">Dravo Corp., Keystone Sand Division, Neville Island, Pa.</th></tr>
+<tr><th class="stub" scope="row">Dravo Corp., Keystone Sand Division, Pittsburgh, Pa.</th></tr>
+<tr><th class="stub" scope="row">Duncan Electric Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Dunn Sulphite.</th></tr>
+<tr><th class="stub" scope="row">du Pont, E. I., de Nemours &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Durham Pepsi-Cola Bottling Co.</th></tr>
+<tr><th class="stub" scope="row">Eastern Tool &amp; Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Eberle Tanning Co.</th></tr>
+<tr><th class="stub" scope="row">Edward Valve &amp; Mfg. Co., The.</th></tr>
+<tr><th class="stub" scope="row">Electric Auto-Lite Co., Bay Mfg. Division, Bay City, Mich.</th></tr>
+<tr><th class="stub" scope="row">Electric Auto-Lite Co., The, Toledo, Ohio.</th></tr>
+<tr><th class="stub" scope="row">Empire Ordnance Corp., Roxboro Steel Co.</th></tr>
+<tr><th class="stub" scope="row">Empire State Silk Label Co.</th></tr>
+<tr><th class="stub" scope="row">Enterprise Engine &amp; Foundry Co.</th></tr>
+<tr><th class="stub" scope="row">Enterprise Upholstering Co.</th></tr>
+<tr><th class="stub" scope="row">Erasmus Atlas, Inc.</th></tr>
+<tr><th class="stub" scope="row">Essex Specialty Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Etna Machine Co.</th></tr>
+<tr><th class="stub" scope="row">Evening News Ass&#x27;n (Detroit News).</th></tr>
+<tr><th class="stub" scope="row">Fairbanks-Morse Co.</th></tr>
+<tr><th class="stub" scope="row">Fall River Manufacturer&#x27;s Assn., et al.</th></tr>
+<tr><th class="stub" scope="row">Fargo Creamery &amp; Produce Co.</th></tr>
+<tr><th class="stub" scope="row">Faries Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Farmers Feed Co.</th></tr>
+<tr><th class="stub" scope="row">Farmington Shoe Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Federal Chemical Co.</th></tr>
+<tr><th class="stub" scope="row">Ferbert &amp; Schorndorfer.</th></tr>
+<tr><th class="stub" scope="row">Field, Marshall, &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Finch, Joseph S., Co.</th></tr>
+<tr><th class="stub" scope="row">Firestone Tire &amp; Rubber Co. of Tennessee.</th></tr>
+<tr><th class="stub" scope="row">Fisher Body, General Motors Corp., Kansas City, Division.</th></tr>
+<tr><th class="stub" scope="row">Fitzsimons Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Fletcher Co., H. F.</th></tr>
+<tr><th class="stub" scope="row">Florida Power &amp; Light Co.</th></tr>
+<tr><th class="stub" scope="row">Food Machinery Corp., Amphibian Tractor Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Co., Brooklyn Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Car Co., Dundee Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Car Co., Flat Rock Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Co., Manchester Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Car Co., Milan Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Co., Milford Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Car Co., Newberg Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Car Co., Northville Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Co., Phoenix Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Car Co., Plymouth Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Car Co., Saline Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Car Co., Sharon-Mills Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Co., Waterford Division.</th></tr>
+<tr><th class="stub" scope="row">Ford Motor Co., Ypsilanti Division.</th></tr>
+<tr><th class="stub" scope="row">Fraim, E. T., Lock Co.</th></tr>
+<tr><th class="stub" scope="row">Frank Bros. Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Frankel Bros. &amp; Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Franks Foundry Corp.</th></tr>
+<tr><th class="stub" scope="row">Fraser-Brace Engineering Co., The.</th></tr>
+<tr><th class="stub" scope="row">Fruco Construction Co., Fruin-Colnon Contracting Co., Massman Construction Co.</th></tr>
+<tr><th class="stub" scope="row">Fruehauf Trailer Co. of Calif.</th></tr>
+<tr><th class="stub" scope="row">Fruit Growers Supply Co.</th></tr>
+<tr><th class="stub" scope="row">Fullerton Oil Co.</th></tr>
+<tr><th class="stub" scope="row">Gamble-Robinson Co.</th></tr>
+<tr><th class="stub" scope="row">Gatke Corp.</th></tr>
+<tr><th class="stub" scope="row">General Cable Corp.</th></tr>
+<tr><th class="stub" scope="row">General Electric Co., Erie, Pa.</th></tr>
+<tr><th class="stub" scope="row">General Electric Co., Euclid Village, Ohio.</th></tr>
+<tr><th class="stub" scope="row">General Electric X-Ray Corp.</th></tr>
+<tr><th class="stub" scope="row">General Fire Truck Corp.</th></tr>
+<tr><th class="stub" scope="row">General Foods Corp., Diamond Crystal Salt Division.</th></tr>
+<tr><th class="stub" scope="row">General Machinery Corp.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp., Allison Division, Speedway City, Ind.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp., Buick Aviation Engine Co. Division, Melrose Park, Ill.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp., Buick Motor Division, Flint, Mich.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp., Buick Motors Division, Melrose Park, Ill.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp., Chevrolet Motor Division, Baltimore, Md.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp., Delco Radio Division, Kokomo, Ind.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp. (Fisher Body), Ternstedt Division, Detroit, Mich.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp., Frigidaire Division, Dayton, Ohio.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp. (Harrison Radiator Division), Lockport, N. Y.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp., Inland Mfg. Division, Dayton, Ohio.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp., Yellow Truck &amp; Coach Division, Denver, Colo.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp., Yellow Truck &amp; Coach Division, Pontiac, Mich.</th></tr>
+<tr><th class="stub" scope="row">General Motors Corp., Yellow Truck &amp; Coach Division, Seattle, Wash.</th></tr>
+<tr><th class="stub" scope="row">General Petroleum Corp. of California, Vernon &amp; Taft, Calif.</th></tr>
+<tr><th class="stub" scope="row">General Petroleum Corp. of California, Terminal Island, Calif.</th></tr>
+<tr><th class="stub" scope="row">General Steel Casting Corp.</th></tr>
+<tr><th class="stub" scope="row">Gibbs Gas Engine Co.</th></tr>
+<tr><th class="stub" scope="row">Giustina Brothers Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Globe Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Godchaux Sugars, Inc.</th></tr>
+<tr><th class="stub" scope="row">Goldblatt Bros., Inc.</th></tr>
+<tr><th class="stub" scope="row">Goodall Worsted Co.</th></tr>
+<tr><th class="stub" scope="row">Graham Mill &amp; Elevator Co.</th></tr>
+<tr><th class="stub" scope="row">Grand Rapids Cabinet Co.</th></tr>
+<tr><th class="stub" scope="row">Grand Rapids Varnish Corp. and Grand Haven Paint &amp; Varnish Co.</th></tr>
+<tr><th class="stub" scope="row">Grant Storage Batteries Co.</th></tr>
+<tr><th class="stub" scope="row">Great Lakes Engineering Works.</th></tr>
+<tr><th class="stub" scope="row">Grede Foundries, Inc., Milwaukee Steel Foundry Division.</th></tr>
+<tr><th class="stub" scope="row">Greenebaum, J., Tanning Co., Plant No. 2.</th></tr>
+<tr><th class="stub" scope="row">Growers-Shippers Labor Committee of Imperial Valley, et al.</th></tr>
+<tr><th class="stub" scope="row">Gulf Oil Corp., Marine Dept.</th></tr>
+<tr><th class="stub" scope="row">Hall Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Hamilton Foundry &amp; Machine Co.</th></tr>
+<tr><th class="stub" scope="row">Hanes, P. H., Knitting Co.</th></tr>
+<tr><th class="stub" scope="row">Harbison-Walker Refractories Co., The.</th></tr>
+<tr><th class="stub" scope="row">Hardy Metal Specialties, Inc., &amp; Plastic Specialties, Inc.</th></tr>
+<tr><th class="stub" scope="row">Harmony Short Line Motor Transportation Co.</th></tr>
+<tr><th class="stub" scope="row">Hawkeye Steel Products Co.</th></tr>
+<tr><th class="stub" scope="row">Hay, John I., Co.</th></tr>
+<tr><th class="stub" scope="row">Heller Bros. Co. of Newcomerstown.</th></tr>
+<tr><th class="stub" scope="row">Henry Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Hillcone Steamship Co.</th></tr>
+<tr><th class="stub" scope="row">Hill, Gordon.</th></tr>
+<tr><th class="stub" scope="row">Hill, H. G., Stores, Inc., Warehouses.</th></tr>
+<tr><th class="stub" scope="row">Hillman Transportation Co.</th></tr>
+<tr><th class="stub" scope="row">Hoffman Beverage Co.</th></tr>
+<tr><th class="stub" scope="row">Hope&#x27;s Windows, Inc.</th></tr>
+<tr><th class="stub" scope="row">Houde Engineering Corp.</th></tr>
+<tr><th class="stub" scope="row">Houston Press.</th></tr>
+<tr><th class="stub" scope="row">Houston Shipbuilding Corp., Irish Bend, Tex.</th></tr>
+<tr><th class="stub" scope="row">Houston Shipbuilding Corp., Houston, Tex.</th></tr>
+<tr><th class="stub" scope="row">Hoyt Mining Co. &amp; Pickands Mather &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Hueneme Wharf &amp; Warehouse Co.</th></tr>
+<tr><th class="stub" scope="row">Huntington Land &amp; Improvement Co., Standard Felt Co. Division.</th></tr>
+<tr><th class="stub" scope="row">Hygrade Food Products Corp.</th></tr>
+<tr><th class="stub" scope="row">Ideal Chair Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Ideal Seating Co.</th></tr>
+<tr><th class="stub" scope="row">Illinois Iron &amp; Bolt Co.</th></tr>
+<tr><th class="stub" scope="row">Illinois Moulding Co.</th></tr>
+<tr><th class="stub" scope="row">Indiana Brass Co.</th></tr>
+<tr><th class="stub" scope="row">Indiana Steel Products Co.</th></tr>
+<tr><th class="stub" scope="row">Indianapolis Drop Forging Co.</th></tr>
+<tr><th class="stub" scope="row">Indianapolis Paint &amp; Color Co.</th></tr>
+<tr><th class="stub" scope="row">Indianapolis Wire Bound Box Co.</th></tr>
+<tr><th class="stub" scope="row">Ingalls Shipbuilding Corp., The.</th></tr>
+<tr><th class="stub" scope="row">Inspiration Consolidated Copper Co.</th></tr>
+<tr><th class="stub" scope="row">Inter-Island Steam Navigation Co., Ltd.</th></tr>
+<tr><th class="stub" scope="row">Interlake Iron Corp.</th></tr>
+<tr><th class="stub" scope="row">International Harvester Co., Tractor Works.</th></tr>
+<tr><th class="stub" scope="row">International Shoe Co.</th></tr>
+<tr><th class="stub" scope="row">International Smelting &amp; Refining Co.</th></tr>
+<tr><th class="stub" scope="row">Interstate Drop Forge Co.</th></tr>
+<tr><th class="stub" scope="row">Irwin Auger Bit Co.</th></tr>
+<tr><th class="stub" scope="row">Jacobs Bros., Inc.</th></tr>
+<tr><th class="stub" scope="row">Johnson, C. D., Lumber Corp., Toledo, Oreg.</th></tr>
+<tr><th class="stub" scope="row">Johnson, C. D., Lumber Corp. (Toledo Operation), Portland, Oreg.</th></tr>
+<tr><th class="stub" scope="row">Johnson Service Co.</th></tr>
+<tr><th class="stub" scope="row">Jones &amp; Laughlin Steel Corp., New Orleans, La.</th></tr>
+<tr><th class="stub" scope="row">Jones &amp; Laughlin Steel Corp., Pittsburgh, Pa.</th></tr>
+<tr><th class="stub" scope="row">Jones &amp; Laughlin Steel Corp., Marine Ways Dept., River Transportation Division, Floreffe, Pa.</th></tr>
+<tr><th class="stub" scope="row">Joyce, Inc.</th></tr>
+<tr><th class="stub" scope="row">Judd, H. L., Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Juilliard, A. D., &amp; Co., New York Mills Division.</th></tr>
+<tr><th class="stub" scope="row">Kalamazoo Creamery Co.</th></tr>
+<tr><th class="stub" scope="row">Kaufman, L., Co.</th></tr>
+<tr><th class="stub" scope="row">Kayser, Julius, &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Kelly Co., The.</th></tr>
+<tr><th class="stub" scope="row">Kennecott Copper Corp., Nevada Consolidated Copper Corp.</th></tr>
+<tr><th class="stub" scope="row">Kettleman North Dome Assn.</th></tr>
+<tr><th class="stub" scope="row">Kiemle, Fred W., Co., The.</th></tr>
+<tr><th class="stub" scope="row">Kiener-Williams Stamping Co.</th></tr>
+<tr><th class="stub" scope="row">King Features Syndicate, Chicago, Ill.</th></tr>
+<tr><th class="stub" scope="row">King Features Syndicate, Inc., International News Service, Harrisburg, Pa.</th></tr>
+<tr><th class="stub" scope="row">King Features Syndicate, Inc., International News Service, Los Angeles Calif.</th></tr>
+<tr><th class="stub" scope="row">King Features Syndicate, Inc., International News Service, Philadelphia, Pa.</th></tr>
+<tr><th class="stub" scope="row">King Features Syndicate, Inc., International News Service, Pittsburgh, Pa.</th></tr>
+<tr><th class="stub" scope="row">King Features Syndicate, Inc., International News Service, San Francisco, Calif.</th></tr>
+<tr><th class="stub" scope="row">King Machine Tool Co.</th></tr>
+<tr><th class="stub" scope="row">Kingan &amp; Co., Inc. (Poultry Division).</th></tr>
+<tr><th class="stub" scope="row">Klamath Timber Co.</th></tr>
+<tr><th class="stub" scope="row">Knaust Bros., Inc.</th></tr>
+<tr><th class="stub" scope="row">Knight Plating Co.</th></tr>
+<tr><th class="stub" scope="row">Kohen-Ligon-Folz, Inc.</th></tr>
+<tr><th class="stub" scope="row">Kroehler Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Kroger Grocery &amp; Baking Co.</th></tr>
+<tr><th class="stub" scope="row">L. A. By-Products Co.</th></tr>
+<tr><th class="stub" scope="row">Ladoga Canning Co.</th></tr>
+<tr><th class="stub" scope="row">Lake Superior District Power Co.</th></tr>
+<tr><th class="stub" scope="row">Lakeview Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Lakey Foundry &amp; Machine Co.</th></tr>
+<tr><th class="stub" scope="row">Lamm Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Lansdowne Steel &amp; Iron Co.</th></tr>
+<tr><th class="stub" scope="row">Lansing Drop Forge Co.</th></tr>
+<tr><th class="stub" scope="row">Larkin, J. K., Co.</th></tr>
+<tr><th class="stub" scope="row">Larson, Henry A.</th></tr>
+<tr><th class="stub" scope="row">Lederle Laboratories, Inc.</th></tr>
+<tr><th class="stub" scope="row">Lehigh Portland Cement Co.</th></tr>
+<tr><th class="stub" scope="row">Lehigh Portland Cement Co. &amp; Modern Bag &amp; Valve Co.</th></tr>
+<tr><th class="stub" scope="row">Lehon Co., The.</th></tr>
+<tr><th class="stub" scope="row">LeTourneau, R. G., Inc.</th></tr>
+<tr><th class="stub" scope="row">Levin &amp; Rosenberg.</th></tr>
+<tr><th class="stub" scope="row">Levingston Shipbuilding Co.</th></tr>
+<tr><th class="stub" scope="row">Leviton Mfg. Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Libbey-Owens-Ford Glass Co.</th></tr>
+<tr><th class="stub" scope="row">Life Insurance Co. of Virginia, Algiers, La.</th></tr>
+<tr><th class="stub" scope="row">Life Insurance Co. of Virginia, Anderson, Ind.</th></tr>
+<tr><th class="stub" scope="row">Life Insurance Co. of Virginia, Augusta, Ga.</th></tr>
+<tr><th class="stub" scope="row">Life Insurance Co. of Virginia, Greenville, S. C.</th></tr>
+<tr><th class="stub" scope="row">Life Insurance Co. of Virginia, Lynchburg, Va.</th></tr>
+<tr><th class="stub" scope="row">Life Insurance Co. of Virginia, Roanoke, Va.</th></tr>
+<tr><th class="stub" scope="row">Life Insurance Co. of Virginia, Savannah, Ga.</th></tr>
+<tr><th class="stub" scope="row">Life Insurance Co. of Virginia, Toledo, Ohio.</th></tr>
+<tr><th class="stub" scope="row">Lincoln Packing Co.</th></tr>
+<tr><th class="stub" scope="row">Lindsay Light &amp; Chemical Co.</th></tr>
+<tr><th class="stub" scope="row">Link-Belt Speeder Co.</th></tr>
+<tr><th class="stub" scope="row">Liquid Carbonic Corp., The, Chicago, Ill.</th></tr>
+<tr><th class="stub" scope="row">Liquid Carbonic Corp., The, Detroit, Mich.</th></tr>
+<tr><th class="stub" scope="row">Little Rock Furniture Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Loew&#x27;s Inc. &amp; Marcus Loew Booking Agency, Inc.</th></tr>
+<tr><th class="stub" scope="row">Loew&#x27;s, Inc.</th></tr>
+<tr><th class="stub" scope="row">Lone Star Cement Corp.</th></tr>
+<tr><th class="stub" scope="row">Long-Bell Lumber Co., Klamath Falls, Oreg.</th></tr>
+<tr><th class="stub" scope="row">Long-Bell Lumber Co. (Modoc &amp; Tennant Logging Camps), Weed, Calif.</th></tr>
+<tr><th class="stub" scope="row">Long-Bell Lumber Co. (Ryderwood Operations), Ryderwood, Wash.</th></tr>
+<tr><th class="stub" scope="row">Long-Bell Lumber Co. (Weed Division), Weed, Calif.</th></tr>
+<tr><th class="stub" scope="row">Longsfield Brothers, Inc.</th></tr>
+<tr><th class="stub" scope="row">Los Angeles Brick &amp; Clay Products Co.</th></tr>
+<tr><th class="stub" scope="row">Los Angeles Shipbuilding &amp; Drydock Co.</th></tr>
+<tr><th class="stub" scope="row">Low Moisture Coal Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">L-U-C-E Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Lyons Machine &amp; Tool Co.</th></tr>
+<tr><th class="stub" scope="row">M. &amp; M. Bakeries, Inc.</th></tr>
+<tr><th class="stub" scope="row">MacAndrews &amp; Forbes Co.</th></tr>
+<tr><th class="stub" scope="row">McCarty, Justin, Inc.</th></tr>
+<tr><th class="stub" scope="row">Magnet Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Mahoning Mining Co.</th></tr>
+<tr><th class="stub" scope="row">Malden Electric Co.</th></tr>
+<tr><th class="stub" scope="row">Manufacturers Hair &amp; Bristle Dressing Co.</th></tr>
+<tr><th class="stub" scope="row">Marine Transit Co.</th></tr>
+<tr><th class="stub" scope="row">Marshall, Walter, Spinning Corp.</th></tr>
+<tr><th class="stub" scope="row">Mather Spring Co.</th></tr>
+<tr><th class="stub" scope="row">Mathieson Alkali Works, The.</th></tr>
+<tr><th class="stub" scope="row">Matthews Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">May Co., The.</th></tr>
+<tr><th class="stub" scope="row">Mechling, A. L., Barge Line.</th></tr>
+<tr><th class="stub" scope="row">Merchants &amp; Mfg. Warehouse Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Merchants &amp; Miners Transportation Co.</th></tr>
+<tr><th class="stub" scope="row">Merkle-Korff Gear Co.</th></tr>
+<tr><th class="stub" scope="row">Merrill-Stevens Dry Dock Co.</th></tr>
+<tr><th class="stub" scope="row">Miami Copper Co.</th></tr>
+<tr><th class="stub" scope="row">Michigan Alkali Co. &amp; Ford, J. B., Co.</th></tr>
+<tr><th class="stub" scope="row">Michigan Dimension Co.</th></tr>
+<tr><th class="stub" scope="row">Michigan Electrotype &amp; Stereotype Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Mill B., Inc.</th></tr>
+<tr><th class="stub" scope="row">Minneapolis-Honeywell Regulator Co.</th></tr>
+<tr><th class="stub" scope="row">Mirror Products Co.</th></tr>
+<tr><th class="stub" scope="row">Mississippi Valley Barge Line Co.</th></tr>
+<tr><th class="stub" scope="row">Mitchell Battery Co.</th></tr>
+<tr><th class="stub" scope="row">Mogul Rubber Co.</th></tr>
+<tr><th class="stub" scope="row">Mojonnier Bros. Co.</th></tr>
+<tr><th class="stub" scope="row">Monarch Aluminum Mfg. Co., The.</th></tr>
+<tr><th class="stub" scope="row">Monarch Mills (Ottaray Plant).</th></tr>
+<tr><th class="stub" scope="row">Monark Battery Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Monogram Pictures Corp.</th></tr>
+<tr><th class="stub" scope="row">Monolith Portland Cement Co.</th></tr>
+<tr><th class="stub" scope="row">Montgomery Ward &amp; Co., Chicago, Ill.</th></tr>
+<tr><th class="stub" scope="row">Montgomery Ward &amp; Co., Denver, Colo.</th></tr>
+<tr><th class="stub" scope="row">Montgomery Ward &amp; Co., Detroit, Mich.</th></tr>
+<tr><th class="stub" scope="row">Montgomery Ward &amp; Co., Wichita, Kans.</th></tr>
+<tr><th class="stub" scope="row">Moore-Lowry Flour Mills Co.</th></tr>
+<tr><th class="stub" scope="row">Moore-McCormack Lines, Inc.</th></tr>
+<tr><th class="stub" scope="row">Morell, Barrie, &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Morse Twist Drill &amp; Machine Co.</th></tr>
+<tr><th class="stub" scope="row">Morten-Davis Co.</th></tr>
+<tr><th class="stub" scope="row">Mueller Brass Co.</th></tr>
+<tr><th class="stub" scope="row">Muncie Elwood Lamp Co.</th></tr>
+<tr><th class="stub" scope="row">Murphy Timber Co.</th></tr>
+<tr><th class="stub" scope="row">Nachman Spring Filled Corp.</th></tr>
+<tr><th class="stub" scope="row">Nahon Co.</th></tr>
+<tr><th class="stub" scope="row">Nash Kelvinator Corp., Propeller Division.</th></tr>
+<tr><th class="stub" scope="row">National Erie Corp.</th></tr>
+<tr><th class="stub" scope="row">National Fireworks, Inc.</th></tr>
+<tr><th class="stub" scope="row">National Gypsum Co., Hawkeye Mine.</th></tr>
+<tr><th class="stub" scope="row">National Laundry Co.</th></tr>
+<tr><th class="stub" scope="row">National Lead Co., Magnus Metal Division.</th></tr>
+<tr><th class="stub" scope="row">National Lead Co. (Titanium Division).</th></tr>
+<tr><th class="stub" scope="row">National Metal Art Mfg. Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">National Sanitary Co., The.</th></tr>
+<tr><th class="stub" scope="row">National Screen Service Corp.</th></tr>
+<tr><th class="stub" scope="row">National Screen Service Corp., National Service Accessories Corp.</th></tr>
+<tr><th class="stub" scope="row">National Tea Co.</th></tr>
+<tr><th class="stub" scope="row">National Vulcanized Fibre Co., Newark Fibre Division.</th></tr>
+<tr><th class="stub" scope="row">Natural Gas Pipe Line Co. of America.</th></tr>
+<tr><th class="stub" scope="row">Navy Yard Cafeterias.</th></tr>
+<tr><th class="stub" scope="row">Neenah Milk Products Co.</th></tr>
+<tr><th class="stub" scope="row">Nelson, Robert, Co.</th></tr>
+<tr><th class="stub" scope="row">Neptune Boat &amp; Davit Corp.</th></tr>
+<tr><th class="stub" scope="row">Nevada Consolidated Copper Corp.</th></tr>
+<tr><th class="stub" scope="row">New Castle Products.</th></tr>
+<tr><th class="stub" scope="row">New England Collapsible Tube Co.</th></tr>
+<tr><th class="stub" scope="row">New Haven Clock Co., The.</th></tr>
+<tr><th class="stub" scope="row">New Jersey Broadcasting Corp.</th></tr>
+<tr><th class="stub" scope="row">New Jersey Worsted Mills.</th></tr>
+<tr><th class="stub" scope="row">New Process Metal Corp.</th></tr>
+<tr><th class="stub" scope="row">New York Central Iron Works.</th></tr>
+<tr><th class="stub" scope="row">Norris Stamping &amp; Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">North Electric Mfg. Co., The.</th></tr>
+<tr><th class="stub" scope="row">Northern Electrotype Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Northern Indiana Brass Co.</th></tr>
+<tr><th class="stub" scope="row">Northern States Power Co. of Wisconsin.</th></tr>
+<tr><th class="stub" scope="row">Northrop Aircraft, Inc.</th></tr>
+<tr><th class="stub" scope="row">Northwestern Auto Parts Co.</th></tr>
+<tr><th class="stub" scope="row">Norwood Sash &amp; Door Mfg. Co., Sears, Roebuck &amp; Co., Modern Homes Division.</th></tr>
+<tr><th class="stub" scope="row">Nu-Brick Products, Inc.</th></tr>
+<tr><th class="stub" scope="row">Oceanic Ship Scaling Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Ohio Brass Co.</th></tr>
+<tr><th class="stub" scope="row">Ohio Ferro-Alloys Corp.</th></tr>
+<tr><th class="stub" scope="row">Ohio Public Service Co., The, Warren, Ohio.</th></tr>
+<tr><th class="stub" scope="row">Ohio Public Service Co., The, Cleveland, Ohio.</th></tr>
+<tr><th class="stub" scope="row">Oklahoma Gas &amp; Electric Co.</th></tr>
+<tr><th class="stub" scope="row">Oliver Machinery Co., Baldwin Tuthill Division.</th></tr>
+<tr><th class="stub" scope="row">Oregon Plywood Co.</th></tr>
+<tr><th class="stub" scope="row">Overhead Door Corp.</th></tr>
+<tr><th class="stub" scope="row">Owens-Illinois Pacific Coast Co.</th></tr>
+<tr><th class="stub" scope="row">Palmer Match Co., The.</th></tr>
+<tr><th class="stub" scope="row">Paraffine Companies, Inc., The.</th></tr>
+<tr><th class="stub" scope="row">Paramount Film Distributing Corp.</th></tr>
+<tr><th class="stub" scope="row">Paramount Pictures, Inc.</th></tr>
+<tr><th class="stub" scope="row">Park Drop Forge Co.</th></tr>
+<tr><th class="stub" scope="row">Patterson-Kelley Co.</th></tr>
+<tr><th class="stub" scope="row">Peerless Novelty Co.</th></tr>
+<tr><th class="stub" scope="row">Pekin Wood Products Co.</th></tr>
+<tr><th class="stub" scope="row">Pelican Bay Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Pennsylvania Edison Co.</th></tr>
+<tr><th class="stub" scope="row">Pennsylvania Salt Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Pennsylvania Shipyards, Inc.</th></tr>
+<tr><th class="stub" scope="row">Peoples Iron &amp; Metal Co.</th></tr>
+<tr><th class="stub" scope="row">Personal Products Corp.</th></tr>
+<tr><th class="stub" scope="row">Phelps Dodge Copper Products Corp., Elizabeth, N. J.</th></tr>
+<tr><th class="stub" scope="row">Phelps Dodge Corp., Douglas, Ariz.</th></tr>
+<tr><th class="stub" scope="row">Phelps Dodge Corp., Copper Queen Branch, Bisbee, Ariz.</th></tr>
+<tr><th class="stub" scope="row">Phelps Dodge Corp., Copper Queen Branch, Douglas, Ariz.</th></tr>
+<tr><th class="stub" scope="row">Phelps Dodge Corp., Morenci Branch, Morenci, Ariz.</th></tr>
+<tr><th class="stub" scope="row">Phelps Dodge Corp., New Cornelia Branch, Ajo, Ariz.</th></tr>
+<tr><th class="stub" scope="row">Phelps Dodge Refining Corp., El Paso Tex.</th></tr>
+<tr><th class="stub" scope="row">Phelps Dodge Refining Corp., Laurel Hill, L. I., N. Y.</th></tr>
+<tr><th class="stub" scope="row">Philadelphia Dairy Products Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Phillips Petroleum Co.</th></tr>
+<tr><th class="stub" scope="row">Phoenix Iron Co.</th></tr>
+<tr><th class="stub" scope="row">Pickands, Mather &amp; Co., &amp; Crete Mining Co.</th></tr>
+<tr><th class="stub" scope="row">Pittsburgh Plate Glass Co.</th></tr>
+<tr><th class="stub" scope="row">Pollack, Max &amp; Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Porter-Cable Machine Co.</th></tr>
+<tr><th class="stub" scope="row">Portland Forge &amp; Foundry Co.</th></tr>
+<tr><th class="stub" scope="row">Post-Standard Co., The.</th></tr>
+<tr><th class="stub" scope="row">Poultry Producers of Central California.</th></tr>
+<tr><th class="stub" scope="row">Prentice-Hall, Inc.</th></tr>
+<tr><th class="stub" scope="row">Pressed Steel Car Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Price Bros. Co.</th></tr>
+<tr><th class="stub" scope="row">Producers Releasing Corp.</th></tr>
+<tr><th class="stub" scope="row">Public Service Co. of Indiana.</th></tr>
+<tr><th class="stub" scope="row">Pullman-Standard Car Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Pusey &amp; Jones Corp., The.</th></tr>
+<tr><th class="stub" scope="row">Quincy Compressor Co.</th></tr>
+<tr><th class="stub" scope="row">R. K. O. Radio Pictures, Inc.</th></tr>
+<tr><th class="stub" scope="row">Railways Ice Co.</th></tr>
+<tr><th class="stub" scope="row">Ralston Purina Co.</th></tr>
+<tr><th class="stub" scope="row">Ralston Steel Car Co.</th></tr>
+<tr><th class="stub" scope="row">Ramsey Accessories Mfg. Corp.</th></tr>
+<tr><th class="stub" scope="row">Redfern Lace Works, Inc.</th></tr>
+<tr><th class="stub" scope="row">Red Jacket Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Remington-Rand, Inc., Elmira, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Remington-Rand, Inc., Los Angeles, Calif.</th></tr>
+<tr><th class="stub" scope="row">Remington-Rand, Inc., Remtico Supplies Division, Bridgeport, Conn.</th></tr>
+<tr><th class="stub" scope="row">Republic Creosote Co.</th></tr>
+<tr><th class="stub" scope="row">Republic Pictures Corp.</th></tr>
+<tr><th class="stub" scope="row">Republic Steel Corp., Birmingham, Ala.</th></tr>
+<tr><th class="stub" scope="row">Republic Steel Corp., Buffalo, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Republic Steel Corp., Ideal Foundry &amp; Machine Division, Newton Falls, Ohio.</th></tr>
+<tr><th class="stub" scope="row">Republic Steel Corp., Niles Steel Products Division.</th></tr>
+<tr><th class="stub" scope="row">Rice &amp; Adams Corp.</th></tr>
+<tr><th class="stub" scope="row">Richard Borden Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Richard Ore Co.</th></tr>
+<tr><th class="stub" scope="row">Richfield Oil Corp. of California.</th></tr>
+<tr><th class="stub" scope="row">Richmond Greyhound Lines, Inc. (Peninsula Division).</th></tr>
+<tr><th class="stub" scope="row">Rockbestos Products Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Rockland Light &amp; Power Co.</th></tr>
+<tr><th class="stub" scope="row">Rockwood Alabama Stone Co.</th></tr>
+<tr><th class="stub" scope="row">Rosedale Foundry &amp; Machine Co.</th></tr>
+<tr><th class="stub" scope="row">Rosenhirsch, H., Co.</th></tr>
+<tr><th class="stub" scope="row">Rosiclare Lead &amp; Fluorspar Mining.</th></tr>
+<tr><th class="stub" scope="row">Royal Blue Granite Co.</th></tr>
+<tr><th class="stub" scope="row">Russell Wood Heel Co.</th></tr>
+<tr><th class="stub" scope="row">Rutherford Freight Lines, Chattanooga, Tenn.</th></tr>
+<tr><th class="stub" scope="row">Rutherford Freight Lines, Inc., Knoxville, Tenn.</th></tr>
+<tr><th class="stub" scope="row">Rutherford Freight Lines, Inc., Richmond, Va.</th></tr>
+<tr><th class="stub" scope="row">Rutherford Freight Lines, Roanoke, Va.</th></tr>
+<tr><th class="stub" scope="row">Rytex Co.</th></tr>
+<tr><th class="stub" scope="row">St. Joseph Lead Co.</th></tr>
+<tr><th class="stub" scope="row">St. Louis Steel Products Co.</th></tr>
+<tr><th class="stub" scope="row">St. Paul Union Stockyards Co.</th></tr>
+<tr><th class="stub" scope="row">Sagamore Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Salisbury Cotton Mills, The.</th></tr>
+<tr><th class="stub" scope="row">San Equip, Inc.</th></tr>
+<tr><th class="stub" scope="row">Santa Fe Warehouse.</th></tr>
+<tr><th class="stub" scope="row">Sargent &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Saticoy Lemon Assn.</th></tr>
+<tr><th class="stub" scope="row">Savannah Electric &amp; Power Co.</th></tr>
+<tr><th class="stub" scope="row">Saybrooke Mfg. Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Schiff Co., The.</th></tr>
+<tr><th class="stub" scope="row">Sculler Safety Corp.</th></tr>
+<tr><th class="stub" scope="row">Seaboard Lemon Assn.</th></tr>
+<tr><th class="stub" scope="row">Seagrave Corp., The.</th></tr>
+<tr><th class="stub" scope="row">Sealed Power Corp. &amp; The Accuralite Co.</th></tr>
+<tr><th class="stub" scope="row">Sears, Roebuck &amp; Co., Minneapolis, Minn.</th></tr>
+<tr><th class="stub" scope="row">Sears, Roebuck &amp; Co., New York, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Sears, Roebuck &amp; Co., St. Louis, Mo.</th></tr>
+<tr><th class="stub" scope="row">Sears, Roebuck &amp; Co., Washington, D. C.</th></tr>
+<tr><th class="stub" scope="row">Semet-Solvay Co.</th></tr>
+<tr><th class="stub" scope="row">Semon Bache &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Servel, Inc.</th></tr>
+<tr><th class="stub" scope="row">Service Products Corp.</th></tr>
+<tr><th class="stub" scope="row">Shell Development Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Sherwin-Williams Paint Co., The.</th></tr>
+<tr><th class="stub" scope="row">Silverstein &amp; Pinsof Co.</th></tr>
+<tr><th class="stub" scope="row">Simmonds Aerocessories, Inc.</th></tr>
+<tr><th class="stub" scope="row">Simpson Logging Co., McCleary, Wash.</th></tr>
+<tr><th class="stub" scope="row">Simpson Logging Co., Shelton, Wash.</th></tr>
+<tr><th class="stub" scope="row">Sinclair Refining Co.</th></tr>
+<tr><th class="stub" scope="row">Siskin, R. H., &amp; Sons.</th></tr>
+<tr><th class="stub" scope="row">Sloss-Sheffield Steel &amp; Iron Co.</th></tr>
+<tr><th class="stub" scope="row">Smith Cabinet Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Smith Cabinet Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Smith &amp; Caffery Co.</th></tr>
+<tr><th class="stub" scope="row">Snow, Fred A., Co.</th></tr>
+<tr><th class="stub" scope="row">Socony Vacuum Oil Co., Inc., White Star-Ohio Division, Detroit, Mich.</th></tr>
+<tr><th class="stub" scope="row">Socony Vacuum Oil Co., Inc., White Star-Ohio Division, Trenton, Mich.</th></tr>
+<tr><th class="stub" scope="row">Solar Varnish Corp.</th></tr>
+<tr><th class="stub" scope="row">Solvay Process Co., The, Baton Rouge, La.</th></tr>
+<tr><th class="stub" scope="row">Solvay Process Co., Detroit, Mich.</th></tr>
+<tr><th class="stub" scope="row">Southern Brewing Co.</th></tr>
+<tr><th class="stub" scope="row">Southern California Gas Co., Compton, Calif.</th></tr>
+<tr><th class="stub" scope="row">Southern California Gas Co., Los Angeles, Calif.</th></tr>
+<tr><th class="stub" scope="row">Southern Engraving Co.</th></tr>
+<tr><th class="stub" scope="row">Southern Wood Preserving Co.</th></tr>
+<tr><th class="stub" scope="row">South Portland Shipbuilding Corp.</th></tr>
+<tr><th class="stub" scope="row">Southport Petroleum Co.</th></tr>
+<tr><th class="stub" scope="row">Southwestern Associated Telephone Co.</th></tr>
+<tr><th class="stub" scope="row">Spandsco Oil &amp; Royalty Co.</th></tr>
+<tr><th class="stub" scope="row">Springfield Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Sheet Metal Engineering Co.</th></tr>
+<tr><th class="stub" scope="row">Standard Lime &amp; Stone Co.</th></tr>
+<tr><th class="stub" scope="row">Standard Oil Co. (Indiana), Detroit, Mich.</th></tr>
+<tr><th class="stub" scope="row">Standard Oil Co. of New Jersey, Marine Dept., New York, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Standard &amp; Poor&#x27;s Corp.</th></tr>
+<tr><th class="stub" scope="row">Stanley Coal Co.</th></tr>
+<tr><th class="stub" scope="row">Sterling Advertising Co.</th></tr>
+<tr><th class="stub" scope="row">Sterling Engine Co.</th></tr>
+<tr><th class="stub" scope="row">Sterling Pump Construction.</th></tr>
+<tr><th class="stub" scope="row">Stewart-Warner Corp.</th></tr>
+<tr><th class="stub" scope="row">Stock Clearing Corp.</th></tr>
+<tr><th class="stub" scope="row">Strong-Hewat &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Sullivan Drydock &amp; Repair Co.</th></tr>
+<tr><th class="stub" scope="row">Sullivan Mining Co.</th></tr>
+<tr><th class="stub" scope="row">Sullivans&#x27; Smythfield.</th></tr>
+<tr><th class="stub" scope="row">Sunbeam Electric Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Sun Tent-Luebbert Co.</th></tr>
+<tr><th class="stub" scope="row">Superior Coach Corp.</th></tr>
+<tr><th class="stub" scope="row">Superior Lime &amp; Hydrate Co.</th></tr>
+<tr><th class="stub" scope="row">Superior Sleep-Rite Corp.</th></tr>
+<tr><th class="stub" scope="row">Superior Steel &amp; Malleable Casting Co.</th></tr>
+<tr><th class="stub" scope="row">Surebest Bakery Co.</th></tr>
+<tr><th class="stub" scope="row">Swartz Lake Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Swift &amp; Co., Cleveland, Ohio.</th></tr>
+<tr><th class="stub" scope="row">Swift &amp; Co., Fertilizer Works, Agricola, Ala.</th></tr>
+<tr><th class="stub" scope="row">Swift &amp; Co., National City, Ill.</th></tr>
+<tr><th class="stub" scope="row">Swift &amp; Co., North Nashville, Tenn.</th></tr>
+<tr><th class="stub" scope="row">Swift &amp; Co., South St. Paul, Minn.</th></tr>
+<tr><th class="stub" scope="row">Sykes Brothers, Inc.</th></tr>
+<tr><th class="stub" scope="row">Tampa Florida Brewery, Inc.</th></tr>
+<tr><th class="stub" scope="row">Taylor Bedding Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Taylor &amp; Gaskin Co.</th></tr>
+<tr><th class="stub" scope="row">Telegram Publishing Co., The, &amp; The Salt Lake Tribune Publishing.</th></tr>
+<tr><th class="stub" scope="row">Tennessee Coal, Iron &amp; Railroad Co., Holt Blast Furance, Holt, Ala.</th></tr>
+<tr><th class="stub" scope="row">Tennessee Coal, Iron &amp; Railroad Co., Open Hearth Dept. of Ensley Works, Birmingham, Ala.</th></tr>
+<tr><th class="stub" scope="row">Tennessee Coal, Iron &amp; Railroad Co., Ore Mines, Ala.</th></tr>
+<tr><th class="stub" scope="row">Tennessee Coal, Iron &amp; Railroad Co., Rail Transportation Dept., Birmingham, Ala.</th></tr>
+<tr><th class="stub" scope="row">Tennessee Products Corp.</th></tr>
+<tr><th class="stub" scope="row">Texas Co., The, Port Arthur Refinery.</th></tr>
+<tr><th class="stub" scope="row">Texas Co., The, San Antonio, Tex.</th></tr>
+<tr><th class="stub" scope="row">Texas Co., The, West Dallas Works.</th></tr>
+<tr><th class="stub" scope="row">Texas Pipe Line Co.</th></tr>
+<tr><th class="stub" scope="row">Texoma Natural Gas Co.</th></tr>
+<tr><th class="stub" scope="row">Textileather Corp.</th></tr>
+<tr><th class="stub" scope="row">Thomasville Chair Co.</th></tr>
+<tr><th class="stub" scope="row">Thompson Products, Inc.</th></tr>
+<tr><th class="stub" scope="row">Thompson Products, Inc., &amp; Thompson Aircraft Products Co.</th></tr>
+<tr><th class="stub" scope="row">Thorrez &amp; Maes Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Thresher Varnish Co.</th></tr>
+<tr><th class="stub" scope="row">Tidewater Associated Oil Co., New York, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Tidewater Associated Oil Co., San Francisco, Calif.</th></tr>
+<tr><th class="stub" scope="row">Tidewater Associated Oil Co., Seattle, Wash.</th></tr>
+<tr><th class="stub" scope="row">Tietjen and Lang Drydock Co.</th></tr>
+<tr><th class="stub" scope="row">Tietjen and Lang Drydock Co., Todd Corp.</th></tr>
+<tr><th class="stub" scope="row">Todd-Johnson Dry Docks, Inc.</th></tr>
+<tr><th class="stub" scope="row">Toledo Industrial Rubber Co., The.</th></tr>
+<tr><th class="stub" scope="row">Tollefsen Bros., Inc.</th></tr>
+<tr><th class="stub" scope="row">Tourek, J. J., Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Triangle Publications, Inc., Chicago, Ill.</th></tr>
+<tr><th class="stub" scope="row">Triangle Publications, Inc., Los Angeles, Calif.</th></tr>
+<tr><th class="stub" scope="row">Tribune Publishing Co.</th></tr>
+<tr><th class="stub" scope="row">Truck Welding Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Tucker Duck &amp; Rubber Co.</th></tr>
+<tr><th class="stub" scope="row">Turner Day &amp; Woolworth Handle Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Tuthill Pump Co.</th></tr>
+<tr><th class="stub" scope="row">Twentieth Century-Fox Films Corp., Los Angeles, Calif.</th></tr>
+<tr><th class="stub" scope="row">Twentieth Century-Fox Film Corp. &amp; Movietonews, New York, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Twentieth Century-Fox Film Corp., New York, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Twin State Gas &amp; Electric Co.</th></tr>
+<tr><th class="stub" scope="row">Union-Buffalo Mill.</th></tr>
+<tr><th class="stub" scope="row">Union Collieries Coal Co.</th></tr>
+<tr><th class="stub" scope="row">Union Engineering Corp.</th></tr>
+<tr><th class="stub" scope="row">Union Oil Co. of Calif.</th></tr>
+<tr><th class="stub" scope="row">Union Parts Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Union Stock Yards Co. of Fargo.</th></tr>
+<tr><th class="stub" scope="row">Unitcast Corp., The</th></tr>
+<tr><th class="stub" scope="row">United Aircraft Products, Inc.</th></tr>
+<tr><th class="stub" scope="row">United Artists Corp.</th></tr>
+<tr><th class="stub" scope="row">United Fur Mfg. Assn., et al.</th></tr>
+<tr><th class="stub" scope="row">United Furniture Co.</th></tr>
+<tr><th class="stub" scope="row">United Illuminating Co.</th></tr>
+<tr><th class="stub" scope="row">U. S. Cartridge Co., The.</th></tr>
+<tr><th class="stub" scope="row">U. S. Coal &amp; Coke &amp; Fluorspar Corp., Lafayette Mine.</th></tr>
+<tr><th class="stub" scope="row">U. S. Envelope Co., Logan, Swift &amp; Brigham Envelope Co.</th></tr>
+<tr><th class="stub" scope="row">U. S. Finishing Co.</th></tr>
+<tr><th class="stub" scope="row">U. S. Pipe &amp; Foundry Co.</th></tr>
+<tr><th class="stub" scope="row">U. S. Rubber Co., Indianapolis Branch.</th></tr>
+<tr><th class="stub" scope="row">U. S. Vanadium Corp., Bishop, Calif.</th></tr>
+<tr><th class="stub" scope="row">U. S. Vanadium Corp., Inyo County, Laws, Calif.</th></tr>
+<tr><th class="stub" scope="row">United Wall Paper, Inc.</th></tr>
+<tr><th class="stub" scope="row">Universal Glass Products Co.</th></tr>
+<tr><th class="stub" scope="row">Universal Pictures Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Utah Copper Co. &amp; Kennecott Copper Corp.</th></tr>
+<tr><th class="stub" scope="row">Valspar Corp., The, Valentine &amp; Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Vermont Marble Co., et al.</th></tr>
+<tr><th class="stub" scope="row">Vernor, James, Co.</th></tr>
+<tr><th class="stub" scope="row">Verson Allsteel Press Co., Inc.</th></tr>
+<tr><th class="stub" scope="row">Viking Refrigerators, Inc.</th></tr>
+<tr><th class="stub" scope="row">Vitagraph, Inc.</th></tr>
+<tr><th class="stub" scope="row">Voit Rubber Corp., W. J.</th></tr>
+<tr><th class="stub" scope="row">Volney Felt Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Wadesboro Full Fashioned Mills, Inc.</th></tr>
+<tr><th class="stub" scope="row">Walgreen Co.</th></tr>
+<tr><th class="stub" scope="row">Wall, C. M., &amp; Son, Inc.</th></tr>
+<tr><th class="stub" scope="row">Walsh Refractories Corp.</th></tr>
+<tr><th class="stub" scope="row">Washington Metal Trades, Inc., et al.</th></tr>
+<tr><th class="stub" scope="row">Waterman-Waterbury Co.</th></tr>
+<tr><th class="stub" scope="row">Weinfeld, A., &amp; Son.</th></tr>
+<tr><th class="stub" scope="row">Western Foundry Co., Chicago, Ill.</th></tr>
+<tr><th class="stub" scope="row">Western Foundry Co., Holland, Mich.</th></tr>
+<tr><th class="stub" scope="row">Western Metals Co.</th></tr>
+<tr><th class="stub" scope="row">Western Union Telegraph Co.</th></tr>
+<tr><th class="stub" scope="row">Westinghouse Airbrake Co.</th></tr>
+<tr><th class="stub" scope="row">Westinghouse Electric &amp; Mfg. Co., Canton, Ohio.</th></tr>
+<tr><th class="stub" scope="row">Westinghouse Electric &amp; Mfg. Co., East Pittsburgh, Pa.</th></tr>
+<tr><th class="stub" scope="row">Westinghouse Electric &amp; Mfg. Co., Lima, Ohio.</th></tr>
+<tr><th class="stub" scope="row">Westinghouse Electric &amp; Mfg. Co., Los Angeles, Calif.</th></tr>
+<tr><th class="stub" scope="row">Westinghouse Electric &amp; Mfg. Co., Louisville Ordnance Division, Louisville, Ky.</th></tr>
+<tr><th class="stub" scope="row">Westinghouse Electric &amp; Mfg. Co., Motor Division, Newark, N. J.</th></tr>
+<tr><th class="stub" scope="row">Westinghouse Electric &amp; Mfg. Co., Westinghouse X-Ray Division, Long Island City, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Weyerhaeuser Timber Co., Klamath Falls Branch.</th></tr>
+<tr><th class="stub" scope="row">Wheeling Corrugating Co.</th></tr>
+<tr><th class="stub" scope="row">White Pigment Corp.</th></tr>
+<tr><th class="stub" scope="row">Wichita Union Stock Yards Co.</th></tr>
+<tr><th class="stub" scope="row">Willamette Valley Lumber Co.</th></tr>
+<tr><th class="stub" scope="row">Willys Overland Motors, Inc.</th></tr>
+<tr><th class="stub" scope="row">Wilson &amp; Co., Inc., Chattanooga, Tenn.</th></tr>
+<tr><th class="stub" scope="row">Wilson &amp; Co., Inc., Evanson, J., &amp; Sons t/a, Division of Wilson &amp; Co.</th></tr>
+<tr><th class="stub" scope="row">Wilson &amp; Co., Inc., Kansas City, Kans.</th></tr>
+<tr><th class="stub" scope="row">Wilson &amp; Co., Miami, Fla.</th></tr>
+<tr><th class="stub" scope="row">Wilson &amp; Co., New York, N. Y.</th></tr>
+<tr><th class="stub" scope="row">Wilson-Jones Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Wilson Packing Co.</th></tr>
+<tr><th class="stub" scope="row">Wisconsin Porcelain Co.</th></tr>
+<tr><th class="stub" scope="row">Wolfsheim &amp; Sachs, Inc.</th></tr>
+<tr><th class="stub" scope="row">Woodbridge Vineyard Assn.</th></tr>
+<tr><th class="stub" scope="row">Wood, Gar, Industries, Inc.</th></tr>
+<tr><th class="stub" scope="row">Wood, John, Mfg. Co., Inc., Bennett Pumps Division.</th></tr>
+<tr><th class="stub" scope="row">Wright Aeronautical Corp.</th></tr>
+<tr><th class="stub" scope="row">Wurlitzer, Rudolph Co., The, a Corp.</th></tr>
+<tr><th class="stub" scope="row">Yale &amp; Towne Mfg. Co.</th></tr>
+<tr><th class="stub" scope="row">Yale &amp; Towne Mfg. Co., The, Automatic Transportation Co., Division.</th></tr>
+<tr><th class="stub" scope="row">Yasek, John.</th></tr>
+<tr><th class="stub" scope="row">Yates-American Machine Co.</th></tr>
+<tr><th class="stub" scope="row">Yorkshire Creamery Co.</th></tr>
+<tr><th class="stub" scope="row">Zeigler &amp; Bros., Inc., Max.</th></tr>
+<tr><th class="stub" scope="row">Zion Cooperative Mercantile Institution.</th></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1942_p0097_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 Hearings were held in 151 cases involving offices of the Western Union Telegraph Co. in various cities throughout the United States.</li>
+</ol>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 97.</b> This is not a numeric table but the alphabetical list of case names in Appendix B of the 1942 report. It is set as two side-by-side panels separated by a vertical rule, each panel holding only row labels; following the two-panel rule I have put the left panel&#x27;s 40 entries first (AAA Dental Laboratory ... Briktex, Inc.) and the right panel&#x27;s 38 entries after (Brock, John David ... Durand Mfg. Co.). The single column is the stub; there are no column headings on the page, so header_rows is empty.
+
+The centred line &quot;I. Unfair Labor Practice Cases&quot; is transcribed as the first (label-only) section row. It sits above the panel rule, directly under the omitted caption lines &quot;APPENDIX B&quot; and &quot;CASES HEARD DURING THE FISCAL YEAR 1942&quot;; if your convention treats it as part of the caption it should be dropped. The Roman numeral is printed as a capital I (it reads like a figure 1 in this bold display face).
+
+Blank lines separate the alphabetical letter groups (after &quot;Austin, Charles E., Inc.&quot;; after &quot;Burton-Dixie Corp.&quot;; after the Curtiss-Wright entries). These are spacing only and are not transcribed as rows.
+
+Doubtful readings: &quot;Ciba Pharmaceutical Products, Inc.&quot; — the final word prints with a heavy, blotted third letter that could be read &quot;Ino.&quot;; &quot;Inc.&quot; is almost certainly intended. &quot;City Service Transit Co.&quot; is transcribed as printed; &quot;Cities Service Transit Co.&quot; is the likelier company name, so this may be a misprint in the source. &quot;Dewree &amp; Bailey.&quot; — the third letter is ambiguous between w and v, so &quot;Devree &amp; Bailey&quot; is possible. &quot;Carter Carbureter Corp.&quot; is transcribed with the printed spelling &quot;Carbureter&quot; (not &quot;Carburetor&quot;).
+
+The page carries scattered scanning specks (e.g. a stray mark after &quot;Adel Clay&quot;); these are not part of the text. The printed page number 94 and the list&#x27;s continuation onto following pages are omitted; the crop ends mid-alphabet at &quot;Durand Mfg. Co.&quot; at the foot of the page.</p>
+<p><b>p. 98.</b> This crop is not a statistical table: it is a page of the alphabetical list under the running head &quot;Appendix B. List of Cases Heard&quot; (page 95), set in two side-by-side panels separated by a vertical rule. There is a single printed column of text (the stub) and no numeric columns, so the grid has one cell per row; no column headings are printed, so header_rows is empty. Following the two-panel rule, the left panel&#x27;s entries (E Z Sportcraft Mills through Haydu, S. &amp; Sons) are given first, then the right panel&#x27;s (Hearst Mercantile Co. through Magnolia Petroleum Co.). Blank spacer lines between alphabetical letter groups carry no text and are not transcribed as rows. Hyphenation: &quot;Divi-/sion&quot; was repaired to &quot;Division&quot;; the end-of-line hyphen in &quot;Semi-/Weekly&quot; was kept as a real hyphen (&quot;Lebanon Semi-Weekly News Co.&quot;) because &quot;Weekly&quot; is capitalized and the hyphen belongs to the firm&#x27;s name. The right-hand panel is overprinted with scattered specks/stray marks from the facing page&#x27;s show-through, but no entry is obscured. Doubtful spellings read exactly as printed and not corrected: &quot;Ellis-Klatcher &amp; Co.&quot; (could be Klatscher), &quot;Glensder Textile Co.&quot;, &quot;Knipchild Dehydrater Co.&quot;, &quot;Maclan Hat Co., The&quot; in the McLachlan entry, and &quot;Fiss Corp.&quot; The page continues the list from the previous page and runs on to the next; the crop shows no table caption or footnotes.</p>
+<p><b>p. 99.</b> This page is not a numeric statistical table: it is a single-column alphabetical list of company/respondent names (an appendix list), set in two panels side by side with a vertical rule between them. There are no column headings printed anywhere on the crop, so header_rows is empty, and every row has exactly one cell (the stub). Following the two-panel rule, the left panel&#x27;s 39 entries are given first (Marietta Mfg. Co., The. through Ozan Lumber Co.), then the right panel&#x27;s 36 entries (Pacific Gas &amp; Electric Co. ... through Square D Co., Kollsman Instrument Co., Inc., Div. of.).
+
+The list continues from the preceding page and runs on to the next: the left panel begins mid-&quot;M&quot; and the right panel ends mid-&quot;S&quot;. Blank lines separate the alphabetical letter groups (M/N/O in the left panel; P/Q/R/S in the right panel); these carry no label and are not transcribed as rows. Multi-line entries with hanging indents have been joined into single rows.
+
+Doubtful details: in &quot;Rubinstein, Helena Inc., and H. R. Laboratories, Inc., H. R. Container Inc.&quot; there is a small raised tick printed between &quot;Inc.,&quot; and &quot;and&quot; — it appears to be a stray ink mark or broken quotation mark rather than a footnote marker, and it is not transcribed. &quot;Pequanoc Rubber Co.&quot; and &quot;Spandsco Oil &amp; Royalty Co.&quot; are transcribed as printed (unusual spellings, legible). &quot;Morten-Davis Co.&quot; and &quot;Natt&#x27;s, Mrs., Bakery.&quot; are likewise as printed. Scattered speckles elsewhere on the page are scan noise, not markers.</p>
+<p><b>p. 100.</b> This page is not a numeric table but an alphabetical list of case names from Appendix B (&quot;List of Cases Heard&quot;), set in two side-by-side panels with a single stub column and no column headings, so header_rows is empty and every row has one cell.
+
+Layout and reading order: the page has two separate two-panel blocks. The upper block continues a list begun on earlier pages (names running S-Z); its left panel (Standard Knitting Mills ... Utility Tool Mfg. Co.) is given first, then its right panel (V-O Milling Co. ... Zylocase Co. and Opticase Co.). The centered section line &quot;II. Representation Cases&quot; spans the full page width between the two blocks and is transcribed as a label-only row at that point. The lower block then follows, left panel (Ace Foundry Ltd. ... Allied Paper Mills, Monarch Division.) before right panel (Allis-Chalmers Mfg. Co., La Crosse Works ... American Medical Assn.). The lower block&#x27;s list is cut off at the foot of the crop and continues on the next page.
+
+Spelling kept as printed: &quot;Stein-way Clothing Co.&quot; (hyphen printed mid-line, not an end-of-line break); &quot;Nat&#x27;l&quot; in the two Allied Chemical &amp; Dye Corp. entries; &quot;Allis-Chalmers Mfg. Co., La Crosse Works.&quot; Hyphens that only broke a word at the end of a printed line (Asso-ciated, Divi-sion, Re-peating, Com-pany, Pre-view) were repaired on joining. In the right panel of the lower block, &quot;American Mfg. Co.&quot; is printed before &quot;American Medical Assn.&quot;, i.e. out of strict alphabetical order; transcribed in the printed order. Stray ink specks appear between entries (e.g. beside &quot;Trico Products Corp.&quot; and above &quot;Utah Copper Co.&quot;); they are scan artifacts, not footnote markers. The running head and page number 97 are omitted as instructed.</p>
+<p><b>p. 101.</b> This page is not a numeric statistical table but a continuation of an alphabetical list of company (respondent) names, set in two side-by-side panels separated by a vertical rule. There are no column headings on this page and no value columns, so the grid has a single column (the stub) holding the names; the left panel&#x27;s 41 entries are given first, then the right panel&#x27;s 42 entries, per the two-panel instruction. The list is cut off by the page on both ends: it continues from the previous page (entries before &quot;American Oil Co., Annapolis, Md.&quot;) and onto the next (after &quot;Boyle Mfg. Co.&quot;). Doubtful readings, all transcribed as they appear: &quot;American Rolbal Corp.&quot; (the middle word is faint and could be another spelling); &quot;Arcrods Corp.&quot;; &quot;Armour Leather Co., Noen, Pa.&quot; (place name likely a misprint, possibly for another Pennsylvania town); &quot;Bauski Bros.&quot;; &quot;Bay De Noquet Co.&quot; Note also the inconsistency in the Bethlehem entries as printed: three read &quot;Bethlehem Steel Co.&quot; but the East Boston entry reads &quot;Bethlehem Steel Corp.&quot;; transcribed as printed. A short stray dash appears to the right of &quot;American Oil Co., Annapolis, Md.&quot; in the first line and a few isolated specks appear elsewhere in the margins; these are page artifacts, not footnote markers, and were not transcribed.</p>
+<p><b>p. 102.</b> This page is not a statistical table: it is a continuation page of Appendix B, &quot;List of Cases Heard&quot;, an alphabetical list of respondent names with no column headings and no numeric columns. It is therefore transcribed as a single stub column with one entry per row, and header_rows is empty (no headings are printed on the crop).
+
+The page is set as two side-by-side panels separated by a vertical rule; following the panel instruction, all 43 entries of the left panel are given first (Braman … Chrysler Corp. (Chrysler Detroit Co.)), then the 34 entries of the right panel (Chrysler Corp. (Dodge Forge Division) … Commander-Larabee Milling Co.). The list continues from the preceding page and onto the following page (it begins mid-B and ends mid-C); the running head &quot;Appendix B. List of Cases Heard&quot; and the page number 99 are omitted as instructed.
+
+The left panel has a blank line between &quot;Buzard-Burkhart Pine Co.&quot; and &quot;California Brass Co.&quot; marking the start of the C entries; it carries no label and is not transcribed as a row.
+
+End-of-line hyphens repaired in: &quot;Balti-more-Insular&quot; -&gt; &quot;Baltimore-Insular&quot;; &quot;Con-centrating&quot; -&gt; &quot;Concentrating&quot;; &quot;De-troit&quot; -&gt; &quot;Detroit&quot;; &quot;Okla-homa&quot; -&gt; &quot;Oklahoma&quot;; &quot;Publish-ing&quot; -&gt; &quot;Publishing&quot;.
+
+Doubtful/scan-artifact cells: &quot;Cincinnati Concrete Pipe Co.&quot; prints with a speck making the first &quot;i&quot; look like a comma (&quot;C,ncinnati&quot;); &quot;Cincinnati Gas &amp; Electric Co., The, et al.&quot; shows stray specks around &quot;The,.et al.&quot;; &quot;Colonial Sugars Co., Gramercy Refinery.&quot; prints &quot;Gramercv&quot; (broken &quot;y&quot;). Two adjacent right-panel entries differ in wording as printed: &quot;Columbia Rivers Packers Assn., Inc., Vancouver, Wash.&quot; (plural &quot;Rivers&quot;) versus &quot;Columbia River Packers Assn., Inc., Altoona, Wash.&quot;; both are transcribed as printed and the first is likely a misprint. The duplicate left-panel entry &quot;Brown &amp; Sharpe Mfg. Co.&quot; appears twice, as printed (two separate cases).</p>
+<p><b>p. 103.</b> This page is not a numeric table but a continuation of an alphabetical list of company/employer names, set in two side-by-side panels separated by a vertical rule. Each panel has a single printed column (the stub), so the grid has one column and no column headings are printed on this crop (header_rows is empty). Following the two-panel rule, all 40 entries of the left panel are given first, then the 42 entries of the right panel, so the list runs C–D (left) then D–F (right). Blank lines in the print mark the start of a new initial letter (D before &quot;Dain Mfg. Co.&quot;; E before &quot;Eastern Tool &amp; Mfg. Co.&quot;; F before &quot;Fairbanks-Morse Co.&quot;); they carry no label and are not transcribed as rows. Entries that wrap to a second line are joined into one row and end-of-line hyphens in &quot;Division&quot;, &quot;Ordnance&quot;, &quot;Tennessee&quot; are repaired. Printed oddities kept as-is: &quot;Coney Island, Inc.&quot; appears twice in succession; &quot;Dayton Steel Foundry Co.&quot; is printed before &quot;Day &amp; Zimmermann, Inc., Iowa Ordnance Plant.&quot;, out of strict alphabetical order. &quot;Fall River Manufacturer&#x27;s Assn., et al.&quot; is printed with the apostrophe before the s as shown. The running head (&quot;100 — Seventh Annual Report of the National Labor Relations Board&quot;) is omitted. No footnotes appear under the list. The crop is complete at left, right and bottom; the list continues onto the following page.</p>
+<p><b>p. 104.</b> This page is not a statistical table: it is a continuation page of &quot;Appendix B. List of Cases Heard&quot;, an alphabetical list of respondent/case names with no numeric columns. It is set as two side-by-side panels of names; following the two-panel rule I have transcribed it as a single column (the stub), all left-panel entries first (Florida Power &amp; Light Co. ... General Motors Corp., Buick Motors Division, Melrose Park, Ill.) and then the right-panel entries (General Motors Corp., Chevrolet Motor Division ... Harmony Short Line Motor Transportation Co.). No column headings are printed on this crop, so header_rows is empty.
+
+The list runs alphabetically from &quot;Florida&quot; to &quot;Harmony&quot;; the alphabet changes (F to G in the left panel, G to H in the right panel) are marked only by extra vertical white space, not by printed section labels, so no section rows were created. The list continues on the preceding and following pages.
+
+End-of-line hyphens repaired in: &quot;Ford Motor Car Co., Northville Divi-sion&quot; -&gt; Division; &quot;Massman Construc-tion Co.&quot; -&gt; Construction; &quot;General Motors Corp., Frigidaire Divi-sion&quot; -&gt; Division; &quot;(Harrison Radi-ator Division)&quot; -&gt; Radiator; &quot;Motor Transpor-tation Co.&quot; -&gt; Transportation. Hyphens inside Sharon-Mills, Fraser-Brace, Fruin-Colnon, Gamble-Robinson, X-Ray, Growers-Shippers and Harbison-Walker are printed within the line and were kept.
+
+Doubtful cells: &quot;Frank Bros. Mfg. Co.&quot; (left panel) ends in a mark that images as a comma rather than a period; transcribed as a period. &quot;General Motors Corp., Yellow Truck &amp; Coach Division, Denver, Colo.&quot; (right panel) - the city images as &quot;Denvei&quot; because of a broken r; read as &quot;Denver&quot;. Several stray specks and dashes in the margins and between words (e.g. &quot;General - Motors &#x27; Corp., Delco Radio Division&quot;) are scanning artifacts and were not transcribed. The running head &quot;Appendix B. List of Cases Heard&quot; and the page number 101 were omitted as instructed.</p>
+<p><b>p. 105.</b> This page is not a statistical table: it is an alphabetical appendix list of company (employer) names, letters H through L, with no numeric columns and no column headings, so header_rows is empty and the grid has a single (stub) column. The page is set as two side-by-side panels separated by a vertical rule; following the panel rule, all 41 entries of the left panel are given first (Hawkeye Steel Products Co. ... Jones &amp; Laughlin Steel Corp., New Orleans, La.) and then the 34 entries of the right panel (Jones &amp; Laughlin Steel Corp., Pittsburgh, Pa. ... Lansdowne Steel &amp; Iron Co.). Multi-line entries are joined into one row. Blank spacer lines that separate the alphabet sections (before &quot;Ideal Chair Mfg. Co.&quot;, before &quot;Jacobs Bros., Inc.&quot;, before &quot;Kalamazoo Creamery Co.&quot;, and before &quot;L. A. By-Products Co.&quot;) carry no label and were not transcribed as rows. In the right panel the Kennecott entry is broken across lines as &quot;Nevada Con&quot; / &quot;solidated Copper Corp.&quot; with no printed hyphen; it is joined as &quot;Nevada Consolidated Copper Corp.&quot; The Los Angeles King Features entry is printed &quot;Los Angeles Calif.&quot; with no comma before the state abbreviation; transcribed as printed. The scan is lightly speckled but all names are legible; &quot;Kiener-Williams Stamping Co.&quot; and &quot;Kohen-Ligon-Folz, Inc.&quot; are the least crisp lines. The crop excludes the running head and the page number 102.</p>
+<p><b>p. 106.</b> This page is not a statistical table but a continuation page of an alphabetical name list (running head &quot;Appendix B. List of Cases Heard&quot;, p. 103), set in two side-by-side panels with a single column of names in each and no column headings, so header_rows is empty and every row has one cell. Per the two-panel rule, the left panel&#x27;s 34 names come first (Lansing Drop Forge Co. through Longsfield Brothers, Inc.), then the right panel&#x27;s 45 names (Los Angeles Brick &amp; Clay Products Co. through Moore-McCormack Lines, Inc.); no left-panel name belongs with the right-panel name printed beside it. In the right panel a blank line separates the &quot;L&quot; entries from the &quot;M&quot; entries (after &quot;Lyons Machine &amp; Tool Co.&quot;); that alphabetical break carries no text and is not transcribed as a row. The list continues before and after this crop (it begins mid-&quot;L&quot; at the top and ends mid-&quot;M&quot; at the bottom). &quot;L-U-C-E Mfg. Co.&quot; is printed with short dashes between the letters, transcribed as hyphens. Scattered specks and stray marks in the margins and between lines are scanning artifacts, not footnote markers; there are no footnotes on the page. Minor type damage leaves the &quot;i&quot; in &quot;Levingston&quot;/&quot;Leviton&quot;/&quot;Virginia&quot; (Augusta line) without a clear dot, but the readings are unambiguous.</p>
+<p><b>p. 107.</b> This page is not a numeric table but an alphabetical name list (an appendix roster of companies) set in two side-by-side panels separated by a vertical rule, each panel holding only row labels and no value columns. It is transcribed as a single one-column grid: all 45 entries of the left panel first (Morell, Barrie, &amp; Co. through Ohio Brass Co.), then the 40 entries of the right panel (Ohio Ferro-Alloys Corp. through Poultry Producers of Central California). No column headings are printed, so header_rows is empty. Blank lines within the panels merely separate the M/N, N/O and O/P alphabetical groups and are not transcribed as rows; entries wrapping onto a second or third indented line are joined into one row. A faint raised speck appears just after &quot;Nahon Co.&quot; in the left panel; since no footnotes are printed under the table it is most likely a scanning artifact rather than a reference mark, and it has been omitted. &quot;Phelps Dodge Refining Corp., El Paso Tex.&quot; is transcribed as printed — no comma is visible between &quot;El Paso&quot; and &quot;Tex.&quot; across the line break. The list continues from the preceding page and onto the next; this crop is only one page of it. Running head and page number 104 omitted.</p>
+<p><b>p. 108.</b> This page is not a numeric table: it is the alphabetical &quot;Appendix B. List of Cases Heard&quot; (running head and page number 105 omitted as instructed). It has a single data column (the case name), printed in two side-by-side panels separated by a vertical rule. Following the two-panel rule, the left panel&#x27;s 42 names are given first (Prentice-Hall, Inc. through Rytex Co.) and then the right panel&#x27;s 45 names (St. Joseph Lead Co. through Southern California Gas Co., Los Angeles, Calif.). No column headings are printed, so header_rows is empty. Names that wrap onto a second or third printed line with a hanging indent have been joined into one row, with end-of-line hyphens repaired (e.g. &quot;Remington-Rand, Inc., Remtico Sup- plies Division&quot; -&gt; &quot;Remtico Supplies Division&quot;; &quot;(Pen- insula Division)&quot; -&gt; &quot;(Peninsula Division)&quot;; &quot;Knox- ville&quot; -&gt; &quot;Knoxville&quot;; &quot;Rich- mond&quot; -&gt; &quot;Richmond&quot;). Doubtful readings: &quot;Sculler Safety Corp.&quot; (right panel, 13th entry) could be &quot;Scullen&quot;; &quot;Saybrooke Mfg. Co., Inc.&quot; could be &quot;Saybrook&quot;; &quot;Richard Ore Co.&quot; could be &quot;Richards Ore Co.&quot;; &quot;Simmonds Aerocessories, Inc.&quot; is as printed. &quot;Smith Cabinet Mfg. Co.&quot; is printed twice in succession in the right panel; both occurrences are transcribed as printed. &quot;Rosiclare Lead &amp; Fluorspar Mining.&quot; is printed without a trailing &quot;Co.&quot; Stray ink specks in the margins are page noise, not footnote markers.</p>
+<p><b>p. 109.</b> The crop is not a numeric statistical table: it is an alphabetical list of company names (an appendix listing), printed as two panels separated by a vertical rule, with no column headings and no numeric columns. It has therefore been transcribed as a single stub column, all 43 left-panel entries first, then the 39 right-panel entries; header_rows is empty because no headings are printed on this image.
+
+The list continues from the preceding page and onto the following one (it begins mid-&quot;S&quot; and ends mid-&quot;U&quot;), so this is a fragment of a longer list. Blank spacer lines separate the letter groups (after &quot;Sykes Brothers, Inc.&quot; in the left panel and after &quot;Twin State Gas &amp; Electric Co.&quot; in the right panel); these carry no text and are not transcribed as rows.
+
+Readings worth flagging: &quot;Sheet Metal Engineering Co.&quot; is printed out of alphabetical order, between &quot;Springfield Mfg. Co.&quot; and &quot;Standard Lime &amp; Stone Co.&quot; — transcribed in the printed position. &quot;Tennessee Coal, Iron &amp; Railroad Co., Holt Blast Furance, Holt, Ala.&quot; is transcribed as printed; &quot;Furance&quot; appears to be a misprint for &quot;Furnace&quot;. In &quot;Tidewater Associated Oil Co., Seattle, Wash.&quot; a stray dash-like mark sits between &quot;Associated&quot; and &quot;Oil&quot; in the scan; read as a speck rather than a hyphen. &quot;Sterling Advertising Co.&quot; and &quot;Superior Coach Corp.&quot; each show a broken letter in the scan (printing as &quot;Sterl&#x27;ng&quot; and &quot;Super:or&quot;); both read as ordinary &quot;i&quot;. Note also the inconsistent printed forms &quot;Twentieth Century-Fox Films Corp., Los Angeles, Calif.&quot; (plural &quot;Films&quot;) versus the two following &quot;Film Corp.&quot; entries — transcribed exactly as printed.</p>
+<p><b>p. 110.</b> This crop is not a statistical table but the final page of &quot;Appendix B. List of Cases Heard&quot;: an alphabetical list of respondent names with no numeric columns. It is set as two side-by-side panels separated by a vertical rule, each panel holding only row labels, so the grid has a single column (the stub) and header_rows is empty — no column headings are printed on the page. The left panel&#x27;s 39 entries are given first (Unitcast Corp., The ... Westinghouse Electric &amp; Mfg. Co., Canton, Ohio.), then the right panel&#x27;s 33 entries (Westinghouse ... East Pittsburgh, Pa. ... Zion Cooperative Mercantile Institution.); 72 rows in all. Entries that wrap onto a second or third printed line have been joined into one row, and end-of-line hyphens repaired (e.g. &quot;Louis-ville&quot; -&gt; &quot;Louisville&quot;, &quot;Institu-tion.&quot; -&gt; &quot;Institution.&quot;). Blank spacer lines between letter groups (after &quot;Utah Copper ... Corp.&quot;, after &quot;Volney Felt Mills, Inc.&quot;, after &quot;Wurlitzer ...&quot;, after &quot;Yorkshire Creamery Co.&quot;) carry no label and were not transcribed as rows. Doubtful glyphs: in the row &quot;Westinghouse Electric &amp; Mfg. Co., Louisville Ordnance Division, Louisville, Ky.&quot; the first &quot;Louisville&quot; prints with a broken initial letter that reads as a capital I followed by a space (&quot;I ouisville&quot;); it is transcribed as &quot;Louisville&quot; to match the correctly set &quot;Louisville, Ky.&quot; later in the same entry. In the footnote, &quot;Co.&quot; in &quot;Western Union Telegraph Co.&quot; renders as &quot;Oo.&quot; in this scan of the small bold footnote type and is transcribed as &quot;Co.&quot;; the footnote marker on &quot;Western Union Telegraph Co.&quot; is a raised 1, recorded as ^1. A stray ink speck after &quot;United&quot; in &quot;United Furniture Co.&quot; and other scattered marginal specks are not transcribed. Omitted as instructed: the running head &quot;Appendix B. List of Cases Heard&quot;, the page number 107, and the printer&#x27;s imprint &quot;492864—43——8&quot; at the foot of the left column.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0097.webp" loading="lazy" alt="Source page 97 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 97.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0098.webp" loading="lazy" alt="Source page 98 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 98.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0099.webp" loading="lazy" alt="Source page 99 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 99.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0100.webp" loading="lazy" alt="Source page 100 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 100.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0101.webp" loading="lazy" alt="Source page 101 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 101.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0102.webp" loading="lazy" alt="Source page 102 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 102.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0103.webp" loading="lazy" alt="Source page 103 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 103.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0104.webp" loading="lazy" alt="Source page 104 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 104.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0105.webp" loading="lazy" alt="Source page 105 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 105.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0106.webp" loading="lazy" alt="Source page 106 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 106.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0107.webp" loading="lazy" alt="Source page 107 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 107.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0108.webp" loading="lazy" alt="Source page 108 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 108.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0109.webp" loading="lazy" alt="Source page 109 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 109.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1942_p0097_t0_p0110.webp" loading="lazy" alt="Source page 110 of NLRB FY1942 annual report">
+<figcaption>Source: NLRB Annual Report FY1942, p. 110.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

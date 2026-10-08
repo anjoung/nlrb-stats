@@ -1,12 +1,27 @@
-Stage / Case-letter,ULP — Number of cases — Total,ULP — A.F.L. affiliates,ULP — C.I.O. affiliates,ULP — Unaffiliated unions,ULP — Individuals,ULP — Employers,REP — Number of cases — Total,REP — A.F.L. affiliates,REP — C.I.O. affiliates,REP — Unaffiliated unions,REP — Individuals,REP — Employers
-"CA cases — Pending July 1, 1954",1889,797,424,101,567,,1506,987,372,146,1,0
-"CA — Received July 1, 1954–June 30, 1955",4362,1552,974,158,1576,,6995,4059,1602,490,296,548
-"CA — On docket July 1, 1954–June 30, 1955",6251,2349,1398,259,2143,102,8501,5046,1974,636,297,548
-"CA — Closed July 1, 1954–June 30, 1955",4449,1662,974,176,1535,102,7063,4228,1644,543,215,433
-"CA — Pending June 30, 1955",1802,687,424,83,508,100,1438,818,330,93,82,115
-"CB cases — Pending July 1, 1954",633,52,12,12,450,107,107,,,,,107
-"CB — Received July 1, 1954–June 30, 1955",1382,49,10,23,898,402,548,,,,,548
-"CC cases — Pending July 1, 1954",108,9,3,1,2,102,102,0,0,0,102,0
-"CC — Received July 1, 1954–June 30, 1955",345,3,2,0,8,326,460,0,4,12,439,5
-"CD cases — Pending July 1, 1954",30,4,4,0,0,22,,,,,,
-"CD — Received July 1, 1954–June 30, 1955",82,4,4,2,5,73,,,,,,
+,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases
+,Total,Identification of complainant or petitioner,Identification of complainant or petitioner,Identification of complainant or petitioner,Identification of complainant or petitioner,Identification of complainant or petitioner
+,Total,A. F. L. affiliates,C. I. O affiliates,Unaffiliated unions,Individuals,Employers
+All cases,,,,,,
+"Pending July 1, 1954","4,394","1,849",815,260,"1,129",341
+"Received July 1, 1954-June 30, 1955","13,391","5,672","2,592",657,"3,196","1,274"
+"On docket July 1, 1954-June 30, 1955","17,785","7,521","3,407",917,"4,325","1,615"
+"Closed July 1, 1954-June 30, 1955","13,671","5,972","2,648",735,"3,091","1,225"
+"Pending June 30, 1955","4,114","1,549",759,182,"1,234",390
+Unfair labor practice cases,,,,,,
+"Pending July 1, 1954","2,672",862,443,114,"1,019",234
+"Received July 1, 1954-June 30, 1955","6,171","1,608",990,165,"2,679",729
+"On docket July 1, 1954-June 30, 1955","8,843","2,470","1,433",279,"3,698",963
+"Closed July 1, 1954-June 30, 1955","6,171","1,739","1,014",190,"2,549",679
+"Pending June 30, 1955","2,672",731,419,89,"1,149",284
+Representation cases,,,,,,
+"Pending July 1, 1954","1,715",987,372,146,103,107
+"Received July 1, 1954-June 30, 1955","7,165","4,062","1,601",490,467,545
+"On docket July 1, 1954-June 30, 1955","8,880","5,049","1,973",636,570,652
+"Closed July 1, 1954-June 30, 1955","7,442","4,231","1,634",543,488,546
+"Pending June 30, 1955","1,438",818,339,93,82,106
+Union-shop deauthorization cases,,,,,,
+"Pending July 1, 1954",7,0,0,0,7,
+"Received July 1, 1954-June 30, 1955",55,2,1,2,50,
+"On docket July 1, 1954-June 30, 1955",62,2,1,2,57,
+"Closed July 1, 1954-June 30, 1955",58,2,0,2,54,
+"Pending June 30, 1955",4,0,1,0,3,

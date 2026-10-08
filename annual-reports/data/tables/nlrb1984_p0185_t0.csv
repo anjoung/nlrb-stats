@@ -1,42 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7
-"Pending October 1, 1983",96452,7533,2189,876,968,4872,14
-Received fiscal 1984,24852,11057,2888,630,1360,8912,v 5
-On docket fiscal 1984,41304,18590,5077,1506,2328,13784,19
-Closed fiscal 1984,27162,11825,3225,916,1482,9703,II
-"Pending September 30, 1984",14142,6765,1852,590,846,4081,8
-,CB cases,CB cases,CB cases,CB cases,CB cases,CB cases,CB cases
-"Pending October I, 1983","*2,972",42,15,10,33,2099,773
-Received fiscal 1984,8899,52,13,7,52,7334,1441
-On docket fiscal 1984,11871,94,28,17,85,9433,2214
-Closed fiscal 1984,8652,60,16,7,52,6989,1528
-"Pending September 30, 1984",3219,34,12,10,33,2444,686
-,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases
-"Pending October I, 1983",.810,14,2,0,14,9,771
-Received fiscal 1984,1108,16,0,3,16,4,1069
-On docket fiscal 1984,1918,30,2,3,30,13,1840
-Closed fiscal 1984,1236,20,1,3,20,8,1184
-"Pending September 30, 1984",682,10,1,0,10,5,656
-,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases
-"Pending October I, 1983",• 175,8,0,0,4,2,161
-Received fiscal 1984,283,11,0,0,II,2,259
-On docket fiscal 1984,458,19,0,0,15,4,420
-Closed fiscal 1984,319,11,0,0,12,4,292
-"Pending September 30, 1984",139,8,o,o,3,0,128
-,CE cases,CE cases,CE cases,CE cases,CE cases,CE cases,CE cases
-"Pending October 1, 1983",.65,0,0,0,5,1,59
-Received fiscal 1984,63,2,2,0,0,1,58
-On docket fiscal 1984,128,2,2,0,5,2,117
-Closed fiscal 1984,65,2,2,0,0,0,61
-"Pending September 30, 1984",63,0,0,0,5,2,56
-,CG cases,CG cases,CG cases,CG cases,CG cases,CG cases,CG cases
-"Pending October I, 1983",96,0,0,0,0,1,15
-Received fiscal 1984,34,0,0,0,2,0,32
-On docket fiscal 1984,50,0,0,0,2,1,47
-Closed fiscal 1984,33,0,0,0,1,1,31
-"Pending September 30, 1984",17,0,0,0,1,0,16
-,CP cases,CP cases,CP cases,CP cases,CP cases,CP cases,CP cases
-"Pending October 1, 1983",996,4,0,0,1,2,189
-Received fiscal 1984,290,4,0,0,4,4,278
-On docket fiscal 1984,486,8,0,0,5,6,467
-Closed fiscal 1984,316,5,0,0,5,2,304
-"Pending September 30, 1984",170,3,0,0,0,4,163
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending October 1, 1983","23,658","8,909","2,686","1,006","1,255","7,542","2,260"
+Received fiscal 1984,"44,118","14,368","4,511",846,"2,049","18,342","4,002"
+On docket fiscal 1984,"67,776","23,277","7,197","1,852","3,304","25,884","6,262"
+Closed fiscal 1984,"46,356","15,167","4,848","1,147","2,164","18,788","4,242"
+"Pending September 30, 1984","21,420","8,110","2,349",705,"1,140","7,096","2,020"
+Unfair labor practice cases,,,,,,,
+"Pending October 1, 1983","20,686","7,601","2,206",886,"1,025","6,986","1,982"
+Received fiscal 1984,"35,529","11,142","2,903",640,"1,445","16,257","3,142"
+On docket fiscal 1984,"56,215","18,743","5,109","1,526","2,470","23,243","5,124"
+Closed fiscal 1984,"37,783","11,923","3,244",926,"1,572","16,707","3,411"
+"Pending September 30, 1984","18,432","6,820","1,865",600,898,"6,536","1,713"
+Representation cases,,,,,,,
+"Pending October 1, 1983","2,772","1,262",472,120,214,480,224
+Received fiscal 1984,"7,846","3,055","1,556",201,559,"1,829",646
+On docket fiscal 1984,"10,618","4,317","2,028",321,773,"2,309",870
+Closed fiscal 1984,"7,859","3,066","1,554",218,554,"1,816",651
+"Pending September 30, 1984","2,759","1,251",474,103,219,493,219
+Union-shop deauthorization cases,,,,,,,
+"Pending October 1, 1983",76,,,,,76,
+Received fiscal 1984,254,,,,,254,
+On docket fiscal 1984,330,,,,,330,
+Closed fiscal 1984,264,,,,,264,
+"Pending September 30, 1984",66,,,,,66,
+Amendment of certification cases,,,,,,,
+"Pending October 1, 1983",10,6,0,0,4,0,0
+Received fiscal 1984,36,19,5,0,10,0,2
+On docket fiscal 1984,46,25,5,0,14,0,2
+Closed fiscal 1984,36,21,5,0,8,0,2
+"Pending September 30, 1984",10,4,0,0,6,0,0
+Unit clarification cases,,,,,,,
+"Pending October 1, 1983",114,40,8,0,12,0,54
+Received fiscal 1984,453,152,47,5,35,2,212
+On docket fiscal 1984,567,192,55,5,47,2,266
+Closed fiscal 1984,414,157,45,3,30,1,178
+"Pending September 30, 1984",153,35,10,2,17,1,88

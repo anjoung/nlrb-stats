@@ -1,3 +1,23 @@
-row_label,Circuit courts of appeals (headquarters),Total fiscal year 1976,Total fiscal years 1971-75,Affirmed in full / Fiscal year 1976 / Number,Affirmed in full / Fiscal year 1976 / Percent,Affirmed in full / Cumulative fiscal years 1971-75 / Number,Affirmed in full / Cumulative fiscal years 1971-75 / Percent,Modified / Fiscal year 1976 / Number,Modified / Fiscal year 1976 / Percent,Modified / Cumulative fiscal years 1971-75 / Number,Modified / Cumulative fiscal years 1971-75 / Percent,Remanded in full / Fiscal year 1976 / Number,Remanded in full / Fiscal year 1976 / Percent,Remanded in full / Cumulative fiscal years 1971-75 / Number,Remanded in full / Cumulative fiscal years 1971-75 / Percent,Affirmed in part and remanded in part / Fiscal year 1976 / Number,Affirmed in part and remanded in part / Fiscal year 1976 / Percent,Affirmed in part and remanded in part / Cumulative fiscal years 1971-75 / Number,Affirmed in part and remanded in part / Cumulative fiscal years 1971-75 / Percent,Set aside / Fiscal year 1976 / Number,Set aside / Fiscal year 1976 / Percent,Set aside / Cumulative fiscal years 1971-75 / Number,Set aside / Cumulative fiscal years 1971-75 / Percent
-Total all circuits,200,1621,148,75.0,1185,73.1,17,6.6,169,10.4,20,8.9,68,4.2,,3.2,,,1,20,5.0,179,11.0
-"Detail rows (Boston Mass., New York N.Y., Philadelphia Pa., Richmond Va., New Orleans La., Cincinnati Ohio, Chicago Ill., St. Louis Mo., San Francisco Calif., Denver Colo., Washington D.C.)",,,,,,,,,,,,,,,,,,,,,,,
+,Fiscal year 1976,Fiscal year 1976,Fiscal year 1976,Fiscal year 1976,Fiscal year 1976,Fiscal year 1976,Fiscal year 1976,Fiscal year 1976,Fiscal year 1976,"July 5, 1935-June 30, 1976","July 5, 1935-June 30, 1976"
+,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Percentages,Percentages,Percentages,Percentages,"July 5, 1935-June 30, 1976","July 5, 1935-June 30, 1976"
+,Total,Vs. employers only,Vs. unions only,Vs. both employers and unions,Board dismissal,Vs employers only,Vs. unions only,Vs. both employers and unions,Board dismissal,Number,Percent
+Proceedings decided by U.S. courts of appeals,280,221,49,0,10,,,,,,
+On petitions for review and/or enforcement,250,196,44,0,10,100.0,100.0,,100.0,"6,208",100.0
+Board orders affirmed in full,185,148,32,0,5,75.5,72.7,,50.0,"3,918",63.1
+Board orders affirmed with modification,17,13,4,0,0,6.6,9.1,,,"1,021",16.5
+Remanded to Board,20,11,5,0,4,5.6,11.4,,40.0,273,4.4
+Board orders partially affirmed and partially remanded,8,7,1,0,0,3.6,2.3,,,97,1.6
+Board orders set aside,20,17,2,0,1,8.7,4.5,,10.0,899,14.4
+On petitions for contempt,30,25,5,0,0,100.0,100.0,,,,
+"Compliance after filing of petition, before court order",30,25,5,0,0,100.0,100.0,,,,
+Court orders holding respondent in contempt,0,0,0,0,0,,,,,,
+Court orders denying petition,0,0,0,0,0,,,,,,
+Proceedings decided by U.S. Supreme Court,2,2,0,0,0,100.0,,,,215,100.0
+Board orders affirmed in full,0,0,0,0,0,,,,,128,59.5
+Board orders affirmed with modification,0,0,0,0,0,,,,,16,7.4
+Board orders set aside,1,1,0,0,0,50.0,,,,34,15.8
+Remanded to Board,1,1,0,0,0,50.0,,,,18,8.4
+Remanded to court of appeals,0,0,0,0,0,,,,,16,7.4
+Board's request for remand or modification of enforcement order denied,0,0,0,0,0,,,,,1,0.5
+Contempt cases remanded to courts of appeals,0,0,0,0,0,,,,,1,0.5
+Contempt cases enforced,0,0,0,0,0,,,,,1,0.5

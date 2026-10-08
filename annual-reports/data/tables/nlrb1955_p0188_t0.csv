@@ -1,27 +1,46 @@
-Division and State,Number of elections / Total,Number of elections / In which representation rights were won by — A.F.L. affiliates,Number of elections / In which representation rights were won by — C.I.O. affiliates,Number of elections / In which representation rights were won by — Unaffiliated unions,Number of elections / In which no representative was chosen,Employees eligible to vote,Total valid votes cast,Valid votes cast for— / A.F.L. affiliates,Valid votes cast for— / C.I.O. affiliates,Valid votes cast for— / Unaffiliated unions,Valid votes cast for— / No union,Employees in units choosing representation
-Total,4215,1721,804,324,1366,515995,453442,138636,123320,73437,118049,378962
-New England,325,104,104,24,93,40968,37098,9471,12571,3973,11143,29090
-Maine,13,3,1,2,7,1378,1232,158,263,176,630,397
-New Hampshire,17,6,6,1,4,2803,2491,422,802,113,911,1565
-Vermont,8,6,0,0,2,530,307,276,,,,
-Massachusetts,154,50,53,8,43,18365,16562,4500,5341,1910,4711,9810
-Rhode Island,32,11,13,5,3,1841,1681,240,1196,232,235,1250
-Connecticut,101,28,31,8,34,12145,11066,3875,4909,1442,4656,8068
-Middle Atlantic,823,390,165,97,169,143764,121747,33150,36452,16553,34453,105995
-New York,355,168,81,42,94,53599,45353,22128,18250,7283,18815,36442
-New Jersey,235,94,49,24,43,39512,32964,6371,8891,4975,7952,25012
-Pennsylvania,233,78,56,23,32,50653,43430,6151,9311,4295,7686,44541
-East North Central,1018,362,233,70,353,121696,99239,30323,34273,19432,25370,92233
-Ohio,291,95,72,17,95,32975,30191,6712,13015,1608,5748,27322
-Indiana,121,53,32,6,30,17840,15193,4872,5135,2062,3123,13322
-Illinois,285,101,51,26,87,47615,41250,14236,13257,11108,7649,31872
-Michigan,230,64,47,16,103,18943,16651,4706,5165,1478,5310,11221
-Wisconsin,91,32,27,3,28,6727,5985,2898,1759,1712,1152,4802
-West North Central,290,91,57,27,121,31191,27134,11138,5491,2234,7256,19034
-Iowa,45,19,8,3,15,3959,3594,1281,1129,142,1043,2556
-Minnesota,134,30,28,14,62,14572,12889,3124,1051,1140,4338,7361
-Missouri,169,30,14,8,33,7159,6180,1815,2239,252,1652,4856
-North Dakota,4,0,0,0,4,,,0,0,0,,0
-South Dakota,16,3,7,5,1,1461,1346,192,528,219,386,1038
-Nebraska,21,4,11,3,3,1759,1560,661,749,7,138,1406
-Kansas,21,5,4,0,12,4541,4453,3031,591,0,832,1840
+Size of unit (number of employees),Number of elections,Percent of total,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which representation rights were won by—,Elections in which no representative was chosen,Elections in which no representative was chosen
+Size of unit (number of employees),Number of elections,Percent of total,A F L affiliates,A F L affiliates,C I O affiliates,C I O affiliates,Unaffiliated unions,Unaffiliated unions,Elections in which no representative was chosen,Elections in which no representative was chosen
+Size of unit (number of employees),Number of elections,Percent of total,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+A. COLLECTIVE-BARGAINING ELECTIONS,,,,,,,,,,
+Total,"4,215",100.0,"1,721",100.0,804,100.0,324,100.0,"1,366",100.0
+1-9,738,17.5,427,24.8,80,10.0,43,13.3,188,13.8
+10-19,758,18.0,377,21.9,103,12.8,51,15.7,227,16.6
+20-29,555,13.2,226,13.1,117,14.6,35,10.8,177,13.0
+30-39,376,8.9,138,8.0,85,10.6,11,3.4,142,10.4
+40-49,233,5.5,97,5.6,51,6.3,11,3.4,74,5.4
+50-59,203,4.8,64,3.7,36,4.5,23,7.1,80,5.9
+60-69,157,3.7,56,3.3,30,3.7,14,4.3,57,4.2
+70-79,117,2.8,40,2.3,29,3.6,10,3.1,38,2.8
+80-89,110,2.6,40,2.3,20,2.5,6,1.9,44,3.2
+90-99,81,1.9,19,1.1,19,2.4,7,2.2,36,2.6
+100-149,288,6.8,80,4.6,65,8.1,30,9.3,113,8.3
+150-199,131,3.1,39,2.3,32,4.0,16,4.9,44,3.2
+200-299,140,3.3,32,1.9,30,3.7,20,6.2,58,4.2
+300-399,111,2.6,31,1.8,33,4.1,15,4.6,32,2.3
+400-499,53,1.3,15,.9,17,2.1,7,2.2,14,1.0
+500-599,31,.8,6,.4,9,1.1,7,2.2,9,.7
+600-799,45,1.1,15,.9,14,1.7,5,1.5,11,.8
+800-999,20,.5,2,.1,10,1.2,2,.6,6,.4
+"1,000-1,999",41,1.0,11,.6,15,1.9,3,.9,12,.9
+"2,000-2,999",15,.4,3,.2,5,.6,4,1.2,3,.2
+"3,000-3,999",2,,0,.0,2,.3,0,.0,0,.0
+"4,000-4,999",2,,0,.0,1,.1,1,.3,0,.0
+"5,000-9,999",5,.1,2,.1,0,.0,2,.6,1,.1
+"10,000 and over",3,.1,1,.1,1,.1,1,.3,0,.0
+B. DECERTIFICATION ELECTIONS,,,,,,,,,,
+Total,157,100.0,27,100.0,24,100.0,4,100.0,102,100.0
+1-9,22,14.0,3,11.1,0,.0,0,.0,19,18.6
+10-19,25,15.9,4,14.8,1,4.2,0,.0,20,19.6
+20-29,19,12.1,3,11.1,3,12.5,1,25.0,12,11.7
+30-39,14,8.9,5,18.6,1,4.2,0,.0,8,7.8
+40-49,10,6.4,1,3.7,2,8.3,0,.0,7,6.9
+50-59,12,7.6,3,11.1,2,8.3,0,.0,7,6.9
+60-69,9,5.7,1,3.7,2,8.3,0,.0,6,5.9
+70-79,6,3.8,1,3.7,2,8.3,1,25.0,2,2.0
+80-89,3,1.9,0,.0,0,.0,0,.0,3,2.9
+90-99,3,1.9,0,.0,0,.0,0,.0,3,2.9
+100-149,10,6.4,1,3.7,4,16.7,0,.0,5,4.9
+150-199,10,6.4,1,3.7,2,8.3,1,25.0,6,5.9
+200-299,8,5.1,2,7.4,4,16.7,0,.0,2,2.0
+300-399,2,1.3,1,3.7,0,.0,0,.0,1,1.0
+400 and over,4,2.6,1,3.7,1,4.2,1,25.0,1,1.0

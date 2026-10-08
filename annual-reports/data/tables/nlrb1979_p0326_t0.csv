@@ -1,4 +1,23 @@
-row_label,Total FY 1979,Total FY 1974-1978,Affirmed in full — FY1979 Number,Affirmed in full — FY1979 Percent,Affirmed in full — Cumulative FY1974-1978 Number,Affirmed in full — Cumulative FY1974-1978 Percent,Modified — FY1979 Number,Modified — FY1979 Percent,Modified — Cumulative FY1974-1978 Number,Modified — Cumulative FY1974-1978 Percent,Remanded in full — FY1979 Number,Remanded in full — FY1979 Percent,Remanded in full — Cumulative FY1974-1978 Number,Remanded in full — Cumulative FY1974-1978 Percent,Affirmed in part and remanded in part — FY1979 Number,Affirmed in part and remanded in part — FY1979 Percent,Affirmed in part and remanded in part — Cumulative FY1974-1978 Number,Affirmed in part and remanded in part — Cumulative FY1974-1978 Percent,Set aside — FY1979 Number,Set aside — FY1979 Percent,Set aside — Cumulative FY1974-1978 Number,Set aside — Cumulative FY1974-1978 Percent
-Total all circuits,361,1458,233,64.6,1033,70.9,35,9.7,155,10.6,20,5.5,63,4.3,11,3.0,29,2.0,62,17.2,178,12.2
-"Boston, Mass.",23,67,18,78.3,48,71.6,1,4.4,5,7.5,,,,,,,,,,,,
-"New York, N.Y.",29,120,15,44.8,78,65.0,8,27.6,17,12.9,,,,,,,,,,,,
+,Fiscal year 1979,Fiscal year 1979,Fiscal year 1979,Fiscal year 1979,Fiscal year 1979,Fiscal year 1979,Fiscal year 1979,Fiscal year 1979,Fiscal year 1979,"July 5, 1935-Sept. 30, 1979","July 5, 1935-Sept. 30, 1979"
+,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Percentages,Percentages,Percentages,Percentages,"July 5, 1935-Sept. 30, 1979","July 5, 1935-Sept. 30, 1979"
+,Total,Vs. employers only,Vs. unions only,Vs. both employers and unions,Board dismissal,Vs. employers only,Vs. unions only,Vs. both employers and unions,Board dismissal,Number,Percent
+Proceedings decided by U.S. courts of appeals,398,352,40,2,4,,,,,,
+On petitions for review and/or enforcement,361,328,27,2,4,100.0,100.0,100.0,100.0,"7,217",100.0
+Board orders affirmed in full,233,212,20,1,0,64.6,74.1,50.0,,"4,579",63.4
+Board orders affirmed with modification,35,32,2,1,0,9.8,7.4,50.0,,"1,147",15.9
+Remanded to Board,20,16,1,0,3,4.9,3.7,,75.0,316,4.4
+Board orders partially affirmed and partially remanded,11,11,0,0,0,3.4,,,,117,1.6
+Board orders set aside,62,57,4,0,1,17.3,14.8,,25.0,"1,058",14.7
+On petitions for contempt,37,24,13,0,0,100.0,100.0,,,,
+"Compliance after filing of petition, before court order",18,13,5,0,0,54.2,38.5,,,,
+Court orders holding respondent in contempt,16,8,8,0,0,33.3,61.5,,,,
+Court orders denying petition,3,3,0,0,0,12.5,,,,,
+Proceedings decided by U.S. Supreme Court,4,4,0,0,0,100.0,,,,226,100.0
+Board orders affirmed in full,1,1,0,0,0,25.0,,,,136,60.2
+Board orders affirmed with modification,1,1,0,0,0,25.0,,,,17,7.5
+Board orders set aside,2,2,0,0,0,50.0,,,,36,16.0
+Remanded to Board,0,0,0,0,0,,,,,18,8.0
+Remanded to court of appeals,0,0,0,0,0,,,,,16,7.1
+Board's request for remand or modification of enforcement order denied,0,0,0,0,0,,,,,1,0.4
+Contempt cases remanded to court of appeals,0,0,0,0,0,,,,,1,0.4
+Contempt cases enforced,0,0,0,0,0,,,,,1,0.4

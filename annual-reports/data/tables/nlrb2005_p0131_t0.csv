@@ -1,7 +1,11 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10
-Total number of cases closed........................................,4783,100.0,3900,100.0,108,100.0,775,100.0,112,100.0
-Before issuance of notice of hearing......................................,516,10.8,335,8.6,28,25.9,153,19.7,65,58.0
-"After issuance of notice, before close of hearing...................",3614,75.6,3006,77.1,68,63.0,540,69.7,29,25.9
-"After hearing closed, before issuance of decision..................",69,1.4,57,1.5,0.0,0.0,12,1.5,1,0.9
-After issuance of Regional Director's decision......................,396,8.3,347,8.9,8,7.4,41,5.3,12,10.7
-After issuance of Board decision 2 .........................................,188,3.9,155,4.0,4,3.7,29,3.7,5,4.5
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CG cases,CG cases,CP cases,CP cases
+Stage of disposition,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed
+Total number of cases closed,"26,960",100.0,"20,342",100.0,"6,023",100.0,347,100.0,106,100.0,36,100.0,34,100.0,72,100.0
+Before issuance of complaint,"23,875",88.6,"17,701",87.0,"5,641",93.7,320,92.2,92,86.8,34,94.4,31,91.2,56,77.8
+"After issuance of complaint, before opening of hearing","1,967",7.3,"1,692",8.3,234,3.9,20,5.8,10,9.4,1,2.8,3,8.8,7,9.7
+"After hearing opened, before issuance of administrative law judge's decision",110,0.4,98,0.5,12,0.2,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+"After administrative law judge's decision, before issuance of Board decision",42,0.2,40,0.2,2,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+After Board order adopting administrative law judge's decision in absence of exceptions,191,0.7,169,0.8,18,0.3,2,0.6,1,0.9,1,2.8,0,0.0,0,0.0
+"After Board decision, before circuit court decree",444,1.6,335,1.6,105,1.7,1,0.3,2,1.9,0,0.0,0,0.0,1,1.4
+"After circuit court decree, before Supreme Court action",331,1.2,307,1.5,11,0.2,4,1.2,1,0.9,0,0.0,0,0.0,8,11.1
+After Supreme Court action,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0

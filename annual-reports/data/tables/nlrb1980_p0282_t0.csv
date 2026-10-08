@@ -1,9 +1,96 @@
-row_label,Total elections,Percent won,Elections won by unions — Total won,Elections won by unions — AFL-CIO unions,Elections won by unions — Teamsters,Elections won by unions — Other national unions,Elections won by unions — Other local unions,Elections in which no representative chosen,Employees eligible to vote — Total,Employees eligible to vote — In elections won,Employees eligible to vote — In units won by AFL-CIO,Employees eligible to vote — Teamsters,Employees eligible to vote — Other national unions,Employees eligible to vote — Other local unions,Employees eligible to vote — In elections in which no representative chosen
-3 (or more)-union elections,29,86.2,25,11,1,3,10,4,9279,8586,2610,98,1820,4058,693
-Total representation elections,8198,45.7,3744,2123,1052,207,262,4454,,,120983,33290,20569,21653,325087
-RC 1-union — AFL-CIO,3772,47.2,1782,1782,,,,,255891,84453,84453,,,,171438
-RC 1-union — Teamsters,2080,43.9,937,,937,,,,,,,24625,,,56290
-RC 1-union — Other national unions,482,51.0,246,,,246,,,,,,,14017,,
-RC 1-union — Other local unions,300,57.0,171,,,,171,,,,,,,7430,
-RC 1-union elections (subtotal),6610,47.4,3136,1782,937,246,171,3474,497539,84453,84453,24625,14017,7430,277004
-RC 2-union elections (subtotal),384,78.6,282,142,44,31,65,102,55097,33931,17416,4305,2761,9179,21166
+Participating unions,Total elections,Elections won by unions,Elections won by unions,Elections won by unions,Elections won by unions,Elections won by unions,Elections won by unions,Elections in which no representative chosen,Employees eligible to vote,Employees eligible to vote,Employees eligible to vote,Employees eligible to vote,Employees eligible to vote,Employees eligible to vote,In elections where no representative chosen
+Participating unions,Total elections,Percent won,Total won,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Elections in which no representative chosen,Total,In elections won,In units won by,In units won by,In units won by,In units won by,In elections where no representative chosen
+Participating unions,Total elections,Percent won,Total won,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Elections in which no representative chosen,Total,In elections won,AFL-CIO unions,Teamsters,Other national unions,Other local unions,In elections where no representative chosen
+A. All representation elections,,,,,,,,,,,,,,,
+AFL-CIO,"4,451",43.9,"1,953","1,953",,,,"2,498","283,916","95,500","95,500",,,,"188,416"
+Teamsters,"2,439",41.0,999,,999,,,"1,440","89,609","27,743",,"27,743",,,"61,866"
+Other national unions,522,51.9,271,,,271,,251,"50,271","15,973",,,"15,973",,"34,298"
+Other local unions,333,54.1,180,,,,180,153,"25,997","7,755",,,,"7,755","18,242"
+1-union elections,"7,745",43.9,"3,403","1,953",999,271,180,"4,342","449,793","146,971","95,500","27,743","15,973","7,755","302,822"
+AFL-CIO v AFL-CIO,93,60.2,56,56,,,,37,"11,776","5,042","5,042",,,,"6,734"
+AFL-CIO v Teamsters,92,70.7,65,34,31,,,27,"14,171","5,895","2,531","3,364",,,"8,276"
+AFL-CIO v national,43,79.1,34,18,,16,,9,"5,983","4,790","3,169",,"1,621",,"1,193"
+AFL-CIO v local,121,81.0,98,51,,,47,23,"22,880","19,345","12,081",,,"7,264","3,535"
+Teamsters v national,13,61.5,8,,2,6,,5,"1,663",528,,199,329,,"1,135"
+Teamsters v local,30,86.7,26,,15,,11,4,"2,519","2,294",,"1,928",,366,225
+Teamsters v Teamsters,4,100.0,4,,4,,,0,58,58,,58,,,0
+National v local,16,87.5,14,,,9,5,2,"2,959","2,645",,,816,"1,829",314
+National v national,3,66.7,2,,,2,,1,190,30,,,30,,160
+Local v local,9,100.0,9,,,,9,0,331,331,,,,331,0
+2-union elections,424,74.5,316,159,52,33,72,108,"62,530","40,958","22,823","5,549","2,796","9,790","21,572"
+AFL-CIO v AFL-CIO v AFL-CIO,4,50.0,2,2,,,,2,253,86,86,,,,167
+AFL-CIO v AFL-CIO v Teamsters,3,100.0,3,2,1,,,0,136,136,38,98,,,0
+AFL-CIO v AFL-CIO v national,3,100.0,3,2,,1,,0,278,278,264,,14,,0
+AFL-CIO v AFL-CIO v local,7,85.7,6,3,,,3,1,"2,187","1,801","1,218",,,583,386
+AFL-CIO v Teamsters v local,3,66.7,2,1,0,,1,1,"1,175","1,035",995,0,,40,140
+AFL-CIO v national v national,1,100.0,1,0,,1,,0,206,206,0,,206,,0
+AFL-CIO v national v local,2,100.0,2,0,,1,1,0,"1,905","1,905",0,,"1,600",305,0
+AFL-CIO v local v local,1,100.0,1,0,,,1,0,67,67,0,,,67,0
+Teamsters v Teamsters v local,2,100.0,2,,0,,2,0,288,288,,0,,288,0
+AFL-CIO v AFL-CIO v local v local,1,100.0,1,0,,,1,0,217,217,0,,,217,0
+AFL-CIO v AFL-CIO v AFL-CIO v local,1,100.0,1,1,,,0,0,9,9,9,,,0,0
+AFL-CIO v AFL-CIO v AFL-CIO v national v local,1,100.0,1,0,,0,1,0,"2,558","2,558",0,,0,"2,558",0
+3 (or more)-union elections,29,86.2,25,11,1,3,10,4,"9,279","8,586","2,610",98,"1,820","4,058",693
+Total representation elections,"8,198",45.7,"3,744","2,123","1,052",307,262,"4,454","521,602","196,515","120,933","33,390","20,589","21,603","325,087"
+B. Elections in RC cases,,,,,,,,,,,,,,,
+AFL-CIO,"3,772",47.2,"1,782","1,782",,,,"1,990","255,891","84,463","84,463",,,,"171,428"
+Teamsters,"2,080",45.0,937,,937,,,"1,143","80,915","24,625",,"24,625",,,"56,290"
+Other national unions,458,53.7,246,,,246,,212,"45,829","14,017",,,"14,017",,"31,812"
+Other local unions,300,57.0,171,,,,171,129,"24,904","7,430",,,,"7,430","17,474"
+1-union elections,"6,610",47.4,"3,136","1,782",937,246,171,"3,474","407,539","130,535","84,463","24,625","14,017","7,430","277,004"
+AFL-CIO v. AFL-CIO,88,61.4,54,54,,,,34,"11,606","4,966","4,966",,,,"6,640"
+AFL-CIO v. Teamsters,80,66.3,53,27,26,,,27,"13,424","5,148","2,083","3,065",,,"8,276"
+AFL-CIO v. national,42,78.6,33,17,,16,,9,"5,956","4,763","3,142",,"1,621",,"1,193"
+AFL-CIO v. local,109,79.8,87,44,,,43,22,"17,562","14,116","7,225",,,"6,891","3,446"
+Teamsters v. national,12,66.7,8,,2,6,,4,"1,659",528,,199,329,,"1,131"
+Teamsters v. local,27,85.2,23,,13,,10,4,"1,776","1,551",,"1,291",,260,225
+Teamsters v. Teamsters,3,100.0,3,,3,,,0,40,40,,40,,,0
+National v. local,13,92.3,12,,,7,5,1,"2,685","2,590",,,761,"1,829",95
+National v. national,3,66.7,2,,,2,,1,190,30,,,30,,160
+Local v. local,7,100.0,7,,,,7,0,199,199,,,,199,0
+2-union elections,384,73.4,282,142,44,31,65,102,"55,097","33,931","17,416","4,595","2,741","9,179","21,166"
+AFL-CIO v. AFL-CIO v. AFL-CIO,4,50.0,2,2,,,,2,253,86,86,,,,167
+AFL-CIO v. AFL-CIO v. Teamsters,3,100.0,3,2,1,,,0,136,136,38,98,,,0
+AFL-CIO v. AFL-CIO v. national,1,100.0,1,0,,1,,0,14,14,0,,14,,0
+AFL-CIO v. AFL-CIO v. local,7,85.7,6,3,,,3,1,"2,187","1,801","1,218",,,583,386
+AFL-CIO v. Teamsters v. local,3,66.7,2,1,0,,1,1,"1,175","1,035",995,0,,40,140
+AFL-CIO v. national v. national,1,100.0,1,0,,1,,0,206,206,0,,206,,0
+AFL-CIO v. national v. local,2,100.0,2,0,,1,1,0,"1,905","1,905",0,,"1,600",305,0
+AFL-CIO v. local v. local,1,100.0,1,0,,,1,0,67,67,0,,,67,0
+Teamsters v. Teamsters v. local,2,100.0,2,,0,,2,0,288,288,,0,,288,0
+AFL-CIO v. AFL-CIO v. local v. local,1,100.0,1,0,,,1,0,217,217,0,,,217,0
+AFL-CIO v. AFL-CIO v. AFL-CIO v. local,1,100.0,1,1,,,0,0,9,9,9,,,0,0
+AFL-CIO v. AFL-CIO v. AFL-CIO v. national v. local,1,100.0,1,0,,0,1,0,"2,558","2,558",0,,0,"2,558",0
+3 (or more)-union elections,27,85.2,23,9,1,3,10,4,"9,015","8,322","2,346",98,"1,820","4,058",693
+Total RC elections,"7,021",49.0,"3,441","1,933",982,280,246,"3,580","471,651","172,788","104,225","29,318","18,578","20,667","298,863"
+C. Elections in RM cases,,,,,,,,,,,,,,,
+AFL-CIO,164,13.4,22,22,,,,142,"4,452",827,827,,,,"3,625"
+Teamsters,77,24.7,19,,19,,,58,"1,232",360,,360,,,872
+Other national unions,10,30.0,3,,,3,,7,376,61,,,61,,315
+Other local unions,12,33.3,4,,,,4,8,236,91,,,,91,145
+1-union elections,263,18.3,48,22,19,3,4,215,"6,296","1,339",827,360,61,91,"4,957"
+AFL-CIO v AFL-CIO,4,50.0,2,2,,,,2,90,76,76,,,,14
+AFL-CIO v Teamsters,3,100.0,3,3,0,,,0,152,152,152,0,,,0
+AFL-CIO v local,1,100.0,1,0,,,1,0,219,219,0,,,219,0
+Teamsters v national,1,0.0,0,,0,0,,1,4,0,,0,0,,4
+Teamsters v local,1,100.0,1,,1,,0,0,145,145,,145,,0,0
+2-union elections,10,70.0,7,5,1,0,1,3,610,592,228,145,0,219,18
+AFL-CIO v AFL-CIO v national,2,100.0,2,2,,0,,0,264,264,264,,0,,0
+3 (or more union)-elections,2,100.0,2,2,0,0,0,0,264,264,264,0,0,0,0
+Total RM elections,275,20.7,57,29,20,3,5,218,"7,170","2,195","1,319",505,61,310,"4,975"
+,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases,D. Elections in RD cases
+AFL-CIO,515,28.9,149,149,,,,366,"23,573","10,210","10,210",,,,"13,363"
+Teamsters,282,15.2,43,,43,,,239,"7,462","2,758",,"2,758",,,"4,704"
+Other national unions,54,40.7,22,,,22,,32,"4,066","1,895",,,"1,895",,"2,171"
+Other local unions,21,23.8,5,,,,5,16,857,234,,,,234,623
+1-union elections,872,25.1,219,149,43,22,5,653,"35,958","15,097","10,210","2,758","1,895",234,"20,861"
+AFL-CIO v. AFL-CIO,1,0.0,0,0,,,,1,80,0,0,,,,80
+AFL-CIO v. Teamsters,9,100.0,9,4,5,,,0,595,595,296,299,,,0
+AFL-CIO v. national,1,100.0,1,1,,0,,0,27,27,27,,0,,0
+AFL-CIO v. local,11,90.9,10,7,,,3,1,"5,099","5,010","4,856",,,154,89
+Teamsters v. local,2,100.0,2,,1,,1,0,598,598,,492,,106,0
+Teamsters v. Teamsters,1,100.0,1,,1,,,0,18,18,,18,,,0
+National v. local,3,66.7,2,,,2,0,1,274,55,,,55,0,219
+Local v. local,2,100.0,2,,,,2,0,132,132,,,,132,0
+2-union elections,30,90.0,27,12,7,2,6,3,"6,823","6,435","5,179",809,55,392,388
+Total RD elections,902,27.3,246,161,50,24,11,656,"42,781","21,532","15,389","3,567","1,950",626,"21,249"

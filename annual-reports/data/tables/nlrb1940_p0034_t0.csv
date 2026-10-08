@@ -1,25 +1,28 @@
-row_label,col_1,col_2,col_3,col_4
-I. Boston,29,25,17,23
-2. New York,73,61,69,93
-3. Buffalo,11,14,12,15
-4. Philadelphia,28,17,14,26
-5. Baltimore,21,19,19,23
-6. Pittsburgh,14,12,11,12
-7. Detroit,31,34,38,40
-8. Cleveland,41,40,28,34
-9. Cincinnati,17,13,13,16
-10. Atlanta,15,12,17,20
-11. Indianapolis,40,28,37,42
-12. Milwaukee,8,7,5,5
-13. Chicago,53,44,41,47
-14. St. Louis,8,7,3,5
-15. New Orleans,6,6,10,11
-16. Fort Worth,4,5,10,12
-17. Kansas City,9,8,7,7
-18. Minneapolis,7,7,11,15
-19. Seattle,25,22,25,29
-20. San Francisco,24,22,18,20
-21. Los Angeles,92,97,101,137
-22. Denver,7,8,6,9
-Board 1,1,,,
-Total,664,508,512,641
+Region,Total number of cases on docket during fiscal year,Total number of cases closed during fiscal year,Cases closed before formal action,Cases closed before formal action,Cases closed before formal action,Cases closed before formal action,Cases closed before formal action,Cases closed before formal action,Cases closed before formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,"Total cases pending June 30, 1940"
+Region,Total number of cases on docket during fiscal year,Total number of cases closed during fiscal year,Total,Settled,Settled,Settled,Dismissed,Withdrawn,Otherwise closed before formal action,Total,Before Board decision,Before Board decision,Before Board decision,Before Board decision,Before Board decision,After Board decision,After Board decision,After Board decision,After Board decision,After Board decision,Otherwise closed after formal action,"Total cases pending June 30, 1940"
+Region,Total number of cases on docket during fiscal year,Total number of cases closed during fiscal year,Total,Consent election,Recognition,Pay-roll check,Dismissed,Withdrawn,Otherwise closed before formal action,Total,Settled,Settled,Settled,Dismissed,Withdrawn,Withdrawn,Certification,Certification,Dismissed,Dismissed,Otherwise closed after formal action,"Total cases pending June 30, 1940"
+Region,Total number of cases on docket during fiscal year,Total number of cases closed during fiscal year,Total,Consent election,Recognition,Pay-roll check,Dismissed,Withdrawn,Otherwise closed before formal action,Total,Consent election,Recognition,Pay-roll check,Dismissed,Withdrawn,Withdrawn,No election,Election,No election,Election,Otherwise closed after formal action,"Total cases pending June 30, 1940"
+1. Boston,167,137,107,48,18,4,14,23,,30,2,2,2,,2,,1,10,9,2,,30
+2. New York,552,428,328,111,34,28,53,99,3,100,7,1,,2,11,3,9,34,22,9,2,124
+3. Buffalo,63,52,36,11,2,4,11,6,2,16,2,,,,5,1,,3,2,3,,11
+4. Philadelphia,193,160,122,37,23,10,19,33,,38,1,1,,,6,,,13,10,7,,33
+5. Baltimore,183,154,126,61,11,15,10,29,,28,4,,,,1,2,,12,4,3,2,29
+6. Pittsburgh,61,52,37,13,5,6,1,12,,15,,,,,,,2,9,3,1,,9
+7. Detroit,171,120,96,33,11,10,19,23,,24,,,,,3,1,1,17,1,1,,51
+8. Cleveland,142,114,81,31,9,7,10,24,,33,,,,,1,2,1,21,3,5,,28
+9. Cincinnati,99,79,61,22,7,6,7,19,,18,5,1,,,1,,1,9,,,1,20
+10. Atlanta,102,78,42,12,4,8,9,9,,36,,,1,,2,8,1,18,4,2,,24
+11. Indianapolis,113,72,38,15,,4,5,14,,34,2,1,,1,2,,1,22,3,1,1,41
+12. Milwaukee,76,57,53,25,3,4,10,11,,4,,,,,,1,,,,3,,19
+13. Chicago,231,165,123,54,18,7,11,33,,42,1,,1,1,7,,2,20,4,6,,66
+14. St. Louis,61,45,37,15,,9,2,11,,8,,,,,1,1,,2,2,2,,16
+15. New Orleans,131,109,96,41,3,13,14,24,1,13,1,1,,,,,,6,1,4,,22
+16. Fort Worth,47,29,17,2,2,4,2,7,,12,1,1,,1,2,1,,3,2,1,,18
+17. Kansas City,64,49,42,10,8,10,7,7,,7,1,,,1,,1,,2,,2,,15
+18. Minneapolis,50,40,27,13,4,1,1,8,,13,,,,,,1,,7,4,1,,10
+19. Seattle,303,213,177,9,15,8,58,87,,36,,,,1,,1,,31,3,,,90
+20. San Francisco,124,88,59,16,,8,14,21,,29,1,,,1,,2,2,21,1,,1,36
+21. Los Angeles,470,408,230,11,11,8,33,167,,178,1,,,,9,4,23,105,22,13,1,62
+22. Denver,47,40,30,13,1,3,3,10,,10,1,,,,1,1,,5,2,,,7
+Board,4,1,1,,,,1,,,0,,,,,,,,,,,,3
+Total,"3,454","2,690","1,966",603,189,177,314,677,6,724,30,8,4,8,54,30,44,370,102,66,8,764

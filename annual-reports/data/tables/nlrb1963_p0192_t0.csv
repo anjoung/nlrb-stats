@@ -1,12 +1,7 @@
-Division and State,Total,Number of elections in which representation rights were won by AFL-CIO affiliates,Number of elections in which representation rights were won by Unaffiliated unions,Number of elections in which no representative was chosen,Number of employees eligible to vote,Total valid votes cast,Valid votes cast for AFL-CIO affiliates,Valid votes cast for Unaffiliated unions,Valid votes cast for No union,Employees in units choosing representation
-Total,6571,2665,1487,2419,489365,441909,174965,89170,177242,265747
-New England,480,112,90,178,29947,27180,10150,3203,13827,11741
-Massachusetts,297,80,60,157,14727,12174,4182,1997,5995,
-Connecticut,67,16,19,32,5408,5094,,,,
-Middle Atlantic,1263,467,317,479,105123,94804,40121,28253,26488,71485
-New York,575,235,138,202,31156,28358,14028,9489,11627,36098
-East North Central,1642,656,410,576,112709,102937,49402,20198,40257,64103
-Ohio,491,179,110,202,24427,22205,,,,
-Illinois,339,178,,,35231,31776,,,,
-West North Central,625,260,142,223,27486,24000,10779,3921,10710,12539
-South Atlantic (partial),760,,,349,64800,58904,,,10168,27882
+Union affiliation,Elections participated in,Elections participated in,Elections participated in,Elections participated in,Elections participated in,Employees involved in elections (number eligible to vote),Employees involved in elections (number eligible to vote),Employees involved in elections (number eligible to vote),Employees involved in elections (number eligible to vote),Employees involved in elections (number eligible to vote),Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Union affiliation,Total,Resulting in certification,Resulting in certification,Resulting in decertification,Resulting in decertification,Total eligible,Resulting in certification,Resulting in certification,Resulting in decertification,Resulting in decertification,Total,Percent of total eligible,Cast for the union,Cast for the union
+Union affiliation,Total,Number,Percent of total,Number,Percent of total,Total eligible,Number,Percent of total eligible,Number,Percent of total eligible,Total,Percent of total eligible,Number,Percent of total cast
+Total,225,60,26.7,165,73.3,"13,256","5,223",39.4,"8,033",60.6,"11,648",87.9,"5,434",46.7
+AFL-CIO,139,37,26.6,102,73.4,"10,017","3,944",39.4,"6,073",60.6,"8,809",87.9,"4,069",46.2
+Unaffiliated,76,15,19.7,61,80.3,"2,396",631,26.3,"1,765",73.7,"2,073",86.5,727,35.1
+AFL-CIO v. Unaffiliated,10,8,80.0,2,20.0,843,648,76.9,195,23.1,766,90.9,638,83.3

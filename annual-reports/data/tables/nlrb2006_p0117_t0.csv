@@ -1,42 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Pending October 1, 2005....................","*12,022",5193,3753,512,2534,30
-Received fiscal 2006..........................,16887,6218,5708,697,4236,28
-On docket fiscal 2006........................,28909,11411,9461,1209,6770,58
-Closed fiscal 2006..............................,17963,6721,5935,798,4478,31
-"Pending September 30, 2006..............",10946,4690,3526,411,2292,27
-,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases
-"Pending October 1, 2005....................",1991,17,33,9,1653,279
-Received fiscal 2006..........................,5622,15,24,12,4989,582
-On docket fiscal 2006........................,7613,32,57,21,6642,861
-Closed fiscal 2006..............................,5603,22,31,13,4906,631
-"Pending September 30, 2006..............",2010,10,26,8,1736,230
-,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases
-"Pending October 1, 2005....................",214,0,5,0,7,202
-Received fiscal 2006..........................,342,5,1,1,19,316
-On docket fiscal 2006........................,556,5,6,1,26,518
-Closed fiscal 2006..............................,329,4,1,1,17,306
-"Pending September 30, 2006..............",227,1,5,0,9,212
-,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases
-"Pending October 1, 2005....................",54,3,1,2,3,45
-Received fiscal 2006..........................,109,6,1,2,7,93
-On docket fiscal 2006........................,163,9,2,4,10,138
-Closed fiscal 2006..............................,117,6,2,4,7,98
-"Pending September 30, 2006..............",46,3,0,0,3,40
-,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases
-"Pending October 1, 2005....................",19,1,1,0,1,16
-Received fiscal 2006..........................,32,3,0,1,2,26
-On docket fiscal 2006........................,51,4,1,1,3,42
-Closed fiscal 2006..............................,40,3,0,1,2,34
-"Pending September 30, 2006..............",11,1,1,0,1,8
-,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases
-"Pending October 1, 2005....................",7,0,0,0,1,6
-Received fiscal 2006..........................,32,0,0,0,0,32
-On docket fiscal 2006........................,39,0,0,0,1,38
-Closed fiscal 2006..............................,30,0,0,0,0,30
-"Pending September 30, 2006..............",9,0,0,0,1,8
-,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases
-"Pending October 1, 2005....................",29,0,1,0,7,21
-Received fiscal 2006..........................,67,0,0,0,5,62
-On docket fiscal 2006........................,96,0,1,0,12,83
-Closed fiscal 2006..............................,71,0,0,0,11,60
-"Pending September 30, 2006..............",25,0,1,0,1,23
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO Unions,Other National Unions,Other local Unions,Individuals,Employers
+All Cases,,,,,,
+"Pending October 1, 2005","15,866","5,717","4,361",608,"4,501",679
+Received fiscal 2006,"26,728","7,379","7,010",917,"10,147","1,275"
+On docket fiscal 2006,"42,594","13,096","11,371","1,525","14,648","1,954"
+Closed fiscal 2006,"28,001","8,051","7,293","1,018","10,309","1,330"
+"Pending September 30, 2006","14,593","5,045","4,078",507,"4,339",624
+Unfair labor practice cases,,,,,,
+"Pending October 1, 2005","14,336","5,214","3,794",523,"4,206",599
+Received fiscal 2006,"23,091","6,247","5,734",713,"9,258","1,139"
+On docket fiscal 2006,"37,427","11,461","9,528","1,236","13,464","1,738"
+Closed fiscal 2006,"24,153","6,756","5,969",817,"9,421","1,190"
+"Pending September 30, 2006","13,274","4,705","3,559",419,"4,043",548
+Representation cases,,,,,,
+"Pending October 1, 2005","1,404",476,552,79,247,50
+Received fiscal 2006,"3,354","1,085","1,225",177,759,108
+On docket fiscal 2006,"4,758","1,561","1,777",256,"1,006",158
+Closed fiscal 2006,"3,576","1,250","1,280",179,754,113
+"Pending September 30, 2006","1,182",311,497,77,252,45
+Union-shop deauthorization cases,,,,,,
+"Pending October 1, 2005",46,,,,46,
+Received fiscal 2006,119,,,,119,
+On docket fiscal 2006,165,,,,165,
+Closed fiscal 2006,123,,,,123,
+"Pending September 30, 2006",42,,,,42,
+Amendment of certification cases,,,,,,
+"Pending October 1, 2005",6,1,5,0,0,0
+Received fiscal 2006,10,0,5,3,0,2
+On docket fiscal 2006,16,1,10,3,0,2
+Closed fiscal 2006,10,1,6,3,0,0
+"Pending September 30, 2006",6,0,4,0,0,2
+Unit clarification cases,,,,,,
+"Pending October 1, 2005",74,26,10,6,2,30
+Received fiscal 2006,154,47,46,24,11,26
+On docket fiscal 2006,228,73,56,30,13,56
+Closed fiscal 2006,139,44,38,19,11,27
+"Pending September 30, 2006",89,29,18,11,2,29

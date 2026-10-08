@@ -1,10 +1,40 @@
-Method and stage of disposition,All C cases / Number,All C cases / Percent of total closed by method,CA cases / Number,CA cases / Percent of total closed,CB cases / Number,CB cases / Percent of total closed,CC cases / Number,CC cases / Percent of total closed,CD cases / Number,CD cases / Percent of total closed,CE cases / Number,CE cases / Percent of total closed,CP cases / Number,CP cases / Percent of total closed
-Adopting trial examiner's decision (no exceptions filed),54,0.4,34,0.4,12,0.5,5,0.4,,,3,3.5,,
-Circuit court of appeals decree,302,1.9,227,2.3,44,1.6,21,1.7,,,1,1.2,9,2.4
-Supreme Court action,45,0.2,23,0.2,2,0.1,7,0.6,,,,,,
-Withdrawal,5824,37.2,4008,38.6,1127,40.5,406,33.3,,,24,27.9,140,37.7
-Withdrawal,,,,,,,,,,,,,,
-Dismissal,4424,28.4,3020,28.4,1041,37.4,213,17.5,2,0.4,35,41.9,112,30.2
-Dismissal,,,,,,,,,,,,,,
-10(k) actions (see table 7A for details of disposition),470,3.0,,,,,,,470,97.3,,,,
-"Others (e.g., compliance with order of trial examiner or Board not achieved—firms out of business)",,,,,,,,,,,,,,
+Method and stage of disposition,All C cases,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CP cases,CP cases
+Method and stage of disposition,Number,Percent of total closed,Percent of total method,Number,Percent of total closed,Number,Percent of total closed,Number,Percent of total closed,Number,Percent of total closed,Number,Percent of total closed,Number,Percent of total closed
+Total number of cases closed,"15,587",100.0,,"10,643",100.0,"2,784",100.0,"1,220",100.0,483,100.0,86,100.0,371,100.0
+Agreement of the parties,"4,046",26.0,100.0,"2,886",27.1,513,18.4,525,43.0,1,0.2,21,24.4,100,27.0
+Informal settlement,"3,855",24.8,95.3,"2,772",26.0,480,17.2,484,39.7,1,0.2,20,23.2,98,26.5
+Before issuance of complaint,"2,870",18.4,70.9,"1,933",18.2,423,15.2,412,33.8,[2],,19,22.0,83,22.4
+"After issuance of complaint, before opening of hearing",885,5.7,21.9,750,7.0,47,1.7,71,5.8,1,0.2,1,1.2,15,4.1
+"After hearing opened, before issuance of trial examiner's decision",100,0.7,2.5,89,0.8,10,0.3,1,0.1,0,,0,,0,
+Formal settlement,191,1.2,4.7,114,1.1,33,1.2,41,3.3,0,,1,1.2,2,0.5
+"After issuance of complaint, before opening of hearing",130,0.8,3.2,75,0.7,17,0.6,35,2.8,0,,1,1.2,2,0.5
+Stipulated decision,16,0.1,0.4,5,0.0,1,0.0,10,0.8,0,,0,,0,
+Consent decree,114,0.7,2.8,70,0.7,16,0.6,25,2.0,0,,1,1.2,2,0.5
+After hearing opened,61,0.4,1.5,39,0.4,16,0.6,6,0.5,0,,0,,0,
+Stipulated decision,7,0.1,0.2,2,0.0,2,0.1,3,0.2,0,,0,,0,
+Consent decree,54,0.3,1.3,37,0.4,14,0.5,3,0.3,0,,0,,0,
+Compliance with,841,5.4,100.0,628,5.9,103,3.7,76,6.2,10,2.1,5,5.8,19,5.1
+Trial examiner's decision,127,0.8,15.1,110,1.1,8,0.3,6,0.5,0,,0,,3,0.8
+Board decision,367,2.4,43.6,271,2.5,31,1.1,40,3.2,7,1.5,4,4.7,14,3.8
+Adopting trial examiner's decision (no exceptions filed),54,0.4,6.4,44,0.4,4,0.1,3,0.2,1,0.2,0,,2,0.5
+Contested,313,2.0,37.2,227,2.1,27,1.0,37,3.0,6,1.3,4,4.7,12,3.3
+Circuit court of appeals decree,302,1.9,35.9,212,2.0,62,2.2,23,1.9,2,0.4,1,1.1,2,0.5
+Supreme Court action,45,0.3,5.4,35,0.3,2,0.1,7,0.6,1,0.2,0,,0,
+Withdrawal,"5,804",37.2,100.0,"4,107",38.6,"1,127",40.5,406,33.3,0,,24,27.9,140,37.7
+Before issuance of complaint,"5,653",36.2,97.4,"3,996",37.6,"1,102",39.6,393,32.2,[2],,24,27.9,138,37.2
+"After issuance of complaint, before opening of hearing",116,0.7,2.0,78,0.7,24,0.9,12,1.0,0,,0,,2,0.5
+"After hearing opened, before trial examiner's decision",9,0.1,0.1,9,0.1,0,,0,,0,,0,,0,
+"After trial examiner's decision, before Board decision",15,0.1,0.3,13,0.1,1,0.0,1,0.1,0,,0,,0,
+After Board or court decision,11,0.1,0.2,11,0.1,0,,0,,0,,0,,0,
+Dismissal,"4,424",28.4,100.0,"3,020",28.4,"1,041",37.4,213,17.5,2,0.4,36,41.9,112,30.2
+Before issuance of complaint,"4,181",26.8,94.5,"2,832",26.6,"1,009",36.2,201,16.5,[2],,32,37.2,107,28.8
+"After issuance of complaint, before opening of hearing",26,0.2,0.6,21,0.2,3,0.1,0,,2,0.4,0,,0,
+"After hearing opened, before trial examiner's decision",5,0.0,0.1,5,0.0,0,,0,,0,,0,,0,
+By trial examiner's decision,2,0.0,0.0,2,0.0,0,,0,,0,,0,,0,
+By Board decision,151,1.0,3.4,109,1.0,24,0.9,9,0.7,0,,4,4.7,5,1.4
+Adopting trail examiner's decision (no exceptions filed),33,0.2,0.7,26,0.2,3,0.1,2,0.2,0,,2,2.4,0,
+Contested,118,0.8,2.7,83,0.8,21,0.8,7,0.5,0,,2,2.3,5,1.4
+By circuit court of appeals decree,57,0.4,1.3,50,0.5,5,0.2,2,0.2,0,,0,,0,
+By Supreme Court action,2,0.0,0.1,1,0.0,0,,1,0.1,0,,0,,0,
+10(k) actions (see table 7A for details of dispositions),470,3.0,,,,,,,,470,97.3,,,,
+Otherwise (compliance with order of trial examiner or Board not achieved—firms went out of business),2,.0,,2,.0,0,,0,,0,,0,,0,

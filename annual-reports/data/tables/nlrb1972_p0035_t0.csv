@@ -1,4 +1,9 @@
-row_label,Item,Count
-Dismissed,13,
-Settled or placed on courts' inactive docket,105,
-Awaiting action at end of the fiscal year,14,
+Total NLRB cases ruled on,341
+Affirmed in full,239
+Affirmed with modification,39
+Remanded to NLRB,16
+Partially affirmed and partially remanded,5
+Set aside,42
+Granted,110
+Denied,12
+Withdrawn,28

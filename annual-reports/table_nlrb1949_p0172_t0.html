@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -124,39 +132,33 @@ ul.link-list li { margin: 0.3rem 0; }
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th>Case-flow stage</th><th>Total</th><th>A. F. of L. affiliates</th><th>C I O affiliates</th><th>Unaffiliated unions</th><th>Individuals</th><th>Employers</th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">All cases — Cases pending July 1, 1948</th><td>12,644</td><td>7,290</td><td>2,214</td><td>1,810</td><td>1,013</td><td>317</td></tr>
-<tr><th class="stub" scope="row">All cases — Cases received July 1, 1948-June 30, 1949</th><td>25,874</td><td>14,591</td><td>4,053</td><td>3,825</td><td>2,417</td><td>988</td></tr>
-<tr><th class="stub" scope="row">All cases — Cases on docket July 1, 1948-June 30, 1949</th><td>38,518</td><td>22,181</td><td>6,267</td><td>5,635</td><td>3,430</td><td>1,305</td></tr>
-<tr><th class="stub" scope="row">All cases — Cases closed July 1, 1948-June 30, 1949</th><td>32,796</td><td>19,865</td><td>5,129</td><td>4,748</td><td>2,077</td><td>977</td></tr>
-<tr><th class="stub" scope="row">All cases — Cases pending June 30, 1949</th><td>5,722</td><td>2,316</td><td>1,138</td><td>587</td><td>1,353</td><td>328</td></tr>
-<tr><th class="stub" scope="row">Unfair labor practice cases — Cases pending July 1, 1948</th><td>2,399</td><td>615</td><td>584</td><td>174</td><td>840</td><td>186</td></tr>
-<tr><th class="stub" scope="row">Unfair labor practice cases — Cases received July 1, 1948-June 30, 1949</th><td>5,314</td><td>1,523</td><td>780</td><td>461</td><td>2,041</td><td>509</td></tr>
-<tr><th class="stub" scope="row">Unfair labor practice cases — Cases on docket July 1, 1948-June 30, 1949</th><td>7,713</td><td>2,138</td><td>1,364</td><td>635</td><td>2,881</td><td>695</td></tr>
-<tr><th class="stub" scope="row">Unfair labor practice cases — Cases closed July 1, 1948-June 30, 1949</th><td>4,664</td><td>1,316</td><td>786</td><td>459</td><td>1,614</td><td>489</td></tr>
-<tr><th class="stub" scope="row">Unfair labor practice cases — Cases pending June 30, 1949</th><td>3,049</td><td>822</td><td>578</td><td>176</td><td>1,267</td><td>206</td></tr>
-<tr><th class="stub" scope="row">Representation cases — Cases pending July 1, 1948</th><td>2,837</td><td>1,379</td><td>553</td><td>601</td><td>173</td><td>131</td></tr>
-<tr><th class="stub" scope="row">Representation cases — Cases received July 1, 1948-June 30, 1949</th><td>8,370</td><td>4,452</td><td>1,713</td><td>1,356</td><td>370</td><td>479</td></tr>
-<tr><th class="stub" scope="row">Representation cases — Cases on docket July 1, 1948-June 30, 1949</th><td>11,207</td><td>5,831</td><td>2,266</td><td>1,957</td><td>543</td><td>610</td></tr>
-<tr><th class="stub" scope="row">Representation cases — Cases closed July 1, 1948-June 30, 1949</th><td>9,245</td><td>4,853</td><td>1,839</td><td>1,607</td><td>458</td><td>488</td></tr>
-<tr><th class="stub" scope="row">Representation cases — Cases pending June 30, 1949</th><td>1,962</td><td>978</td><td>427</td><td>350</td><td>85</td><td>122</td></tr>
-<tr><th class="stub" scope="row">Union-shop authorization cases — Cases pending July 1, 1948</th><td>7,408</td><td>5,296</td><td>1,077</td><td>1,035</td><td class="blank"></td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Union-shop authorization cases — Cases received July 1, 1948-June 30, 1949</th><td>12,190</td><td>8,910</td><td>1,560</td><td>1,708</td><td>6</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Union-shop authorization cases — Cases on docket July 1, 1948-June 30, 1949</th><td>19,598</td><td>14,212</td><td>2,637</td><td>2,743</td><td>6</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Union-shop authorization cases — Cases closed July 1, 1948-June 30, 1949</th><td>18,887</td><td>13,696</td><td>2,504</td><td>2,682</td><td>5</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Union-shop authorization cases — Cases pending June 30, 1949</th><td>711</td><td>516</td><td>133</td><td>62</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Salaries</th><td>$6,538,918</td></tr>
+<tr><th class="stub" scope="row">Travel</th><td>581,968</td></tr>
+<tr><th class="stub" scope="row">Transportation of things</th><td>21,889</td></tr>
+<tr><th class="stub" scope="row">Communication services</th><td>242,000</td></tr>
+<tr><th class="stub" scope="row">Rents and utility services</th><td>365,353</td></tr>
+<tr><th class="stub" scope="row">Printing and reproduction</th><td>291,137</td></tr>
+<tr><th class="stub" scope="row">Other contractual services</th><td>151,169</td></tr>
+<tr><th class="stub" scope="row">Supplies and materials</th><td>120,234</td></tr>
+<tr><th class="stub" scope="row">Equipment</th><td>143,085</td></tr>
+<tr><th class="stub" scope="row">Grand total, obligations and expenditures for salaries and expenses</th><td>8,455,753</td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1949_p0172_t0.csv" download>Download this table (CSV)</a></p>
+<p class="check"><b>0 of 10</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 172.</b> The crop shows no printed column headings (the caption and any heading band lie above the crop), so header_rows is empty. Two columns: a stub of expense-object labels and a single unlabeled amount column. The grid rule above the grand total is the usual total rule, not a data cell. The dollar sign is printed only on the first value (Salaries). All digit groups are printed with a space after the comma in the original typesetting (e.g. &quot;$6, 538, 918&quot;); commas retained, spaces removed as instructed. The nine item amounts sum exactly to the printed grand total of 8,455,753, which supports the digit reading. The printed page number at the lower right (155) is excluded.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1949_p0172.webp" loading="lazy" alt="Source page 172 of NLRB FY1949 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1949_p0172_t0_p0172.webp" loading="lazy" alt="Source page 172 of NLRB FY1949 annual report">
 <figcaption>Source: NLRB Annual Report FY1949, p. 172.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

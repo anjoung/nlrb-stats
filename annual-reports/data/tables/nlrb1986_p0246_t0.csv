@@ -1,7 +1,11 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10
-Total number of cases closed,7532,1000,5262,000,593,100 0,1677,1000,228,100 0
-Before Issuance of notice of hearing,2374,315,1260,239,283,47 7,831,496,176,772
-"After issuance of notice, before close of hearing",3783,502,2994,569,175,296,614,365,20,88
-"After hearing closed, before issuance of decision",105,1 4,87,1 7,5,08,13,08,1,04
-After Issuance of Regional Director's decision,1081,144,840,160,70,II 8,171,102,31,136
-After issuance of Board decision,189,7 5,81,15,60,10 1,48,29,0,00
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CG cases,CG cases,CP cases,CP cases
+Stage of disposition,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed
+Total number of cases closed,"33,450",100.0,"23,180",100.0,"8,266",100.0,"1,320",100.0,323,100.0,75,100.0,20,100.0,266,100.0
+Before issuance of complaint,"28,177",84.2,"19,106",82.4,"7,399",89.5,"1,069",81.0,315,97.5,52,69.3,18,90.0,218,82.0
+"After issuance of complaint, before opening of hearing","3,217",9.6,"2,546",11.0,423,5.1,194,14.7,6,1.9,11,14.7,0,0.0,37,13.9
+"After hearing opened, before issuance of administrative law judge's decision",196,0.6,159,0.7,34,0.4,2,0.2,1,0.3,0,0.0,0,0.0,0,0.0
+"After administrative law judge's decision, before issuance of Board decision",37,0.1,32,0.1,5,0.1,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+After Board order adopting administrative law judge's decision in absence of exceptions,248,0.7,190,0.8,43,0.5,12,0.9,0,0.0,1,1.3,1,5.0,1,0.4
+"After Board decision, before circuit court decree","1,271",3.8,897,3.9,328,4.0,27,2.0,1,0.3,10,13.3,1,5.0,7,2.6
+"After circuit court decree, before Supreme Court action",295,0.9,244,1.1,33,0.4,15,1.1,0,0.0,0,0.0,0,0.0,3,1.1
+After Supreme Court action,9,0.0,6,0.0,1,0.0,1,0.1,0,0.0,1,1.3,0,0.0,0,0.0

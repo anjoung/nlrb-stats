@@ -1,10 +1,13 @@
-Type of case or election,Objections filed,Objections withdrawn,Objections ruled upon,Overruled — Number,Overruled — Percent of total ruled upon,Sustained — Number,Sustained — Percent of total ruled upon
-All representation elections,1155,256,899,678,75.4,221,24.6
-By type of case — RC cases,1076,236,840,627,74.6,213,25.4
-By type of case — RM cases,49,16,33,28,84.8,5,15.2
-By type of case — RD cases,30,4,26,23,88.5,3,11.5
-By type of election — Consent elections,146,35,111,86,77.5,25,22.5
-By type of election — Stipulated elections,672,164,508,388,76.4,120,23.6
-By type of election — Expedited elections,6,0,6,6,100.0,0,0.0
-By type of election — Regional director-directed elections,307,52,255,181,71.0,74,29.0
-By type of election — Board-directed elections,24,5,19,17,89.5,2,10.5
+,Total elections,Objections only,Objections only,Challenges only,Challenges only,Objections and challenges,Objections and challenges,Total objections,Total objections,Total challenges,Total challenges
+,Total elections,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+All representation elections,"8,611",739,8.6,235,2.7,160,1.9,899,10.4,395,4.6
+By type of case:,,,,,,,,,,,
+In RC cases,"7,778",690,8.9,221,2.8,150,1.9,840,10.8,371,4.7
+In RM cases,427,24,5.6,12,2.8,9,2.1,33,7.7,21,4.9
+In RD cases,406,25,6.2,2,.5,1,.2,26,6.4,3,.7
+By type of election,,,,,,,,,,,
+Consent elections,"1,969",91,4.6,31,1.6,20,1.0,111,5.6,51,2.6
+Stipulated elections,"4,911",418,8.5,130,2.6,90,1.8,508,10.3,220,4.5
+Expedited elections,33,6,18.2,0,,0,,6,18.2,0,
+Regional director-directed elections,"1,594",212,13.3,71,4.5,43,2.7,255,16.0,114,7.2
+Board-directed elections,104,12,11.5,3,2.9,7,6.7,19,18.3,10,9.6

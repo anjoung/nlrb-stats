@@ -1,14 +1,33 @@
-Month,Number — All cases,Number — Unfair labor practice cases,Number — Representation cases,Number — Union-shop authorization cases,Percent of yearly total — Unfair labor practice cases,Percent of yearly total — Representation cases,Percent of yearly total — Union-shop authorization cases,Percent of monthly total — Unfair labor practice cases,Percent of monthly total — Representation cases,Percent of monthly total — Union-shop authorization cases
-Total,25874,5314,8370,12190,100.0,100.0,100.0,20.5,32.4,47.1
-1948 — July,3749,321,776,2652,6.1,9.3,21.8,8.6,20.7,70.7
-1948 — August,3495,373,853,2269,7.0,10.2,18.6,10.7,24.4,64.9
-1948 — September,3081,561,633,1887,10.6,7.6,15.5,18.2,20.5,61.3
-1948 — October,2426,373,724,1329,7.0,8.6,10.9,15.4,29.8,54.8
-1948 — November,2091,394,705,992,7.4,8.4,8.1,18.8,33.7,47.5
-1948 — December,1663,406,540,713,7.7,6.5,5.8,24.6,32.5,42.9
-1949 — January,1343,435,548,360,8.2,6.5,3.0,32.4,40.8,26.8
-1949 — February,1431,451,663,317,8.5,7.9,2.6,31.5,46.3,22.2
-1949 — March,1674,510,785,379,9.6,9.4,3.1,30.5,46.9,22.6
-1949 — April,1495,491,650,354,9.2,7.8,2.9,32.8,43.5,23.7
-1949 — May,1685,446,795,444,8.4,9.5,3.6,26.5,47.2,26.3
-1949 — June,1741,549,698,494,10.3,8.3,4.1,31.5,40.1,28.4
+,Total,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases
+,Total,Identification of petitioner,Identification of petitioner,Identification of petitioner,Identification of petitioner,Identification of petitioner
+,Total,A. F. of L. affiliates,C I. O. affiliates,Unaffiliated unions,Individuals,Employers
+NLRA—R cases,,,,,,
+"Cases pending July 1, 1948",204,95,75,28,,6
+"Cases received July 1, 1948-June 30, 1949",,,,,,
+"Cases on docket July 1, 1948-June 30, 1949",204,95,75,28,,6
+"Cases closed July 1, 1948-June 30, 1949",177,85,59,27,,6
+"Cases pending June 30, 1949",27,10,16,1,,0
+RC cases,,,,,,
+"Cases pending July 1, 1948","2,337","1,283",478,566,10,
+"Cases received July 1, 1948-June 30, 1949","7,521","4,449","1,713","1,347",12,
+"Cases on docket July 1, 1948-June 30, 1949","9,858","5,732","2,191","1,913",22,
+"Cases closed July 1, 1948-June 30, 1949","8,131","4,764","1,780","1,567",20,
+"Cases pending June 30, 1949","1,727",968,411,346,2,
+RM cases,,,,,,
+"Cases pending July 1, 1948",125,,,,,125
+"Cases received July 1, 1948-June 30, 1949",479,,,,,479
+"Cases on docket July 1, 1948-June 30, 1949",604,,,,,604
+"Cases closed July 1, 1948-June 30, 1949",482,,,,,482
+"Cases pending June 30, 1949",122,,,,,122
+RD cases,,,,,,
+"Cases pending July 1, 1948",171,1,0,7,163,
+"Cases received July 1, 1948-June 30, 1949",370,3,0,9,358,
+"Cases on docket July 1, 1948-June 30, 1949",541,4,0,16,521,
+"Cases closed July 1, 1948-June 30, 1949",455,4,0,13,438,
+"Cases pending June 30, 1949",86,0,0,3,83,
+UA cases,,,,,,
+"Cases pending July 1, 1948","7,408","5,296","1,077","1,035",,
+"Cases received July 1, 1948-June 30, 1949","12,190","8,916","1,560","1,708",6,
+"Cases on docket July 1, 1948-June 30, 1949","19,598","14,212","2,637","2,743",6,
+"Cases closed July 1, 1948-June 30, 1949","18,887","13,696","2,504","2,682",5,
+"Cases pending June 30, 1949",711,516,133,61,1,

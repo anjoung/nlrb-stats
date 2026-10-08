@@ -1,12 +1,13 @@
-Category,Total rerun elections Number,Total rerun elections Percent by type,Union certified Number,Union certified Percent by type,No union chosen Number,No union chosen Percent by type,Outcome of original election reversed Number,Outcome of original election reversed Percent by type
-All representation elections,202,100.0,68,33.7,134,66.3,61,30.2
+,Total,Total,By employer,By employer,By union,By union,By both parties,By both parties
+,Number,Percent by type,Number,Percent by type,Number,Percent by type,Number,Percent by type
+All representation elections,"1,313",100.0,355,27.0,921,70.2,37,2.8
 By type of case,,,,,,,,
-RC cases,196,100.0,65,33.2,131,66.8,59,30.1
-RM cases,3,100.0,1,33.3,2,66.7,1,33.3
-RD cases,3,100.0,2,66.7,1,33.3,1,33.3
+RC cases,"1,242",100.0,347,27.9,866,69.8,29,2.3
+RM cases,55,100.0,7,12.7,41,74.6,7,12.7
+RD cases,16,100.0,1,6.3,14,87.4,1,6.3
 By type of election,,,,,,,,
-Consent elections,36,100.0,15,41.7,21,58.3,14,38.9
-Stipulated elections,94,100.0,34,36.2,60,63.8,32,34.0
-Expedited elections,0,,0,,0,,0,
-Regional director-directed elections,63,100.0,18,28.6,45,71.4,14,22.2
-Board-directed elections,9,100.0,1,11.1,8,88.9,1,11.1
+Consent elections,248,100.0,47,19.0,197,79.4,4,1.6
+Stipulated elections,615,100.0,177,28.8,422,68.6,16,2.6
+Expedited elections,3,100.0,1,33.3,1,33.3,1,33.3
+Regional director-directed elections,415,100.0,122,29.4,279,67.2,14,3.4
+Board-directed elections,32,100.0,8,25.0,22,68.7,2,6.3

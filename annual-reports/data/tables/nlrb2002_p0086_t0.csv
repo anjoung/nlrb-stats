@@ -1,42 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Pending October 1, 2001....................","*20,123",14526,683,743,4081,90
-Received fiscal 2002..........................,23035,16006,705,678,5612,34
-On docket fiscal 2002........................,43158,30532,1388,1421,9693,124
-Closed fiscal 2002..............................,23230,16112,700,720,5645,53
-"Pending September 30, 2002..............",19928,14420,688,701,4048,71
-,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases
-"Pending October 1, 2001....................",2708,60,4,13,2258,373
-Received fiscal 2002..........................,6269,62,8,13,5524,662
-On docket fiscal 2002........................,8977,122,12,26,7782,1035
-Closed fiscal 2002..............................,6355,84,7,7,5664,593
-"Pending September 30, 2002..............",2622,38,5,19,2118,442
-,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases
-"Pending October 1, 2001....................",224,2,0,0,5,217
-Received fiscal 2002..........................,476,11,5,1,44,415
-On docket fiscal 2002........................,700,13,5,1,49,632
-Closed fiscal 2002..............................,446,9,5,1,39,392
-"Pending September 30, 2002..............",254,4,0,0,10,240
-,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases
-"Pending October 1, 2001....................",61,4,0,0,1,56
-Received fiscal 2002..........................,212,27,1,3,14,167
-On docket fiscal 2002........................,273,31,1,3,15,223
-Closed fiscal 2002..............................,190,20,1,2,13,154
-"Pending September 30, 2002..............",83,11,0,1,2,69
-,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases
-"Pending October 1, 2001....................",22,0,0,0,0,22
-Received fiscal 2002..........................,33,3,0,0,6,24
-On docket fiscal 2002........................,55,3,0,0,6,46
-Closed fiscal 2002..............................,32,1,0,0,5,26
-"Pending September 30, 2002..............",23,2,0,0,1,20
-,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases
-"Pending October 1, 2001....................",16,0,0,0,0,16
-Received fiscal 2002..........................,34,0,0,0,5,29
-On docket fiscal 2002........................,50,0,0,0,5,45
-Closed fiscal 2002..............................,37,0,0,0,2,35
-"Pending September 30, 2002..............",13,0,0,0,3,10
-,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases
-"Pending October 1, 2001....................",26,0,0,0,1,25
-Received fiscal 2002..........................,118,6,3,0,8,101
-On docket fiscal 2002........................,144,6,3,0,9,126
-Closed fiscal 2002..............................,108,4,2,0,7,95
-"Pending September 30, 2002..............",36,2,1,0,2,31
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO Unions,Other National Unions,Other local Unions,Individuals,Employers
+All Cases,,,,,,
+"Pending October 1, 2001","25,044","15,801",733,820,6779,911
+Received fiscal 2002,"35,873","20,150",918,924,"12,257",1624
+On docket fiscal 2002,"60,917","35,951",1651,1744,"19,036",2535
+Closed fiscal 2002,"36,009","20,164",910,943,"12,455",1537
+"Pending September 30, 2002","24,908","15,787",741,801,6581,998
+Unfair labor practice cases,,,,,,
+"Pending October 1, 2001","23,180","14,592",687,756,6346,799
+Received fiscal 2002,"30,177","16,115",722,695,"11,213",1432
+On docket fiscal 2002,"53,357","30,707",1409,1451,"17,559",2231
+Closed fiscal 2002,"30,398","16,230",715,730,"11,375",1348
+"Pending September 30, 2002","22,959","14,477",694,721,6184,883
+Representation cases,,,,,,
+"Pending October 1, 2001",1672,1118,43,56,374,81
+Received fiscal 2002,5301,3861,182,214,896,148
+On docket fiscal 2002,6973,4979,225,270,1270,229
+Closed fiscal 2002,5227,3757,179,200,942,149
+"Pending September 30, 2002",1746,1222,46,70,328,80
+Union-shop deauthorization cases,,,,,,
+"Pending October 1, 2001",53,,,,53,
+Received fiscal 2002,137,,,,137,
+On docket fiscal 2002,190,,,,190,
+Closed fiscal 2002,128,,,,128,
+"Pending September 30, 2002",62,,,,62,
+Amendment of certification cases,,,,,,
+"Pending October 1, 2001",9,8,1,0,0,0
+Received fiscal 2002,14,11,0,1,0,2
+On docket fiscal 2002,23,19,1,1,0,2
+Closed fiscal 2002,16,12,1,1,0,2
+"Pending September 30, 2002",7,7,0,0,0,0
+Unit clarification cases,,,,,,
+"Pending October 1, 2001",130,83,2,8,6,31
+Received fiscal 2002,244,163,14,14,11,42
+On docket fiscal 2002,374,246,16,22,17,73
+Closed fiscal 2002,240,165,15,12,10,38
+"Pending September 30, 2002",134,81,1,10,7,35

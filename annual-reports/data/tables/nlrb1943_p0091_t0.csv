@@ -1,14 +1,21 @@
-Month,Cases received / Number / All cases,Cases received / Number / Unfair labor practice cases,Cases received / Number / Representation cases,Cases received / Percent of total / Unfair labor practice cases,Cases received / Percent of total / Representation cases,Cases received / Workers involved / Unfair labor practice cases,Cases received / Workers involved / Representation cases
-Total,9543,3403,6140,35.7,64.3,5806610,2229861
-July,937,383,554,40.9,59.1,621986,170087
-August,911,399,512,43.8,56.2,473129,162979
-September,807,318,489,39.4,60.6,443720,170185
-October,718,254,464,35.4,64.6,489217,177985
-November,639,249,390,39.0,61.0,252809,206651
-December,574,225,349,39.2,60.8,403021,119558
-January,734,291,443,39.6,60.4,510420,175552
-February,760,247,513,32.5,67.5,556212,245204
-March,915,288,627,31.5,68.5,447578,221603
-April,918,282,636,30.7,69.3,604145,202829
-May,778,214,564,27.5,72.5,441458,196501
-June,852,253,599,29.7,70.3,562915,177727
+,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases,Total number of workers involved
+,Total,Identification of complainant or petitioner,Identification of complainant or petitioner,Identification of complainant or petitioner,Identification of complainant or petitioner,Total number of workers involved
+,Total,A. F. of L. affiliate,C. I. O. affiliate,Unaffiliated union,Individual or employer,Total number of workers involved
+All cases,,,,,,
+"Cases pending July 1, 1942","2,860","1,113","1,403",217,130,
+Cases received July 1942-June 1943,"9,543","3,729","4,287","1,115",420,
+Cases on docket July 1942-June 1943,"12,403","4,842","5,690","1,332",550,
+Cases closed July 1942-June 1943,"9,777","3,897","4,496",945,450,
+"Cases pending June 30, 1943","2,626",945,"1,194",387,100,
+Unfair labor practice cases,,,,,,
+"Cases pending July 1, 1942","1,774",674,904,82,116,"2,110,769"
+Cases received July 1942-June 1943,"3,403","1,249","1,482",311,364,"5,806,610"
+Cases on docket July 1942-June 1943,"5,177","1,923","2,386",393,480,"7,917,379"
+Cases closed July 1942-June 1943,"3,849","1,470","1,738",261,385,"5,378,802"
+"Cases pending June 30, 1943","1,328",453,648,132,95,"2,538,577"
+Representation cases,,,,,,
+"Cases pending July 1, 1942","1,086",439,499,135,14,"569,783"
+Cases received July 1942-June 1943,"6,140","2,480","2,805",804,56,"2,229,861"
+Cases on docket July 1942-June 1943,"7,226","2,919","3,304",939,70,"2,799,644"
+Cases closed July 1942-June 1943,"5,928","2,427","2,758",684,65,"2,213,694"
+"Cases pending June 30, 1943","1,298",492,546,255,5,"585,950"

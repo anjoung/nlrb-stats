@@ -1,5 +1,13 @@
-Affiliation of union holding union-shop contract,Number of polls / Total,Number of polls / Resulting in deauthorization / Number,Number of polls / Resulting in deauthorization / Percent of total,Number of polls / Resulting in continued authorization / Number,Number of polls / Resulting in continued authorization / Percent of total,Employees involved (number eligible to vote) / Total eligible,Employees involved (number eligible to vote) / In polls / Resulting in deauthorization / Number,Employees involved (number eligible to vote) / In polls / Resulting in deauthorization / Percent of total,Employees involved (number eligible to vote) / In polls / Resulting in continued authorization / Number,Employees involved (number eligible to vote) / In polls / Resulting in continued authorization / Percent of total,Valid votes cast / Total,Valid votes cast / Percent of total eligible,Valid votes cast / Cast for deauthorization / Number,Valid votes cast / Cast for deauthorization / Percent of total eligible
-Total,97,56,57.7,41,42.3,6158,2799,45.5,3359,54.5,4536,73.7,1602,35.3
-AFL-CIO unions,70,38,54.3,32,45.7,4571,1945,42.6,2626,57.4,3423,74.9,1091,31.9
-Teamsters,21,12,57.1,9,42.9,1113,380,34.1,733,65.9,774,68.5,223,28.8
-Other local unions,6,6,100.0,0,,474,474,100.0,0,,339,71.5,288,
+,Objections filed,Objections withdrawn,Objections ruled upon,Overruled,Overruled,Sustained,Sustained
+,Objections filed,Objections withdrawn,Objections ruled upon,Number,Percent of total ruled upon,Number,Percent of total ruled upon
+All representation elections,"1,095",218,877,683,77.9,194,22.1
+By type of case.,,,,,,,
+RC cases,"1,007",205,802,618,77.1,184,22.9
+RM cases,58,8,50,43,86.0,7,14.0
+RD cases,30,5,25,22,88.0,3,12.0
+By type of election,,,,,,,
+Consent elections,118,31,87,63,72.4,24,27.6
+Stipulated elections,668,131,537,424,79.0,113,21.0
+Expedited elections,6,1,5,4,80.0,1,20.0
+Regional director-directed elections,287,55,232,178,76.7,54,23.3
+Board-directed elections,16,0,16,14,87.5,2,12.5

@@ -1,6 +1,14 @@
-row_label,Number of elections and cross checks,Elections won by petitioner / Number,Elections won by petitioner / Percent,Eligible voters,Valid votes cast for / Total,Valid votes cast for / A. F. of L.,Valid votes cast for / C. I. O.,Valid votes cast for / Unaffiliated unions,Valid votes cast for / No union,Percent of total votes cast for petitioner
-Total,6920,4539,65.6,934453,805474,206524,285381,124827,188742,68.9
-"A. F. of L. affiliate, petitioner",2997,1940,64.7,411653,339057,141858,,,,47.7
-"C. I. O. affiliate, petitioner",2862,1936,66.4,445473,,,,,,
-"Unaffiliated union, petitioner",980,673,68.7,,,,,,,
-Employer petitioner,30,,,,,,,,,
+Participating unions,Number of elections and cross checks,Elections and cross checks won by—,Elections and cross checks won by—,Elections and cross checks won by—,Elections and cross checks won by—,Elections and cross checks won by—,Elections and cross checks won by—,Elections and cross checks won by—,Eligible voters,Eligible voters,Valid votes cast for—,Valid votes cast for—,Valid votes cast for—,Valid votes cast for—,Valid votes cast for—,Valid votes cast for—,Valid votes cast for—,Valid votes cast for—
+Participating unions,Number of elections and cross checks,A. F. of L. affiliates,A. F. of L. affiliates,C. I. O. affiliates,C. I. O. affiliates,Unaffiliated unions,Unaffiliated unions,No union,Number,Percent casting valid votes,Total,A. F. of L. affiliates,A. F. of L. affiliates,C. I. O. affiliates,C. I. O. affiliates,Unaffiliated unions,Unaffiliated unions,Against unions
+Participating unions,Number of elections and cross checks,Number,Percent,Number,Percent,Number,Percent,Number,Number,Percent casting valid votes,Total,Number,Percent,Number,Percent,Number,Percent,Against unions
+Total,"6,920","2,196",31.7,"2,138",30.9,860,12.4,"1,726","934,553",86.2,"805,474","208,524",25.9,"288,381",35.8,"124,827",15.5,"183,742"
+A. F. of L. affiliates,"2,472","1,707",69.1,,,,,765,"184,012",84.9,"156,164","92,403",59.2,,,,,"63,761"
+C. I. O. affiliates,"2,216",,,"1,602",72.3,,,614,"210,835",87.2,"183,822",,,"107,529",58.5,,,"76,293"
+Unaffiliated unions,754,,,,,561,74.4,193,"55,352",86.0,"47,630",,,,,"30,056",63.1,"17,574"
+A. F. of L. affiliates-C. I. O. affiliates,817,336,41.1,372,45.5,,,109,"243,986",86.1,"210,179","84,936",40.4,"109,033",51.9,,,"16,210"
+A. F. of L. affiliates-unaffiliated unions,172,86,50.0,,,78,45.3,8,"42,504",85.0,"36,140","17,785",49.2,,,"16,672",46.1,"1,683"
+A. F. of L. affiliates-A. F. of L. affiliates,78,64,82.1,,,,,14,"12,198",83.1,"10,135","8,883",87.6,,,,,"1,252"
+C. I. O. affiliates-unaffiliated unions,315,,,129,41.0,166,52.7,20,"121,964",87.4,"106,622",,,"47,499",44.5,"53,923",50.6,"5,200"
+C. I. O. affiliates-C. I. O. affiliates,20,,,19,95.0,,,1,"21,965",87.0,"19,119",,,"18,147",94.9,,,972
+Unaffiliated-unaffiliated,34,,,,,34,100.0,0,"18,080",86.5,"15,637",,,,,"15,263",97.6,374
+A. F. of L.-C. I. O.-unaffiliated unions,42,3,7.1,16,38.1,21,50.0,2,"23,657",84.7,"20,026","4,517",22.6,"6,173",30.8,"8,913",44.5,423

@@ -1,14 +1,45 @@
-Division and State 1,All cases,Unfair labor practice cases / All C cases,Unfair labor practice cases / CA,Unfair labor practice cases / CB,Unfair labor practice cases / CC,Unfair labor practice cases / CD,Representation cases / All R cases,Representation cases / RC,Representation cases / RM,Representation cases / RD
-Total,21586,12239,8266,3129,657,187,9347,7959,847,541
-New England,971,468,350,95,22,1,503,428,50,25
-Maine,64,36,27,2,7,0,28,23,3,2
-"Additional New England states (NH, VT, MA, RI, CT)",,,,,,,,,,
-Middle Atlantic,4290,2461,1558,713,129,61,1829,1511,207,111
-East North Central,4509,2503,1787,613,76,27,2006,1647,217,142
-West North Central,1361,517,341,119,43,14,844,736,70,28
-South Atlantic,2904,1861,1456,384,64,13,1043,565,54,44
-East South Central,1958,1529,872,470,135,31,429,350,26,53
-West South Central,1452,809,569,184,50,6,643,555,28,60
-Mountain,873,350,259,54,31,6,522,474,32,16
-Pacific,2710,1444,946,412,57,19,1246,995,142,109
-Additional,,,,,,,,,,
+Industrial group,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases,Representation cases
+Industrial group,All cases,All C cases,CA,CB,CC,CD,All R cases,RC,RM,RD
+Total,"21,586","12,239","8,266","3,129",657,187,"9,347","7,959",847,541
+Manufacturing,"11,342","5,749","4,398","1,151",163,37,"5,593","4,760",453,380
+Ordnance and accessories,23,13,7,6,0,0,10,9,0,1
+Food and kindred products,"1,679",793,568,182,41,2,886,772,65,49
+Tobacco manufacturers,16,5,4,1,0,0,11,10,1,0
+Textile mill products,335,222,174,41,7,0,113,86,22,5
+Apparel and other finished products made from fabric and similar materials,479,356,240,105,9,2,123,88,22,13
+Lumber and wood products (except furniture),433,196,153,32,8,3,237,206,19,12
+Furniture and fixtures,451,245,196,37,12,0,206,167,19,20
+Paper and allied products,376,142,119,22,1,0,234,199,23,12
+"Printing, publishing, and allied industries",620,308,238,65,3,2,312,262,24,26
+Chemicals and allied products,724,350,304,39,7,0,374,304,33,37
+Products of petroleum and coal,196,109,97,11,1,0,87,76,5,6
+Rubber products,251,97,83,13,1,0,154,134,10,10
+Leather and leather products,155,67,53,12,2,0,88,71,11,6
+"Stone, clay, and glass products",620,368,249,102,12,5,252,207,30,15
+Primary metal industries,694,333,225,67,24,17,361,314,24,23
+Fabricated metal products (except machinery and transportation equipment),"1,152",547,423,112,12,0,605,536,38,31
+Machinery (except electrical),949,380,303,62,12,3,569,490,35,44
+"Electrical machinery, equipment, and supplies",931,515,397,115,2,1,416,357,24,35
+Aircraft and parts,247,139,116,20,1,2,108,102,3,3
+Ship and boat building and repairing,163,119,84,35,0,0,44,44,0,0
+Automotive and other transportation equipment,369,224,174,46,4,0,145,121,9,15
+"Professional, scientific, and controlling instruments",158,66,58,6,2,0,92,62,20,10
+Miscellaneous manufacturing,321,155,133,20,2,0,166,143,16,7
+"Agriculture, forestry, and fisheries",32,19,14,5,0,0,13,12,1,0
+Mining,480,390,156,143,90,1,90,74,5,11
+Metal mining,54,20,15,2,2,1,34,27,0,7
+Coal mining,334,317,90,141,86,0,17,15,1,1
+Crude petroleum and natural gas production,12,5,5,0,0,0,7,4,1,2
+Nonmetallic mining and quarrying,80,48,46,0,2,0,32,28,3,1
+Construction,"2,356","2,118",904,893,205,116,238,210,24,4
+Wholesale trade,"1,289",493,380,78,30,5,796,651,100,45
+Retail trade,"2,015",920,777,89,46,8,"1,095",906,144,45
+"Finance, insurance, and real estate",84,26,24,2,0,0,58,53,3,2
+"Transportation, communication, and other public utilities","2,860","1,890","1,189",587,101,13,970,851,81,38
+Local passenger transportation,282,152,104,47,1,0,130,127,2,1
+"Motor freight, warehousing, and transportation services","1,620","1,125",743,309,63,10,495,425,49,21
+Water transportation,518,434,221,183,29,1,84,75,9,0
+Other transportation,58,24,11,8,4,1,34,30,3,1
+Communications,220,86,60,26,0,0,134,116,8,10
+"Heat, light, power, water, and sanitary services",162,69,50,14,4,1,93,78,10,5
+Services,"1,128",634,424,181,22,7,494,442,36,16

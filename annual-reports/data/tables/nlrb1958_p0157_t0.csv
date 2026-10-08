@@ -1,16 +1,27 @@
-row_label,Charge subsection,Number of cases showing specific allegations — Left,Percent of total cases — Left,Charge subsection,Number of cases showing specific allegations — Right,Percent of total cases — Right
-A. CHARGES FILED AGAINST EMPLOYERS UNDER SEC 8(a) — Section heading,,,,,,
-Total cases / 8(a)(3),6068,100.0,8 (a) (3),4649,76.6,
-8(a)(1) / 8(a)(4),6068,100.0,8 (a) (4),116,1.9,
-8(a)(2) / 8(a)(5),706,11.6,8 (a) (5),1039,17.1,
-B. CHARGES FILED AGAINST UNIONS UNDER SEC 8(b) — Section heading,,,,,,
-Total cases / 8(b)(3),3192,100.0,8 (b) (3),211,6.6,
-8(b)(1) / 8(b)(4),2214,69.4,8 (b) (4),719,22.5,
-8(b)(2) / 8(b)(5),1952,61.2,8 (b) (5),69,2.2,
-(spacer) / 8(b)(6),,,8 (b) (6),17,.5,
-C. ANALYSIS OF 8(b)(1) AND 8(b)(4) — Section heading,,,,,,
-Total cases 8(b)(1) / Total cases 8(b)(4),2214,100.0,Total cases 8(b)(4),719,100.0,
-8(b)(1)(A) / 8(b)(4)(A),2183,98.6,8 (b) (4) (A),494,68.7,
-8(b)(1)(B) / 8(b)(4)(B),42,1.9,8 (b) (4) (B),203,28.2,
-(spacer) / 8(b)(4)(C),,,8 (b) (4) (C),28,3.9,
-(spacer) / 8(b)(4)(D),,,8 (b) (4) (D),192,26.7,
+,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of representation cases,Number of representation cases,Number of representation cases,Number of representation cases,Number of representation cases
+,Total,Identification of complainant,Identification of complainant,Identification of complainant,Identification of complainant,Total,Identification of petitioner,Identification of petitioner,Identification of petitioner,Identification of petitioner
+,Total,AFL-CIO affiliates,Unaffiliated unions,Individuals,Employers,Total,AFL-CIO affiliates,Unaffiliated unions,Individuals,Employers
+,CA cases,,,,,RC cases,,,,
+"Pending July 1, 1957","1,694",970,100,623,1,"1,503","1,315",186,2,
+Received fiscal 1958,"6,068","2,108",544,"3,412",4,"6,284","4,882","1,396",6,
+On docket fiscal 1958,"7,762","3,078",644,"4,035",5,"7,787","6,197","1,582",8,
+Closed fiscal 1958,"4,805","2,040",343,"2,421",1,"6,352","5,174","1,171",7,
+"Pending June 30, 1958","2,957","1,038",301,"1,614",4,"1,435","1,023",411,1,
+,CB cases,,,,,RM cases,,,,
+"Pending July 1, 1957",717,32,17,525,143,146,,,,146
+Received fiscal 1958,"2,473",61,26,"1,985",401,626,,,,626
+On docket fiscal 1958,"3,190",93,43,"2,510",544,772,,,,772
+Closed fiscal 1958,"1,857",48,26,"1,425",358,599,,,,599
+"Pending June 30, 1958","1,333",45,17,"1,085",186,173,,,,173
+,CC cases,,,,,RD cases,,,,
+"Pending July 1, 1957",215,3,2,0,210,78,0,1,77,
+Received fiscal 1958,527,7,2,5,513,489,2,2,485,
+On docket fiscal 1958,742,10,4,5,723,567,2,3,562,
+Closed fiscal 1958,479,7,3,4,465,452,1,3,448,
+"Pending June 30, 1958",263,3,1,1,258,115,1,0,114,
+,CD cases,,,,,,,,,
+"Pending July 1, 1957",54,2,,1,51,,,,,
+Received fiscal 1958,192,10,1,8,173,,,,,
+On docket fiscal 1958,246,12,1,9,224,,,,,
+Closed fiscal 1958,148,10,1,9,128,,,,,
+"Pending June 30, 1958",98,2,0,0,96,,,,,

@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>List of cases heard and decisions rendered — NLRB FY1936</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1936.html">FY1936</a> &rsaquo; List of cases heard and decisions rendered</p>
+<h1>List of cases heard and decisions rendered</h1>
+<p class="meta">printed as Table 14 &middot; source pages 153–155 &middot; <code>nlrb1936_p0153_t0</code></p>
+<p class="spans-note">Stitched from pp. 153–155.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Name of case</th><th colspan="2">Date hearing held—</th><th>Date decision issued</th></tr>
+<tr><th>Name of case</th><th>By trial examiner</th><th>By Board</th><th>Date decision issued</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Pennsylvania Greyhound Lines, Inc.—Greyhound Management Co</th><td class="blank"></td><td>Oct. 22, 1935</td><td>Dec. 7, 1935</td></tr>
+<tr><th class="stub" scope="row">Delaware-New Jersey Ferry Co</th><td>Oct. 31, 1935</td><td class="blank"></td><td>Dec. 30, 1935</td></tr>
+<tr><th class="stub" scope="row">United Fruit Co</th><td>do</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Gate City Cotton Mills</th><td>Nov. 4, 1935</td><td class="blank"></td><td>Dec. 7, 1935</td></tr>
+<tr><th class="stub" scope="row">Wayne Knitting Mills</th><td>Nov. 6, 1935</td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Fruehauf Trailer Co. (2 cases)</th><td class="blank"></td><td>Nov. 6, 1935</td><td>Dec. 12, 1935</td></tr>
+<tr><th class="stub" scope="row">Friedman-Harry Marks Clothing Co., Inc.</th><td>Nov. 6, 1935</td><td class="blank"></td><td>Mar. 28, 1936</td></tr>
+<tr><th class="stub" scope="row">Rollway Bearing Co., Inc</th><td>Nov. 12, 1935</td><td class="blank"></td><td>Apr. 28, 1936</td></tr>
+<tr><th class="stub" scope="row">Brown Shoe Co</th><td>Nov. 13, 1935</td><td class="blank"></td><td>May 29, 1936</td></tr>
+<tr><th class="stub" scope="row">Radiant Mills Co., Inc</th><td>Nov. 14, 1935</td><td class="blank"></td><td>Mar. 4, 1936</td></tr>
+<tr><th class="stub" scope="row">Wheeling Steel Co. (representation)</th><td class="blank"></td><td>Nov. 18, 1935</td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">El Paso Electric Co. (2 cases)</th><td>Nov. 18, 1935</td><td class="blank"></td><td>(d)</td></tr>
+<tr><th class="stub" scope="row">Vegetable Oil Products Co., Inc.</th><td>Nov. 19, 1935</td><td class="blank"></td><td>June 23, 1936</td></tr>
+<tr><th class="stub" scope="row">Duplex Printing Press Co. (representation)</th><td>do</td><td class="blank"></td><td>Dec. 30, 1935</td></tr>
+<tr><th class="stub" scope="row">Duplex Printing Press Co. (complaint)</th><td>Nov. 20, 1935</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Atlas Bag &amp; Burlap Co., Inc</th><td>do</td><td class="blank"></td><td>Mar. 4, 1936</td></tr>
+<tr><th class="stub" scope="row">United Aircraft Mfg. Co.</th><td>do</td><td class="blank"></td><td>Feb. 21, 1936</td></tr>
+<tr><th class="stub" scope="row">Saxon Mills</th><td>Nov. 21, 1935</td><td class="blank"></td><td>Jan. 15, 1936</td></tr>
+<tr><th class="stub" scope="row">Clinton Cotton Mills</th><td>do</td><td class="blank"></td><td>Dec. 31, 1935</td></tr>
+<tr><th class="stub" scope="row">American Commercial Alcohol Co.—American Distilling Co.</th><td>Nov. 22, 1935</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">United States Stamping Co</th><td>Nov. 25, 1935</td><td class="blank"></td><td>Feb. 11, 1936</td></tr>
+<tr><th class="stub" scope="row">Western Union Telegraph Co</th><td>do</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">National Casket Co., Inc.</th><td>do</td><td class="blank"></td><td>June 20, 1636</td></tr>
+<tr><th class="stub" scope="row">Sands Manufacturing Co.</th><td>do</td><td class="blank"></td><td>Apr. 17, 1936</td></tr>
+<tr><th class="stub" scope="row">New England Transportation Co.</th><td>Nov. 26, 1935</td><td class="blank"></td><td>Jan. 21, 1936</td></tr>
+<tr><th class="stub" scope="row">Baer Silk Throwing Co., Inc</th><td>Dec. 2, 1935</td><td class="blank"></td><td>Jan. 25, 1936</td></tr>
+<tr><th class="stub" scope="row">Mackay Radio and Telegraph Co</th><td>do</td><td class="blank"></td><td>Feb. 20, 1936</td></tr>
+<tr><th class="stub" scope="row">Fisher Flouring Mills</th><td>do</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Beaver Lois Mills</th><td>Dec. 3, 1935</td><td class="blank"></td><td>Feb. 8, 1936</td></tr>
+<tr><th class="stub" scope="row">Timken Silent Automatic Co.</th><td>Dec. 4, 1935</td><td class="blank"></td><td>Mar. 17, 1936</td></tr>
+<tr><th class="stub" scope="row">Cleveland Chair Co.</th><td>Dec. 5, 1935</td><td class="blank"></td><td>June 4, 1936</td></tr>
+<tr><th class="stub" scope="row">Friedman-Harry Marks Clothing Co., Inc.</th><td>do</td><td class="blank"></td><td>Mar. 28, 1936</td></tr>
+<tr><th class="stub" scope="row">M. H. Birge &amp; Sons Co.</th><td>do</td><td class="blank"></td><td>May 14, 1936</td></tr>
+<tr><th class="stub" scope="row">Columbian Enameling &amp; Stamping Co.</th><td>Dec. 9, 1935</td><td class="blank"></td><td>Feb. 14, 1936</td></tr>
+<tr><th class="stub" scope="row">Algonquin Printing Co.</th><td>do</td><td class="blank"></td><td>Mar. 4, 1936</td></tr>
+<tr><th class="stub" scope="row">E. R. Haffelfinger Wall Paper Co.</th><td>do</td><td class="blank"></td><td>May 14, 1936</td></tr>
+<tr><th class="stub" scope="row">Atlanta Woolen Mills</th><td>Dec. 11, 1935</td><td class="blank"></td><td>Mar. 11, 1936 June 10, 1936 (supp. dec.)</td></tr>
+<tr><th class="stub" scope="row">Greensboro Lumber Co.</th><td>Dec. 12, 1935</td><td class="blank"></td><td>Apr. 27, 1936</td></tr>
+<tr><th class="stub" scope="row">Consumers Research, Inc</th><td>Dec. 16, 1935</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Bendix Products Corporation</th><td>Dec. 17, 1935</td><td class="blank"></td><td>Feb. 28. 1936</td></tr>
+<tr><th class="stub" scope="row">Harbor Boat Building Co</th><td>Dec. 18, 1935</td><td class="blank"></td><td>Mar. 17, 1936</td></tr>
+<tr><th class="stub" scope="row">Jeffery DeWitt Insulator Co., Inc.</th><td>do</td><td class="blank"></td><td>Apr. 24, 1936</td></tr>
+<tr><th class="stub" scope="row">Bell Oil &amp; Gas Co.</th><td>Dec. 20, 1935</td><td class="blank"></td><td>Apr. 17, 1936</td></tr>
+<tr><th class="stub" scope="row">Fashion Piece Dye Works Co., Inc.</th><td>Dec. 23, 1935</td><td class="blank"></td><td>Mar. 4, 1936</td></tr>
+<tr><th class="stub" scope="row">American Hat Mfg. Co.</th><td>Dec. 27, 1935</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Canvas Glove Mfg. Co., Inc</th><td>do</td><td class="blank"></td><td>Apr. 10, 1936</td></tr>
+<tr><th class="stub" scope="row">Anwelt Shoe Mfg. Co.</th><td>Dec. 30, 1935</td><td class="blank"></td><td>June 12, 1936</td></tr>
+<tr><th class="stub" scope="row">Ansin Shoe Mfg. Co</th><td>do</td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Yale Underwear Co</th><td>do</td><td class="blank"></td><td>Apr. 11, 1936</td></tr>
+<tr><th class="stub" scope="row">Dwight Manufacturing Co</th><td>Jan. 2, 1936</td><td class="blank"></td><td>Mar. 9, 1936</td></tr>
+<tr><th class="stub" scope="row">Oregon Worsted Co</th><td>do</td><td class="blank"></td><td>May 11, 1936</td></tr>
+<tr><th class="stub" scope="row">Santa Cruz Fruit Packing</th><td>do</td><td class="blank"></td><td>Apr. 2, 1936</td></tr>
+<tr><th class="stub" scope="row">Canton Stamping &amp; Enameling Co</th><td>Jan. 6, 1936</td><td class="blank"></td><td>Mar. 23, 1936</td></tr>
+<tr><th class="stub" scope="row">Pittsburgh Steel Co</th><td>Jan. 7, 1936</td><td class="blank"></td><td>Feb. 24, 1936</td></tr>
+<tr><th class="stub" scope="row">Protective Motor Service Co., Inc.</th><td>Jan. 8, 1936</td><td class="blank"></td><td>Apr. 28, 1936</td></tr>
+<tr><th class="stub" scope="row">Atlantic Refining Co. (2 cases)</th><td>Jan. 9, 1936</td><td class="blank"></td><td>Mar. 19, 1936</td></tr>
+<tr><th class="stub" scope="row">The Rabhor Co., Inc</th><td>Jan. 10, 1936</td><td class="blank"></td><td>Apr. 7, 1936</td></tr>
+<tr><th class="stub" scope="row">Chrysler Corporation</th><td>Jan. 13, 1936</td><td class="blank"></td><td>Feb. 14, 1936</td></tr>
+<tr><th class="stub" scope="row">General Industries Co</th><td>do</td><td class="blank"></td><td>Apr. 30, 1936</td></tr>
+<tr><th class="stub" scope="row">Pusey, Maynes &amp; Breish Co</th><td>do</td><td class="blank"></td><td>Apr. 8, 1936</td></tr>
+<tr><th class="stub" scope="row">Segal-Maigen Co.</th><td>Jan. 15, 1936</td><td class="blank"></td><td>May 14, 1936</td></tr>
+<tr><th class="stub" scope="row">Aluminum Company of America</th><td class="blank"></td><td>Jan. 16, 1936</td><td>Apr. 10, 1936</td></tr>
+<tr><th class="stub" scope="row">Smith Cabinet Manufacturing Co.</th><td>Jan. 20, 1936</td><td class="blank"></td><td>June 13, 1936</td></tr>
+<tr><th class="stub" scope="row">Bemis Bros. Bag. Co.</th><td>Jan. 23, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Lion Shoe Co.</th><td>Jan. 27, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Lehman Bros. Inc.</th><td>Jan. 29, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">S &amp; K Knee Pants Co.</th><td>Jan. 30, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Mann Edge Tool Co. (representation)</th><td>do.</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Mann Edge Tool Co. (complaint)</th><td>do.</td><td class="blank"></td><td>June 22, 1936</td></tr>
+<tr><th class="stub" scope="row">Edward E. Cox, Printer, Inc.</th><td>do.</td><td class="blank"></td><td>Apr. 22, 1936</td></tr>
+<tr><th class="stub" scope="row">Sunshine Hosiery Mill</th><td>Feb. 3, 1936</td><td class="blank"></td><td>Apr. 29, 1936</td></tr>
+<tr><th class="stub" scope="row">Sneath Glass Co.</th><td>Feb. 4, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Foster Brothers Manufacturing Co., Inc.</th><td>Feb. 6, 1936</td><td class="blank"></td><td>June 3, 1936</td></tr>
+<tr><th class="stub" scope="row">Axton-Fisher Tobacco Co.</th><td>Feb. 10, 1936</td><td class="blank"></td><td>Apr. 23, 1936</td></tr>
+<tr><th class="stub" scope="row">John Blood &amp; Sons Co.</th><td>do.</td><td class="blank"></td><td>Mar. 20, 1936</td></tr>
+<tr><th class="stub" scope="row">Wallace Manufacturing Co.</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Gordon Baking Co.</th><td>do.</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Brown and Williamson Tobacco Co.</th><td>Feb. 11, 1936</td><td class="blank"></td><td>Apr. 23, 1936</td></tr>
+<tr><th class="stub" scope="row">Ward Baking Co.</th><td>Feb. 12, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">International Mercantile Marine Co.</th><td>Feb. 13, 1936</td><td class="blank"></td><td>Mar. 21, 1936</td></tr>
+<tr><th class="stub" scope="row">Pioneer Pearl Button Co.</th><td>do.</td><td class="blank"></td><td>June 1, 1936</td></tr>
+<tr><th class="stub" scope="row">Ralph A. Freundlich, Inc.</th><td>Feb. 17, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Sommervile Manufacturing Co—Somerset Mfg. Co.</th><td>do.</td><td class="blank"></td><td>June 3, 1936</td></tr>
+<tr><th class="stub" scope="row">Gray-Knox Marble Co.</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Belmont Stamping &amp; Enameling Co. (complaint)</th><td>Feb. 20, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Belmont Stamping &amp; Enameling Co.</th><td>do.</td><td class="blank"></td><td>Mar. 20, 1936</td></tr>
+<tr><th class="stub" scope="row">International Filter Co. (2 cases)</th><td>do.</td><td class="blank"></td><td>Apr. 8, 1936</td></tr>
+<tr><th class="stub" scope="row">Mosinee Paper Mills Co.</th><td>Feb. 26, 1936</td><td class="blank"></td><td>May 1, 1936</td></tr>
+<tr><th class="stub" scope="row">Gibbs Underwear Co.</th><td>Feb. 27, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Englander Spring Bed Co.</th><td>Mar. 2, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Ohio Custom Garment Co.</th><td>do.</td><td class="blank"></td><td>(d)</td></tr>
+<tr><th class="stub" scope="row">Hardwick Stove Co.</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Jones &amp; Laughlin Steel Corporation</th><td class="blank"></td><td>Mar. 2, 1936</td><td>Apr. 9, 1936</td></tr>
+<tr><th class="stub" scope="row">Typographic Service Co., Inc.</th><td>Mar. 4, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">United Parlor Furniture Co.</th><td>Mar. 6, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Standard Lime &amp; Stone Co.</th><td>Mar. 9, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">S. L. Allen &amp; Co., Inc.</th><td>do.</td><td class="blank"></td><td>May 13, 1936</td></tr>
+<tr><th class="stub" scope="row">Alabama Mills, Inc.</th><td>do.</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Wheeling Steel Corporation</th><td>do.</td><td>Apr. 2, 1936</td><td>May 12, 1936</td></tr>
+<tr><th class="stub" scope="row">F. C. Castelli Co., Inc.</th><td>Mar. 12, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Columbia Radiator Co.</th><td>do.</td><td class="blank"></td><td>June 2, 1936</td></tr>
+<tr><th class="stub" scope="row">International Nickel Co., Inc.</th><td>do.</td><td class="blank"></td><td>June 11, 1936</td></tr>
+<tr><th class="stub" scope="row">Alaska Juneau Gold Mining Co.</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">The Warfield Co.</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Mesta Machine Co.</th><td>Mar. 16, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Mooresville Cotton Mills</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">National New York Packing &amp; Shipping Co.</th><td>Mar. 17, 1936</td><td class="blank"></td><td>June 29, 1936</td></tr>
+<tr><th class="stub" scope="row">Renown Stove Co.</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Bradley Lumber Co. (2 cases)</th><td>Mar. 19, 1936</td><td class="blank"></td><td>(d)</td></tr>
+<tr><th class="stub" scope="row">Utterstrom Brothers, Inc.</th><td>do.</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">C. G. Conn, Ltd.</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">St. Clair Rubber Co.</th><td>Mar. 20, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Washington, Virginia &amp; Maryland Coach Co.</th><td>Mar. 23, 1936</td><td class="blank"></td><td>May 21, 1936</td></tr>
+<tr><th class="stub" scope="row">Crucible Steel Co. of America (complaint)</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Cherry Cotton Mills</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Crucible Steel Co. of America (representation)</th><td>do.</td><td class="blank"></td><td>Apr. 16, 1936</td></tr>
+<tr><th class="stub" scope="row">Robert H. Foerderer, Inc.</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">S. Cohen &amp; Sons</th><td>Mar. 30, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Wholesale Radio Service, Inc.</th><td>Apr. 2, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Gray-Knox Marble Co. (representation)</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Chelsea Silk Co.</th><td>Apr. 6, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Cook Ceramic, Inc.</th><td>do.</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Kentucky Firebrick Co.</th><td>do.</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Aluminum Co. of America</th><td>Apr. 7, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">The Associated Press</th><td>do.</td><td class="blank"></td><td>May 21, 1936</td></tr>
+<tr><th class="stub" scope="row">The Associated Press (representation)</th><td>do.</td><td class="blank"></td><td>May 6, 1936</td></tr>
+<tr><th class="stub" scope="row">Carlisle Lumber Co.</th><td>do.</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">American Oil Co.</th><td>Apr. 9, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Indiana Textile Mills, Inc.</th><td>do.</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Robinson &amp; Golluber</th><td>Apr. 13, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Atlas Drop Forge Co.</th><td>do.</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Louis Hornick Co.</th><td>Apr. 16, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Bemis Brothers Bag Co.</th><td>Apr. 17, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Signal Knitting Mills</th><td>Apr. 20, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Ilena Knitting Mills</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Samson Tire &amp; Rubber Corporation</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Tucker Oil Co.</th><td>Apr. 24, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Demarest Silk Co.</th><td>Apr. 27, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">The Optical Products Co.</th><td>Apr. 29, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Gardner-Denver Co.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Boss Manufacturing Co. (2 cases)</th><td>Apr. 30, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Riverside Knitting Mills</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Aluminum Products Co.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Trenton Mills, Inc.</th><td>May 1, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Wellwood-Norwich Silk Mills, Inc.</th><td>May 4, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Club Troika, Inc.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Pacific Mills Co.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">S. Gutman &amp; Co., Inc.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">American Potash &amp; Chemical Co.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">International Harvester Co.</th><td class="blank"></td><td>May 5, 1936</td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Chicopee Manufacturing Corporation</th><td>May 7, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Auth Electrical Specialty Co., Inc.</th><td>do</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">J. Freezer &amp; Sons, Inc.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Agwilines, Inc.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Toledo Shipbuilding Co., Inc. (2 cases)</th><td>May 11, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Quidnick Dye Works</th><td>May 14, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Magnolia Petroleum Co.</th><td>do</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">American Tobacco Co.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Whiterock Quarries, Inc.</th><td>May 15, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Fall River Gas Works Co.</th><td>May 18, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Fit-Rite Slipper Co., Inc.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Selfast Dress Co.</th><td>do</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">St. Joseph Stock Yards Co.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Prudential Knitting Mills</th><td>May 21, 1936</td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Memphis Furniture Manufacturing Co. (2 cases)</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Clark &amp; Reid</th><td>May 25, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Atlas Mills</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">J. W. Sanders Cotton Mills, Inc.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Stanley Works Co.</th><td>May 28, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Richards Wilcox Manufacturing Co.</th><td>do</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">D &amp; H Motor Freight Co.</th><td>June 8, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Lykes Brothers—Ripley Steamship Co. (3 cases)</th><td>June 12, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Chesapeake Manufacturing Co.</th><td>June 15, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Claussner Hosiery Co.</th><td class="blank"></td><td>June 17, 1936</td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Nolan Motor Co.</th><td>June 22, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Schonfield &amp; Reis</th><td>June 25, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Boyertown Burial Casket Co.</th><td>June 26, 1936</td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Fisher Body Corporation</th><td>June 29, 1936</td><td class="blank"></td><td>(d)</td></tr>
+<tr><th class="stub" scope="row">Chevrolet Motor Co.</th><td>do</td><td class="blank"></td><td>(d)</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1936_p0153_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>a Where the trial examiners held hearings in cases filed in the regional offices originally, and the Board held further hearings at a later date, the hearings before the trial examiners are the only ones listed.</li>
+<li>b Settled before decision of Board was issued.</li>
+<li>c Awaiting Board decision.</li>
+<li>d Decision not issued because of pending injunction proceeding.</li>
+<li>e Awaiting Board decision.</li>
+</ol>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 153.</b> Four printed columns: stub (Name of case), the two columns under the spanner &quot;Date hearing held—&quot; (By trial examiner / By Board), and the tall single heading &quot;Date decision issued&quot;.
+
+Footnote markers: the raised letter after &quot;By Board&quot; in the heading is small and blurred; it is almost certainly the &quot;a&quot; that keys the first footnote (it images as a tiny circle/degree sign). The footnote letters printed at the foot of the page likewise render indistinctly: the third marker images closer to &quot;e&quot; than &quot;c&quot;, but the sequence a-b-c-d and the body cells that cite it make &quot;c&quot; the intended letter. I have listed both forms in `footnotes` only to the extent they are printed; the &quot;e Awaiting Board decision.&quot; entry and the &quot;c Awaiting Board decision.&quot; entry are the SAME single printed footnote, not two — treat the duplicate as an artifact of this ambiguity and keep only one (marker &quot;c&quot;).
+
+Cells reading &quot;do&quot; are the printed ditto (&quot;----do----&quot;) in the trial-examiner column, meaning the same date as the row above. &quot;Do.&quot; in the decision column (Wayne Knitting Mills, Ansin Shoe Mfg. Co.) and the stub label &quot;Do.&quot; (row 29, repeating Fisher Flouring Mills) are printed that way.
+
+Parenthesized italic letters (b), (c), (d) stand in the &quot;Date decision issued&quot; column in place of a date and are footnote references; I kept them as printed rather than rewriting them with a caret, since they are the whole cell content, not a marker attached to a value.
+
+Doubtful cells: National Casket Co., Inc. / Date decision issued reads &quot;June 20, 1636&quot;; the third digit images as 6, which is near-certainly a misprint or scan artifact for 1936 — transcribed as printed. Bendix Products Corporation / Date decision issued shows what appears to be a period rather than a comma after &quot;28&quot; (&quot;Feb. 28. 1936&quot;); transcribed as seen. The last row label&#x27;s first characters are broken by the scan; I read &quot;Pusey, Maynes &amp; Breish Co&quot;.
+
+Atlanta Woolen Mills / Date decision issued occupies three printed lines (&quot;Mar. 11, 1936&quot;, &quot;June 10, 1936&quot;, &quot;(supp. dec.)&quot;) within the one row; joined into a single cell.
+
+The list is an alphabetical-by-date roster that runs off the bottom of the page with no total line, so it continues on the following page(s); nothing is cut off laterally. The caption &quot;XIV. LIST OF CASES HEARD AND DECISIONS RENDERED&quot; and the page number 147 were omitted per instructions.</p>
+<p><b>p. 154.</b> This is a continuation page of a list table; the body runs 71 rows with no total or section lines.
+
+Footnote-letter cells: where no date was issued, the &quot;Date decision issued&quot; cell holds nothing but a small raised italic letter in parentheses. Because the parentheses are printed and the letter is the entire content of the cell (not attached to a value), these are transcribed literally as (b), (c) and (d) rather than with a caret.
+
+Letter legibility: the raised letters are very small and the scan renders &quot;c&quot; so that it frequently looks like &quot;e&quot; or &quot;o&quot;. Since the only footnotes defined under the table are b, c and d, every such glyph that is not clearly a &quot;b&quot; or a &quot;d&quot; has been read as &quot;c&quot;. Individual letters could therefore be misread, in particular the (d) cells at &quot;Ohio Custom Garment Co.&quot; and &quot;Bradley Lumber Co. (2 cases)&quot;, which are the only two d&#x27;s I read. The footnote markers printed beneath the table itself show the same ambiguity: the second marker reads like &quot;e&quot; but is taken as &quot;c&quot; on the alphabetical sequence b, c, d. The table is continued from an earlier page, so a footnote &quot;a&quot; presumably exists there; no (a) marker was identified on this crop.
+
+&quot;Alabama Mills, Inc.&quot; is the one row whose &quot;Date decision issued&quot; cell appears empty — every other row carries either a date or a parenthesized letter. A faint marker lost in the scan is possible; transcribed as blank as it reads.
+
+Repeat entries in &quot;By trial examiner&quot; print as &quot;do.&quot; between dash leaders and are transcribed as &quot;do.&quot;; the surrounding leaders are dropped. &quot;By Board&quot; is a dash rule (blank) for every row except Aluminum Company of America, Jones &amp; Laughlin Steel Corporation and Wheeling Steel Corporation.
+
+Row-label spellings are kept as printed, including &quot;Sommervile Manufacturing Co—Somerset Mfg. Co.&quot; (single &quot;l&quot;, internal dash as set) and &quot;Bemis Bros. Bag. Co.&quot; Small ink smudges sit in the leader dots of the &quot;Aluminum Company of America&quot; and &quot;Aluminum Co. of America&quot; rows; these are read as print noise, not footnote markers.</p>
+<p><b>p. 155.</b> This is a continuation page of a list-style table (caption &quot;XIV. List of Cases Heard and Decisions Rendered—Continued&quot;); the table begins on earlier pages, so rows before &quot;Louis Hornick Co.&quot; are not on this crop, and footnote &quot;a&quot; (referenced on earlier pages) is not printed here.
+
+Column 4 (&quot;Date decision issued&quot;) never holds a date on this page: every cell holds only a small raised letter in parentheses — a footnote reference standing in place of a date. I have transcribed these as printed, e.g. &quot;(c)&quot;, rather than with the caret convention, because the parentheses are printed and the marker is the whole cell content rather than something attached to a value.
+
+Main uncertainty is telling the raised &quot;b&quot; from the raised &quot;c&quot; in column 4; the letters are only a few pixels tall in this 1-bit scan. The cells I read as &quot;(b)&quot; are: Chicopee Manufacturing Corporation, Auth Electrical Specialty Co. Inc., Do. (the Agwilines repeat), Toledo Shipbuilding Co., Magnolia Petroleum Co., Whiterock Quarries Inc., Selfast Dress Co., Prudential Knitting Mills. All other cells read &quot;(c)&quot; except Fisher Body Corporation and Chevrolet Motor Co., which read &quot;(d)&quot; (these two are distinctly taller-looped and consistent with the injunction footnote, since both are General Motors units).
+
+Doubtful row labels, all in the stub: &quot;Toledo Shipbuilding Co., Inc. (2 cases)&quot; — the abbreviation images as &quot;Ino.&quot; because the &quot;c&quot; has closed up in the scan; I transcribed &quot;Inc.&quot; as the evident printed word. &quot;Quidnick Dye Works&quot; images as &quot;Quldnick&quot; from the same kind of broken glyph. &quot;Selfast Dress Co.&quot; is read literally and may be &quot;Belfast Dress Co.&quot; — the initial letter is damaged. &quot;Ilena Knitting Mills&quot; may be &quot;Elena&quot;/&quot;Ilena&quot;; the initial capital is ambiguous.
+
+Rows 19 (International Harvester Co.) and 44 (Claussner Hosiery Co.) are the only two rows with a date under &quot;By Board&quot;; in both, the &quot;By trial examiner&quot; cell holds a dash rule and is transcribed as empty. In every other row the &quot;By Board&quot; cell holds a dash rule and is empty.
+
+&quot;Do.&quot; (row 24) is the printed repeat label for the preceding case, Agwilines, Inc.; it is indented in the original and kept as its own row. No totals or section lines appear in this table.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1936_p0153_t0_p0153.webp" loading="lazy" alt="Source page 153 of NLRB FY1936 annual report">
+<figcaption>Source: NLRB Annual Report FY1936, p. 153.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1936_p0153_t0_p0154.webp" loading="lazy" alt="Source page 154 of NLRB FY1936 annual report">
+<figcaption>Source: NLRB Annual Report FY1936, p. 154.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1936_p0153_t0_p0155.webp" loading="lazy" alt="Source page 155 of NLRB FY1936 annual report">
+<figcaption>Source: NLRB Annual Report FY1936, p. 155.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

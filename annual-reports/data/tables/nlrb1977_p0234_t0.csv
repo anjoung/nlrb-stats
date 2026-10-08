@@ -1,16 +1,44 @@
-row_label,col_1,Total,Identification of filing party / AFL-CIO unions,Identification of filing party / Teamsters,Identification of filing party / Other national unions,Identification of filing party / Other local unions,Identification of filing party / Individuals,Identification of filing party / Employers
-"Pending July 1, 1976",RC cases,3795,2231,948,185,405,26,
-Received 19TQ,RC cases,2955,1663,930,144,200,18,
-On docket 19TQ,RC cases,6750,3894,1878,329,605,44,
-Closed 19TQ,RC cases,2886,1632,871,136,232,15,
-"Pending Sept. 30, 1976",RC cases,3864,2262,1007,193,373,29,
-"Pending July 1, 1976",RM cases,291,,,,,,291
-Received 19TQ,RM cases,261,,,,,,261
-On docket 19TQ,RM cases,552,,,,,,552
-Closed 19TQ,RM cases,219,,,,,,219
-"Pending Sept. 30, 1976",RM cases,333,,,,,,333
-"Pending July 1, 1976",RD cases,390,1,2,0,2,385,
-Received 19TQ,RD cases,412,2,2,0,2,406,
-On docket 19TQ,RD cases,802,3,4,0,4,791,
-Closed 19TQ,RD cases,361,2,4,3,0,358,
-"Pending Sept. 30, 1976",RD cases,441,2,1,0,4,435,
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+CA cases,,,,,,,
+"Pending July 1, 1976","9,853","4,709","1,063",409,303,"3,335",34
+Received 19TQ,"6,223","2,512",715,163,159,"2,661",13
+On docket 19TQ,"16,0 6","7,221","1,778",572,462,"5,996",47
+Closed 19TQ,"5,506","2,185",633,159,140,"2,380",9
+"Pending September 30, 1976","10,570","5,036","1,145",413,322,"3,613",38
+CB cases,,,,,,,
+"Pending July 1, 1976","2,218",43,1,5,16,"1,628",525
+Received 19TQ,"2,106",17,2,0,9,"1,679",399
+On docket 19TQ,"4,324",60,3,5,25,"3,307",924
+Closed 19TQ,"1,951",15,0,1,12,"1,581",342
+"Pending September 30, 1976","2,373",45,3,4,13,"1,726",582
+CC cases,,,,,,,
+"Pending July 1, 1976",678,3,0,8,35,33,599
+Received 19TQ,559,2,0,2,7,27,521
+On docket 19TQ,"1,237",5,0,10,42,60,"1,120"
+Closed 19TQ,464,2,0,6,14,30,412
+"Pending September, 30 1976",773,3,0,4,28,30,708
+CD cases,,,,,,,
+"Pending July 1, 1976",205,2,0,3,2,11,187
+Received 19TQ,128,3,1,2,4,2,116
+On docket 19TQ,333,5,1,5,6,13,303
+Closed 19TQ,117,1,1,1,1,5,108
+"Pending September 30, 1976",216,4,0,4,5,8,195
+CE cases,,,,,,,
+"Pending July 1, 1976",134,1,0,0,28,15,90
+Received 19TQ,29,0,0,0,2,1,26
+On docket 19TQ,163,1,0,0,30,16,116
+Closed 19TQ,28,0,0,0,3,3,22
+"Pending September 30, 1976",135,1,0,0,27,13,94
+CG cases,,,,,,,
+"Pending July 1, 1976",57,0,0,0,0,0,57
+Received 19TQ,36,0,0,0,0,1,35
+On docket 19TQ,93,0,0,0,0,1,92
+Closed 19TQ,26,0,0,0,0,1,25
+"Pending September 30, 1976",67,0,0,0,0,0,67
+CP cases,,,,,,,
+"Pending July 1, 1976",114,2,0,1,7,4,100
+Received 197TQ,119,0,0,1,0,5,113
+On docket 19TQ,233,2,0,2,7,9,213
+Closed 19TQ,111,1,0,0,7,5,98
+"Pending September 30, 1976",122,1,0,2,0,4,115

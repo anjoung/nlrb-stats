@@ -1,7 +1,66 @@
-row_label,Division and State,Total elections,Number of elections in which representation chosen — Total,AFL-CIO,Teamsters,Other national,Other local,Number of elections in which no representation chosen,Total valid votes cast,Valid votes cast for unions — Total,AFL-CIO,Teamsters,Other national,Other local,Votes for no union,Total eligible employees
-West North Central TOTAL,66,14,8,6,0,0,52,2679,1205,850,246,0,0,1197,822,
-South Atlantic — Florida,17,7,2,5,0,0,10,,,,,,,,,
-South Atlantic TOTAL,37,9,6,,,,28,1221,740,556,176,0,8,,822,
-East South Central TOTAL,35,11,8,,,,26,1607,,1235,,,,,,
-West South Central — Texas,23,8,6,,,,15,,,,,,,,,
-West South Central TOTAL,39,13,10,,,,26,4181,,1617,,,,,,
+Division and State,Total elections,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which no representative was chosen,Number of employees eligible to vote,Total valid votes cast,Valid votes cast for unions,Valid votes cast for unions,Valid votes cast for unions,Valid votes cast for unions,Valid votes cast for unions,Total votes for no union,Eligible employees in units choosing representation
+Division and State,Total elections,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Number of elections in which no representative was chosen,Number of employees eligible to vote,Total valid votes cast,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Total votes for no union,Eligible employees in units choosing representation
+New Hampshire,1,1,0,0,0,1,0,8,7,7,0,0,0,7,0,8
+Vermont,1,0,0,0,0,0,1,173,90,0,0,0,0,0,90,0
+Massachusetts,14,7,5,2,0,0,7,"1,057","1,041",624,549,68,0,7,417,841
+Rhode Island,2,0,0,0,0,0,2,11,11,1,1,0,0,0,10,0
+Connecticut,5,0,0,0,0,0,5,165,157,64,64,0,0,0,93,0
+New England,23,8,5,2,0,1,15,"1,414","1,306",696,614,68,0,14,610,849
+New York,34,12,8,3,0,1,22,"1,320","1,167",621,440,96,3,82,546,714
+New Jersey,15,7,4,3,0,0,8,645,596,368,149,131,0,88,228,473
+Pennsylvania,43,15,10,3,0,2,28,"2,129","1,872","1,142",842,117,0,183,730,"1,249"
+Middle Atlantic,92,34,22,9,0,3,58,"4,094","3,635","2,131","1,431",344,3,353,"1,504","2,436"
+Ohio,31,5,1,4,0,0,26,"1,012",949,376,166,210,0,0,573,335
+Indiana,20,5,2,3,0,0,15,641,590,287,157,130,0,0,303,204
+Illinois,39,10,6,3,1,0,29,"2,060","1,812",941,749,84,79,29,871,"1,441"
+Michigan,39,13,11,2,0,0,26,"2,628","2,270","1,360","1,180",73,0,107,910,"1,557"
+Wisconsin,31,13,11,2,0,0,18,"2,501","2,188","1,119","1,025",92,0,2,"1,069","1,270"
+East North Central,160,46,31,14,1,0,114,"8,842","7,809","4,083","3,277",589,79,138,"3,726","4,807"
+Iowa,5,0,0,0,0,0,5,304,271,101,31,70,0,0,170,0
+Minnesota,21,6,3,3,0,0,15,731,638,303,251,52,0,0,335,139
+Missouri,32,7,4,3,0,0,25,"1,147",929,465,368,97,0,0,464,505
+North Dakota,1,0,0,0,0,0,1,14,13,5,5,0,0,0,8,0
+South Dakota,1,0,0,0,0,0,1,10,9,1,0,1,0,0,8,0
+Nebraska,2,0,0,0,0,0,2,119,112,44,44,0,0,0,68,0
+Kansas,4,1,1,0,0,0,3,354,321,177,151,26,0,0,144,178
+West North Central,66,14,8,6,0,0,52,"2,679","2,293","1,096",850,246,0,0,"1,197",822
+Delaware,1,0,0,0,0,0,1,4,4,0,0,0,0,0,4,0
+Maryland,9,2,2,0,0,0,7,246,222,87,54,27,0,6,135,49
+District of Columbia,1,0,0,0,0,0,1,18,17,3,3,0,0,0,14,0
+Virginia,2,2,2,0,0,0,0,275,246,136,136,0,0,0,110,275
+West Virginia,3,0,0,0,0,0,3,27,26,5,0,5,0,0,21,0
+North Carolina,6,2,1,1,0,0,4,315,287,92,75,17,0,0,195,74
+South Carolina,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Georgia,7,2,1,1,0,0,5,544,493,274,202,70,0,2,219,355
+Florida,8,3,2,1,0,0,5,271,267,143,86,57,0,0,124,129
+South Atlantic,37,11,8,3,0,0,26,"1,700","1,562",740,556,176,0,8,822,882
+Kentucky,11,4,4,0,0,0,7,"1,221","1,134",614,592,22,0,0,520,"1,092"
+Tennessee,13,3,2,1,0,0,10,"1,299","1,215",598,494,104,0,0,617,817
+Alabama,8,3,3,0,0,0,5,624,584,293,277,0,0,16,291,482
+Mississippi,3,1,1,0,0,0,2,347,319,162,162,0,0,0,157,278
+East South Central,35,11,10,1,0,0,24,"3,491","3,252","1,667","1,525",126,0,16,"1,585","2,669"
+Arkansas,4,3,3,0,0,0,1,263,243,153,153,0,0,0,90,233
+Louisiana,5,1,1,0,0,0,4,244,234,89,78,11,0,0,145,82
+Oklahoma,7,1,1,0,0,0,6,"1,049",815,354,339,15,0,0,461,66
+Texas,23,8,5,2,0,1,15,"2,625","2,473","1,021",928,80,0,13,"1,452",673
+West South Central,39,13,10,2,0,1,26,"4,181","3,765","1,617","1,498",106,0,13,"2,148","1,054"
+Montana,8,4,4,0,0,0,4,143,136,81,81,0,0,0,55,102
+Idaho,1,1,1,0,0,0,0,35,31,28,28,0,0,0,3,35
+Wyoming,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Colorado,10,6,3,3,0,0,4,615,565,342,251,91,0,0,223,377
+New Mexico,1,1,1,0,0,0,0,32,32,20,20,0,0,0,12,32
+Arizona,5,1,1,0,0,0,4,195,187,67,59,8,0,0,120,101
+Utah,2,0,0,0,0,0,2,375,246,45,0,45,0,0,201,0
+Nevada,3,1,1,0,0,0,2,107,98,53,47,6,0,0,45,84
+Mountain,30,14,11,3,0,0,16,"1,502","1,295",636,486,150,0,0,659,731
+Washington,34,8,4,2,0,2,26,867,715,311,244,42,0,25,404,272
+Oregon,16,6,4,1,0,1,10,"1,015",846,366,239,83,32,12,480,308
+California,72,16,14,2,0,0,56,"3,897","3,440","1,422",893,529,0,0,"2,018","1,179"
+Alaska,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hawaii,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Guam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific,122,30,22,5,0,3,92,"5,779","5,001","2,099","1,376",654,32,37,"2,902","1,759"
+Puerto Rico,1,0,0,0,0,0,1,460,436,169,0,0,0,169,267,0
+Virgin Islands,1,0,0,0,0,0,1,32,32,7,7,0,0,0,25,0
+Outlying Areas,2,0,0,0,0,0,2,492,468,176,7,0,0,169,292,0
+"Total, all States and areas",606,181,127,45,1,8,425,"34,174","30,386","14,941","11,620","2,459",114,748,"15,445","16,009"

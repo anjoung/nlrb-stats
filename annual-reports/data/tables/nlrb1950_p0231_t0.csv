@@ -1,26 +1,27 @@
-Case-flow stage,Total,A. F. of L. affiliates,C I O affiliates,Unaffiliated unions,Individuals,Employers
-"NLRA-C cases — Cases pending July 1, 1949",354,97,199,29,29,
-"NLRA-C cases — Cases received July 1, 1949-June 30, 1950",,,,,,
-"NLRA-C cases — Cases on docket July 1, 1949-June 30, 1950",354,97,199,29,29,
-"NLRA-C cases — Cases closed July 1, 1949-June 30, 1950",123,49,47,10,17,
-"NLRA-C cases — Cases pending June 30, 1950",231,48,152,19,12,
-"CA cases — Cases pending July 1, 1949",2163,676,374,164,949,
-"CA cases — Cases received July 1, 1949-June 30, 1950",4472,1614,1023,613,1222,
-"CA cases — Cases on docket July 1, 1949-June 30, 1950",6635,2290,1397,777,2171,
-"CA cases — Cases closed July 1, 1949-June 30, 1950",4261,1517,853,497,1394,
-"CA cases — Cases pending June 30, 1950",2374,773,544,280,777,
-"CB cases — Cases pending July 1, 1949",415,15,4,10,290,96
-"CB cases — Cases received July 1, 1949-June 30, 1950",996,35,23,51,602,285
-"CB cases — Cases on docket July 1, 1949-June 30, 1950",1411,50,27,61,892,381
-"CB cases — Cases closed July 1, 1949-June 30, 1950",876,34,14,38,571,219
-"CB cases — Cases pending June 30, 1950",535,16,13,23,321,162
-"CC cases — Cases pending July 1, 1949",101,0,0,0,2,99
-"CC cases — Cases received July 1, 1949-June 30, 1950",275,0,7,3,10,251
-"CC cases — Cases on docket July 1, 1949-June 30, 1950",376,7,7,3,12,350
-"CC cases — Cases closed July 1, 1949-June 30, 1950",293,5,3,2,8,275
-"CC cases — Cases pending June 30, 1950",83,5,2,1,4,75
-"CD cases — Cases pending July 1, 1949",16,2,0,0,1,12
-"CD cases — Cases received July 1, 1949-June 30, 1950",66,2,0,2,3,59
-"CD cases — Cases on docket July 1, 1949-June 30, 1950",82,4,0,2,4,71
-"CD cases — Cases closed July 1, 1949-June 30, 1950",62,4,0,0,1,53
-"CD cases — Cases pending June 30, 1950",20,0,0,2,3,18
+,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases
+,Total,Identification of complainant or petitioner,Identification of complainant or petitioner,Identification of complainant or petitioner,Identification of complainant or petitioner,Identification of complainant or petitioner
+,Total,A F of L affiliates,C I O. affiliates,Unaffiliated unions,Individuals,Employers
+All cases,,,,,,
+"Cases pending July 1, 1949","5,722","2,290","1,137",608,"1,358",329
+"Cases received July 1, 1949–June 30, 1950","21,632","10,107","4,630","3,386","2,214","1,295"
+"Cases on docket July 1, 1949–June 30, 1950","27,354","12,397","5,767","3,994","3,572","1,624"
+"Cases closed July 1, 1949–June 30, 1950","20,640","9,808","4,266","3,000","2,359","1,207"
+"Cases pending June 30, 1950","6,714","2,589","1,501",994,"1,213",417
+Unfair labor practice cases,,,,,,
+"Cases pending July 1, 1949","3,049",790,577,204,"1,271",207
+"Cases received July 1, 1949–June 30, 1950","5,809","1,658","1,049",670,"1,837",595
+"Cases on docket July 1, 1949–June 30, 1950","8,858","2,448","1,626",874,"3,108",802
+"Cases closed July 1, 1949–June 30, 1950","5,615","1,609",916,549,"1,994",547
+"Cases pending June 30, 1950","3,243",839,710,325,"1,114",255
+Representation cases,,,,,,
+"Cases pending July 1, 1949","1,962",982,428,344,86,122
+"Cases received July 1, 1949–June 30, 1950","9,279","4,550","2,126","1,533",370,700
+"Cases on docket July 1, 1949–June 30, 1950","11,241","5,532","2,554","1,877",456,822
+"Cases closed July 1, 1949–June 30, 1950","8,761","4,363","2,006","1,375",357,660
+"Cases pending June 30, 1950","2,480","1,169",548,502,99,162
+Union-shop authorization cases,,,,,,
+"Cases pending July 1, 1949",711,518,132,60,1,
+"Cases received July 1, 1949–June 30, 1950","6,544","3,899","1,455","1,183",7,
+"Cases on docket July 1, 1949–June 30, 1950","7,255","4,417","1,587","1,243",8,
+"Cases closed July 1, 1949–June 30, 1950","6,264","3,836","1,344","1,076",8,
+"Cases pending June 30, 1950",991,581,243,167,0,

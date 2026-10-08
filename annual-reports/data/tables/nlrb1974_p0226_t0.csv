@@ -1,7 +1,11 @@
-row_label,Stage of disposition,All R cases Number,All R cases Percent,RC cases Number,RC cases Percent,RM cases Number,RM cases Percent,RD cases Number,RD cases Percent,UD cases Number,UD cases Percent
-Total number of cases closed,Total number of cases closed,13542,100.0,11436,100.0,948,100.0,1158,100.0,192,100.0
-Before issuance of notice of hearing,Before issuance of notice of hearing,5373,39.7,4148,38.3,572,60.3,653,56.4,123,64.0
-After issuance of notice before close of hearing,After issuance of notice before close of hearing,5532,48.2,5225,45.7,278,29.3,349,30.1,8,4.2
-After hearing closed before issuance of decision,After hearing closed before issuance of decision,96,0.7,85,0.7,4,0,7,0.6,0,0
-After issuance of regional director's decision,After issuance of regional director's decision,2079,15.4,1856,16.2,83,8.8,140,12.1,61,31.8
-After issuance of Board decision,After issuance of Board decision,142,1.0,122,1.1,11,1.1,9,0.8,0,0
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CP cases,CP cases
+Stage of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"27,016",100.0,"17,307",100.0,"6,483",100.0,"1,994",100.0,622,100.0,90,100.0,520,100.0
+Before issuance of complaint,"23,159",85.8,"14,626",84.5,"5,733",88.5,"1,676",84.1,605,97.3,67,74.5,452,86.9
+"After issuance of complaint, before opening of hearing","2,140",7.9,"1,389",8.0,456,7.0,235,11.8,5,0.8,6,6.7,49,9.4
+"After hearing opened, before issuance of administrative law judge's decision",268,1.0,154,0.9,77,1.2,25,1.2,3,0.5,3,3.3,6,1.2
+"After administrative law judge's decision, before issuance of Board decision",38,0.1,11,0.1,27,0.4,0,,0,,0,,0,
+After Board order adopting administrative law judge's decision in absence of exceptions,227,0.8,189,1.1,26,0.4,11,0.5,0,,0,,1,0.2
+"After Board decision, before circuit court decree",779,2.9,602,3.5,113,1.7,33,1.7,7,1.1,13,14.4,11,2.1
+"After circuit court decree, before Supreme Court action",367,1.4,302,1.7,47,0.7,14,0.7,2,0.3,1,1.1,1,0.2
+After Supreme Court action,38,0.1,34,0.2,4,0.1,0,,0,,0,,0,

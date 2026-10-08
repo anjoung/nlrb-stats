@@ -1,0 +1,1836 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Unfair labor practice cases decided after contest — NLRB FY1946</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1946.html">FY1946</a> &rsaquo; Unfair labor practice cases decided after contest</p>
+<h1>Unfair labor practice cases decided after contest</h1>
+<p class="meta">source pages 156–178 &middot; <code>nlrb1946_p0156_t0</code></p>
+<p class="spans-note">Stitched from pp. 156–178.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">I. Unfair Labor Practice Cases</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">A. Unfair Labor Practice Cases Decided After Contest</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">9-C-2091</th><td>Adel Precision Products Corp.</td></tr>
+<tr><th class="stub" scope="row">11-C-1200</th><td>Aluminum Co. of America.</td></tr>
+<tr><th class="stub" scope="row">9-C-1997</th><td>Amb-A-Tip Cigar Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-981</th><td>American Car &amp; Foundry Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-1015</th><td>American Furnace Co.</td></tr>
+<tr><th class="stub" scope="row">13-C-2294</th><td>American Steel Foundries</td></tr>
+<tr><th class="stub" scope="row">2-C-5764</th><td>American White Cross Laboratories, Inc</td></tr>
+<tr><th class="stub" scope="row">2-C-5870</th><td>American White Cross Laboratories, Inc</td></tr>
+<tr><th class="stub" scope="row">20-C-1302</th><td>Ames Harris Neville Co.</td></tr>
+<tr><th class="stub" scope="row">15-C-1500</th><td>Arkansas-Missouri Power Corp</td></tr>
+<tr><th class="stub" scope="row">17-C-1224</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">11-C-1189</th><td>Arnolt Motor Co , Inc.</td></tr>
+<tr><th class="stub" scope="row">1-C-2519</th><td>Atlas Coil Spring Co</td></tr>
+<tr><th class="stub" scope="row">14-C-994</th><td>Atlas Imperial Diesel Engine Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5771</th><td>Baker &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">18-C-1071</th><td>Barlow Maney Laboratories, Inc.</td></tr>
+<tr><th class="stub" scope="row">8-C-1700</th><td>Beck, C. D., Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5685</th><td>Bendix Aviation Corp.</td></tr>
+<tr><th class="stub" scope="row">2-C-5805</th><td>Bendix Aviation Corp.</td></tr>
+<tr><th class="stub" scope="row">21-C-2350</th><td>Bermite Power Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1178</th><td>Bewley Mills.</td></tr>
+<tr><th class="stub" scope="row">1-C-2443</th><td>Bird Machine Co.</td></tr>
+<tr><th class="stub" scope="row">7-C-1264</th><td>Bohn Aluminum Brass Corp.</td></tr>
+<tr><th class="stub" scope="row">16-C-1138</th><td>Bonita Fruit Co., Inc .</td></tr>
+<tr><th class="stub" scope="row">1-C-2499</th><td>Brown Co</td></tr>
+<tr><th class="stub" scope="row">16-C-1015</th><td>Brown Shipbuilding Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">16-C-1154</th><td>Brown Shipbuilding Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">16-C-1161</th><td>Brown Shipbuilding Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">19-C-1234</th><td>Brown&#x27;s Tie &amp; Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">9-C-2079</th><td>Broughton&#x27;s Farm Dairy, Inc.</td></tr>
+<tr><th class="stub" scope="row">11-C-1171</th><td>Bryan Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">7-C-1305</th><td>Budd, Edward G., Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-C-2594</th><td>Burnside Steel Foundry Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5635</th><td>Burroughs Welcome &amp; Co. (USA), Inc</td></tr>
+<tr><th class="stub" scope="row">10-C-1526</th><td>Cambell, John W., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-C-1658</th><td>Caroline Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-C-1713</th><td>Caroline Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">24-C-64</th><td>Chase National Bank.</td></tr>
+<tr><th class="stub" scope="row">20-C-1229</th><td>Cheney California Lumber Co</td></tr>
+<tr><th class="stub" scope="row">13-C-2332</th><td>Cleveland Container Co., The</td></tr>
+<tr><th class="stub" scope="row">18-C-1104</th><td>Cliffs Dow Chemical Co., The.</td></tr>
+<tr><th class="stub" scope="row">3-C-783</th><td>Consolidated Machine Tool Corp</td></tr>
+<tr><th class="stub" scope="row">10-C-1506</th><td>Consumers Lumber &amp; Veneer Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1207</th><td>Continental Oil Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1219</th><td>Continental Pipe Line Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5983</th><td>Crucible Steel Co. of America.</td></tr>
+<tr><th class="stub" scope="row">18-C-1092</th><td>Daniels, H. J., Poultry Co.</td></tr>
+<tr><th class="stub" scope="row">21-C-2435</th><td>Davis Precision Machine Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5643</th><td>Democracy Budd, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-C-2414</th><td>Diamond T. Motor Car Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5420</th><td>Dickins, Franque A., Engineer.</td></tr>
+<tr><th class="stub" scope="row">1-C-2449</th><td>Doane, John S., Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-1623</th><td>Douglas Silk Products Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">9-C-2037</th><td>Eastern Gas &amp; Fuel Associates.</td></tr>
+<tr><th class="stub" scope="row">9-C-2096</th><td>Ebco Manufacturing Co., The.</td></tr>
+<tr><th class="stub" scope="row">5-C-1812</th><td>Ecusta Paper Corp.</td></tr>
+<tr><th class="stub" scope="row">2-C-5731</th><td>Electrical Testing Laboratories, Inc.</td></tr>
+<tr><th class="stub" scope="row">8-C-1756</th><td>Elyria Telephone Co., The.</td></tr>
+<tr><th class="stub" scope="row">16-C-1130</th><td>English Freight Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1126</th><td>Enid Co-operative Creamery Association.</td></tr>
+<tr><th class="stub" scope="row">4-C-1461</th><td>Exact Level &amp; Tool Mfg. Co, Inc.</td></tr>
+<tr><th class="stub" scope="row">18-C-1085</th><td>Fairmont Creamery Co.</td></tr>
+<tr><th class="stub" scope="row">5-C-1865</th><td>Firestone Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">18-C-1039</th><td>Firestone Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">18-C-1196</th><td>Firestone Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-1693</th><td>Foote &amp; Davies, Inc.</td></tr>
+<tr><th class="stub" scope="row">18-C-1072</th><td>General Finance Corp; Climax Engineering Co.</td></tr>
+<tr><th class="stub" scope="row">13-C-2540</th><td>General Motors Corp.</td></tr>
+<tr><th class="stub" scope="row">14-C-1043</th><td>General Motors Corp.</td></tr>
+<tr><th class="stub" scope="row">17-C-1200</th><td>Golden Cycle Corp., The.</td></tr>
+<tr><th class="stub" scope="row">24-C-72</th><td>Gonzalez Padin Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-C-1566</th><td>Goodall Co.</td></tr>
+<tr><th class="stub" scope="row">8-C-1691</th><td>Goodrich, B. F., Co., The.</td></tr>
+<tr><th class="stub" scope="row">9-C-2059</th><td>Goodrich, B. F., Co., The</td></tr>
+<tr><th class="stub" scope="row">8-C-1662</th><td>Goodyear Aircraft Corp.</td></tr>
+<tr><th class="stub" scope="row">20-C-1304</th><td>Graham Ship Repair Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-1096</th><td>Granite City Steel Co.</td></tr>
+<tr><th class="stub" scope="row">20-C-1300</th><td>Grove Regulator Co.</td></tr>
+<tr><th class="stub" scope="row">13-C-2378</th><td>Hall Freight Lines, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-C-2460</th><td>Hartford Courant Co.</td></tr>
+<tr><th class="stub" scope="row">18-C-1165</th><td>Hawkeye Steel Products Co.</td></tr>
+<tr><th class="stub" scope="row">13-C-2484</th><td>Hays Corp.</td></tr>
+<tr><th class="stub" scope="row">19-C-1323</th><td>Hermin, Joe, Lumber.</td></tr>
+<tr><th class="stub" scope="row">10-C-1678</th><td>Hills Brothers Co., The.</td></tr>
+<tr><th class="stub" scope="row">5-C-1840</th><td>Home Beneficial Life Ins. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">14-C-865</th><td>Hoosier Cardinal Corp.</td></tr>
+<tr><th class="stub" scope="row">16-C-1136</th><td>Hortex Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5744</th><td>Hudson Dispatch.</td></tr>
+<tr><th class="stub" scope="row">7-C-1248</th><td>Hudson, J. L., Co, The.</td></tr>
+<tr><th class="stub" scope="row">20-C-1282</th><td>Hunn, L. S., Packing Co.</td></tr>
+<tr><th class="stub" scope="row">13-C-2373</th><td>Illinois Tool Works.</td></tr>
+<tr><th class="stub" scope="row">13-C-2326</th><td>Industrial Metal Fabricators, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-C-2412</th><td>Industrial Metal Fabricators, Inc.</td></tr>
+<tr><th class="stub" scope="row">19-C-1407</th><td>Iron Fireman Control Division.</td></tr>
+<tr><th class="stub" scope="row">14-C-996</th><td>Jasper Wood Products Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">7-C-1351</th><td>Kalamazoo Coaches, Inc.</td></tr>
+<tr><th class="stub" scope="row">14-C-953</th><td>Kopman Woracek Shoe Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-C-2426</th><td>Kropp Forge Co., Kropp Forge Aviation Co.</td></tr>
+<tr><th class="stub" scope="row">8-C-1875</th><td>Lakeshore Electric Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1019</th><td>Laredo Daily Times, The.</td></tr>
+<tr><th class="stub" scope="row">5-C-1781</th><td>Lewis &amp; Holmes Motor Freight Corp.</td></tr>
+<tr><th class="stub" scope="row">19-C-1330</th><td>Libby, McNeill &amp; Libby.</td></tr>
+<tr><th class="stub" scope="row">9-C-2092</th><td>Libbey-Owens-Ford Glass Co.</td></tr>
+<tr><th class="stub" scope="row">7-C-1443</th><td>Life Insurance Co. of Virginia.</td></tr>
+<tr><th class="stub" scope="row">18-C-1114</th><td>Litchfield Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-1768</th><td>Louisville Shirt Co.</td></tr>
+<tr><th class="stub" scope="row">21-C-2600</th><td>McHale Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-954</th><td>Majestic Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-917</th><td>Mallinckrodt Chemical Works.</td></tr>
+<tr><th class="stub" scope="row">6-C-825</th><td>Matthews, Jas. H., &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">8-C-1729</th><td>Midland Steamship Lines, Inc.</td></tr>
+<tr><th class="stub" scope="row">8-C-1811</th><td>Midland Steamship Lines, Inc.</td></tr>
+<tr><th class="stub" scope="row">14-C-882</th><td>Midwest Piping &amp; Supply Co., Inc</td></tr>
+<tr><th class="stub" scope="row">16-C-1077</th><td>Mills, Bennett.</td></tr>
+<tr><th class="stub" scope="row">14-C-1016</th><td>Mines Equipment Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-885</th><td>Mississippi Valley Structural Steel Co.</td></tr>
+<tr><th class="stub" scope="row">23-C-26</th><td>Moanalua Dairy, Ltd.</td></tr>
+<tr><th class="stub" scope="row">17-C-1054</th><td>Montgomery Ward &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">17-C-1172</th><td>Montgomery Ward &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">8-C-1783</th><td>Monumental Life Insurance Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5234</th><td>Moss, Henry, &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-1554</th><td>Mount Vernon-Woodbury Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">14-C-1077</th><td>National Bag Co., Ben Samuels &amp; Katherine Samuels.</td></tr>
+<tr><th class="stub" scope="row">20-C-1301</th><td>National Lead Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5701</th><td>Neptune Meter Co.</td></tr>
+<tr><th class="stub" scope="row">5-C-1863</th><td>Norfolk Southern Bus Corp.</td></tr>
+<tr><th class="stub" scope="row">3-C-741</th><td>Odenbach Shipbuilding Corp.</td></tr>
+<tr><th class="stub" scope="row">3-C-727</th><td>Oval Wood Dish Corp.</td></tr>
+<tr><th class="stub" scope="row">20-C-1270</th><td>Pacific Manifolding Book Co., Inc., &amp; Moore Business Forms, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-C-2421</th><td>Pacific Plastic &amp; Mfg. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">7-C-1452</th><td>Packard Motor Car Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-1620</th><td>Palm Beach Broadcasting Corp.</td></tr>
+<tr><th class="stub" scope="row">5-C-1793</th><td>Palmer-Bee Co.</td></tr>
+<tr><th class="stub" scope="row">7-C-1272</th><td>Peerless Pattern Works.</td></tr>
+<tr><th class="stub" scope="row">2-C-5128</th><td>Phelps Dodge Copper Products Corp.</td></tr>
+<tr><th class="stub" scope="row">2-C-5622</th><td>Phelps Dodge Copper Products Corp.</td></tr>
+<tr><th class="stub" scope="row">4-C-1459</th><td>Philadelphia Gear Works.</td></tr>
+<tr><th class="stub" scope="row">8-C-1720</th><td>Pittsburgh Plate Glass Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5428</th><td>Poloron Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">19-C-1328</th><td>Portland Lumber Mills.</td></tr>
+<tr><th class="stub" scope="row">10-C-1660</th><td>Prigg Boat Works.</td></tr>
+<tr><th class="stub" scope="row">14-C-921</th><td>Reardon Co., The.</td></tr>
+<tr><th class="stub" scope="row">15-C-1058</th><td>Reliance Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-C-2386</th><td>Republic Drill &amp; Tool Co.</td></tr>
+<tr><th class="stub" scope="row">3-C-734</th><td>Robeson Cutlery Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-C-1644</th><td>Rock City Box Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-C-1598</th><td>Rockwood Stove Works.</td></tr>
+<tr><th class="stub" scope="row">13-C-2390</th><td>Ross Gear &amp; Tool Co.</td></tr>
+<tr><th class="stub" scope="row">24-C-65</th><td>Royal Bank of Canada, The.</td></tr>
+<tr><th class="stub" scope="row">14-C-910</th><td>St. Joseph Lead Co. &amp; Mine Lanotte Corp.</td></tr>
+<tr><th class="stub" scope="row">10-C-1354</th><td>Salant &amp; Salant, Inc.</td></tr>
+<tr><th class="stub" scope="row">14-C-856</th><td>Scullin Steel Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-943</th><td>Scullin Steel Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-951</th><td>Schnacke Mfg. Corp.</td></tr>
+<tr><th class="stub" scope="row">18-C-1170</th><td>Schramm &amp; Schmeig Co.</td></tr>
+<tr><th class="stub" scope="row">9-C-2132</th><td>Semet-Solvay Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-916</th><td>Semi-Steel Casting Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-1603</th><td>Showalter, A. J., Co.</td></tr>
+<tr><th class="stub" scope="row">18-C-1154</th><td>Simmons Engineering Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1144</th><td>South Texas Produce Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1119</th><td>Southwestern Portland Cement Co.</td></tr>
+<tr><th class="stub" scope="row">5-C-1849</th><td>Spach, J. C., Wagon Works, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-C-2430</th><td>Special Tools &amp; Machinery Co.</td></tr>
+<tr><th class="stub" scope="row">1-C-2487</th><td>Stevens, M. T., &amp; Sons Co.</td></tr>
+<tr><th class="stub" scope="row">20-C-1331</th><td>Strathmore Packing House Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5726</th><td>Sullivan Dry Dock &amp; Repair Corp.</td></tr>
+<tr><th class="stub" scope="row">2-C-5619</th><td>Surprise Candy Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5683</th><td>Surprise Candy Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5693</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-1470</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-1813</th><td>Tampa Shipbuilding Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">8-C-1649</th><td>Tappan Stove Co., The.</td></tr>
+<tr><th class="stub" scope="row">8-C-1678</th><td>Toledo Desk &amp; Fixture Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1167</th><td>Turner Transportation Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">11-C-1219</th><td>Union City Body Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">16-C-1103</th><td>Union Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">1-C-2350</th><td>United Aircraft Corp. (Pratt &amp; Whitney Division, East Hartford Plant).</td></tr>
+<tr><th class="stub" scope="row">14-C-712</th><td>U. S. Cartridge Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">16-C-1250</th><td>Vinita Garment Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">9-C-1786</th><td>Wallace Corp., The.</td></tr>
+<tr><th class="stub" scope="row">21-C-2384</th><td>Washington National Insurance Co.</td></tr>
+<tr><th class="stub" scope="row">8-C-1901</th><td>Webster Mfg., Inc.</td></tr>
+<tr><th class="stub" scope="row">20-C-1306</th><td>Wells, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-C-1809</th><td>Wennonah Cotton Mills Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">7-C-1367</th><td>Western Tablet &amp; Stationery Corp.</td></tr>
+<tr><th class="stub" scope="row">16-C-1225</th><td>Wichita Engineering Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1061</th><td>Wilson &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1091</th><td>Wilson &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">17-C-1300</th><td>Wilson &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">18-C-1176</th><td>Winona Textile Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-C-5716</th><td>Women&#x27;s Wear Co.</td></tr>
+<tr><th class="stub" scope="row">3-C-784</th><td>Wright Hibbard Industrial Electric Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">7-C-1526</th><td>Wyandotte Transportation Co.</td></tr>
+<tr><th class="stub" scope="row">B. Unfair Labor Practice Cases Decided on the Basis of a Stipulation of Agreement Entered into by the Parties</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">15-C-1114</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5641</th><td>Atlantic Basin Iron Works, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-C-1829</th><td>Avondale Mills.</td></tr>
+<tr><th class="stub" scope="row">21-C-2661</th><td>Bentley of Hollywood, Donald Bentley, d/b/a.</td></tr>
+<tr><th class="stub" scope="row">5-C-1970</th><td>Berkley Machine Works &amp; Foundry Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">1-C-2480</th><td>Brockton Automatic Product Co.</td></tr>
+<tr><th class="stub" scope="row">9-C-2117</th><td>Charleston Tent &amp; Awning Co., Henry Cohen, an individual.</td></tr>
+<tr><th class="stub" scope="row">10-C-1788</th><td>Crescent Neckwear Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5819</th><td>DeJur Amsco Corp.</td></tr>
+<tr><th class="stub" scope="row">16-C-1065</th><td>Dolese Bros.</td></tr>
+<tr><th class="stub" scope="row">15-C-1062</th><td>Donalsson Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-1747</th><td>Economaster Products Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">14-C-1030</th><td>Edison General Electric Appliance Co., The.</td></tr>
+<tr><th class="stub" scope="row">2-C-5646</th><td>Fairfield Lumber &amp; Supply Co., The.</td></tr>
+<tr><th class="stub" scope="row">21-C-2571</th><td>Fashion Forecast.</td></tr>
+<tr><th class="stub" scope="row">2-C-5418</th><td>Federal Telephone &amp; Radio Corp., Inc.</td></tr>
+<tr><th class="stub" scope="row">7-C-1403</th><td>Ford, Henry, Trade School.</td></tr>
+<tr><th class="stub" scope="row">15-C-1057</th><td>General Cigar Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">2-C-5813</th><td>Great Eastern Brass Works.</td></tr>
+<tr><th class="stub" scope="row">2-C-6123</th><td>H &amp; F Binch, Inc.</td></tr>
+<tr><th class="stub" scope="row">15-C-1102</th><td>Howard Transfer Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-902</th><td>Illinois Commercial Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">9-C-2113</th><td>Jones, R. A., Co., The.</td></tr>
+<tr><th class="stub" scope="row">21-C-2497</th><td>Marches of Hollywood.</td></tr>
+<tr><th class="stub" scope="row">18-C-1137</th><td>Marshall Fruit Co.</td></tr>
+<tr><th class="stub" scope="row">18-C-1121</th><td>Marshall Produce Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-1890</th><td>Mascot Stove Co.</td></tr>
+<tr><th class="stub" scope="row">18-C-1180</th><td>Mineral Springs Coca-Cola Bottling Co.</td></tr>
+<tr><th class="stub" scope="row">18-C-1138</th><td>Minnesota Bi-Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-C-2604</th><td>Mode O&#x27;Day Corp.</td></tr>
+<tr><th class="stub" scope="row">2-C-5294</th><td>National Container Corp.</td></tr>
+<tr><th class="stub" scope="row">15-C-1094</th><td>New Orleans Coal &amp; Bisso Tow Boat Co.</td></tr>
+<tr><th class="stub" scope="row">10-C-1832</th><td>Norris, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-C-1648</th><td>Norris, Inc.</td></tr>
+<tr><th class="stub" scope="row">7-C-1387</th><td>Nutt Motor Rebuilders.</td></tr>
+<tr><th class="stub" scope="row">7-C-1465</th><td>Nutt Motor Rebuilders.</td></tr>
+<tr><th class="stub" scope="row">2-C-6005</th><td>Petroleum Heat &amp; Power Co.</td></tr>
+<tr><th class="stub" scope="row">2-C-5871</th><td>Petzold, Ltd., Fur Dyeing Corp.</td></tr>
+<tr><th class="stub" scope="row">1-C-2501</th><td>Ratheon Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">5-C-1897</th><td>Red Star Coaches, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-C-5322</th><td>Republic Aviation Corp.</td></tr>
+<tr><th class="stub" scope="row">10-C-1702</th><td>Rome Plow Co.</td></tr>
+<tr><th class="stub" scope="row">21-C-2432</th><td>Sobel Cap Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">15-C-1025</th><td>Southern Naval Stores Co.</td></tr>
+<tr><th class="stub" scope="row">18-C-1139</th><td>Supersweet Feed Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">16-C-1239</th><td>Top Notch Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1306</th><td>Trave-Taylor Co.</td></tr>
+<tr><th class="stub" scope="row">5-C-1832</th><td>Washington, Marlboro &amp; Annapolis Motor Lines, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-C-1383</th><td>Western Frozen Foods Co.</td></tr>
+<tr><th class="stub" scope="row">II. Representation Cases</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">A. Cases in Which Elections Were Directed</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">3-R-1185</th><td>A. B. C. Welding &amp; Mfg. Co. (Anbaco Corp.).</td></tr>
+<tr><th class="stub" scope="row">13-R-3506</th><td>A &amp; C Bedding Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6158</th><td>Abbott Laboratories, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-1756</th><td>Abell, A. S., Co., The.</td></tr>
+<tr><th class="stub" scope="row">13-R-2997</th><td>Acme Leather Co., Aaron &amp; Maury Falstein &amp; Max Simpson, d/b/a.</td></tr>
+<tr><th class="stub" scope="row">5-R-1877</th><td>Adams-Millis Corp.</td></tr>
+<tr><th class="stub" scope="row">14-R-1350</th><td>Adler Metal Products Corp.</td></tr>
+<tr><th class="stub" scope="row">3-R-1046</th><td>Air Cooler Motor Corp.</td></tr>
+<tr><th class="stub" scope="row">5-R-2144</th><td>Air Terminal Services, Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-1902</th><td>Airway Electric Appliance Co., The.</td></tr>
+<tr><th class="stub" scope="row">13-R-3100</th><td>Ajax Box Co., The.</td></tr>
+<tr><th class="stub" scope="row">10-R-750</th><td>Alabama Fuel &amp; Iron Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-816</th><td>Aladdin Industries, Inc.</td></tr>
+<tr><th class="stub" scope="row">9-R-1952</th><td>Albers Super Market.</td></tr>
+<tr><th class="stub" scope="row">14-R-1350</th><td>Alder Metal Products Corp.</td></tr>
+<tr><th class="stub" scope="row">10-R-1585</th><td>Aldora Mills</td></tr>
+<tr><th class="stub" scope="row">2-R-5634</th><td>Allegheny Ludlum Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">6-R-1180</th><td>Allegheny Ludlum Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-2062</th><td>Alliance Ware, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5814</th><td>Allied Chemical &amp; Dye Corp.</td></tr>
+<tr><th class="stub" scope="row">4-R-1856</th><td>Allied Chemical &amp; Dye Corp., Barrett Division, The</td></tr>
+<tr><th class="stub" scope="row">1-R-2691</th><td>Allis-Chalmers Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1132</th><td>Allis-Chalmers Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1778</th><td>Allis-Chalmers Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2922</th><td>Allis-Chalmers Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3033</th><td>Allis-Chalmers Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-3105</th><td>Altec Lansing Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-5560</th><td>Aluminum Co. of America.</td></tr>
+<tr><th class="stub" scope="row">2-R-5628</th><td>Aluminum Co. of America.</td></tr>
+<tr><th class="stub" scope="row">19-R-1531</th><td>Aluminum Co. of America.</td></tr>
+<tr><th class="stub" scope="row">15-R-1357</th><td>Aluminum Ore Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2119</th><td>American Brake Shoe Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2645</th><td>American Brass Co., The.</td></tr>
+<tr><th class="stub" scope="row">3-R-963</th><td>American Brass Co., The.</td></tr>
+<tr><th class="stub" scope="row">6-R-1264</th><td>American Bridge Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3364</th><td>American Bridge Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3433</th><td>American Buff Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-841</th><td>American Central Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1115</th><td>American Laundry Machinery Co., The.</td></tr>
+<tr><th class="stub" scope="row">2-R-5576</th><td>American Locomotive Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5650</th><td>American Locomotive Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1738</th><td>American Machine &amp; Metals, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3097</th><td>American Maize-Products Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6168</th><td>American Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5586</th><td>American Merri-lei Corp.</td></tr>
+<tr><th class="stub" scope="row">10-R-1687</th><td>American Norit Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2540</th><td>American Optical Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-2073</th><td>American Pad &amp; Textile Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1214</th><td>American Pants Mfg. Co., Joseph Lerner, individual, d/b/a.</td></tr>
+<tr><th class="stub" scope="row">2-R-6141</th><td>American Pharmaceutical Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">9-R-1945</th><td>American Racing Record of Triangle Publication, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1565</th><td>American Radiator &amp; Standard Sanitary Corp.</td></tr>
+<tr><th class="stub" scope="row">4-R-1787</th><td>American Smelting &amp; Refining Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1894</th><td>American Smelting &amp; Refining Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1177</th><td>American Steel Foundries.</td></tr>
+<tr><th class="stub" scope="row">8-R-1931</th><td>American Steel &amp; Wire Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1848</th><td>American Tobacco Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5732</th><td>American Trading &amp; Production Corp.</td></tr>
+<tr><th class="stub" scope="row">10-R-1472</th><td>American Tri-State Paper Box Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2969</th><td>American Trunk &amp; Case Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1544</th><td>Anchor Duck Mills.</td></tr>
+<tr><th class="stub" scope="row">6-R-1262</th><td>Anchor Hocking Glass Corp.</td></tr>
+<tr><th class="stub" scope="row">19-R-1579</th><td>Anderson Bros Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1932</th><td>Apex Electric Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1206</th><td>Archer-Daniels-Midland Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5752</th><td>Arden, Elizabeth, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3108</th><td>Argus Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2447</th><td>Arkwright Corp.</td></tr>
+<tr><th class="stub" scope="row">1-R-2454</th><td>Arkwright Corp.</td></tr>
+<tr><th class="stub" scope="row">1-R-2461</th><td>Arkwright Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-6123</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6208</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6209</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1165</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1911</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1966</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2111</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1568</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1636</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3045</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3233</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3234</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3269</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1441</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1508</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1151</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1232</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1244</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1272</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1655</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1401</th><td>Armour Creameries.</td></tr>
+<tr><th class="stub" scope="row">16-R-1453</th><td>Armour Creameries &amp; Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1143</th><td>Armour Creameries, Armour &amp; Co., d/b/a.</td></tr>
+<tr><th class="stub" scope="row">2-R-5980</th><td>Armour &amp; Co., New York Butchers Dressed Meat Co., Division of.</td></tr>
+<tr><th class="stub" scope="row">15-R-1448</th><td>Armour Fertilizer Works.</td></tr>
+<tr><th class="stub" scope="row">20-R-1427</th><td>Aron Canning Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2452</th><td>Arthur, Howard Mills.</td></tr>
+<tr><th class="stub" scope="row">1-R-2459</th><td>Arthur, Howard Mills.</td></tr>
+<tr><th class="stub" scope="row">1-R-2466</th><td>Arthur, Howard Mills.</td></tr>
+<tr><th class="stub" scope="row">13-R-3141</th><td>Arthur, W. R., Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-3017</th><td>Associated Banning Stevedore Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1574</th><td>Atlantic Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1527</th><td>Atlantic Refining Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2906</th><td>Atlas Felt Products Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2967</th><td>Atlas Leather Case Co.</td></tr>
+<tr><th class="stub" scope="row">8-RE-20</th><td>Atlas Powder Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1550</th><td>Augusta Bag &amp; Burlap Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3428</th><td>Austin-Western Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1040</th><td>Auto-Lite Battery Corp.</td></tr>
+<tr><th class="stub" scope="row">3-R-1111</th><td>Auto-Lite Battery Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3161</th><td>Automatic Screw Machine Products Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3494</th><td>Autopoint Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3063</th><td>Azusa Citrus Association.</td></tr>
+<tr><th class="stub" scope="row">1-R-2647</th><td>B-F-D Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1523</th><td>Babcock &amp; Wilcox Co., The.</td></tr>
+<tr><th class="stub" scope="row">13-R-3146</th><td>Badger Broadcasting Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-2011</th><td>Bailey Co., The.</td></tr>
+<tr><th class="stub" scope="row">2-R-5829</th><td>Baker &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">9-R-1936</th><td>Balcrank, Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1720</th><td>Baldwin Locomotive Works, The.</td></tr>
+<tr><th class="stub" scope="row">16-R-1337</th><td>Ball Bros. Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2175</th><td>Baltimore Transit Co., The.</td></tr>
+<tr><th class="stub" scope="row">4-R-1952</th><td>Bancroft, Joseph, &amp; Sons Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5666</th><td>Barry, E. J., Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1443</th><td>Basic Vegetable Products Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2072</th><td>Bassett, W. M., Furniture Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5808</th><td>Bassick Co., The.</td></tr>
+<tr><th class="stub" scope="row">13-R-3292</th><td>Bastian Blessing Co., The.</td></tr>
+<tr><th class="stub" scope="row">17-R-1338</th><td>Beacon Publishing Co., The.</td></tr>
+<tr><th class="stub" scope="row">13-R-2995</th><td>Bear Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2996</th><td>Becker, P., &amp; Co., a corporation.</td></tr>
+<tr><th class="stub" scope="row">15-R-1486</th><td>Bellgrade Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-2112</th><td>Bellow Co., The.</td></tr>
+<tr><th class="stub" scope="row">17-R-1299</th><td>Bemis Bros. Bag Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1908</th><td>Bendix Aviation Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-2968</th><td>Benno Hahn &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1414</th><td>Bercut-Richards Packing Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1354</th><td>Berglund Tractor &amp; Equipment Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1386</th><td>Berglund Tractor &amp; Equipment Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2151</th><td>Bergman&#x27;s Laundry.</td></tr>
+<tr><th class="stub" scope="row">1-R-2448</th><td>Berkshire Fine Spinning Associates, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2455</th><td>Berkshire Fine Spinning Associates, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2462</th><td>Berkshire Fine Spinning Associates, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2640</th><td>Berkshire Fine Spinning Associates, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-1971</th><td>Bethlehem-Sparrows Point Shipyard, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5434</th><td>Bethlehem Steel Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5696</th><td>Bethlehem Steel Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5836</th><td>Bethlehem Steel Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6274</th><td>Bethlehem Steel Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1016</th><td>Bethlehem Steel Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1950</th><td>Bethlehem Steel Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1164</th><td>Bethlehem Steel Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3167</th><td>Bethlehem Steel Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1376</th><td>Bethlehem Supply Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1910</th><td>Bethlehem Transportation Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-2973</th><td>Better Built Trunk &amp; Case Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2687</th><td>Bigelow Co., The.</td></tr>
+<tr><th class="stub" scope="row">2-R-5124</th><td>Binon Chocolate, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2943</th><td>Bird Machine Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1788</th><td>Black-Clawson Co., The</td></tr>
+<tr><th class="stub" scope="row">5-R-2205</th><td>Black &amp; Decker Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1396</th><td>Black Hills Packing Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1728</th><td>Blough Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1885</th><td>Blue-Bell, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-1986</th><td>Blue Ribbon Laundry.</td></tr>
+<tr><th class="stub" scope="row">5-R-2253</th><td>Blumenthal, Sidney, &amp; Co, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-R-1330</th><td>Boardman Co., The.</td></tr>
+<tr><th class="stub" scope="row">16-R-1363</th><td>Bonham Cotton Mills.</td></tr>
+<tr><th class="stub" scope="row">20-R-1495</th><td>Booth Co., The.</td></tr>
+<tr><th class="stub" scope="row">16-R-1653</th><td>Borden Co., The.</td></tr>
+<tr><th class="stub" scope="row">1-R-2449</th><td>Borden, Richard, Mfg Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2456</th><td>Borden, Richard, Mfg Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2463</th><td>Borden, Richard, Mfg Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2450</th><td>Border City Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2457</th><td>Border City Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2464</th><td>Border City Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2451</th><td>Bourne Mills.</td></tr>
+<tr><th class="stub" scope="row">1-R-2458</th><td>Bourne Mills.</td></tr>
+<tr><th class="stub" scope="row">1-R-2465</th><td>Bourne Mills.</td></tr>
+<tr><th class="stub" scope="row">6-R-1158</th><td>Braeburn Alloy Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">6-R-1170</th><td>Braeburn Alloy Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3046</th><td>Brandwein, A., &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5967</th><td>Bridgeport Metal Goods Mfg. Co</td></tr>
+<tr><th class="stub" scope="row">2-R-6083</th><td>Bridgeport Thermostat Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2622</th><td>Bridgewater Woolen Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-1909</th><td>Briggs Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-984</th><td>Briggs Indiana Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-1924</th><td>Brown &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2633</th><td>Brown &amp; Sharpe Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2798</th><td>Brown &amp; Sharpe Mfg Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1553</th><td>Brown Shipbuilding Co., Inc</td></tr>
+<tr><th class="stub" scope="row">8-R-1917</th><td>Buckeye Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1925</th><td>Budd, Edward G., Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">24-R-129</th><td>Bull Insular Line, Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-1848</th><td>Bunting Brass &amp; Bronze Co., The.</td></tr>
+<tr><th class="stub" scope="row">8-R-1937</th><td>Burley Clay Products Co., The</td></tr>
+<tr><th class="stub" scope="row">5-R-2005</th><td>Burlington Mills Corp.</td></tr>
+<tr><th class="stub" scope="row">20-R-1428</th><td>Califruit Canning Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1441</th><td>California Conserving Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2971</th><td>California Consumers Corp.</td></tr>
+<tr><th class="stub" scope="row">19-R-1558</th><td>California Packing Corp</td></tr>
+<tr><th class="stub" scope="row">20-R-1421</th><td>California Packing Corp.</td></tr>
+<tr><th class="stub" scope="row">20-R-1436</th><td>California Packing Corp.</td></tr>
+<tr><th class="stub" scope="row">20-R-1449</th><td>California Packing Corp.</td></tr>
+<tr><th class="stub" scope="row">20-R-1473</th><td>California Pet Foods Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1483</th><td>California Processors &amp; Growers, Inc.</td></tr>
+<tr><th class="stub" scope="row">9-R-1755</th><td>Campbell, S. J., Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1789</th><td>Capital Motor Lines.</td></tr>
+<tr><th class="stub" scope="row">20-R-1464</th><td>Capolino Packing Corp.</td></tr>
+<tr><th class="stub" scope="row">9-R-1584</th><td>Carbide &amp; Carbon Chemicals Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-1991</th><td>Cardinal Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1992</th><td>Cardinal Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1359</th><td>Cargill, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3063</th><td>Carnegie Illinois Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-2859</th><td>Carson Pirie Scott &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1081</th><td>Catholic Press Society, Inc</td></tr>
+<tr><th class="stub" scope="row">15-R-1358</th><td>Celotex Corp., The.</td></tr>
+<tr><th class="stub" scope="row">15-R-1406</th><td>Celotex Corp., The.</td></tr>
+<tr><th class="stub" scope="row">13-R-3081</th><td>Central Barge Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1037</th><td>Central New York Power Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-6161</th><td>Central Union Stock Yard Co</td></tr>
+<tr><th class="stub" scope="row">10-R-1415</th><td>Certified Products Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1807</th><td>Champion Paper &amp; Fibre Co., The.</td></tr>
+<tr><th class="stub" scope="row">10-R-1664</th><td>Cheraw Brick Works.</td></tr>
+<tr><th class="stub" scope="row">10-R-1622</th><td>Cherokee Brick Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1766</th><td>Chicago Bridge &amp; Iron Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2964</th><td>Chicago Leather Handle Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1432</th><td>Chicago Mill &amp; Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1884</th><td>Chickasaw Wood Products Co</td></tr>
+<tr><th class="stub" scope="row">7-R-2083</th><td>Chris Craft Corp.</td></tr>
+<tr><th class="stub" scope="row">7-R-2084</th><td>Chris Craft Corp.</td></tr>
+<tr><th class="stub" scope="row">7-R-2015</th><td>Chrysler Corp.</td></tr>
+<tr><th class="stub" scope="row">7-R-2150</th><td>Chrysler Corp.</td></tr>
+<tr><th class="stub" scope="row">21-R-3049</th><td>Chrysler Motors of California.</td></tr>
+<tr><th class="stub" scope="row">15-R-1571</th><td>Cities Service Refining Corp.</td></tr>
+<tr><th class="stub" scope="row">6-R-1269</th><td>City Lines of West Virginia, Inc.</td></tr>
+<tr><th class="stub" scope="row">3-H-1099</th><td>Clark Bros. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-2898</th><td>Clark, Robert H., Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1869</th><td>Cleveland Cliffs Iron Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1920</th><td>Cleveland Cliffs Iron Co</td></tr>
+<tr><th class="stub" scope="row">8-R-2142</th><td>Cleveland Frog &amp; Crossing Co., The.</td></tr>
+<tr><th class="stub" scope="row">8-R-2041</th><td>Cleveland Welding Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1445</th><td>Coastal Refineries, Inc.</td></tr>
+<tr><th class="stub" scope="row">19-R-1545</th><td>Cobbs &amp; Mitchell Co.</td></tr>
+<tr><th class="stub" scope="row">20-H-1486</th><td>Colgate-Palmolive-Peet Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1638</th><td>Collins Clyde, Inc</td></tr>
+<tr><th class="stub" scope="row">17-R-1099</th><td>Colorado Fuel &amp; Iron Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-1960</th><td>Colson Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-5878</th><td>Columbia Broadcasting System, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5884</th><td>Columbia Broadcasting System, Inc</td></tr>
+<tr><th class="stub" scope="row">2-R-5958</th><td>Columbia Machine Works, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1396</th><td>Columbia Steel Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1945</th><td>Columbia Transportation Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1937</th><td>Columbus-Celina Coach Co., Frank A. Cluff, d/b/a</td></tr>
+<tr><th class="stub" scope="row">8-R-1936</th><td>Columbus Coal &amp; Mining Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1739</th><td>Condenser Service &amp; Engineering Co , Inc</td></tr>
+<tr><th class="stub" scope="row">5-R-2168</th><td>Conger Laundry.</td></tr>
+<tr><th class="stub" scope="row">5-R-1862</th><td>Congoleum-Nairn, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5956</th><td>Conmar Products Corp.</td></tr>
+<tr><th class="stub" scope="row">1-R-2745</th><td>Connecticut Malleable Casting Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1754</th><td>Consolidated Coal Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3023</th><td>Consolidated Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">16-R-1182</th><td>Consolidated Vultee Aircraft Corp.</td></tr>
+<tr><th class="stub" scope="row">9-R-1764</th><td>Consolidation Coal Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2904</th><td>Container Corp. of America.</td></tr>
+<tr><th class="stub" scope="row">9-R-2064</th><td>Continental Baking Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1951</th><td>Continental Clay Products Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1646</th><td>Convenience, Inc.</td></tr>
+<tr><th class="stub" scope="row">6-R-1152</th><td>Cooper-Bessemer Corp., The Grove City Plant.</td></tr>
+<tr><th class="stub" scope="row">2-R-6077</th><td>Cords, Ltd.</td></tr>
+<tr><th class="stub" scope="row">2-R-5470</th><td>Corona Corp</td></tr>
+<tr><th class="stub" scope="row">15-R-1615</th><td>Cotton Trade Warehouses, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-1991</th><td>Craddock Terry Shoe Corp.</td></tr>
+<tr><th class="stub" scope="row">21-R-2998</th><td>Craig Shipbuilding Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1707</th><td>Cramp Shipbuilding Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1679</th><td>Crane Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-831</th><td>Crawfordsville Foundry Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1315</th><td>Crawford Tank &amp; Supply Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2611</th><td>Crescent Co., The.</td></tr>
+<tr><th class="stub" scope="row">10-R-1465</th><td>Crompton Highland Mills.</td></tr>
+<tr><th class="stub" scope="row">9-R-1845</th><td>Crosley Corp , The.</td></tr>
+<tr><th class="stub" scope="row">9-R-2044</th><td>Cross, E. D., &amp; Son</td></tr>
+<tr><th class="stub" scope="row">13-R-3446</th><td>Crucible Steel Casting Co</td></tr>
+<tr><th class="stub" scope="row">6-R-1114</th><td>Crucible Steel Co. of America.</td></tr>
+<tr><th class="stub" scope="row">2-R-5302</th><td>Crucible Steel Co. of America; Atha Works.</td></tr>
+<tr><th class="stub" scope="row">7-R-2102</th><td>Crystal Refining Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3148</th><td>Cudahy Brothers Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1277</th><td>Cudahy Packing Co., The.</td></tr>
+<tr><th class="stub" scope="row">17-R-1308</th><td>Cudahy Packing Co., The.</td></tr>
+<tr><th class="stub" scope="row">17-R-1085</th><td>Cudahy Packing Co., The.</td></tr>
+<tr><th class="stub" scope="row">21-R-3020</th><td>Cudahy Packing Co., The.</td></tr>
+<tr><th class="stub" scope="row">4-R-1836</th><td>Curtis Bay Towing Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1849</th><td>Curtis Bay Towing Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1738</th><td>Curtiss-Wright Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-2901</th><td>Curt Teich &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-2935</th><td>Curt Teich &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">17-R-1290</th><td>Cushman Motor Works.</td></tr>
+<tr><th class="stub" scope="row">18-R-1285</th><td>Dairy Industries, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-2961</th><td>Dameral-Allison Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1732</th><td>Dascher Mfg. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">18-R-1355</th><td>Davenport Besler Corp.</td></tr>
+<tr><th class="stub" scope="row">21-R-3058</th><td>Day &amp; Night Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1835</th><td>Daybrook Hydraulic Corp., The.</td></tr>
+<tr><th class="stub" scope="row">9-R-1974</th><td>Dayton Malleable Iron Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2945</th><td>Deere &amp; Co., Moline Tractor Works.</td></tr>
+<tr><th class="stub" scope="row">13-R-3250</th><td>Deere, John, Harvester Works.</td></tr>
+<tr><th class="stub" scope="row">2-R-5516</th><td>DeLaval Separator Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1358</th><td>Denison Cotton Mill Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1387</th><td>DeSchutes Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1454</th><td>DeSchutes Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3073</th><td>Desmond&#x27;s, Inc.</td></tr>
+<tr><th class="stub" scope="row">18-R-1400</th><td>DeSoto Creamery &amp; Produce Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6118</th><td>Dictaphone Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3192</th><td>Dixie Cup Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1458</th><td>Dolese Bros. Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2671</th><td>Donnell &amp; Mudge, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-2974</th><td>Doppelt, Charles, &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2131</th><td>Doughnut Corp. of America.</td></tr>
+<tr><th class="stub" scope="row">5-R-2143</th><td>Doughnut Corp. of America.</td></tr>
+<tr><th class="stub" scope="row">5-R-2173</th><td>Doughnut Corp. of America.</td></tr>
+<tr><th class="stub" scope="row">13-R-2982</th><td>Dresner, S., &amp; Sons, Inc.</td></tr>
+<tr><th class="stub" scope="row">6-R-1301</th><td>Duff-North Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1357</th><td>Duff-Norton Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1586</th><td>Dundee Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3257</th><td>Dupli-Color Products Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5713</th><td>du Pont, E. I., de Nemour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-999</th><td>du Pont, E. I., de Nemours &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-10789</th><td>du Pont, E. I., de Nemours &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1892</th><td>du Pont, E. I., de Nemours &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2049</th><td>du Pont, E. I., de Nemours &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5646</th><td>du Pont, E. I. (Grasselli Division).</td></tr>
+<tr><th class="stub" scope="row">14-R-1405</th><td>Durasteel Co</td></tr>
+<tr><th class="stub" scope="row">14-R-1328</th><td>Dyestuffs &amp; Chemical, Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1769</th><td>Eagle Neck Band Corp.</td></tr>
+<tr><th class="stub" scope="row">1-R-2668</th><td>Eastern Gas &amp; Fuel Associates (Everett Works).</td></tr>
+<tr><th class="stub" scope="row">1-R-2584</th><td>Eastern Wool Warehouse, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-2835</th><td>Eclipse Fuel Engineering Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1226</th><td>Edison General Electric Appliance Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-6019</th><td>Edo Aircraft Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-5600</th><td>Elastic Stop Nut Corp. of America</td></tr>
+<tr><th class="stub" scope="row">9-R-1827</th><td>Electric Auto-Lite Co., The.</td></tr>
+<tr><th class="stub" scope="row">13-R-3112</th><td>Electric Household Utilities Corp.</td></tr>
+<tr><th class="stub" scope="row">21-R-3126</th><td>Electric Products Service.</td></tr>
+<tr><th class="stub" scope="row">13-RE-36</th><td>Electric Sprayit Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1567</th><td>Electric Steel Foundry.</td></tr>
+<tr><th class="stub" scope="row">8-R-2042</th><td>Electric Vacuum Cleaner Co., Inc</td></tr>
+<tr><th class="stub" scope="row">11-R-862</th><td>Electronic Laboratories, Inc.</td></tr>
+<tr><th class="stub" scope="row">9-R-1773</th><td>Elk Horn Coal Corp.</td></tr>
+<tr><th class="stub" scope="row">9-R-2005</th><td>Elk River Coal &amp; Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3406</th><td>Elkay Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1339</th><td>Ellis Canning Co., The.</td></tr>
+<tr><th class="stub" scope="row">1-R-2728</th><td>Elmvale Worsted Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1007</th><td>Empire Worsted Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">3-R-1113</th><td>Endicott Johnson Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-6272</th><td>Endo Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3140</th><td>Englander Co., Inc., The.</td></tr>
+<tr><th class="stub" scope="row">20-R-1451</th><td>Ensher, Alexander &amp; Barsoom, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-2970</th><td>Erpenbeck &amp; Segessman.</td></tr>
+<tr><th class="stub" scope="row">1-R-2471</th><td>Erving Paper Mills.</td></tr>
+<tr><th class="stub" scope="row">20-R-1440</th><td>Escalon Packers &amp; Corp.</td></tr>
+<tr><th class="stub" scope="row">7-R-2117</th><td>Essex Wire Corp.</td></tr>
+<tr><th class="stub" scope="row">21-R-3240</th><td>Eston Chemicals, Inc.</td></tr>
+<tr><th class="stub" scope="row">15-R-1501</th><td>Ethyl Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3074</th><td>Eureka Williams Corp.</td></tr>
+<tr><th class="stub" scope="row">14-R-1366</th><td>Evans, George, Bedding Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2966</th><td>Ever-Wear Trunk Works, Inc.</td></tr>
+<tr><th class="stub" scope="row">9-R-1708</th><td>Ewing, Oscar, Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1826</th><td>Ewing-Thomas Corp.</td></tr>
+<tr><th class="stub" scope="row">20-R-1447</th><td>Fair Oaks Fruit Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3443</th><td>Fair, The.</td></tr>
+<tr><th class="stub" scope="row">13-R-3256</th><td>Fairbanks, Morse &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1654</th><td>Fairmont Creamery Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2516</th><td>Falls Co., The.</td></tr>
+<tr><th class="stub" scope="row">14-R-779</th><td>Famous Barr Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1546</th><td>Farmers &amp; Merchants Compress &amp; Warehouse Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2595</th><td>Federal Electric Products Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">7-R-2029</th><td>Federal Mogul Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-5513</th><td>Federal Telecommunication Laboratories, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5524</th><td>Federal Telephone &amp; Radio Corp.</td></tr>
+<tr><th class="stub" scope="row">11-R-903</th><td>Fendrich, H., Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-2830</th><td>Fibreboard Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3246</th><td>Finkl, A., &amp; Sons Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3315</th><td>Finkl, A., &amp; Sons Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1925</th><td>Firestone Tire &amp; Rubber Co., The.</td></tr>
+<tr><th class="stub" scope="row">2-R-6131</th><td>First National Chain Stores, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-6132</th><td>First National Chain Stores, Inc</td></tr>
+<tr><th class="stub" scope="row">1-R-2383</th><td>First National Stores, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2801</th><td>First National Stores, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2613</th><td>Fleisher Shoe Co., The.</td></tr>
+<tr><th class="stub" scope="row">16-R-1618</th><td>Fleming &amp; Sons, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5686</th><td>Flintkote Co , The.</td></tr>
+<tr><th class="stub" scope="row">13-R-3263</th><td>Florence Stove Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1453</th><td>Florida Power &amp; Light Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1429</th><td>Flotill Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-2062</th><td>Flynn &amp; Emrich Co. of Baltimore.</td></tr>
+<tr><th class="stub" scope="row">10-R-1693</th><td>Food Machinery Corp.</td></tr>
+<tr><th class="stub" scope="row">21-R-3257</th><td>Food Machinery Corp., Peerless Pump Division.</td></tr>
+<tr><th class="stub" scope="row">13-R-3168</th><td>Food Machinery Corp., Sprague-Sells Division.</td></tr>
+<tr><th class="stub" scope="row">13-R-3008</th><td>Foote Bros. Gear &amp; Machine Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3219</th><td>Ford Motor Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1307</th><td>Ford Motor Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3318</th><td>Forest City Knitting Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5664</th><td>Foster-Wheeler Corp</td></tr>
+<tr><th class="stub" scope="row">20-R-1434</th><td>Foster &amp; Wood Canning Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1929</th><td>French Oil Mill Machinery Co., The.</td></tr>
+<tr><th class="stub" scope="row">6-R-1157</th><td>Frick Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1571</th><td>Friedlaender &amp; Co</td></tr>
+<tr><th class="stub" scope="row">5-R-1976</th><td>Fries, Beall &amp; Sharp Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1584</th><td>Friesen Box Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1517</th><td>Fruitvale Canning Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5880</th><td>Fuld &amp; Hatch Knitting Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1686</th><td>G &amp; A Aircraft &amp; Firestone Tire &amp; Rubber Co</td></tr>
+<tr><th class="stub" scope="row">1-R-2588</th><td>Gair, Robert Co., Inc., Natick Box &amp; Board Division.</td></tr>
+<tr><th class="stub" scope="row">1-R-2610</th><td>Gair, Robert Co., Inc</td></tr>
+<tr><th class="stub" scope="row">14-R-1223</th><td>Gardner-Denver Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1068</th><td>Gaylord Bros , Inc.</td></tr>
+<tr><th class="stub" scope="row">3-R-971</th><td>General Cable Corp.</td></tr>
+<tr><th class="stub" scope="row">4-R-1778</th><td>General Cable Corp.</td></tr>
+<tr><th class="stub" scope="row">14-R-1285</th><td>General Cemical Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1360</th><td>General Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1390</th><td>General Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3097</th><td>General Controls Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1881</th><td>General Electric Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6383</th><td>General Engraving Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3085</th><td>General Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">18-R-1471</th><td>General Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">7-R-1995</th><td>General Motors Corp.</td></tr>
+<tr><th class="stub" scope="row">7-R-2041</th><td>General Motors Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-1838</th><td>General Motors Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-1842</th><td>General Motors Corp.</td></tr>
+<tr><th class="stub" scope="row">11-R-835</th><td>General Motors Corp., Allison Division.</td></tr>
+<tr><th class="stub" scope="row">14-R-1331</th><td>General Motors Corp., United Motors Service Division, St. Louis Branch.</td></tr>
+<tr><th class="stub" scope="row">16-R-1379</th><td>General Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2972</th><td>General Trunk Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1571</th><td>Geneva Steel Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1205</th><td>Gibson County Electric Membership Corp.</td></tr>
+<tr><th class="stub" scope="row">1-R-2715</th><td>Gillette Safety Razor Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2721</th><td>Gillette Safety Razor Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1670</th><td>Giustina Bros. Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1394</th><td>Gladewater Refining Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2983</th><td>Gladstone Case Mfg. Co., a corporation.</td></tr>
+<tr><th class="stub" scope="row">6-R-1240</th><td>Globe Brick Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3088</th><td>Globe Oil &amp; Refining Co., The.</td></tr>
+<tr><th class="stub" scope="row">8-R-1954</th><td>Globe Steamship Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3362</th><td>Goldblatt Bros , Inc.</td></tr>
+<tr><th class="stub" scope="row">9-R-2038</th><td>Goldsmith Metal Lath Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1874</th><td>Goodrich, B. F , Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1947</th><td>Goodrich, B. F., Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-2013</th><td>Goodrich, B. F., Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1444</th><td>Goodrich, B. F., Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2472</th><td>Goodyear Fabric Corp.</td></tr>
+<tr><th class="stub" scope="row">17-R-1171</th><td>Goodyear Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1172</th><td>Goodyear Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1243</th><td>Goodyear Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1466</th><td>Gordon-Van Tine Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5922</th><td>Gould &amp; Eberhardt Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1233</th><td>Granite City Steel Co</td></tr>
+<tr><th class="stub" scope="row">17-R-1161</th><td>Great Lakes Pipe Line Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1944</th><td>Great Lakes Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2037</th><td>Great Lakes Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3528</th><td>Green Drop Forge Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1219</th><td>Griffin-Goodner Grocery Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1487</th><td>Griffin Grocery Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2614</th><td>Groveton Paper Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1431</th><td>Gulf Oil Corp.</td></tr>
+<tr><th class="stub" scope="row">9-R-2034</th><td>Gulf Refining Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1191</th><td>Gulf Refining Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1488</th><td>Gulf Refining Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1221</th><td>Gulf Refining Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3134</th><td>Gunite Foundries Corp.</td></tr>
+<tr><th class="stub" scope="row">5-R-2256</th><td>Gwaltney, P. D., Jr., Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3005</th><td>Hall, W F., Printing Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1275</th><td>Haller, W. A., Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">9-R-1835</th><td>Hamilton Foundry &amp; Machine Co , The.</td></tr>
+<tr><th class="stub" scope="row">14-R-1294</th><td>Hamilton-Sheu &amp; Walsh Shoe Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1075</th><td>Hammond Irving, Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-1911</th><td>Hanna, M. A., Co., The.</td></tr>
+<tr><th class="stub" scope="row">19-R-1689</th><td>Hanset Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3154</th><td>Harnischfeger Corp.</td></tr>
+<tr><th class="stub" scope="row">1-R-2593</th><td>Harris, Emery Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-1851</th><td>Harris-Seybold Potter Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1951</th><td>Harris-Seybold Potter Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1752</th><td>Harrisburg Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">11-R-826</th><td>Harrison Steel Castings Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1422</th><td>Harter Packing Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1988</th><td>Hartzell Industries, Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-1817</th><td>Harvester War Depot, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5879</th><td>Hat Corp. of America.</td></tr>
+<tr><th class="stub" scope="row">1-R-2678</th><td>Hawthorne Tanners, Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1712</th><td>Heat Tansfer Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1445</th><td>Heinz Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-1904</th><td>Hercules Motors Corp.</td></tr>
+<tr><th class="stub" scope="row">10-R-1420</th><td>Hercules Powder Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1458</th><td>Hercules Powder Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1480</th><td>Hercules Powder Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1481</th><td>Hercules Powder Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1485</th><td>Hercules Powder Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1489</th><td>Hercules Powder Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1504</th><td>Hercules Powder Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2971</th><td>Hercules Trunk Works, Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1762</th><td>Heyden Chemical Corp</td></tr>
+<tr><th class="stub" scope="row">15-R-1457</th><td>Higgins Industries, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-2019</th><td>High Point Bending &amp; Chair Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1809</th><td>Hill, C. V., &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-1843</th><td>Hobart Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-2042</th><td>Hocking Valley Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1680</th><td>Holeproof Hosiery Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3401</th><td>Holister, Lloyd, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-3055</th><td>Hollywood Citizen News.</td></tr>
+<tr><th class="stub" scope="row">11-R-867</th><td>Hoosier Cardinal Corp.</td></tr>
+<tr><th class="stub" scope="row">11-R-902</th><td>Hoosier Desk Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-811</th><td>Hoosier Panel Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5697</th><td>Hudson Engineering Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1959</th><td>Hudson Hosiery Co , Inc.</td></tr>
+<tr><th class="stub" scope="row">7-R-2030</th><td>Hudson Motor Car Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2495</th><td>Hudson Worsted Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2661</th><td>Hughes Tool Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1462</th><td>Hume, G. W., Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1747</th><td>Hunt Foods, Inc.</td></tr>
+<tr><th class="stub" scope="row">14-R-1303</th><td>Hussman Ligonier Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2816</th><td>Hytron Radio &amp; Electronics Corp.</td></tr>
+<tr><th class="stub" scope="row">4-R-1764</th><td>I-T-E Circuit Breaker Co.</td></tr>
+<tr><th class="stub" scope="row">52-RE-76</th><td>Imperial Paper &amp; Color Corp.</td></tr>
+<tr><th class="stub" scope="row">1-R-2899</th><td>Imperial Upholstery Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-905</th><td>Indiana Cotton Mills.</td></tr>
+<tr><th class="stub" scope="row">11-R-796</th><td>Indianapolis Power &amp; Light Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1074</th><td>Industrial Colliers Corp</td></tr>
+<tr><th class="stub" scope="row">13-R-3555</th><td>Industrial Molded Products Co , Inc.</td></tr>
+<tr><th class="stub" scope="row">17-R-1289</th><td>Industrial Paper Stock Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1398</th><td>Ingalls Shipbuilding Corp.</td></tr>
+<tr><th class="stub" scope="row">3-R-1105</th><td>Ingersoll Rand Machine Shop.</td></tr>
+<tr><th class="stub" scope="row">10-R-1539</th><td>Ingram Spinning Mills.</td></tr>
+<tr><th class="stub" scope="row">9-R-1988</th><td>Inland Container Corp.</td></tr>
+<tr><th class="stub" scope="row">11-R-906</th><td>Inland Container Corp.</td></tr>
+<tr><th class="stub" scope="row">9-R-1824</th><td>Inland Steel Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1448</th><td>Inman Mills.</td></tr>
+<tr><th class="stub" scope="row">8-R-1955</th><td>Inter Ocean Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2690</th><td>Inspiration Consolidated Copper Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1913</th><td>Interlake Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1613</th><td>International Broadcasting Co., The.</td></tr>
+<tr><th class="stub" scope="row">15-R-1541</th><td>International Cellucotton Products Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1923</th><td>International Harvester Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3276</th><td>International Harvester Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3300</th><td>International Harvester Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1456</th><td>International Minerals &amp; Chemicals Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-6042</th><td>International Plainfield Motor Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2188</th><td>International Seal &amp; Lock Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1267</th><td>International Shoe Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1292</th><td>International Shoe Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2653</th><td>International Smelting &amp; Refining Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3128</th><td>Interstate Machinery Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-1915</th><td>Interstate Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1155</th><td>Iroquois Gas Corp.</td></tr>
+<tr><th class="stub" scope="row">9-R-2098</th><td>Irwin Auger Bit Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6030</th><td>Isthmian Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1996</th><td>J &amp; L Steel Barrel Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1547</th><td>Jackson, Byron Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1635</th><td>Jackson, Byron Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-2045</th><td>Jaeger Machine Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1309</th><td>Jansen, Walter, &amp; Son.</td></tr>
+<tr><th class="stub" scope="row">20-R-1310</th><td>Jansen, Walter, &amp; Son.</td></tr>
+<tr><th class="stub" scope="row">11-R-832</th><td>Jasper Chair Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-898</th><td>Jasper Novelty Furniture Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-912</th><td>Jasper Wood Products Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">15-R-1559</th><td>Jefferson Island Salt Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3561</th><td>Jennings, O. D., &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2975</th><td>Jergens, Andrew, Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2034</th><td>Johnson Carper Furniture Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1978</th><td>Johnson, Charles, Eneu &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1608</th><td>Johnson, S. T.</td></tr>
+<tr><th class="stub" scope="row">6-R-1168</th><td>Jones &amp; Laughlin Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">6-R-1191</th><td>Jones &amp; Laughlin Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3158</th><td>Jung Shoe Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1919</th><td>Jupiter Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6044</th><td>K. M. V., Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1817</th><td>Kaiser Cargo, Inc.</td></tr>
+<tr><th class="stub" scope="row">17-R-1117</th><td>Kansas Power &amp; Light Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2865</th><td>Kearney &amp; Trecker Corp.</td></tr>
+<tr><th class="stub" scope="row">7-R-2058</th><td>Kelsey Hayes Wheel Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-939</th><td>Kennecott Copper Corp., Chino Mines Division</td></tr>
+<tr><th class="stub" scope="row">11-R-798</th><td>Kentucky Utilities Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3180</th><td>Keystone Steel &amp; Wire Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3189</th><td>Keystone Steel &amp; Wire Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3200</th><td>Keystone Steel &amp; Wire Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5265</th><td>Kidde, Walter, &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3061</th><td>Kimberly Clark Corp.</td></tr>
+<tr><th class="stub" scope="row">18-R-1378</th><td>Kimberly Clark Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-1918</th><td>Kinsman Transit Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1098</th><td>Kittinger Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">19-R-1541</th><td>Klickitat Pine Box Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2044</th><td>Knape &amp; Vogt Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3268</th><td>Knight, Stanley, Corp.</td></tr>
+<tr><th class="stub" scope="row">16-R-1300</th><td>Kobe, Inc.</td></tr>
+<tr><th class="stub" scope="row">9-R-1946</th><td>Koehl, William, Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1208</th><td>Kopriva, Frank.</td></tr>
+<tr><th class="stub" scope="row">6-R-1149</th><td>Kress, F. J., Box Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1837</th><td>Krimm, Charles R., Lumber Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">21-RE-21</th><td>Lac Chemicals, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1645</th><td>Lafollette Shirt Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1172</th><td>Lake Tankers Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-5534</th><td>Lalance &amp; Grosjean Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1587</th><td>Lamar Cotton Oil Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1990</th><td>Lancaster Iron Works, Inc.</td></tr>
+<tr><th class="stub" scope="row">6-R-1285</th><td>Landis Tool Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1309</th><td>Landis Tool Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1610</th><td>Lang, F. S., Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2035</th><td>Larus &amp; Bro. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1551</th><td>Lawrence, A. C., Leather Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2735</th><td>Lawrence Duck Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2396</th><td>Lawrence Woolen Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1818</th><td>Lectrolite Corp.</td></tr>
+<tr><th class="stub" scope="row">3-R-1071</th><td>Lennox Furnace Co., The.</td></tr>
+<tr><th class="stub" scope="row">4-R-1899</th><td>Leon Ferenbach, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1647</th><td>LeTourneau Co. of Georgia.</td></tr>
+<tr><th class="stub" scope="row">13-R-3368</th><td>LeTourneau, R. G., Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-6236</th><td>Lewis Supply Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2821</th><td>Libbey, W. S., Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1961</th><td>Libby, McNeil &amp; Libby.</td></tr>
+<tr><th class="stub" scope="row">19-R-1597</th><td>Libby, McNeil &amp; Libby.</td></tr>
+<tr><th class="stub" scope="row">20-R-1416</th><td>Libby, McNeil &amp; Libby.</td></tr>
+<tr><th class="stub" scope="row">20-R-1424</th><td>Libby, McNeil &amp; Libby.</td></tr>
+<tr><th class="stub" scope="row">20-R-1425</th><td>Libby, McNeil &amp; Libby.</td></tr>
+<tr><th class="stub" scope="row">20-R-1448</th><td>Libby, McNeil &amp; Libby.</td></tr>
+<tr><th class="stub" scope="row">5-R-1891</th><td>Liberty Laundry Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-2960</th><td>Liberty Leather Fishing Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-1795</th><td>Life Insurance Co of Virginia, The.</td></tr>
+<tr><th class="stub" scope="row">13-R-3173</th><td>Lincoln Casket Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1452</th><td>Lincoln Packing Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-962</th><td>Lindley Box &amp; Paper Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1941</th><td>Link Belt Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1425</th><td>Link Belt Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3360</th><td>Lock Nut Corp. of America or Boss Bolt &amp; Nut Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1795</th><td>Logan Clay Products Co., The.</td></tr>
+<tr><th class="stub" scope="row">16-R-1340</th><td>Lone Star Defense Corp.</td></tr>
+<tr><th class="stub" scope="row">21-R-2994</th><td>Long Beach Stevedoring Terminals Co., Berth 50.</td></tr>
+<tr><th class="stub" scope="row">16-R-1581</th><td>Longhorn Roofing Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2420</th><td>Lonsdale Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-983</th><td>Lord Mfg. Co., The.</td></tr>
+<tr><th class="stub" scope="row">4-R-1926</th><td>Lorillard, P., Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1843</th><td>Louisville Sanitary Wipers Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1627</th><td>Luckenbach Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1563</th><td>Lucky Heart Laboratories.</td></tr>
+<tr><th class="stub" scope="row">4-R-1995</th><td>Ludlow Mfg. &amp; Sales Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3083</th><td>Ludlow Typograph Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1305</th><td>Ludwik Glass Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2022</th><td>Luray Clothing Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1897</th><td>Lynch Mfg. Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-2941</th><td>Lyon Metal Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5480</th><td>McKesson &amp; Robbins.</td></tr>
+<tr><th class="stub" scope="row">1-R-2921</th><td>McKittrick, Frank, G. W., Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2073</th><td>McLaughlin Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1299</th><td>Machine Products Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1308</th><td>MacLaren Sportswear Corp</td></tr>
+<tr><th class="stub" scope="row">1-R-2520</th><td>Madison Woolen Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5554</th><td>Malina Co. &amp; Bendythe Co., Louis Malina.</td></tr>
+<tr><th class="stub" scope="row">14-R-1242</th><td>Mallinckrodt Chemical Works.</td></tr>
+<tr><th class="stub" scope="row">20-R-1433</th><td>Manteca Canning Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5976</th><td>Marietta-Harmon Chemical, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5837</th><td>Marine Basin Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3018</th><td>Marine Terminals Corp.</td></tr>
+<tr><th class="stub" scope="row">5-R-2090</th><td>Marsh Furniture Co</td></tr>
+<tr><th class="stub" scope="row">13-R-3472</th><td>Marshall Field &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2958</th><td>Mashek, Frank, Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2944</th><td>Master Industries, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-2994</th><td>Master Industries, Inc</td></tr>
+<tr><th class="stub" scope="row">15-R-1355</th><td>Mathieson Alkali Works, Inc.</td></tr>
+<tr><th class="stub" scope="row">15-R-1365</th><td>Mathieson Alkali Works, Inc</td></tr>
+<tr><th class="stub" scope="row">15-R-1366</th><td>Mathieson Alkali Works, Inc.</td></tr>
+<tr><th class="stub" scope="row">15-R-1374</th><td>Mathieson Alkali Works, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2699</th><td>Matthews Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1916</th><td>Maxwell Paper Co., The.</td></tr>
+<tr><th class="stub" scope="row">5-R-2147</th><td>May, McEwin Kaiser Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1584</th><td>Mayfair Cotton Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-1930</th><td>Mead Corp., The Heald Division.</td></tr>
+<tr><th class="stub" scope="row">15-R-1367</th><td>Memphis Hardwood Flooring Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1378</th><td>Mente &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2936</th><td>Merrimack Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2128</th><td>Merrimack Mills Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1532</th><td>Merry Bros Brick &amp; Tile Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1298</th><td>Metropolitan Life Insurance Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2985</th><td>Metropolitan Stevedore Co</td></tr>
+<tr><th class="stub" scope="row">2-R-6384</th><td>Meyer, Joseph H., &amp; Bros.</td></tr>
+<tr><th class="stub" scope="row">10-R-1433</th><td>Miami Coca Cola Bottling Co.</td></tr>
+<tr><th class="stub" scope="row">10-RE-15</th><td>Miami Daily News, Inc.</td></tr>
+<tr><th class="stub" scope="row">7-R-1866</th><td>Michigan Bell Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1244</th><td>Michigan Gas &amp; Light Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2173</th><td>Michigan Producers&#x27; Dairy Co.</td></tr>
+<tr><th class="stub" scope="row">8-RE-23</th><td>Michigan Wholesalers, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-R-1420</th><td>Mid-Continent Petroleum Corp.</td></tr>
+<tr><th class="stub" scope="row">16-R-1477</th><td>Mid-Continent Petroleum Corp.</td></tr>
+<tr><th class="stub" scope="row">18-R-1485</th><td>Midland National Bank &amp; Trust Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1865</th><td>Midland Steel Products Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2934</th><td>Milton Co-operative Dairy Corp.</td></tr>
+<tr><th class="stub" scope="row">18-R-1393</th><td>Minneapolis Honeywell Regulator Co</td></tr>
+<tr><th class="stub" scope="row">18-R-1347</th><td>Minneapolis Honeywell Regulator Co</td></tr>
+<tr><th class="stub" scope="row">18-R-1409</th><td>Minneapolis Honeywell Regulator Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1437</th><td>Minneapolis Honeywell Regulator Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1319</th><td>Minnesota Mining &amp; Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1332</th><td>Minnesota &amp; Ontario Paper Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1390</th><td>Mission Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1232</th><td>Missouri Insurance Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1924</th><td>Mock, Judson, Voehringer Co., of North Carolina, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-2910</th><td>Modern Frog &amp; Crossing Works.</td></tr>
+<tr><th class="stub" scope="row">5-R-2016</th><td>Molier, M. P., Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2760</th><td>Monomac Spinning Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1323</th><td>Monsanto Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1341</th><td>Monsanto Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1082</th><td>Monitor Publications, The, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-R-1392</th><td>Montgomery Ward &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">16-R-1548</th><td>Montgomery Ward &amp; Co., Inc</td></tr>
+<tr><th class="stub" scope="row">8-R-1825</th><td>Monumental Life Insurance Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1432</th><td>Mor-Pak Preserving Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-5538</th><td>Morris Basin Dry Docks.</td></tr>
+<tr><th class="stub" scope="row">10-R-1449</th><td>Motor Fuels Carriers, Inc</td></tr>
+<tr><th class="stub" scope="row">20-R-1625</th><td>Mountain Copper Co., Ltd</td></tr>
+<tr><th class="stub" scope="row">19-R-1528</th><td>Mountain States Power Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3032</th><td>Murray Varat Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2052</th><td>Muskegon Piston Ring Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1953</th><td>Myer Bros., Edward J &amp; H. G. Myer, d/b/a.</td></tr>
+<tr><th class="stub" scope="row">4-R-2008</th><td>Nash Kelvinator Sales Corp.</td></tr>
+<tr><th class="stub" scope="row">4-R-1750</th><td>National Biscuit Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2012</th><td>National Brass Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2984</th><td>National Brief Case Mfg. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-2192</th><td>National Carbide Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1867</th><td>National Distillers Products Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-5725</th><td>National Electric Instrument Co</td></tr>
+<tr><th class="stub" scope="row">6-R-1167</th><td>National Electric Products Corp.</td></tr>
+<tr><th class="stub" scope="row">3-R-991</th><td>National Gypsum Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3129</th><td>National Lead Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1722</th><td>National Lead Co., Titanium Division.</td></tr>
+<tr><th class="stub" scope="row">4-R-1725</th><td>National Lead Co., Titanium Division.</td></tr>
+<tr><th class="stub" scope="row">20-R-1444</th><td>National Packing Co</td></tr>
+<tr><th class="stub" scope="row">8-R-1862</th><td>National Rubber Machinery Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1943</th><td>National Transitads, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2559</th><td>National Wool Marketing Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-5110</th><td>Neptune Meter Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1078</th><td>Nettleton, A. E., Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2392</th><td>New Bedford Cotton Mfg Association.</td></tr>
+<tr><th class="stub" scope="row">2-R-5689</th><td>Newberry, J. J., Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5441</th><td>New Jersey Worsted Mills &amp; Gera Mills.</td></tr>
+<tr><th class="stub" scope="row">5-R-2286</th><td>New York Central Iron Works.</td></tr>
+<tr><th class="stub" scope="row">2-R-5918</th><td>News Syndicate Co, Inc.</td></tr>
+<tr><th class="stub" scope="row">7-R-2007</th><td>Nicholson Transit Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1318</th><td>Nick &amp; Sons, Inc.</td></tr>
+<tr><th class="stub" scope="row">11-R-840</th><td>Noblitt-Sparks Industries, Inc.</td></tr>
+<tr><th class="stub" scope="row">11-R-855</th><td>Noblitt-Sparks Industries, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-3019</th><td>Norris Stamping Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2943</th><td>North Whittier Heights Citrus Association</td></tr>
+<tr><th class="stub" scope="row">20-R-1453</th><td>Northern Packing Corp.</td></tr>
+<tr><th class="stub" scope="row">19-RE-24</th><td>Northwest Packing Co</td></tr>
+<tr><th class="stub" scope="row">19-R-1598</th><td>Northwest Packing Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3440</th><td>Northwestern Corp., The</td></tr>
+<tr><th class="stub" scope="row">21-R-2953</th><td>Norton Bros. &amp; Morris.</td></tr>
+<tr><th class="stub" scope="row">3-R-1149</th><td>Odenbach Shipbuilding Corp.</td></tr>
+<tr><th class="stub" scope="row">18-R-1354</th><td>Ohio Chemical &amp; Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1999</th><td>Ohio Electric Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3131</th><td>Ohio River Co., The.</td></tr>
+<tr><th class="stub" scope="row">16-R-1505</th><td>O&#x27;Keefe, Binyon</td></tr>
+<tr><th class="stub" scope="row">14-R-1298</th><td>Olin Industries, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3332</th><td>Olson, Samuel, Mfg. Co., The.</td></tr>
+<tr><th class="stub" scope="row">15-R-1568</th><td>Ottenheimer Bros., Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2680</th><td>Outboard Marine &amp; Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3236</th><td>Outboard Marine &amp; Mfg. Co</td></tr>
+<tr><th class="stub" scope="row">21-R-2986</th><td>Outer Harbor Dock &amp; Wharf Co</td></tr>
+<tr><th class="stub" scope="row">20-R-1419</th><td>Pacific Gas &amp; Electric Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1537</th><td>Pacific Gas &amp; Electric Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1489</th><td>Pacific Grape Products</td></tr>
+<tr><th class="stub" scope="row">20-R-1459</th><td>Pacific Packing Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2823</th><td>Pacific Press, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-2824</th><td>Pacific Press, Inc</td></tr>
+<tr><th class="stub" scope="row">21-R-2825</th><td>Pacific Press, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-2826</th><td>Pacific Press, Inc</td></tr>
+<tr><th class="stub" scope="row">21-R-2904</th><td>Pacific Pumps, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-2970</th><td>Pacific Pumps, Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-1834</th><td>Packard Motor Car Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1996</th><td>Packard Motor Car Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1427</th><td>Pangburn Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">11-R-859</th><td>Park Furniture Co., Inc., The.</td></tr>
+<tr><th class="stub" scope="row">1-R-2443</th><td>Parker&#x27;s Brass Foundry.</td></tr>
+<tr><th class="stub" scope="row">20-R-1430</th><td>Parrish, Alen R., Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1465</th><td>Pasotex Pipe Line Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1054</th><td>Pass &amp; Seymour, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1509</th><td>Patent Button Co. of Tennessee, The.</td></tr>
+<tr><th class="stub" scope="row">13-R-3244</th><td>Payson Mfg. Co. of Chicago.</td></tr>
+<tr><th class="stub" scope="row">20-R-1305</th><td>Peerless Stages, Inc.</td></tr>
+<tr><th class="stub" scope="row">15-R-1321</th><td>Pendleton Shipyards Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1793</th><td>Pennsylvania Power &amp; Light Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1417</th><td>Pennsylvania Shipyards, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-2162</th><td>Peoples Life Insurance Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-2086</th><td>Perfection Nipple Co., The.</td></tr>
+<tr><th class="stub" scope="row">1-R-2766</th><td>Perkins, B. F., &amp; Son, Inc</td></tr>
+<tr><th class="stub" scope="row">10-R-1603</th><td>Pet Milk Co., The.</td></tr>
+<tr><th class="stub" scope="row">3-R-1081</th><td>Peter Cailler Kohler Swiss Chocolates Co, Inc</td></tr>
+<tr><th class="stub" scope="row">7-R-1986</th><td>Peters Dalton, Inc</td></tr>
+<tr><th class="stub" scope="row">21-R-3040</th><td>Phelps Dodge Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-2912</th><td>Phillips Petroleum Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1364</th><td>Phillips Petroleum Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1385</th><td>Phillips Petroleum Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1436</th><td>Phillips Petroleum Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1492</th><td>Phillips Petroleum Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1532</th><td>Phillips Petroleum Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1772</th><td>Phoenix Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1030</th><td>Phoenix Toilet &amp; Paper Mfg. Co., Inc., The.</td></tr>
+<tr><th class="stub" scope="row">15-R-1586</th><td>Pidgeon-Thomas Iron Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1885</th><td>Pilliod Cabinet Co., The.</td></tr>
+<tr><th class="stub" scope="row">8-R-1916</th><td>Pioneer Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1760</th><td>Pioneer Tool &amp; Engineering Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1939</th><td>Pittsburgh Plate Glass Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1950</th><td>Pittsburgh Plate Glass Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1604</th><td>Pittsburgh Plate Glass Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1925</th><td>Pittsburgh Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1381</th><td>Plough, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-6256</th><td>Pohs-Ring-Green, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3028</th><td>Poor &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2509</th><td>Portland Foundry Co.</td></tr>
+<tr><th class="stub" scope="row">2-RE-73</th><td>Positive Lockwasher Co., of America.</td></tr>
+<tr><th class="stub" scope="row">13-R-2963</th><td>Poster Bros.</td></tr>
+<tr><th class="stub" scope="row">5-R-2076</th><td>Potomac Edison Co., The.</td></tr>
+<tr><th class="stub" scope="row">5-R-1970</th><td>Potomac Electric Power Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1772</th><td>Potter &amp; Rayfield, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1446</th><td>Pratt Lowe Canning Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2803</th><td>Preco, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2393</th><td>Prescott, George W., Publishing Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">6-R-1138</th><td>Pressed Steel Car Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1735</th><td>Price Spindle &amp; Flyer Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2433</th><td>Procter &amp; Gamble Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1922</th><td>Procter &amp; Gamble Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3080</th><td>Progress Case &amp; Bag Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2439</th><td>Providence Lithograph Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2182</th><td>Proximity Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2193</th><td>Proximity Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1223</th><td>Public Service Co. of Colorado.</td></tr>
+<tr><th class="stub" scope="row">6-R-1133</th><td>Pullman Standard Car Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3122</th><td>Pullman Standard Car Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1247</th><td>Pure Oil Co., The.</td></tr>
+<tr><th class="stub" scope="row">10-R-1685</th><td>Puritan Mills.</td></tr>
+<tr><th class="stub" scope="row">1-R-2543</th><td>Putnam Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2060</th><td>Quality Springs Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1479</th><td>Quincy Lumber Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5479</th><td>Radio Corp. of America.</td></tr>
+<tr><th class="stub" scope="row">2-R-5495</th><td>Radio Corp. of America.</td></tr>
+<tr><th class="stub" scope="row">4-R-1845</th><td>Radio Corp. of America.</td></tr>
+<tr><th class="stub" scope="row">4-R-1869</th><td>Radio Corp. of America.</td></tr>
+<tr><th class="stub" scope="row">2-R-5673</th><td>Radio Receptor Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1633</th><td>Radio Station KTHT.</td></tr>
+<tr><th class="stub" scope="row">13-R-3301</th><td>Rainfair, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1510</th><td>Raiter Canning Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1898</th><td>Raleigh Coco Cola Bottling Works.</td></tr>
+<tr><th class="stub" scope="row">13-R-2943</th><td>Rand McNally &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-997</th><td>Rane Tool Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-2955</th><td>Rappeport, R. E., &amp; Sons.</td></tr>
+<tr><th class="stub" scope="row">1-R-2729</th><td>Raytheon Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1435</th><td>Red Jacket Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1798</th><td>Red Lion Tool &amp; Engineering Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3241</th><td>Rennberg Jacobson Mfg. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1734</th><td>Reigel Paper Corp.</td></tr>
+<tr><th class="stub" scope="row">10-R-1640</th><td>Reilly Tar &amp; Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1922</th><td>Reiss Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3217</th><td>Reliable Electric Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2837</th><td>Reliable Nut Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1326</th><td>Reliance Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1395</th><td>Reliance Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-962</th><td>Remington Rand, Inc.</td></tr>
+<tr><th class="stub" scope="row">3-R-958</th><td>Remington Rand, Inc., Propeller Division.</td></tr>
+<tr><th class="stub" scope="row">2-R-5578</th><td>Republic Aviation Corp.</td></tr>
+<tr><th class="stub" scope="row">10-R-1572</th><td>Republic Cotton Mills</td></tr>
+<tr><th class="stub" scope="row">2-R-5450</th><td>Republic Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-5477</th><td>Republic Steel Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3138</th><td>Republic Steel Corp., Union Drawn Steel Division.</td></tr>
+<tr><th class="stub" scope="row">13-R-2965</th><td>Reuben, Simon B , &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3414</th><td>Revere Copper &amp; Brass, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5817</th><td>Richards Chemical Works, Inc., The</td></tr>
+<tr><th class="stub" scope="row">20-R-1435</th><td>Richmond Chase Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1855</th><td>Richmond Greyhound Lines, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1475</th><td>Richmond Hosiery Mills.</td></tr>
+<tr><th class="stub" scope="row">17-R-1284</th><td>Riggs Optical Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-2958</th><td>Riggs Optical Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">3-R-1023</th><td>River Valley Tissue Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1456</th><td>Riverbank Canning Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3211</th><td>Rockford Machine Tool Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3235</th><td>Rockford Metal Produce Co</td></tr>
+<tr><th class="stub" scope="row">13-R-3013</th><td>Rockford Screw Products Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3137</th><td>Rock Island Bridge &amp; Iron Works</td></tr>
+<tr><th class="stub" scope="row">4-R-1765</th><td>Rohm &amp; Haas Co</td></tr>
+<tr><th class="stub" scope="row">11-R-786</th><td>Roots-Connersville Blower Corp</td></tr>
+<tr><th class="stub" scope="row">11-R-971</th><td>Rosestone Corp.</td></tr>
+<tr><th class="stub" scope="row">29-R-1298</th><td>Round California Chain Corp , Ltd.</td></tr>
+<tr><th class="stub" scope="row">13-R-3022</th><td>Royal Leather Goods Mfg. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3084</th><td>Ruberiod Co , The.</td></tr>
+<tr><th class="stub" scope="row">1-R-2850</th><td>Ryerson &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5892</th><td>Ryerson, Joseph T., &amp; Son, Inc</td></tr>
+<tr><th class="stub" scope="row">20-R-1383</th><td>S &amp; M Logging Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1474</th><td>Sacremento Frosted Foods Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2453</th><td>Sagamore Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2460</th><td>Sagamore Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2467</th><td>Sagamore Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1045</th><td>St. Joseph Lead Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1291</th><td>St. Joseph Lead Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1270</th><td>St. Louis Cape Bus Line.</td></tr>
+<tr><th class="stub" scope="row">14-R-1164</th><td>St. Louis County Water Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1282</th><td>St. Louis Independent Packing Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1304</th><td>St. Louis Independent Packing Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1675</th><td>Salant &amp; Salant, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1653</th><td>Samarkand Rugs, Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3445</th><td>Sampsel Time Control, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1423</th><td>Santa Cruz Packing Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2064</th><td>Santa Fe Springs Waste Water.</td></tr>
+<tr><th class="stub" scope="row">20-R-1457</th><td>Sardik Food Products Corp.</td></tr>
+<tr><th class="stub" scope="row">18-R-1340</th><td>Sargent &amp; Co</td></tr>
+<tr><th class="stub" scope="row">3-R-961</th><td>Savage Arms Corp.</td></tr>
+<tr><th class="stub" scope="row">3-R-994</th><td>Savage Arms Corp.</td></tr>
+<tr><th class="stub" scope="row">11-R-814</th><td>Schenley Distilleries, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-6262</th><td>Schieffelin &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-1985</th><td>Schmieg Industries.</td></tr>
+<tr><th class="stub" scope="row">13-R-3029</th><td>Schneider, Jacob, Pattern Works.</td></tr>
+<tr><th class="stub" scope="row">5-R-2007</th><td>Schotland, A., Inc.</td></tr>
+<tr><th class="stub" scope="row">9-R-1891</th><td>Schuler Axel Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-2022</th><td>Scott &amp; Fetzer Co., The.</td></tr>
+<tr><th class="stub" scope="row">2-R-5766</th><td>Scott Paper Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1567</th><td>Scripto Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1610</th><td>Scripto Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3334</th><td>Sealy Mattress Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-2025</th><td>Sears Roebuck &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-2071</th><td>Sears Roebuck &amp; Co</td></tr>
+<tr><th class="stub" scope="row">10-R-1614</th><td>Sears Roebuck &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1501</th><td>Sears Roebuck &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1358</th><td>Sears Roebuck &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1566</th><td>Seattle Gas Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1168</th><td>Selwyn Shoe Mfg. Corp.</td></tr>
+<tr><th class="stub" scope="row">3-R-1031</th><td>Senoso Paper Co, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-R-1435</th><td>Sequin Milling Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-872</th><td>Servel, Inc.</td></tr>
+<tr><th class="stub" scope="row">6-R-1106</th><td>Service Stores, Corp.</td></tr>
+<tr><th class="stub" scope="row">20-R-1418</th><td>Setzer Box Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1482</th><td>Setzer Box Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2090</th><td>Shakespeare Co. &amp; Shakespeare Products Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1223</th><td>Sheffield Steel of Texas.</td></tr>
+<tr><th class="stub" scope="row">21-R-2955</th><td>Shepherd Tractor &amp; Equipment Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1833</th><td>Shenango Furnace Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1921</th><td>Shenango Furnace Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1371</th><td>Shippers Warehouse Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1979</th><td>Shunk, L. E, Latex Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2725</th><td>Sickles, F. W., Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5626</th><td>Simmons Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3059</th><td>Simpson Electric Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1321</th><td>Sinclair Rubber, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5484</th><td>Sinclair &amp; Valentine Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3031</th><td>Singer Bros. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">18-R-1301</th><td>Sioux City Brewing Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1896</th><td>Sire-Schindel Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2599</th><td>Smith, James &amp; Son.</td></tr>
+<tr><th class="stub" scope="row">16-R-1176</th><td>Smith, Nowery J., Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3206</th><td>Solar Mfg. Corp.</td></tr>
+<tr><th class="stub" scope="row">7-R-2093</th><td>Solvey Process Co.</td></tr>
+<tr><th class="stub" scope="row">20-RE-50</th><td>Sonotherm Mfg. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">6-R-1188</th><td>South West Pennsylvania Pipe Lines.</td></tr>
+<tr><th class="stub" scope="row">5-R-1797</th><td>Southern Aid Society of Virginia.</td></tr>
+<tr><th class="stub" scope="row">21-R-2719</th><td>Southern California Edison Co, Ltd.</td></tr>
+<tr><th class="stub" scope="row">21-R-2811</th><td>Southern California Gas Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1344</th><td>Southwest Pump Co</td></tr>
+<tr><th class="stub" scope="row">18-R-1305</th><td>Soybean Processing Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5979</th><td>Spear Box Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-2957</th><td>Specialty Suit Case Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2563</th><td>Spencer Shoe Corp.</td></tr>
+<tr><th class="stub" scope="row">1-R-2397</th><td>Springfield Union Publishing Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1220</th><td>Stampfel, A. J.</td></tr>
+<tr><th class="stub" scope="row">20-R-1127</th><td>Standard Oil Co. of Calif.</td></tr>
+<tr><th class="stub" scope="row">20-R-1139</th><td>Standard Oil Co. of Calif.</td></tr>
+<tr><th class="stub" scope="row">20-R-1255</th><td>Standard Oil Co of Calif.</td></tr>
+<tr><th class="stub" scope="row">20-R-1287</th><td>Standard Oil Co. of Calif.</td></tr>
+<tr><th class="stub" scope="row">20-R-1288</th><td>Standard Oil Co. of Calif.</td></tr>
+<tr><th class="stub" scope="row">20-R-1289</th><td>Standard Oil Co. of Calif.</td></tr>
+<tr><th class="stub" scope="row">20-R-1312</th><td>Standard Oil Co. of Calif.</td></tr>
+<tr><th class="stub" scope="row">20-R-1366</th><td>Standard Oil Co. of Calif.</td></tr>
+<tr><th class="stub" scope="row">20-R-1367</th><td>Standard Oil Co. of Calif.</td></tr>
+<tr><th class="stub" scope="row">20-R-1485</th><td>Standard Oil Co. of Calif.</td></tr>
+<tr><th class="stub" scope="row">21-R-2500</th><td>Standard Oil Co. of Calif.</td></tr>
+<tr><th class="stub" scope="row">21-R-3059</th><td>Standard Oil Co of Calif.</td></tr>
+<tr><th class="stub" scope="row">21-R-3107</th><td>Standard Oil Co. of Calif.</td></tr>
+<tr><th class="stub" scope="row">9-R-2100</th><td>Standard Oil Co. of Ohio.</td></tr>
+<tr><th class="stub" scope="row">8-R-1831</th><td>Standard Oil Co. of Ohio, Cleveland Division.</td></tr>
+<tr><th class="stub" scope="row">9-R-1944</th><td>Standard Register Co, The</td></tr>
+<tr><th class="stub" scope="row">9-R-1954</th><td>Standard Register Co., The</td></tr>
+<tr><th class="stub" scope="row">2-R-5796</th><td>Standard Steel Sections, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1458</th><td>Stanislaus Canning Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1500</th><td>Stanolind Oil &amp; Gas Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-858</th><td>Star Publishing Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2959</th><td>Stein Bros. Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1453</th><td>Sterling Sugars, Inc</td></tr>
+<tr><th class="stub" scope="row">1-R-2675</th><td>Stevens, M. T., &amp; Sons Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5676</th><td>Stiefel Construction Corp</td></tr>
+<tr><th class="stub" scope="row">20-R-1437</th><td>Stockton Food Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-RE-25</th><td>Stokley Foods, Inc.</td></tr>
+<tr><th class="stub" scope="row">11-R-851</th><td>Stokley Foods, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5672</th><td>Sullivan Drydock &amp; Repair Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3324</th><td>Sunstrand Machine Tool Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1399</th><td>Superior Metal Products Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2985</th><td>Supreme Leather Goods Co., Edward Cohen, d/b/a.</td></tr>
+<tr><th class="stub" scope="row">7-R-2009</th><td>Sutherland Paper Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2556</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1751</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1355</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1169</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1174</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1335</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1512</th><td>Tamiami Trail Tours, Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1776</th><td>Taylor Fibre Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5712</th><td>Technical Marine Maintenance Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">11-R-876</th><td>Tell City Chair Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-885</th><td>Tell City Desk Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-881</th><td>Tell City Furniture Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">11-R-893</th><td>Tell William, Wood Crafters, Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1628</th><td>Tennessee Coal, Iron &amp; R. R. Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1964</th><td>Tennessee Gas &amp; Transmission Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5521</th><td>Texas Co., The.</td></tr>
+<tr><th class="stub" scope="row">2-R-5601</th><td>Texas Co., The.</td></tr>
+<tr><th class="stub" scope="row">2-R-5668</th><td>Texas Co., The.</td></tr>
+<tr><th class="stub" scope="row">14-R-1250</th><td>Texas Co., The.</td></tr>
+<tr><th class="stub" scope="row">16-R-1238</th><td>Texas Co., The.</td></tr>
+<tr><th class="stub" scope="row">17-R-1119</th><td>Texas Co , The.</td></tr>
+<tr><th class="stub" scope="row">21-R-2923</th><td>Texas Co., The.</td></tr>
+<tr><th class="stub" scope="row">16-R-1660</th><td>Texas Pipe Line Co., The.</td></tr>
+<tr><th class="stub" scope="row">16-R-1627</th><td>Texas Star Broadcasting Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-2169</th><td>Textileather Corp.</td></tr>
+<tr><th class="stub" scope="row">4-R-1692</th><td>Textile Machine Works, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-1936</th><td>Textiles, Inc. (Seminole Mill).</td></tr>
+<tr><th class="stub" scope="row">10-R-1529</th><td>Thomaston Cotton Mills.</td></tr>
+<tr><th class="stub" scope="row">5-R-1964</th><td>Thomasville Chair Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1983</th><td>Thomasville Chair Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2011</th><td>Thomasville Chair Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2012</th><td>Thomasville Chair Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2067</th><td>Thomasville Chair Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2068</th><td>Thomasville Chair Co</td></tr>
+<tr><th class="stub" scope="row">5-R-2069</th><td>Thomasville Chair. Co</td></tr>
+<tr><th class="stub" scope="row">5-R-2070</th><td>Thomasville Chair Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2071</th><td>Thomasville Chair Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1989</th><td>Thompson Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-3117</th><td>Thompson Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1438</th><td>Thornton Canning Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5795</th><td>Tickle, Arthur, Engineering Works, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-5428</th><td>Tidewater Associated Oil Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1987</th><td>Tobacco By-Products &amp; Chemical Corp.</td></tr>
+<tr><th class="stub" scope="row">21-R-2963</th><td>Todd Shipyards Corp</td></tr>
+<tr><th class="stub" scope="row">21-R-2965</th><td>Todd Shipyards Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-1804</th><td>Toledo Edison Co., The.</td></tr>
+<tr><th class="stub" scope="row">5-R-2127</th><td>Tomlinson of High Point, Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-2008</th><td>Tower Hosiery Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1447</th><td>Trans Bridge Lines, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2550</th><td>Travelers Insurance Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2015</th><td>Triangle Hosiery Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3496</th><td>Tri-Lake Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1287</th><td>Trinidad Brick &amp; Tile Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1958</th><td>Triton Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1461</th><td>Tri-Valley Packing Association.</td></tr>
+<tr><th class="stub" scope="row">1-R-2506</th><td>Tropical Radio Telegraph Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1802</th><td>Truscon Steel.</td></tr>
+<tr><th class="stub" scope="row">20-R-1460</th><td>Turlock Cooperative Growers.</td></tr>
+<tr><th class="stub" scope="row">16-R-1066</th><td>Turner Transportation Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2024</th><td>Turner-White Casket Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2659</th><td>Tuttle Silver Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1645</th><td>Tyler Fixture &amp; Mfg. Corp.</td></tr>
+<tr><th class="stub" scope="row">16-R-1350</th><td>Uhlmann Elevators of Texas.</td></tr>
+<tr><th class="stub" scope="row">1-R-2858</th><td>Underwood Corp., The.</td></tr>
+<tr><th class="stub" scope="row">10-R-1255</th><td>Union Bag &amp; Paper Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1186</th><td>Union Electric Co. of Missouri.</td></tr>
+<tr><th class="stub" scope="row">14-R-1238</th><td>Union Electric Co. of Missouri.</td></tr>
+<tr><th class="stub" scope="row">3-R-978</th><td>Union Fork &amp; Hoe Co., The.</td></tr>
+<tr><th class="stub" scope="row">11-R-943</th><td>Union Furniture Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1340</th><td>Union Iron Works.</td></tr>
+<tr><th class="stub" scope="row">21-R-1479</th><td>Union Oil Co. of California.</td></tr>
+<tr><th class="stub" scope="row">17-R-1282</th><td>Union Stock Yards Co. of Omaha (Ltd )</td></tr>
+<tr><th class="stub" scope="row">6-R-1091</th><td>Union Switch &amp; Signal Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3118</th><td>Union Tank Car Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1761</th><td>Union Underwear Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">16-R-1325</th><td>Unit Rig &amp; Equipment Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2014</th><td>United Brass &amp; Aluminum Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1322</th><td>United Engineering &amp; Foundry Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1182</th><td>United Refrigerator Mfg Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3065</th><td>U. S. Electrical Motors, Inc</td></tr>
+<tr><th class="stub" scope="row">3-R-1104</th><td>United States Gypsum Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3319</th><td>United States Gypsum Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1639</th><td>United States Gypsum Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6334</th><td>U. S. Hoffman Machinery Corp.</td></tr>
+<tr><th class="stub" scope="row">4-R-1868</th><td>United States Metals Refining Co</td></tr>
+<tr><th class="stub" scope="row">10-R-1593</th><td>U. S. Pipe &amp; Foundry Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1345</th><td>U. S. Potash Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2075</th><td>U. S. Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1926</th><td>United States Stoneware Co , The.</td></tr>
+<tr><th class="stub" scope="row">20-R-1580</th><td>U. S. Vanadium Corp.</td></tr>
+<tr><th class="stub" scope="row">7-R-2053</th><td>United Steel &amp; Wire Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1959</th><td>United Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2962</th><td>Universal Trunk Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2944</th><td>Uplands Citrus Association.</td></tr>
+<tr><th class="stub" scope="row">1-R-2852</th><td>Vanta Co., The.</td></tr>
+<tr><th class="stub" scope="row">21-R-2933</th><td>Vard, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2441</th><td>Vermont Marble Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3264</th><td>Victor Adding Machine Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-998</th><td>Victoria Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">17-R-1337</th><td>Victoria Murdock Estate, The.</td></tr>
+<tr><th class="stub" scope="row">5-RE-10</th><td>Virginia Electric &amp; Power Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2000</th><td>Virginia Electric &amp; Power Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2104</th><td>Virginia Ferry Corp.</td></tr>
+<tr><th class="stub" scope="row">5-R-1893</th><td>Virginia-Lincoln Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-2986</th><td>Vogue Leather Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-892</th><td>Vogue Pottery Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1000</th><td>Volney Felt Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">6-R-1153</th><td>Vulcan Mold &amp; Iron Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2604</th><td>Wachusett Electric Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2642</th><td>Wachusett Electric Co., &amp; Leominster Gas Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2099</th><td>Wadesboro Full-Fashioned Hosiery Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">14-R-1305</th><td>Wagner Electric Corp.</td></tr>
+<tr><th class="stub" scope="row">16-R-1551</th><td>Waples Platter Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3351</th><td>Ward Electric Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5786</th><td>Warner, William R., &amp; Co , Inc.</td></tr>
+<tr><th class="stub" scope="row">17-R-1182</th><td>Warren, Richard.</td></tr>
+<tr><th class="stub" scope="row">15-R-1322</th><td>Warrior &amp; Gulf Navigation Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3367</th><td>Washburn Co , The Andrews Wire Works Division.</td></tr>
+<tr><th class="stub" scope="row">1-R-2684</th><td>Waterville Iron Works.</td></tr>
+<tr><th class="stub" scope="row">1-R-2685</th><td>Waterville Iron Works.</td></tr>
+<tr><th class="stub" scope="row">8-R-2129</th><td>Weaver-Wall Co., The.</td></tr>
+<tr><th class="stub" scope="row">21-R-2575</th><td>Weber Showcase &amp; Fixture Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5751</th><td>Weil Bros., Textile Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-2154</th><td>Welch Furniture Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2156</th><td>Welker Letter Co., Henry A. Welker, d/b/a</td></tr>
+<tr><th class="stub" scope="row">13-R-2991</th><td>Wellington Trunk &amp; Case Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1597</th><td>Werthan Bag Corp.</td></tr>
+<tr><th class="stub" scope="row">20-R-1352</th><td>Westvaco Chlorine Products Corp</td></tr>
+<tr><th class="stub" scope="row">20-R-1368</th><td>Westvaco Chlorine Products Corp.</td></tr>
+<tr><th class="stub" scope="row">19-R-1656</th><td>West Coast Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1675</th><td>West Coast Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1303</th><td>Weston Glass Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5818</th><td>West Side Iron Works.</td></tr>
+<tr><th class="stub" scope="row">8-R-2055</th><td>West Steel Castings Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1904</th><td>West Virginia Armature Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1758</th><td>West Virginia Coal &amp; Coke Corp., Junior Mercantile Stores Division.</td></tr>
+<tr><th class="stub" scope="row">5-R-1921</th><td>Western Electric Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-1412</th><td>Western Electric Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">5-R-2204</th><td>Western Electric Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">14-R-1284</th><td>Western &amp; Southern Life Insurance Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1103</th><td>Westinghouse Air Brake Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2488</th><td>Westinghouse Electric &amp; Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1489</th><td>Weyerhaeuser Timber Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1768</th><td>White Bros. Smelting Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-1903</th><td>White Motor Co., The.</td></tr>
+<tr><th class="stub" scope="row">16-R-1087</th><td>Whitehurst Construction Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2805</th><td>Whitney Blake Co., The.</td></tr>
+<tr><th class="stub" scope="row">10-R-1681</th><td>Whittier Mills Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1368</th><td>Wichita Packing Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2096</th><td>Williams Brownell Planing Mill.</td></tr>
+<tr><th class="stub" scope="row">4-R-1827</th><td>Williamsport Furniture Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-2117</th><td>Willys-Overland Motors, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-3021</th><td>Wilmington Welding &amp; Boiler Works, Ltd.</td></tr>
+<tr><th class="stub" scope="row">19-R-1570</th><td>Wilson, A K., Timber Products Co</td></tr>
+<tr><th class="stub" scope="row">3-R-1107</th><td>Wilson Athletic Goods Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1973</th><td>Wilson &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1988</th><td>Wilson &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">10-R-1637</th><td>Wilson &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-2927</th><td>Wilson &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3077</th><td>Wilson &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3350</th><td>Wilson &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3399</th><td>Wilson &amp; Co., Inc</td></tr>
+<tr><th class="stub" scope="row">13-R-3567</th><td>Wilson &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">16-R-1406</th><td>Wilson &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">16-R-1411</th><td>Wilson &amp; Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">17-R-1210</th><td>Wilson &amp; Co , Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1439</th><td>Wilson, Frank M. Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">18-RE-16</th><td>Wilson-Hurd Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1912</th><td>Wilson Transit Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-2956</th><td>Wilt Trunk Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2842</th><td>Wire &amp; Metal Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3249</th><td>Wisconsin Power &amp; Light Co.</td></tr>
+<tr><th class="stub" scope="row">13-RE-34</th><td>Wisconsin Public Service Corp.</td></tr>
+<tr><th class="stub" scope="row">12-R-3123</th><td>Wisconsin Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2438</th><td>Worcester Gas Light Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2709</th><td>Worthington Pulp &amp; Machinery Corp.</td></tr>
+<tr><th class="stub" scope="row">7-R-2003</th><td>Wyandotte Transportation Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1942</th><td>Wyandotte Transportation Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1072</th><td>Yawman &amp; Erbe Mfg. Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-2816</th><td>Young, L A., Spring &amp; Wire Corp.</td></tr>
+<tr><th class="stub" scope="row">1-RE-31</th><td>Young, Richard, Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1419</th><td>Zanes Freight Agency.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1946_p0156_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 Decisions in these cases appear in volumes 62 through 69 of Decisions and Orders of the National Labor Relations Board.</li>
+</ol>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 156.</b> This page is not a numeric table but Appendix D, a two-column list of cases: column 0 (the stub) holds the case docket number and column 1 the case name. No column headings are printed anywhere on the page, so header_rows is empty.
+
+The two centred division lines &quot;I. Unfair Labor Practice Cases&quot; and &quot;A. Unfair Labor Practice Cases Decided After Contest&quot; are transcribed as label-only rows; the page title (&quot;APPENDIX D&quot; / &quot;LIST OF CASES IN WHICH THE BOARD RENDERED DECISIONS DURING THE FISCAL YEAR 1946^1&quot;) is treated as the caption and omitted, so its raised 1 appears only in the footnote below. The blank lines that separate the A, B and C alphabetical groups are spacing, not rows, and are not transcribed.
+
+The list is cut off by the end of the page: it continues on the following page (it stops mid-alphabet at &quot;Crucible Steel Co. of America.&quot;).
+
+Docket numbers are printed with en-dashes; they are rendered here with plain hyphens.
+
+Apparent misprints transcribed as printed, not corrected: &quot;Cambell, John W., Inc.&quot; (almost certainly Campbell); &quot;Burroughs Welcome &amp; Co. (USA), Inc&quot; (the firm is Burroughs Wellcome); &quot;Bonita Fruit Co., Inc .&quot; has a stray space before the final period; &quot;Arnolt Motor Co , Inc.&quot; has a comma where a period is expected after &quot;Co&quot;.
+
+Doubtful cell: in the footnote the word read as &quot;volumes&quot; is smudged and could be read as &quot;volumns&quot;; the surrounding digits &quot;62 through 69&quot; are legible. Several company names end without the expected period (e.g. &quot;American Steel Foundries&quot;, &quot;Brown Co&quot;, &quot;Consolidated Machine Tool Corp&quot;); that follows the print. Scattered specks of ink across the page are scanner noise, not footnote markers.</p>
+<p><b>p. 157.</b> This crop is a continuation page (running head &quot;122 Eleventh Annual Report of the National Labor Relations Board&quot;) of an alphabetical list of cases: two columns, the stub holding the case docket number and the second column the company name. No column headings are printed on this page, so header_rows is empty. The list is set in alphabetical blocks (D, E, F, G, H, I, J, K, L) separated by blank vertical space; those blank lines are spacing only, not label rows, so no empty rows were emitted. The table is cut off at both top (the D block begins mid-letter) and bottom (the L block continues onto the next page).
+
+Doubtful/odd cells: (1) 5-C-1865 &quot;Firestone Tire &amp; Rubber Co.&quot; — a small stray mark follows the final period in the scan; it is almost certainly a speck or broken comma rather than printed punctuation, and I transcribed the name without it. (2) 2-C-5731 &quot;Electrical Testing Laboratories, Inc.&quot; — a speck sits above &quot;Inc&quot;, which could be mistaken for a raised footnote marker; I read it as scan noise, not a marker. (3) 4-C-1461 &quot;Exact Level &amp; Tool Mfg. Co, Inc.&quot; and 7-C-1248 &quot;Hudson, J. L., Co, The.&quot; are printed with &quot;Co&quot; lacking its abbreviation period; transcribed as printed. (4) 9-C-2059 &quot;Goodrich, B. F., Co., The&quot; is printed without a terminal period, unlike the matching 8-C-1691 entry; transcribed as printed. (5) 18-C-1072 &quot;General Finance Corp; Climax Engineering Co.&quot; uses a semicolon where neighbouring compound entries use a comma; transcribed as printed. The page carries many scattered ink specks in the right-hand margin; none of them are footnote markers or values.</p>
+<p><b>p. 158.</b> This is not a statistical table but a two-column alphabetical list from Appendix D (case number in the stub, name of the case in column 1). The crop is a continuation page: no column headings are printed, so header_rows is empty, and the list continues onto the following page (it breaks off mid-alphabet after &quot;Spach, J. C., Wagon Works, Inc.&quot;). The entries are separated into blank-line groups by first letter (L, M, N, O, P, R, S); those blank lines are spacing only and are not transcribed as rows.
+
+Typesetting/misprint observations, all transcribed in cleaned form: (1) 8-C-1729 is printed &quot;Midland Steamship Lines, Inc .&quot; with a space before the final period; (2) 14-C-882 &quot;Midwest Piping &amp; Supply Co., Inc&quot; has no closing period in the print, kept as printed; (3) 20-C-1270 ends in what prints as &quot;Iuc.&quot; — a broken/battered &quot;Inc.&quot; — transcribed as &quot;Inc.&quot;; (4) 21-C-2421 prints as &quot;Pacific Plastic &amp; Mfg. Co , Inc.&quot; with the period after &quot;Co&quot; missing or filled in; transcribed as &quot;Co., Inc.&quot;; (5) 2-C-5234 shows a stray mark between &quot;Henry,&quot; and &quot;&amp;&quot;. Several stray specks and a few faint apostrophe-like marks appear across the page (e.g. after &quot;23-C-26&quot;, &quot;14-C-1016&quot;, &quot;14-C-951&quot;, &quot;18-C-1154&quot;) and are scanner noise, not punctuation.
+
+Row order is as printed: within the S group, &quot;Scullin Steel Co.&quot; (14-C-856, 14-C-943) precedes &quot;Schnacke Mfg. Corp.&quot; (14-C-951), i.e. not strictly alphabetical in the original.
+
+Excluded per instructions: the running head &quot;Appendix D. Decisions Rendered During 1946&quot;, the page number 123, and the printer&#x27;s signature mark &quot;720336—47——9&quot; at the foot of the page.</p>
+<p><b>p. 159.</b> This is not a numeric statistical table but an appendix list of cases, printed as two columns: case number (stub) and company name. No column headings are printed on this page, so header_rows is empty; the list at the top continues a section (evidently &quot;A.&quot;) begun on an earlier page, and the entries continue past the bottom of the page. The printed list uses blank lines between alphabetical letter groups; those blank spacers are not transcribed as rows. The centered section line &quot;B. Unfair Labor Practice Cases Decided on the Basis of a Stipulation of Agreement Entered into by the Parties&quot; is given as a label-only row with an empty second cell. Case numbers are printed with en-dashes; transcribed with plain hyphens. Doubtful cells: row &quot;10-C-1747&quot; — the period after &quot;Co&quot; in &quot;Economaster Products Co., Inc.&quot; is faint/possibly not printed, transcribed as &quot;Co.,&quot;; row &quot;8-C-1901&quot; — reads &quot;Webster Mfg., Inc.&quot; with no &quot;Co.&quot;; row &quot;15-C-1062&quot; — surname printed &quot;Donalsson&quot; (double s), kept as printed; row &quot;5-C-1809&quot; — &quot;Wennonah&quot; kept as printed. Scattered specks and stray marks in the right-hand margin are scan noise, not text.</p>
+<p><b>p. 160.</b> This page is not a numeric statistical table but an alphabetical case list from Appendix D (&quot;Decisions Rendered During 1946&quot;): two printed columns, case number (stub) and company name. No column headings are printed on this crop, so header_rows is empty.
+
+The two centred lines &quot;II. Representation Cases&quot; and &quot;A. Cases in Which Elections Were Directed&quot; are transcribed as label-only rows (second cell &quot;&quot;). The running head and the page number 125 are omitted as instructed.
+
+Blank lines between alphabetical letter groups (the gaps after &quot;Howard Transfer Co.&quot;, &quot;Illinois Commercial Telephone Co.&quot;, etc.) are spacing only and are not transcribed as rows.
+
+Points to flag:
+- Case numbers are printed with en-dash-like rules; transcribed with plain hyphens.
+- &quot;1-C-2501 Ratheon Mfg. Co.&quot; is transcribed as printed; this is very likely a misprint for &quot;Raytheon&quot;.
+- &quot;14-R-1350&quot; appears twice, once as &quot;Adler Metal Products Corp.&quot; and once as &quot;Alder Metal Products Corp.&quot; — both as printed; one spelling is presumably a misprint.
+- &quot;10-C-1832 / 10-C-1648 Norris, Inc.&quot; and &quot;7-C-1387 / 7-C-1465 Nutt Motor Rebuilders.&quot; are genuine repeated names with different case numbers, as printed.
+- Trailing periods after names are reproduced only where printed; &quot;10-R-1585 Aldora Mills&quot; and &quot;4-R-1856 Allied Chemical &amp; Dye Corp., Barrett Division, The&quot; end without a period in the image. In the latter the comma after &quot;Corp&quot; is faint and could be a speck; transcribed as a comma.
+- Small stray ink marks (scanner speckle) appear in the right margin and beside &quot;16-C-1306&quot;; they are not footnote markers and are not transcribed.
+- The list continues on the preceding and following pages; this crop is a continuation (the unfair-labor-practice section heading is above the crop).</p>
+<p><b>p. 161.</b> This is a continuation page of an alphabetical appendix list of representation cases, not a numeric statistical table: two printed columns, case number (stub) and company name. No column headings are printed on this crop, so header_rows is empty. The list continues beyond the bottom of the page (it breaks mid-&quot;Armour &amp; Co.&quot; block) and begins mid-alphabet at the top, so the table is cut off at both ends by the page break. Case numbers are printed with en-dashes; transcribed with plain hyphens. Row &quot;19-R-1579 Anderson Bros Lumber Co.&quot; is printed without a visible period after &quot;Bros&quot; (it may be a dropped period in the scan). Row &quot;2-R-5586 American Merri-lei Corp.&quot; — the hyphenated &quot;Merri-lei&quot; is a mid-line hyphen in the printed name, not an end-of-line break, so it is kept. In &quot;19-R-1531 Aluminum Co. of America.&quot; a stray ink speck sits between &quot;of&quot; and &quot;America&quot;; it is not punctuation. Several faint specks elsewhere in the margins and one speck inside &quot;13-R-3045&quot; are scanning artifacts, not footnote markers. The running head and page number 126 were omitted as instructed.</p>
+<p><b>p. 162.</b> This crop is not a statistical table of figures: it is a page of Appendix D, an alphabetical list of representation cases decided during fiscal 1946, printed as two columns (case number at left, company name at right). I have transcribed it as a two-column grid with the case number as the stub. No column headings are printed on this page, so header_rows is empty; the list continues from the preceding page and onto the following one (the page begins mid-&quot;A&quot; with Armour entries and breaks off after &quot;Bethlehem Steel Co., 5-R-1950&quot;). The running head &quot;Appendix D  Decisions Rendered During 1946&quot; and the page number 127 are omitted as instructed.
+
+Case numbers are printed with en dashes (e.g. 17–R–1244); I have written them with plain hyphens. Entries are separated into alphabetical blocks by a blank line (here between the &quot;A&quot; entries and the &quot;B&quot; entries); that gap carries no label, so no row was created for it.
+
+Doubtful cells: (1) row &quot;5-R-2072&quot;, name column — printed as &quot;Bassett, W. M , Furniture Co.&quot;; the period after the initial M does not show in the scan, and I have rendered it &quot;Bassett, W. M., Furniture Co.&quot;; (2) row &quot;8-R-2112&quot;, name column — reads &quot;Bellow Co., The.&quot;; it may be a misprint for &quot;Bellows Co.&quot; but is transcribed as printed; (3) row &quot;13-R-3146&quot;, stub — a stray ink mark sits between the case number and the name; (4) row &quot;17-R-1299&quot;, stub — a stray mark follows the final 9, read as 17-R-1299 and not as a footnote marker. Scattered specks of page dirt appear in the right margin and are not transcribed.</p>
+<p><b>p. 163.</b> This page is a continuation of an alphabetical appendix list of representation cases; two columns (case number, company name) and no column headings are printed on the crop, so header_rows is empty. Case numbers are printed with en-dashes (6–R–1164); transcribed with plain hyphens. The list runs to the bottom of the page and plainly continues on the next page. A blank line separates the &quot;B&quot; names from the &quot;C&quot; names (after 5-R-2005 Burlington Mills Corp.); it is white space only, with no printed letter heading or section label, so no row was created for it. Doubtful cells: in 5-R-2253 the name reads &quot;Blumenthal, Sidney, &amp; Co , Inc.&quot; with a gap and no clearly printed period after &quot;Co&quot;; in 7-R-1909 the name is printed &quot;Briggs Mfg. Co .&quot; with a space before the final period — both transcribed with the stray space removed and no period invented. In 2-R-5967 a small comma-like speck precedes &quot;Bridgeport&quot;; treated as a scan artifact and not transcribed. Several entries lack a final period as printed (9-R-1788, 16-R-1553, 8-R-1937, 19-R-1558, 17-R-1081) and &quot;Mfg&quot; appears without a period in the three Borden, Richard entries and in 1-R-2798; these are transcribed as printed. Scattered ink specks appear in the right margin and are not part of the table.</p>
+<p><b>p. 164.</b> The crop is a mid-table continuation of an alphabetical list of cases (case number in the stub, company name in column 2). No column headings, caption or footnotes are printed on this image, so header_rows is empty. The list begins and ends mid-alphabet (&quot;Celotex Corp., The.&quot; through &quot;Cross, E. D., &amp; Son&quot;), i.e. the table continues on the pages before and after.
+
+Doubtful cells: the case-number column of &quot;Clark Bros. Co., Inc.&quot; reads 3-H-1099 and that of &quot;Colgate-Palmolive-Peet Co.&quot; reads 20-H-1486; every other entry on the page uses the &quot;R&quot; prefix, so both are very likely &quot;R&quot; damaged in the scan, but I transcribed the glyphs as they appear. The leading digit of &quot;9-R-1807&quot; (Champion Paper &amp; Fibre Co., The.) is partly broken and could be read as 0 or 9; I took it as 9, consistent with the Region 9 cases around it.
+
+The name cell of 9-R-1937, &quot;Columbus-Celina Coach Co., Frank A. Cluff, d/b/a&quot;, runs to the right edge of the crop and may be cut off — a trailing trade name after &quot;d/b/a&quot; could be missing. Several small ink specks and stray marks sit in the right margin and between lines; they are printing noise, not footnote markers, and were not transcribed. Punctuation at line ends (presence or absence of a final period, and commas inside names) is reproduced as printed, including inconsistencies such as &quot;Condenser Service &amp; Engineering Co , Inc&quot; and &quot;Crosley Corp , The.&quot;.</p>
+<p><b>p. 165.</b> This is a continuation page of an appendix listing of representation cases: two columns, case number (stub) and company name. No column headings are printed on this crop, so header_rows is empty. The table continues onto the following page (the last row, 8-R-2042, ends the page with no closing rule or total).
+
+Blank lines separate the alphabetical groups (C ends at 17-R-1290 Cushman Motor Works; D runs 18-R-1285 through 14-R-1328; E begins at 4-R-1769), but no letter headings are printed, so no section rows were added.
+
+Doubtful / apparent misprints, transcribed exactly as printed:
+- Row &quot;3-R-10789&quot; (du Pont, E. I., de Nemours &amp; Co.): the case number has five trailing digits and is set wider than every neighbour, running into the name column. It is likely a typesetting error (e.g. 3-R-1078 or 3-R-1079), but it is transcribed as the characters appear.
+- Row &quot;6-R-1301&quot;: printed &quot;Duff-North Mfg. Co.&quot;; the very next entry, 6-R-1357, reads &quot;Duff-Norton Mfg. Co.&quot; The missing final &quot;on&quot; looks like a misprint but is left as printed.
+- Row &quot;2-R-5713&quot;: printed &quot;du Pont, E. I., de Nemour &amp; Co.&quot; (singular &quot;Nemour&quot;), while the four surrounding du Pont entries read &quot;Nemours&quot;. Left as printed.
+- Trailing periods after company names are inconsistent in the original (e.g. &quot;Crucible Steel Casting Co&quot;, &quot;Durasteel Co&quot;, &quot;Elastic Stop Nut Corp. of America&quot; and &quot;Electric Vacuum Cleaner Co., Inc&quot; carry none); these have been reproduced as printed rather than normalized.
+
+Case-number separators are printed as short dashes; they are transcribed as plain hyphens. Scattered specks and pen-stroke marks appear in the margins and between lines (e.g. beside 4-R-1849 and in the right margin); these are scan artifacts, not content. The running head and page number 130 were omitted as instructed.</p>
+<p><b>p. 166.</b> This is a continuation page of the Appendix D alphabetical case list (running head &quot;Appendix D. Decisions Rendered During 1946&quot;, page 131), so no column headings are printed; header_rows is therefore empty. The grid has two printed columns: the stub holds the case number (right-aligned) and the second column holds the company name. The list is cut off by the page on both ends: it begins mid-&quot;E&quot; (the preceding entries are on the previous page) and ends mid-&quot;F&quot; (continues on the next page).
+
+A blank spacer line separates the &quot;E&quot; entries from the &quot;F&quot; entries (after 4-R-1826, Ewing-Thomas Corp.); it carries no label or values, so it is not transcribed as a row.
+
+Doubtful cells: 2-R-5686, name column — printed as &quot;Flintkote Co , The.&quot;; the period after &quot;Co&quot; appears to be missing or lost in the scan, with a space before the comma. Transcribed as it appears rather than corrected. Several names are printed without a terminal period (2-R-6132 &quot;First National Chain Stores, Inc&quot;, 2-R-5664 &quot;Foster-Wheeler Corp&quot;, 10-R-1571 &quot;Friedlaender &amp; Co&quot;); these are as printed and are left uncorrected.
+
+Scattered specks and stray marks appear in the page margins and after a few entries (e.g. a stray tick after &quot;Elk River Coal &amp; Lumber Co.&quot; at 9-R-2005 and a dot after the case number &quot;20-R-1434&quot;); these are scanning artefacts, not footnote markers or punctuation, and are not transcribed. Case-number separators are printed as en dashes and are transcribed as plain hyphens. Duplicate names with different case numbers (Finkl, A., &amp; Sons Co.; First National Stores, Inc.; Ford Motor Co.) are printed twice as separate entries and are kept as two rows each.</p>
+<p><b>p. 167.</b> This page is a continuation of an alphabetical two-column list of representation cases (case number in the stub, company name in column 1); no column headings are printed on this crop, so header_rows is empty. The list continues from the previous page and runs on past the bottom of this page (the last printed line here is 14-R-1294 Hamilton-Sheu &amp; Walsh Shoe Co.).
+
+A blank line is printed between 5-R-2256 (Gwaltney) and 13-R-3005 (Hall), marking the break from the &quot;G&quot; to the &quot;H&quot; entries; it carries no label and was not transcribed as a row.
+
+Typography/scan issues: many abbreviation periods failed to print or are lost in the scan, leaving a space before the following comma or nothing at all. Transcribed as seen in: &quot;Gaylord Bros , Inc.&quot; (3-R-1068), &quot;Goldblatt Bros , Inc.&quot; (13-R-3362), &quot;Goodrich, B. F , Co.&quot; (8-R-1874), &quot;Granite City Steel Co&quot; (14-R-1233, no final period), &quot;Hall, W F., Printing Co.&quot; (13-R-3005), &quot;Hamilton Foundry &amp; Machine Co , The.&quot; (9-R-1835), and &quot;Gair, Robert Co., Inc&quot; (1-R-2610, no final period). In the printed source these are almost certainly &quot;Bros.,&quot; &quot;B. F.,&quot; &quot;Co.,&quot; etc.
+
+Suspected misprint: 14-R-1285 reads &quot;General Cemical Co.&quot; (printed as shown); compare 20-R-1360 and 20-R-1390 &quot;General Chemical Co.&quot; Transcribed as printed.
+
+Doubtful readings: 14-R-1294 &quot;Hamilton-Sheu&quot; — the fourth letter is indistinct and may be &quot;Shea&quot;; 16-R-1219 &quot;Griffin-Goodner&quot; is clear but uncommon. Case numbers 3-R-971 and 11-R-835 are genuinely three digits, not truncations. A stray ink mark sits between the case number and the name on the 14-R-1331 line and after &quot;13-R-3528&quot;; neither is a footnote marker. No footnote markers appear anywhere on this page.</p>
+<p><b>p. 168.</b> This crop is a continuation page of an alphabetical list of cases; no column headings are printed on it, so header_rows is empty. Two printed columns: cell 0 is the case number (the stub) and cell 1 is the company name. The crop begins and ends mid-list (it starts at &quot;Hammond Irving, Inc.&quot; and ends at &quot;International Broadcasting Co., The.&quot;), so the table continues on the preceding and following pages.
+
+A blank line separates the &quot;H&quot; entries (ending with Hytron Radio &amp; Electronics Corp.) from the &quot;I&quot; entries (beginning with I-T-E Circuit Breaker Co.); it is only white space with no printed label, so no row was emitted for it.
+
+Transcribed as printed, including apparent typesetting slips: &quot;Heat Tansfer Products, Inc.&quot; (row 4-R-1712) is printed without the &quot;r&quot; in &quot;Transfer&quot;; &quot;Heyden Chemical Corp&quot; (4-R-1762) and &quot;Industrial Colliers Corp&quot; (6-R-1074) are printed without a final period. In &quot;Hudson Hosiery Co , Inc.&quot; (5-R-1959) and &quot;Industrial Molded Products Co , Inc.&quot; (13-R-3555) the period after &quot;Co&quot; did not print (or is lost in the scan), leaving a space before the comma; both are kept as they appear rather than repaired.
+
+Case numbers are printed with en dashes; they are rendered here with ASCII hyphens. &quot;52-RE-76&quot; (Imperial Paper &amp; Color Corp.) is the only non-&quot;R&quot; case prefix on the page and is read with reasonable confidence. Stray ink specks appear in the margins and before the case numbers of 5-R-2019 and 4-R-1809; they are not footnote markers and were ignored. The period after &quot;Co&quot; in &quot;Hercules Powder Co.&quot; at 10-R-1458 is overstruck by a speck but the wording matches the surrounding identical entries.</p>
+<p><b>p. 169.</b> This crop is a continuation page of an alphabetical list of cases (two columns: case number in the stub, company name beside it); no column headings are printed on this image, so header_rows is empty. The list continues onto the following page: the last printed row here is 5-R-1990 Lancaster Iron Works, Inc., and the &quot;L&quot; group is clearly cut off mid-sequence by the page break.
+
+Blank typographic gaps separate the letter groups (after Isthmian Steamship Co., after Jupiter Steamship Co., after Krimm, Charles R., Lumber Co., Inc.); these are white space with no printed label, so they are not transcribed as rows.
+
+Doubtful cells:
+- &quot;6-R-1149 / Kress, F. J., Box Co.&quot; (column 1): the periods after the initials F and J did not reproduce in the scan — the line reads roughly &quot;Kress, F  J , Box Co.&quot; I transcribed the conventional &quot;F. J.,&quot; assuming dropped periods in this 1-bit scan; the stray comma placement after &quot;J&quot; is as printed.
+- &quot;21-R-3300 / International Harvester Co.&quot; (column 1): a stray ink mark sits between &quot;Harvester&quot; and &quot;Co.&quot; in the scan, giving the appearance of &quot;Harvester .Co.&quot;; I read it as speck noise, not punctuation.
+- &quot;13-R-3128 / Interstate Machinery Co., Inc.&quot; (column 1): the comma after &quot;Co.&quot; prints like a second period in the scan; read as &quot;Co., Inc.&quot;
+- Several case numbers carry a trailing speck (e.g. 9-R-2098, 2-R-6030, 19-R-1541, 4-R-1837); these are page dirt, not punctuation or footnote markers, and were dropped.
+
+The case-number hyphens are printed as en dashes; they are transcribed as plain hyphens. The page is lightly speckled throughout but all 63 entries are legible.</p>
+<p><b>p. 170.</b> This is not a numeric statistical table but a two-column alphabetical list from Appendix D (case number in the stub, company name in column 2). No column headings are printed on this crop, so header_rows is empty; the line &quot;Appendix D. Decisions Rendered During 1946&quot; and the page number 135 are the running head and were omitted. The list continues from the preceding page (it begins mid-&quot;L&quot;) and runs on past the bottom of this page.
+
+A blank line separates the &quot;L&quot; entries from the &quot;Mc/Mac/Ma&quot; entries (after 13-R-2941, Lyon Metal Products, Inc.); it is a typographic section break carrying no label, so no row was emitted for it.
+
+Doubtful/irregular cells, all transcribed exactly as printed:
+- Rows 5-R-1961, 19-R-1597, 20-R-1416, 20-R-1424, 20-R-1425, 20-R-1448 (company column): printed &quot;Libby, McNeil &amp; Libby.&quot; — the firm&#x27;s usual spelling is &quot;McNeill&quot;, but only two l&#x27;s are legible here.
+- 8-R-1795 (company column): &quot;Life Insurance Co of Virginia, The.&quot; — no period after &quot;Co&quot; as printed.
+- 2-R-5554 (company column): &quot;Malina Co. &amp; Bendythe Co., Louis Malina.&quot; — the word read as &quot;Bendythe&quot; is the least certain text on the page; the letters after &quot;Bend&quot; are faint.
+- 6-R-1308, 5-R-2090, 13-R-2994, 15-R-1365 (company column): printed without the terminal period that most neighbouring entries carry (&quot;Corp&quot;, &quot;Co&quot;, &quot;Inc&quot;, &quot;Inc&quot;); reproduced as printed.
+- 11-R-962 and 6-R-983 have three-digit case serials (no fourth digit is present); the surrounding entries are four-digit.
+- Case-number hyphens are printed as short dashes; rendered here as plain hyphens.
+- Several stray ink specks and marginal dots appear in the scan (e.g. beside 1-R-2396, 20-R-1425, 2-R-5837); none are footnote markers and none were transcribed.</p>
+<p><b>p. 171.</b> This page (p. 136, Eleventh Annual Report) continues an alphabetical list of representation cases from the preceding page, so no column headings are printed; header_rows is therefore empty. The grid has two printed columns: case number (stub) and company name. The table continues onto the following page (the list breaks off mid-&quot;N&quot; at 8-R-1862).
+
+There is a blank line of white space between &quot;9-R-1953 Myer Bros...&quot; and &quot;4-R-2008 Nash Kelvinator Sales Corp.&quot; marking the change of initial letter from M to N; it carries no label, so it is not transcribed as a row.
+
+The scan drops or fades many terminal periods, and I have transcribed only the ones I can see. Doubtful cases: 15-R-1378 &quot;Mente &amp; Co., Inc.&quot; — a gap appears where the period after &quot;Co&quot; should be and the dot is at best very faint; 9-R-1953 — &quot;Edward J&quot; shows no visible period after the initial &quot;J&quot;; 10-R-1532 &quot;Merry Bros&quot; and 18-R-1393 / 18-R-1347 &quot;Regulator Co&quot; likewise show no period, which I have left off as printed. 14-R-1323 &quot;Monsanto Chemical Co.&quot; ends with a mark that scans like a colon; I read it as a period with a speck above it.
+
+Case-number dashes are printed as en dashes; transcribed as plain hyphens. A stray ink mark follows the case number 10-R-1433, and scattered specks appear in the margins; neither affects the values. In 18-R-1485, 18-R-1409, 18-R-1437, 2-R-5538, 10-R-1449, 20-R-1625, 7-R-2173 and 16-R-1390 the dotless-i rendering of the scan (&quot;Mıdland&quot;, &quot;Mınneapolis&quot;, &quot;Basın&quot;, etc.) is a scan artifact, transcribed with normal &quot;i&quot;.</p>
+<p><b>p. 172.</b> This crop is not a statistical table but a page of the alphabetical case list in Appendix D (&quot;Decisions Rendered During 1946&quot;), set as two columns: column 0 is the case number and column 1 is the company name. No column headings are printed on the page, so header_rows is empty; the running head and page number 137 are omitted as instructed.
+
+The list is broken by blank lines into alphabetical groups (N, then O, then P). Those are white-space breaks only — no section labels are printed — so no label-only rows were inserted.
+
+The page is a continuation: the list runs on from the previous page (it begins mid-N) and continues past the bottom of this page (it ends at &quot;Phillips Petroleum Co.&quot;), so neither the first nor the last entry shown is necessarily the first/last of its group.
+
+Doubtful cells, all in the printed text rather than in column placement:
+- &quot;4-R-1943 / National Transitads, Inc.&quot; — the company name is faint; &quot;Transitads&quot; is my best reading.
+- &quot;1-R-2559 / National Wool Marketing Corp.&quot; — the leading &quot;1&quot; is partly broken in the scan and could conceivably be a &quot;4&quot;; the hyphen before R is faint.
+- &quot;2-R-5689 / Newberry, J. J., Co.&quot; — the hyphen after the &quot;2&quot; is smudged into the R.
+- &quot;19-RE-24 / Northwest Packing Co&quot; — the case prefix &quot;RE&quot; (rather than &quot;R&quot;) is as printed, and the number has only two digits.
+- &quot;20-R-1430 / Parrish, Alen R., Co.&quot; — printed &quot;Alen&quot; with a single l; likely a misprint for &quot;Allen&quot;, transcribed as printed.
+- &quot;3-R-1081 / Peter Cailler Kohler Swiss Chocolates Co, Inc&quot; — there is a small mark after &quot;1081&quot; (a stray speck or broken comma, not a footnote marker) and a raised dot between &quot;Swiss&quot; and &quot;Chocolates&quot; that may be a broken hyphen; transcribed with a plain space.
+- Terminal periods after company names are inconsistent in the original (e.g. &quot;Pacific Press, Inc.&quot; vs &quot;Pacific Press, Inc&quot; on consecutive lines); these have been reproduced as printed.
+- Scattered ink specks appear in the right margin and between lines; none are footnote markers and none were transcribed.</p>
+<p><b>p. 173.</b> This crop is a continuation page (p. 138, Eleventh Annual Report) of an alphabetical list of cases: two columns, case number (stub) and company name. No column headings are printed on this image, so header_rows is empty. The list continues from the preceding page and runs on past the bottom of this page (it ends mid-R with &quot;Reliable Nut Co.&quot;).
+
+Blank lines on the page separate the alphabetical sections (P / Q / R); they carry no label and are not transcribed as rows.
+
+Minor reading notes: the page carries scattered ink specks and stray marks from the scan (e.g. a speck after &quot;Phillips Petroleum Co.&quot; in 16-R-1532, over the R in 9-R-1760, before &quot;10-R-1735&quot;, after &quot;Proximity Mfg. Co.&quot; in 5-R-2182 and before that label in 5-R-2193, after &quot;Radio Corp. of America.&quot; in 4-R-1845, after &quot;Reigel Paper Corp.&quot;); these are not footnote markers and are omitted. &quot;Pressed Steel Car Co., Inc.&quot; (6-R-1138) is printed with what looks like a stray period between &quot;Car&quot; and &quot;Co.&quot;; transcribed as a space. &quot;Reigel Paper Corp.&quot; is printed that way (the firm is usually spelled Riegel) and is left as printed. &quot;Raleigh Coco Cola Bottling Works.&quot; is also printed as shown (&quot;Coco&quot;, not &quot;Coca&quot;).</p>
+<p><b>p. 174.</b> This is not a numeric statistical table but a page of the Appendix D alphabetical list of representation cases decided during fiscal 1946. It has two printed columns — case number (stub) and company name — and no column headings on this page, so header_rows is empty.
+
+Structure and crop: the list continues from the preceding page and runs onto the next; the names here cover &quot;Reliance&quot; through &quot;Sears Roebuck&quot;. A blank line between &quot;2-R-5892 Ryerson, Joseph T., &amp; Son, Inc&quot; and &quot;20-R-1383 S &amp; M Logging Co.&quot; marks the R/S alphabet break; it carries no label, so no row was created for it. The printer&#x27;s signature line &quot;720336—47——10&quot; at the foot of the page was left out as page furniture, as was the running head &quot;Appendix D. Decisions Rendered During 1946&quot; and the folio &quot;139&quot;.
+
+Doubtful cells:
+- Stub of &quot;Round California Chain Corp , Ltd.&quot;: read as 29-R-1298. The leading digits are clear enough on the scan, but Region 29 did not exist in 1946 and the case number 1298 falls in Region 20&#x27;s range on this page (20-R-1383, 20-R-1423, 20-R-1435, 20-R-1456, 20-R-1457, 20-R-1474), so this is likely either a misprint in the report or a 0 that scanned as a 9. Transcribed as read.
+- Three names show a gap where an abbreviating period would normally sit, immediately before a comma: &quot;Reuben, Simon B , &amp; Co.&quot; (13-R-2965), &quot;Round California Chain Corp , Ltd.&quot; (29-R-1298) and &quot;Ruberiod Co , The.&quot; (13-R-3084). The period appears to have dropped out of the 1-bit scan rather than being absent from the printing; the glyphs are transcribed as they appear, without supplying the period.
+- Several names appear as printed with spellings that look like typesetting errors and were not corrected: &quot;Sacremento Frosted Foods Co.&quot; (20-R-1474, for Sacramento), &quot;Rockford Metal Produce Co&quot; (13-R-3235, probably Products), &quot;Ruberiod Co , The.&quot; (13-R-3084, usually Ruberoid).
+- Trailing periods on company names are inconsistent throughout the original (e.g. &quot;Rohm &amp; Haas Co&quot; and &quot;Sargent &amp; Co&quot; without, &quot;Richmond Hosiery Mills.&quot; with); this inconsistency is in the print and has been preserved.
+- Small stray specks sit beside 3-R-958, 1-R-2467, 20-R-1474 and 3-R-961, and over &quot;Axel&quot; in 9-R-1891. They are scanner dirt, not footnote markers, and were not transcribed. Faint speckling also appears in the wide empty margin to the right of the list, which holds no text.</p>
+<p><b>p. 175.</b> The crop is a continuation page of an alphabetical list of cases (entries from &quot;Sears Roebuck&quot; through &quot;Stevens, M. T., &amp; Sons Co.&quot;), printed as two columns: case number (stub) and company name. No column headings, caption or footnotes appear on this image, so header_rows is empty. Single panel; the wide right margin is blank apart from scattered scan specks.
+
+Abbreviation periods drop out intermittently in this scan. I transcribed them as they appear, so the following cells show no period where one is probably intended in the original: &quot;Senoso Paper Co, Inc.&quot; (3-R-1031), &quot;Shunk, L. E, Latex Products, Inc.&quot; (8-R-1979), &quot;Southern California Edison Co, Ltd.&quot; (21-R-2719), &quot;Southwest Pump Co&quot; (16-R-1344), &quot;Standard Oil Co of Calif.&quot; (20-R-1255 and 21-R-3059), &quot;Standard Register Co, The&quot; (9-R-1944), &quot;Sterling Sugars, Inc&quot; (15-R-1453). In 3-R-1031, 21-R-2719 and 9-R-1944 the printed text reads &quot;Co ,&quot; with a space before the comma; I closed the space.
+
+Doubtful readings: 16-R-1435 &quot;Sequin Milling Co.&quot; — the &quot;i&quot; glyphs across this page are frequently dotless, and the firm may be &quot;Seguin Milling Co.&quot; (Region 16 covers Texas), but the third letter reads as &quot;q&quot; to me. 3-R-1031 &quot;Senoso Paper Co, Inc.&quot; is transcribed as printed; the name is unusual. 7-R-2093 &quot;Solvey Process Co.&quot; is transcribed as printed and is very likely a misprint for &quot;Solvay Process Co.&quot;
+
+A small stray mark sits in the left margin before &quot;21-R-2955&quot; and before &quot;21-R-2500&quot;; these are scan specks, not footnote markers, and are not transcribed. 20-RE-50 is the only case number on the page with an &quot;RE&quot; rather than an &quot;R&quot; docket prefix; it is as printed.</p>
+<p><b>p. 176.</b> This page is a continuation of an alphabetical case list (Appendix D, &quot;Decisions Rendered During 1946&quot;); no column headings are printed on this crop, so header_rows is empty. The table has two printed columns: the case number (stub) and the company name. The list is cut off at both ends by the page break (it begins mid-&quot;S&quot; and ends mid-&quot;T&quot;); it continues on the following page.
+
+A blank line separates the &quot;S&quot; entries (ending 18-R-1335, Swift &amp; Co.) from the &quot;T&quot; entries (beginning 10-R-1512, Tamiami Trail Tours, Inc.); no section label is printed there, so no row was added for it.
+
+Punctuation oddities transcribed as printed rather than corrected: &quot;17-R-1119 Texas Co , The.&quot; (period after &quot;Co&quot; appears to be missing/broken, leaving a space before the comma); &quot;5-R-2068 Thomasville Chair Co&quot; and &quot;5-R-2069 Thomasville Chair. Co&quot; (terminal period missing, and on 5-R-2069 a stray period appears after &quot;Chair&quot;); &quot;2-R-5676 Stiefel Construction Corp&quot; and &quot;21-R-2963 Todd Shipyards Corp&quot; (no terminal period). Likely source misprints left uncorrected: &quot;Stokley Foods, Inc.&quot; (1-RE-25, 11-R-851; probably Stokely) and &quot;Sunstrand Machine Tool Co.&quot; (13-R-3324; probably Sundstrand). Case-number hyphens are printed as en dashes; transcribed as plain hyphens.
+
+Scattered small specks and stray marks in the right margin are scan artifacts, not table content. Low-contrast characters I read with slightly less certainty: the &quot;1&quot; in 11-R-881 and 11-R-893, and the final digits of 5-R-2011/5-R-2012; all other digits read cleanly.</p>
+<p><b>p. 177.</b> This crop is not a numeric statistical table but a continuation page of the alphabetical case list (names T through W) in the Eleventh Annual Report; it has two printed columns, case number (stub) and case name, and no column headings are printed, so header_rows is empty. The table continues before and after this crop (it begins mid-&quot;T&quot; and ends mid-&quot;W&quot;). Blank lines in the original separate the alphabetical letter groups (T, U, V, W); they carry no label and are not transcribed as rows. Several case names appear to lose a terminal period in the scan, and I have transcribed them as they appear rather than repairing them: &quot;United Refrigerator Mfg Co.&quot;, &quot;U. S. Electrical Motors, Inc&quot;, &quot;United States Metals Refining Co&quot;, &quot;United States Stoneware Co , The.&quot;, &quot;Warner, William R., &amp; Co , Inc.&quot;, &quot;Washburn Co , The Andrews Wire Works Division.&quot;; likewise &quot;Union Stock Yards Co. of Omaha (Ltd )&quot; shows a space before the closing parenthesis where a period would be. In the &quot;Union Tank Car Co.&quot; line (13-R-3118) a stray speck sits between &quot;Union&quot; and &quot;Tank&quot; in the scan; I read it as a printing artifact, not an apostrophe. The case number 5-RE-10 (Virginia Electric &amp; Power Co.) is my reading of a slightly broken &quot;RE&quot; case-type code; the digit-group &quot;5-R&quot; plus &quot;E&quot; is the alternative reading. Two case numbers show a doubled or broken dash in the scan (3-R-1000 and 6-R-1153); I have written single hyphens. The ordering is as printed: &quot;United Steel &amp; Wire Co.&quot; (7-R-2053) precedes &quot;United Steamship Co.&quot; (8-R-1959), which is out of strict alphabetical order, and the &quot;U. S.&quot; entries are interfiled with the &quot;United States&quot; entries.</p>
+<p><b>p. 178.</b> This is not a numeric statistical table but an alphabetical list from Appendix D (cases decided during 1946), set in two columns: the stub holds the case number and the second column the company name. No column headings are printed on the page, so header_rows is empty; the running head &quot;Appendix D. Decisions Rendered During 1946&quot; and the page number 143 are omitted per instructions.
+
+The list continues the alphabet from the previous page (it begins mid-W) and ends with the single Z entry, so nothing appears cut off by the crop. The printed text has blank-line breaks before the Y entries and before the Z entry; these are white space only, with no section labels, so no extra rows were added.
+
+Doubtful cells: row &quot;9-R-1758&quot;, name column — the word printed as &quot;Stores&quot; in &quot;Junior Mercantile Stores Division.&quot; has a broken/ink-filled &quot;o&quot; in the scan and reads like &quot;St)res&quot;; transcribed as &quot;Stores&quot;. Row &quot;19-R-1570&quot; — initials print as &quot;A K.&quot; with no visible period after the A (probably &quot;A. K.&quot;); transcribed as seen. Row &quot;21-R-2816&quot; — likewise &quot;L A.&quot; with no visible period after the L. Row &quot;17-R-1210&quot; — reads &quot;Wilson &amp; Co , Inc.&quot; with a space and no visible period after &quot;Co&quot;, unlike the neighbouring identical entries that print &quot;Co., Inc.&quot;; transcribed as seen. Rows &quot;20-R-1352&quot; (&quot;Corp&quot; with no final period) and &quot;13-R-3399&quot; / &quot;19-R-1570&quot; (&quot;Inc&quot; / &quot;Co&quot; with no final period) also lack the terminal period that parallel entries carry; left as printed.
+
+Light stray ink specks and marginal flecks are scattered over the page (e.g. an apostrophe-like mark before &quot;Co.&quot; in &quot;Westinghouse Air Brake Co.&quot; and &quot;Whitehurst Construction Co.&quot;, and a tick after &quot;8-R-2129&quot;); these are scan artifacts and were not transcribed. Case-number hyphens are printed as en dashes and are rendered here as plain hyphens.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0156.webp" loading="lazy" alt="Source page 156 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 156.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0157.webp" loading="lazy" alt="Source page 157 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 157.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0158.webp" loading="lazy" alt="Source page 158 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 158.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0159.webp" loading="lazy" alt="Source page 159 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 159.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0160.webp" loading="lazy" alt="Source page 160 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 160.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0161.webp" loading="lazy" alt="Source page 161 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 161.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0162.webp" loading="lazy" alt="Source page 162 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 162.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0163.webp" loading="lazy" alt="Source page 163 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 163.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0164.webp" loading="lazy" alt="Source page 164 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 164.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0165.webp" loading="lazy" alt="Source page 165 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 165.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0166.webp" loading="lazy" alt="Source page 166 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 166.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0167.webp" loading="lazy" alt="Source page 167 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 167.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0168.webp" loading="lazy" alt="Source page 168 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 168.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0169.webp" loading="lazy" alt="Source page 169 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 169.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0170.webp" loading="lazy" alt="Source page 170 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 170.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0171.webp" loading="lazy" alt="Source page 171 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 171.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0172.webp" loading="lazy" alt="Source page 172 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 172.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0173.webp" loading="lazy" alt="Source page 173 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 173.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0174.webp" loading="lazy" alt="Source page 174 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 174.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0175.webp" loading="lazy" alt="Source page 175 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 175.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0176.webp" loading="lazy" alt="Source page 176 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 176.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0177.webp" loading="lazy" alt="Source page 177 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 177.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0156_t0_p0178.webp" loading="lazy" alt="Source page 178 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 178.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

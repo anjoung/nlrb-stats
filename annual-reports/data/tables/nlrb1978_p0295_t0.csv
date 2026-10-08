@@ -1,23 +1,15 @@
-row_label,Total proceedings,"Injunction Proceedings / Pending in district court Oct. 1, 1977",Injunction Proceedings / Filed in district court fiscal year 1978,Total dispositions,Disposition of Injunctions / Granted,Disposition of Injunctions / Denied,Disposition of Injunctions / Settled,Disposition of Injunctions / Withdrawn,Disposition of Injunctions / Dismissed,Disposition of Injunctions / Inactive,"Pending in district court Sept. 30, 1978"
-"Under sec. 10(e), total",9,3,6,6,2,3,1,0,0,0,3
-"Under sec. 10(j), total",56,10,46,45,20,2,19,3,0,1,11
-8(a)(1),1,0,1,1,0,0,0,1,0,0,0
-8(a)(1)(3),5,0,5,2,1,0,1,0,0,0,3
-8(a)(1)(5),9,5,4,5,3,0,2,0,0,0,4
-8(a)(1)(2)(3),4,1,3,3,2,0,1,0,0,0,1
-"8(a)(1)(2)(3), 8(b)(1)(A)",2,0,2,2,2,0,0,0,0,0,0
-8(a)(3),8,1,7,7,2,0,5,0,0,0,1
-8(a)(3)(5),2,0,2,2,1,0,1,0,0,0,0
-8(a)(5),2,1,1,1,0,0,0,1,0,0,1
-8(b)(1)(A),1,0,1,1,1,0,0,0,0,0,0
-8(b)(3),5,0,5,4,3,0,0,0,0,1,1
-8(d),1,1,0,0,0,0,0,0,0,0,0
-"Under sec. 10(l), total",238,22,216,207,107,8,51,22,8,11,31
-8(b)(4)(A),9,0,9,8,4,1,1,0,0,2,1
-8(b)(4)(B),129,14,115,119,62,2,32,11,4,8,10
-8(b)(4)(C),5,2,3,3,2,0,1,0,0,0,2
-8(b)(4)(D),8,0,8,8,0,0,3,4,1,0,0
-8(b)(7)(A),10,1,9,8,8,0,0,0,0,0,2
-8(b)(7)(B),1,0,1,0,0,0,0,0,0,0,1
-8(b)(7)(C),25,2,23,19,9,1,5,2,2,0,6
-8(e),11,1,10,7,1,0,1,1,1,0,4
+Circuit courts of appeals (headquarters),Total fiscal year 1978,Total fiscal years 1973-1977,Affirmed in full,Affirmed in full,Affirmed in full,Affirmed in full,Modified,Modified,Modified,Modified,Remanded in full,Remanded in full,Remanded in full,Remanded in full,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Set aside,Set aside,Set aside,Set aside
+Circuit courts of appeals (headquarters),Total fiscal year 1978,Total fiscal years 1973-1977,Fiscal Year 1978,Fiscal Year 1978,Cumulative fiscal years 1973-1977,Cumulative fiscal years 1973-1977,Fiscal Year 1978,Fiscal Year 1978,Cumulative fiscal years 1973-1977,Cumulative fiscal years 1973-1977,Fiscal Year 1978,Fiscal Year 1978,Cumulative fiscal years 1973-1977,Cumulative fiscal years 1973-1977,Fiscal Year 1978,Fiscal Year 1978,Cumulative fiscal years 1973-1977,Cumulative fiscal years 1973-1977,Fiscal Year 1978,Fiscal Year 1978,Cumulative fiscal years 1973-1977,Cumulative fiscal years 1973-1977
+Circuit courts of appeals (headquarters),Total fiscal year 1978,Total fiscal years 1973-1977,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+Total all circuits,333,"1,419",218,65.5,"1,033",72.8,53,15.9,132,9.3,8,2.4,67,4.7,7,2.1,24,1.7,47,14.1,163,11.5
+"1. Boston, Mass.",18,59,12,66.7,45,76.8,4,22.2,8,13.5,0,,3,5.1,0,,0,,2,11.1,3,5.1
+"2. New York, N.Y.",18,132,12,66.7,101,76.5,3,16.7,10,7.6,1,5.5,3,2.3,0,,2,1.5,2,11.1,16,12.1
+"3. Philadelphia, Pa.",41,94,29,70.7,71,75.5,6,14.6,5,5.3,2,4.9,6,6.3,0,,1,1.1,4,9.8,11,11.7
+"4. Richmond, Va.",14,81,7,50.0,59,72.8,6,42.9,12,14.8,1,7.1,2,2.5,0,,0,,0,,8,9.9
+"5. New Orleans, La.",55,197,37,67.3,154,78.2,10,18.2,16,8.1,0,,5,2.5,1,1.8,2,1.0,7,12.7,20,10.2
+"6. Cincinnati, Ohio",33,203,22,66.7,143,70.4,2,6.1,18,8.9,2,6.1,8,3.9,1,3.0,3,1.5,6,18.1,31,15.3
+"7. Chicago, Ill.",31,160,14,45.2,119,74.4,9,29.0,13,8.1,0,,7,4.4,1,3.2,0,,7,22.6,21,13.1
+"8. St. Louis, Mo.",29,109,16,55.2,69,63.3,5,17.2,21,19.3,0,,3,2.8,2,6.9,2,1.8,6,20.7,14,12.8
+"9. San Francisco, Calif.",70,215,52,74.3,151,70.2,6,8.6,19,8.8,1,1.4,13,6.1,2,2.8,5,2.3,9,12.9,27,12.6
+"10. Denver, Colo.",9,50,4,44.4,41,82.0,1,11.1,3,6.0,1,11.1,0,,0,,0,,3,33.4,6,12.0
+"Washington, D.C.",15,119,13,86.6,80,67.2,1,6.7,7,5.9,0,,17,14.3,0,,9,7.6,1,6.7,6,5.0

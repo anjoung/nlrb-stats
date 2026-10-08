@@ -1,4 +1,26 @@
-NLRB Region,Total number of unfair labor practice cases received,Number of cases alleging specific unfair labor practices (subsections of section 8 of the act),Total number of cases
-1. Boston,314,,314
-2. New York,589,,589
-Total,4372,,4372
+Region,"Total number of unfair labor-practice cases pending, June 30, 1939",Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Number of cases alleging specific unfair labor practices (subsections of sec. 8 of the act),Total number of cases,Total number of cases,Total number of cases,Total number of cases,Total number of cases
+Region,"Total number of unfair labor-practice cases pending, June 30, 1939",8 (1) and 8 (3),8 (1) and 8 (5),"8 (1), 8 (3), and 8 (5)","8 (1), 8 (2), and 8 (3)","8 (1), 8 (2), 8 (3), and 8 (5)",8 (1),8 (1) and 8 (2),8 (1) and 8 (4),"8 (1), 8 (2), and 8 (5)","8 (1), 8 (3), and 8 (4)","8 (1), 8 (4), and 8 (5)","8 (1), 8 (2), and 8 (4)","8 (1), 8 (2), 8 (3), and 8 (4)","8 (1), 8 (2), 8 (3), 8 (4), and 8 (5)","8 (1), 8 (3), 8 (4), and 8 (5)",8 (1),8 (2),8 (3),8 (4),8 (5)
+1. Boston,124,47,25,15,10,6,4,8,,6,3,,,,,,124,30,81,3,52
+2. New York,372,148,43,77,30,25,10,24,1,8,3,1,,1,,1,372,88,285,7,155
+3. Buffalo,53,16,5,9,4,6,2,7,,1,2,,,1,,,53,19,38,3,21
+4. Philadelphia,114,28,26,16,10,14,5,7,,5,1,,,1,1,,114,38,71,3,62
+5. Baltimore,182,79,25,33,17,2,9,13,,,4,,,,,,182,32,135,4,60
+6. Pittsburgh,95,51,7,8,9,6,2,9,,1,2,,,,,,95,25,76,2,22
+7. Detroit,119,57,8,10,23,10,1,6,1,2,,,,1,,,119,42,101,2,30
+8. Cleveland,110,52,10,10,8,9,5,12,,1,,,,2,1,,110,33,82,3,31
+9. Cincinnati,130,41,41,21,6,5,7,5,,,2,,,2,,,130,18,77,4,67
+10. Atlanta,119,56,10,17,16,5,5,1,1,1,6,,,,,1,119,23,101,8,34
+11. Indianapolis,96,27,10,12,18,13,1,13,,2,,,,,,,96,46,70,,37
+12. Milwaukee,110,20,13,34,15,7,2,12,,6,1,,,,,,110,40,77,1,60
+13. Chicago,180,65,15,20,28,12,5,18,,6,8,,,2,,1,180,66,136,11,54
+14. St. Louis,64,17,6,18,8,9,3,1,,1,1,,,,,,64,19,53,1,34
+15. New Orleans,96,29,10,36,6,2,10,1,,,1,,1,,,,96,10,74,2,48
+16. Fort Worth,79,23,8,14,9,5,1,10,1,3,2,,,1,1,1,79,29,56,6,32
+17. Kansas City,168,30,30,71,22,8,1,2,,3,1,,,,,,168,35,132,1,112
+18. Minneapolis,52,23,7,7,3,3,,5,,2,1,1,,,,,52,13,37,2,20
+19. Seattle,126,71,11,19,6,7,3,5,,2,1,,,,,1,126,20,105,2,40
+20. San Francisco,222,41,15,137,14,1,4,7,,2,1,,,,,,222,24,194,1,155
+21. Los Angeles,220,52,40,25,12,10,63,11,,4,2,,,1,,,220,38,102,3,79
+22. Denver,63,30,10,7,1,4,1,6,,3,,,,1,,,63,15,43,1,24
+Board,8,1,2,,2,2,,1,,,,,,,,,8,5,5,,4
+Total,"2,902","1,004",377,616,277,171,144,184,4,59,42,2,1,13,3,5,"2,902",708,"2,131",70,"1,233"

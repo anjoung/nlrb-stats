@@ -1,19 +1,47 @@
-Industrial group,Elections — Number,Elections — Percent,Winner — A. F. of L. — Number,Winner — A. F. of L. — Percent,Winner — C. I. O. — Number,Winner — C. I. O. — Percent,Winner — Unaffiliated — Number,Winner — Unaffiliated — Percent,Winner — No union — Number,Winner — No union — Percent,Eligible voters — Number,Eligible voters — Percent,Valid votes cast — Number,Valid votes cast — Percent
-Mining — total,92,.6,44,47.8,12,13.0,32,34.8,4,4.4,9577,.6,6932,.5
-Mining — Metal mining,2,(2),1,50.0,1,50.0,0,0,0,0,,,250,
-Mining — Coal mining,57,.4,26,45.6,0,0,29,50.9,2,3.5,4892,,3323,
-Mining — Crude petroleum and natural gas production,14,.1,5,35.7,8,57.1,0,0,1,7.1,,,,
-Mining — Nonmetallic mining and quarrying,19,.1,12,63.2,3,15.8,3,15.8,1,5.2,,,,
-Construction,223,1.5,182,81.6,1,.4,26,11.7,14,6.3,5234,.3,4562,.3
-Wholesale trade,1557,10.6,1357,85.5,5,.3,72,4.6,92,5.9,33257,1.9,29316,2.0
-Retail trade,1396,9.3,1201,86.0,9,.6,94,6.7,92,6.6,78195,4.5,65144,4.4
-"Finance, insurance, and real estate",59,.4,32,54.2,10,16.9,13,22.0,4,6.8,1978,.1,1600,.1
-"Transportation, communication, and other public utilities — total",1637,10.9,1228,75.0,63,3.8,196,12.0,70,4.3,170717,9.8,138277,9.4
-Transp/comm — Highway passenger transportation,136,.9,111,81.6,5,3.7,16,11.8,4,2.9,49822,2.9,42510,2.9
-Transp/comm — Highway freight transportation,780,5.2,682,87.4,5,.6,62,7.9,31,4.0,13067,.7,9973,.7
-Transp/comm — Water transportation,166,1.1,84,50.6,5,3.0,59,35.5,18,10.8,8332,.5,6213,.4
-Transp/comm — Warehousing and storage,242,1.6,208,85.9,10,4.1,10,4.1,14,5.8,8348,.5,9973,
-Transp/comm — Other transportation,60,.4,53,88.3,0,0,5,8.3,2,3.3,,,,
-Transp/comm — Communications,12,.1,8,66.7,0,0,4,33.3,0,0,,,,
-"Transp/comm — Heat, light, power, water, and sanitary services",241,1.6,82,34.0,43,17.8,112,46.5,4,1.7,,,26011,
-Services,442,2.9,272,61.5,131,29.6,15,3.4,22,5.0,20890,1.7,20066,1.4
+Industrial group,Elections,Elections,Winner,Winner,Winner,Winner,Winner,Winner,Winner,Winner,Eligible voters,Eligible voters,Valid votes cast,Valid votes cast
+Industrial group,Number,Percent,A. F. of L,A. F. of L,C. I. O,C. I. O,Unaffiliated,Unaffiliated,No union,No union,Number,Percent,Number,Percent
+Industrial group,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+Total,"15,074",100.0,"10,448",69.3,"1,979",13.1,"2,154",14.3,493,3.3,"1,733,922",100.0,"1,471,092",100.0
+Manufacturing,"9,536",63.3,"6,176",64.8,"1,771",18.6,"1,356",14.2,233,2.4,"1,397,115",80.6,"1,192,005",81.0
+Food and kindred products,"2,425",16.1,"1,897",78.2,295,12.2,160,6.6,73,3.0,"204,771",11.8,"172,989",11.8
+Tobacco manufacturers,25,.2,22,88.0,1,4.0,2,8.0,0,.0,"5,595",.3,"4,952",.3
+Textile mill products,303,2.0,129,42.6,118,38.9,51,16.8,5,1.7,"72,345",4.2,"61,989",4.2
+Apparel and other finished products made from fabrics and similar materials,234,1.6,163,69.7,63,26.9,6,2.6,2,.8,"79,686",4.6,"71,819",4.9
+Lumber and wood products,669,4.4,471,70.4,169,25.3,6,.9,23,3.4,"57,610",3.3,"48,756",3.3
+Furniture and fixtures,339,2.2,292,86.1,22,6.5,15,4.4,10,3.0,"29,077",1.7,"25,004",1.7
+Paper and allied products,397,2.6,299,75.3,67,16.9,25,6.3,6,1.5,"68,465",4.0,"58,764",4.0
+"Printing, publishing, and allied industries",710,4.7,573,80.7,41,5.8,84,11.8,12,1.7,"28,724",1.7,"25,795",1.7
+Chemicals and allied products,376,2.5,263,70.0,70,18.6,37,9.8,6,1.6,"36,909",2.1,"30,318",2.1
+Products of petroleum and coal,128,.8,58,45.3,48,37.5,13,10.2,9,7.0,"16,533",1.0,"12,989",.9
+Rubber products,69,.5,17,24.6,48,69.6,2,2.9,2,2.9,"21,365",1.2,"16,950",1.1
+Leather and leather products,245,1.6,148,60.4,71,29.0,23,9.4,3,1.2,"47,191",2.7,"41,720",2.8
+"Stone, clay, and glass products",397,2.6,318,80.1,48,12.1,25,6.3,6,1.5,"93,868",5.4,"76,529",5.2
+Primary metal industries,494,3.3,281,56.9,112,22.7,91,18.4,10,2.0,"71,089",4.1,"59,516",4.0
+Fabricated metal products (except machinery and transportation equipment),762,5.1,442,58.0,144,18.9,157,20.6,19,2.5,"83,203",4.8,"72,290",4.9
+Machinery (except electrical),883,5.9,225,25.5,217,24.6,418,47.3,23,2.6,"108,716",6.3,"95,016",6.5
+"Electrical machinery, equipment, and supplies",242,1.6,132,54.5,34,14.1,74,30.6,2,.8,"62,053",3.6,"51,568",3.5
+Transportation equipment,356,2.4,122,34.3,138,38.7,90,25.3,6,1.7,"265,291",15.3,"226,032",15.4
+Aircraft and parts,40,.3,7,17.5,12,30.0,18,45.0,3,7.5,"15,488",.9,"12,814",.9
+Ship and boat building and repairing,87,.6,51,58.6,20,23.0,15,17.3,1,1.1,"19,482",1.1,"15,244",1.0
+Automotive and other transportation equipment,229,1.5,64,27.9,106,46.3,57,24.9,2,.9,"230,321",13.3,"197,974",13.5
+"Professional, scientific, and controlling instruments",83,.6,28,33.7,24,28.9,29,35.0,2,2.4,"16,211",.9,"14,305",1.0
+Miscellaneous manufacturing,399,2.6,296,74.2,41,10.3,48,12.0,14,3.5,"28,413",1.6,"24,704",1.7
+"Agriculture, forestry, and fishing",5,,4,80.0,0,.0,1,20.0,0,0,64,,58,
+Mining,92,.6,44,47.8,12,13.0,32,34.8,4,4.4,"9,577",.5,"6,932",.5
+Metal mining,2,[2],1,50.0,1,50.0,0,.0,0,.0,467,[2],350,[2]
+Coal mining,25,.2,1,4.0,0,.0,24,96.0,0,.0,739,[2],652,.1
+Crude petroleum and natural gas production,19,.1,9,47.4,6,31.6,0,.0,4,21.0,"4,887",.3,"3,253",.2
+Nonmetallic mining and quarrying,46,.3,33,71.7,5,10.9,8,17.4,0,.0,"3,484",.2,"2,677",.2
+Construction,223,1.5,182,81.6,4,1.8,26,11.7,11,4.9,"5,324",.3,"4,562",.3
+Wholesale trade,"1,597",10.6,"1,357",85.0,73,4.6,93,5.8,74,4.6,"41,651",2.4,"36,377",2.5
+Retail trade,"1,474",9.8,"1,021",69.3,60,4.1,317,21.5,76,5.1,"78,106",4.5,"65,145",4.4
+"Finance, insurance, and real estate",68,.4,58,85.3,4,5.9,2,2.9,4,5.9,"1,978",.1,"1,690",.1
+"Transportation, communication, and other public utilities","1,637",10.9,"1,334",81.5,31,1.9,196,12.0,76,4.6,"170,717",9.9,"138,277",9.4
+Highway passenger transportation,136,.9,111,81.6,2,1.5,19,14.0,4,2.9,"18,746",1.1,"13,911",.9
+Highway freight transportation,780,5.2,628,80.5,3,.4,107,13.7,42,5.4,"49,822",2.9,"42,574",2.9
+Water transportation,84,.5,58,69.0,5,6.0,15,17.9,6,7.1,"12,986",.7,"9,882",.7
+Warehousing and storage,242,1.6,208,86.0,8,3.3,12,4.9,14,5.8,"11,445",.7,"9,973",.7
+Other transportation,39,.3,34,87.2,1,2.6,3,7.7,1,2.5,"10,331",.6,"8,587",.6
+Communication,241,1.6,199,82.6,2,.8,32,13.3,8,3.3,"41,176",2.4,"32,574",2.2
+"Heat, light, power, water, and sanitary services",115,.8,96,83.5,10,8.7,8,6.9,1,.9,"26,211",1.5,"20,776",1.4
+Services,442,2.9,272,61.6,24,5.4,131,29.6,15,3.4,"29,390",1.7,"26,046",1.8

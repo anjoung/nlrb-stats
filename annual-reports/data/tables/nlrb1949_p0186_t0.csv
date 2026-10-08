@@ -1,9 +1,21 @@
-Participating unions,Number of elections,Elections won by — A. F. of L. affiliates — Number,Elections won by — A. F. of L. affiliates — Percent,Elections won by — C. I. O. affiliates — Number,Elections won by — C. I. O. affiliates — Percent,Elections won by — Unaffiliated unions — Number,Elections won by — Unaffiliated unions — Percent,Elections won by — No union — Number,Elections won by — No union — Percent,Eligible voters — Total,Eligible voters — Percent of valid votes,Valid votes cast for — Total,Valid votes cast for — A. F. of L. — Number,Valid votes cast for — A. F. of L. — Percent,Valid votes cast for — C. I. O. — Number,Valid votes cast for — C. I. O. — Percent,Valid votes cast for — Unaffiliated — Number,Valid votes cast for — Unaffiliated — Percent,Valid votes cast for — No union — Number,Valid votes cast for — No union — Percent
-Total,5514,2092,37.9,858,15.6,939,17.0,1625,29.5,588761,87.7,516248,131343,25.4,155482,30.1,90533,17.5,138888,26.9
-A. F. L. affiliates (alone on ballot),2736,1789,65.4,,,,,947,34.6,205345,87.7,180098,140434,78.0,,,,,39664,22.0
-C. I. O. affiliates (alone on ballot),1090,,,697,63.9,,,395,36.1,165803,87.7,145409,,,112876,77.6,,,32533,22.4
-Unaffiliated unions (alone on ballot),942,,,,,725,76.9,217,23.0,55818,85.8,47894,,,,,38158,79.7,9736,20.3
-A. F. L. affiliates–C. I. O. affiliates (joint ballot),1272,688,54.1,115,70.9,,,227,55.7,92629,87.6,81142,48460,59.7,12302,15.1,,,20380,25.1
-A. F. L. affiliates-unaffiliated unions (joint ballot),126,12,9.5,,,68,54.0,46,36.5,9366,85.0,8021,1945,24.2,,,4034,50.3,2042,25.5
-C. I. O. affiliates-unaffiliated unions (joint ballot),175,,,39,22.3,100,57.1,33,18.9,10917,85.0,9283,,,2335,25.2,5184,55.8,1762,19.0
-A. F. L.-C. I. O.-unaffiliated unions (3-party joint ballot),133,,,,,,,,,,,,,,,,,,,
+Type of case,Total elections,Total elections,Type of election,Type of election,Type of election,Type of election,Type of election,Type of election,Type of election,Type of election
+Type of case,Number,Percent,Consent,Consent,Stipulated,Stipulated,Regional director directed,Regional director directed,Board ordered,Board ordered
+Type of case,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+"All elections, total","20,720",100.0,"18,046",87.1,704,3.4,654,3.1,"1,316",6.4
+"Eligible voters, total","2,341,456",100.0,"1,712,375",73.1,"133,844",5.7,"276,199",11.8,"219,038",9.4
+"Valid votes, total","2,004,418",100.0,"1,466,114",73.1,"115,540",5.8,"231,558",11.6,"191,206",9.5
+"NLRA, R cases, total",75,100.0,9,12.0,3,4.0,,,63,84.0
+Eligible voters,"10,704",100.0,770,7.2,268,2.5,,,"9,666",90.3
+Valid votes,"9,250",100.0,656,7.1,237,2.6,,,"8,357",90.3
+"RC cases, total","5,282",100.0,"3,495",66.2,620,11.7,,,"1,167",22.1
+Eligible voters,"541,283",100.0,"249,617",46.1,"97,966",18.1,,,"193,700",35.8
+Valid votes,"476,181",100.0,"220,779",46.4,"86,287",18.1,,,"169,115",35.5
+"RM cases, total",157,100.0,112,71.3,22,14.0,,,23,14.7
+Eligible voters,"36,774",100.0,"15,420",41.9,"19,251",52.4,,,"2,103",5.7
+Valid votes,"30,817",100.0,"13,473",43.7,"15,479",50.2,,,"1,865",6.1
+"RD cases, total",132,100.0,73,55.3,7,5.3,,,52,39.4
+Eligible voters,"18,773",100.0,"5,926",31.6,"1,848",9.8,,,"10,999",58.6
+Valid votes,"17,078",100.0,"5,533",32.4,"1,719",10.1,,,"9,826",57.5
+"UA cases, total","15,074",100.0,"14,357",95.3,52,.3,654,4.3,11,.1
+Eligible voters,"1,733,922",100.0,"1,440,642",83.1,"14,511",.8,"276,199",15.9,"2,570",.2
+Valid votes,"1,471,092",100.0,"1,225,673",83.3,"11,818",.8,"231,558",15.8,"2,043",.1

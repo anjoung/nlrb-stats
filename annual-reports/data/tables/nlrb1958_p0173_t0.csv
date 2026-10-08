@@ -1,6 +1,47 @@
-Proceedings,Number of cases instituted,Number of applications granted,Number of applications denied,"Cases settled, withdrawn, inactive, pending, etc"
-Under sec. 10 (j),,,,
-(a) Against unions,6,3,1,"1 settled, 1 pending"
-(b) Against employers,1,1,0,0
-Under sec 10 (l),127,59,9,29 settled; 2 withdrawn; 30 alleged illegal activity suspended; 6 pending
-Total,134,63,10,69
+Industrial group,Number of elections,Number of elections,Number of elections,Number of elections,Eligible voters,Valid votes cast
+Industrial group,Total,In which representation rights were won by—,In which representation rights were won by—,In which no representative was chosen,Eligible voters,Valid votes cast
+Industrial group,Total,AFL-CIO affiliates,Unaffiliated unions,In which no representative was chosen,Eligible voters,Valid votes cast
+Total,"4,337","2,131",505,"1,701","351,217","315,428"
+Manufacturing,"3,010","1,500",320,"1,190","289,463","260,770"
+Ordnance and accessories,8,4,1,3,"1,600","1,520"
+Food and kindred products,585,321,82,182,"45,959","39,160"
+Tobacco manufacturers,6,3,0,3,"1,889","1,504"
+Textile mill products,51,12,8,31,"9,151","8,273"
+Apparel and other finished products made from fabrics and similar material,39,16,4,19,"3,736","3,416"
+Lumber and wood products,128,74,5,49,"11,574","10,328"
+Furniture and fixtures,101,43,9,49,"12,222","11,259"
+Paper and allied products,151,69,16,66,"19,940","18,347"
+"Printing, publishing, and allied industries",150,92,16,42,"4,147","3,771"
+Chemicals and allied products,172,85,22,65,"12,876","12,008"
+Products of petroleum and coal,58,18,12,28,"5,222","4,818"
+Rubber products,52,23,10,19,"5,318","4,923"
+Leather and leather products,55,25,2,28,"12,852","11,673"
+"Stone, clay, and glass products",119,73,9,37,"10,380","9,315"
+Primary metal industries,168,73,21,74,"13,204","12,330"
+Fabricated metal products (except machinery and transportation equipment),308,162,26,120,"24,635","22,641"
+Machinery (except electrical),341,154,37,150,"26,572","23,942"
+"Electrical machinery, equipment, and supplies",189,80,19,90,"34,259","31,060"
+Aircraft and parts,50,21,4,25,"5,801","5,184"
+Ship and boat building and repairing,26,15,2,9,"3,508","3,326"
+Automotive and other transportation equipment,101,58,7,36,"7,218","6,655"
+"Professional, scientific, and controlling instruments",32,17,1,14,"7,704","6,710"
+Miscellaneous manufacturing,120,62,7,51,"9,696","8,607"
+"Agriculture, forestry, and fisheries",0,0,0,0,0,0
+Mining,58,25,6,27,"7,885","7,104"
+Metal mining,29,14,2,13,"5,532","4,981"
+Coal mining,1,0,1,0,40,37
+Crude petroleum and natural gas production,8,2,0,6,413,372
+Nonmetallic mining and quarrying,20,9,3,8,"1,900","1,714"
+Construction,42,27,2,13,"1,664","1,220"
+Wholesale trade,356,154,68,134,"9,330","8,664"
+Retail trade,446,221,37,188,"23,848","20,525"
+"Finance, insurance, and real estate",14,5,1,8,474,394
+"Transportation, communication, and other public utilities",319,142,60,117,"15,193","13,745"
+Highway passenger transportation,21,14,4,3,"1,988","1,676"
+Highway freight transportation,107,26,29,52,"2,598","2,267"
+Water transportation,39,20,11,8,"2,001","1,891"
+Warehousing and storage,54,22,12,20,"1,135",995
+Other transportation,5,4,1,0,909,821
+Communication,50,30,0,20,"3,095","2,797"
+"Heat, light, power, water, and sanitary services",43,26,3,14,"3,467","3,298"
+Services,92,57,11,24,"3,360","3,006"

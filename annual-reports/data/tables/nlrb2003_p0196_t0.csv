@@ -1,8 +1,30 @@
-Type of Litigation,Total — all courts — Number decided,Total — all courts — Court Determination — Upholding Board position,Total — all courts — Court Determination — Contrary to Board position,In courts of appeals — Number decided,In courts of appeals — Court Determination — Upholding Board position,In courts of appeals — Court Determination — Contrary to Board position,In district courts — Number decided,In district courts — Court Determination — Upholding Board position,In district courts — Court Determination — Contrary to Board position,In bankruptcy courts — Number decided,In bankruptcy courts — Court Determination — Upholding Board position,In bankruptcy courts — Court Determination — Contrary to Board position,In state courts — Number decided,In state courts — Court Determination — Upholding Board position,In state courts — Court Determination — Contrary to Board position
+Type of Litigation,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings
+Type of Litigation,Total – all courts,Total – all courts,Total – all courts,In courts of appeals,In courts of appeals,In courts of appeals,In district courts,In district courts,In district courts,In bankruptcy courts,In bankruptcy courts,In bankruptcy courts,In state courts,In state courts,In state courts
+Type of Litigation,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination
+Type of Litigation,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position
+Totals—all types,9,9,0,3,3,0,4,4,0,2,2,0,0,0,0
+NLRB—initiated actions or interventions,2,2,0,1,1,0,0,0,0,1,1,0,0,0,0
+Motion to file Bd's late proof of claim,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0
+To enforce subpoena or contempt of subpoena,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+To lift stay in subpoena enforcement action,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+To enjoin local ordinance as preempted,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Action by other parties,7,7,0,2,2,0,4,4,0,1,1,0,0,0,0
+To review:,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Prosecutorial discretion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nonfinal/representation order,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+To restrain NLRB from:,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Enforcing Board subpoenas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Proceeding in R case,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Proceeding in unfair labor practice case,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+To compel NLRB to:,3,3,0,2,2,0,0,0,0,1,1,0,0,0,0
+Issue complaint,2,2,0,2,2,0,0,0,0,0,0,0,0,0,0
+Take action in R case,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Vacate election/Decertify Rep.,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0
+To issue decision or take specific action,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Other,4,4,0,0,0,0,4,4,0,0,0,0,0,0,0
 Objection to Board's proof of claim,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Intervention to argue Collateral Estoppal of Prior Bd decision,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
-Suit alleging fraudulent and corrupt conduct by Bd agents,2,2,0,0,0,0,2,2,0,0,0,0,0,0,0
+Suit alleging fraudulent and corrupt conduct by Bd aents,2,2,0,0,0,0,2,2,0,0,0,0,0,0,0
 Bivens action against Bd employees,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
 Suit for violation of constitutional rights,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Federal Tort Claims Act,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

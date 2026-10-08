@@ -1,42 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Pending October 1, 2003....................","*17,576",12620,586,615,3690,65
-Received fiscal 2004..........................,19943,13447,733,615,5103,45
-On docket fiscal 2004.........................,37519,26067,1319,1230,8793,110
-Closed fiscal 2004..............................,22874,15601,836,728,5648,61
-"Pending September 30, 2004..............",14645,10466,483,502,3145,49
-,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases
-"Pending October 1, 2003....................",2583,46,6,15,2133,383
-Received fiscal 2004...........................,6193,54,13,16,5546,564
-On docket fiscal 2004.........................,8776,100,19,31,7679,947
-Closed fiscal 2004..............................,6317,57,14,18,5629,599
-"Pending September 30, 2004..............",2459,43,5,13,2050,348
-,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases
-"Pending October 1, 2003....................",202,5,0,0,6,191
-Received fiscal 2004...........................,440,3,0,3,23,411
-On docket fiscal 2004.........................,642,8,0,3,29,602
-Closed fiscal 2004..............................,423,7,0,1,21,394
-"Pending September 30, 2004..............",219,1,0,2,8,208
-,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases
-"Pending October 1, 2003....................",67,9,0,1,2,55
-Received fiscal 2004...........................,155,18,0,3,3,131
-On docket fiscal 2004.........................,222,27,0,4,5,186
-Closed fiscal 2004..............................,157,19,0,4,4,130
-"Pending September 30, 2004..............",65,8,0,0,1,56
-,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases
-"Pending October 1, 2003....................",25,2,0,3,4,16
-Received fiscal 2004...........................,29,2,0,0,6,21
-On docket fiscal 2004.........................,54,4,0,3,10,37
-Closed fiscal 2004..............................,39,2,0,3,5,29
-"Pending September 30, 2004..............",15,2,0,0,5,8
-,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases
-"Pending October 1, 2003....................",14,0,0,0,3,11
-Received fiscal 2004...........................,30,0,0,0,2,28
-On docket fiscal 2004.........................,44,0,0,0,5,39
-Closed fiscal 2004..............................,27,0,0,0,4,23
-"Pending September 30, 2004..............",17,0,0,0,1,16
-,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases
-"Pending October 1, 2003....................",46,1,1,0,0,44
-Received fiscal 2004...........................,100,1,3,2,10,84
-On docket fiscal 2004.........................,146,2,4,2,10,128
-Closed fiscal 2004..............................,117,2,3,1,6,105
-"Pending September 30, 2004..............",29,0,1,1,4,23
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL–CIO Unions,Other National Unions,Other local Unions,Individuals,Employers
+All Cases,,,,,,
+"Pending October 1, 2003","22,120","13,718",628,722,"6,201",851
+Received fiscal 2004,"31,787","16,835",960,874,"11,666","1,452"
+On docket fiscal 2004,"53,907","30,553","1,588","1,596","17,867","2,303"
+Closed fiscal 2004,"34,851","18,986","1,061","1,009","12,300","1,495"
+"Pending September 30, 2004","19,056","11,567",527,587,"5,567",808
+Unfair labor practice cases,,,,,,
+"Pending October 1, 2003","20,513","12,683",593,634,"5,838",765
+Received fiscal 2004,"26,890","13,525",749,639,"10,693","1,284"
+On docket fiscal 2004,"47,403","26,208","1,342","1,273","16,531","2,049"
+Closed fiscal 2004,"29,954","15,688",853,755,"11,317","1,341"
+"Pending September 30, 2004","17,449","10,520",489,518,"5,214",708
+Representation cases,,,,,,
+"Pending October 1, 2003","1,453",984,34,82,296,57
+Received fiscal 2004,"4,588","3,187",202,215,843,141
+On docket fiscal 2004,"6,041","4,171",236,297,"1,139",198
+Closed fiscal 2004,"4,605","3,186",198,236,853,132
+"Pending September 30, 2004","1,436",985,38,61,286,66
+Union-shop deauthorization cases,,,,,,
+"Pending October 1, 2003",62,,,,62,
+Received fiscal 2004,127,,,,127,
+On docket fiscal 2004,189,,,,189,
+Closed fiscal 2004,125,,,,125,
+"Pending September 30, 2004",64,,,,64,
+Amendment of certification cases,,,,,,
+"Pending October 1, 2003",5,5,0,0,0,0
+Received fiscal 2004,17,7,2,1,0,7
+On docket fiscal 2004,22,12,2,1,0,7
+Closed fiscal 2004,12,8,2,1,0,1
+"Pending September 30, 2004",10,4,0,0,0,6
+Unit clarification cases,,,,,,
+"Pending October 1, 2003",87,46,1,6,5,29
+Received fiscal 2004,165,116,7,19,3,20
+On docket fiscal 2004,252,162,8,25,8,49
+Closed fiscal 2004,155,104,8,17,5,21
+"Pending September 30, 2004",97,58,0,8,3,28

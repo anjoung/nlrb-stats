@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Representation cases — NLRB FY1938</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1938.html">FY1938</a> &rsaquo; Representation cases</p>
+<h1>Representation cases</h1>
+<p class="meta">source pages 277–278 &middot; <code>nlrb1938_p0277_t0</code></p>
+<p class="spans-note">Stitched from pp. 277–278.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Name of case</th><th colspan="2">Date hearing held</th><th>Date decision issued</th></tr>
+<tr><th>Name of case</th><th>Date opened</th><th>Date closed</th><th>Date decision issued</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">A. H. Bull S. S. Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">American Caribbean Line, Inc.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">American Diamond Lines, Inc.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">American Export Lines</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">American Foreign S. S. Corporation</th><td>do</td><td>do</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row">American France Line</th><td>do</td><td>do</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">American-Hawaiian S. S. Co.</th><td>June 24, 1937</td><td>June 24, 1937</td><td>[1]</td></tr>
+<tr><th class="stub" scope="row">American Scantic Line</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">American S. S. Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">American South African Line, Inc.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">American Sugar Transit Corporation</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">American Tankers Corporation</th><td>do</td><td>do</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row">American West African Line, Inc.</th><td>do</td><td>do</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Anchor Lines, Limited</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Argonaut Lines, Inc.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Atlantic Gulf &amp; West Indies S. S. Lines</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Atlantic Refining Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Ault-Williamson Shoe Co.</th><td>May 24, 1937</td><td>June 15, 1937</td><td>Aug. 30, 1937</td></tr>
+<tr><th class="stub" scope="row">B. A. Corbin &amp; Son</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Baltimore and Carolina Line, Inc.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Baltimore Insular Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Baltimore Mail S. S. Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Baltimore Steam Packet Co.</th><td>do</td><td>do</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row">Barbour S. S. Lines, Inc.</th><td>do</td><td>do</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Boss Manufacturing Co.</th><td>Apr. 30, 1936</td><td>May 1, 1936</td><td>Aug. 27, 1937</td></tr>
+<tr><th class="stub" scope="row">Calmar S. S. Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">C. H. Sprague &amp; Son, Inc.</th><td>do</td><td>do</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row">Charles Cushman Shoe Co.</th><td>May 24, 1937</td><td>June 15, 1937</td><td>Aug. 30, 1937</td></tr>
+<tr><th class="stub" scope="row">Cities Service Oil Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Clyde Mallory Lines</th><td>do</td><td>do</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row">Colonial Navigation Co.</th><td>do</td><td>do</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Continental S. S. Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Cosmopolitan Shipping Co.</th><td>do</td><td>do</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row">C. V. Watson Co.</th><td>May 24, 1937</td><td>June 15, 1937</td><td>Aug. 30, 1937</td></tr>
+<tr><th class="stub" scope="row">Eastern S. S. Line</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Electric Vacuum Cleaner Co.</th><td>June 10, 1937</td><td>June 18, 1937</td><td>[2]</td></tr>
+<tr><th class="stub" scope="row">Fleischer Studios, Inc.</th><td>June 16, 1937</td><td>June 17, 1937</td><td>Aug. 3, 1937</td></tr>
+<tr><th class="stub" scope="row">Grace Line, Inc.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Gulf Oil Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Holmes-Bohr Co.</th><td>May 24, 1937</td><td>June 15, 1937</td><td>Aug. 30, 1937</td></tr>
+<tr><th class="stub" scope="row">Honolulu Stevedores, Inc. (Castle &amp; Cook, Limited)</th><td>Apr. 5, 1937</td><td>Apr. 29, 1937</td><td>[3]</td></tr>
+<tr><th class="stub" scope="row">Hunter Packing Co.</th><td>June 14, 1937</td><td>June 15, 1937</td><td>July 23, 1937</td></tr>
+<tr><th class="stub" scope="row">Huth &amp; James Shoe Manufacturing Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>Aug. 3, 1937</td></tr>
+<tr><th class="stub" scope="row">Industrial Rayon Corporation</th><td>June 18, 1937</td><td>June 19, 1937</td><td>June 14, 1938</td></tr>
+<tr><th class="stub" scope="row">Isthmian S. S. Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Kellogg S. S. Corporation</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Koss Shoe Co., Inc.</th><td>May 24, 1937</td><td>June 15, 1937</td><td>Aug. 30, 1937</td></tr>
+<tr><th class="stub" scope="row">Lown Shoe Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Lumbard Shoe Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Lykes Brothers Ripley S. S. Co., Inc.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">McCabe Hamilton &amp; Renny, Ltd.</th><td>May 20, 1937</td><td>May 20, 1937</td><td>Sept. 2, 1937</td></tr>
+<tr><th class="stub" scope="row">Maine Shoes, Inc.</th><td>May 24, 1937</td><td>June 15, 1937</td><td>Aug. 30, 1937</td></tr>
+<tr><th class="stub" scope="row">Mascott Shoe Co., Inc.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Memphis Furniture Manufacturing</th><td>May 21, 1936</td><td>May 27, 1936</td><td>[4]</td></tr>
+<tr><th class="stub" scope="row">Merchant &amp; Miners Transportation Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Mississippi Shipping Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Moore &amp; McCormack Co., Inc.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Mooremack Gulf Lines, Inc.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Munson S. S. Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Newtex S. S. Corporation</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Newton Packing Co. (Swift &amp; Co.)</th><td>May 10, 1937</td><td>May 22, 1937</td><td>[5]</td></tr>
+<tr><th class="stub" scope="row">New York and Cuba Mail S. S. Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">New York &amp; Porto Rico S. S. Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Northrup Corporation</th><td>June 15, 1937</td><td>June 19, 1937</td><td>Oct. 6, 1937</td></tr>
+<tr><th class="stub" scope="row">Ocean S. S. Co. of Savannah</th><td>June 21, 1937</td><td>June 21, 1937</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row">Old Dominion S. S. Line</th><td>do</td><td>do</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Ore Steamship Corporation</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Panama Railroad Co. S. S. Line</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Pennsylvania Shipping Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Petroleum Navigation Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Porto Rico Line</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Pure Oil Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Red &quot;D&quot; Line of Steamships</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Richfield Oil Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Sabine Transportation Co.</th><td>do</td><td>do</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row">Savannah Line</th><td>do</td><td>do</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Seas Shipping Co., Inc.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Seatrain Line, Inc.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Sheba Ann Frocks, Inc.</th><td>May 27, 1937</td><td>May 31, 1937</td><td>July 23, 1937</td></tr>
+<tr><th class="stub" scope="row">Shepard S. S. Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Sinclair Navigation Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Socony Vacuum Oil Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Somerset Shoe Co.</th><td>May 24, 1937</td><td>June 15, 1937</td><td>Aug. 30, 1937</td></tr>
+<tr><th class="stub" scope="row">South Atlantic S. S. Line</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Southern Pacific Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Southern S. S. Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Southgate Nelson Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Standard Fruit &amp; S. S. Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Standard Navigation Co.</th><td>do</td><td>do</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row">Standard Oil Co. of N. J.</th><td>do</td><td>do</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Sun Oil Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Sword S. S. Line, Inc.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Tampa Inter Ocean S. S. Co.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Tankers Corporation</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Tennessee Products Corporation</th><td>Mar. 10, 1937</td><td>Mar. 11, 1937</td><td>[6]</td></tr>
+<tr><th class="stub" scope="row">The Atlantic &amp; Caribbean Steam Navigation Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">The Export S. S. Corporation</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">The Globe Machine &amp; Stamping Co.</th><td>June 24, 1937</td><td>June 25, 1937</td><td>Aug. 11, 1937</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">The Texas Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>Sept. 17, 1937</td></tr>
+<tr><th class="stub" scope="row">Tidewater Associated Oil Co.</th><td>do</td><td>do</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Triplett Electrical Instrument Co.</th><td>June 17, 1937</td><td>June 23, 1937</td><td>Mar. 7, 1938</td></tr>
+<tr><th class="stub" scope="row">United Fruit Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Venus Shoe Co.</th><td>May 24, 1937</td><td>June 15, 1937</td><td>Aug. 30, 1937</td></tr>
+<tr><th class="stub" scope="row">Ward Furniture Manufacturing Co.</th><td>June 24, 1937</td><td>June 25, 1937</td><td>[7]</td></tr>
+<tr><th class="stub" scope="row">Waterman S. S. Corporation</th><td>June 21, 1937</td><td>June 21, 1937</td><td>July 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Westinghouse Electric &amp; Manufacturing Co.</th><td>June 11, 1937</td><td>June 11, 1937</td><td>July 9, 1937</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1938_p0277_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 Order permitting withdrawal of petition issued on July 12, 1937.</li>
+<li>2 Decision issued July 7, 1938.</li>
+<li>3 Dismissed by Board order on May 27, 1938, before decision was issued.</li>
+<li>4 Petition withdrawn July 13, 1937, before decision was issued.</li>
+<li>5 Awaiting Board decision.</li>
+<li>6 Settled Apr. 11, 1938, before decision of Board was issued.</li>
+<li>7 Settled July 1, 1937, before decision of Board was issued.</li>
+</ol>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 277.</b> Four columns: stub (Name of case), then two columns under the spanning heading &quot;Date hearing held&quot; (Date opened / Date closed), then the tall single heading &quot;Date decision issued&quot;.
+
+The italic centred line &quot;Representation cases&quot; printed above the table rules is treated as part of the caption and omitted, as is the clipped line of running text (&quot;year 1938.&quot;) at the very top of the crop and the partially visible page number at the bottom.
+
+Ditto marks: in the two hearing-date columns the repeat mark is printed as &quot;do&quot; flanked by leader dashes (&quot;----do-----&quot;); it is transcribed as &quot;do&quot;. In the decision column the repeat is printed as &quot;Do.&quot; and is transcribed as printed.
+
+Cells printed as a small parenthesised raised numeral — (1) for American-Hawaiian S. S. Co., (2) for Electric Vacuum Cleaner Co., (3) for Honolulu Stevedores, Inc., (4) for Memphis Furniture Manufacturing — are the entire cell content (a cross-reference to the correspondingly numbered footnote), not a marker attached to a value, so they are given as &quot;(1)&quot; … &quot;(4)&quot;.
+
+Doubtful readings: the row label &quot;Memphis Furniture Manufacturing&quot; ends with a period-like mark immediately before the leader dots, so a trailing &quot;Co.&quot; may have been set and is either absent or lost in the scan; &quot;Mascott Shoe Co., Inc.&quot; could be &quot;Mascot&quot;; &quot;Lumbard Shoe Co.&quot; could be &quot;Lombard&quot; — the scan shows &quot;Lumbard&quot;. &quot;American Scantic Line&quot; and &quot;American S. S. Co.&quot; print with speckled initial letters (&quot;Amerlcan&quot;/&quot;Afnerican&quot;) but the wording is clear from context.
+
+The list is alphabetical and stops mid-alphabet at &quot;Newtex S. S. Corporation&quot;, so this table continues on the following page; no total row is present on this crop.</p>
+<p><b>p. 278.</b> The crop is a continuation page: above the box it carries only the sub-caption line \&quot;Representation cases—Continued\&quot;, which I have left out as a —Continued line; the column headings themselves are printed on this page and are transcribed.\n\nDitto marks: in the two date-of-hearing columns the repeat is set as lowercase \&quot;do\&quot; between leader rules (\&quot;-----do-------\&quot;); I render it as \&quot;do\&quot; with the leaders dropped. In the \&quot;Date decision issued\&quot; column the repeat is set as a centered, capitalised \&quot;Do.\&quot; and is rendered that way. The two indented stub entries after \&quot;The Globe Machine &amp; Stamping Co.\&quot; are printed \&quot;Do.\&quot; (same company, further cases) and are kept as separate rows.\n\nFootnote-reference cells: for Newton Packing Co., Tennessee Products Corporation and Ward Furniture Manufacturing Co. the \&quot;Date decision issued\&quot; cell carries no date, only a raised parenthesised numeral referring to the footnote below. I transcribed these as \&quot;(5)\&quot;, \&quot;(6)\&quot; and \&quot;(7)\&quot; rather than using the caret form, since the marker is the whole cell and there is no value for it to attach to.\n\nThe marker of the first footnote is partly broken up in the scan and is not crisply legible on its own; I read it as 5 because it heads a 5-6-7 sequence with the two footnotes below it and because the text (\&quot;Awaiting Board decision\&quot;) matches the undecided Newton Packing Co. row, whose cell reads (5).\n\nA small ink blot sits in the leader dots of the \&quot;Northrup Corporation\&quot; row and a stray speck sits above the caption; both are scan artefacts, not printed content.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1938_p0277_t0_p0277.webp" loading="lazy" alt="Source page 277 of NLRB FY1938 annual report">
+<figcaption>Source: NLRB Annual Report FY1938, p. 277.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1938_p0277_t0_p0278.webp" loading="lazy" alt="Source page 278 of NLRB FY1938 annual report">
+<figcaption>Source: NLRB Annual Report FY1938, p. 278.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

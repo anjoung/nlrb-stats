@@ -1,19 +1,44 @@
-row_label,Total,Identification of filing party / AFL-CIO unions,Identification of filing party / Teamsters,Identification of filing party / Other national unions,Identification of filing party / Other local unions,Identification of filing party / Individuals,Identification of filing party / Employers
-RC cases,,,,,,,
-"Pending October 1, 1980",2748,1672,703,178,178,17,
-Received fiscal 1981,9332,5443,2720,416,712,41,
-On docket fiscal 1981,12080,7115,3423,594,890,58,
-Closed fiscal 1981,8904,5222,2629,400,612,41,
-"Pending September 30, 1981",3176,1893,794,194,278,17,
-RM cases,,,,,,,
-"Pending October 1, 1980",159,,,,,,159
-Received fiscal 1981,727,,,,,,727
-On docket fiscal 1981,886,,,,,,886
-Closed fiscal 1981,606,,,,,,606
-"Pending September 30, 1981",280,,,,,,280
-RD cases,,,,,,,
-"Pending October 1, 1980",339,2,0,1,2,334,
-Received fiscal 1981,1731,7,5,1,7,1711,
-On docket fiscal 1981,2070,9,5,2,9,2045,
-Closed fiscal 1981,1604,8,4,1,9,1582,
-"Pending September 30, 1981",466,1,1,1,0,463,
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+CA cases,,,,,,,
+"Pending October 1, 1980","15,083","7,091","1,846",720,479,"4,907",40
+Received fiscal 1981,"31,273","11,989","3,374","1,351",882,"13,633",44
+On docket fiscal 1981,"46,356","19,080","5,220","2,071","1,361","18,540",84
+Closed fiscal 1981,"29,351","11,361","3,146","1,208",639,"12,956",41
+"Pending September 30, 1981","17,005","7,719","2,074",863,722,"5,584",43
+CB cases,,,,,,,
+"Pending October 1, 1980","2,402",34,10,3,19,"1,719",617
+Received fiscal 1981,"9,036",127,24,28,68,"7,355","1,434"
+On docket fiscal 1981,"11,438",161,34,31,87,"9,074","2,051"
+Closed fiscal 1981,"8,640",102,25,29,68,"7,090","1,326"
+"Pending September 30, 1981","2,798",59,9,2,19,"1,984",725
+CC cases,,,,,,,
+"Pending October 1, 1980",753,1,0,1,19,59,673
+Received fiscal 1981,"1,950",52,1,4,23,50,"1,820"
+On docket fiscal 1981,"2,703",53,1,5,42,109,"2,493"
+Closed fiscal 1981,"1,960",38,1,4,28,79,"1,810"
+"Pending September 30, 1981",743,15,0,1,14,30,683
+CD cases,,,,,,,
+"Pending October 1, 1980",149,9,0,0,0,17,123
+Received fiscal 1981,442,10,2,1,8,21,400
+On docket fiscal 1981,591,19,2,1,8,38,523
+Closed fiscal 1981,427,12,2,1,6,36,370
+"Pending September 30, 1981",164,7,0,0,2,2,153
+CE cases,,,,,,,
+"Pending October 1, 1980",109,0,0,0,24,6,79
+Received fiscal 1981,131,7,2,0,8,7,107
+On docket fiscal 1981,240,7,2,0,32,13,186
+Closed fiscal 1981,126,6,1,0,8,8,103
+"Pending September 30, 1981",114,1,1,0,24,5,83
+CG cases,,,,,,,
+"Pending October 1, 1980",28,0,0,0,1,0,27
+Received fiscal 1981,35,0,0,0,2,1,32
+On docket fiscal 1981,63,0,0,0,3,1,59
+Closed fiscal 1981,38,0,0,0,3,0,35
+"Pending September 30, 1981",25,0,0,0,0,1,24
+CP cases,,,,,,,
+"Pending October 1, 1980",149,1,0,0,0,9,139
+Received fiscal 1981,454,15,1,1,9,9,419
+On docket fiscal 1981,603,16,1,1,9,18,558
+Closed fiscal 1981,478,12,1,1,7,16,441
+"Pending September 30, 1981",125,4,0,0,2,2,117

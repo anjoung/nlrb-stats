@@ -1,5 +1,27 @@
-row_label,Total appearances on ballot / Number,Total appearances on ballot / Valid votes cast,Won / Elections / Number,Won / Elections / Percent of appearances,Won / Valid votes cast / Number,Won / Valid votes cast / Percent of total cast,Lost / Elections / Number,Lost / Elections / Percent of appearances,Lost / Valid votes cast / Number,Lost / Valid votes cast / Percent of appearances
-Unions affiliated with A. F. of L.,604,57151,263,43.5,37061,64.8,341,56.5,20090,35.2
-Unions affiliated with C. I. O.,816,175838,553,67.8,148565,84.5,263,32.2,27273,15.5
-Unaffiliated national unions,98,11895,45,45.9,9941,83.6,53,54.1,1954,16.4
-Unaffiliated local unions,175,37586,84,48.0,20785,55.3,91,52.0,16801,44.7
+,Number of elections,Number of elections,Number of elections,Number of employees,Number of employees,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Percentage of valid votes cast,Percentage of valid votes cast,Percentage of valid votes cast,Number of elections won,Number of elections won,Number of elections won,Number of elections lost by all unions
+,Consent,Ordered,Total,Eligible to vote,Voting,Total,For trade unions,For unaffiliated unions,For unaffiliated unions,Against all unions,For neither,For trade unions,For unaffiliated unions,Against all unions,By trade unions,By unaffiliated unions,By unaffiliated unions,Number of elections lost by all unions
+,Consent,Ordered,Total,Eligible to vote,Voting,Total,For trade unions,National,Local,Against all unions,For neither,For trade unions,For unaffiliated unions,Against all unions,By trade unions,National,Local,Number of elections lost by all unions
+Region:,,,,,,,,,,,,,,,,,,
+1. Boston,52,22,74,"31,957","27,590","27,350","17,964",417,"1,775","7,173",21,65.7,8.0,26.3,52,3,8,11
+2. New York,246,90,336,"69,886","63,753","62,576","49,732","1,661","3,461","6,106","1,616",79.5,8.2,12.3,282,4,8,42
+3. Buffalo,22,8,30,"11,420","10,300","10,134","6,502",423,"2,049",999,161,64.2,24.4,11.4,22,,6,2
+4. Philadelphia,65,1,66,"16,670","14,804","14,540","8,923",772,925,"3,916",4,61.4,11.7,26.9,46,1,5,14
+5. Baltimore,59,31,90,"32,392","28,937","28,606","19,709",111,"2,176","6,372",238,68.9,8.0,23.1,71,,6,13
+6. Pittsburgh,8,7,15,"11,011","9,943","9,633","5,353",,"2,346","1,565",369,55.6,24.3,20.1,9,,1,5
+7. Detroit,23,10,33,"9,033","8,791","8,665","4,876","1,110",756,"1,636",287,56.3,21.5,22.2,12,9,4,8
+8. Cleveland,29,22,51,"50,415","42,205","41,682","29,423",355,"4,441","7,357",106,70.6,11.5,17.9,36,,7,8
+9. Cincinnati,48,6,54,"17,283","16,073","15,755","7,437","3,874","2,272","2,092",80,47.2,39.0,13.8,25,2,10,17
+10. Atlanta,16,19,35,"18,805","16,345","16,004","10,812",,196,"4,951",45,67.6,1.2,31.2,26,,1,8
+11. Indianapolis,30,6,36,"11,499","10,097","9,790","6,975",,803,"1,876",136,71.2,8.2,20.6,22,,4,10
+12. Milwaukee,28,8,36,"22,467","20,732","20,100","15,442",164,780,"3,272",442,76.8,4.7,18.5,29,,2,5
+13. Chicago,39,12,51,"25,781","22,968","22,689","15,173",74,"4,322","2,344",776,66.9,19.4,13.7,37,,4,10
+14. St. Louis,14,4,18,"3,300","2,861","2,794","2,190",,48,556,,78.4,1.7,19.9,12,,1,5
+15. New Orleans,16,6,22,"9,565","8,608","8,251","4,926",30,"1,693","1,446",156,59.7,20.9,19.4,13,,4,5
+16. Fort Worth,9,6,15,"2,518","2,307","2,295","1,109",154,565,426,41,48.3,31.3,20.4,9,1,2,3
+17. Kansas City,16,1,17,"5,878","5,372","5,308","2,651",,"1,747",910,,50.0,32.9,17.1,9,,2,6
+18. Minneapolis,31,3,34,"11,418","10,512","10,407","7,380",723,"1,847",395,62,70.9,24.7,4.4,24,1,2,7
+19. Seattle,7,5,12,"4,867","4,454","4,251","4,111",,,56,84,96.7,,3.3,11,,,1
+20. San Francisco,16,39,55,"15,234","13,858","12,681","5,691","1,633","3,869","1,297",191,44.9,43.4,11.7,33,7,4,11
+21. Los Angeles,31,32,63,"11,562","9,851","9,527","6,266",374,"1,493",861,533,65.8,19.6,14.6,32,14,3,14
+22. Denver,7,2,9,688,599,549,344,20,22,152,11,62.7,7.6,29.7,4,3,,2
+Total,812,340,"1,152","394,558","350,960","343,587","232,989","11,895","37,586","55,758","5,359",67.8,14.4,17.8,816,45,84,207

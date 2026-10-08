@@ -1,3 +1,46 @@
-Industrial group,Elections and cross-checks / Number,Elections and cross-checks / Percent,Winner / A. F. of L. / Number,Winner / A. F. of L. / Percent,Winner / C. I. O. / Number,Winner / C. I. O. / Percent,Winner / Unaffiliated / Number,Winner / Unaffiliated / Percent,Winner / No union / Number,Winner / No union / Percent,Eligible voters / Number,Eligible voters / Percent,Valid votes cast / Number,Valid votes cast / Percent
-Construction,30,0.5,21,70.0,3,10.0,3,10.0,3,10.0,2419,0.3,1924,0.3
-"Transportation, communication, and other public utilities",439,8.2,199,45.3,100,22.8,89,19.4,71,16.5,71059,8.4,58604,8.4
+Industrial groups,Elections and cross-check,Elections and cross-check,Winner,Winner,Winner,Winner,Winner,Winner,Winner,Winner,Eligible votes in all elections and cross-checks,Eligible votes in all elections and cross-checks,Valid votes cast in all elections and cross-checks,Valid votes cast in all elections and cross-checks
+Industrial groups,Number,Percent,A. F. of L.,A. F. of L.,C. I. O.,C. I. O.,Unaffiliated,Unaffiliated,No union,No union,Number,Percent,Number,Percent
+Industrial groups,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+Total,"5,589",100.0,"2,004",35.9,"1,958",35.0,484,8.7,"1,143",20.4,"846,431",100.0,"698,812",100.0
+Manufacturing,"4,383",78.4,"1,487",33.9,"1,658",37.8,328,7.5,910,20.8,"706,920",83.5,"586,346",83.9
+Food and kindred products,563,10.1,276,49.0,150,26.7,26,4.6,111,19.7,"47,407",5.6,"37,832",5.4
+Tobacco manufacturers,14,0.3,7,50.0,1,7.1,,,6,42.9,"2,926",0.3,"2,409",0.3
+Textile mill products,271,4.8,44,16.3,106,39.1,38,14.0,83,30.6,"104,522",12.3,"85,269",12.2
+Apparel and other finished products,108,1.9,32,29.6,30,27.8,5,4.6,41,38.0,"14,862",1.8,"13,048",1.9
+Lumber and timber basic products,181,3.2,62,34.3,74,40.9,8,4.4,37,20.4,"19,027",2.3,"15,591",2.2
+Furniture and finished lumber products,188,3.4,50,26.6,79,42.0,9,4.8,50,26.6,"19,208",2.3,"16,496",2.4
+Paper and allied products,161,2.9,61,37.9,50,31.1,10,6.2,40,24.8,"26,000",3.1,"22,064",3.1
+"Printing, publishing, and allied industries",98,1.8,45,45.9,26,26.5,7,7.2,20,20.4,"3,730",0.4,"3,280",0.5
+Chemicals and allied products,319,5.7,112,35.1,118,37.0,36,11.3,53,16.6,"45,513",5.4,"38,534",5.5
+Products of petroleum and coal,86,1.5,20,23.3,31,36.0,14,16.3,21,24.4,"11,303",1.3,"9,381",1.3
+Rubber products,61,1.1,15,24.6,28,45.9,5,8.2,13,21.3,"14,886",1.8,"11,312",1.6
+Leather and leather products,128,2.3,27,21.1,65,50.8,10,7.8,26,20.3,"17,872",2.1,"15,214",2.2
+"Stone, clay, and glass products",145,2.6,54,37.2,42,29.0,13,9.0,36,24.8,"21,945",2.6,"17,913",2.6
+Iron and steel and their products,557,10.0,176,31.6,227,40.8,56,10.0,98,17.6,"83,350",9.8,"69,628",10.0
+Nonferrous metals and their products,191,3.4,62,32.5,100,52.3,7,3.7,22,11.5,"19,830",2.3,"16,801",2.4
+Machinery (except electrical),627,11.2,237,37.8,226,36.0,32,5.1,132,21.1,"109,685",13.0,"93,953",13.4
+Electrical machinery,240,4.3,69,28.7,115,47.9,23,9.6,33,13.8,"65,298",7.7,"53,066",7.6
+Transportation equipment,264,4.7,84,31.8,100,37.9,23,8.7,57,21.6,"62,601",7.4,"50,144",7.2
+Aircraft and parts,64,1.1,19,29.7,17,26.6,10,15.6,18,28.1,"16,415",1.9,"13,027",1.9
+Automotive equipment and parts,107,1.9,32,29.9,52,48.6,4,3.7,19,17.8,"13,681",1.6,"11,915",1.7
+Ship and boat building and repairing,66,1.2,25,37.9,21,31.8,7,10.6,13,19.7,"27,468",3.3,"20,785",3.0
+Other,27,0.5,8,29.6,10,37.1,2,7.4,7,25.9,"5,037",0.6,"4,417",0.6
+Miscellaneous manufacturing,181,3.2,54,29.9,90,49.7,6,3.3,31,17.1,"16,955",2.0,"14,411",2.1
+Mining,195,3.5,48,24.6,65,33.3,36,18.5,46,23.6,"21,110",2.5,"16,802",2.4
+Metal mining,40,0.7,10,25.0,25,62.5,1,2.5,4,10.0,"3,792",0.5,"3,163",0.5
+Coal mining,33,0.6,5,15.2,1,3.0,13,39.4,14,42.4,"2,835",0.3,"2,403",0.3
+Crude petroleum and natural gas production,76,1.4,14,18.4,29,38.2,17,22.4,16,21.0,"10,411",1.2,"7,821",1.1
+Nonmetallic mining and quarrying,46,0.8,19,41.3,10,21.7,5,10.9,12,26.1,"4,072",0.5,"3,415",0.5
+Construction,30,0.5,21,70.0,3,10.0,3,10.0,3,10.0,"2,419",0.3,"1,828",0.3
+Wholesale trade,202,3.6,84,41.6,55,27.2,17,8.4,46,22.8,"11,659",1.4,"9,360",1.3
+Retail trade,153,2.8,87,56.9,35,22.9,3,1.9,28,18.3,"15,727",1.9,"12,215",1.7
+"Finance, insurance, and real estate",51,0.9,23,45.1,6,11.8,3,5.9,19,37.2,"6,226",0.7,"5,421",0.8
+"Transportation, communication, and other public utilities",459,8.2,199,43.3,100,21.8,89,19.4,71,15.5,"71,510",8.4,"58,604",8.4
+Highway passenger transportation,42,0.8,21,50.0,1,2.4,6,14.3,14,33.3,"2,259",0.3,"1,924",0.3
+Highway freight transportation,51,0.9,37,72.6,4,7.8,1,2.0,9,17.6,"1,284",0.1,"1,032",0.1
+Water transportation,88,1.6,16,18.2,36,40.9,23,26.1,13,14.8,"5,132",0.6,"3,940",0.6
+Warehousing and storage,57,1.0,23,40.3,25,43.9,3,5.3,6,10.5,"1,823",0.2,"1,553",0.2
+Other transportation,35,0.6,11,31.5,11,31.4,4,11.4,9,25.7,"6,067",0.7,"5,290",0.8
+Communication,78,1.4,32,41.0,4,5.1,33,42.3,9,11.6,"15,955",1.9,"10,620",1.5
+"Heat, light, power, water, and sanitary service",108,1.9,59,54.6,19,17.6,19,17.6,11,10.2,"38,990",4.6,"34,245",4.9
+Services,116,2.1,55,47.4,36,31.0,5,4.3,20,17.3,"10,860",1.3,"8,236",1.2

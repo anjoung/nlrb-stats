@@ -1,4 +1,10 @@
-Number of unions participating,Elections and cross-checks / Number,Elections and cross-checks / Percent of total,Eligible voters / Number,Eligible voters / Percent of total,Eligible voters / Percent casting valid votes
-1 union,3883,78.9,577077,53.1,82.4
-2 unions,979,19.9,471857,43.4,82.2
-3 or more unions,57,1.2,38243,3.5,78.8
+Type of election or cross-check,Elections and cross-checks,Elections and cross-checks,Eligible voters,Eligible voters,Valid votes,Valid votes
+Type of election or cross-check,Number,Percent,Number,Percent,Number,Percent
+Total,"4,919",100.0,"1,087,177",100.0,"893,758",100.0
+Consent,"2,999",61.0,"417,230",38.4,"341,003",38.2
+Elections,"2,543",51.7,"392,059",36.1,"323,348",36.2
+Cross-checks,456,9.3,"25,171",2.3,"17,655",2.0
+Stipulated,366,7.4,"125,195",11.5,"103,668",11.6
+Elections,344,7.0,"119,277",11.0,"100,111",11.2
+Cross-checks,22,0.4,"5,918",0.5,"3,557",0.4
+Ordered elections,"1,554",31.6,"544,752",50.1,"449,087",50.2

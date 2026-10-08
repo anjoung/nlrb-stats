@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Distribution of Unfair Labor Practice Situations Received, by Number of Employees in Establishment, Fiscal Year 1970 — NLRB FY1970</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1970.html">FY1970</a> &rsaquo; Distribution of Unfair Labor Practice Situations Received, by Number of Employees in Establishment, Fiscal Year 1970</p>
+<h1>Distribution of Unfair Labor Practice Situations Received, by Number of Employees in Establishment, Fiscal Year 1970</h1>
+<p class="meta">printed as Table 18 &middot; source pages 203–204 &middot; <code>nlrb1970_p0203_t0</code></p>
+<p class="spans-note">Stitched from pp. 203–204.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Size of establishment (number of employees)</th><th>Total number of situations</th><th colspan="2">Total</th><th colspan="16">Type of situations</th></tr>
+<tr><th>Size of establishment (number of employees)</th><th>Total number of situations</th><th colspan="2">Total</th><th colspan="2">CA</th><th colspan="2">CB</th><th colspan="2">CC</th><th colspan="2">CD</th><th colspan="2">CE</th><th colspan="2">CP</th><th colspan="2">CA-CB combinations</th><th colspan="2">Other C combinations</th></tr>
+<tr><th>Size of establishment (number of employees)</th><th>Total number of situations</th><th>Percent of all situations</th><th>Cumulative percent of all situations</th><th>Number of situations</th><th>Percent by size class</th><th>Number of situations</th><th>Percent by size class</th><th>Number of situations</th><th>Percent by size class</th><th>Number of situations</th><th>Percent by size class</th><th>Number of situations</th><th>Percent by size class</th><th>Number of situations</th><th>Percent by size class</th><th>Number of situations</th><th>Percent by size class</th><th>Number of situations</th><th>Percent by size class</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Total</th><td>18,051</td><td>100.0</td><td class="blank"></td><td>11,399</td><td>100.0</td><td>3,050</td><td>100.0</td><td>1,267</td><td>100.0</td><td>517</td><td>100.0</td><td>51</td><td>100.0</td><td>363</td><td>100.0</td><td>1,155</td><td>100.0</td><td>249</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">Under 10</th><td>4,323</td><td>23.9</td><td>23.9</td><td>2,649</td><td>23.2</td><td>736</td><td>24.1</td><td>391</td><td>30.9</td><td>115</td><td>22.2</td><td>19</td><td>37.3</td><td>105</td><td>28.9</td><td>239</td><td>20.7</td><td>69</td><td>27.7</td></tr>
+<tr><th class="stub" scope="row">10 to 19</th><td>1,703</td><td>9.4</td><td>33.3</td><td>1,137</td><td>10.0</td><td>202</td><td>6.6</td><td>143</td><td>11.3</td><td>63</td><td>12.2</td><td>3</td><td>5.9</td><td>61</td><td>16.8</td><td>67</td><td>5.8</td><td>27</td><td>10.8</td></tr>
+<tr><th class="stub" scope="row">20 to 29</th><td>1,323</td><td>7.3</td><td>40.6</td><td>887</td><td>7.8</td><td>148</td><td>4.9</td><td>118</td><td>9.3</td><td>38</td><td>7.4</td><td>3</td><td>5.9</td><td>52</td><td>14.3</td><td>53</td><td>4.6</td><td>24</td><td>9.6</td></tr>
+<tr><th class="stub" scope="row">30 to 39</th><td>948</td><td>5.3</td><td>45.9</td><td>611</td><td>5.4</td><td>121</td><td>4.0</td><td>94</td><td>7.4</td><td>30</td><td>5.8</td><td>1</td><td>2.0</td><td>31</td><td>8.5</td><td>52</td><td>4.5</td><td>8</td><td>3.2</td></tr>
+<tr><th class="stub" scope="row">40 to 49</th><td>675</td><td>3.7</td><td>49.6</td><td>459</td><td>4.0</td><td>88</td><td>2.9</td><td>49</td><td>3.9</td><td>18</td><td>3.5</td><td>2</td><td>3.9</td><td>11</td><td>3.0</td><td>39</td><td>3.4</td><td>9</td><td>3.6</td></tr>
+<tr><th class="stub" scope="row">50 to 59</th><td>775</td><td>4.3</td><td>53.9</td><td>489</td><td>4.3</td><td>119</td><td>3.9</td><td>61</td><td>4.8</td><td>34</td><td>6.6</td><td>0</td><td class="blank"></td><td>27</td><td>7.4</td><td>33</td><td>2.9</td><td>12</td><td>4.8</td></tr>
+<tr><th class="stub" scope="row">60 to 69</th><td>434</td><td>2.4</td><td>56.3</td><td>323</td><td>2.8</td><td>52</td><td>1.7</td><td>13</td><td>1.0</td><td>14</td><td>2.7</td><td>0</td><td class="blank"></td><td>9</td><td>2.5</td><td>20</td><td>1.7</td><td>3</td><td>1.2</td></tr>
+<tr><th class="stub" scope="row">70 to 79</th><td>405</td><td>2.2</td><td>58.5</td><td>260</td><td>2.3</td><td>65</td><td>2.1</td><td>16</td><td>1.3</td><td>14</td><td>2.7</td><td>1</td><td>2.0</td><td>8</td><td>2.2</td><td>31</td><td>2.7</td><td>10</td><td>4.0</td></tr>
+<tr><th class="stub" scope="row">80 to 89</th><td>316</td><td>1.8</td><td>60.3</td><td>221</td><td>1.9</td><td>50</td><td>1.6</td><td>20</td><td>1.6</td><td>7</td><td>1.4</td><td>0</td><td class="blank"></td><td>4</td><td>1.1</td><td>12</td><td>1.0</td><td>2</td><td>0.8</td></tr>
+<tr><th class="stub" scope="row">90 to 99</th><td>187</td><td>1.0</td><td>61.3</td><td>129</td><td>1.1</td><td>22</td><td>0.7</td><td>10</td><td>0.8</td><td>4</td><td>0.8</td><td>0</td><td class="blank"></td><td>9</td><td>2.5</td><td>11</td><td>1.0</td><td>2</td><td>0.8</td></tr>
+<tr><th class="stub" scope="row">100 to 109</th><td>753</td><td>4.2</td><td>65.5</td><td>451</td><td>4.0</td><td>142</td><td>4.7</td><td>59</td><td>4.7</td><td>20</td><td>3.9</td><td>10</td><td>19.6</td><td>7</td><td>1.9</td><td>51</td><td>4.4</td><td>13</td><td>5.2</td></tr>
+<tr><th class="stub" scope="row">110 to 119</th><td>121</td><td>0.7</td><td>66.2</td><td>92</td><td>0.8</td><td>21</td><td>0.7</td><td>2</td><td>0.2</td><td>5</td><td>1.0</td><td>0</td><td class="blank"></td><td>0</td><td class="blank"></td><td>1</td><td>0.1</td><td>0</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">120 to 129</th><td>280</td><td>1.6</td><td>67.8</td><td>188</td><td>1.6</td><td>33</td><td>1.1</td><td>20</td><td>1.6</td><td>8</td><td>1.5</td><td>1</td><td>2.0</td><td>3</td><td>0.8</td><td>27</td><td>2.3</td><td>0</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">130 to 139</th><td>110</td><td>0.6</td><td>68.4</td><td>82</td><td>0.7</td><td>15</td><td>0.5</td><td>2</td><td>0.2</td><td>1</td><td>0.2</td><td>2</td><td>3.9</td><td>0</td><td class="blank"></td><td>7</td><td>0.6</td><td>1</td><td>0.4</td></tr>
+<tr><th class="stub" scope="row">140 to 149</th><td>119</td><td>0.7</td><td>69.1</td><td>85</td><td>0.7</td><td>17</td><td>0.6</td><td>4</td><td>0.3</td><td>4</td><td>0.8</td><td>1</td><td>2.0</td><td>3</td><td>0.8</td><td>4</td><td>0.3</td><td>1</td><td>0.4</td></tr>
+<tr><th class="stub" scope="row">150 to 159</th><td>378</td><td>2.1</td><td>71.2</td><td>241</td><td>2.1</td><td>67</td><td>2.2</td><td>21</td><td>1.7</td><td>9</td><td>1.7</td><td>1</td><td>2.0</td><td>6</td><td>1.7</td><td>26</td><td>2.3</td><td>7</td><td>2.8</td></tr>
+<tr><th class="stub" scope="row">160 to 169</th><td>88</td><td>0.5</td><td>71.7</td><td>60</td><td>0.5</td><td>11</td><td>0.4</td><td>6</td><td>0.5</td><td>5</td><td>1.0</td><td>0</td><td class="blank"></td><td>3</td><td>0.8</td><td>3</td><td>0.3</td><td>0</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">170 to 179</th><td>126</td><td>0.7</td><td>72.4</td><td>89</td><td>0.8</td><td>25</td><td>0.8</td><td>2</td><td>0.2</td><td>3</td><td>0.6</td><td>0</td><td class="blank"></td><td>1</td><td>0.3</td><td>4</td><td>0.3</td><td>2</td><td>0.8</td></tr>
+<tr><th class="stub" scope="row">180 to 189</th><td>69</td><td>0.4</td><td>72.8</td><td>46</td><td>0.4</td><td>13</td><td>0.4</td><td>8</td><td>0.6</td><td>0</td><td class="blank"></td><td>0</td><td class="blank"></td><td>0</td><td class="blank"></td><td>2</td><td>0.2</td><td>0</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">190 to 199</th><td>29</td><td>0.2</td><td>73.0</td><td>23</td><td>0.2</td><td>2</td><td>0.1</td><td>2</td><td>0.2</td><td>0</td><td class="blank"></td><td>0</td><td class="blank"></td><td>0</td><td class="blank"></td><td>1</td><td>0.1</td><td>1</td><td>0.4</td></tr>
+<tr><th class="stub" scope="row">200 to 299</th><td>978</td><td>5.4</td><td>78.4</td><td>638</td><td>5.6</td><td>155</td><td>5.1</td><td>59</td><td>4.7</td><td>33</td><td>6.4</td><td>1</td><td>2.0</td><td>11</td><td>3.0</td><td>70</td><td>6.1</td><td>11</td><td>4.4</td></tr>
+<tr><th class="stub" scope="row">300 to 399</th><td>677</td><td>3.8</td><td>82.2</td><td>431</td><td>3.8</td><td>131</td><td>4.3</td><td>18</td><td>1.4</td><td>19</td><td>3.7</td><td>0</td><td class="blank"></td><td>0</td><td class="blank"></td><td>67</td><td>5.8</td><td>11</td><td>4.4</td></tr>
+<tr><th class="stub" scope="row">400 to 499</th><td>413</td><td>2.3</td><td>84.5</td><td>280</td><td>2.5</td><td>78</td><td>2.6</td><td>16</td><td>1.3</td><td>5</td><td>1.0</td><td>0</td><td class="blank"></td><td>2</td><td>0.6</td><td>28</td><td>2.4</td><td>4</td><td>1.6</td></tr>
+<tr><th class="stub" scope="row">500 to 599</th><td>382</td><td>2.1</td><td>86.6</td><td>229</td><td>2.0</td><td>81</td><td>2.7</td><td>13</td><td>1.0</td><td>12</td><td>2.3</td><td>0</td><td class="blank"></td><td>3</td><td>0.8</td><td>35</td><td>3.0</td><td>9</td><td>3.6</td></tr>
+<tr><th class="stub" scope="row">600 to 699</th><td>213</td><td>1.2</td><td>87.8</td><td>143</td><td>1.3</td><td>34</td><td>1.1</td><td>10</td><td>0.8</td><td>8</td><td>1.5</td><td>0</td><td class="blank"></td><td>1</td><td>0.3</td><td>15</td><td>1.3</td><td>2</td><td>0.8</td></tr>
+<tr><th class="stub" scope="row">700 to 799</th><td>153</td><td>0.8</td><td>88.6</td><td>104</td><td>0.9</td><td>23</td><td>0.8</td><td>7</td><td>0.6</td><td>6</td><td>1.2</td><td>0</td><td class="blank"></td><td>0</td><td class="blank"></td><td>13</td><td>1.1</td><td>0</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">800 to 899</th><td>168</td><td>0.9</td><td>89.5</td><td>103</td><td>0.9</td><td>33</td><td>1.1</td><td>5</td><td>0.4</td><td>3</td><td>0.6</td><td>0</td><td class="blank"></td><td>2</td><td>0.6</td><td>18</td><td>1.6</td><td>4</td><td>1.6</td></tr>
+<tr><th class="stub" scope="row">900 to 999</th><td>74</td><td>0.4</td><td>89.9</td><td>49</td><td>0.4</td><td>11</td><td>0.4</td><td>4</td><td>0.3</td><td>2</td><td>0.4</td><td>0</td><td class="blank"></td><td>1</td><td>0.3</td><td>6</td><td>0.5</td><td>1</td><td>0.4</td></tr>
+<tr><th class="stub" scope="row">1,000 to 1,999</th><td>676</td><td>3.7</td><td>93.6</td><td>356</td><td>3.1</td><td>174</td><td>5.7</td><td>49</td><td>3.9</td><td>16</td><td>3.1</td><td>2</td><td>3.9</td><td>1</td><td>0.3</td><td>74</td><td>6.4</td><td>4</td><td>1.6</td></tr>
+<tr><th class="stub" scope="row">2,000 to 2,999</th><td>272</td><td>1.5</td><td>95.1</td><td>145</td><td>1.3</td><td>80</td><td>2.6</td><td>10</td><td>0.8</td><td>8</td><td>1.5</td><td>1</td><td>2.0</td><td>0</td><td class="blank"></td><td>27</td><td>2.3</td><td>1</td><td>0.4</td></tr>
+<tr><th class="stub" scope="row">3,000 to 3,999</th><td>184</td><td>1.0</td><td>96.1</td><td>82</td><td>0.7</td><td>71</td><td>2.3</td><td>5</td><td>0.4</td><td>5</td><td>1.0</td><td>1</td><td>2.0</td><td>0</td><td class="blank"></td><td>17</td><td>1.5</td><td>3</td><td>1.2</td></tr>
+<tr><th class="stub" scope="row">4,000 to 4,999</th><td>91</td><td>0.5</td><td>96.6</td><td>41</td><td>0.4</td><td>30</td><td>1.0</td><td>1</td><td>0.1</td><td>1</td><td>0.2</td><td>0</td><td class="blank"></td><td>0</td><td class="blank"></td><td>16</td><td>1.4</td><td>2</td><td>0.8</td></tr>
+<tr><th class="stub" scope="row">5,000 to 9,999</th><td>264</td><td>1.5</td><td>98.1</td><td>123</td><td>1.1</td><td>89</td><td>2.9</td><td>9</td><td>0.7</td><td>3</td><td>0.6</td><td>2</td><td>3.9</td><td>1</td><td>0.3</td><td>35</td><td>3.0</td><td>2</td><td>0.8</td></tr>
+<tr><th class="stub" scope="row">Above 9,999</th><td>344</td><td>1.9</td><td>100.0</td><td>153</td><td>1.3</td><td>111</td><td>3.6</td><td>20</td><td>1.6</td><td>4</td><td>0.8</td><td>0</td><td class="blank"></td><td>1</td><td>0.3</td><td>51</td><td>4.4</td><td>4</td><td>1.6</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1970_p0203_t0.csv" download>Download this table (CSV)</a></p>
+<p class="check"><b>281 of 281</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 203.</b> The crop is cut off at the bottom: the row &quot;70 to 79&quot; is the last one shown (its digits are clipped at the lower edge but still legible), and the table clearly continues with further size classes on the rest of the page. No footnote text is visible in the crop, although markers are printed: superscript 1 on the caption and superscript 2 on the &quot;Total&quot; stub label, so footnotes 1 and 2 belong to this table but fall outside the crop.
+
+Column structure: 20 columns — stub, &quot;Total number of situations&quot;, two columns under the &quot;Total&quot; spanner (percent of all situations; cumulative percent of all situations), then two columns (number of situations; percent by size class) for each of CA, CB, CC, CD, CE, CP, CA-CB combinations, and Other C combinations.
+
+Cells rendered as &quot;&quot;: the cumulative-percent cell of the &quot;Total^2&quot; row holds a dash rule, and the CE &quot;Percent by size class&quot; cells for &quot;50 to 59&quot; and &quot;60 to 69&quot; hold dash rules (their CE &quot;Number of situations&quot; cells are printed 0, transcribed as 0).
+
+Typesetting leaves a space after the digit-grouping comma throughout (e.g. &quot;18, 051&quot;, &quot;1, 267&quot;); these are written without the space. &quot;CA-CB combinations&quot; is printed with an en dash between CA and CB; transcribed as a hyphen.
+
+Arithmetic check (not used to alter any cell): every data row&#x27;s eight type-of-situation counts sum to its total-situations figure, the eight column totals sum to 18,051, and the cumulative-percent column is the running sum of the percent column — all consistent as transcribed.</p>
+<p><b>p. 204.</b> This crop is a continuation page: it carries no column headings and no caption, so header_rows is empty. The grid has 20 columns, read off the column rules: the stub, then a three-column group (count, percent, cumulative percent), then eight two-column groups (count, percent). The body begins mid-table at &quot;80 to 89&quot; (earlier size classes are on the preceding page) and ends at &quot;Above 9,999&quot;, which is closed by the table&#x27;s bottom rule, so the table ends here; no footnotes are printed on this crop.
+
+Cells printed as a short dashed rule (&quot;------&quot;), which this table uses in the percent column wherever the paired count is 0, are transcribed as &quot;&quot;.
+
+The 1-bit scan drops or faints the decimal point in a number of cells; I read the period as present because the surrounding type and the column&#x27;s one-decimal format make it unambiguous. Affected cells (row label, column counted from the stub as 0): &quot;140 to 149&quot; col 17 (&quot;0 3&quot; -&gt; 0.3); &quot;180 to 189&quot; col 2 (&quot;0 4&quot; -&gt; 0.4) and col 17 (&quot;0 2&quot; -&gt; 0.2); &quot;600 to 699&quot; col 3 (&quot;87 8&quot; -&gt; 87.8), col 7 (&quot;1 1&quot; -&gt; 1.1) and col 9 (&quot;0 8&quot; -&gt; 0.8); &quot;900 to 999&quot; col 9 (&quot;0 3&quot; -&gt; 0.3); &quot;1,000 to 1,999&quot; col 15 (&quot;0 3&quot; -&gt; 0.3); &quot;4,000 to 4,999&quot; col 9 (&quot;0 1&quot; -&gt; 0.1); &quot;5,000 to 9,999&quot; col 3 (&quot;98 1&quot; -&gt; 98.1); &quot;Above 9,999&quot; col 3 (&quot;100 0&quot; -&gt; 100.0). The cumulative-percent column (col 3) is monotonic across all these readings, ending at 100.0. Several cells also show a space after the decimal point (&quot;2. 5&quot; at &quot;90 to 99&quot; col 15); the space is closed up, as with digit-grouping commas.
+
+As a check on column placement, the eight group counts in every row were cross-footed against the total count in col 1: all 26 rows sum exactly (e.g. &quot;100 to 109&quot;: 451+142+59+20+10+7+51+13 = 753; &quot;Above 9,999&quot;: 153+111+20+4+0+1+51+4 = 344). No misprints or internal inconsistencies were found.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1970_p0203_t0_p0203.webp" loading="lazy" alt="Source page 203 of NLRB FY1970 annual report">
+<figcaption>Source: NLRB Annual Report FY1970, p. 203.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1970_p0203_t0_p0204.webp" loading="lazy" alt="Source page 204 of NLRB FY1970 annual report">
+<figcaption>Source: NLRB Annual Report FY1970, p. 204.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

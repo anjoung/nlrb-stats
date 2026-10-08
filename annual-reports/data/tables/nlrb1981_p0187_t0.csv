@@ -1,34 +1,20 @@
-row_label,Left block / Number of cases showing specific allegations,Left block / Percent of total cases,Right block / Number of cases showing specific allegations,Right block / Percent of total cases
-A. Charges filed against employers under sec. 8(a),,,,
-Total cases,31273,100.0,,
-8(a) — individual subsection breakdown rows,,,,
-8(a)(1),31273,100.0,,
-8(a)(2),969,3.1,,
-8(a)(3),17571,56.2,,
-8(a)(4),1409,4.5,,
-8(a)(5),9815,31.4,,
-B. Charges filed against unions under sec. 8(b),,,,
-Total cases (sec. 8(b)),11882,100.0,,
-8(b) — individual subsection breakdown rows,,,,
-"(right block, top): 8(b)(1)",,,8382,70.5
-8(b)(2),,,1513,12.7
-8(b)(3),,,945,8.0
-8(b)(4),,,2392,20.1
-8(b)(5),,,37,0.3
-8(b)(6),,,40,0.3
-8(b)(7),,,454,3.8
-B1. Analysis of 8(b)(4) — Total cases,,,2392,100.0
-B1 — 8(b)(4) subsection breakdown rows,,,,
-8(b)(4)(A),,,359,15.0
-8(b)(4)(B),,,1724,72.1
-8(b)(4)(C),,,42,1.8
-8(b)(4)(D),,,442,18.5
-B2. Analysis of 8(b)(7) — Total cases,,,454,100.0
-B2 — 8(b)(7) subsection breakdown rows,,,,
-8(b)(7)(A),,,110,24.2
-8(b)(7)(B),,,28,6.2
-8(b)(7)(C),,,326,71.8
-C. Charges filed under sec. 8(e) — Total cases,,,131,100.0
-Against unions alone,,,130,99.2
-Against employers alone,,,1,0.8
-D. Charges filed under sec. 8(g) — Total cases,,,35,100.0
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+RC cases,,,,,,,
+"Pending October 1, 1980","2,748","1,672",703,178,178,17,
+Received fiscal 1981,"9,332","5,443","2,720",416,712,41,
+On docket fiscal 1981,"12,080","7,115","3,423",594,890,58,
+Closed fiscal 1981,"8,904","5,222","2,629",400,612,41,
+"Pending September 30, 1981","3,176","1,893",794,194,278,17,
+RM cases,,,,,,,
+"Pending October 1, 1980",159,,,,,,159
+Received fiscal 1981,727,,,,,,727
+On docket fiscal 1981,886,,,,,,886
+Closed fiscal 1981,606,,,,,,606
+"Pending September 30, 1981",280,,,,,,280
+RD cases,,,,,,,
+"Pending October 1, 1980",339,2,0,1,2,334,
+Received fiscal 1981,"1,731",7,5,1,7,"1,711",
+On docket fiscal 1981,"2,070",9,5,2,9,"2,045",
+Closed fiscal 1981,"1,604",8,4,1,9,"1,582",
+"Pending September 30, 1981",466,1,1,1,0,463,

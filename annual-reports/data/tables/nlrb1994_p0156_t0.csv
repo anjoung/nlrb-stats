@@ -1,4 +1,25 @@
-row_label,Court of appeals circuit (headquarters),Total cases fiscal years 1949-1994,Affirmed in full / Fiscal year 1994,Affirmed in full / Num- ber,Affirmed in full / Cumulative fiscal years 1949-1994 Per- centage,Modified / Fiscal year 1994,Modified / Num- ber,Modified / Cumulative fiscal years 1949-1994 Per- centage,Remanded / Fiscal year 1994,Remanded / Num- ber,Remanded / Cumulative fiscal years 1949-1994 Per- centage,Affirmed in part and remanded in part / Fiscal year 1994,Affirmed in part and remanded in part / Num- ber,Affirmed in part and remanded in part / Cumulative fiscal years 1949-1994 Per- centage,Set aside / Fiscal year 1994,Set aside / Num- ber,Set aside / Cumulative fiscal years 1949-1994 Per- centage
-Total all circuits,142,859,89,62.7,56,15,10.6,7.7,11,4.9,6,4.2,31,3.6,14.8,69,8.0
-"1. Boston, MA",4,20,3,75.0,,,,,,,,,,,1,5,5.0
-"2. New York, NY",14,86,9,57.0,,,,,,,,,,,,,
+,Fiscal Year 1994,Fiscal Year 1994,Fiscal Year 1994,Fiscal Year 1994,Fiscal Year 1994,Fiscal Year 1994,Fiscal Year 1994,Fiscal Year 1994,Fiscal Year 1994,"July 5, 1935–Sept. 30, 1994","July 5, 1935–Sept. 30, 1994"
+,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Percentages,Percentages,Percentages,Percentages,"July 5, 1935–Sept. 30, 1994","July 5, 1935–Sept. 30, 1994"
+,Total,Vs. employers only,Vs. unions only,Vs. both employers and unions,Board dismissal,Vs. employers only,Vs. unions only,Vs. both employers and unions,Board dismissal,Number,Percent
+Proceedings decided by U.S. courts of appeals,162,145,14,2,1,,,,,,
+On petitions for review and/or enforcement,142,128,11,2,1,100.0,100.0,100.0,,"10,659",100.0
+Board orders affirmed in full,89,79,8,2,0,61.7,72.7,100.0,,"7,023",65.9
+Board orders affirmed with modification,15,14,1,0,0,10.9,9.1,,,"1,444",13.5
+Remanded to Board,11,11,0,0,0,8.6,,,,529,5.0
+Board orders partially affirmed and partially remanded,6,6,0,0,0,4.7,,,,217,2.0
+Board orders set aside,21,18,2,0,1,14.1,18.2,,,"1,446",13.6
+On petitions for contempt,20,17,3,0,0,100.0,100.0,,,,
+"Compliance after filing of petition, before court order",3,3,0,0,0,17.6,,,,,
+Court orders holding respondent in contempt,12,11,1,0,0,64.7,33.3,,,,
+Court orders denying petition,0,0,0,0,0,,,,,,
+Court orders directing compliance without contempt adjudication,4,2,2,0,0,11.8,66.7,,,,
+Contempt petitions withdrawn without compliance,1,1,0,0,0,5.9,,,,,
+Proceedings decided by U.S Supreme Court,2,2,0,0,0,100.0,,,,253,100.0
+Board orders affirmed in full,1,1,0,0,0,50.0,,,,152,60.1
+Board orders affirmed with modification,0,0,0,0,0,,,,,18,7.1
+Board orders set aside,1,1,0,0,0,50.0,,,,45,17.8
+Remanded to Board,0,0,0,0,0,,,,,19,7.5
+Remanded to court of appeals,0,0,0,0,0,,,,,16,6.3
+Board's request for remand or modification of enforcement order denied,0,0,0,0,0,,,,,1,0.4
+Contempt cases remanded to court of appeals,0,0,0,0,0,,,,,1,0.4
+Contempt cases enforced,0,0,0,0,0,,,,,1,0.4

@@ -1,25 +1,11 @@
-Method and stage of disposition,All R cases / Number of cases,All R cases / Percent of cases closed,RC cases 1 / Number of cases,RC cases 1 / Percent of cases closed,RM cases 1 / Number of cases,RM cases 1 / Percent of cases closed,RD cases 1 / Number of cases,RD cases 1 / Percent of cases closed
-Total number of cases closed,10218,100 0,8853,100 0,763,100 0,602,100.0
-Consent election,2834,27 7,2584,29 2,158,20 7,92,15 3
-Before notice of hearing (Consent election),1965,19 2,1789,20 2,121,15 8,55,9 1
-"After notice of hearing, before hearing opened (Consent election)",750,7 3,685,7 7,31,4 1,34,5.7
-"After hearing opened, before Board decision (Consent election)",119,1 2,110,1 3,6,.8,3,.5
-Stipulated election,1898,18 6,1764,19 9,95,12 5,39,6 5
-Before notice of hearing (Stipulated election),890,8 7,821,9 3,55,7 2,14,2 3
-"After notice of hearing, before hearing opened (Stipulated election)",712,7 0,671,7 5,27,3.6,14,2.3
-"After hearing opened, before Board decision (Stipulated election)",122,1 2,114,1 3,5,.7,3,.5
-After postelection decision (Stipulated election),174,1 7,158,1 8,8,1.0,8,1 4
-Regional director-directed election,35,.3,15,.1,20,2 6,,
-Before notice of hearing (Regional director-directed election),32,.3,13,.1,19,2 5,,
-"After notice of hearing, before hearing opened (Regional director-directed election)",3,,2,,1,.1,,
-Withdrawn,2478,24 3,2024,22 9,261,34 2,193,32 0
-Before notice of hearing (Withdrawn),1506,14 7,1178,13 3,184,24 1,144,23 9
-"After notice of hearing, before hearing opened (Withdrawn)",660,6 5,567,6 4,58,7 6,35,5.8
-"After hearing opened, before Board decision (Withdrawn)",160,1 6,139,1 6,10,1 3,11,1.8
-After Board decision and direction of election (Withdrawn),152,1 5,140,1 6,9,1 2,3,.5
-Dismissed,1063,10 4,750,8 5,143,18 7,170,28 2
-Before notice of hearing (Dismissed),616,6 0,413,4 7,80,10 5,123,20 4
-"After notice of hearing, before hearing opened (Dismissed)",67,.7,47,.6,8,1 0,12,2 0
-"After hearing opened, before Board decision (Dismissed)",30,.3,15,.1,8,1.0,7,1 2
-By Board decision (Dismissed),350,3 4,275,3 1,47,6 0,28,4 6
-Board-ordered election,1910,18 7,1716,19 4,86,11 3,108,18 0
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CP cases,CP cases
+Stage of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"11,924",100.0,"7,924",100.0,"2,957",100.0,651,100.0,193,100.0,15,100.0,184,100.0
+Before issuance of complaint,"10,309",86.5,"6,909",87.2,"2,514",85.0,509,78.1,185,95.9,15,100.0,177,96.2
+"After issuance of complaint, before opening of hearing",767,6.4,492,6.2,204,6.9,62,9.5,2,1.0,0,.0,7,3.8
+"After hearing opened, before issuance of intermediate report",185,1.6,118,1.5,41,1.4,22,3.4,4,2.1,0,.0,0,.0
+"After intermediate report, before issuance of Board decision",116,1.0,81,1.0,32,1.1,3,.5,0,.0,0,.0,0,.0
+After Board order adopting intermediate report in absence of exceptions,117,1.0,69,.9,47,1.6,1,.2,0,.0,0,.0,0,.0
+"After Board decision, before court decree",275,2.3,165,2.1,76,2.5,32,4.9,2,1.0,0,.0,0,.0
+"After circuit court decree, before Supreme Court action",135,1.1,76,1.0,39,1.3,20,3.1,0,.0,0,.0,0,.0
+After Supreme Court action,20,.1,14,.1,4,.2,2,.3,0,.0,0,.0,0,.0

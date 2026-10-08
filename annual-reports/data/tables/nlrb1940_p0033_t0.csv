@@ -1,3 +1,39 @@
-NLRB Region,Total number of cases on docket,Total number of cases closed during fiscal year,Cases closed before formal action — Total,Cases closed before formal action — Settled — Consent election,Cases closed before formal action — Settled — Recognition of representatives,Cases closed before formal action — Settled — Pay-roll check,Cases closed before formal action — Dismissed,Cases closed before formal action — Withdrawn,Cases closed before formal action — Otherwise closed before formal action,Cases closed after formal action — Total,Cases closed after formal action — Before Board decision (multiple settlement / dismissal / withdrawal cells),Cases closed after formal action — After Board decision — Certification,Cases closed after formal action — After Board decision — Dismissed,Cases closed after formal action — Otherwise closed after formal action,"Cases pending end of fiscal year (Jun 30, 1940)"
-1. Boston,157,127,107,48,,,,,,30,,,,,30
-Total,3464,2690,,,,,,,,,,,,,754
+Docket record and method of disposition,Total number of cases,Total number of workers involved,A. F. of L. affiliates,A. F. of L. affiliates,C. I. O. affiliates,C. I. O. affiliates,Unaffiliated unions,Unaffiliated unions,Employers,Employers
+Docket record and method of disposition,Total number of cases,Total number of workers involved,Number of cases,Number of workers involved,Number of cases,Number of workers involved,Number of cases,Number of workers involved,Number of cases,Number of workers involved
+"Cases pending June 30, 1939","1,211","494,317",479,"84,797",506,"287,883",226,"121,637",,
+"Cases received July 1, 1939–June 30, 1940","2,243","400,484","1,133","130,334",758,"202,300",279,"55,852",74,"11,998"
+Total cases on docket during fiscal year,"3,454","894,801","1,612","215,131","1,264","490,183",505,"177,489",74,"11,998"
+"Cases closed before formal action, total","1,966","382,958",973,"122,806",684,"171,278",265,"78,981",45,"9,893"
+Settled:,,,,,,,,,,
+Consent election,603,"116,098",303,"37,772",257,"66,287",33,"9,045",11,"2,994"
+Recognition of representatives,189,"13,152",120,"6,550",49,"5,334",19,"1,068",1,200
+Pay roll check,177,"17,060",92,"9,286",65,"7,325",20,449,,
+Dismissed,314,"113,581",132,"36,619",74,"32,921",87,"38,288",21,"5,753"
+Withdrawn,677,"115,763",323,"32,352",238,"59,334",105,"23,131",11,946
+Otherwise closed before formal action,6,"7,304",3,227,1,77,1,"7,000",1,[2]
+"Cases closed after formal action, total",724,"232,411",292,"44,867",320,"145,427",101,"41,756",11,361
+Before hearing:,,,,,,,,,,
+Settled:,,,,,,,,,,
+Consent election,19,"2,482",10,"1,006",8,"1,476",1,[2],,
+Recognition of representatives,5,443,2,238,2,205,1,[2],,
+Pay roll check,4,665,3,410,,,1,255,,
+Dismissed,2,60,,,1,45,,,1,15
+Withdrawn,18,"3,831",4,[2],9,"3,613",4,168,1,50
+After hearing:,,,,,,,,,,
+Settled:,,,,,,,,,,
+Consent election,11,"2,340",3,150,7,"1,090",1,"1,100",,
+Recognition of representatives,3,"1,225",1,525,2,700,,,,
+Pay roll check,,,,,,,,,,
+Dismissed,6,202,2,[2],4,202,,,,
+Withdrawn,36,"5,059",26,589,6,"1,571",4,"2,899",,
+After Board decision:,,,,,,,,,,
+Certification:,,,,,,,,,,
+Without election,44,"11,771",9,163,12,"7,173",23,"4,435",,
+After election,370,"134,961",152,"31,794",168,"78,062",43,"24,883",7,222
+Dismissed:,,,,,,,,,,
+Without election,102,"46,889",36,"5,296",49,"34,708",15,"6,811",2,74
+After election,66,"13,335",27,"2,934",33,"9,286",6,"1,115",,
+Withdrawn,30,"4,957",13,"1,295",17,"3,662",,,,
+Otherwise closed after formal action,8,"4,191",4,467,2,"3,634",2,90,,
+Total cases closed during fiscal year,"2,690","615,369","1,265","167,673","1,004","316,705",366,"120,737",56,"10,254"
+"Cases pending June 30, 1940",764,"279,432",347,"47,458",260,"173,478",139,"56,752",18,"1,744"

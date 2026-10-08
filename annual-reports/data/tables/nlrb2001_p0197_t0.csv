@@ -1,7 +1,31 @@
-Type of Litigation,Total all courts — Number decided,Total all courts — Upholding Board position,Total all courts — Contrary to Board position,In courts of appeals — Number decided,In courts of appeals — Upholding Board position,In courts of appeals — Contrary to Board position,In district courts — Number decided,In district courts — Upholding Board position,In district courts — Contrary to Board position,In bankruptcy courts — Number decided,In bankruptcy courts — Upholding Board position,In bankruptcy courts — Contrary to Board position,In state courts — Number decided,In state courts — Upholding Board position,In state courts — Contrary to Board position
+Type of Litigation,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings,Number of Proceedings
+Type of Litigation,Total – all courts,Total – all courts,Total – all courts,In courts of appeals,In courts of appeals,In courts of appeals,In district courts,In district courts,In district courts,In bankruptcy courts,In bankruptcy courts,In bankruptcy courts,In state courts,In state courts,In state courts
+Type of Litigation,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination,Number decided,Court Determination,Court Determination
+Type of Litigation,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position
+Totals—all types,17,17,0,5,5,0,12,12,0,0,0,0,0,0,0
+NLRB—initiated actions or interventions,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+For protective order or to quash district court subpoena,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+To enforce subpoena or contempt of subpoena,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+To enjoin local ordinance as preempted,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Action by other parties,16,16,0,5,5,0,11,11,0,0,0,0,0,0,0
+To review:,5,5,0,3,3,0,2,2,0,0,0,0,0,0,0
+Prosecutorial discretion,5,5,0,3,3,0,2,2,0,0,0,0,0,0,0
+Nonfinal/representation order,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+To restrain NLRB from:,3,3,0,1,1,0,2,2,0,0,0,0,0,0,0
+Enforcing Board subpoenas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Proceeding in R case,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+Proceeding in unfair labor practice case,2,2,0,0,0,0,2,2,0,0,0,0,0,0,0
+To compel NLRB to:,4,4,0,1,1,0,3,3,0,0,0,0,0,0,0
+Issue complaint,2,2,0,1,1,0,1,1,0,0,0,0,0,0,0
+Take action in R case,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Comply with Freedom of Information Act (FOIA) (in camera inspection),1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+Joinder,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+To issue decision or take specific action,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Other,4,4,0,0,0,0,4,4,0,0,0,0,0,0,0
 Objection to Board's proof of claim,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Intervention in § 301 suit,2,2,0,0,0,0,2,2,0,0,0,0,0,0,0
 EAJA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Denying attorney's fees in FOIA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Suit for violation of constitutional rights,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+Federal Tort Claims Act,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 State claims preempted by Sec. 8(b)(4) and Sec. 303,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0

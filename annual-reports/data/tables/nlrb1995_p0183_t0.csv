@@ -1,2 +1,38 @@
-Size of establishments (Number of employees),Total cases received,Total cases received / Percent of all establish- ments,Total cases received / Percent by class,Type of situation CA / Num- ber,Type of situation CA / Percent by class,Type of situation CB / Num- ber,Type of situation CB / Percent by class,Type of situation CC / Num- ber,Type of situation CC / Percent by class,Type of situation CD / Num- ber,Type of situation CD / Percent by class,Type of situation CE / Num- ber,Type of situation CE / Percent by class,Type of situation CG / Num- ber,Type of situation CG / Percent by class,Type of situation CP / Num- ber,Type of situation CP / Percent by class,Type of situation CA+CB combinations / Num- ber,Type of situation CA+CB combinations / Percent by class,Other C combinations / Num- ber,Other C combinations / Percent by class
-Total (all establishments),,,,,,,,,,,,,,,,,,,,,
+Size of establishment (number of employees),Total number of situations,Total,Total,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations
+Size of establishment (number of employees),Total number of situations,Percent of all situations,Cumulative percent of all situations,CA,CA,CB,CB,CC,CC,CD,CD,CE,CE,CG,CG,CP,CP,CA-CB combinations,CA-CB combinations,Other C combinations,Other C combinations
+Size of establishment (number of employees),Total number of situations,Percent of all situations,Cumulative percent of all situations,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class
+Totals,"31,180",100.0,,"23,734",100.0,"6,023",100.0,405,100.0,184,100.0,19,100.0,22,100.0,84,100.0,682,100.0,27,100.0
+Under 10,"3,294",10.6,10.6,"2,548",10.7,565,9.4,64,15.8,50,27.2,6,31.6,0,,16,19.0,41,6.0,4,14.8
+10-19,"2,795",9.0,19.6,"2,238",9.4,400,6.6,58,14.3,35,19.0,3,15.8,1,4.5,18,21.4,37,5.4,5,18.5
+20-29,"2,280",7.3,26.9,"1,823",7.7,316,5.2,69,17.0,23,12.5,1,5.3,1,4.5,12,14.3,34,5.0,1,3.7
+30-39,"1,619",5.2,32.1,"1,306",5.5,234,3.9,21,5.2,14,7.6,0,,0,,10,11.9,28,4.2,6,22.3
+40-49,"1,246",4.0,36.1,"1,030",4.3,166,2.8,17,4.2,5,2.8,1,5.3,0,,8,9.6,17,2.5,2,7.4
+50-59,"1,851",5.9,42.0,"1,447",6.1,326,5.4,23,5.7,7,3.8,1,5.3,0,,6,7.1,39,5.7,2,7.4
+60-69,882,2.8,44.8,728,3.1,127,2.1,4,1.0,4,2.2,0,,0,,0,,19,2.8,0,
+70-79,833,2.7,47.5,666,2.9,133,2.2,7,1.7,5,2.8,1,5.3,0,,2,2.4,19,2.8,0,
+80-89,617,2.0,49.5,498,2.1,103,1.7,4,1.0,2,1.1,0,,0,,0,,10,1.5,0,
+90-99,319,1.0,50.5,285,1.2,30,0.5,3,0.7,0,,0,,0,,0,,1,0.1,0,
+100-109,"2,338",7.5,58.0,"1,640",6.9,593,9.8,28,6.9,11,6.1,1,5.3,4,18.3,7,8.3,52,7.6,2,7.4
+110-119,253,0.8,58.8,231,1.0,18,0.3,0,,0,,0,,0,,0,,4,0.6,0,
+120-129,558,1.8,60.6,462,1.9,76,1.3,0,,2,1.1,0,,3,13.7,1,1.2,12,1.8,2,7.4
+130-139,259,0.8,61.4,215,0.9,36,0.6,4,1.0,1,0.5,0,,0,,0,,3,0.4,0,
+140-149,179,0.6,62.0,152,0.6,19,0.3,4,1.0,1,0.5,1,5.3,0,,0,,2,0.3,0,
+150-159,759,2.4,64.4,594,2.5,141,2.3,8,2.0,2,1.1,1,5.3,2,9.1,1,1.2,10,1.5,0,
+160-169,202,0.6,65.0,175,0.7,26,0.4,0,,0,,0,,0,,0,,1,0.1,0,
+170-179,186,0.6,65.6,158,0.7,27,0.4,0,,0,,0,,0,,0,,1,0.1,0,
+180-189,191,0.6,66.2,153,0.6,34,0.6,1,0.2,1,0.5,0,,1,4.5,0,,1,0.1,0,
+190-199,69,0.2,66.4,57,0.2,11,0.2,0,,1,0.5,0,,0,,0,,0,,0,
+200-299,"2,100",6.7,73.1,"1,559",6.6,470,7.8,14,3.6,7,3.8,0,,1,4.5,0,,47,6.9,2,7.4
+300-399,"1,380",4.4,77.5,987,4.2,322,5.3,14,3.6,2,1.1,2,10.2,0,,1,1.2,52,7.6,0,
+400-499,826,2.6,80.1,598,2.5,193,3.2,10,2.5,2,1.1,0,,2,9.1,0,,21,3.1,0,
+500-599,927,3.0,83.1,601,2.5,286,4.7,13,3.2,3,1.6,0,,0,,0,,24,3.5,0,
+600-699,381,1.2,84.3,277,1.2,88,1.5,1,0.2,1,0.5,0,,0,,0,,14,2.1,0,
+700-799,317,1.0,85.3,223,0.9,76,1.3,0,,0,,0,,0,,0,,18,2.6,0,
+800–899,268,0.9,86.2,190,0.8,68,1.1,1,0.2,1,0.5,0,,0,,0,,8,1.2,0,
+900–999,127,0.4,86.6,73,0.3,42,0.7,1,0.2,0,,0,,1,4.5,2,2.4,8,1.2,0,
+"1,000–1,999","1,814",5.8,92.4,"1,212",5.1,511,8.6,23,5.7,3,1.6,1,5.3,5,22.8,0,,58,8.5,1,3.7
+"2,000–2,999",746,2.4,94.8,517,2.2,194,3.2,3,0.7,1,0.5,0,,0,,0,,31,4.5,0,
+"3,000–3,999",350,1.1,95.9,214,0.9,112,1.9,2,0.5,0,,0,,1,4.5,0,,21,3.1,0,
+"4,000–4,999",151,0.5,96.4,90,0.5,52,0.9,3,0.7,0,,0,,0,,0,,6,0.9,0,
+"5,000–9,999",499,1.7,98.1,351,1.5,121,2.0,3,0.7,0,,0,,0,,0,,24,3.5,0,
+"Over 9,999",564,1.9,100.0,436,1.8,107,1.8,2,0.5,0,,0,,0,,0,,19,2.8,0,

@@ -1,12 +1,31 @@
-row_label,col_1,col_2,col_3,col_4
-"Eligible voters, total Valid votes, total","778,724 674,412","335,628 291,257",187142,255954
-RC cases; total,6612,,165494,217661
-,,4172,808,1632
-Eligible voters,746817,314934,180566,251317
-Valid votes,647371,274063,159548,213760
-"RMcases,4 total",153,98,27,28
-Eligible voters,24529,16122,6403,2004
-Valid votes,20507,13190,5789,1528
-"RD cases,4 total",101,49,4,48
-Eligible voters,7378,4572,173,2633
-Valid votes,6534,4004,157,2373
+Stage and method,All R cases,All R cases,RC cases,RC cases,RM cases,RM cases,RD cases,RD cases
+Stage and method,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"10,603",100.0,"9,728",100.0,482,100.0,393,100.0
+"Before formal action, total","7,590",71.6,"6,949",71.4,361,74.9,280,71.2
+Adjusted,"4,728",,"4,544",,145,,39,
+Consent election,"3,945",,"3,809",,99,,37,
+Stipulated election,657,,626,,29,,2,
+Recognition,126,,109,,17,,,
+Withdrawn,"2,226",,"1,953",,135,,138,
+Dismissed,621,,439,,80,,102,
+Closed otherwise,15,,13,,1,,1,
+"After formal action, total","3,013",28.4,"2,779",28.6,121,25.1,113,28.8
+Before hearing,650,6.1,583,6.0,37,7.7,30,7.7
+Adjusted,345,,325,,13,,7,
+Consent election,233,,221,,6,,6,
+Stipulated election,103,,98,,4,,1,
+Recognition,9,,6,,3,,,
+Withdrawn,282,,248,,16,,18,
+Dismissal,23,,10,,8,,5,
+After hearing,318,3.0,296,3.1,11,2.3,11,2.8
+Adjusted,190,,180,,6,,4,
+Consent election,120,,113,,4,,3,
+Stipulated election,68,,66,,1,,1,
+Recognition,2,,1,,1,,,
+Withdrawn,114,,107,,1,,6,
+Dismissal,14,,9,,4,,1,
+After Board decision,"2,045",19.3,"1,900",19.5,73,15.1,72,18.3
+Board-ordered election,"1,604",,"1,519",,36,,49,
+Dismissal without election,290,,232,,37,,21,
+Withdrawn,137,,136,,0,,1,
+Stipulated election and post-election hearing and decision,14,,13,,0,,1,

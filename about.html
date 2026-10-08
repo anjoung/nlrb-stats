@@ -140,6 +140,12 @@ h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 </p>
 
 </div>
+<section class="about" id="methods">
+<h2>How the tables were read</h2>
+<p>Every table page of the 74 Annual Reports (1936&ndash;2009) was cropped from the scanned page and read by a vision model (Claude Opus, <code>claude-opus-5</code>, effort <code>max</code>) with a fixed prompt, one page at a time; a table that runs over several pages is stitched back into one grid, headings as the first page prints them. 4,420 pages were read in all.</p>
+<p>On 40 held-out tables checked by hand (25,194 cells), the model read 25,191 cells correctly. Because the checked tables were themselves corrected from the model&rsquo;s reading, the independent check is each table&rsquo;s own arithmetic, which no model touched: across the archive, 94.2% of the 508,691 whole-number cells sit in a row or column sum that works out, and 912 cells (0.18%) break one &mdash; a misread or a misprint in the report, named on the table&rsquo;s page. Cells outside any sum, labels, percentages and the lists of cases are not checked that way.</p>
+<p>Shown as printed: footnote markers are dropped from cells, a parenthesised figure appears in square brackets, a dash or blank is blank, and a decimal point the scan lost is restored where the column vouches for it. Figures (charts and maps) are shown as images only.</p>
+</section>
 <p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026. &middot; <a href="https://nlrb.andrewjoung.com">nlrb.andrewjoung.com</a></p>
 </div>
 </body>

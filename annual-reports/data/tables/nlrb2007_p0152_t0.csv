@@ -1,1 +1,21 @@
-row_label
+Type of election,All R elections,All R elections,All R elections,All R elections,RC elections,RC elections,RC elections,RC elections,RM elections,RM elections,RM elections,RM elections,RD elections,RD elections,RD elections,RD elections
+Type of election,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted
+Type of election,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification
+All representation elections,"1,973",58,38,"1,877","1,583",53,33,"1,497",22,0,0,22,368,5,5,358
+Rerun required,,,36,,,,31,,,,0,,,,5,
+Runoff required,,,2,,,,2,,,,0,,,,0,
+Consent elections,95,2,3,90,77,1,2,74,0,0,0,0,18,1,1,16
+Rerun required,,,3,,,,2,,,,0,,,,1,
+Runoff required,,,0,,,,0,,,,0,,,,0,
+Stipulated elections,"1,594",26,25,"1,543","1,274",22,22,"1,230",15,0,0,15,305,4,3,298
+Rerun required,,,23,,,,20,,,,0,,,,3,
+Runoff required,,,2,,,,2,,,,0,,,,0,
+Regional Director-directed,282,30,10,242,231,30,9,192,6,0,0,6,45,0,1,44
+Rerun required,,,10,,,,9,,,,0,,,,1,
+Runoff required,,,0,,,,0,,,,0,,,,0,
+Board-directed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rerun required,,,0,,,,,,,,,,,,,
+Runoff required,,,0,,,,,,,,,,,,,
+Expedited-Sec. 8(b)(7)(C),2,0,0,2,1,0,0,1,1,0,0,1,0,0,0,0
+Rerun required,,,0,,,,0,,,,0,,,,,
+Runoff required,,,0,,,,0,,,,0,,,,,

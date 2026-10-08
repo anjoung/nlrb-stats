@@ -1,20 +1,16 @@
-row_label,Total proceedings,"Pending in district court Oct. 1, 1999",Filed in district court fiscal year 2000,Total dispositions,Granted,Denied,Settled,Withdrawn,Pending
-Under Sec. 10(e) total,0,0,0,0,0,0,0,0,0
-Under Sec. 10(j) total,54,7,47,45,20,11,8,6,9
-8(a)(1),1,0,1,1,0,0,1,0,0
-8(a)(1)(2)(3)(5),1,0,1,1,1,0,0,0,0
-8(a)(1)(3),12,1,11,10,4,2,1,3,2
-8(a)(1)(3)(4),1,1,0,1,0,1,0,0,0
-8(a)(1)(3)(4)(5),2,1,1,2,2,0,0,0,0
-8(a)(1)(3)(5),20,2,18,15,5,4,3,3,5
-8(a)(1)(4),1,0,1,1,1,0,0,0,0
-8(a)(1)(5),16,2,14,14,7,4,3,0,2
-Under Sec. 10(l) total,13,3,10,8,5,1,1,1,4
-8(b)(4)(B),3,1,2,2,1,1,0,0,1
-8(b)(4)(D),1,0,1,1,1,0,0,0,0
-8(b)(4)(B) 8(b)(7)(C),1,1,0,0,0,0,0,0,1
-8(b)(4)(B)(D)8(b)(7)(A),1,0,1,1,1,0,0,0,0
-8(b)(7)(A),2,1,1,1,0,0,0,1,1
-8(b)(7)(A)(C),1,0,1,0,0,0,0,0,1
-8(b)(7)(B)(C),1,0,1,0,0,0,1,0,1
-8(b)(7)(C),3,0,3,3,1,0,0,0,0
+Circuit courts of appeals (headquarters),Total fiscal year 2000,Total fiscal years 1995-1999,Affirmed in full,Affirmed in full,Affirmed in full,Affirmed in full,Modified,Modified,Modified,Modified,Remanded in full,Remanded in full,Remanded in full,Remanded in full,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Set aside,Set aside,Set aside,Set aside
+Circuit courts of appeals (headquarters),Total fiscal year 2000,Total fiscal years 1995-1999,Fiscal Year 2000,Fiscal Year 2000,Cumulative fiscal years 1995-1999,Cumulative fiscal years 1995-1999,Fiscal Year 2000,Fiscal Year 2000,Cumulative fiscal years 1995-1999,Cumulative fiscal years 1995-1999,Fiscal Year 2000,Fiscal Year 2000,Cumulative fiscal years 1995-1999,Cumulative fiscal years 1995-1999,Fiscal Year 2000,Fiscal Year 2000,Cumulative fiscal years 1995-1999,Cumulative fiscal years 1995-1999,Fiscal Year 2000,Fiscal Year 2000,Cumulative fiscal years 1995-1999,Cumulative fiscal years 1995-1999
+Circuit courts of appeals (headquarters),Total fiscal year 2000,Total fiscal years 1995-1999,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+Total all circuits,99,572,73,73.7,384,67.1,6,6.1,59,10.3,6,6.1,25,4.4,6,6.1,31,5.4,8,8.1,73,12.8
+"1. Boston, MA",1,23,1,100.0,20,87.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,1,4.3,0,0.0,2,8.7
+"2. New York, NY",6,40,4,66.7,28,70.0,1,16.7,2,5.0,1,0.0,3,7.5,0,0.0,2,5.0,0,16.7,5,12.5
+"3. Philadelphia, PA",8,42,6,75.0,35,83.3,0,0.0,2,4.8,0,0.0,0,0.0,0,0.0,2,4.8,2,25.0,3,7.1
+"4. Richmond, VA",6,45,6,100.0,20,44.4,0,0.0,7,15.6,0,0.0,0,0.0,0,0.0,5,11.1,0,0.0,13,28.9
+"5. New Orleans, LA",3,16,3,100.0,11,68.8,0,0.0,1,6.3,0,0.0,0,0.0,0,0.0,1,6.3,0,0.0,3,18.8
+"6. Cincinnati, OH",21,114,16,76.2,73,64.0,4,19.0,16,14.0,1,4.8,3,2.6,0,0.0,4,3.5,0,0.0,18,15.8
+"7. Chicago, IL",10,35,6,63.6,22,62.9,0,0.0,4,11.4,1,9.1,2,5.7,2,18.2,1,2.9,1,9.1,6,17.1
+"8. St. Louis, MO",3,22,3,100.0,16,72.7,0,0.0,3,13.6,0,0.0,2,9.1,0,0.0,1,4.5,0,0.0,0,0.0
+"9. San Francisco, CA",3,68,2,66.7,56,82.4,0,0.0,5,7.4,0,0.0,1,1.5,1,33.3,2,2.9,0,0.0,4,5.9
+"10. Denver, CO.",4,16,3,75.0,11,68.8,0,0.0,1,6.3,0,0.0,0,0.0,0,0.0,4,25.0,1,25.0,0,0.0
+"11. Atlanta, GA",3,24,3,100.0,20,83.3,0,0.0,1,4.2,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,3,12.5
+"Washington, DC",31,127,19,63.3,72,56.7,1,3.3,17,13.4,4,13.3,14,11.0,3,10.0,8,6.3,3,10.0,16,12.6

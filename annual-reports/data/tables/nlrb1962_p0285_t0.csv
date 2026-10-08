@@ -1,16 +1,11 @@
-Method and stage of disposition,All R cases — Number of cases closed,All R cases — Percent of cases closed,RC cases — Number of cases closed,RC cases — Percent of cases closed,RM cases — Number of cases closed,RM cases — Percent of cases closed,RD cases — Number of cases closed,RD cases — Percent of cases closed
-Total number of cases closed,11634,100.0,9958,100.0,921,100.0,755,100.0
-Consent elections — total,3538,30.4,3192,32.0,220,23.9,126,16.7
-Consent — Before notice of hearing,2184,18.8,1954,19.6,165,17.9,65,8.6
-"Consent — After notice of hearing, before hearing closed",1339,11.5,1227,12.3,53,5.8,59,7.8
-"Consent — After hearing closed, before decision",15,.1,11,.1,2,.2,2,.3
-Stipulated elections — total,1944,16.7,1800,18.1,102,11.1,42,5.6
-Stipulated — Before notice of hearing,854,7.3,781,7.9,49,5.3,24,3.2
-"Stipulated — After notice of hearing, before hearing closed",885,7.6,836,8.4,38,4.2,11,1.5
-"Stipulated — After hearing closed, before decision",13,.1,10,.1,2,.2,1,.1
-Stipulated — After postelection decision,192,1.7,173,1.7,13,1.4,6,.8
-Expedited elections (8(b)(7)(C)) — total,33,.3,9,.1,24,2.6,0,0
-Withdrawn — total,2791,24.0,2269,22.8,247,26.8,275,36.4
-Dismissed — total,1125,9.7,733,7.4,201,21.8,191,25.3
-Regional director-ordered elections,1434,12.3,1252,12.6,95,10.3,87,11.5
-Board-ordered elections,769,6.6,703,7.0,32,3.5,34,4.5
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CP cases,CP cases
+Stage of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"13,319",100.0,"8,910",100.0,"2,631",100.0,"1,027",100.0,308,100.0,45,100.0,398,100.0
+Before issuance of complaint,"11,141",83.7,"7,424",83.3,"2,211",84.0,813,79.2,299,97.1,40,88.9,354,88.9
+"After issuance of complaint, before opening of hearing",653,4.9,481,5.4,74,2.9,81,7.9,3,1.0,1,2.2,13,3.1
+"After hearing opened, before issuance of intermediate report",263,2.0,170,1.9,63,2.4,28,2.7,0,0,0,0,2,.6
+"After intermediate report, before issuance of Board decision",113,.8,81,.9,16,.6,11,1.1,1,.3,0,.0,4,1.0
+After Board order adopting intermediate report in absence of exceptions,68,.5,51,.6,12,.5,4,.4,0,0,0,0,1,.3
+"After Board decision, before court decree",679,5.1,410,4.6,185,7.0,58,5.6,2,.6,3,6.7,21,5.3
+"After circuit court decree, before Supreme Court action",348,2.6,271,3.0,43,1.6,27,2.6,3,1.0,1,2.2,3,.8
+After Supreme Court action,54,.4,22,.3,27,1.0,5,.5,0,0,0,.0,0,0

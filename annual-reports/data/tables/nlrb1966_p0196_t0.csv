@@ -1,37 +1,38 @@
-Stage,Total,Identification of filing party / AFL-CIO unions,Identification of filing party / Teamsters,Identification of filing party / Other national unions,Identification of filing party / Other local unions,Identification of filing party / Individuals,Identification of filing party / Employers
-CA cases — section header,,,,,,,
-"Pending July 1, 1965 (CA)",4730,2845,543,181,95,1064,2
-Received fiscal 1966 (CA),10902,5210,1414,482,370,3418,8
-On docket fiscal 1966 (CA),15632,8055,1957,663,465,4482,10
-Closed fiscal 1966 (CA),10643,5218,1350,472,272,3326,5
-"Pending June 30, 1966 (CA)",4989,2837,607,191,193,1156,5
-CB cases — section header,,,,,,,
-"Pending July 1, 1965 (CB)",840,48,10,5,17,554,215
-Received fiscal 1966 (CB),2869,60,16,17,46,2036,694
-On docket fiscal 1966 (CB),3709,108,26,22,54,2590,909
-Closed fiscal 1966 (CB),2784,67,18,16,21,2017,645
-"Pending June 30, 1966 (CB)",925,41,8,6,33,573,264
-CC cases — section header,,,,,,,
-"Pending July 1, 1965 (CC)",439,8,1,10,11,10,399
-Received fiscal 1966 (CC),1206,8,1,10,23,37,1113
-On docket fiscal 1966 (CC),1645,16,2,33,34,47,1512
-Closed fiscal 1966 (CC),1220,14,2,25,26,37,1116
-"Pending June 30, 1966 (CC)",425,2,,8,8,10,396
-CD cases — section header,,,,,,,
-"Pending July 1, 1965 (CD)",154,9,0,0,3,5,137
-Received fiscal 1966 (CD),486,17,1,10,23,16,419
-On docket fiscal 1966 (CD),640,26,1,10,26,21,556
-Closed fiscal 1966 (CD),483,15,0,10,23,13,422
-"Pending June 30, 1966 (CD)",157,11,1,0,3,8,134
-CE cases — section header,,,,,,,
-"Pending July 1, 1965 (CE)",50,1,0,2,2,4,41
-Received fiscal 1966 (CE),90,4,2,2,4,14,64
-On docket fiscal 1966 (CE),140,5,2,4,6,18,105
-Closed fiscal 1966 (CE),86,6,0,1,1,5,68
-"Pending June 30, 1966 (CE)",54,0,0,3,1,13,37
-CP cases — section header,,,,,,,
-"Pending July 1, 1965 (CP)",99,2,1,0,2,1,93
-Received fiscal 1966 (CP),380,2,1,18,2,9,334
-On docket fiscal 1966 (CP),479,4,2,18,32,10,427
-Closed fiscal 1966 (CP),371,2,2,18,2,6,341
-"Pending June 30, 1966 (CP)",108,1,0,1,1,4,86
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending July 1, 1965","8,911","4,296","1,084",331,278,"1,769","1,153"
+Received fiscal 1966,"28,993","12,122","4,643","1,216",846,"6,317","3,849"
+On docket fiscal 1966,"37,904","16,418","5,727","1,547","1,124","8,086","5,002"
+Closed fiscal 1966,"28,504","11,974","4,574","1,180",772,"6,182","3,822"
+"Pending June 30, 1966","9,400","4,444","1,153",367,352,"1,904","1,180"
+Unfair labor practice cases,,,,,,,
+"Pending July 1, 1965","6,312","2,913",555,198,121,"1,638",887
+Received fiscal 1966,"15,933","5,301","1,435",539,496,"5,530","2,632"
+On docket fiscal 1966,"22,245","8,214","1,990",737,617,"7,168","3,519"
+Closed fiscal 1966,"15,587","5,322","1,370",531,361,"5,406","2,597"
+"Pending June 30, 1966","6,658","2,892",620,206,256,"1,762",922
+Representation cases,,,,,,,
+"Pending July 1, 1965","2,526","1,357",526,132,156,100,255
+Received fiscal 1966,"12,620","6,636","3,193",667,329,646,"1,149"
+On docket fiscal 1966,"15,146","7,993","3,719",799,485,746,"1,404"
+Closed fiscal 1966,"12,487","6,466","3,187",640,395,639,"1,160"
+"Pending June 30, 1966","2,659","1,527",532,159,90,107,244
+Union-shop deauthorization cases,,,,,,,
+"Pending July 1, 1965",31,,,,,31,
+Received fiscal 1966,137,,,,,137,
+On docket fiscal 1966,168,,,,,168,
+Closed fiscal 1966,133,,,,,133,
+"Pending June 30, 1966",35,,,,,35,
+Amendment of certification cases,,,,,,,
+"Pending July 1, 1965",17,13,1,0,0,0,3
+Received fiscal 1966,124,82,9,2,6,2,23
+On docket fiscal 1966,141,95,10,2,6,2,26
+Closed fiscal 1966,127,87,9,2,4,2,23
+"Pending June 30, 1966",14,8,1,0,2,0,3
+Unit clarification cases,,,,,,,
+"Pending July 1, 1965",25,13,2,1,1,0,8
+Received fiscal 1966,179,103,6,8,15,2,45
+On docket fiscal 1966,204,116,8,9,16,2,53
+Closed fiscal 1966,170,99,8,7,12,2,42
+"Pending June 30, 1966",34,17,0,2,4,0,11

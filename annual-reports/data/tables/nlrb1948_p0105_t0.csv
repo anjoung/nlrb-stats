@@ -1,17 +1,23 @@
-row_label,Number of cases / Total,Number of cases / Identification of petitioner / A. F. of L. affiliates,Number of cases / Identification of petitioner / C. I. O. affiliates,Number of cases / Identification of petitioner / Unaffiliated unions,Number of cases / Identification of petitioner / Individuals,Number of cases / Identification of petitioner / Employers
-R cases,,,,,,
-"Cases pending Aug. 22, 1947",1840,843,729,242,,26
-"Cases closed Aug. 22, 1947-June 30, 1948",1636,746,652,218,,20
-"Cases pending June 30, 1948",204,97,77,24,,6
-RC cases,,,,,,
-"Cases received Aug. 22, 1947-June 30, 1948",5478,3085,1074,1291,28,
-"Cases closed Aug. 22, 1947-June 30, 1948",3142,1805,590,730,17,
-"Cases pending June 30, 1948",2336,1280,484,561,11,
-RM cases,,,,,,
-"Cases received Aug. 22, 1947-June 30, 1948",459,,,,,459
-"Cases closed Aug. 22, 1947-June 30, 1948",334,,,,,334
-"Cases pending June 30, 1948",125,,,,,125
-RD cases,,,,,,
-"Cases received Aug. 22, 1947-June 30, 1948",458,4,0,12,439,3
-"Cases closed Aug. 22, 1947-June 30, 1948",287,3,0,4,277,3
-"Cases pending June 30, 1948",171,1,0,8,162,0
+,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases
+,Total,Identification of complainant,Identification of complainant,Identification of complainant,Identification of complainant,Identification of complainant
+,Total,A.F. of L. affiliates,C. I. O. affiliates,Unaffiliated unions,Individuals,Employers
+C cases,,,,,,
+"Cases pending Aug. 22, 1947","2,093",716,"1,006",184,187,
+"Cases closed Aug. 22, 1947–June 30, 1948","1,402",477,658,144,123,
+"Cases pending June 30, 1948",691,239,348,40,64,
+CA cases,,,,,,
+"Cases received Aug. 22, 1947–June 30, 1948","2,553",852,348,194,"1,159",
+"Cases closed Aug. 22, 1947–June 30, 1948","1,165",483,108,77,497,
+"Cases pending June 30, 1948","1,388",369,240,117,662,
+CB cases,,,,,,
+"Cases received Aug. 22, 1947–June 30, 1948",438,15,3,16,234,170
+"Cases closed Aug. 22, 1947–June 30, 1948",221,9,2,6,123,81
+"Cases pending June 30, 1948",217,6,1,10,111,89
+CC cases,,,,,,
+"Cases received Aug. 22, 1947–June 30, 1948",243,2,0,1,23,217
+"Cases closed Aug. 22, 1947–June 30, 1948",160,2,0,1,21,136
+"Cases pending June 30, 1948",83,0,0,0,2,81
+CD cases,,,,,,
+"Cases received Aug. 22, 1947–June 30, 1948",68,2,0,3,14,49
+"Cases closed Aug. 22, 1947–June 30, 1948",49,2,0,1,13,33
+"Cases pending June 30, 1948",19,0,0,2,1,16

@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -120,13 +128,21 @@ ul.link-list li { margin: 0.3rem 0; }
 <header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
 <p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_2005.html">FY2005</a> &rsaquo; Obligations by object</p>
 <h1>Obligations by object</h1>
-<p class="meta">source page 38 &middot; <code>nlrb2005_p0038_t0</code></p>
+<p class="meta">source pages 38–39 &middot; <code>nlrb2005_p0038_t0</code></p>
+<p class="spans-note">Stitched from pp. 38–39.</p>
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th></th><th></th></tr>
 </thead>
 <tbody>
+<tr><th class="stub" scope="row">Personnel compensation</th><td>$158,232,665</td></tr>
+<tr><th class="stub" scope="row">Personnel benefits</th><td>35,995,666</td></tr>
+<tr><th class="stub" scope="row">Benefits for former personnel</th><td>557,000</td></tr>
+<tr><th class="stub" scope="row">Travel and transportation of persons</th><td>2,707,879</td></tr>
+<tr><th class="stub" scope="row">Transportation of things</th><td>258,468</td></tr>
+<tr><th class="stub" scope="row">Rent, communications, and utilities</th><td>32,273,642</td></tr>
+<tr><th class="stub" scope="row">Printing and reproduction</th><td>243,594</td></tr>
+<tr><th class="stub" scope="row">Other services</th><td>16,137,027</td></tr>
 <tr><th class="stub" scope="row">Supplies and materials</th><td>1,159,392</td></tr>
 <tr><th class="stub" scope="row">Equipment</th><td>1,793,044</td></tr>
 <tr><th class="stub" scope="row">Insurance claims and indemnities</th><td>158,822</td></tr>
@@ -135,12 +151,22 @@ ul.link-list li { margin: 0.3rem 0; }
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb2005_p0038_t0.csv" download>Download this table (CSV)</a></p>
+<p class="check"><b>0 of 12</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 38.</b> The crop shows only a body fragment of an obligations-by-object-class listing: two columns (row label and dollar amount), with no column headings, no caption and no footnotes printed on this image, so header_rows is empty. The fragment appears cut off at the bottom — the usual remaining object classes (e.g. supplies and materials, equipment) and a total line are not on this crop. All eight rows are crisply printed; the dollar sign appears only on the first value, as printed.</p>
+<p><b>p. 39.</b> The crop is the tail end of a table continued from the previous page: no column headings and no caption are printed on this image, so `header_rows` is empty. The table has two columns, a stub of object-class labels and a single unlabeled amount column. The running head (&quot;Operations in Fiscal Year 2005&quot;) and the page number (31) at the top were omitted as instructed. All four printed lines are legible and unambiguous; the earlier component rows that the &quot;Total obligations&quot; line sums are on the preceding page and so are not in this crop, and the printed total therefore cannot be checked against the rows shown here.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/2005_p0038.webp" loading="lazy" alt="Source page 38 of NLRB FY2005 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb2005_p0038_t0_p0038.webp" loading="lazy" alt="Source page 38 of NLRB FY2005 annual report">
 <figcaption>Source: NLRB Annual Report FY2005, p. 38.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb2005_p0038_t0_p0039.webp" loading="lazy" alt="Source page 39 of NLRB FY2005 annual report">
+<figcaption>Source: NLRB Annual Report FY2005, p. 39.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

@@ -1,21 +1,28 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"All types, total",,,,,,
-Elections,7563,3441,2438,91,1577,16
-Eligible voters,554562,163756,238767,12748,138835,456
-Valid votes,501064,148345,218384,11179,122757,399
-RC cases*,,,,,,
-Elections,6940,3147,2280,79,1434,0
-Eligible voters,517661,146785,228378,10710,131788,0
-Valid votes,468961,133255,209105,9761,116840,0
-EM cases,,,,,,
-Elections,369,180,109,9,56,15
-Eligible voters,20358,12370,3902,1899,1740,447
-Valid votes,17612,10956,3.411,1293,1562,390
-RD cases,,,,,,
-Elections,220,106,49,3,61,1
-Eligible voters,13732,4217,6487,139,2880,9
-Valid votes,12419,3851,5868,125,2566,9
-T.JD cases,,,,,,
-Elections,34,8,0,0,26,
-Eligible voters,2.811,384,0,0,2427,
-Valid votes,2072,283,0,0,1789,
+Method and stage of disposition,All R cases,All R cases,RC cases,RC cases,RM cases,RM cases,RD cases,RD cases,UD case,UD case
+Method and stage of disposition,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+"Total, all","11,546",100.0,"9,925",100.0,939,100.0,682,100.0,95,100.0
+"Certification issued, total","7,669",66.4,"7,032",70.9,402,42.9,235,34.5,34,35.7
+After,,,,,,,,,,
+Consent election,"3,496",30.3,"3,195",32.2,191,20.4,110,16.1,8,8.4
+Before notice of hearing,"2,292",19.9,"2,078",20.9,148,15.8,66,9.7,8,8.4
+"After notice of hearing, before hearing closed","1,176",10.2,"1,091",11.0,42,4.5,43,6.3,0,0
+"After hearing closed, before decision",28,.2,26,.3,1,.1,1,.1,0,0
+Stipulated election,"2,523",21.8,"2,336",23.5,126,13.4,61,9.0,0,0
+Before notice of hearing,"1,251",10.8,"1,145",11.5,80,8.5,26,3.8,0,0
+"After notice of hearing, before hearing closed","1,247",10.8,"1,168",11.8,44,4.7,35,5.2,0,0
+"After hearing closed, before decision",25,.2,23,.2,2,.2,0,0,0,0
+Expedited election,19,.2,5,.1,13,1.4,1,.1,,
+Regional director-directed election,"1,539",13.3,"1,417",14.3,62,6.6,60,8.8,26,27.3
+Board-ordered election,92,.8,79,.8,10,1.1,3,.5,0,0
+"By withdrawal, total","2,872",24.9,"2,263",22.8,341,36.3,268,39.3,45,47.5
+Before notice of hearing,"1,751",15.2,"1,287",13.0,253,26.9,211,30.9,42,44.2
+"After notice of hearing, before hearing closed",878,7.6,755,7.6,71,7.6,52,7.6,1,1.1
+"After hearing closed, before decision",50,.4,39,.4,8,.9,3,.5,1,1.1
+After regional director decision and direction of election,178,1.6,167,1.7,9,.9,2,.3,1,1.1
+After Board decision and direction of election,15,.1,15,.1,0,0,0,0,0,0
+"By dismissal, total","1,005",8.7,630,6.3,196,20.8,179,26.2,16,16.8
+Before notice of hearing,614,5.3,338,3.4,136,14.5,140,20.5,16,16.8
+"After notice of hearing, before hearing closed",104,.9,62,.6,21,2.2,21,3.1,0,0
+"After hearing closed, before decision",13,.1,6,.1,6,.6,1,.1,0,0
+By regional director decision,220,1.9,182,1.8,22,2.3,16,2.4,0,0
+By Board decision,54,.5,42,.4,11,1.2,1,.1,0,0

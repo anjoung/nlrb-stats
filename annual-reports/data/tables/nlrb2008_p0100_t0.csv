@@ -1,7 +1,74 @@
-Standard Federal Regions,All cases,Unfair labor practice cases / All C cases,Unfair labor practice cases / CA,Unfair labor practice cases / CB,Unfair labor practice cases / CC,Unfair labor practice cases / CD,Unfair labor practice cases / CE,Unfair labor practice cases / CG,Unfair labor practice cases / CP,Representation cases / All R cases,Representation cases / RC,Representation cases / RM,Representation cases / RD,Union deauthorization cases / UD,Amendment of certification cases / AC,Unit clarification cases / UC
-Region VI (Federal Region — Dallas: AR/LA/NM/OK/TX subtotal),1655,1495,1106,382,5,1,0,0,0,0,155,111,5,39,1,3
-Region VII (Federal Region — Kansas City: IA/KS/MO/NE subtotal),936,781,627,137,9,3,0,4,1,0,144,98,8,26,0,5
-Region VIII (Federal Region — Denver: CO/MT/ND/SD/UT/WY subtotal),561,477,371,104,2,0,0,0,0,0,75,58,3,14,3,6
-Region IX (Federal Region — San Francisco: AZ/CA/HI/NV + insular Pacific subtotal),4991,3640,2569,958,63,15,4,21,10,0,421,322,17,82,19,10
-Region X (Federal Region — Seattle: AK/ID/OR/WA subtotal),1046,845,651,155,26,6,4,1,2,0,191,153,1,37,4,6
-"Total, all States and areas (US Grand Total FY2008 — Table 8 view)",25866,22479,16165,5666,361,127,63,43,54,0,3154,2416,138,600,90,14
+Standard Federal Regions,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases,Representation cases,Union deauthorization cases,Amendment of certification cases,Unit clarification cases
+Standard Federal Regions,All cases,All C cases,CA,CB,CC,CD,CE,CG,CP,All R cases,RC,RM,RD,Union deauthorization cases,Amendment of certification cases,Unit clarification cases
+Standard Federal Regions,All cases,All C cases,CA,CB,CC,CD,CE,CG,CP,All R cases,RC,RM,RD,UD,AC,UC
+Connecticut,425,358,296,57,2,0,3,0,0,63,59,0,4,1,0,3
+Massachusetts,715,623,527,88,7,0,0,1,0,80,71,1,8,2,0,10
+Maine,112,106,96,9,0,0,0,1,0,6,5,0,1,0,0,0
+New Hampshire,65,43,42,1,0,0,0,0,0,20,17,0,3,0,0,2
+Rhode Island,92,74,54,14,4,2,0,0,0,18,15,1,2,0,0,0
+Vermont,37,29,24,5,0,0,0,0,0,7,7,0,0,0,0,1
+Region I,"1,446","1,233","1,039",174,13,2,3,2,0,194,174,2,18,3,0,16
+Delaware,53,32,26,5,1,0,0,0,0,21,19,0,2,0,0,0
+New Jersey,"1,252","1,077",667,366,23,20,1,0,0,165,146,2,17,4,0,6
+New York,"2,926","2,487","1,532",840,54,30,8,2,21,411,342,6,63,13,1,14
+Puerto Rico,310,274,210,64,0,0,0,0,0,29,26,0,3,2,0,5
+Virgin Islands,34,25,23,2,0,0,0,0,0,8,8,0,0,1,0,0
+Region II,"4,575","3,895","2,458","1,277",78,50,9,2,21,634,541,8,85,20,1,25
+District of Columbia,207,170,99,71,0,0,0,0,0,36,30,0,6,0,0,1
+Maryland,367,309,243,65,1,0,0,0,0,57,54,0,3,0,0,1
+Pennsylvania,"1,379","1,189",860,289,22,11,4,2,1,172,135,1,36,5,0,13
+Virginia,572,529,439,90,0,0,0,0,0,39,31,2,6,3,1,0
+West Virginia,253,236,196,31,3,1,1,4,0,16,14,0,2,1,0,0
+Region III,"2,778","2,433","1,837",546,26,12,5,6,1,320,264,3,53,9,1,15
+Alabama,457,424,267,157,0,0,0,0,0,33,29,1,3,0,0,0
+Florida,722,631,474,155,2,0,0,0,0,90,65,3,22,0,1,0
+Georgia,425,371,269,97,4,0,0,0,1,54,42,2,10,0,0,0
+Kentucky,445,402,317,79,2,0,0,4,0,33,21,0,12,2,7,1
+Mississippi,145,124,96,28,0,0,0,0,0,19,18,0,1,0,0,2
+North Carolina,353,325,237,88,0,0,0,0,0,26,13,1,12,0,0,2
+South Carolina,113,101,73,28,0,0,0,0,0,12,11,0,1,0,0,0
+Tennessee,341,309,229,79,1,0,0,0,0,32,25,2,5,0,0,0
+Region IV,"3,001","2,687","1,962",711,9,0,0,4,1,299,224,9,66,2,8,5
+Illinois,"1,387","1,157",804,270,36,34,4,0,9,204,153,6,45,12,1,13
+Indiana,684,609,472,95,35,0,0,1,6,70,58,0,12,3,0,2
+Michigan,"1,413","1,273",868,391,9,4,0,0,1,128,84,4,40,1,0,11
+Minnesota,397,324,259,58,6,0,1,0,0,69,44,1,24,0,0,4
+Ohio,"1,437","1,244",854,312,43,0,33,2,0,182,81,62,39,6,1,4
+Wisconsin,459,386,288,96,1,0,0,0,1,68,41,9,18,1,0,4
+Region V,"5,777","4,993","3,545","1,222",130,38,38,3,17,721,461,82,178,23,2,38
+Arkansas,127,109,79,30,0,0,0,0,0,18,10,2,6,0,0,0
+Louisiana,323,299,199,100,0,0,0,0,0,21,14,1,6,0,1,2
+New Mexico,139,124,108,16,0,0,0,0,0,15,12,0,3,0,0,0
+Oklahoma,132,109,77,31,1,0,0,0,0,22,15,0,7,1,0,0
+Texas,934,854,643,205,4,1,0,0,1,79,60,2,17,0,0,1
+Region VI,"1,655","1,495","1,106",382,5,1,0,0,1,155,111,5,39,1,1,3
+Iowa,130,101,88,13,0,0,0,0,0,28,23,0,5,0,0,1
+Kansas,130,107,81,25,1,0,0,0,0,23,17,1,5,0,0,0
+Missouri,629,541,429,97,7,3,0,4,1,78,54,7,17,6,0,4
+Nebraska,47,32,29,2,1,0,0,0,0,15,14,0,1,0,0,0
+Region VII,936,781,627,137,9,3,0,4,1,144,108,8,28,6,0,5
+Colorado,368,332,254,78,0,0,0,0,0,34,28,1,5,0,0,2
+Montana,71,47,36,10,1,0,0,0,0,17,12,2,3,3,0,4
+North Dakota,19,12,10,2,0,0,0,0,0,7,7,0,0,0,0,0
+South Dakota,16,11,10,1,0,0,0,0,0,5,3,0,2,0,0,0
+Utah,64,58,45,12,1,0,0,0,0,6,5,0,1,0,0,0
+Wyoming,23,17,16,1,0,0,0,0,0,6,3,0,3,0,0,0
+Region VIII,561,477,371,104,2,0,0,0,0,75,58,3,14,3,0,6
+American Samoa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Arizona,302,270,222,44,3,0,0,1,0,31,23,0,8,0,0,1
+California,"3,087","2,741","1,894",753,46,15,4,19,10,319,247,11,61,17,1,9
+Federated States of Micronesia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Guam,2,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0
+Hawaii,294,266,206,58,2,0,0,0,0,26,20,1,5,2,0,0
+Marshall Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Northern Mariana Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nevada,406,363,247,103,12,0,0,1,0,43,30,5,8,0,0,0
+Palau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+U.S. Minor Outlying Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Region IX,"4,091","3,640","2,569",958,63,15,4,21,10,421,322,17,82,19,1,10
+Alaska,71,42,33,7,2,0,0,0,0,28,22,0,6,0,0,1
+Idaho,45,39,32,6,1,0,0,0,0,6,4,0,2,0,0,0
+Oregon,249,209,163,40,6,0,0,0,0,39,30,1,8,1,0,0
+Washington,681,555,423,102,17,6,4,1,2,118,97,0,21,3,0,5
+Region X,"1,046",845,651,155,26,6,4,1,2,191,153,1,37,4,0,6
+"Total, all States and areas","25,866","22,479","16,165","5,666",361,127,63,43,54,"3,154","2,416",138,600,90,14,129

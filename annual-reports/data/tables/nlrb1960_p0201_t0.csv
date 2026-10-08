@@ -1,8 +1,66 @@
-Division and State 1,All cases,Unfair labor practice cases / All C cases,Unfair labor practice cases / CA,Unfair labor practice cases / CB,Unfair labor practice cases / CC,Unfair labor practice cases / CD,Unfair labor practice cases / CE,Representation cases / CP,Representation cases / All R cases,Representation cases / RC,Representation cases / RM,RD
-"South Atlantic states (DC, VA, WV, NC, SC, GA, FL)",,,,,,,,,,,,
-East South Central,1017,578,397,124,37,7,2,11,439,395,27,17
-West South Central,1393,738,492,177,46,9,1,13,655,564,32,59
-Mountain,887,422,284,80,37,9,0,12,465,399,40,23
-Pacific,2803,1427,879,377,87,32,9,43,1376,1097,164,115
+Division and State,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representative cases,Representative cases,Representative cases,Representative cases
+Division and State,All cases,All C cases,CA,CB,CC,CD,CE,CP,All R cases,RC,RM,RD
+Total,"21,487","11,357","7,723","2,505",644,186,26,273,"10,130","8,795",728,607
+New England,975,474,364,67,30,3,0,10,501,440,36,25
+Maine,50,21,15,5,1,0,0,0,29,28,0,1
+New Hampshire,40,21,16,4,0,0,0,1,19,13,5,1
+Vermont,22,6,6,0,0,0,0,0,16,14,2,0
+Massachusetts,553,274,224,36,6,2,0,6,279,244,20,15
+Rhode Island,87,44,33,4,5,1,0,1,43,35,7,1
+Connecticut,223,108,70,18,18,0,0,2,115,106,2,7
+Middle Atlantic,"4,893","2,710","1,722",690,158,49,8,83,"2,183","1,893",163,127
+New York,"2,620","1,538",957,419,88,17,4,53,"1,082",928,96,58
+New Jersey,944,489,324,108,33,12,2,10,455,391,31,33
+Pennsylvania,"1,329",683,441,163,37,20,2,20,646,574,36,36
+East North Central,"4,648","2,439","1,758",502,88,33,3,55,"2,209","1,926",149,134
+Ohio,"1,331",614,437,124,24,3,1,25,717,626,60,31
+Indiana,678,393,277,92,12,3,1,8,285,244,20,21
+Illinois,"1,415",846,591,184,32,21,1,17,569,508,32,29
+Michigan,956,506,385,94,17,6,0,4,450,385,28,37
+Wisconsin,268,80,68,8,3,0,0,1,188,163,9,16
+West North Central,"1,437",655,421,142,57,17,2,16,782,675,59,48
+Iowa,129,36,24,6,3,2,0,1,93,85,4,4
+Minnesota,251,70,48,7,10,4,0,1,181,153,22,6
+Missouri,616,325,220,67,26,3,2,7,291,253,17,21
+North Dakota,43,12,11,0,0,0,0,1,31,25,3,3
+South Dakota,33,6,6,0,0,0,0,0,27,22,2,3
+Nebraska,194,113,61,45,6,0,0,1,81,74,5,2
+Kansas,171,93,51,17,12,8,0,5,78,63,6,9
+South Atlantic,"2,596","1,486","1,111",231,94,27,1,22,"1,110","1,011",48,51
+Delaware,35,15,10,2,2,1,0,0,20,19,1,0
+Maryland,278,120,79,26,8,5,0,2,158,138,7,13
+District of Columbia,101,46,24,11,5,4,0,2,55,50,4,1
+Virginia,215,64,55,5,3,0,0,1,151,134,10,7
+West Virginia,212,124,75,38,7,3,0,1,88,83,3,2
+North Carolina,204,122,119,3,0,0,0,0,82,73,3,6
+South Carolina,81,57,40,8,7,0,1,1,24,20,3,1
+Georgia,363,201,143,47,4,2,0,5,162,145,8,9
+Florida,"1,107",737,566,91,58,12,0,10,370,349,9,12
+East South Central,"1,017",578,397,124,37,7,2,11,439,395,27,17
+Kentucky,217,111,76,24,7,2,2,0,106,101,1,4
+Tennessee,407,211,160,34,10,1,0,6,196,167,18,11
+Alabama,319,211,122,62,18,4,0,5,108,99,7,2
+Mississippi,74,45,39,4,2,0,0,0,29,28,1,0
+West South Central,"1,393",738,492,177,46,9,1,13,655,564,32,59
+Arkansas,135,57,46,9,2,0,0,0,78,69,4,5
+Louisiana,421,273,156,93,17,3,0,4,148,136,8,4
+Oklahoma,136,60,38,5,8,3,0,6,76,62,5,9
+Texas,701,348,252,70,19,3,1,3,353,297,15,41
+Mountain,887,422,284,80,37,9,0,12,465,399,40,26
+Montana,64,28,15,5,2,1,0,5,36,18,16,2
+Idaho,82,34,30,1,2,0,0,1,48,39,4,5
+Wyoming,73,40,21,11,5,3,0,0,33,29,4,0
+Colorado,261,111,77,21,8,4,0,1,150,145,4,1
+New Mexico,115,81,48,23,8,0,0,2,34,27,4,3
+Arizona,179,87,65,14,5,0,0,3,92,80,7,5
+Utah,75,18,14,1,3,0,0,0,57,49,1,7
+Nevada,38,23,14,4,4,1,0,0,15,12,0,3
+Pacific,"2,803","1,427",879,377,87,32,9,43,"1,376","1,097",164,115
+Washington,383,209,133,57,8,4,0,7,174,134,21,19
+Oregon,223,96,68,21,6,1,0,0,127,109,10,8
+California,"2,197","1,122",678,299,73,27,9,36,"1,075",854,133,88
 Outlying areas,838,428,295,115,10,0,0,8,410,395,10,5
-Additional,,,,,,,,,,,,
+Alaska,130,102,53,43,6,0,0,0,28,24,2,2
+Hawaii,235,54,35,13,2,0,0,4,181,176,4,1
+Puerto Rico,465,270,205,59,2,0,0,4,195,189,4,2
+Virgin Islands,8,2,2,0,0,0,0,0,6,6,0,0

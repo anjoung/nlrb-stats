@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -122,19 +130,25 @@ ul.link-list li { margin: 0.3rem 0; }
 <h1>NLRB statistical tables — FY1937</h1>
 <table class="listing">
 <thead>
-<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
+<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Printed as<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
 </thead>
 <tbody>
-<tr><td><a href="table_nlrb1937_p0020_t0.html">Disposition of all charges and petitions handled</a></td><td><span class="type-label">Table</span></td><td>20</td></tr>
-<tr><td><a href="table_nlrb1937_p0021_t0.html">Disposition of all charges and petitions handled</a></td><td><span class="type-label">Table</span></td><td>21</td></tr>
-<tr><td><a href="table_nlrb1937_p0022_t0.html">Nature of settlements reached between workers and employers</a></td><td><span class="type-label">Table</span></td><td>22</td></tr>
-<tr><td><a href="table_nlrb1937_p0025_t0.html">Disposition of all complaint cases</a></td><td><span class="type-label">Table</span></td><td>25</td></tr>
-<tr><td><a href="table_nlrb1937_p0030_t0.html">Disposition of all representation cases</a></td><td><span class="type-label">Table</span></td><td>30</td></tr>
-<tr><td><a href="table_nlrb1937_p0035_t0.html">Results of elections held by the NLRB</a></td><td><span class="type-label">Table</span></td><td>35</td></tr>
-<tr><td><a href="table_nlrb1937_p0173_t0.html">Fiscal statement</a></td><td><span class="type-label">Table</span></td><td>173</td></tr>
+<tr><td><a href="table_nlrb1937_p0015_t0.html">Regional offices — location, territory and personnel</a></td><td><span class="type-label">Table</span></td><td></td><td>15</td></tr>
+<tr><td><a href="table_nlrb1937_p0021_t0.html">Disposition of all charges and petitions handled</a></td><td><span class="type-label">Table</span></td><td>Table 1</td><td>21</td></tr>
+<tr><td><a href="table_nlrb1937_p0023_t0.html">Nature of settlements reached between workers and employers in NLRB cases</a><br><span class="hint">Nature of settlements reached between workers and employers in National Labor Relations Board cases</span></td><td><span class="type-label">Table</span></td><td>Table 2</td><td>23</td></tr>
+<tr><td><a href="table_nlrb1937_p0025_t0.html">Analysis of charges</a></td><td><span class="type-label">Table</span></td><td>Table 3</td><td>25</td></tr>
+<tr><td><a href="table_nlrb1937_p0026_t0.html">Disposition of all complaint cases</a></td><td><span class="type-label">Table</span></td><td>Table 4</td><td>26</td></tr>
+<tr><td><a href="table_nlrb1937_p0030_t0.html">Disposition of all representation cases</a><br><span class="hint">Complaint cases by regions</span></td><td><span class="type-label">Table</span></td><td>Table 5</td><td>30</td></tr>
+<tr><td><a href="table_nlrb1937_p0031_t0.html">Disposition of all representation cases</a></td><td><span class="type-label">Table</span></td><td>Table 6</td><td>31</td></tr>
+<tr><td><a href="table_nlrb1937_p0034_t0.html">Representation cases — by region</a><br><span class="hint">Representation cases by regions</span></td><td><span class="type-label">Table</span></td><td>Table 7</td><td>34</td></tr>
+<tr><td><a href="table_nlrb1937_p0036_t0.html">Results of elections held — by region</a><br><span class="hint">Results of elections held by the National Labor Relations Board</span></td><td><span class="type-label">Table</span></td><td>Table 8</td><td>36</td></tr>
+<tr><td><a href="table_nlrb1937_p0057_t0.html">Mailing list by type of recipient</a></td><td><span class="type-label">Table</span></td><td></td><td>57</td></tr>
+<tr><td><a href="table_nlrb1937_p0163_t0.html">Cases heard and decisions rendered</a></td><td><span class="type-label">Table</span></td><td></td><td>163</td></tr>
+<tr><td><a href="table_nlrb1937_p0174_t0.html">Funds appropriated and expenditures</a></td><td><span class="type-label">Table</span></td><td></td><td>174</td></tr>
 </tbody>
 </table>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 <script>
 (function () {

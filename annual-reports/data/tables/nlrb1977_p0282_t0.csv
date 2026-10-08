@@ -1,16 +1,44 @@
-row_label,Total,Identification of filing party / AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
-"RC cases - Pending October 1, 1976",3864,2262,1007,193,373,29,
-RC cases - Received fiscal 1977,11578,6537,3618,629,744,50,
-RC cases - On docket fiscal 1977,15442,8799,4625,822,1117,79,
-RC cases - Closed fiscal 1977,12471,7025,3821,588,969,68,
-"RC cases - Pending September 30, 1977",2971,1774,804,234,148,11,
-"RM cases - Pending October 1, 1976",333,,,,,,333
-RM cases - Received fiscal 1977,987,,,,,,987
-RM cases - On docket fiscal 1977,1320,,,,,,1320
-RM cases - Closed fiscal 1977,1098,,,,,,1098
-"RM cases - Pending September 30, 1977",222,,,,,,222
-"RD cases - Pending October 1, 1976",441,1,1,0,4,435,
-RD cases - Received fiscal 1977,1793,11,4,1,7,1770,
-RD cases - On docket fiscal 1977,2234,12,5,1,11,2205,
-RD cases - Closed fiscal 1977,1867,10,4,1,10,1842,
-"RD cases - Pending September 30, 1977",367,2,1,0,1,363,
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+CA cases,,,,,,,
+"Pending October 1, 1976","10,570","5,036","1,145",413,322,"3,616",38
+Received fiscal 1977,"26,105","10,220","3,099",656,718,"11,374",38
+On docket fiscal 1977,"36,675","15,256","4,244","1,069","1,040","14,990",76
+Colosed fiscal 1977,"25,448","9,996","2,898",547,768,"11,197",42
+"Pending September 30, 1977","11,227","5,260","1,346",522,272,"3,793",34
+CB cases,,,,,,,
+"Pending October 1, 1976","2,373",45,3,4,13,"1,726",582
+Received fiscal 1977,"8,956",56,14,7,64,"7,409","1,406"
+On docket fiscal 1977,"11,329",101,17,11,77,"9,135","1,988"
+Closed fiscal 1977,"9,021",66,10,6,59,"7,345","1,535"
+"Pending September 30, 1977","2,308",35,7,5,18,"1,790",453
+CC cases,,,,,,,
+"Pending October 1, 1976",773,3,0,4,28,30,708
+Received fiscal 1977,"1,737",10,0,29,46,77,"1,575"
+On docket fiscal 1977,"2,510",13,0,33,74,107,"2,283"
+Closed fiscal 1977,"1,942",10,0,31,47,80,"1,774"
+"Pending September 30, 1977",568,3,0,2,27,27,509
+CD cases,,,,,,,
+"Pending October 1, 1976",216,4,0,4,5,8,195
+Received fiscal 1977,391,10,0,4,5,7,365
+On docket fiscal 1977,607,14,0,8,10,15,560
+Closed fiscal 1977,475,10,0,6,8,10,441
+"Pending September 30, 1077",132,4,0,2,2,5,119
+CE cases,,,,,,,
+"Pending October 1, 1976",135,1,0,0,27,13,94
+Received fiscal 1977,122,2,1,0,10,7,102
+On docket fiscal 1977,257,3,1,0,37,20,196
+Closed fiscal 1977,138,2,1,0,13,15,107
+"Pending September 30, 1977",119,1,0,0,24,5,89
+CG cases,,,,,,,
+"Pending October 1, 1976",67,0,0,0,0,0,67
+Received fiscal 1977,68,0,0,0,0,5,63
+On docket fiscal 1977,135,0,0,0,0,5,130
+Closed fiscal 1977,110,0,0,0,0,4,106
+"Pending September 30, 1977",25,0,0,0,0,1,24
+CP cases,,,,,,,
+"Pending October 1, 1976",122,1,0,2,0,4,115
+Recived fiscal 1977,449,1,0,14,22,20,392
+On docket fiscal 1977,571,2,0,16,22,24,507
+Closed fiscal 1977,468,1,0,12,21,19,415
+"Pending September 30, 1977",103,1,0,4,1,5,92

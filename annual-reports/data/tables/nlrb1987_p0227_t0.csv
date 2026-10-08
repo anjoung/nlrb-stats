@@ -1,13 +1,22 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14,col_15,col_16
-All types,4197,9,119,4069,3257,7,101,3149,168,0,3,165,772,2,15,755
-Rerun required Runoff required,_,_ ___,gg 30,__ ---,__ ___,_ _,77 24,_.___ _,_ ___,_ --,3 0,,,,9 6,
-Consent elections,89,0,0,89,62,0,0,62,4,0,0,4,23,0,0,23
-Rerun required Runoff required..,,,0 0,,,,0 0,,,,0 0,,,,0 0,
-Stipulated elections ........ ..... . .,3425,5,85,3335,2651,3,68,2580,127,0,3,124,647,2,14,631
-Rerun required Runoff required,,,64 21,,,,53 15,,,,0,3- -,,,8 6,
-Regional Director-directed,666,4,22,640,528,4,21,503,37,0,0,37,101,0,1,100
-Rerun required Runoff required.,,,13 9,,,,12 9,,,,0 0,,,,1 0,
-Board-directed,17,0,12,5,16,0,12,4,0,0,0,0,1,0,0,1
-Rerun required Runoff required,,,12 0,,,,12 0,,,,0 0,,,,0 0,
-Expedited-Sec. 8(b)(7XC),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Rerun required Runoff required,,,0 0,,,,0 0,,,,0 0,,,,0 0,
+Type of case,Total,Type of election,Type of election,Type of election,Type of election,Type of election
+Type of case,Total,Consent,Stipulated,Board-directed,Regional Director-directed,Expedited elections under 8(b)(7)(C)
+"All types, total:",,,,,,
+Elections,"4,168",100,"3,382",7,679,0
+Eligible voters,"247,779","3,800","188,979","1,124","53,876",0
+Valid votes,"217,261","3,296","167,565","1,030","45,370",0
+RC cases:,,,,,,
+Elections,"3,149",62,"2,580",4,503,0
+Eligible voters,"198,865","2,071","151,543","1,086","44,165",0
+Valid votes,"175,145","1,832","134,593",999,"37,721",0
+RM cases:,,,,,,
+Elections,165,4,124,0,37,0
+Eligible voters,"5,370",34,"4,404",0,932,0
+Valid votes,"4,613",31,"3,880",0,702,0
+RD cases:,,,,,,
+Elections,755,23,631,1,100,0
+Eligible voters,"37,590",741,"30,676",20,"6,153",0
+Valid votes,"32,721",604,"27,085",17,"5,015",0
+UD cases:,,,,,,
+Elections,99,11,47,2,39,0
+Eligible voters,"5,954",954,"2,356",18,"2,626",0
+Valid votes,"4,782",829,"2,007",14,"1,932",0

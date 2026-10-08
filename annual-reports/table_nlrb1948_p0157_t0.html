@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -124,60 +132,57 @@ ul.link-list li { margin: 0.3rem 0; }
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th></th><th></th><th></th><th></th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">16-R-2438</th><td>Abercrombie, J. S., Co.</td><td>13M-R-12</td><td>Case, J. I. Co.</td></tr>
-<tr><th class="stub" scope="row">21-R-3564</th><td>Acme Brewing Co.</td><td>13-R-4361</td><td>Casteel Distributing Co.</td></tr>
-<tr><th class="stub" scope="row">13-R-4537</th><td>Airlastic Rubber Co.</td><td>15-R-1536</td><td>Central Louisiana Ele c-</td></tr>
-<tr><th class="stub" scope="row">13M-R-15</th><td>Allis-Chalmers Manufac- turing Co.</td><td class="blank"></td><td>tric Co., Inc. Central Sash &amp; Door Co.</td></tr>
-<tr><th class="stub" scope="row">4-R-2761</th><td>Alpha Lithograph Co.</td><td>10-R-2625 7-R-2601</td><td>Chrysler Corp.</td></tr>
-<tr><th class="stub" scope="row">6-R-1654</th><td>Aluminum Co. of Amer-</td><td>7-R-2602</td><td>Chrysler Corp.</td></tr>
-<tr><th class="stub" scope="row"></th><td>ica. American Can Co.</td><td>1-R-3868 2-R-7244</td><td>Churchward &amp; Co., Inc. Cities Service Oil Co.</td></tr>
-<tr><th class="stub" scope="row">2-R-7652 4-R-2752</th><td>American Chain &amp; Cable</td><td>2-R-7896</td><td>Cities Service Oil Co.</td></tr>
-<tr><th class="stub" scope="row"></th><td>Co., Inc.</td><td>5W-R-92</td><td>Clarkton Gramwood Prod-</td></tr>
-<tr><th class="stub" scope="row">10-R-2537</th><td>American Fruit Growers, Inc.</td><td>20-RE-59</td><td>ucts Co., Inc.</td></tr>
-<tr><th class="stub" scope="row">2-R-7577</th><td>American Lumbermens Casualty Co.</td><td class="blank"></td><td>Coca-Cola Bottling Co. of California. Cohn, Sigmund, Co.</td></tr>
-<tr><th class="stub" scope="row">9-R-2304</th><td>American Protection Co.</td><td>2-R-7681 21-R-3988</td><td>Cole Instrument Co.</td></tr>
-<tr><th class="stub" scope="row">16E-R-19</th><td>American Smelting &amp; Refining Co.</td><td>9-R-2696</td><td>Columbus Bolt Works Co.</td></tr>
-<tr><th class="stub" scope="row">1-R-3873</th><td>American Sugar Refining</td><td>21-R-3931</td><td>Consolidated Vultee Air- craft Corp. -</td></tr>
-<tr><th class="stub" scope="row">14-R-1826</th><td>Co. American Thermometer</td><td>14-R-1715</td><td>Continental Can Co. Corp.</td></tr>
-<tr><th class="stub" scope="row"></th><td>Co.</td><td>9-R-2739</td><td>Curtiss-Wright</td></tr>
-<tr><th class="stub" scope="row">16-R-2325</th><td>American Zinc Co. of Illi- nois.</td><td>18-R-1929</td><td>Davenport Machine &amp; Foundry Co.</td></tr>
-<tr><th class="stub" scope="row">8-R-2704 3-R-1585</th><td>Armour Fertilizer Works. Art Metal Construction</td><td>10-R-2686</td><td>Davis Lumber Co.</td></tr>
-<tr><th class="stub" scope="row"></th><td>Co. Atwater</td><td>14-R-1720 7-R-2726</td><td>Dazey Corp. Detroit Edison</td></tr>
-<tr><th class="stub" scope="row">1-R-3675</th><td>Manufacturing Co.</td><td>16-R-2207</td><td>Co., The. Dickson Jenkins Manu-</td></tr>
-<tr><th class="stub" scope="row">19-R-2104</th><td>Austin Co. Automatic Paper Box</td><td>15M-R-95</td><td>facturing Co. Dierks Lumber &amp; Coal</td></tr>
-<tr><th class="stub" scope="row">13-R-4479</th><td>Corp.</td><td>16-R-2431</td><td>Co. Dixie Wax Paper Co.</td></tr>
-<tr><th class="stub" scope="row">21-R-3565</th><td>Aztec Brewing Co.</td><td>2-R-7675</td><td>Dodge &amp; Olcott, Inc.</td></tr>
-<tr><th class="stub" scope="row">2-R-7982</th><td>Beattie Rug Manufactur- ing Co.</td><td>7-R-2690 2-R-7752</td><td>C Dow Chemical DuMont, Allen B.,</td></tr>
-<tr><th class="stub" scope="row">10-R-2804 13-R-4398</th><td>•Beechwood Lumber Co. Bendix Aviation Corp., Bendix Products Divi-</td><td>5W-R-90</td><td>Laboratories, Inc. Duplan Corp.</td></tr>
-<tr><th class="stub" scope="row">4-R-2692</th><td>sion. Bethlehems&#x27; Globe Pub-</td><td>5-R-2997 9-R-2685</td><td>Electrical Equipment Co. Electric Autolite Co.</td></tr>
-<tr><th class="stub" scope="row">2-R-7881</th><td>lishing Co., The. Bethlehem Steel Co.</td><td>16-R-2437</td><td>Elgin Standard Brick Co.</td></tr>
-<tr><th class="stub" scope="row">2-R-7763</th><td>Biltmore Pipe Co.</td><td>17-R-1720</td><td>Fairchild Engine &amp; Air-</td></tr>
-<tr><th class="stub" scope="row">8-R-2628</th><td>Bliss, E. W., Co.</td><td class="blank"></td><td>plane Corp.</td></tr>
-<tr><th class="stub" scope="row">21-R-3697</th><td>Bohemian Distributing Co.</td><td>5-R-2946</td><td>Farmville Manufacturing Co.</td></tr>
-<tr><th class="stub" scope="row">16-R-2433</th><td>Bryant Heater Co.</td><td>16E-R-34</td><td>Ferguson Steere Motor Co.</td></tr>
-<tr><th class="stub" scope="row">9-R-2117</th><td>Buckeye Steel Castings Co., The.</td><td>1-R-3861</td><td>Firestone Rubber Sr La-</td></tr>
-<tr><th class="stub" scope="row">6-R-1687</th><td>Bucyrus-Erie Co.</td><td class="blank"></td><td>tex Products Co.</td></tr>
-<tr><th class="stub" scope="row">13-R-4533</th><td>Burgess Battery Co.</td><td>16-R-2277</td><td>Firestone Tire &amp; Rubber Co.</td></tr>
-<tr><th class="stub" scope="row">91-R-1328</th><td>Burnet-Binford Lumber Co., Inc.</td><td>13M-R-32</td><td>Fort Howard Paper Co. Fort Worth Structural</td></tr>
-<tr><th class="stub" scope="row">14-R-1789</th><td>Busch-Sulzer Bros.</td><td>16-R-2303</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">17-R-1837</th><td>Capital City Upholster-</td><td>16-R-2436</td><td>Steel Co. Frost Lumber</td></tr>
-<tr><th class="stub" scope="row"></th><td>ing Co.</td><td class="blank"></td><td>Industries of Texas, Inc.</td></tr>
-<tr><th class="stub" scope="row">1-R-3867 19-R-2126</th><td>Cascade Woolen Mills. Cascadian Fruit Ship-</td><td>13-R-4457 10-R-2807</td><td>Gam Sales Co.</td></tr>
-<tr><th class="stub" scope="row"></th><td>pers, Inc.</td><td class="blank"></td><td>Gaylord Container</td></tr>
-<tr><th class="stub" scope="row"></th><td class="blank"></td><td class="blank"></td><td>Corp.</td></tr>
+<tr><th class="stub" scope="row">B. Cases decided on the basis of stipulation entered into by the parties</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">1. NLRA—C cases</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">16-C-1284</th><td>American National Insurance Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1394</th><td>Corsicana Cotton Mills.</td></tr>
+<tr><th class="stub" scope="row">10-C-2201</th><td>Dewberry Engraving Co.</td></tr>
+<tr><th class="stub" scope="row">16-C-1566</th><td>Frankoma Pottery.</td></tr>
+<tr><th class="stub" scope="row">2-C-6970</th><td>Interstate Dress Carriers, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-C-1300</th><td>Norris, W. C., Manufacturing, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-C-1318</th><td>Perrault Bros., Lewis Perrault &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">3-C-1048</th><td>Phinney Tool &amp; Die Co.</td></tr>
+<tr><th class="stub" scope="row">5-C-2352</th><td>Radford Weaving Co.</td></tr>
+<tr><th class="stub" scope="row">18-C-1392</th><td>Stoddard Manufacturing Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">2. LMRA—CA cases</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">1-CA-4</th><td>Brockton Perforating Machine Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">16-CA-1</th><td>Elgin Standard Brick Manufacturing Co.</td></tr>
+<tr><th class="stub" scope="row">8-CA-33</th><td>House of Timmons, Inc., The.</td></tr>
+<tr><th class="stub" scope="row">8-CA-11</th><td>Lake City Malleable, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-CA-24</th><td>North Texas Steel Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">C. Cases decided by adoption of intermediate report in absence of exceptions</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">18-C-1359</th><td>Barker Equipment Co.</td></tr>
+<tr><th class="stub" scope="row">14-C-1157</th><td>Bennett Wholesale Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">18-C-1372</th><td>Dryden Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">11-C-1292</th><td>Kahler Co., Inc., The</td></tr>
+<tr><th class="stub" scope="row">20-CA-29</th><td>Muscat Cooperative Winery Association.</td></tr>
+<tr><th class="stub" scope="row">15-C-1240</th><td>Trelles, M. &amp; Co., Manuel Trelles &amp; Ubaldo Trelles, d/b/a</td></tr>
+<tr><th class="stub" scope="row">14-C-1271</th><td>Ullin Box &amp; Lumber Co</td></tr>
+<tr><th class="stub" scope="row">9-C-2217</th><td>Wallace Corp., The.</td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1948_p0157_t0.csv" download>Download this table (CSV)</a></p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 157.</b> This is a list-style table with no printed column headings, so header_rows is empty. It has two printed columns per panel: the case number (stub) and the company name. The page is set as two side-by-side panels separated by a vertical rule; following the instructions, within each lettered/numbered section I transcribed all of the left panel&#x27;s rows first and then the right panel&#x27;s rows, so the alphabetical order of company names restarts at the first right-panel row of each section (e.g. &quot;Norris, W. C., ...&quot; after &quot;Interstate Dress Carriers, Inc.&quot;).
+
+Section heading lines (&quot;B. Cases decided ...&quot;, &quot;1. NLRA—C cases&quot;, &quot;2. LMRA—CA cases&quot;, &quot;C. Cases decided ...&quot;) are carried as rows with the label in the stub and an empty second cell; the first three are centered over both panels in the original.
+
+Case numbers are printed with en-dashes; I used plain hyphens (e.g. &quot;16-C-1284&quot;).
+
+Doubtful cells: the right-panel entry at 14-C-1271, &quot;Ullin Box &amp; Lumber Co&quot;, runs to the extreme right edge of the crop and any final period is cut off; the name itself is legible. The row label at 11-C-1292, &quot;Kahler Co., Inc., The&quot;, shows no trailing period, unlike most neighboring entries. The section number &quot;2&quot; in &quot;2. LMRA—CA cases&quot; is set in an old-style display numeral but reads clearly as 2.
+
+The crop ends immediately below the last two rows (11-C-1292 / 9-C-2217) with no visible end to section C, so the list under heading C very likely continues onto the following page or crop.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1948_p0157.webp" loading="lazy" alt="Source page 157 of NLRB FY1948 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1948_p0157_t0_p0157.webp" loading="lazy" alt="Source page 157 of NLRB FY1948 annual report">
 <figcaption>Source: NLRB Annual Report FY1948, p. 157.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

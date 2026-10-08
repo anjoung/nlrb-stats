@@ -1,7 +1,6 @@
-row_label,Disposition,Number
-Granted,Granted,79
-Denied,Denied,11
-Withdrawn,Withdrawn,14
-Dismissed,Dismissed,16
-Settled or placed on courts' inactive list,Settled or placed on courts' inactive list,98
-Awaiting action at end of fiscal year,Awaiting action at end of fiscal year,33
+Total NLRB cases ruled on,298
+Affirmed in full,230
+Affirmed with modification,26
+Remanded to NLRB,12
+Partially affirmed and partially remanded,1
+Set aside,29

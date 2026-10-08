@@ -1,1 +1,28 @@
-row_label
+Method and stage of disposition,All R cases,All R cases,RC cases,RC cases,RM cases,RM cases,RD cases,RD cases,UD cases,UD cases
+Method and stage of disposition,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+"Total, all","11,114",100.0,"8,904",100.0,606,100.0,"1,604",100.0,257,100.0
+"Certification issued, total","7,564",68.1,"6,445",72.4,255,42.1,864,53.9,147,57.2
+After,,,,,,,,,,
+Consent election,277,2.5,231,2.6,11,1.8,35,2.2,10,3.9
+Before notice of hearing,132,1.2,103,1.2,8,1.3,21,1.3,10,3.9
+"After notice of hearing, before hearing closed",145,1.3,128,1.4,3,0.5,14,0.9,0,0.0
+"After hearing closed, before decision",0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+Stipulated election,"5,793",52.1,"4,943",55.5,179,29.5,671,41.9,75,29.2
+Before notice of hearing,"1,456",13.1,"1,114",12.5,80,13.2,262,16.3,59,23.0
+"After notice of hearing, before hearing closed","4,311",38.8,"3,807",42.8,99,16.3,405,25.3,15,5.8
+"After hearing closed, before decision",26,0.2,22,0.2,0,0.0,4,0.3,1,0.4
+Expedited election,18,0.2,3,0.0,15,2.5,0,0.0,0,0.0
+Regional director directed election,"1,451",13.1,"1,245",14.0,50,8.3,156,9.7,62,24.1
+Board directed election,25,0.2,23,0.3,0,0.0,2,0.1,0,0.0
+"By withdrawal, total","2,758",24.8,"2,039",22.9,241,39.8,478,29.8,83,32.3
+Before notice of hearing,"1,160",10.4,683,7.7,156,25.7,321,20.0,76,29.6
+"After notice of hearing, before hearing closed","1,341",12.1,"1,130",12.7,72,11.9,139,8.7,6,2.3
+"After hearing closed, before decision",48,0.4,38,0.4,3,0.5,7,0.4,0,0.0
+After regional director's decision and direction of election,205,1.8,185,2.1,9,1.5,11,0.7,1,0.4
+After Board decision and direction of election,4,0.1,3,0.0,1,0.2,0,0.0,0,0.0
+"By dismissal, total",792,7.1,420,4.7,110,18.1,262,16.3,27,10.5
+Before notice of hearing,392,3.5,121,1.4,74,12.2,197,12.3,19,7.4
+"After notice of hearing, before hearing closed",126,1.1,71,0.8,17,2.8,38,2.4,1,0.4
+"After hearing closed, before decision",22,0.2,14,0.1,1,0.2,7,0.4,1,0.4
+By regional director's decision,235,2.1,197,2.2,18,2.9,20,1.2,6,2.3
+By Board decision,17,0.2,17,0.2,0,0.0,0,0.0,0,0.0

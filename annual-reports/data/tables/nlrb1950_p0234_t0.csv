@@ -1,22 +1,18 @@
-Subsection / combination,Number of cases showing specific allegations,Percent of total
-Total,4472,100.0
-8(a)(1),352,7.9
-8(a)(1)(2),118,2.6
-8(a)(1)(3),2333,52.2
-8(a)(1)(4),10,.2
-8(a)(1)(5),690,15.4
-8(a)(1)(2)(3),284,6.4
-8(a)(1)(2)(5),1,0
-8(a)(1)(3)(4),87,2.0
-8(a)(1)(3)(5),60,1.3
-8(a)(1)(4)(5),444,9.9
-8(a)(1)(2)(3)(4),5,.1
-8(a)(1)(2)(3)(5),66,1.5
-8(a)(1)(2)(4)(5),1,(1)
-8(a)(1)(3)(4)(5),13,.3
-8(a)(1)(2)(3)(4)(5),8,.2
-8(a)(1),4472,100.0
-8(a)(2),570,12.7
-8(a)(3),3213,72.0
-8(a)(4),98,2.2
-8(a)(5),1309,29.3
+Month,Cases received,Cases received,Cases received,Cases received,Cases received,Cases received,Cases received,Cases received,Cases received,Cases received
+Month,All cases,Number,Number,Number,Percent of yearly total,Percent of yearly total,Percent of yearly total,Percent of monthly total,Percent of monthly total,Percent of monthly total
+Month,All cases,Unfair labor practice cases,Representation cases,Union-shop authorization cases,Unfair labor practice cases,Representation cases,Union-shop authorization cases,Unfair labor practice cases,Representation cases,Union-shop authorization cases
+Total,"21,632","5,809","9,279","6,544",100.0,100.0,100.0,26.9,42.9,30.2
+1949,,,,,,,,,,
+July,"1,427",445,562,420,7.7,6.0,6.4,31.2,39.4,29.4
+August,"1,820",555,729,536,9.5,7.8,8.2,30.5,40.1,29.4
+September,"1,597",451,704,442,7.8,7.6,6.7,28.2,44.1,27.7
+October,"1,593",475,630,488,8.2,6.8,7.5,29.8,39.6,30.6
+November,"1,595",441,686,468,7.6,7.4,7.2,27.7,43.0,29.3
+December,"1,719",411,760,548,7.1,8.2,8.4,23.9,44.2,31.9
+1950,,,,,,,,,,
+January,"1,676",433,729,514,7.4,7.9,7.9,25.8,43.5,30.7
+February,"1,878",476,896,506,8.2,9.7,7.7,25.4,47.7,26.9
+March,"2,150",489,995,666,8.4,10.7,10.2,22.7,46.3,31.0
+April,"2,073",523,882,668,9.0,9.5,10.2,25.2,42.6,32.2
+May,"2,086",562,827,697,9.7,8.9,10.6,26.9,39.7,33.4
+June,"2,018",548,879,591,9.4,9.5,9.0,27.1,43.6,29.3

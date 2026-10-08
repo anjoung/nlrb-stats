@@ -1,8 +1,6 @@
-Affiliation of participating union,Number of elections / Total,Number of elections / In which representation rights were won by AFL-CIO affiliates,Number of elections / In which representation rights were won by Unaffiliated unions,Number of elections / In which no representative was chosen,Number of employees involved (number eligible to vote) / Total,Number of employees involved (number eligible to vote) / In units which representation rights were won by AFL-CIO affiliates,Number of employees involved (number eligible to vote) / In units which representation rights were won by Unaffiliated unions,Number of employees involved (number eligible to vote) / In units which no representative was chosen,Total valid votes cast
-Total,6571,2665,1487,2419,489365,172415,93332,223618,441909
-1-union election — AFL-CIO,3888,2121,,1767,206480,101508,,73762,154972
-1-union election — Unaffiliated,2046,,1136,910,75902,,33233,41549,66970
-2-union election — AFL-CIO v AFL-CIO,215,187,,28,35180,33303,,1877,30704
-2-union election — AFL-CIO v Unaffiliated,257,144,75,38,102121,49675,14475,37791,92180
-2-union election — Unaffiliated v Unaffiliated,76,,67,9,21000,,19991,1031,12701
-3 (or more) union elections,89,30,11,7,14902,7038,6883,971,9386
+Union affiliation,Elections participated in,Elections participated in,Elections participated in,Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Union affiliation,Total,Won,Percent won,Total eligible,Employees in units selecting bargaining agent,Employees in units selecting bargaining agent,Total,Percent of total eligible,Cast for the union,Cast for the union
+Union affiliation,Total,Won,Percent won,Total eligible,Number,Percent of total eligible,Total,Percent of total eligible,Number,Percent of total cast
+Total,"6,871","4,052",59.0,"489,365","265,747",54.3,"441,969",90.3,"264,727",59.9
+AFL-CIO,"4,749","2,565",54.0,"399,133","172,415",43.2,"360,326",90.3,"174,948",48.6
+Unaffiliated,"2,768","1,487",53.7,"207,305","93,332",45.0,"185,895",89.7,"89,779",48.3

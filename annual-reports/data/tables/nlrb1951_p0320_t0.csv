@@ -1,34 +1,47 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7
-Total,93,15,8,4,66,"6, Ill",5350
-Manufacturing,65,12,7,' 3,43,4853,4227
-- Food and kindred products,12,5,0,0,7,327,290
-Textile-mill products Apparel and other finished prod-,1,0,1,0,0,298,279
-ucts made from fabric and sim- ilar materials,2,1,0,0,I,231,208
-Lumber and wood products,5,1,2,0,2,966,760
-Furniture and fixtures,1,0,1,o,0,13,13
-Paper and allied products,2,0,0,0,2,25,24
-Chemicals and allied products,3,o,1,0,2,77,66
-Products of petroleum and coal,3,0,1,0,2,84,76
-Rubber products,1,0,0,1,0,62,60
-Leather and leather products,1,0,0,0,1,6,6
-"Stone, clay, and glass products__",7,2,o,o,5,569,508
-Primary metal industries,4,0,1,0,3,136,127
-Fabricated metal products (ex- cept machinery and transporta- tion equipment),5,1,0,0,4,172,157
-Machinery (except electrical),2,0,0,o,2,46,40
-"Electrical machinery, equipment, and supplies",5,0,0,2,3,1188,1052
-Transportation equipment,6,1,o,o,5,364,309
-Aircraft and parts,1,1,0,o,o,76,70
-Ship and boat building and re- pairing,1,o,o,o,1,114,75
-Automotive and other trans- portation equipment,4,o,o,o,4,174,164
-"Professional, scientific, and con- trolling instruments",1,o,o,o,1,25,25
-Miscellaneous manufacturing,4,1,o,0,3,264,227
-Coal mining Nonmetal mining and quari ying,1 1,0 o,0 o,0 o,1 1,21 9,16 9
-Wholesale trade Retail trade,,,0,0,,197,184
-,10 4,0 0,1,0,10 3,242,194
-"Transportation, communication, and other public utilities",9,2,o,1,6,582,
-Highway passenger transporta- tion,4,1,0,0,3,,524
-,,,,,,449,419
-Other transportation,1,0,o,o,1,11,11
-Communication,2,1,o,1,0,28,27
-"Heat, light, power, water, and sanitary services",2,o,o,o,2,94,67
-Services,3,1,o,o,2,207,196
+Industrial group,Number of elections,Winner,Winner,Winner,Winner,Eligible voters,Valid votes cast
+Industrial group,Number of elections,A. F. of L. affiliates,C. I. O. affiliates,Unaffiliated unions,No union,Eligible voters,Valid votes cast
+Total,"6,432","2,650","1,375",733,"1,674","666,556","587,595"
+Manufacturing,"4,479","1,696","1,160",516,"1,107","549,858","487,384"
+Ordnance and accessories,7,5,2,0,0,"1,963","1,695"
+Food and kindred products,633,335,86,55,157,"49,882","41,710"
+Tobacco manufacturers,24,9,5,4,6,"7,837","6,401"
+Textile-mill products,171,24,54,23,70,"43,636","39,827"
+Apparel and other finished products made from fabrics and similar materials,132,45,32,6,49,"17,168","15,896"
+Lumber and wood products,229,94,73,4,58,"19,210","16,570"
+Furniture and fixtures,180,69,48,10,53,"19,110","17,492"
+Paper and allied products,158,85,27,5,41,"20,471","18,324"
+"Printing, publishing, and allied industries",205,96,55,15,39,"7,210","6,284"
+Chemicals and allied products,263,123,63,19,58,"32,134","28,796"
+Products of petroleum and coal,119,40,39,17,23,"9,635","8,252"
+Rubber products,69,18,30,8,13,"10,846","9,482"
+Leather and leather products,70,22,15,9,24,"9,921","8,907"
+"Stone, clay, and glass products",170,71,35,23,41,"13,790","12,160"
+Primary metal industries,285,86,88,46,65,"50,245","45,542"
+Fabricated metal products (except machinery and transportation equipment),454,162,114,53,125,"49,206","43,823"
+Macinery (except electrical),528,137,172,111,108,"69,974","63,159"
+"Electrical machinery, equipment and supplies",274,101,72,57,44,"54,864","47,204"
+Transportation equipment,237,76,71,30,60,"36,259","32,315"
+Aircraft and parts,44,15,6,6,17,"14,134","12,419"
+Ship and boat building and reparing,28,17,2,3,6,"4,379","3,739"
+Automotive and other transportation equipment,165,44,63,21,37,"17,746","16,157"
+"Professional, scientific, and controlling instruments",91,27,34,6,24,"11,197","10,000"
+Miscellaneous manufacturing,180,71,45,15,49,"15,300","13,545"
+"Agricultural, forestry, and fisheries",0,0,0,0,0,0,0
+Mining,57,17,18,6,16,"5,460","4,911"
+Metal mining,15,3,6,1,5,"2,989","2,649"
+Coal mining,3,0,0,1,2,114,98
+Crude petroleum and natural gas production,8,2,3,1,2,371,350
+Nonmetallic mining and quarrying,31,12,9,3,7,"1,986","1,814"
+Construction,42,19,5,3,15,"3,675","2,858"
+Wholesale trade,540,302,66,28,144,"19,672","16,532"
+Retail trade,626,262,60,63,271,"27,064","23,902"
+"Finance, insurance, and real estate",37,16,8,4,9,"11,233","10,052"
+"Transportation, communication, and other public utilities",509,273,41,86,109,"44,561","37,615"
+Highway passenger transportation,66,30,2,20,14,"3,812","3,549"
+Highway freight transportation,124,79,2,15,28,"2,138","1,922"
+Water transportation,19,5,6,4,4,"1,830","1,453"
+Warehousing and storage,53,35,5,5,8,"1,407","1,195"
+Order transportation,15,6,3,1,5,"2,889","2,539"
+Communication,144,67,14,36,27,"27,232","22,375"
+"Heat, light, power, water, and sanitary services",88,51,9,5,23,"5,253","4,582"
+Services,142,65,17,27,33,"5,033","4,341"

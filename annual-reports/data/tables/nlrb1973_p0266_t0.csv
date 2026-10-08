@@ -1,6 +1,21 @@
-Case status,Total,Number of cases — Identification of petitioner / Employer,Number of cases — Identification of petitioner / Union,Number of cases — Identification of petitioner / Courts,Number of cases — Identification of petitioner / State boards
-"Pending July 1, 1972",2,1,0,0,1
-Received fiscal 1973,5,4,1,0,0
-On docket fiscal 1973,7,6,0,0,1
-Closed fiscal 1973,6,5,0,0,1
-"Pending June 30, 1973",1,1,0,0,0
+Type of litigation,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings
+Type of litigation,Total—all courts,Total—all courts,Total—all courts,In courts of appeals,In courts of appeals,In courts of appeals,In district courts,In district courts,In district courts
+Type of litigation,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination,Number decided,Court determination,Court determination
+Type of litigation,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position,Number decided,Upholding Board position,Contrary to Board position
+Totals—all types,51,49,2,11,10,1,40,39,1
+NLRB-initiated actions,10,10,0,0,0,0,10,10,0
+To enforce subpena,5,5,0,0,0,0,5,5,0
+To restrain dissipation of assets by respondent,3,3,0,0,0,0,3,3,0
+To defend Board's jurisdiction,2,2,0,0,0,0,2,2,0
+Action by other parties,41,39,2,11,10,1,30,29,1
+To restrain NLRB from,13,13,0,2,2,0,11,11,0
+Proceeding in R case,5,5,0,2,2,0,3,3,0
+Proceeding in unfair labor practice case,6,6,0,0,0,0,6,6,0
+Proceeding in backpay case,2,2,0,0,0,0,2,2,0
+Other,0,0,0,0,0,0,0,0,0
+To compel NLRB to,28,26,2,9,8,1,19,18,1
+Issue complaint,4,4,0,1,1,0,8,3,0
+Seek injunction,0,0,0,0,0,0,0,0,0
+Take action in R case,8,8,0,3,3,0,5,5,0
+Other,7,5,2,1,0,1,6,5,1
+Other,9,9,0,4,4,0,5,5,0

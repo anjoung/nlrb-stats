@@ -1,6 +1,60 @@
-Industrial group,All cases,Unfair labor practice cases / AII C,Unfair labor practice cases / CA,Unfair labor practice cases / CB,Unfair labor practice cases / CC,Unfair labor practice cases / CD,Unfair labor practice cases / CE,Unfair labor practice cases / CG,Representation cases / AII R,Representation cases / RC,Representation cases / RM,Representation cases / RD,Union deauthorization cases / UD,Amendment of certification cases / AC,Unit clarification cases / UC
-Wholesale trade,1836,1296,1008,272,12,1,1,2,322,249,9,64,7,0,11
-Services (subtotal),8801,6888,5406,1567,67,15,4,21,1439,1174,27,238,5,1,124
-Public administration,108,76,43,20,0,0,0,0,30,22,0,1,0,0,30
-All industrial groups (grand total),39936,34040,26244,6989,463,134,22,98,5466,4331,174,971,14,31,285
-Other industries (catch-all),,,,,,,,,,,,,,,
+Industrial group,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases,Representation cases,Union deauthorization cases,Amendment of certification cases,Unit clarification cases
+Industrial group,All cases,All C cases,CA,CB,CC,CD,CE,CG,CP,All R cases,RC,RM,RD,Union deauthorization cases,Amendment of certification cases,Unit clarification cases
+Industrial group,All cases,All C cases,CA,CB,CC,CD,CE,CG,CP,All R cases,RC,RM,RD,UD,AC,UC
+Food and kindred products,"1,822","1,542","1,184",352,4,2,0,0,0,264,212,5,47,5,1,10
+Tobacco manufacturers,13,11,4,7,0,0,0,0,0,2,2,0,0,0,0,0
+Textile mill products,206,175,136,39,0,0,0,0,0,31,24,0,7,0,0,0
+Apparel and other finished products made from fabric and similar materials,206,185,137,47,1,0,0,0,0,20,19,0,1,1,0,0
+Lumber and wood products (except furniture),289,232,178,50,2,0,1,0,1,53,41,3,9,3,0,1
+Furniture and fixtures,271,233,186,46,0,1,0,0,0,36,25,0,11,1,0,1
+Paper and allied products,555,495,404,89,1,1,0,0,0,57,43,2,12,1,0,2
+"Printing, publishing, and allied products",833,716,541,163,7,4,0,0,1,104,69,3,32,2,0,11
+Chemicals and allied products,582,500,391,107,2,0,0,0,0,76,61,2,13,1,3,2
+Petroleum refining and related industries,193,156,134,19,1,0,1,0,1,24,11,3,10,0,6,7
+Rubber and miscellaneous plastic products,610,539,449,90,0,0,0,0,0,69,59,0,10,2,0,0
+Leather and leather products,73,66,53,13,0,0,0,0,0,7,6,1,0,0,0,0
+"Stone, clay, glass, and concrete products",564,467,365,95,4,1,2,0,0,91,65,2,24,4,1,1
+Primary metal industries,992,860,611,242,5,2,0,0,0,117,86,4,27,2,2,11
+Fabricated metal products (except machinery and transportation equipment),"1,010",845,678,157,7,2,0,0,1,158,120,2,36,7,0,0
+Machinery (except electrical),"1,044",912,768,138,2,3,0,0,1,115,84,4,27,11,0,6
+"Electrical and electronic machinery, equipment, and supplies",621,549,404,142,2,1,0,0,0,67,47,2,18,2,0,3
+Aircraft and parts,242,231,133,98,0,0,0,0,0,9,5,0,4,0,1,1
+Ship and boat building and repairing,178,167,147,19,1,0,0,0,0,7,6,0,1,1,0,3
+Automotive and other transportation equipment,"1,085",966,692,266,5,2,0,0,1,115,99,3,13,0,0,4
+"Measuring, analyzing, and controlling instruments; photographic, medical, and optical goods, watches and clocks",178,151,111,37,0,0,3,0,0,20,11,1,8,2,1,4
+Miscellaneous manufacturing industries,224,195,157,36,2,0,0,0,0,25,17,0,8,3,0,1
+Manufacturing,"11,791","10,193","7,863","2,252",46,19,7,0,6,"1,467","1,112",37,318,48,15,68
+Metal mining,59,54,37,16,0,0,0,0,1,5,5,0,0,0,0,0
+Coal mining,204,197,168,16,10,1,0,0,2,7,4,1,2,0,0,0
+Oil and gas extraction,56,49,40,9,0,0,0,0,0,7,5,1,1,0,0,0
+Mining and quarrying of nonmetallic minerals (except fuels),95,77,62,12,2,1,0,0,0,18,12,1,5,0,0,0
+Mining,414,377,307,53,12,2,0,0,3,37,26,3,8,0,0,0
+Construction,"5,106","4,539","3,419",696,212,142,4,0,66,555,454,48,53,0,2,10
+Wholesale trade,"1,636","1,296","1,008",272,12,1,1,0,2,322,249,9,64,7,0,11
+Retail trade,"2,633","2,117","1,614",468,24,3,0,0,8,485,355,16,114,11,1,19
+"Finance, insurance, and real estate",649,539,410,118,11,0,0,0,0,103,75,11,17,1,0,6
+U.S. Postal Service,"2,975","2,974","2,295",679,0,0,0,0,0,1,1,0,0,0,0,0
+Local and suburban transit and interurban highway passenger transportation,667,493,410,77,6,0,0,0,0,170,139,4,27,2,0,2
+Motor freight transportation and warehousing,"2,789","2,285","1,828",405,42,7,2,0,1,484,406,11,67,3,1,16
+Water transportation,259,233,112,108,7,3,1,0,2,24,22,0,2,0,1,1
+Other transportation,417,325,220,85,12,8,0,0,0,86,70,2,14,1,0,5
+Communication,921,808,613,191,3,1,0,0,0,102,75,3,24,1,0,10
+"Electric, gas, and sanitary services","1,070",897,678,204,8,3,1,0,3,161,136,2,23,1,0,11
+"Transportation, communication, and other utilities","6,123","5,041","3,861","1,070",78,22,4,0,6,"1,027",848,22,157,8,2,45
+"Hotels, rooming houses, camps, and other lodging places",972,846,654,173,19,0,0,0,0,121,99,5,17,1,0,4
+Personal services,278,221,185,35,1,0,0,0,0,49,39,0,10,2,5,1
+"Automotive repair, services, and garages",399,277,230,46,1,0,0,0,0,117,84,2,31,3,0,2
+Motion pictures,179,157,87,66,2,1,0,0,1,22,15,1,6,0,0,0
+Amusement and recreation services (except motion pictures),408,323,240,76,4,1,1,0,1,79,66,2,11,3,0,3
+Health services,"3,073","2,529","2,141",357,7,0,2,22,0,456,369,10,77,10,2,76
+Educational services,248,201,172,26,2,1,0,0,0,41,37,1,3,1,1,4
+Membership organizations,549,463,261,196,4,2,0,0,0,68,59,0,9,3,0,15
+Business services,"1,776","1,411","1,047",325,24,10,0,0,5,343,297,3,43,14,1,7
+Miscellaneous repair services,97,75,63,12,0,0,0,0,0,22,19,0,3,0,0,0
+Legal services,60,44,42,2,0,0,0,0,0,14,9,0,5,0,0,2
+"Museums, art galleries, and botanical and zoological gardens",17,12,9,3,0,0,0,0,0,5,2,0,3,0,0,0
+Social services,341,253,227,25,1,0,0,0,0,76,62,1,13,2,0,10
+Miscellaneous services,104,76,48,25,2,0,1,0,0,26,17,2,7,0,2,0
+Services,"8,501","6,888","5,406","1,367",67,15,4,22,7,"1,439","1,174",27,238,39,11,124
+Public administration,108,76,61,14,1,0,0,0,0,30,27,1,2,0,0,2
+"Total, all industrial groups","39,936","34,040","26,244","6,989",463,204,20,22,98,"5,466","4,321",174,971,114,31,285

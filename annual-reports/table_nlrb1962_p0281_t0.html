@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Geographic Distribution of Unfair Labor Practice and Representation Cases Received, Fiscal Year 1962 — NLRB FY1962</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1962.html">FY1962</a> &rsaquo; Geographic Distribution of Unfair Labor Practice and Representation Cases Received, Fiscal Year 1962</p>
+<h1>Geographic Distribution of Unfair Labor Practice and Representation Cases Received, Fiscal Year 1962</h1>
+<p class="meta">printed as Table 6 &middot; source pages 281–282 &middot; <code>nlrb1962_p0281_t0</code></p>
+<p class="spans-note">Stitched from pp. 281–282.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Division and State</th><th>All cases</th><th colspan="7">Unfair labor practice cases</th><th colspan="4">Representation cases</th></tr>
+<tr><th>Division and State</th><th>All cases</th><th>All C cases</th><th>CA</th><th>CB</th><th>CC</th><th>CD</th><th>CE</th><th>CP</th><th>All R cases</th><th>RC</th><th>RM</th><th>RD</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Total</th><td>24,765</td><td>13,479</td><td>9,231</td><td>2,399</td><td>1,076</td><td>319</td><td>50</td><td>404</td><td>11,286</td><td>9,704</td><td>884</td><td>698</td></tr>
+<tr><th class="stub" scope="row">New England</th><td>1,101</td><td>519</td><td>399</td><td>60</td><td>42</td><td>12</td><td>1</td><td>5</td><td>582</td><td>520</td><td>29</td><td>33</td></tr>
+<tr><th class="stub" scope="row">Maine</th><td>72</td><td>32</td><td>29</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>40</td><td>40</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">New Hampshire</th><td>51</td><td>23</td><td>20</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>28</td><td>23</td><td>1</td><td>4</td></tr>
+<tr><th class="stub" scope="row">Vermont</th><td>33</td><td>16</td><td>13</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>17</td><td>14</td><td>3</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Massachusetts</th><td>613</td><td>270</td><td>194</td><td>37</td><td>27</td><td>9</td><td>0</td><td>3</td><td>343</td><td>301</td><td>23</td><td>19</td></tr>
+<tr><th class="stub" scope="row">Rhode Island</th><td>81</td><td>42</td><td>33</td><td>5</td><td>2</td><td>1</td><td>0</td><td>1</td><td>39</td><td>39</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Connecticut</th><td>251</td><td>136</td><td>110</td><td>13</td><td>9</td><td>2</td><td>1</td><td>1</td><td>115</td><td>103</td><td>2</td><td>10</td></tr>
+<tr><th class="stub" scope="row">Middle Atlantic</th><td>5,533</td><td>3,310</td><td>1,989</td><td>796</td><td>271</td><td>106</td><td>12</td><td>136</td><td>2,223</td><td>1,919</td><td>186</td><td>118</td></tr>
+<tr><th class="stub" scope="row">New York</th><td>2,898</td><td>1,815</td><td>1,068</td><td>448</td><td>137</td><td>56</td><td>7</td><td>99</td><td>1,083</td><td>898</td><td>117</td><td>68</td></tr>
+<tr><th class="stub" scope="row">New Jersey</th><td>1,113</td><td>589</td><td>385</td><td>116</td><td>54</td><td>18</td><td>2</td><td>14</td><td>524</td><td>472</td><td>27</td><td>25</td></tr>
+<tr><th class="stub" scope="row">Pennsylvania</th><td>1,522</td><td>906</td><td>536</td><td>232</td><td>80</td><td>32</td><td>3</td><td>23</td><td>616</td><td>549</td><td>42</td><td>25</td></tr>
+<tr><th class="stub" scope="row">East North Central</th><td>5,937</td><td>3,146</td><td>2,320</td><td>522</td><td>163</td><td>59</td><td>14</td><td>68</td><td>2,791</td><td>2,411</td><td>180</td><td>200</td></tr>
+<tr><th class="stub" scope="row">Ohio</th><td>1,651</td><td>767</td><td>567</td><td>138</td><td>34</td><td>7</td><td>1</td><td>20</td><td>884</td><td>781</td><td>47</td><td>56</td></tr>
+<tr><th class="stub" scope="row">Indiana</th><td>866</td><td>503</td><td>403</td><td>71</td><td>17</td><td>6</td><td>0</td><td>6</td><td>363</td><td>314</td><td>24</td><td>25</td></tr>
+<tr><th class="stub" scope="row">Illinois</th><td>1,567</td><td>867</td><td>598</td><td>163</td><td>53</td><td>20</td><td>5</td><td>28</td><td>700</td><td>626</td><td>41</td><td>33</td></tr>
+<tr><th class="stub" scope="row">Michigan</th><td>1,401</td><td>820</td><td>592</td><td>130</td><td>51</td><td>26</td><td>8</td><td>13</td><td>581</td><td>461</td><td>51</td><td>69</td></tr>
+<tr><th class="stub" scope="row">Wisconsin</th><td>452</td><td>189</td><td>160</td><td>20</td><td>8</td><td>0</td><td>0</td><td>1</td><td>263</td><td>229</td><td>17</td><td>17</td></tr>
+<tr><th class="stub" scope="row">West North Central</th><td>1,679</td><td>722</td><td>535</td><td>88</td><td>49</td><td>13</td><td>3</td><td>34</td><td>957</td><td>834</td><td>62</td><td>61</td></tr>
+<tr><th class="stub" scope="row">Iowa</th><td>218</td><td>62</td><td>45</td><td>3</td><td>7</td><td>2</td><td>0</td><td>5</td><td>157</td><td>141</td><td>8</td><td>7</td></tr>
+<tr><th class="stub" scope="row">Minnesota</th><td>314</td><td>118</td><td>77</td><td>10</td><td>18</td><td>0</td><td>1</td><td>12</td><td>196</td><td>173</td><td>16</td><td>7</td></tr>
+<tr><th class="stub" scope="row">Missouri</th><td>761</td><td>394</td><td>291</td><td>61</td><td>19</td><td>10</td><td>2</td><td>11</td><td>367</td><td>322</td><td>19</td><td>26</td></tr>
+<tr><th class="stub" scope="row">North Dakota</th><td>36</td><td>13</td><td>12</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>23</td><td>18</td><td>3</td><td>2</td></tr>
+<tr><th class="stub" scope="row">South Dakota</th><td>29</td><td>6</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>23</td><td>18</td><td>0</td><td>5</td></tr>
+<tr><th class="stub" scope="row">Nebraska</th><td>146</td><td>62</td><td>50</td><td>6</td><td>4</td><td>1</td><td>0</td><td>1</td><td>84</td><td>69</td><td>9</td><td>6</td></tr>
+<tr><th class="stub" scope="row">Kansas</th><td>175</td><td>67</td><td>54</td><td>7</td><td>1</td><td>0</td><td>0</td><td>5</td><td>108</td><td>93</td><td>7</td><td>8</td></tr>
+<tr><th class="stub" scope="row">South Atlantic</th><td>2,610</td><td>1,554</td><td>1,163</td><td>202</td><td>143</td><td>22</td><td>5</td><td>19</td><td>1,056</td><td>954</td><td>60</td><td>42</td></tr>
+<tr><th class="stub" scope="row">Delaware</th><td>67</td><td>39</td><td>24</td><td>5</td><td>9</td><td>0</td><td>0</td><td>1</td><td>28</td><td>25</td><td>1</td><td>2</td></tr>
+<tr><th class="stub" scope="row">Maryland</th><td>396</td><td>212</td><td>144</td><td>39</td><td>17</td><td>5</td><td>1</td><td>6</td><td>184</td><td>171</td><td>6</td><td>7</td></tr>
+<tr><th class="stub" scope="row">District of Columbia</th><td>93</td><td>59</td><td>24</td><td>19</td><td>10</td><td>6</td><td>0</td><td>0</td><td>34</td><td>30</td><td>2</td><td>2</td></tr>
+<tr><th class="stub" scope="row">Virginia</th><td>235</td><td>108</td><td>96</td><td>4</td><td>8</td><td>0</td><td>0</td><td>0</td><td>127</td><td>115</td><td>10</td><td>2</td></tr>
+<tr><th class="stub" scope="row">West Virginia</th><td>184</td><td>95</td><td>66</td><td>19</td><td>6</td><td>1</td><td>2</td><td>1</td><td>89</td><td>76</td><td>5</td><td>8</td></tr>
+<tr><th class="stub" scope="row">North Carolina</th><td>305</td><td>171</td><td>146</td><td>16</td><td>8</td><td>0</td><td>1</td><td>0</td><td>134</td><td>130</td><td>3</td><td>1</td></tr>
+<tr><th class="stub" scope="row">South Carolina</th><td>120</td><td>76</td><td>74</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>44</td><td>38</td><td>4</td><td>2</td></tr>
+<tr><th class="stub" scope="row">Georgia</th><td>302</td><td>174</td><td>135</td><td>22</td><td>12</td><td>2</td><td>1</td><td>2</td><td>128</td><td>113</td><td>7</td><td>8</td></tr>
+<tr><th class="stub" scope="row">Florida</th><td>908</td><td>620</td><td>454</td><td>76</td><td>73</td><td>8</td><td>0</td><td>9</td><td>288</td><td>256</td><td>22</td><td>10</td></tr>
+<tr><th class="stub" scope="row">East South Central</th><td>1,231</td><td>741</td><td>527</td><td>133</td><td>50</td><td>18</td><td>1</td><td>12</td><td>490</td><td>446</td><td>25</td><td>19</td></tr>
+<tr><th class="stub" scope="row">Kentucky</th><td>349</td><td>183</td><td>117</td><td>42</td><td>14</td><td>8</td><td>1</td><td>1</td><td>166</td><td>152</td><td>5</td><td>9</td></tr>
+<tr><th class="stub" scope="row">Tennessee</th><td>411</td><td>265</td><td>192</td><td>42</td><td>18</td><td>6</td><td>0</td><td>7</td><td>146</td><td>128</td><td>9</td><td>9</td></tr>
+<tr><th class="stub" scope="row">Alabama</th><td>367</td><td>229</td><td>163</td><td>42</td><td>17</td><td>4</td><td>0</td><td>3</td><td>138</td><td>128</td><td>10</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Mississippi</th><td>104</td><td>64</td><td>55</td><td>7</td><td>1</td><td>0</td><td>0</td><td>1</td><td>40</td><td>38</td><td>1</td><td>1</td></tr>
+<tr><th class="stub" scope="row">West South Central</th><td>1,578</td><td>874</td><td>631</td><td>135</td><td>71</td><td>18</td><td>0</td><td>19</td><td>704</td><td>612</td><td>40</td><td>52</td></tr>
+<tr><th class="stub" scope="row">Arkansas</th><td>203</td><td>119</td><td>90</td><td>16</td><td>9</td><td>2</td><td>0</td><td>2</td><td>84</td><td>73</td><td>6</td><td>5</td></tr>
+<tr><th class="stub" scope="row">Louisiana</th><td>313</td><td>192</td><td>116</td><td>41</td><td>22</td><td>5</td><td>0</td><td>8</td><td>121</td><td>109</td><td>7</td><td>5</td></tr>
+<tr><th class="stub" scope="row">Oklahoma</th><td>182</td><td>71</td><td>63</td><td>5</td><td>1</td><td>1</td><td>0</td><td>1</td><td>111</td><td>91</td><td>5</td><td>15</td></tr>
+<tr><th class="stub" scope="row">Texas</th><td>880</td><td>492</td><td>362</td><td>73</td><td>39</td><td>10</td><td>0</td><td>8</td><td>388</td><td>339</td><td>22</td><td>27</td></tr>
+<tr><th class="stub" scope="row">Mountain</th><td>1,120</td><td>610</td><td>447</td><td>66</td><td>54</td><td>22</td><td>1</td><td>20</td><td>510</td><td>428</td><td>40</td><td>42</td></tr>
+<tr><th class="stub" scope="row">Montana</th><td>101</td><td>51</td><td>34</td><td>4</td><td>5</td><td>5</td><td>0</td><td>3</td><td>50</td><td>41</td><td>6</td><td>3</td></tr>
+<tr><th class="stub" scope="row">Idaho</th><td>112</td><td>43</td><td>39</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>69</td><td>52</td><td>10</td><td>7</td></tr>
+<tr><th class="stub" scope="row">Wyoming</th><td>53</td><td>21</td><td>18</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>32</td><td>28</td><td>2</td><td>2</td></tr>
+<tr><th class="stub" scope="row">Colorado</th><td>341</td><td>196</td><td>149</td><td>14</td><td>15</td><td>10</td><td>0</td><td>8</td><td>145</td><td>120</td><td>10</td><td>15</td></tr>
+<tr><th class="stub" scope="row">New Mexico</th><td>190</td><td>130</td><td>94</td><td>20</td><td>10</td><td>4</td><td>0</td><td>2</td><td>60</td><td>50</td><td>4</td><td>6</td></tr>
+<tr><th class="stub" scope="row">Arizona</th><td>155</td><td>84</td><td>59</td><td>12</td><td>9</td><td>1</td><td>1</td><td>2</td><td>71</td><td>61</td><td>5</td><td>5</td></tr>
+<tr><th class="stub" scope="row">Utah</th><td>81</td><td>38</td><td>24</td><td>1</td><td>12</td><td>1</td><td>0</td><td>0</td><td>43</td><td>42</td><td>0</td><td>1</td></tr>
+<tr><th class="stub" scope="row">Nevada</th><td>87</td><td>47</td><td>30</td><td>9</td><td>2</td><td>1</td><td>0</td><td>5</td><td>40</td><td>34</td><td>3</td><td>3</td></tr>
+<tr><th class="stub" scope="row">Pacific</th><td>3,272</td><td>1,715</td><td>1,005</td><td>346</td><td>222</td><td>49</td><td>13</td><td>80</td><td>1,557</td><td>1,188</td><td>247</td><td>122</td></tr>
+<tr><th class="stub" scope="row">Washington</th><td>418</td><td>226</td><td>137</td><td>55</td><td>19</td><td>1</td><td>2</td><td>12</td><td>192</td><td>130</td><td>39</td><td>23</td></tr>
+<tr><th class="stub" scope="row">Oregon</th><td>261</td><td>126</td><td>89</td><td>21</td><td>9</td><td>4</td><td>0</td><td>3</td><td>135</td><td>85</td><td>36</td><td>14</td></tr>
+<tr><th class="stub" scope="row">California</th><td>2,593</td><td>1,363</td><td>779</td><td>270</td><td>194</td><td>44</td><td>11</td><td>65</td><td>1,230</td><td>973</td><td>172</td><td>85</td></tr>
+<tr><th class="stub" scope="row">Outlying areas</th><td>704</td><td>288</td><td>215</td><td>51</td><td>11</td><td>0</td><td>0</td><td>11</td><td>416</td><td>392</td><td>15</td><td>9</td></tr>
+<tr><th class="stub" scope="row">Alaska</th><td>78</td><td>43</td><td>23</td><td>11</td><td>2</td><td>0</td><td>0</td><td>7</td><td>35</td><td>31</td><td>4</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Hawaii</th><td>112</td><td>30</td><td>25</td><td>0</td><td>3</td><td>0</td><td>0</td><td>2</td><td>82</td><td>78</td><td>3</td><td>1</td></tr>
+<tr><th class="stub" scope="row">Puerto Rico</th><td>508</td><td>215</td><td>167</td><td>40</td><td>6</td><td>0</td><td>0</td><td>2</td><td>293</td><td>277</td><td>8</td><td>8</td></tr>
+<tr><th class="stub" scope="row">Virgin Islands</th><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>6</td><td>0</td><td>0</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1962_p0281_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 The States are grouped according to the method used by the Bureau of the Census, U.S. Department of Commerce.</li>
+<li>2 See table 1, footnote 1, for definitions of types of cases.</li>
+</ol>
+<p class="check"><b>673 of 674</b> figures sit in a row or column sum that works out. <b>3 cells break a sum:</b> &#x27;Iowa&#x27;, column 10: prints 157, columns 11 to 13 add to 156; &#x27;Iowa&#x27;, column 2: prints 218, the subtotals in columns 3 to 10 add to 219; &#x27;West North Central&#x27;, column 10: prints 957, rows &#x27;Iowa&#x27; to &#x27;Kansas&#x27; add to 958.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 281.</b> 13 columns: stub, &quot;All cases&quot;, seven unfair-labor-practice columns, four representation columns.
+
+Crop is cut off at the bottom: the body ends with Kansas (last row of the West North Central division) and a partial rule is visible below it, so the remaining divisions (South Atlantic onward) and any footnote text continue on the next page/crop. The footnote markers 1 (on &quot;Division and State&quot;) and 2 (on CA, CB, CC, CD, CE, CP, RC, RM, RD) are printed in the headings, but the footnote texts themselves are not on this image, so `footnotes` is empty.
+
+Doubtful cell — Iowa, &quot;All R cases&quot;: the glyph reads as 157 at the available resolution and is transcribed as printed, but arithmetic says it should be 156 (RC 141 + RM 8 + RD 7 = 156; All cases 218 - All C 62 = 156; and the West North Central All R total of 957 less the other six states equals 156). This is either a misprint or a 6 that scans like a 7; every other cell in the table is internally consistent (all row sums and all division/column sums check out).
+
+Pennsylvania, CB column: a small stray mark sits at the upper right of &quot;232&quot; and could be mistaken for a superscript footnote marker; no other data cell in the table carries a marker, and the column and row sums confirm the value is 232, so it is treated as a scan artifact and not transcribed.
+
+A small stray dot appears just left of &quot;40&quot; in the Maine / &quot;All R cases&quot; cell; treated as a speck, not a marker.</p>
+<p><b>p. 282.</b> This crop is a continuation page: no column headings are printed on it, so header_rows is empty. The grid has 13 columns (stub + 12 numeric columns, read off the column rules); the last numeric column has no rule on its right-hand side but is a separate printed column.
+
+Doubtful cell: Colorado, column 1 (the first numeric column). The leading digit is broken in the scan and can be read as either 2 (241) or 3 (341); I transcribed 341 because two independent arithmetic checks require it — Colorado&#x27;s own parts (196 + 145 = 341) and the Mountain division line, whose column-1 total of 1,120 is reached only with 341 (101+112+53+341+190+155+81+87). All of Colorado&#x27;s other cells are confirmed by the Mountain column sums (e.g. column 3: 34+39+18+149+94+59+24+30 = 447). If a faithful-to-the-ink reading is needed, this is the one cell to re-check at full resolution.
+
+Every other row and every division subtotal cross-foots exactly (columns 3-8 sum to column 2, columns 10-12 sum to column 9, and columns 2 + 9 sum to column 1; the state lines sum to each division line in all twelve columns), so no misprints are suspected elsewhere.
+
+Minor scan artefacts that are not part of any value: a stray dot between the Tennessee entries in columns 9 and 10, a stray tick just left of 35 in the Alaska row (column 9), and a stray dot after the Wyoming entry in the last column. The table is bounded above by the start of the crop (the South Atlantic division line is the first printed row here) and ends below the Virgin Islands row with the two footnotes.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1962_p0281_t0_p0281.webp" loading="lazy" alt="Source page 281 of NLRB FY1962 annual report">
+<figcaption>Source: NLRB Annual Report FY1962, p. 281.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1962_p0281_t0_p0282.webp" loading="lazy" alt="Source page 282 of NLRB FY1962 annual report">
+<figcaption>Source: NLRB Annual Report FY1962, p. 282.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

@@ -1,20 +1,60 @@
-Case No.,Union and respondent,Date petition filed,Type of petition,Temporary restraining order date issued,Temporary restraining order date lifted,Date temporary injunction granted,Date injunction denied,Date injunction proceedings withdrawn or dismissed,Date Board decision and/or order
-3-CC-28,AFL-Federal Labor Union 24368,"Nov. 18, 1952",10(l),(1),(1),,,"Jan. 22, 1953","Jan. 31, 1953"
-21-CC-46,"AFL-Los Angeles Building & Constr. Trades Council, Local 230, et al. (Standard Oil Co. of California).","Nov. 20, 1952",10(l),,,"Dec. 30, 1952",,"May 1, 1953 (expired)","June 30, 1952"
-35-CC-7,"AFL-Teamsters, Local 183 (Samson Paper Mills, Inc.)","Nov. 25, 1952",10(l),,,,,,
-37-CC-2,"AFL-Teamsters, Local 995 (Service Cold Storage Co.)","Dec. 1, 1952",10(l),,,,,,"Feb. 16, 1953"
-2-CD-70,"AFL-Bridge, Structural Iron Workers, Locals 11 and 482 (Stone-Stone-Tracy, Inc.).","Dec. 8, 1952",10(l),,,,,"Jan. 2, 1953",
-13-CC-43,"CIO-Auto Workers, Local 365 (Wagner Machinery Corp.)","Dec. 16, 1952",10(l),,,,,"May 13, 1953","Apr. 13, 1953"
-11-CC-25 / 2-CD-72,"AFL-Schenectady Bldg. Trades Council (General Dynamics Corp., Electric Boat Division).","Dec. 18, 1952",10(l),,,,,,
-21-CC-50,"AFL-Electrical Workers, Local 6 (Sprys Electric Co.)","Jan. 12, 1953",10(l),,,,,,"May 27, 1953"
-16-CC-22,"AFL-Teamsters, Local 555 (Scott & Grauer).","Jan. 16, 1953",10(l),,,,,,
-11-CC-26,"Mine Workers, District 50 (Tungsten Mining Corp.)","Jan. 24, 1953",10(l),,,"Feb. 3, 1953",,,
-35-CC-22,"AFL-Teamsters, Local 135 (Hoosier Petroleum Co.)","Feb. 4, 1953",10(l),,,,,,
-2-CC-115,"AFL-Longshoremen, Local 333 (New York Shipping Ass'n).","Feb. 7, 1953",10(l),"Feb. 7, 1953","Feb. 13, 1953",,,,"June 13, 1953"
-2-CC-117,"AFL-Longshoremen, United Marine Division, Local 333 (Hampton Roads Maritime Ass'n).","Mar. 12, 1953",10(l),,,,,,
-"2-CA-2354, 2407","Harry Holds, Etc. (CIO Retail and Wholesale, Local 30).","Mar. 12, 1953",10(j),,,,,,
-30-CC-1,"AFL-Teamsters, Ports of P. R., et al. (Ass'n Anuncios Corp., Lafayette).",,10(l),,,"Mar. 26, 1953",,,
-20-CD-33,"AFL-Pile Drivers Bridge, Wharf and Dock Builders, Local 34 of California (Mason & Walsh and J. M. Eldred Cole Co.).","Apr. 7, 1953",10(l),,,"May 14, 1953",,,"June 18, 1953"
-17-CC-18,"AFL-International Brotherhood of Teamsters, Chauffers, Warehousemen, Helpers of America, Locals 654, 608 and 784 (McAllister Transfer Inc.).","Apr. 16, 1953",10(l),,,,,"Apr. 28, 1953 (consent)",
-2-CC-118,"AFL-Electrical Workers, Local 1174 (B. E. Shell Co.).","Apr. 21, 1953",10(l),,,,,,
-4-CC-83,"AFL-Garment Workers, Ladies (Jonette Mfg. Co.).","Apr. 23, 1953",10(l),,,,,,
+Case No.,Union and company,Date petition for injunction filed,Type of petition,Temporary restraining order,Temporary restraining order,Date temporary injunction granted,Date injunction denied,Date injunction proceedings withdrawn or dismissed,Date Board decision and/or order
+Case No.,Union and company,Date petition for injunction filed,Type of petition,Date issued,Date lifted,Date temporary injunction granted,Date injunction denied,Date injunction proceedings withdrawn or dismissed,Date Board decision and/or order
+2-CD-40,National Ass'n of Broadcast Engineers & Technicians (Teleprompter Service Corp.).,"Apr. 24, 1951",10 (l),,,,,"Dec. 31, 1952","Aug. 31, 1951"
+"20-CA-523, 524, 567, 609, 610.","American President Lines, Ltd. and Matson Navigation Co. (Individual).","Aug. 28, 1951",10 (j),,,"Jan. 23, 1952",,,"Dec. 29, 1952"
+"20-CB-171, 172, 184, 206, 207.",National Union of Marine Cooks & Stewards (Individual).,,,,,,,,
+6-CC-60 6-CD-14,"AFL-Teamsters, Locals 249 and 236 (Roy Stone Transfer Corp.).","Sept. 14, 1951",10 (l),,,,"Dec. 17, 1951",,"Aug. 28, 1952 June 11, 1952"
+6-CC-61,AFL-Seafarers (Hammermill Paper Co),"Oct. 4, 1951",10 (l),,,,,"Dec. 4, 1952","Sept. 19, 1952"
+"24-CC-11, 12",AFL-Longshoremen (Puerto Rico Steamship Ass'n et al),"Nov. 8, 1951",10 (l),"Nov. 14, 1951","Nov. 23, 1951","Nov. 23, 1951",,"Mar. 10, 1953","Oct. 7, 1952"
+10-CC-49,"Mine Workers, District 50 (National Cylinder Gas Co.) (AFL-Engineer, Operating, Local 910).","Mar. 12, 1952",10 (l),,,"Apr. 11, 1952",,"July 17, 1952","July 8, 1952"
+19-CC-42,AFL-Carpenters (Sound Shingle Co).,"Apr. 7, 1952",10 (l),,,,"Apr 28, 1952",,"Dec. 19, 1952"
+21-CC-130,"AFL-Teamsters, Local 276 (Capital Service, Inc).","May 14, 1952",10 (l),,,"May 29, 1952",,,"Sept. 8, 1952"
+35-CC-14,"AFL-Teamsters, Local 135 (Motor Freight Carriers of Ind).","May 15, 1952",10 (l),,,,,"Jan. 12, 1953","Dec. 22, 1952"
+2-CC-220,"Mine Workers, District 50 (Nordan Plastics Corp.).","May 19, 1952",10 (l),,,,,"Aug. 28, 1952",
+13-CA-1063,"Cargill, Inc. (CIO Packinghouse Workers","May 29, 1952",10 (j),,,"July 3, 1952",,"Jan. 30, 1953","Dec. 3, 1952"
+"24-CC-14, 15, 16. 24-CD-2, 3, 4",AFL-Longshoremen (Puerto Rico Steamship Ass'n et al).,"June 26, 1952",10 (l),"July 2, 1952","Sept. 26, 1952","Sept 26, 1952",,,"Jan 16, 1953 (stip)"
+32-CC-6,"AFL-Painters, Local 49 (V. M. Ashworth, Sr.).","Aug. 6, 1952",10 (l),,,,,"Jan 16, 1953","Oct. 31, 1952"
+32-CC-7,"AFL-Carpenters, Local 259 (Geo. A. Dunn).",do,10 (l),,,"Sept 23, 1952",,"Feb. 3, 1953","Jan. 13, 1953"
+2-CC-230,"AFL-Teamsters, Local 294 (Bonded Freightways, Inc).","Sept. 19, 1952",10 (l),,,,,,
+6-CC-75,"AFL-Carpenters, Local 2264 (Crain Bros. Inc).","Oct. 16, 1952",10 (l),,,,,"Jan. 5, 1953","Dec. 17, 1952"
+"35-CC-19, 20","AFL-Teamsters, Local 135 (Pittsburgh Plate Glass Co.).","Oct. 28, 1952",10 (l),,,,"Dec. 15, 1952",,"June 25, 1953"
+9-CC-49 9-CD-17,"AFL-Teamsters, Local 505 (Riverside Paper Co.).","Oct. 29, 1952",10 (l),,,,,"Jan 29, 1953","Jan. 27, 1953"
+2-CC-235,"AFL-Federal Labor Union 24368 AFL-Electrical Workers, Local 1614 (Metropolitan Wire Goods).","Nov. 18, 1952",10 (l),,,[1],,"Jan. 22, 1953","Jan. 21, 1953"
+21-CC-146,"AFL-Los Angeles Building & Constr. Trades Council, Local 250, et al. (Standard Oil Co. of California).","Nov. 10, 1952",10 (l),,,"Dec. 30, 1952",,"May 1, 1953 (expired)","June 30, 1953"
+35-CC-21,"AFL-Teamsters, Local 193 (Samson Paper Co.).","Nov. 21, 1952",10 (l),,,,,"Feb. 27, 1953",
+37-CC-2,"AFL-Teamsters, Local 996 (Service Cold Storage Co.).","Dec. 1, 1952",10 (l),,,[1],,"Mar. 20, 1953","Feb. 19, 1953"
+2-CD-70,"AFL-Bridge, Structural Iron Workers, Locals 11 and 483 (Mason-Moore-Tracy, Inc.).","Dec. 8, 1952",10 (l),,,,,"Jan. 2, 1953",
+2-CC-233,"AFL-Auto Workers, Local 365 (Wagner Machinery Corp.).","Dec. 11, 1952",10 (l),,,,,"May 13, 1953",
+13-CC-62,"AFL-Teamsters, Local 200 (Culligan Cartage Co.).","Dec. 16, 1952",10 (l),,,,,"Apr. 13, 1953",
+"2-CC-242, 2-CD-72.","AFL-Schenectady Bldg. Trades Council (General Dynamics Corp., Electric Boat Division).","Dec. 29, 1952",10 (l),,,"Jan. 5, 1953 (consent)",,,
+6-CC-78,"AFL-Electrical Workers, Local 5 (Sprys Electric Co.).","Jan. 12, 1953",10 (l),,,[1],,,"May 27, 1953"
+4-CC-37,"AFL-Teamsters, Local 830 (Scott & Grauer).","Jan. 16, 1953",10 (l),,,,,,
+11-CC-3,"Mine Workers, District 50 (Tungsten Mining Corp.).","Jan. 24, 1953",10 (l),,,"Feb. 3, 1953",,,
+35-CC-22,"AFL-Teamsters, Local 135 (Hoosier Petroleum Co.).","Feb. 4, 1953",10 (l),,,[1],,,
+2-CC-246,"AFL-Longshoremen, Local 333 (New York Shipping Ass'n).","Feb. 7, 1953",10 (l),"Feb. 7, 1953","Feb. 13, 1953",[1],,,
+5-CC-27,"AFL-Longshoremen, United Marine Division, Local 333B (Hampton Roads Maritime Ass'n).","Feb. 12, 1953",10 (l),,,[1],,"June 15, 1953","Apr. 9, 1953"
+"2-CA-2554, 2907.","Henry Heide, Inc. (CIO Retail and Wholesale, Local 50).","Mar. 12, 1953",10 (j),,,,,,
+24-CC-19,"AFL-Longshoremen, Ports of P. R., et al. (Ass'n Azucarera Corp., Lafayette).","Mar. 17, 1953",10 (l),,,"Mar. 25, 1953 (consent)",,,
+20-CD-33,"AFL-Pile Drivers Bridge, Wharf and Dock Builders, Local 34 of California (Samuel A. Agnew, d/b/a Klamath Cedar Co.).","Apr. 7, 1953",10 (l),,,"May 14, 1953",,,"June 18, 1953"
+17-CC-18,"AFL-International Brotherhood of Teamsters, Chauffeurs, Warehousemen & Helpers of America, Locals 554, 608 and 784 (McAllister Transfer Inc.).","Apr. 13, 1953",10 (l),,,"Apr. 22, 1953",,,
+3-CC-27,"AFL-Electrical Workers, Local 1574 (B. E. Shell Co.).","Apr. 21, 1953",10 (l),,,"Apr. 28, 1953 (consent)",,,
+4-CC-43,"AFL-Garment Workers, Ladies (Josette Mfg. Co.).","Apr. 22, 1953",10 (l),,,[1],,,
+5-CC-29,"AFL-Baltimore Building & Construction Trades Council & Local 16, et al. (John A. Piezonki d/b/a Stover Steel Service).","Apr. 23, 1953",10 (l),,,[1],,,
+"3-CC-26, 28, 29","AFL-Electrical Workers, Locals 79, 181, 35, and 1261 (Utica Builders Exchange).","Apr. 24, 1953",10 (l),,,[1],,,
+"5-CC-28, 30","AFL-Teamsters, Local 67 (Washington Coca Bottling Works, Inc., and Buckingham Supermarkets, Inc.)",do,10 (l),,,"May 7, 1953",,,
+1-CC-88,"AFL-Teamsters, Local 379 (Norfolk Waste Paper Co.).","Apr. 24, 1953",10 (l),,,,,(1) (6),
+4-CC-39,"Distributive, Processing & Office Workers of America, Local 95 (Poultrymen's Service Corp.)","Apr. 25, 1953",10 (l),,,[1],,,
+"14-CC-44, 45","AFL-Teamsters, Local 600, Locals 632 and 688 (Osceola Foods, Inc. & Atkings Pickle Co.).","Apr. 28, 1953",10 (l),,,"June 24, 1953",,,
+11-CC-4,"AFL-Longshoremen, Local 1422 (James Doran Co. et al.).","May 7, 1953",10 (l),,,"May 11, 1953",,,
+"21-CC-157, 158","Food Processors, Packers, Warehousemen & Clerical Employees, Local 547, et al. (Spencer Food Co.).",do,10 (l),,,"May 27, 1953",,,
+18-CC-19,"United Mine Workers of America, District 50 and Local 12106 (Minnesota Linseed Oil Co.).","May 8, 1953",10 (l),,,"May 18, 1953",,,
+13-CC-67,"AFL-Teamsters, Local 200 (Reilly Cartage Co.).",do,10 (l),,,"June 10, 1953",,,
+6-CC-82,AFL-Building and Construction Trades Council of Pittsburgh and Vicinity et al. (Perry Electric Co.).,"May 22, 1953",10 (l),,,[1],,,
+13-CC-75,"AFL-Teamsters, Local 442 (Wisco Hardware Co.).","May 28, 1953",10 (l),"June 8, 1953",,,,,
+36-CD-11,"International Longshoremen's & Warehousemen's Union, Local 12 (Upper Columbia River Towing Co., et al.).","June 1, 1953",10 (l),,,"June 11, 1953",,,
+"3-CC-31, 32","AFL-Teamsters, Local 182 and Carpenters Local 125 (Jay-K Independent Lumber Corp.).","June 2, 1953",10 (l),,,[1],,,
+14-CC-47,"AFL-Carpenters, Local 433 et al. (Markus Cabinet Manufacturing Co.).",do,10 (l),"June 12, 1953 (consent)",,,,,
+30-CC-19,"AFL-Carpenters, Local 55 (Professional & Business Men's Life Insurance Co.)","June 17, 1953",10 (l),,,,"June 26, 1953",,
+7-CC-20,"AFL-Teamsters, Locals 406 and 415 (S. E. Overton Co.).","June 18, 1953",10 (l),,,,,,
+1-CC-91,"AFL-Teamsters, Local 379 (Blanchard Lumber Co.).","June 19, 1953",10 (l),,,,,,
+13-CC-77,"AFL-Teamsters, Local 200 (Lincoln Warehouse Co.).","June 22, 1953",10 (l),,,,,,

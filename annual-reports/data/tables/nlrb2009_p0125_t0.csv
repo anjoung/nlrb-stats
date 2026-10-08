@@ -1,12 +1,13 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
-All representation elections............................,18,100.0,10,55.6,8,44.4,10,55.6
-By type of case:,,,,,,,,
-RC cases..............................................,16,100.0,9,56.3,7,43.8,10,62.5
-RMcases..............................................,0,0.0,0,0.0,0,0.0,0,0.0
-RD cases..............................................,2,100.0,1,50.0,1,50.0,0,0.0
-By type of election:,,,,,,,,
-Consent elections..................................,1,100.0,1,100.0,0,0.0,0,0.0
-Stipulated elections..............................,11,100.0,4,36.4,7,63.6,6,54.5
-Expedited elections..............................,0,0.0,0,0.0,0,0.0,0,0.0
-Regional Director-directed elections....,6,100.0,5,83.3,1,16.7,4,66.7
-Board-directed elections......................,0,0.0,0,0.0,0,0.0,0,0.0
+Type of election/case,Objections filed,Objections withdrawn,Objections ruled upon,Overruled,Overruled,Sustained,Sustained
+Type of election/case,Objections filed,Objections withdrawn,Objections ruled upon,Number,Percent of total ruled upon,Number,Percent of total ruled upon
+All representation elections,102,43,59,52,88.1,7,11.9
+By type of case:,,,,,,,
+RC cases,89,38,51,46,90.2,5,9.8
+RM cases,2,0,2,1,50.0,1,50.0
+RD cases,11,5,6,5,83.3,1,16.7
+By type of election:,,,,,,,
+Consent elections,0,0,0,0,0.0,0,0.0
+Stipulated elections,52,39,13,12,92.3,1,7.7
+Expedited elections,0,0,0,0,0.0,0,0.0
+Regional Director-directed elections,50,4,46,40,87.0,6,13.0
+Board-directed elections,0,0,0,0,0.0,0,0.0

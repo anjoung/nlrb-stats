@@ -1,23 +1,25 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Cases pending June 30, 1937",256,,28.7,94712,,39.3
-"Cases received July 1, 1937, to June 30, 1938_",635,,71.5,146475,,60.7
-Total cases on docket,891,,100.0,241187,,100.0
+,Number of cases,Percentage of—,Percentage of—,Number of workers involved,Percentage of—,Percentage of—
+,Number of cases,Total cases closed,Total cases on docket,Number of workers involved,Total number of workers involved in cases closed,Total number of workers involved in cases on docket
+"Cases pending June 30, 1937",927,,14.3,"745,809",,32.3
+"Cases received July 1, 1937, to June 30, 1938","5,542",,85.7,"1,562,415",,67.7
+Total cases on docket,"6,469",,100.0,"2,308,224",,100.0
 Cases closed before formal action:,,,,,,
-By settlement,158,29.3,17.7,36161,31.0,15.0
-By dismissal,153,28.3,17.2,43836,37.6,18.1
-By withdrawal,136,25.2,15.3,19104,16.4,7.9
-By transfer to other agencies,5,. 9,. 5,1577,1.4,. 7
-Total cases closed before formal ac- tion,452,83.7,50.7,100678,86.4,41.7
+By settlement,"2,287",52.7,35.4,"377,543",27.7,16.4
+By dismissal,513,11.8,7.9,"78,931",5.8,3.4
+By withdrawal,"1,111",25.6,17.2,"356,229",26.2,15.4
+By transfer to other agencies,59,1.4,.9,"13,999",1.0,.6
+Total cases closed before formal action,"3,970",91.5,61.4,"826,702",60.7,35.8
 Cases closed after formal action:,,,,,,
-By settlement,15,,1.7,1128,1.0,. 5
-• By dismissal before issuance of Board decision,40,2.8,4.5,3298,2.8,1.4
-By withdrawal before issuance of Board decision,3,7.4 . 5,. 3,3975,3.4,1.6
-By transfer to other agencies By intermediate report finding no vio- lation,,,,,,
-By compliance with intermediate re- port,1,. 2,. 1,1,(0,(I)
+By settlement,89,2.1,1.4,"350,007",25.7,15.2
+By dismissal before issuance of Board decision,15,.3,.2,"13,933",1.0,.6
+By withdrawal before issuance of Board decision,41,1.0,.6,"21,547",1.6,.9
+By transfer to other agencies,3,.1,.1,"1,702",.1,.1
+By intermediate report finding no violation,2,[1],[1],2,[1],[1]
+By compliance with intermediate report,2,[1],[1],140,[1],[1]
 By issuance of decisions and orders:,,,,,,
-Certification,20,3.7,2.3,4020,3.5,1.7
-Compliance,2,.4,.2,25,(I),(I)
-Dismissal of complaint or petition_,7,1.3,. 8,3361,2.9,I. 4
-Total cases closed after formal action,se,16.3,""" 9. 9",15858,13.6,6.6
-"Total eases closed July 1, 1937, to June 30, 1938",540,100.0,60.6,116486,100.0,48.3
-"Cases pending June 30, 1938",351,,39.4,124701,,51.7
+Certification,182,4.2,2.8,"138,888",10.2,6.0
+Compliance,10,.2,.2,"3,558",.3,.2
+Dismissal of complaint or petition,25,.6,.4,"4,594",.4,.2
+Total cases closed after formal action,369,8.5,5.7,"534,371",39.3,23.2
+"Total cases closed July 1, 1937, to June 30, 1938","4,339",100.0,67.1,"1,361,073",100.0,59.0
+"Cases pending June 30, 1938","2,130",,32.9,"947,151",,41.0

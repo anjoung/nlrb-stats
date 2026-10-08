@@ -1,26 +1,23 @@
-row_label,col_1,col_2,col_3
-"Cases closed, total",11741,100.0,SO. 4
-"Before formal action, total",9890,84.2,67.7
-Adjusted,5828,49.6,39.9
-Withdrawn,2879,24.5,19.7
-Dismissed •,1183,10.1,8.1
-"After formal action, total",1851,15. S,12.7
-Before hearing,119,1.0,.8
-Adjusted,87,.7,.6
-Withdrawn,26,.2,.2
-Dismissed,6,.1,'.0
-After hearing,175,1.5,1.2
-Adjusted,53,.5,.4
-Closed by compliance with Intermediate Report,27,.2,.2
-Withdrawn,82,.7,.5
-Dismissed,13,.1,.1
-After Board decision,"1,2",11.1,8.9
-Closed by compliance,69,.6,.5
-Closed by certification,949,8.1,6.5
-Withdrawn,41,. 3,. 3
-Dismissed,231,2.0,1.6
-Closed otherwise,8,. 1,'.0
-After court action,259,2.2,1.8
-Closed by compliance',247,2.1,1.7
-,6 6,. 1,. 1
-Dismissed,Dismissed,'.0,' . 0
+Stage and method of disposition,All cases,Party filing,Party filing,Party filing,Party filing
+Stage and method of disposition,All cases,A. F. of L. affiliates,C. I. O. affiliates,Unaffiliated unions,Individuals or employers
+"Cases closed, total","11,741","5,215","5,151",821,562
+"Before formal action, total","9,890","4,422","4,283",666,526
+Adjusted,"5,828","2,804","2,577",311,142
+Withdrawn,"2,879","1,215","1,265",203,196
+Dismissed,"1,183",403,441,152,188
+"After formal action, total","1,851",793,868,155,36
+Before hearing,119,36,71,10,2
+Adjusted,87,25,53,7,2
+Withdrawn,26,9,15,2,0
+Dismissed,6,2,3,1,0
+After hearing,175,99,66,7,3
+Adjusted,53,20,28,4,1
+Closed by compliance with Intermediate Report,27,10,17,0,0
+Withdrawn,82,66,12,3,1
+Dismissed,13,3,9,0,1
+After Board decision,"1,557",658,731,138,31
+Closed by compliance,316,123,178,4,12
+Closed by certification,949,381,444,112,12
+Withdrawn,41,30,10,0,1
+Dismissed,237,119,91,22,5
+Closed otherwise,14,5,8,0,1

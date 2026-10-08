@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -124,26 +132,43 @@ ul.link-list li { margin: 0.3rem 0; }
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th>Year and month</th><th>Number of cases brought before Board (1)</th><th>Number of strikes — For all causes (2)</th><th>Number of strikes — For organization (3)</th><th>Ratio of Board cases to strikes — Percent for all causes [(1) over (2)]</th><th>Ratio of Board cases to strikes — Percent for organization [(1) over (3)]</th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">1935 — October</th><td>203</td><td>169</td><td>79</td><td>120</td><td>257</td></tr>
-<tr><th class="stub" scope="row">1935 — November</th><td>153</td><td>119</td><td>48</td><td>129</td><td>319</td></tr>
-<tr><th class="stub" scope="row">1935 — December</th><td>110</td><td>80</td><td>34</td><td>138</td><td>324</td></tr>
-<tr><th class="stub" scope="row">1936 — Total</th><td>1,301</td><td>1,951</td><td>971</td><td>67</td><td>134</td></tr>
-<tr><th class="stub" scope="row">1937 — Total</th><td>9,424</td><td>4,270</td><td>2,412</td><td>221</td><td>391</td></tr>
-<tr><th class="stub" scope="row">1938 — Total</th><td>7,990</td><td>2,180</td><td>1,063</td><td>367</td><td>752</td></tr>
-<tr><th class="stub" scope="row">1939 — January</th><td>674</td><td>148</td><td>66</td><td>455</td><td>1,021</td></tr>
+<tr><th class="stub" scope="row">Salaries</th><td>$2,023,324</td></tr>
+<tr><th class="stub" scope="row">Travel expense</th><td>301,060</td></tr>
+<tr><th class="stub" scope="row">Communications</th><td>78,313</td></tr>
+<tr><th class="stub" scope="row">Reporting</th><td>55,526</td></tr>
+<tr><th class="stub" scope="row">Rentals</th><td>166,162</td></tr>
+<tr><th class="stub" scope="row">Furniture and equipment</th><td>57,153</td></tr>
+<tr><th class="stub" scope="row">Supplies and materials</th><td>29,886</td></tr>
+<tr><th class="stub" scope="row">Special and miscellaneous</th><td>8,893</td></tr>
+<tr><th class="stub" scope="row">Transportation of things</th><td>2,162</td></tr>
+<tr><th class="stub" scope="row">Total salaries and expenses</th><td>2,722,479</td></tr>
+<tr><th class="stub" scope="row">Printing and binding</th><td>123,292</td></tr>
+<tr><th class="stub" scope="row">Grand total expenditures and obligations</th><td>2,845,771</td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1939_p0195_t0.csv" download>Download this table (CSV)</a></p>
+<p class="check"><b>0 of 12</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 195.</b> No column headings are printed on this crop, so header_rows is empty; the table is a two-column list (stub plus one amount column). The crop&#x27;s top edge clips a line of running text (&quot;, are as follows:&quot;) that introduces the list; it is body prose, not a table row, so it is omitted. The &quot;188&quot; below the last row is the printed page number and is omitted.
+
+Value glyph note: in &quot;Printing and binding&quot; the thousands separator images as a period rather than a comma (&quot;123. 292&quot;). Every other amount in the column uses a comma, and 2,722,479 + 123,292 = 2,845,771 matches the printed grand total, so it is transcribed as the digit-grouping comma 123,292.
+
+Scan-quality note: this is a coarse bitonal scan in which 8, 6 and 0 frequently degrade (e.g. &quot;Communications&quot; renders as &quot;7S, 313&quot;, &quot;Supplies and materials&quot; as &quot;29, SSG&quot;, &quot;Rentals&quot; as &quot;1GG, 1G2&quot;). All nine detail amounts as transcribed sum exactly to the printed subtotal 2,722,479, which independently confirms the ambiguous digits in 301,060, 78,313, 55,526, 166,162, 29,886 and 8,893. No printed total appears to be in error.
+
+Row-label note: &quot;Special and miscellaneous&quot; images as &quot;Special and. nriscellaneous&quot;; the stray period and the &quot;rn&quot;/&quot;m&quot; confusion are scan artifacts of the printed wording. A faint speck precedes the 8 in that row&#x27;s value (8,893); it is dirt, not a footnote marker, and the sum check confirms the value has no extra leading digit.
+
+The horizontal rules above &quot;Total salaries and expenses&quot; and above &quot;Grand total expenditures and obligations&quot; are typographic subtotal rules, not rows, and are not transcribed. No footnotes are printed under the table.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1939_p0195.webp" loading="lazy" alt="Source page 195 of NLRB FY1939 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0195_t0_p0195.webp" loading="lazy" alt="Source page 195 of NLRB FY1939 annual report">
 <figcaption>Source: NLRB Annual Report FY1939, p. 195.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

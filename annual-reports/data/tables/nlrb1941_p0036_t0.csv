@@ -1,7 +1,22 @@
-Stage of disposition,All cases — Number,All cases — Number of workers involved,Cases filed by A. F. of L. affiliates — Number,Cases filed by A. F. of L. affiliates — Number of workers involved,Cases filed by C. I. O. affiliates — Number,Cases filed by C. I. O. affiliates — Number of workers involved,Cases filed by unaffiliated unions — Number,Cases filed by unaffiliated unions — Number of workers involved,Cases filed by individuals — Number,Cases filed by individuals — Number of workers involved,Cases filed by employers — Number,Cases filed by employers — Number of workers involved
-"Cases pending July 1, 1940",2911,1370919,1175,325426,1348,830154,209,152372,159,29490,20,33477
-"Cases received, July 1940-June 1941",9151,2373361,4259,1132272,3260,1151221,595,157003,476,230221,73,8074
-"Cases on docket, July 1940-June 1941",12062,3744280,5434,1132272,5008,2031775,804,295375,635,276401,93,8942
-"Cases closed, July 1940-June 1941",8396,2082036,3879,744820,3439,1031094,586,129171,456,165161,71,7308
-Cases closed before formal action,7114,1457392,3379,488390,2803,691408,418,104915,451,162871,57,4713
-Cases closed after formal action,1282,624644,497,256430,636,339073,118,21226,5,2290,14,2595
+,1935-36,1935-36,1935-36,1936-37,1936-37,1936-37,1937-38,1937-38,1937-38,1938-39,1938-39,1938-39,1939-40,1939-40,1939-40,1940-41,1940-41,1940-41
+,Cases,Cases,Number of workers involved,Cases,Cases,Number of workers involved,Cases,Cases,Number of workers involved,Cases,Cases,Number of workers involved,Cases,Cases,Number of workers involved,Cases,Cases,Number of workers involved
+,Number,Percent of total,Number of workers involved,Number,Percent of total,Number of workers involved,Number,Percent of total,Number of workers involved,Number,Percent of total,Number of workers involved,Number,Percent of total,Number of workers involved,Number,Percent of total,Number of workers involved
+All cases closed,738,100.0,"144,312","2,344",100.0,"467,807","8,851",100.0,"1,845,818","6,569",100.0,"1,028,959","7,354",100.0,"1,488,020","8,396",100.0,"2,082,036"
+Cases settled,331,44.9,"40,354","1,429",61.0,"325,898","4,609",52.0,"934,019","3,069",46.7,"374,518","2,888",39.3,"345,852","4,211",50.2,"679,193"
+Cases dismissed,125,16.9,"24,844",273,11.6,"42,569","1,514",17.1,"199,599","1,023",15.6,"164,513","1,508",20.5,"434,731","1,250",14.9,"413,868"
+Cases withdrawn,201,27.2,"65,211",539,23.0,"73,040","2,220",25.1,"487,497","1,840",28.0,"304,690","2,124",28.9,"414,804","2,041",24.3,"440,623"
+Cases closed by certification,6,.8,"2,474",43,1.8,"18,249",342,3.9,"192,689",364,5.5,"123,172",414,5.6,"146,732",518,6.2,"351,936"
+"Cases closed by compliance with Intermediate Report, Decision, or Court order",56,7.6,"5,514",9,.4,"4,565",41,.5,"7,300",233,3.5,"43,259",350,4.8,"121,412",286,3.4,"158,003"
+Cases closed otherwise,19,2.6,"5,915",51,2.2,"3,486",125,1.4,"24,714",40,.6,"18,807",70,1.0,"24,489",90,1.1,"38,413"
+Unfair labor practice cases closed,636,100.0,"92,725","1,762",100.0,"249,886","5,694",100.0,"946,575","4,230",100.0,"444,106","4,664",100.0,"872,651","4,698",100.0,"1,208,005"
+Cases settled,277,43.6,"29,548","1,044",59.3,"158,454","2,960",52.0,"594,121","2,072",49.0,"222,779","1,877",40.2,"192,387","2,161",46.0,"380,241"
+Cases dismissed,117,18.4,"17,880",244,13.8,"27,180","1,115",19.6,"73,482",596,14.1,"51,639","1,018",21.8,"260,664",737,15.7,"296,597"
+Cases withdrawn,171,26.9,"38,003",425,24.1,"57,061","1,477",25.9,"253,756","1,294",30.6,"115,831","1,363",29.2,"285,194","1,449",30.8,"344,195"
+Cases closed by compliance with Intermediate Report or Decision,56,8.8,"5,514",9,.5,"4,565",41,.7,"7,300",233,5.5,"43,259",350,7.5,"121,412",286,6.1,"158,003"
+Cases closed otherwise,15,2.4,"1,780",40,2.3,"2,626",101,1.8,"17,916",35,.8,"10,598",56,1.2,"12,994",65,1.4,"28,969"
+Representation cases closed,102,100.0,"51,587",582,100.0,"217,921","3,157",100.0,"899,243","2,339",100.0,"584,853","2,690",100.0,"615,369","3,698",100.0,"1,055,243"
+Cases settled,54,52.9,"10,806",385,66.1,"167,444","1,649",52.2,"339,898",997,42.6,"151,739","1,011",37.6,"153,465","2,050",55.4,"362,081"
+Cases dismissed,8,7.8,"6,964",29,5.0,"15,389",399,12.7,"126,117",427,18.3,"112,874",490,18.2,"174,067",513,13.9,"167,508"
+Cases withdrawn,30,29.4,"27,208",114,19.6,"15,979",743,23.5,"233,741",546,23.3,"188,859",761,28.3,"129,610",592,16.0,"131,699"
+Cases closed by certification,6,5.9,"2,474",43,7.4,"18,249",342,10.8,"192,689",364,15.6,"123,172",414,15.4,"146,732",518,14.0,"383,576"
+Cases closed otherwise,4,3.9,"4,135",11,1.9,860,24,.8,"6,798",5,.2,"8,209",14,.5,"11,495",25,.7,"10,379"

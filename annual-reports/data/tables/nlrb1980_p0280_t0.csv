@@ -1,6 +1,13 @@
-row_label,Number of polls — Total,Number of polls — Resulting in deauthorization — Number,Number of polls — Resulting in deauthorization — Percent of total,Number of polls — Resulting in continued authorization — Number,Number of polls — Resulting in continued authorization — Percent of total,Employees involved (number eligible to vote) — Total eligible,Employees involved — In polls resulting in deauthorization — Number,Employees involved — In polls resulting in deauthorization — Percent,Employees involved — In polls resulting in continued authorization — Number,Employees involved — In polls resulting in continued authorization — Percent,Valid votes cast — Total,Valid votes cast — Percent of total eligible,Valid votes cast — Cast for deauthorization — Number,Valid votes cast — Cast for deauthorization — Percent of total eligible
-Total,152,83,54.6,69,45.4,15312,4300,28.1,11012,71.9,10948,71.5,3518,23.0
-AFL-CIO unions,98,55,56.1,43,43.9,8479,2887,34.0,5592,66.0,6797,80.2,2285,26.9
-Teamsters,34,22,64.7,12,35.3,2853,766,26.8,2087,73.2,2300,80.6,706,24.7
-Other national unions,9,1,11.1,8,88.9,3014,146,4.8,2868,95.2,1073,35.6,110,3.6
-Other local unions,11,5,45.5,6,54.5,966,501,51.9,465,48.1,778,80.5,417,43.2
+,Total rerun elections,Total rerun elections,Union certified,Union certified,No union chosen,No union chosen,Outcome of original election reversed,Outcome of original election reversed
+,Number,Percent by type,Number,Percent by type,Number,Percent by type,Number,Percent by type
+All representation elections,155,100.0,41,26.5,114,73.5,41,26.5
+By type of case,,,,,,,,
+RC cases,144,100.0,35,24.3,109,75.7,36,25.0
+RM cases,2,100.0,1,50.0,1,50.0,0,0
+RD cases,9,100.0,5,55.6,4,44.4,5,55.6
+By type of election,,,,,,,,
+Consent elections,7,100.0,2,28.6,5,71.4,2,28.6
+Stipulated elections,107,100.0,31,29.0,76,71.0,29,27.1
+Expedited elections,1,100.0,1,100.0,0,,0,
+Regional director-directed elections,35,100.0,6,17.1,29,82.9,10,28.6
+Board-directed elections,5,100.0,1,20.0,4,80.0,0,

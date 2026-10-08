@@ -1,18 +1,44 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Pending October 1, 2002....................","* 1,316",1199,46,70,1,
-Received fiscal 2003..........................,3720,3324,171,221,4,
-On docket fiscal 2003........................,5036,4523,217,291,5,
-Closed fiscal 2003..............................,3883,3493,180,206,4,
-"Pending September 30, 2003..............",1153,1030,37,85,1,
-,RMCases,RMCases,RMCases,RMCases,RMCases,RMCases
-"Pending October 1, 2002....................",79,,,,,79
-Received fiscal 2003..........................,131,,,,,131
-On docket fiscal 2003........................,210,,,,,210
-Closed fiscal 2003..............................,150,,,,,150
-"Pending September 30, 2003..............",60,,,,,60
-,RD Cases,RD Cases,RD Cases,RD Cases,RD Cases,RD Cases
-"Pending October 1, 2002....................",322,3,0,0,319,
-Received fiscal 2003..........................,803,1,0,1,801,
-On docket fiscal 2003........................,1125,4,0,1,1120,
-Closed fiscal 2003..............................,816,1,0,0,815,
-"Pending September 30, 2003..............",309,3,0,1,305,
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO Unions,Other National Unions,Other local Unions,Individuals,Employers
+CA cases,,,,,,
+"Pending October 1, 2002","19,749","14,278",684,684,"4,033",70
+Received fiscal 2003,"21,757","14,903",678,712,"5,418",46
+On docket fiscal 2003,"41,506","29,181","1,362","1,396","9,451",116
+Closed fiscal 2003,"23,622","16,361",754,762,"5,694",51
+"Pending September 30, 2003","17,884","12,820",608,634,"3,757",65
+CB Cases,,,,,,
+"Pending October 1, 2002","2,623",39,5,19,"2,118",442
+Received fiscal 2003,"6,213",51,7,15,"5,477",663
+On docket fiscal 2003,"8,836",90,12,34,"7,595","1,105"
+Closed fiscal 2003,"6,166",41,6,19,"5,387",713
+"Pending September 30, 2003","2,670",49,6,15,"2,208",392
+CC Cases,,,,,,
+"Pending October 1, 2002",251,4,0,0,10,237
+Received fiscal 2003,464,11,0,4,17,432
+On docket fiscal 2003,715,15,0,4,27,669
+Closed fiscal 2003,488,10,0,4,22,452
+"Pending September 30, 2003",227,5,0,0,5,217
+CD Cases,,,,,,
+"Pending October 1, 2002",81,11,0,1,2,67
+Received fiscal 2003,186,19,0,6,8,153
+On docket fiscal 2003,267,30,0,7,10,220
+Closed fiscal 2003,197,20,0,6,8,163
+"Pending September 30, 2003",70,10,0,1,2,57
+CE Cases,,,,,,
+"Pending October 1, 2002",23,1,0,0,1,21
+Received fiscal 2003,38,6,0,4,8,20
+On docket fiscal 2003,61,7,0,4,9,41
+Closed fiscal 2003,36,5,0,1,5,25
+"Pending September 30, 2003",25,2,0,3,4,16
+CG Cases,,,,,,
+"Pending October 1, 2002",13,0,0,0,3,10
+Received fiscal 2003,23,0,0,0,2,21
+On docket fiscal 2003,36,0,0,0,5,31
+Closed fiscal 2003,22,0,0,0,2,20
+"Pending September 30, 2003",14,0,0,0,3,11
+CP Cases,,,,,,
+"Pending October 1, 2002",33,2,1,0,2,28
+Received fiscal 2003,100,0,0,1,7,92
+On docket fiscal 2003,133,2,1,1,9,120
+Closed fiscal 2003,87,1,0,1,9,76
+"Pending September 30, 2003",46,1,1,0,0,44

@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Trend of man-days of idleness due to strikes compared with trend of business activity, January 1935-June 1939 — NLRB FY1939</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1939.html">FY1939</a> &rsaquo; Trend of man-days of idleness due to strikes compared with trend of business activity, January 1935-June 1939</p>
+<h1>Trend of man-days of idleness due to strikes compared with trend of business activity, January 1935-June 1939</h1>
+<p class="meta">printed as Table 4 &middot; source page 205 &middot; <code>nlrb1939_p0205_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Month and year</th><th>Man-days of idleness</th><th>Industrial production index</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">1935</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">January</th><td>720,778</td><td>88</td></tr>
+<tr><th class="stub" scope="row">February</th><td>836,498</td><td>91</td></tr>
+<tr><th class="stub" scope="row">March</th><td>966,980</td><td>91</td></tr>
+<tr><th class="stub" scope="row">April</th><td>1,178,851</td><td>89</td></tr>
+<tr><th class="stub" scope="row">May</th><td>1,697,848</td><td>87</td></tr>
+<tr><th class="stub" scope="row">June</th><td>1,311,278</td><td>86</td></tr>
+<tr><th class="stub" scope="row">July</th><td>1,297,730</td><td>83</td></tr>
+<tr><th class="stub" scope="row">August</th><td>1,191,663</td><td>87</td></tr>
+<tr><th class="stub" scope="row">September</th><td>3,027,040</td><td>90</td></tr>
+<tr><th class="stub" scope="row">October</th><td>1,562,908</td><td>97</td></tr>
+<tr><th class="stub" scope="row">November</th><td>1,003,852</td><td>97</td></tr>
+<tr><th class="stub" scope="row">December</th><td>660,911</td><td>96</td></tr>
+<tr><th class="stub" scope="row">1936</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">January</th><td>635,519</td><td>96</td></tr>
+<tr><th class="stub" scope="row">February</th><td>748,491</td><td>95</td></tr>
+<tr><th class="stub" scope="row">March</th><td>1,331,162</td><td>96</td></tr>
+<tr><th class="stub" scope="row">April</th><td>699,900</td><td>104</td></tr>
+<tr><th class="stub" scope="row">May</th><td>1,019,171</td><td>105</td></tr>
+<tr><th class="stub" scope="row">June</th><td>1,327,678</td><td>104</td></tr>
+<tr><th class="stub" scope="row">July</th><td>1,105,480</td><td>105</td></tr>
+<tr><th class="stub" scope="row">August</th><td>911,216</td><td>106</td></tr>
+<tr><th class="stub" scope="row">September</th><td>1,063,100</td><td>108</td></tr>
+<tr><th class="stub" scope="row">October</th><td>1,053,878</td><td>111</td></tr>
+<tr><th class="stub" scope="row">November</th><td>1,910,628</td><td>115</td></tr>
+<tr><th class="stub" scope="row">December</th><td>2,065,733</td><td>114</td></tr>
+<tr><th class="stub" scope="row">1937</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">January</th><td>2,720,281</td><td>112</td></tr>
+<tr><th class="stub" scope="row">February</th><td>1,491,268</td><td>117</td></tr>
+<tr><th class="stub" scope="row">March</th><td>3,288,979</td><td>122</td></tr>
+<tr><th class="stub" scope="row">April</th><td>3,377,223</td><td>122</td></tr>
+<tr><th class="stub" scope="row">May</th><td>2,982,735</td><td>122</td></tr>
+<tr><th class="stub" scope="row">June</th><td>4,998,408</td><td>115</td></tr>
+<tr><th class="stub" scope="row">July</th><td>3,007,819</td><td>111</td></tr>
+<tr><th class="stub" scope="row">August</th><td>2,270,389</td><td>115</td></tr>
+<tr><th class="stub" scope="row">September</th><td>1,449,948</td><td>109</td></tr>
+<tr><th class="stub" scope="row">October</th><td>1,181,914</td><td>102</td></tr>
+<tr><th class="stub" scope="row">November</th><td>981,697</td><td>90</td></tr>
+<tr><th class="stub" scope="row">December</th><td>674,205</td><td>80</td></tr>
+<tr><th class="stub" scope="row">1938</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">January</th><td>473,289</td><td>79</td></tr>
+<tr><th class="stub" scope="row">February</th><td>514,111</td><td>79</td></tr>
+<tr><th class="stub" scope="row">March</th><td>767,856</td><td>80</td></tr>
+<tr><th class="stub" scope="row">April</th><td>838,158</td><td>78</td></tr>
+<tr><th class="stub" scope="row">May</th><td>1,174,052</td><td>77</td></tr>
+<tr><th class="stub" scope="row">June</th><td>871,002</td><td>77</td></tr>
+<tr><th class="stub" scope="row">July</th><td>776,237</td><td>81</td></tr>
+<tr><th class="stub" scope="row">August</th><td>830,987</td><td>87</td></tr>
+<tr><th class="stub" scope="row">September</th><td>959,916</td><td>91</td></tr>
+<tr><th class="stub" scope="row">October</th><td>842,202</td><td>97</td></tr>
+<tr><th class="stub" scope="row">November</th><td>557,903</td><td>104</td></tr>
+<tr><th class="stub" scope="row">December</th><td>512,560</td><td>98</td></tr>
+<tr><th class="stub" scope="row">1939</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">January</th><td>512,112</td><td>100</td></tr>
+<tr><th class="stub" scope="row">February</th><td>539,596</td><td>99</td></tr>
+<tr><th class="stub" scope="row">March</th><td>591,378</td><td>100</td></tr>
+<tr><th class="stub" scope="row">April</th><td>641,967</td><td>95</td></tr>
+<tr><th class="stub" scope="row">May</th><td>805,686</td><td>94</td></tr>
+<tr><th class="stub" scope="row">June</th><td>923,083</td><td>98</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1939_p0205_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 Does not include bituminous coal stoppage; there were an estimated 4,226,000 man-days of idleness during April and 2,694,000 during May as a result of this stoppage.</li>
+<li>Source: Strike data: U. S. Department of Labor, Bureau of Labor Statistics, Strike Statistics Section. Industrial production index: Board of Governors, Federal Reserve System.</li>
+</ol>
+<p class="check"><b>0 of 54</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 205.</b> The table is printed as two side-by-side panels with the same three headings; I have stacked them, left panel first (1935 through March 1937), then the right panel (April 1937 through June 1939). The right panel opens directly with &quot;April&quot; and carries no repeated &quot;1937&quot; year line, so the nine rows from April to December 1937 sit under the &quot;1937&quot; section line transcribed from the left panel; no year label was invented. The italic centered year lines 1935, 1936, 1937, 1938 and 1939 are label-only section rows.
+
+Digit-grouping separators: in several man-days cells the thousands comma has lost its tail in this 1-bit scan and prints like a period (1936 March 1,331,162; 1936 July 1,105,480; 1936 August 911,216; 1938 September 959,916). All other values in that column use commas, so I have written commas throughout; no decimal point is intended.
+
+Doubtful cell: 1938 September, Man-days of idleness. The middle digit of the leading group is degraded and could be read as 5 or 8, i.e. 959,916 or 989,916; I transcribed 959,916. The index figure 91 beside it is clear.
+
+Footnote markers: the raised 1 is printed to the LEFT of the value in the 1939 April and 1939 May man-days cells; per convention I placed it after the number as ^1.
+
+The crop is complete: caption, both panels, the closing rule, footnote 1 and the source line are all present. A stray ink speck sits in the leader dots of the right panel&#x27;s June 1937 row label; it is not a character. The 1939 February index reads 99 with a stray mark after it, and the 1938 March index reads 80 with a stray mark before it; neither is a footnote marker.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1939_p0205_t0_p0205.webp" loading="lazy" alt="Source page 205 of NLRB FY1939 annual report">
+<figcaption>Source: NLRB Annual Report FY1939, p. 205.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

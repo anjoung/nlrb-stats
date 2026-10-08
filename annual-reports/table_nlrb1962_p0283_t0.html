@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Analysis of Stages of Disposition of Unfair Labor Practice Cases Closed, Fiscal Year 1962 — NLRB FY1962</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1962.html">FY1962</a> &rsaquo; Analysis of Stages of Disposition of Unfair Labor Practice Cases Closed, Fiscal Year 1962</p>
+<h1>Analysis of Stages of Disposition of Unfair Labor Practice Cases Closed, Fiscal Year 1962</h1>
+<p class="meta">printed as Table 7 &middot; source pages 283–284 &middot; <code>nlrb1962_p0283_t0</code></p>
+<p class="spans-note">Stitched from pp. 283–284.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Stage and method of disposition</th><th colspan="2">All C cases</th><th colspan="2">CA cases</th><th colspan="2">CB cases</th><th colspan="2">CC cases</th><th colspan="2">CD cases</th><th colspan="2">CE cases</th><th colspan="2">CP cases</th></tr>
+<tr><th>Stage and method of disposition</th><th>Number of cases</th><th>Percent of cases closed</th><th>Number of cases</th><th>Percent of cases closed</th><th>Number of cases</th><th>Percent of cases closed</th><th>Number of cases</th><th>Percent of cases closed</th><th>Number of cases</th><th>Percent of cases closed</th><th>Number of cases</th><th>Percent of cases closed</th><th>Number of cases</th><th>Percent of cases closed</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Total number of cases closed</th><td>13,319</td><td>100.0</td><td>8,910</td><td>100.0</td><td>2,631</td><td>100.0</td><td>1,027</td><td>100.0</td><td>308</td><td>100.0</td><td>45</td><td>100.0</td><td>398</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">Before issuance of complaint</th><td>11,141</td><td>83.7</td><td>7,424</td><td>83.3</td><td>2,211</td><td>84.0</td><td>813</td><td>79.2</td><td>299</td><td>97.1</td><td>40</td><td>88.9</td><td>354</td><td>88.9</td></tr>
+<tr><th class="stub" scope="row">Adjusted</th><td>2,008</td><td>15.1</td><td>1,288</td><td>14.4</td><td>280</td><td>10.6</td><td>280</td><td>27.3</td><td>62</td><td>20.1</td><td>8</td><td>17.8</td><td>90</td><td>22.6</td></tr>
+<tr><th class="stub" scope="row">Withdrawn</th><td>5,255</td><td>39.5</td><td>3,464</td><td>38.9</td><td>1,057</td><td>40.2</td><td>364</td><td>35.4</td><td>171</td><td>55.5</td><td>23</td><td>51.1</td><td>176</td><td>44.2</td></tr>
+<tr><th class="stub" scope="row">Dismissed</th><td>3,878</td><td>29.1</td><td>2,672</td><td>30.0</td><td>874</td><td>33.2</td><td>169</td><td>16.5</td><td>66</td><td>21.5</td><td>9</td><td>20.0</td><td>88</td><td>22.1</td></tr>
+<tr><th class="stub" scope="row">After issuance of complaint, before opening of hearing</th><td>653</td><td>4.9</td><td>481</td><td>5.4</td><td>74</td><td>2.9</td><td>81</td><td>7.9</td><td>3</td><td>1.0</td><td>1</td><td>2.2</td><td>13</td><td>3.1</td></tr>
+<tr><th class="stub" scope="row">Adjusted</th><td>459</td><td>3.4</td><td>352</td><td>4.0</td><td>49</td><td>1.9</td><td>51</td><td>5.0</td><td>1</td><td>.3</td><td>1</td><td>2.2</td><td>5</td><td>1.2</td></tr>
+<tr><th class="stub" scope="row">Compliance with stipulated decision</th><td>7</td><td>[5]</td><td>7</td><td>.1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Compliance with consent decree</th><td>77</td><td>.6</td><td>47</td><td>.5</td><td>10</td><td>.4</td><td>17</td><td>1.6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>.7</td></tr>
+<tr><th class="stub" scope="row">Withdrawn</th><td>81</td><td>.6</td><td>54</td><td>.6</td><td>9</td><td>.3</td><td>13</td><td>1.3</td><td>2</td><td>.7</td><td>0</td><td>0</td><td>3</td><td>.7</td></tr>
+<tr><th class="stub" scope="row">Dismissed</th><td>20</td><td>.2</td><td>14</td><td>.1</td><td>4</td><td>.2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>.5</td></tr>
+<tr><th class="stub" scope="row">Otherwise</th><td>9</td><td>.1</td><td>7</td><td>.1</td><td>2</td><td>.1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">After hearing opened, before issuance of intermediate report</th><td>263</td><td>2.0</td><td>170</td><td>1.9</td><td>63</td><td>2.4</td><td>28</td><td>2.7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>.6</td></tr>
+<tr><th class="stub" scope="row">Adjusted</th><td>32</td><td>.2</td><td>21</td><td>.2</td><td>5</td><td>.2</td><td>5</td><td>.5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>.3</td></tr>
+<tr><th class="stub" scope="row">Compliance with stipulated decision</th><td>15</td><td>.2</td><td>5</td><td>.1</td><td>5</td><td>.2</td><td>5</td><td>.5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Compliance with consent decree</th><td>154</td><td>1.2</td><td>91</td><td>1.0</td><td>52</td><td>2.0</td><td>11</td><td>1.1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Withdrawn</th><td>58</td><td>.4</td><td>50</td><td>.6</td><td>1</td><td>[5]</td><td>7</td><td>.6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Dismissed</th><td>4</td><td>[5]</td><td>3</td><td>[5]</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>.3</td></tr>
+<tr><th class="stub" scope="row">After intermediate report, before issuance of Board decision</th><td>113</td><td>.8</td><td>81</td><td>.9</td><td>16</td><td>.6</td><td>11</td><td>1.1</td><td>1</td><td>.3</td><td>0</td><td>.0</td><td>4</td><td>1.0</td></tr>
+<tr><th class="stub" scope="row">Adjusted</th><td>4</td><td class="blank"></td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>4</td><td>.4</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">Compliance</th><td>102</td><td>.8</td><td>77</td><td>.9</td><td>14</td><td>.5</td><td>7</td><td>.7</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>4</td><td>1.0</td></tr>
+<tr><th class="stub" scope="row">Withdrawn</th><td>2</td><td class="blank"></td><td>1</td><td class="blank"></td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>1</td><td>.3</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">Dismissed</th><td>1</td><td class="blank"></td><td>1</td><td class="blank"></td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">Otherwise</th><td>4</td><td class="blank"></td><td>2</td><td class="blank"></td><td>2</td><td>.1</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">After Board order adopting intermediate report in absence of exceptions</th><td>68</td><td>.5</td><td>51</td><td>.6</td><td>12</td><td>.5</td><td>4</td><td>.4</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>1</td><td>.3</td></tr>
+<tr><th class="stub" scope="row">Compliance</th><td>21</td><td>.2</td><td>16</td><td>.2</td><td>4</td><td>.2</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>1</td><td>.3</td></tr>
+<tr><th class="stub" scope="row">Dismissed</th><td>46</td><td>.3</td><td>34</td><td>.4</td><td>8</td><td>.3</td><td>4</td><td>.4</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">Otherwise</th><td>1</td><td class="blank"></td><td>1</td><td class="blank"></td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">After Board decision, before court decree</th><td>679</td><td>5.1</td><td>410</td><td>4.6</td><td>185</td><td>7.0</td><td>58</td><td>5.6</td><td>2</td><td>.6</td><td>3</td><td>6.7</td><td>21</td><td>5.3</td></tr>
+<tr><th class="stub" scope="row">Compliance</th><td>417</td><td>3.1</td><td>282</td><td>3.2</td><td>86</td><td>3.3</td><td>35</td><td>3.4</td><td>0</td><td>.0</td><td>3</td><td>6.7</td><td>11</td><td>2.8</td></tr>
+<tr><th class="stub" scope="row">Withdrawn</th><td>4</td><td class="blank"></td><td>3</td><td class="blank"></td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>1</td><td>.3</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">Dismissed</th><td>237</td><td>1.8</td><td>121</td><td>1.4</td><td>84</td><td>3.2</td><td>22</td><td>2.1</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>10</td><td>2.5</td></tr>
+<tr><th class="stub" scope="row">Otherwise</th><td>21</td><td>.2</td><td>4</td><td class="blank"></td><td>15</td><td>.5</td><td>1</td><td>.1</td><td>1</td><td>.3</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">After circuit court decree, before Supreme Court action</th><td>348</td><td>2.6</td><td>271</td><td>3.0</td><td>43</td><td>1.6</td><td>27</td><td>2.6</td><td>3</td><td>1.0</td><td>1</td><td>2.2</td><td>3</td><td>.8</td></tr>
+<tr><th class="stub" scope="row">Compliance</th><td>186</td><td>1.4</td><td>122</td><td>1.4</td><td>37</td><td>1.4</td><td>22</td><td>2.1</td><td>2</td><td>.7</td><td>1</td><td>2.2</td><td>2</td><td>.5</td></tr>
+<tr><th class="stub" scope="row">Dismissed</th><td>159</td><td>1.2</td><td>147</td><td>1.6</td><td>6</td><td>.2</td><td>5</td><td>.5</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>1</td><td>.3</td></tr>
+<tr><th class="stub" scope="row">Otherwise</th><td>3</td><td class="blank"></td><td>2</td><td class="blank"></td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>1</td><td>.3</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">After Supreme Court action</th><td>54</td><td>.4</td><td>22</td><td>.3</td><td>27</td><td>1.0</td><td>5</td><td>.5</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">Compliance</th><td>37</td><td>.3</td><td>15</td><td>.2</td><td>18</td><td>.7</td><td>4</td><td>.4</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">Withdrawn</th><td>3</td><td class="blank"></td><td>1</td><td class="blank"></td><td>2</td><td>.1</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">Dismissed</th><td>13</td><td>.1</td><td>6</td><td>.1</td><td>7</td><td>.2</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">Otherwise</th><td>1</td><td class="blank"></td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>1</td><td>.1</td><td>0</td><td>.0</td><td>0</td><td>.0</td><td>0</td><td>.0</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1962_p0283_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 See table 1, footnote 1, for definitions of types of cases</li>
+<li>2 Includes 60 cases adjusted before 10(k) notice, 1 case adjusted after 10(k) notice, and 1 case adjusted after 10(k) Board decision.</li>
+<li>3 Includes 142 cases withdrawn before 10(k) notice; 17 cases withdrawn after 10(k) notice, 3 cases withdrawn after 10(k) hearing; and 9 cases withdrawn after 10(k) Board decision</li>
+<li>4 Includes 56 cases dismissed before 10)k) notice, 3 cases dismissed after 10)k) notice; 4 cases dismissed after 10(k) hearing; and 3 cases dismissed by 10(k) Board decision.</li>
+<li>5 Less than one-tenth of 1 percent.</li>
+</ol>
+<p class="check"><b>194 of 194</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 283.</b> Crop/completeness: the table is cut off at the bottom of this image. It ends in the middle of the &quot;After hearing opened, before issuance of intermediate report&quot; block (last printed row &quot;Dismissed&quot;); later stages of disposition are not on this crop (the stage percents shown so far total only 90.6 of 100.0 in the All C panel). No footnote texts appear under the table on this crop, so `footnotes` is empty even though markers 1, 2, 3, 4 and 5 are used in the grid.
+
+Decimal points: this scan has dropped or faded most decimal points in the &quot;Percent of cases closed&quot; columns (they print as e.g. &quot;100 0&quot;, &quot;83 7&quot;). I restored them to the document&#x27;s one-decimal format. Each restoration is corroborated by arithmetic within the column: in every one of the seven panels the stage subtotal equals the sum of its rounded component percents (e.g. All C 83.7 = 15.1+39.5+29.1; All C 4.9 = 3.4+(5)+.6+.6+.2+.1; CC 7.9 = 5.0+1.6+1.3; CP 3.1 = 1.2+.7+.7+.5). The number columns likewise reconcile across panels (e.g. 1,288+280+280+62+8+90 = 2,008).
+
+&quot;(5)&quot; cells: in the All C and CA &quot;Compliance with stipulated decision&quot; row, the All C and CA &quot;Dismissed&quot; row (after hearing opened), and the CB &quot;Withdrawn&quot; row (after hearing opened), the percent cell holds a raised, parenthesized footnote reference 5 standing alone, with no numeric value. I kept the printed parentheses and digit as &quot;(5)&quot;; it is a footnote marker (conventionally &quot;less than 0.05 percent&quot;), not a value.
+
+CD column: small raised 2, 3 and 4 are printed immediately BEFORE the figures 62, 171 and 66 in the &quot;Adjusted&quot;, &quot;Withdrawn&quot; and &quot;Dismissed&quot; rows of the &quot;Before issuance of complaint&quot; block; I moved them behind a caret after each value.
+
+CP / &quot;Withdrawn&quot; in the &quot;After hearing opened&quot; block: the &quot;Percent of cases closed&quot; cell carries a short dashed rule instead of a figure, so it is transcribed as &quot;&quot;. The CP number cell on that line is a printed 0. Consistency check holds: CP subtotal .6 = .3 (Adjusted) + .3 (Dismissed).
+
+Stray marks: the CB &quot;Number of cases&quot; column has brace/bracket strokes in the scan — a &quot;}&quot; spanning 280 and 1,057, and bracket strokes beside 9/4 and beside 1/0. These are printing or microfilm artifacts, not characters of the values; they are not transcribed.
+
+Doubtful cells: (a) All C, &quot;Compliance with stipulated decision&quot; (after hearing opened), percent — reads &quot;.2&quot; though 15/13,319 recomputes to .1; I kept the printed .2, which is what makes the printed column subtotal 2.0 add up. (b) All C, &quot;Compliance with stipulated decision&quot; (after issuance of complaint), percent (5) — 7/13,319 is .053, marginally above the &quot;less than .05&quot; threshold the marker implies. (c) CP, &quot;Dismissed&quot; (after issuance of complaint), percent &quot;.5&quot; — the decimal point is visible here but the glyph is faint. (d) CA, &quot;Dismissed&quot; (after issuance of complaint), percent &quot;.1&quot; — 14/8,910 recomputes to .2; transcribed as printed. These are printed as-is, not corrected.</p>
+<p><b>p. 284.</b> CONTINUATION PAGE: no column headings are printed on this crop, so header_rows is empty. The grid has 15 columns: the stub plus 14 value columns, which are seven Number/Percent pairs (column rules group them 2-2-2-2-2-2-2). The earlier stages of the table and all headings are on the preceding page.
+
+PERCENT COLUMNS AND LOST DECIMAL POINTS: this is a degraded bitonal scan in which the leading decimal point of a percent value is dropped roughly half the time (e.g. the first row&#x27;s total-percent prints as &quot;8&quot; with no visible point while the adjacent CA percent clearly shows &quot;.9&quot;; mid-value points likewise render as a gap, &quot;1 1&quot; for 1.1, &quot;5 1&quot; for 5.1). Because every percent column in this table carries one decimal place, I have transcribed all percent cells with the decimal point, including zero percents as &quot;.0&quot;. If the original in fact sets an exact zero as plain &quot;0&quot; rather than &quot;.0&quot;, every &quot;.0&quot; cell here should be read as &quot;0&quot;; the distinction could not be resolved at this scan quality.
+
+FOOTNOTE-5 CELLS: a parenthesized raised 5 stands in place of a value in many percent cells (meaning &quot;less than one-tenth of 1 percent&quot;). Since it is the whole cell rather than a marker attached to a number, it is written &quot;(^5)&quot;.
+
+DOUBTFUL CELLS:
+- &quot;Compliance&quot; under &quot;After intermediate report, before issuance of Board decision&quot;, total-number column: the middle digit is broken and reads as either 102 or 192. Transcribed 102, which is what makes the section&#x27;s five sub-rows (4, 102, 2, 1, 4) sum to the printed section figure of 113; 192 would not.
+- &quot;Compliance&quot; under &quot;After circuit court decree, before Supreme Court action&quot;, total-number column: the final digit is badly broken and looks like &quot;18C&quot;. Transcribed 186, which makes the sub-rows (186, 159, 3) sum to the printed 348; 180 would not.
+- &quot;Otherwise&quot; under &quot;After Board decision, before court decree&quot;, CB percent (column 6): read as &quot;.5&quot;, but 15 cases against the column base implied by the other rows (~2,650) would print &quot;.6&quot;. The 5/6 glyph distinction is not resolvable here.
+- &quot;Compliance&quot; under &quot;After circuit court decree, before Supreme Court action&quot;, CD percent (column 10): read as &quot;.7&quot;, while the identical count of 2 in the &quot;After Board decision, before court decree&quot; row shows &quot;.6&quot; in the same column. The two must agree, so one of the two is a misread; both are transcribed as seen.
+- &quot;After Supreme Court action&quot; section row, CA percent (column 4): read as &quot;.3&quot;; 22 cases against the CA base implied by the other rows (~8,930) would print &quot;.2&quot;.
+- &quot;Dismissed&quot; under &quot;After Supreme Court action&quot;, CB percent (column 6): read as &quot;.2&quot;; 7 cases against the CB base implied by the other rows (~2,650) would print &quot;.3&quot;.
+- &quot;Dismissed&quot; under &quot;After circuit court decree, before Supreme Court action&quot;: a short stray dash sits in the column-13 gutter left of the value 1; treated as scan noise and not transcribed.
+
+ARITHMETIC CHECK: with the readings above, every section&#x27;s sub-rows sum exactly to its section row in all seven number columns, so the number columns are well anchored; the residual uncertainty is concentrated in the percent columns.
+
+FOOTNOTE 4 AS PRINTED: it reads &quot;before 10)k) notice, 3 cases dismissed after 10)k) notice&quot; — the first bracket of each pair is set as a closing parenthesis where &quot;10(k)&quot; is clearly meant. Transcribed as printed. Footnotes 1 and 3 end without a terminal period, also as printed; footnote 3&#x27;s last word &quot;decision&quot; wraps to a new line and has been joined.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1962_p0283_t0_p0283.webp" loading="lazy" alt="Source page 283 of NLRB FY1962 annual report">
+<figcaption>Source: NLRB Annual Report FY1962, p. 283.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1962_p0283_t0_p0284.webp" loading="lazy" alt="Source page 284 of NLRB FY1962 annual report">
+<figcaption>Source: NLRB Annual Report FY1962, p. 284.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

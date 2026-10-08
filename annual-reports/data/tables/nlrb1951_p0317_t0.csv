@@ -1,11 +1,21 @@
-Participating unions,Number of elections / Employees eligible to vote / Percent casting valid votes / Total valid votes cast,Elections won by / Valid votes cast for — A.F. of L. affiliates — Number,A.F. of L. affiliates — Percent,C.I.O. affiliates — Number,C.I.O. affiliates — Percent,Unaffiliated unions — Number,Unaffiliated unions — Percent,No union — Number,No union — Percent,Employees on units choosing union representation
-A. ELECTIONS — Total,93,15,,8,,4,,66,,
-A.F. of L. affiliates only,50,15,,,,,,35,,
-C.I.O. affiliates only,23,,,8,,,,15,,
-Unaffiliated unions only,19,,,,,4,,15,,
-A.F. of L. – C.I.O. affiliates (joint),1,,,,,,,1,,
-B. ELIGIBLE VOTERS AND VALID VOTES CAST — Total,6111,1000,20.4,940,17.6,366,6,2956,55.2,2632
-A.F. of L. affiliates,2831,1078,43.6,,,,,1394,56.4,1225
-C.I.O. affiliates,1723,,,938,64.2,,,522,35.8,1187
-Unaffiliated unions,1420,,,,,366,27.7,953,72.3,220
-A.F. of L. – C.I.O. affiliates (joint),135,,,,,,,85,,
+Participating unions,Number of elections,Elections won by—,Elections won by—,Elections won by—,Elections won by—,Employees eligible to vote,Percent casting valid votes,Total valid votes cast,Valid votes cast for,Valid votes cast for,Valid votes cast for,Valid votes cast for,Valid votes cast for,Valid votes cast for,Valid votes cast for,Valid votes cast for,Employees in units choosing representation
+Participating unions,Number of elections,A. F. of L. affiliates,C. I. O. affiliates,Unaffiliated unions,No union,Employees eligible to vote,Percent casting valid votes,Total valid votes cast,A. F. of L. affiliates,A. F. of L. affiliates,C. I. O. affiliates,C. I. O. affiliates,Unaffiliated unions,Unaffiliated unions,No union,No union,Employees in units choosing representation
+Participating unions,Number of elections,A. F. of L. affiliates,C. I. O. affiliates,Unaffiliated unions,No union,Employees eligible to vote,Percent casting valid votes,Total valid votes cast,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Employees in units choosing representation
+A. ELECTIONS,,,,,,,,,,,,,,,,,
+Total,"6,432","2,650","1,375",733,"1,674",,,,,,,,,,,,
+A. F. of L. affiliates only,"3,284","2,325",,,959,,,,,,,,,,,,
+C. I. O. affiliates only,"1,547",,"1,088",,459,,,,,,,,,,,,
+Unaffiliated unions only,659,,,482,177,,,,,,,,,,,,
+A. F. of L. affiliates—C. I. O. affiliates,420,195,166,,59,,,,,,,,,,,,
+A. F. of L. affiliates—Unaffiliated unions,255,117,,122,16,,,,,,,,,,,,
+C. I. O. affiliates—Unaffiliated unions,238,,115,119,4,,,,,,,,,,,,
+A. F. of L.—C. I. O.—Unaffiliated unions,29,13,6,10,0,,,,,,,,,,,,
+B. ELIGIBLE VOTERS AND VALID VOTES CAST,,,,,,,,,,,,,,,,,
+Total,,,,,,"666,556",88.2,"587,595","148,532",25.3,"184,056",31.3,"109,478",18.6,"145,529",24.8,"505,322"
+A. F. of L. affiliates only,,,,,,"169,710",88.5,"150,155","92,722",61.8,,,,,"57,433",38.2,"105,968"
+C. I. O. affiliates only,,,,,,"162,348",89.8,"145,801",,,"85,259",58.5,,,"60,542",41.5,"95,021"
+Unaffiliated unions only,,,,,,"43,609",85.0,"37,062",,,,,"25,291",68.2,"11,771",31.8,"32,102"
+A. F. of L. affiliates—C. I. O. affiliates,,,,,,"107,387",87.0,"93,424","36,839",39.4,"44,411",47.5,,,"12,174",13.1,"90,491"
+A. F. of L. affiliates—unaffiliated unions,,,,,,"36,815",88.2,"32,474","14,261",43.9,,,"17,051",52.5,"1,162",3.6,"35,860"
+C. I. O. affiliates—unaffiliated unions,,,,,,"128,359",88.2,"113,257",,,"49,243",43.5,"61,710",54.5,"2,304",2.0,"127,552"
+A. F. of L.—C. I. O.—unaffiliated unions,,,,,,"18,328",84.1,"15,422","4,710",30.5,"5,143",33.4,"5,426",35.2,143,.9,"18,328"

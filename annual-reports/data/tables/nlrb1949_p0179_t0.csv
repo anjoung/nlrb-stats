@@ -1,39 +1,46 @@
-Location of regional offices,All cases,Unfair labor practice cases,Representation cases,Union-shop authorization cases
-Total,25874,5314,8370,12190
-Boston,1790,317,608,865
-New York,2906,756,975,1175
-Buffalo,846,173,219,454
-Philadelphia,1161,203,335,623
-Baltimore and subregions,1205,383,383,459
-Baltimore and subregions — Baltimore,736,129,226,381
-Baltimore and subregions — Winston-Salem,183,95,88,0
-"Baltimore and subregions — Santurce, P. R.",286,139,69,78
-Pittsburgh,805,153,256,396
-Detroit,1274,212,373,689
-Cleveland,1043,170,330,543
-Cincinnati and subregion,1520,221,578,721
-Cincinnati and subregion — Cincinnati,962,130,393,439
-Cincinnati and subregion — Indianapolis,558,91,185,282
-Atlanta,1012,540,396,76
-Chicago and subregion,1961,255,555,1151
-Chicago and subregion — Chicago,1759,249,544,966
-Chicago and subregion — Milwaukee,202,6,11,185
-St. Louis,1679,266,443,970
-New Orleans and subregion,660,230,259,171
-New Orleans and subregion — New Orleans,502,177,156,169
-New Orleans and subregion — Memphis,158,53,103,2
-Fort Worth and subregions,773,209,401,163
-Fort Worth and subregions — Fort Worth,455,97,234,124
-Fort Worth and subregions — El Paso,133,34,60,39
-Fort Worth and subregions — Houston,185,78,107,0
-Kansas City and subregion,1171,206,452,513
-Kansas City and subregion — Kansas City,894,155,326,413
-Kansas City and subregion — Denver,277,51,126,100
-Minneapolis,867,82,328,457
-Seattle and subregion,1914,260,466,1188
-Seattle and subregion — Seattle,1121,174,252,695
-Seattle and subregion — Portland,793,86,214,493
-San Francisco,1207,244,401,562
-Los Angeles and subregion,2080,454,612,1014
-Los Angeles and subregion — Los Angeles,2044,448,592,1004
-Los Angeles and subregion — Honolulu,36,6,20,10
+Industrial group,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases,Union-authorization cases
+Industrial group,All cases,CA,CB,CC,CD,RC,RM,RD,Union-authorization cases
+Total,"25,874","4,154",820,268,72,"7,521",479,370,"12,190"
+Manufacturing,"15,482","2,441",312,89,25,"4,729",234,258,"7,394"
+Food and kindred products,"3,392",411,48,14,2,833,42,45,"1,997"
+Tobacco manufactures,42,9,0,0,0,13,3,1,16
+Textile-mill products,623,158,14,3,0,188,14,15,231
+Apparel and other finished products made from fabrics and similar materials,556,155,27,8,0,148,13,10,195
+Lumber and wood products,"1,025",162,11,10,8,323,17,10,484
+Furniture and fixtures,589,146,15,5,0,154,14,12,243
+Paper and allied products,601,76,5,2,1,200,8,6,303
+"Printing, publishing, and allied industries","1,007",116,27,3,2,220,11,5,623
+Chemicals and allied products,785,113,15,7,1,307,15,19,308
+Products of petroleum and coal,317,92,7,4,2,96,2,15,99
+Rubber products,128,28,2,1,0,47,1,3,46
+Leather and leather products,380,59,19,3,0,95,3,2,199
+"Stone, clay, and glass products",604,72,6,1,0,179,12,14,320
+Primary metal industries,728,94,14,1,1,263,5,12,338
+Fabricated metal products (except machinery and transportation equipment),"1,190",149,17,5,3,411,18,19,568
+Machinery (except electrical),"1,435",215,26,4,3,481,19,34,653
+"Electrical machinery, equipment, and supplies",536,94,10,1,0,217,17,12,185
+Transportation equipment,718,126,30,10,2,256,8,17,269
+Aircraft and parts,123,22,3,1,1,54,1,2,39
+Ship and boat building and repairing,154,19,13,9,1,40,4,5,63
+Automotive and other transportation equipment,441,85,14,0,0,162,3,10,167
+"Professional, scientific, and controlling instruments",181,24,3,0,0,86,0,0,68
+Miscellaneous manufacturing,645,142,16,7,0,212,12,7,249
+"Agriculture, forestry, and fisheries",2,1,1,0,0,0,0,0,0
+Mining,228,49,17,9,0,77,11,7,58
+Metal mining,46,7,3,0,0,31,1,1,3
+Coal mining,42,16,14,5,0,3,2,0,2
+Crude petroleum and natural gas production,45,9,0,4,0,11,5,5,11
+Nonmetallic mining and quarrying,95,17,0,0,0,32,3,1,42
+Construction,860,202,144,72,36,136,13,1,256
+Wholesale trade,"2,397",258,48,26,1,637,32,28,"1,367"
+Retail trade,"2,607",345,74,22,0,858,90,23,"1,195"
+"Finance, insurance, and real estate",437,245,4,4,0,112,4,3,65
+"Transportation, communication, and other public utilities","2,915",432,140,37,9,713,70,40,"1,474"
+Highway passenger transportation,256,50,6,3,0,71,12,7,107
+Highway freight transportation,"1,070",136,35,22,4,149,14,8,702
+Water transportation,317,69,69,2,2,75,0,2,98
+Warehousing and storage,374,31,11,3,0,89,2,5,233
+Other transportation,86,16,3,2,0,28,0,3,34
+Communication,556,94,11,4,1,193,40,7,206
+"Heat, light, power, water, and sanitary services",256,36,5,1,2,108,2,8,94
+Services,946,181,80,9,1,259,25,10,381

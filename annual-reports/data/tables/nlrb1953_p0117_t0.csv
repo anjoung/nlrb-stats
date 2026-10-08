@@ -1,14 +1,24 @@
-Affiliation of participating unions,Employees eligible to vote,Total valid votes cast,Percent casting valid votes,Valid votes cast for losing unions / AFL affiliates,Valid votes cast for losing unions / CIO affiliates,Valid votes cast for losing unions / Unaffiliated unions,Valid votes cast for no union
-Total,153548,139621,90.9,23719,23358,1522,91022
-"1-union elections, AFL",68123,61833,90.8,19549,,,42284
-"1-union elections, CIO",61141,55924,91.5,,20227,,35697
-"1-union elections, Unaffiliated",3825,3433,89.8,,,1140,2293
-"2-union elections, AFL-CIO",13202,12230,92.6,2592,2260,,7378
-"2-union elections, AFL-Unaffiliated",1330,1163,87.4,234,,271,658
-"2-union elections, A.F.L.-A.F.L.",2157,1825,84.7,520,,,1306
-"2-union elections, CIO-Unaffiliated",867,783,90.3,,262,90,431
-"2-union elections, C.I.O.-C.I.O.",13,12,92.3,,4,,8
-"2-union elections, Unaffiliated-Unaffiliated",4,2,50.0,,,2,
-"3-union elections, AFL-CIO-Unaffiliated",289,272,94.1,31,57,19,165
-"3-union elections, AFL-AFL-AFL",324,296,91.4,110,,,186
-"3-union elections, AFL-AFL-CIO",2273,1847,81.3,683,548,,616
+Affiliation of participating unions,Employees eligible to vote,Total valid votes cast,Percent casting valid votes,Valid votes cast for winning union,Valid votes cast for winning union,Valid votes cast for winning union,Valid votes cast for losing union,Valid votes cast for losing union,Valid votes cast for losing union,Valid votes cast for no union
+Affiliation of participating unions,Employees eligible to vote,Total valid votes cast,Percent casting valid votes,A. F. L. affiliates,C. I. O. affiliates,Unaffiliated unions,A. F. L. affiliates,C. I. O. affiliates,Unaffiliated unions,Valid votes cast for no union
+Total,"584,450","500,118",85.6,"162,821","128,556","56,825","42,261","40,146","18,078","51,431"
+1-union elections:,,,,,,,,,,
+A. F. L.,"99,765","83,357",83.6,"64,426",,,,,,"18,931"
+C. I. O.,"73,649","64,810",88.0,,"46,788",,,,,"18,022"
+Unaffiliated,"19,584","16,425",83.9,,,"12,567",,,,"3,858"
+2-union elections,,,,,,,,,,
+A. F. L.-C. I. O.,"201,848","172,016",85.2,"62,920","52,840",,"25,083","25,358",,"5,815"
+A. F. L.-unaffiliated,"37,466","32,928",87.9,"10,152",,"11,020","5,301",,"4,630","1,825"
+A. F. L.-A. F. L.,"37,691","31,177",82.7,"22,444",,,"7,651",,,"1,082"
+C. I. O.-unaffiliated,"71,546","62,674",87.6,,"19,238","20,823",,"11,187","10,193","1,233"
+C. I. O.-C. I. O.,21,21,100.0,,19,,,2,,
+Unaffiliated-unaffiliated,"2,192","1,874",85.5,,,"1,160",,,694,20
+3-union elections:,,,,,,,,,,
+A. F. L.-C. I. O.-unaffiliated,"33,137","28,227",85.2,970,"8,570","9,734","3,322","3,217","1,906",508
+A. F. L.-A. F. L.-A. F. L.,677,606,89.5,378,,,228,,,0
+A. F. L.-A. F. L.-C. I. O.,"2,944","2,676",90.9,913,990,,588,77,,108
+A. F. L.-A. F. L.-unaffiliated,389,359,92.3,227,,0,57,,74,1
+A. F. L.-C. I. O.-C. I. O.,700,513,73.3,370,87,,10,36,,10
+C. I. O.-unaffiliated-unaffiliated,"2,774","2,389",86.1,,,"1,521",,269,581,18
+4-union elections:,,,,,,,,,,
+A. F. L.-A. F. L.-A. F. L.-A. F. L.,20,20,100.0,12,,,8,,,0
+A. F. L.-A. F. L.-A. F. L.-C. I. O.,47,46,97.9,9,24,,13,0,,0

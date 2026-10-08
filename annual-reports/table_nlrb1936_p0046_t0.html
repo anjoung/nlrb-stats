@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Disposition of all representation cases — NLRB FY1936</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1936.html">FY1936</a> &rsaquo; Disposition of all representation cases</p>
+<h1>Disposition of all representation cases</h1>
+<p class="meta">printed as Table 6 &middot; source page 46 &middot; <code>nlrb1936_p0046_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th colspan="2">Number of—</th><th colspan="2">Percentage of—</th></tr>
+<tr><th></th><th>Cases</th><th>Workers involved</th><th>Total cases</th><th>Cases in category</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Cases closed before hearing:</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">By withdrawal of petition</th><td>29</td><td>27,172</td><td>14.3</td><td>32.2</td></tr>
+<tr><th class="stub" scope="row">By dismissal of petition</th><td>5</td><td>6,100</td><td>2.4</td><td>5.6</td></tr>
+<tr><th class="stub" scope="row">By transfer</th><td>4</td><td>4,135</td><td>2.0</td><td>4.4</td></tr>
+<tr><th class="stub" scope="row">By settlement:</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">(a) Consent elections</th><td>23</td><td>5,610</td><td>11.3</td><td>25.6</td></tr>
+<tr><th class="stub" scope="row">(b) Recognition of representatives</th><td>29</td><td>5,061</td><td>14.3</td><td>32.2</td></tr>
+<tr><th class="stub" scope="row">Total cases closed before hearing</th><td>90</td><td>48,078</td><td>44.3</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">Cases closed after hearing:</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">By withdrawal of petition</th><td>1</td><td>36</td><td>.5</td><td>8.3</td></tr>
+<tr><th class="stub" scope="row">By dismissal of petition</th><td>2</td><td>164</td><td>1.0</td><td>16.7</td></tr>
+<tr><th class="stub" scope="row">By settlement</th><td>2</td><td>135</td><td>1.0</td><td>16.7</td></tr>
+<tr><th class="stub" scope="row">By issuance of certification without election</th><td>1</td><td>140</td><td>.5</td><td>8.3</td></tr>
+<tr><th class="stub" scope="row">By certifications after election</th><td>5</td><td>2,334</td><td>2.4</td><td>41.7</td></tr>
+<tr><th class="stub" scope="row">By refusal of certification after election</th><td>1</td><td>700</td><td>.5</td><td>8.3</td></tr>
+<tr><th class="stub" scope="row">Total cases closed after hearing</th><td>12</td><td>3,509</td><td>5.9</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">Cases pending:</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Hearings to be held</th><td>70</td><td>9,870</td><td>34.5</td><td>69.3</td></tr>
+<tr><th class="stub" scope="row">Hearings prevented by injunction</th><td>7</td><td>2,622</td><td>3.4</td><td>6.9</td></tr>
+<tr><th class="stub" scope="row">Decisions pending</th><td>13</td><td>7,489</td><td>6.4</td><td>12.9</td></tr>
+<tr><th class="stub" scope="row">Elections pending</th><td>3</td><td>995</td><td>1.5</td><td>3.0</td></tr>
+<tr><th class="stub" scope="row">Elections enjoined</th><td>6</td><td>7,683</td><td>3.0</td><td>5.9</td></tr>
+<tr><th class="stub" scope="row">Certifications pending</th><td>2</td><td>273</td><td>1.0</td><td>2.0</td></tr>
+<tr><th class="stub" scope="row">Total cases pending</th><td>101</td><td>28,932</td><td>49.8</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">Total representation cases</th><td>203</td><td>80,519</td><td>100.0</td><td class="blank"></td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1936_p0046_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>a The issuance of 1 decision was prevented by injunction.</li>
+<li>1 See note 1, p. 33, supra.</li>
+</ol>
+<p class="check"><b>0 of 42</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 46.</b> Column structure: stub + 4 columns, with the spanner \&quot;Number of—\&quot; over Cases and Workers involved, and \&quot;Percentage of—\&quot; over Total cases and Cases in category. The stub column has no printed heading, so its header cells are empty.\n\nFootnote markers: the marker on \&quot;Cases closed before hearing:\&quot; and on the first footnote line is a small raised italic letter that reads as &#x27;a&#x27; (it could be mistaken for a degree sign or &#x27;o&#x27; in this scan); I transcribed it as &#x27;a&#x27;. The second footnote, \&quot;1 See note 1, p. 33, supra.\&quot;, is printed at the very bottom of the page below the running text rather than immediately under the table, but its marker is the raised 1 on the row \&quot;Decisions pending\&quot;, so I included it; its marker digit is blurred in the scan and could be read as &#x27;6&#x27;.\n\nTypography: \&quot;Total representation cases\&quot; prints its Total cases value as \&quot;100. 0\&quot; (space after the decimal point); transcribed as 100.0. Several values print a space after the comma (e.g. \&quot;27, 172\&quot;, \&quot;48, 078\&quot;); commas closed up per instructions. The Workers involved cell for \&quot;(a) Consent elections\&quot; has a stray tick mark before the 5 (\&quot;&#x27;5, 610\&quot;); it is not a footnote marker and is omitted — 5,610 is confirmed because the five before-hearing worker figures sum exactly to 48,078.\n\nArithmetic checks all pass as printed: Cases 90+12+101=203; Workers 48,078+3,509+28,932=80,519; Total cases percentages 44.3+5.9+49.8=100.0; each section&#x27;s \&quot;Cases in category\&quot; column sums to 100.0 and each section&#x27;s \&quot;Total cases\&quot; entries sum to that section&#x27;s total. The last row leaves \&quot;Cases in category\&quot; blank as printed.\n\nThe crop includes the table caption, the table&#x27;s footnote rule, and the first lines of the following text paragraph; only the table grid and footnotes are transcribed.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1936_p0046_t0_p0046.webp" loading="lazy" alt="Source page 46 of NLRB FY1936 annual report">
+<figcaption>Source: NLRB Annual Report FY1936, p. 46.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

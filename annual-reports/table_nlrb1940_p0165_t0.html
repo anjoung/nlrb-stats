@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -124,51 +132,37 @@ ul.link-list li { margin: 0.3rem 0; }
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th></th><th></th><th></th><th></th><th></th><th></th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">1935</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Dctober</th><td>203</td><td>169</td><td>79</td><td>L20</td><td>2.57</td></tr>
-<tr><th class="stub" scope="row">govember</th><td>153</td><td>119</td><td>50</td><td>1.29</td><td>3.06</td></tr>
-<tr><th class="stub" scope="row">December</th><td>110</td><td>80</td><td>33</td><td>1.38</td><td>3.33</td></tr>
-<tr><th class="stub" scope="row">1936</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Total</th><td>1,301</td><td>1,951</td><td>949</td><td>0.67</td><td>1.37</td></tr>
-<tr><th class="stub" scope="row">ranuary</th><td>110</td><td>138</td><td>64</td><td>0.8</td><td>1.72</td></tr>
-<tr><th class="stub" scope="row">February</th><td>66</td><td>132</td><td>75</td><td>. 50</td><td>0.33</td></tr>
-<tr><th class="stub" scope="row">%larch</th><td>90</td><td>168</td><td>79</td><td>. 54</td><td>1.14</td></tr>
-<tr><th class="stub" scope="row">k.pril</th><td>142</td><td>158</td><td>75</td><td>0.9</td><td>1.89</td></tr>
-<tr><th class="stub" scope="row">1{ay</th><td>108</td><td>188</td><td>74</td><td>0.57</td><td>1.46</td></tr>
-<tr><th class="stub" scope="row">lune</th><td>sa</td><td>168</td><td>89</td><td>0.51</td><td>0.97</td></tr>
-<tr><th class="stub" scope="row">rub,</th><td>74</td><td>144</td><td>71</td><td>. 51</td><td>1.04</td></tr>
-<tr><th class="stub" scope="row">kugust</th><td>112</td><td>211</td><td>106</td><td>. 53</td><td>1.06</td></tr>
-<tr><th class="stub" scope="row">ieptember</th><td>150</td><td>209</td><td>95</td><td>0.72</td><td>1.53</td></tr>
-<tr><th class="stub" scope="row">Dctober</th><td>147</td><td>175</td><td>87</td><td>0.84</td><td>1.69</td></tr>
-<tr><th class="stub" scope="row">qovember</th><td>83</td><td>131</td><td>63</td><td>0.67</td><td>1.29</td></tr>
-<tr><th class="stub" scope="row">December</th><td>128</td><td>129</td><td>66</td><td>. 90</td><td>L 94</td></tr>
-<tr><th class="stub" scope="row">1937</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Total</th><td>9.425</td><td>4,270</td><td>2,293</td><td>2.21</td><td>4.11</td></tr>
-<tr><th class="stub" scope="row">armary</th><td>110</td><td>160</td><td>79</td><td>0.69</td><td>1.39</td></tr>
-<tr><th class="stub" scope="row">i &#x27;ebruary</th><td>195</td><td>199</td><td>108</td><td>0.98</td><td>1.81</td></tr>
-<tr><th class="stub" scope="row">vlarch</th><td>239</td><td>581</td><td>279</td><td>. 41</td><td>0.86</td></tr>
-<tr><th class="stub" scope="row">Lpril</th><td>477</td><td>490</td><td>271</td><td>0.97</td><td>1.76</td></tr>
-<tr><th class="stub" scope="row">day</th><td>1,054</td><td>532</td><td>265</td><td>2</td><td>4.02</td></tr>
-<tr><th class="stub" scope="row">une</th><td>1,233</td><td>552</td><td>301</td><td>2.32</td><td>4.26</td></tr>
-<tr><th class="stub" scope="row">uly</th><td>1,325</td><td>400</td><td>250</td><td>3.31</td><td>5.3</td></tr>
-<tr><th class="stub" scope="row">Lugust</th><td>1,119</td><td>400</td><td>226</td><td>2.8</td><td>4.95</td></tr>
-<tr><th class="stub" scope="row">.eptember</th><td>994</td><td>321</td><td>186</td><td>3.1</td><td>5.34</td></tr>
-<tr><th class="stub" scope="row">)ctober</th><td>1,054</td><td>278</td><td>157</td><td>3.7</td><td>6.71</td></tr>
-<tr><th class="stub" scope="row">gevember</th><td>959</td><td>232</td><td>117</td><td>4.13</td><td>8.29</td></tr>
-<tr><th class="stub" scope="row">December</th><td>606</td><td>125</td><td>54</td><td>4.85</td><td>11.22</td></tr>
+<tr><th class="stub" scope="row">Salaries</th><td>$2,265,823</td></tr>
+<tr><th class="stub" scope="row">Travel</th><td>319,835</td></tr>
+<tr><th class="stub" scope="row">Communications</th><td>85,917</td></tr>
+<tr><th class="stub" scope="row">Reporting</th><td>24,265</td></tr>
+<tr><th class="stub" scope="row">Rent</th><td>188,249</td></tr>
+<tr><th class="stub" scope="row">Furniture and equipment</th><td>26,808</td></tr>
+<tr><th class="stub" scope="row">Supplies and materials</th><td>56,723</td></tr>
+<tr><th class="stub" scope="row">Special and miscellaneous</th><td>10,707</td></tr>
+<tr><th class="stub" scope="row">Transportation of things</th><td>2,002</td></tr>
+<tr><th class="stub" scope="row">Total salaries and expenses</th><td>2,980,529</td></tr>
+<tr><th class="stub" scope="row">Printing and binding</th><td>203,692</td></tr>
+<tr><th class="stub" scope="row">Grand total expenditures and obligations</th><td>3,184,021</td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1940_p0165_t0.csv" download>Download this table (CSV)</a></p>
+<p class="check"><b>0 of 12</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 165.</b> The crop shows no column headings (the caption and any heading are above the crop), so header_rows is empty. The table has two columns: the stub and a single unlabelled amount column; horizontal rules above &quot;Total salaries and expenses&quot; and above &quot;Grand total expenditures and obligations&quot; mark the subtotal and total. The &quot;158&quot; at the bottom left of the crop is the printed page number and is omitted.
+
+Arithmetic discrepancy, transcribed as printed: the nine detail items sum to 2,980,329, not the printed subtotal 2,980,529 (a difference of 200). The printed grand total is consistent with 2,980,329 (2,980,329 + 203,692 = 3,184,021), whereas the printed subtotal plus printing and binding would give 3,184,221. So either the subtotal is a misprint for 2,980,329 or the third digit of its last group is a 3 that the scan renders like a 5; my read of the glyph is &quot;529&quot;. Flagging the cell &quot;Total salaries and expenses&quot;, amount column, as doubtful. All other figures are clearly legible and no other row is in question.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1940_p0165.webp" loading="lazy" alt="Source page 165 of NLRB FY1940 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1940_p0165_t0_p0165.webp" loading="lazy" alt="Source page 165 of NLRB FY1940 annual report">
 <figcaption>Source: NLRB Annual Report FY1940, p. 165.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

@@ -1,24 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11
-Proceedings decided by U.S. courts of appeals and other courts………..,90,88,2,0,9,97.8,2.2,,,,
-On proceedings for review and/or enforcement………...……….......,79,77,2,0,9,97.5,2.5,,100.0,11906,100.0
-Board orders affirmed in full…………………………………...,60,58,2,0,3,96.7,3.3,,33.3,7885,66.2
-Board orders affirmed with modification……………………….,2,2,0,0,0,100.0,,,,1555,13.1
-RemandedtotheBoard…………………………………………,9,9,0,0,6,100.0,,,66.7,598,5.0
-Board orders partially affirmed and partially remanded ………..,1,1,0,0,0,100.0,,,0.0,269,2.3
-Board orderssetaside…………………………………………..,7,7,0,0,0,100.0,,,0.0,1599,13.4
-On petitionsforcontempt……………………………………………,11,11,0,0,0,100.0,,,,,
-Ancillary proceedings in district courts and/or bankruptcy courts,12,12,0,0,0,100.0,,,,,
-TotalCourtOrders…………………………………………………..,48,47,1,0,0,97.9,2.1,,,,
-"Compliance after filing of petition, before court order …..…......",34,33,1,0,0,97.1,2.9,,,,
-Court orders holding respondent in contempt ………………......,8,8,1,0,0,100.0,,,,,
-Court orders denying petition or discontinuing proceedings at CLCBrequest……………………………………………………,1,1,0,0,0,100.0,,,,,
-Court orders directing compliance without contempt adjudication…………..…………………………………………,5,5,0,0,0,100.0,,,,,
-Proceedings decided by U.S. Supreme Court 3 ………………………….,0,0,0,0,0,,,,,259,100.0
-Board orders affirmed in full……………………………..………...,0,0,0,0,0,,,,,155,59.8
-Board orders affirmed with modification…………………………...,0,0,0,0,0,,,,,18,6.9
-Board orders setaside……………………………………………....,0,0,0,0,0,,,,,46,17.8
-RemandedtotheBoard………………………….………………….,0,0,0,0,0,,,,,20,7.7
-Remanded to court of appeals………………………………...…….,0,0,0,0,0,,,,,17,6.6
-Board's request for remand or modification of enforcement order denied………….…………………………...…………………….…,0,0,0,0,0,,,,,1,0.4
-Contempt cases remanded to court of appeals……………………...,0,0,0,0,0,,,,,1,0.4
-Contempt casesenforced……………………..…………………….,0,0,0,0,0,,,,,1,0.4
+Size of establishment (number of employees),Total number of situations,Total,Total,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations,Type of situations
+Size of establishment (number of employees),Total number of situations,Percent of all situations,Cumulative percent of all situations,CA,CA,CB,CB,CC,CC,CD,CD,CE,CE,CG,CG,CP,CP,CA-CB combinations,CA-CB combinations,Other C combinations,Other C combinations
+Size of establishment (number of employees),Total number of situations,Percent of all situations,Cumulative percent of all situations,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class,Number of situations,Percent by size class
+Totals,"21,688",100.0,,"15,673",100.0,"5,228",100.0,277,100.0,96,100.0,27,100.0,23,100.0,54,100.0,270,100.0,40,100.0
+Under 10,"1,514",7.0,7.0,"1,101",7.0,318,6.1,53,19.1,16,16.7,4,14.8,0,0.0,5,9.3,12,4.4,5,12.5
+10-19,"1,778",8.2,15.2,"1,284",8.2,398,7.6,40,14.4,15,15.6,1,3.7,3,13.0,14,25.9,16,5.9,7,17.5
+20-29,"1,789",8.2,23.4,"1,297",8.3,385,7.4,47,17.0,19,19.8,3,11.1,1,4.3,5,9.3,28,10.4,4,10.0
+30-39,893,4.1,27.5,703,4.5,159,3.0,12,4.3,4,4.2,2,7.4,0,0.0,4,7.4,8,3.0,1,2.5
+40-49,686,3.2,30.7,535,3.4,118,2.3,11,4.0,7,7.3,0,0.0,1,4.3,4,7.4,9,3.3,1,2.5
+50-59,"1,731",8.0,38.7,"1,238",7.9,417,8.0,35,12.6,11,11.5,4,14.8,2,8.7,3,5.6,20,7.4,1,2.5
+60-69,592,2.7,41.4,448,2.9,128,2.4,4,1.4,1,1.0,0,0.0,0,0.0,1,1.9,10,3.7,0,0.0
+70-79,496,2.3,43.7,401,2.6,86,1.6,4,1.4,0,0.0,1,3.7,0,0.0,1,1.9,2,0.7,1,2.5
+80-89,472,2.2,45.9,364,2.3,100,1.9,3,1.1,0,0.0,0,0.0,1,4.3,0,0.0,3,1.1,1,2.5
+90-99,258,1.2,47.1,194,1.2,61,1.2,1,0.4,0,0.0,0,0.0,1,4.3,1,1.9,0,0.0,0,0.0
+100-109,"2,159",10.0,57.0,"1,470",9.4,617,11.8,15,5.4,12,12.5,5,18.5,2,8.7,4,7.4,31,11.5,3,7.5
+110-119,188,0.9,57.9,153,1.0,31,0.6,2,0.7,0,0.0,0,0.0,0,0.0,1,1.9,1,0.4,0,0.0
+120-129,352,1.6,59.5,294,1.9,51,1.0,2,0.7,2,2.1,0,0.0,0,0.0,1,1.9,1,0.4,1,2.5
+130-139,178,0.8,60.3,143,0.9,33,0.6,1,0.4,0,0.0,0,0.0,0,0.0,0,0.0,1,0.4,0,0.0
+140-149,136,0.6,61.0,109,0.7,23,0.4,1,0.4,1,1.0,0,0.0,0,0.0,2,3.7,0,0.0,0,0.0
+150-159,510,2.4,63.3,367,2.3,126,2.4,7,2.5,2,2.1,0,0.0,0,0.0,1,1.9,7,2.6,0,0.0
+160-169,114,0.5,63.8,95,0.6,16,0.3,2,0.7,0,0.0,0,0.0,0,0.0,1,1.9,0,0.0,0,0.0
+170-179,111,0.5,64.4,77,0.5,30,0.6,0,0.0,0,0.0,0,0.0,1,4.3,0,0.0,2,0.7,1,2.5
+180-189,102,0.5,64.8,83,0.5,16,0.3,1,0.4,0,0.0,0,0.0,1,4.3,0,0.0,0,0.0,1,2.5
+190-199,44,0.2,65.0,37,0.2,7,0.1,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+200-299,"1,603",7.4,72.4,"1,149",7.3,422,8.1,6,2.2,2,2.1,2,7.4,0,0.0,2,3.7,20,7.4,0,0.0
+300-399,933,4.3,76.7,669,4.3,239,4.6,2,0.7,0,0.0,0,0.0,2,8.7,0,0.0,19,7.0,2,5.0
+400-499,556,2.6,79.3,385,2.5,156,3.0,5,1.8,1,1.0,0,0.0,2,8.7,2,3.7,5,1.9,0,0.0
+500-599,725,3.3,82.6,484,3.1,218,4.2,5,1.8,0,0.0,0,0.0,0,0.0,0,0.0,17,6.3,1,2.5
+600-699,264,1.2,83.8,197,1.3,57,1.1,2,0.7,0,0.0,1,3.7,0,0.0,0,0.0,4,1.5,3,7.5
+700-799,275,1.3,85.1,223,1.4,46,0.9,1,0.4,0,0.0,0,0.0,0,0.0,1,1.9,4,1.5,0,0.0
+800-899,221,1.0,86.1,166,1.1,53,1.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,1,0.4,1,2.5
+900-999,88,0.4,86.5,69,0.4,19,0.4,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+"1,000-1,999","1,494",6.9,93.4,980,6.3,471,9.0,7,2.5,3,3.1,3,11.1,2,8.7,1,1.9,24,8.9,3,7.5
+"2,000-2,999",449,2.1,95.5,291,1.9,145,2.8,4,1.4,0,0.0,0,0.0,2,8.7,0,0.0,6,2.2,1,2.5
+"3,000-3,999",219,1.0,96.5,118,0.8,95,1.8,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,5,1.9,1,2.5
+"4,000-4,999",87,0.4,96.9,52,0.3,33,0.6,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,2,0.7,0,0.0
+"5,000-9,999",259,1.2,98.1,162,1.0,86,1.6,2,0.7,0,0.0,0,0.0,1,4.3,0,0.0,7,2.6,1,2.5
+"Over 9,999",412,1.9,100.0,335,2.1,68,1.3,2,0.7,0,0.0,1,3.7,1,4.3,0,0.0,5,1.9,0,0.0

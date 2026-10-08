@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -124,25 +132,29 @@ ul.link-list li { margin: 0.3rem 0; }
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th></th><th>Number</th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">Granted</th><td>104</td></tr>
-<tr><th class="stub" scope="row">Denied</th><td>16</td></tr>
-<tr><th class="stub" scope="row">Withdrawn</th><td>43</td></tr>
-<tr><th class="stub" scope="row">Dismissed</th><td>30</td></tr>
-<tr><th class="stub" scope="row">Settled or placed on courts&#x27; inactive lists</th><td>160</td></tr>
-<tr><th class="stub" scope="row">Awaiting action at end of fiscal year</th><td>17</td></tr>
+<tr><th class="stub" scope="row">Total NLRB cases ruled on</th><td>261</td></tr>
+<tr><th class="stub" scope="row">Affirmed in full</th><td>189</td></tr>
+<tr><th class="stub" scope="row">Affirmed with modification</th><td>21</td></tr>
+<tr><th class="stub" scope="row">Remanded to NLRB</th><td>8</td></tr>
+<tr><th class="stub" scope="row">Partially affirmed and partially remanded</th><td>11</td></tr>
+<tr><th class="stub" scope="row">Set aside</th><td>32</td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1975_p0033_t0.csv" download>Download this table (CSV)</a></p>
+<p class="check"><b>0 of 6</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 33.</b> The table has two columns: the stub of row labels and a single unlabeled column of counts; no column headings are printed on this crop (only the descenders of a cut-off line of text, presumably the caption, show along the top edge), so header_rows is empty. All six rows and both cells per row are clearly legible. The component figures sum to the printed total (189+21+8+11+32 = 261).</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1975_p0033.webp" loading="lazy" alt="Source page 33 of NLRB FY1975 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1975_p0033_t0_p0033.webp" loading="lazy" alt="Source page 33 of NLRB FY1975 annual report">
 <figcaption>Source: NLRB Annual Report FY1975, p. 33.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

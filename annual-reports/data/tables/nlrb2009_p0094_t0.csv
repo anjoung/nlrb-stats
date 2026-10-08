@@ -1,42 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Pending October 1, 2008....................",8718,3634,2703,424,1938,19
-Received fiscal 2009..........................,16541,5925,5236,767,4552,61
-On docket fiscal 2009........................,25259,9559,7939,1191,6490,80
-Closed fiscal 2009..............................,16499,5969,5262,744,4482,42
-"Pending September 30, 2009..............",8760,3590,2677,447,2008,38
-,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases
-"Pending October 1, 2008....................",1512,13,18,5,1331,145
-Received fiscal 2009..........................,6000,26,200,15,5277,482
-On docket fiscal 2009........................,7512,39,218,20,6608,627
-Closed fiscal 2009..............................,5509,29,49,11,4971,449
-"Pending September 30, 2009..............",2003,10,169,9,1637,178
-,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases
-"Pending October 1, 2008....................",321,1,0,1,15,304
-Received fiscal 2009..........................,208,6,8,1,17,176
-On docket fiscal 2009........................,529,7,8,2,32,480
-Closed fiscal 2009..............................,224,7,7,1,14,195
-"Pending September 30, 2009..............",305,0,1,1,18,285
-,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases
-"Pending October 1, 2008....................",35,3,1,0,5,26
-Received fiscal 2009..........................,127,12,3,1,8,103
-On docket fiscal 2009........................,162,15,4,1,13,129
-Closed fiscal 2009..............................,119,13,4,0,8,94
-"Pending September 30, 2009..............",43,2,0,1,5,35
-,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases
-"Pending October 1, 2008....................",55,0,0,0,0,55
-Received fiscal 2009..........................,15,0,0,0,1,14
-On docket fiscal 2009........................,70,0,0,0,1,69
-Closed fiscal 2009..............................,34,0,0,0,1,33
-"Pending September 30, 2009..............",36,0,0,0,0,36
-,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases
-"Pending October 1, 2008....................",18,0,0,0,1,17
-Received fiscal 2009..........................,19,0,0,0,0,19
-On docket fiscal 2009........................,37,0,0,0,1,36
-Closed fiscal 2009..............................,27,0,0,0,0,27
-"Pending September 30, 2009..............",10,0,0,0,1,9
-,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases
-"Pending October 1, 2008....................",32,0,0,0,3,29
-Received fiscal 2009..........................,33,2,1,0,2,28
-On docket fiscal 2009........................,65,2,1,0,5,57
-Closed fiscal 2009..............................,45,2,1,0,4,38
-"Pending September 30, 2009..............",20,0,0,0,1,19
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL–CIO Unions,Other National Unions,Other local Unions,Individuals,Employers
+All Cases,,,,,,
+"Pending October 1, 2008","11,551","3,935","2,997",464,"3,503",652
+Received fiscal 2009,"25,855","6,762","6,559","1,026","10,529",979
+On docket fiscal 2009,"37,406","10,697","9,556","1,490","14,032","1,631"
+Closed fiscal 2009,"25,367","6,861","6,432",924,"10,171",979
+"Pending September 30, 2009","12,039","3,836","3,124",566,"3,861",652
+Unfair labor practice cases,,,,,,
+"Pending October 1, 2008","10,691","3,651","2,722",430,"3,293",595
+Received fiscal 2009,"22,943","5,971","5,448",784,"9,857",883
+On docket fiscal 2009,"33,634","9,622","8,170","1,214","13,150","1,478"
+Closed fiscal 2009,"22,457","6,020","5,323",756,"9,480",878
+"Pending September 30, 2009","11,177","3,602","2,847",458,"3,670",600
+Representation cases,,,,,,
+"Pending October 1, 2008",767,265,263,31,184,24
+Received fiscal 2009,"2,696",748,"1,073",228,572,75
+On docket fiscal 2009,"3,463","1,013","1,336",259,756,99
+Closed fiscal 2009,"2,693",800,"1,077",155,594,67
+"Pending September 30, 2009",770,213,259,104,162,32
+Union-shop deauthorization cases,,,,,,
+"Pending October 1, 2008",26,,,,26,
+Received fiscal 2009,97,,,,97,
+On docket fiscal 2009,123,,,,123,
+Closed fiscal 2009,96,,,,96,
+"Pending September 30, 2009",27,,,,27,
+Amendment of certification cases,,,,,,
+"Pending October 1, 2008",4,1,3,0,0,0
+Received fiscal 2009,7,2,4,0,0,1
+On docket fiscal 2009,11,3,7,0,0,1
+Closed fiscal 2009,5,3,1,0,0,1
+"Pending September 30, 2009",6,0,6,0,0,0
+Unit clarification cases,,,,,,
+"Pending October 1, 2008",63,18,9,3,0,33
+Received fiscal 2009,112,41,34,14,3,20
+On docket fiscal 2009,175,59,43,17,3,53
+Closed fiscal 2009,116,38,31,13,1,33
+"Pending September 30, 2009",59,21,12,4,2,20

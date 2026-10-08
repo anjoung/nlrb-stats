@@ -1,22 +1,27 @@
-row_label,col_1,col_2,col_3,col_4
-Cases disposed of before hearing:,,,,
-• By withdrawal of petition,107,15718,8.3,20.8
-By dismissal of petition,22,14688,L7,4.2
-By transfer and consolidation,11,860,.8,2.1
-By settlement:,,,,
-(a) Consent elections,179,109139,14.0,34.9
-(b) Recognition of representatives,194,47994,15.2,38.0
-Total cases closed before hearing,513,185399,40.2,109.0
-Oases closed after hearing:,,,,
-By withdrawal of petition,7,201,.6,10.0
-By dismissal of petition,,651,.4,8.7
-By settlegent,19',10311,.9,17.4
-By issuance of certification without election By certification after election,,628,.4,8.7
-By refusal of certification after election,37 1,"17,623 50",2.8,53. 1.5
-Total cases closed after hearing,89,29522,5.4,100.0
-Cases pending:,,,,
-Before hearing,580,304391,45.5,83.8
-"After hearing: Awaiting decision or order, including",52,18977,4.1,7.5
-certification Awaiting compliance with orders or decisions issued_,ex),8940,4.7,8.7
-Total cases pending,692,338308,54.4,100.0
-Total representation cases,1274,550929,100.0,
+Origin of cases,Number of cases,Number of workers,Disposition before issuance of complaint,Disposition before issuance of complaint,Disposition before issuance of complaint,Disposition before issuance of complaint,Settlement after issuance of complaint and before hearing,Cases in which hearings were held 1936-37,Cases in which hearings were held 1936-37,Intermediate reports issued,Cases transferred to Board,Cases transferred to Board,Cases transferred to Board,Cases transferred to Board,Disposition of cases heard,Disposition of cases heard,Disposition of cases heard,Disposition of cases heard,Disposition of cases heard,Disposition of cases heard,Disposition of cases heard,Cease and desist order,Cases pending,Cases pending,Cases pending,Cases pending,Cases pending
+Origin of cases,Number of cases,Number of workers,Settlement,Withdrawal of charge,Refusal to issue complaint,Transferred and consolidated,Settlement after issuance of complaint and before hearing,Trial examiner,Board,Intermediate reports issued,Total,On exception,No compliance,Board order,Settled,Settled,Intermediate report finding no violation,Compliance with intermediate report,Compliance with Board order or decision,Dismissed,Withdrawn,Cease and desist order,Total,Before hearing,After hearing,After hearing,After hearing
+Origin of cases,Number of cases,Number of workers,Settlement,Withdrawal of charge,Refusal to issue complaint,Transferred and consolidated,Settlement after issuance of complaint and before hearing,Trial examiner,Board,Intermediate reports issued,Total,On exception,No compliance,Board order,During hearing,After hearing,Intermediate report finding no violation,Compliance with intermediate report,Compliance with Board order or decision,Dismissed,Withdrawn,Cease and desist order,Total,Before hearing,Awaiting intermediate report,Awaiting decision,Awaiting compliance
+Board,4,"81,315",,,,,,,1,,,,,,,,,,,,,,4,4,,,
+Region:,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,298,"31,923",120,75,27,,,20,,6,8,6,1,1,5,,,1,,2,,4,68,63,1,,4
+2,408,"67,130",111,23,51,1,3,24,,13,13,8,1,4,2,1,,2,1,3,1,7,209,193,8,2,6
+3,99,"15,172",41,5,15,1,,2,,1,2,,1,1,,,,,,,,3,37,34,,,3
+4,150,"64,468",32,16,2,2,,8,,3,6,3,1,2,1,2,1,,,,,3,94,90,,1,3
+5,99,"17,177",14,11,3,,,13,,9,11,5,3,3,1,1,1,,,,,5,68,55,1,7,5
+6,84,"352,874",30,13,2,1,,2,,1,1,,,1,,,,1,,,,,37,36,1,,
+7,89,"14,735",10,7,6,1,,2,,,,,,,,,,,,,,1,65,63,1,,1
+8,103,"20,275",31,24,5,,,6,,1,1,,,1,,,,,,,,,43,40,2,1,
+9,200,"28,068",75,10,2,,,3,,3,3,3,,,1,1,,,,,,,111,109,,2,
+10,130,"23,227",23,25,3,,,2,,2,4,3,,1,,1,,2,,,1,4,75,65,,6,4
+11,147,"40,111",48,13,8,,4,2,,,,,,,,1,,,,,,1,73,70,1,1,1
+12,47,"16,787",14,4,10,,4,2,,,,,,,,1,,,,,,,14,14,,,
+13,346,"56,675",134,100,22,,,3,,,3,2,1,,1,,,,,1,,,88,84,1,3,
+14,73,"15,708",19,5,4,2,,4,,,,,,,,4,,,,,,,39,39,,,
+15,50,"5,459",9,12,1,,1,3,,,1,,,1,,,,,1,,,1,26,24,,2,
+16,94,"5,332",22,13,8,,,6,,3,4,3,,1,,,,,,1,,2,50,46,1,1,2
+17,109,"10,019",22,11,7,,,1,,,,,,,,,,,,1,,1,68,67,,,1
+18,83,"7,948",63,,2,,1,,,,,,,,,,,,,,,,17,17,,,
+19,88,"21,324",20,22,11,,2,6,1,4,5,3,1,1,,,,,,,1,5,32,25,,2,5
+20,184,"25,518",59,11,13,31,,35,,1,32,,1,31,,,,,,,,1,70,66,2,1,1
+21,239,"23,361",106,22,32,1,,8,,2,6,1,,5,,3,,,1,,,1,74,72,,2,
+Total,"3,124","944,606","1,003",422,234,40,15,151,2,49,100,37,10,53,11,15,2,6,3,8,3,39,"1,362","1,276",19,31,36

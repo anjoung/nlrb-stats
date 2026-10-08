@@ -1,7 +1,11 @@
-row_label,All R cases — Number,All R cases — Percent of cases closed,RC cases — Number,RC cases — Percent of cases closed,RM cases — Number,RM cases — Percent of cases closed,RD cases — Number,RD cases — Percent of cases closed,UD cases — Number,UD cases — Percent of cases closed
-Total number of cases closed,12618,100.0,10000,100.0,827,100.0,1791,100.0,323,100.0
-Before issuance of notice of hearing,3624,28.6,2292,22.8,468,56.7,864,48.1,215,66.6
-"After issuance of notice, before close of hearing",6773,53.6,5788,57.8,263,31.8,722,40.3,16,5.0
-"After hearing closed, before issuance of decision",79,0.7,23,0.2,3,0.4,53,3.0,,
-After issuance of regional director's decision,2078,16.4,1795,18.1,89,10.8,194,10.8,88,27.2
-After issuance of Board decision,64,0.7,55,0.6,4,0.5,1,0.0,4,1.2
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CG cases,CG cases,CP cases,CP cases
+Stage of disposition,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed
+Total number of cases closed,"42,047",100.0,"29,411",100.0,"8,916",100.0,"2,445",100.0,477,100.0,168,100.0,70,100.0,560,100.0
+Before issuance of complaint,"35,543",84.5,"24,023",81.7,"8,242",92.4,"2,110",86.3,465,97.5,150,89.3,48,68.6,505,90.2
+"After issuance of complaint, before opening of hearing","4,560",10.9,"3,774",12.8,442,5.0,269,11.0,6,1.3,11,6.5,18,25.7,40,7.1
+"After hearing opened, before issuance of administrative law judge's decision",159,0.4,116,0.4,17,0.2,21,0.9,0,,1,0.6,0,,4,0.7
+"After administrative law judge's decision, before issuance of Board decision",46,0.1,43,0.2,3,0.0,0,,0,,0,,0,,0,
+After Board order adopting administrative law judge's decision in absence of exceptions,219,0.5,169,0.6,43,0.5,4,0.2,1,0.2,1,0.6,0,,1,0.2
+"After Board decision, before circuit court decree",980,2.3,788,2.7,146,1.6,28,1.1,3,0.6,5,3.0,4,5.7,6,1.1
+"After circuit court decree, before Supreme Court action",526,1.3,484,1.6,23,0.3,13,0.5,2,0.4,0,,0,,4,0.7
+After Supreme Court action,6,0.0,6,0.0,0,,0,,0,,0,,0,,0,

@@ -1,7 +1,11 @@
-Stage of disposition,All R Number,All R Percent,RC Number,RC Percent,RM Number,RM Percent,RD Number,RD Percent,UD Number,UD Percent
-Total number of cases closed,12724,100.0,10950,100.0,1162,100.0,612,100.0,132,100.0
-Before issuance of notice of hearing,6498,51.1,5325,48.6,791,68.1,382,62.4,72,54.5
-"After issuance of notice of hearing, before close of hearing",3803,29.9,3452,31.6,213,18.3,128,20.9,3,2.3
-"After hearing closed, before issuance of decision",102,0.8,92,0.8,6,0.5,4,0.7,0,0
-After issuance of regional director's decision,2109,16.6,1890,17.3,124,10.7,95,15.5,55,41.7
-After issuance of Board decision,212,1.6,181,1.7,28,2.4,3,0.5,0,0
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CP cases,CP cases
+Stage of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"16,360",100.0,"10,824",100.0,"3,195",100.0,"1,365",100.0,492,100.0,53,100.0,431,100.0
+Before issuance of complaint,"13,925",85.1,"8,940",82.6,"2,928",91.6,"1,149",84.2,492,100.0,38,71.7,378,87.7
+"After issuance of complaint, before opening of hearing","1,172",7.1,893,8.2,127,4.0,114,8.3,0,,4,7.5,34,7.9
+"After hearing opened, before issuance of trial examiner's decision",115,0.7,94,0.9,11,0.3,8,0.6,0,,1,1.9,1,0.2
+"After trial examiner's decision, before issuance of Board decision",153,0.9,122,1.1,19,0.6,10,0.7,0,,0,,2,0.5
+After Board order adopting trial examiner's decision in absence of exceptions,109,0.7,87,0.8,9,0.3,12,0.9,0,,0,,1,0.2
+"After Board decision, before circuit court decree",554,3.4,432,4.0,70,2.2,39,2.9,0,,3,5.7,10,2.4
+"After circuit court decree, before Supreme Court action",273,1.7,206,1.9,29,0.9,27,2.0,0,,7,13.2,4,0.9
+After Supreme Court Action,59,0.4,50,0.5,2,0.1,6,0.4,0,,0,,1,0.2

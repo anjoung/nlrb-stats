@@ -1,14 +1,8 @@
-Method and stage of disposition,All R cases / Number,All R cases / Percent,RC cases / Number,RC cases / Percent,RM cases / Number,RM cases / Percent,RD cases / Number,RD cases / Percent,UD cases / Number,UD cases / Percent
-"Total, all",12116,100.0,10292,100.0,1058,100.0,766,100.0,171,100.0
-"Certification issued, total",8202,67.7,7387,71.8,535,50.6,189,24.7,91,53.5
-After consent election,2289,18.9,2042,19.8,152,14.4,95,12.4,19,11.2
-Consent election stage,,,,,,,,,,
-Stipulated election,4241,35.2,3857,37.5,273,20.4,125,16.3,19,11.2
-Stipulated election stage,,,,,,,,,,
-Expedited election,39,0.3,12,0.1,27,2.6,0,,,
-Regional director-directed election,1528,12.6,1399,13.5,29,2.6,47,6.1,53,54.7
-Board-directed election,85,0.7,77,0.5,1,0.1,7,0.9,0,
-"By withdrawal, total",2906,24.0,2295,22.2,346,32.7,275,35.9,62,36.5
-Withdrawal stage,,,,,,,,,,
-"By dismissal, total",1005,8.3,620,6.0,177,16.7,211,27.5,17,10.0
-Dismissal stage,,,,,,,,,,
+Stage of disposition,All R cases,All R cases,RC cases,RC cases,RM cases,RM cases,RD cases,RD cases,UD cases,UD cases
+Stage of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"12,116",100.0,"10,292",100.0,"1,058",100.0,766,100.0,170,100.0
+Before issuance of notice of hearing,"6,057",50.0,"4,831",46.9,724,68.4,502,65.5,107,62.9
+"After issuance of notice of hearing, before close of hearing","3,803",31.4,"3,433",33.4,198,18.7,172,22.5,0,
+"After hearing closed, before issuance of decision",134,1.1,113,1.1,12,1.1,9,1.2,0,
+After issuance of regional director's decision,"1,985",16.4,"1,805",17.5,99,9.4,81,10.6,60,85.8
+After issuance of Board decision,137,1.1,110,1.1,25,2.4,2,0.2,8,1.8

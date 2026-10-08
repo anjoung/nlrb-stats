@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -120,34 +128,52 @@ ul.link-list li { margin: 0.3rem 0; }
 <header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
 <p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1992.html">FY1992</a> &rsaquo; NLRB Board decisions, by type</p>
 <h1>NLRB Board decisions, by type</h1>
-<p class="meta">source page 27 &middot; <code>nlrb1992_p0027_t0</code></p>
+<p class="meta">source pages 27–28 &middot; <code>nlrb1992_p0027_t0</code></p>
+<p class="spans-note">Stitched from pp. 27–28.</p>
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th></th><th></th><th></th><th></th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">Representation decisions</th><td>223</td><td>Representation decisions</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">After transfer by Regional rectors for initial</th><td>5</td><td>After transfer by Regional rectors for initial</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">After review rector decisions</th><td>44</td><td>After review rector decisions</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">On objections lenges</th><td>174</td><td>On objections lenges</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Other decisions</th><td>8</td><td>Other decisions</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Clarification of</th><td>8</td><td>Clarification of</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Amendment</th><td>0</td><td>Amendment</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Union-deauthorization</th><td>0</td><td>Union-deauthorization</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Noncontested decisions</th><td>Noncontested decisions</td><td>496</td><td>Noncontested decisions</td></tr>
-<tr><th class="stub" scope="row">Unfair labor</th><td>251</td><td>Unfair labor</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">Representation Other</th><td>240 5</td><td>Representation Other</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Total Board decisions</th><td class="blank"></td><td class="blank"></td><td>1,478</td></tr>
+<tr><th class="stub" scope="row">Contested decisions</th><td class="blank"></td><td class="blank"></td><td>982</td></tr>
+<tr><th class="stub" scope="row">Unfair labor practice decisions</th><td class="blank"></td><td>751</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Initial (includes those based on stipulated record)</th><td>643</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Supplemental</th><td>29</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Backpay</th><td>45</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Determinations in jurisdictional disputes</th><td>34</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Representation decisions</th><td class="blank"></td><td>223</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">After transfer by Regional Directors for initial decision</th><td>5</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">After review of Regional Director decisions</th><td>44</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">On objections and/or challenges</th><td>174</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Other decisions</th><td class="blank"></td><td>8</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Clarification of bargaining unit</th><td>8</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Amendment to certification</th><td>0</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Union-deauthorization</th><td>0</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Noncontested decisions</th><td class="blank"></td><td class="blank"></td><td>496</td></tr>
+<tr><th class="stub" scope="row">Unfair labor practice</th><td>251</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Representation</th><td>240</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Other</th><td>5</td><td class="blank"></td><td class="blank"></td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1992_p0027_t0.csv" download>Download this table (CSV)</a></p>
+<p class="check"><b>0 of 17</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 27.</b> No column headings are printed on this crop, so header_rows is empty. The table is an indented stub table whose values sit in three successively indented value columns; I set the grid to 4 columns (stub + 3 value columns) based on the printed alignment: the innermost column holds 643, 29, 45, 34; the middle column holds 751; the outermost (right-margin) column holds 1,478 and 982. The crop is cut off at the bottom — the table clearly continues below (e.g. the breakdown of representation and other decisions, and the non-contested decisions that make up the difference between 1,478 and 982), and those rows are not visible here. 1,478 and 982 are printed in bold with rules beneath them (double rule under 1,478, single under 982). A small stray ink mark appears at the lower-left of the crop; it is not text. All values are legible; no footnote markers are present in the visible portion.</p>
+<p><b>p. 28.</b> This crop continues a table from the preceding page: no column headings are printed on the image, so header_rows is empty. The body is a four-column grid — stub plus three numeric columns distinguished by the indentation level of the figures: an innermost detail column (5, 44, 174, 8, 0, 0, 251, 240, 5), a middle column holding the group figures 223 and 8, and an outermost column holding 496. Column 2 and column 3 are blank on every detail row, and column 1 is blank on the group/total rows, as printed. &quot;Representation decisions&quot; (223), &quot;Other decisions&quot; (8) and &quot;Noncontested decisions&quot; (496) are set in bold in the original; a short horizontal rule is printed beneath 496, and a blank line separates that row from &quot;Unfair labor practice&quot; — neither is transcribed as a row. The three rows after the rule (251, 240, 5) are the breakdown of the 496 noncontested decisions and sum to 496. A small stray ink dot sits above the first row at the top-left of the crop; it is a scan artifact, not a footnote marker. The crop begins mid-table (rows above &quot;Representation decisions&quot; are on the previous page) and the stub labels for the whole table, including any parent heading for the &quot;Unfair labor practice / Representation / Other&quot; block, are not visible here. All characters are clearly legible; no doubtful cells.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1992_p0027.webp" loading="lazy" alt="Source page 27 of NLRB FY1992 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1992_p0027_t0_p0027.webp" loading="lazy" alt="Source page 27 of NLRB FY1992 annual report">
 <figcaption>Source: NLRB Annual Report FY1992, p. 27.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1992_p0027_t0_p0028.webp" loading="lazy" alt="Source page 28 of NLRB FY1992 annual report">
+<figcaption>Source: NLRB Annual Report FY1992, p. 28.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

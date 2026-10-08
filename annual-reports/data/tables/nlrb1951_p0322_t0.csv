@@ -1,14 +1,45 @@
-Division and State,Number of elections,Elections won by — A.F. of L. affiliates,Elections won by — C.I.O. affiliates,Elections won by — Unaffiliated unions,Elections won by — No union,Employees eligible to vote,Total valid votes cast,Valid votes cast for — A.F. of L. affiliates,Valid votes cast for — C.I.O. affiliates,Valid votes cast for — Unaffiliated unions,Valid votes cast for — No union,Employees in units choosing union representation
-New England,535,225,122,49,140,97935,87052,18418,31791,21226,15677,81630
-Maine,33,12,7,0,10,5207,4820,1741,1415,715,953,4433
-New Hampshire,39,23,8,0,9,9000,7701,1981,1985,879,2229,7034
-Massachusetts,266,114,53,33,66,57467,50971,7366,18489,17520,8649,47109
-Rhode Island,63,32,11,3,17,8803,7743,2398,2069,528,1772,6553
-Connecticut,118,48,29,12,31,20358,18104,5070,7256,1322,4456,16408
-Middle Atlantic,1332,477,371,199,285,151320,138411,28576,46659,30781,28405,123350
-New York,651,267,178,94,132,61402,57059,10886,16710,16069,9104,47990
-New Jersey,279,102,61,44,60,41953,37609,5442,16710,5898,9917,37029
-Pennsylvania,402,108,132,61,93,47984,43510,10007,13248,9232,9612,37038
-East North Central,1564,603,404,174,356,132914,112930,33049,30000,20000,30000,
-West North Central,605,326,80,49,150,34167,29771,10487,7815,3552,7917,25133
-South Atlantic,546,185,139,32,190,76353,65380,19816,18810,12657,20137,44767
+Industrial group,Number of polls,Winner,Winner,Winner,Winner,Eligible voters,Valid votes cast
+Industrial group,Number of polls,A F. of L. affiliates,C I O affiliates,Unaffiliated unions,No union,Eligible voters,Valid votes cast
+Total,"5,964","3,062","1,976",721,205,"1,623,375","1,335,683"
+Manufacturing,"4,264","1,906","1,730",519,109,"1,502,050","1,234,135"
+Ordnance and accessories,4,3,1,0,0,285,265
+Food and kindred products,537,398,99,19,21,"39,502","32,943"
+Tobacco manufacturers,13,7,3,3,0,"3,034","2,614"
+Textile-mill products,139,27,79,32,1,"19,543","16,601"
+Apparel and other finished products made from fabrics and similar material,162,102,55,3,2,"95,735","89,830"
+Lumber and wood products,227,139,76,3,9,"16,251","12,911"
+Furniture and fixtures,137,75,38,21,3,"14,676","12,505"
+Paper and allied products,82,62,13,6,1,"6,808","5,653"
+"Printing, publishing, and allied industries",190,119,58,10,3,"9,617","7,943"
+Chemical and allied products,170,102,42,20,6,"16,896","13,605"
+Products of petroleum and coal,38,17,15,3,3,"3,956","3,355"
+Rubber products,55,8,44,3,0,"56,326","42,117"
+Leather and leather products,81,41,22,16,2,"11,487","9,999"
+"Stone, clay, and glass products",152,93,34,21,4,"11,563","9,769"
+Primary metal industries,430,98,287,34,11,"565,851","454,376"
+Fabricated metal products (except machinery and transportation equipment),530,187,267,68,8,"117,292","97,567"
+Machinery (except electrical),545,140,284,110,11,"138,568","116,547"
+"Electrical machinery, equipment, and supplies",255,97,92,58,8,"114,029","95,398"
+Transportation equipment,251,64,132,47,8,"228,616","182,382"
+Aircraft and parts,28,12,8,7,1,"25,355","20,415"
+Ship and boat building and repairing,31,11,15,3,2,"25,429","20,142"
+Automotive and other transportation equipment,192,41,109,37,5,"177,832","141,825"
+"Professional, scientific, and controlling instruments",77,23,34,16,4,"14,531","12,766"
+Miscellaneous manufacturing,189,104,55,26,4,"17,484","14,989"
+Mining,89,12,69,5,3,"25,738","21,596"
+Metal mining,70,3,60,4,3,"24,215","20,312"
+Crude petroleum and natural gas production,2,0,2,0,0,55,54
+Nonmetallic mining and quarrying,17,9,7,1,0,"1,468","1,230"
+Construction,42,36,2,4,0,"2,658","2,248"
+Wholesale trade,397,298,55,25,19,"14,271","12,357"
+Retail trades,448,297,64,44,43,"28,449","24,209"
+"Finance, insurance, and real estate",38,27,5,6,0,"3,062","2,580"
+"Transportation, communication, and other public utilities",547,393,40,88,26,"37,413","30,240"
+Highway passenger transportation,37,24,1,10,2,"1,620","1,405"
+Highway freight transportation,147,132,1,5,9,"6,720","5,461"
+Water transportation,24,7,11,5,1,"1,375","1,183"
+Warehousing and storage,146,101,13,27,5,"3,742","3,267"
+Other transportation,12,5,3,4,0,"4,681","3,486"
+Communication,114,76,3,31,4,"6,197","5,090"
+"Heat, light, power, water, and sanitary services",67,48,8,6,5,"13,078","10,348"
+Services,139,93,11,30,5,"9,734","8,318"

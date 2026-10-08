@@ -1,11 +1,22 @@
-row_label,Action taken,Total all,Remedial action taken by Employer / Total,Remedial action taken by Employer / Agreement of parties,Remedial action taken by Employer / Recommendation of trial examiner,Remedial action taken by Employer / Order of Board or court,Remedial action taken by Union / Total,Remedial action taken by Union / Agreement of parties,Remedial action taken by Union / Recommendation of trial examiner,Remedial action taken by Union / Order of Board or court
-A. By number of cases involved,4202,,,,,,,,,
-Notice posted,2680,2018,1464,84,470,662,509,19,134,
-Recognition of/or other assistance withdrawn,113,112,,,,1,,,,
-Remaining Panel A action-type rows (Employer-dominated union disestablished / Employees offered reinstatement / Employees placed on preferential hiring list / Hiring hall rights restored / Objections to compelled withdrawal / Picketing ended / Work stoppage ended / Collective bargaining begun / Backpay distributed / Reimbursement of fees dues and assessments / Other conditions of employment improved / Other remedies),,,,,,,,,,
-"B. By number of employees affected — Employees offered reinstatement, total",4044,4044,2831,77,1136,,,,,
-B. Accepted,3004,3004,2242,81,681,,,,,
-B. Declined,1040,1040,402,35,453,,,,,
-B. Employees placed on preferential hiring list,568,568,525,6,37,,,,,
-B. Employees reimbursed for back pay,,,,,,,,,,
-"C. Amounts of monetary recovery, total",3037189,2949480,1060759,70110,1828610,87700,41090,2360,43350,
+Type of formal action taken,"All R cases, total","All R cases, total",Number of formal actions taken by type of case,Number of formal actions taken by type of case,Number of formal actions taken by type of case,Number of formal actions taken by type of case
+Type of formal action taken,Cases in which formal actions taken,Number of formal actions taken,RC,RM,RD,UD
+Initial hearings completed,"2,287","2,131","1,916",121,94,3
+"Decisions issued, total","2,213","2,066","1,881",99,86,2
+By regional director,"1,997","1,890","1,734",75,81,1
+Elections directed,"1,807","1,733","1,596",65,72,1
+Dismissals on record,190,157,138,10,9,0
+By Board,216,176,147,24,5,1
+After transfer by regional director for initial decision,162,127,104,20,3,1
+Elections directed,102,78,67,8,3,1
+Dismissals on record,60,49,37,12,0,0
+After review of regional director's decision,54,49,43,4,2,0
+Elections directed,46,41,35,4,2,0
+Dismissals on record,8,8,8,0,0,0
+"Decisions on objections and/or challenges, total",770,746,707,25,14,0
+By regional director,363,350,335,9,6,0
+By Board,407,396,372,16,8,0
+In stipulated elections,365,363,341,14,8,0
+No exceptions to regional director's report,216,214,198,11,5,0
+Exceptions to regional director's report,149,149,143,3,3,0
+In ordered elections (after transfer by regional director),26,18,17,1,0,0
+In ordered elections after review of regional director's supplemental decision,16,15,14,1,0,0

@@ -1,5 +1,13 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14
-Total......................................................................,58,18,31.0,40,69.0,5326,1815,34.1,3511,65.9,3652,68.6,1050,19.7
-AFL-CIO unions......................................................................,55,17,30.9,38,69.1,5092,1781,35.0,3311,65.0,3475,68.2,1016,20.0
-Other national unions..............................................................,1,1,100.0,0,0.0,34,34,100.0,0,0.0,34,100.0,34,100.0
-Other local unions....................................................................,2,0.0,0.0,2,100.0,200,0,0.0,200,100.0,143,71.5,0,0.0
+Type of election/case,Total rerun elections,Total rerun elections,Union certified,Union certified,No Union chosen,No Union chosen,Outcome of original election reversed,Outcome of original election reversed
+Type of election/case,Number,Percent by type,Number,Percent by type,Number,Percent by type,Number,Percent by type
+All representation elections,27,100.0,7,25.9,20,74.1,6,22.2
+By type of case:,,,,,,,,
+RC cases,23,100.0,7,30.4,16,69.6,6,26.1
+RM cases,0,0.0,0,0.0,0,0.0,0,0.0
+RD cases,4,100.0,0,0.0,4,100.0,0,0.0
+By type of election:,,,,,,,,
+Consent elections,0,0.0,0,0.0,0,0.0,0,0.0
+Stipulated elections,16,100.0,4,25.0,12,75.0,4,25.0
+Expedited elections,0,0.0,0,0.0,0,0.0,0,0.0
+Regional Director-directed elections,11,100.0,3,27.3,8,72.7,2,18.2
+Board-directed elections,0,0.0,0,0.0,0,0.0,0,0.0

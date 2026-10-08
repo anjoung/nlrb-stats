@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Types of Unfair Labor Practices Alleged, Fiscal Year 2003 — NLRB FY2003</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_2003.html">FY2003</a> &rsaquo; Types of Unfair Labor Practices Alleged, Fiscal Year 2003</p>
+<h1>Types of Unfair Labor Practices Alleged, Fiscal Year 2003</h1>
+<p class="meta">printed as Table 2 &middot; source pages 135–137 &middot; <code>nlrb2003_p0135_t0</code></p>
+<p class="spans-note">Stitched from pp. 135–137.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th></th><th>Number of cases showing specific allegations</th><th>Percent of total cases</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">A. Charges filed against employers under Sec. 8(a)</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Subsections of Sec. 8(a): Total cases</th><td>21,765</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)</th><td>3,204</td><td>14.7</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(2)</th><td>186</td><td>0.9</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(3)</th><td>7,473</td><td>34.3</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(4)</th><td>164</td><td>0.8</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(5)</th><td>7,987</td><td>36.7</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(2)(3)</th><td>152</td><td>0.7</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(2)(4)</th><td>2</td><td>0</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(2)(5)</th><td>64</td><td>0.3</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(3)(4)</th><td>494</td><td>2.3</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(3)(5)</th><td>1,794</td><td>8.2</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(4)(5)</th><td>25</td><td>0.1</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(2)(3)(4)</th><td>9</td><td>0</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(2)(3)(5)</th><td>80</td><td>0.4</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(2)(4)(5)</th><td>1</td><td>0</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(3)(4)(5)</th><td>127</td><td>0.6</td></tr>
+<tr><th class="stub" scope="row">8(a)(1)(2)(3)(4)(5)</th><td>3</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Recapitulation</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">8(a)(1)</th><td>21,765</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">8(a)(2)</th><td>497</td><td>2.3</td></tr>
+<tr><th class="stub" scope="row">8(a)(3)</th><td>10,132</td><td>46.6</td></tr>
+<tr><th class="stub" scope="row">8(a)(4)</th><td>825</td><td>3.8</td></tr>
+<tr><th class="stub" scope="row">8(a)(5)</th><td>10,081</td><td>46.3</td></tr>
+<tr><th class="stub" scope="row">B. Charges filed against unions under Sec. 8(b)</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Subsections of Sec. 8(b): Total cases</th><td>6,966</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">8(b)(1)</th><td>5,175</td><td>74.3</td></tr>
+<tr><th class="stub" scope="row">8(b)(2)</th><td>60</td><td>0.9</td></tr>
+<tr><th class="stub" scope="row">8(b)(3)</th><td>377</td><td>5.4</td></tr>
+<tr><th class="stub" scope="row">8(b)(4)</th><td>650</td><td>9.3</td></tr>
+<tr><th class="stub" scope="row">8(b)(5)</th><td>1</td><td>0</td></tr>
+<tr><th class="stub" scope="row">8(b)(6)</th><td>6</td><td>0.1</td></tr>
+<tr><th class="stub" scope="row">8(b)(7)</th><td>100</td><td>1.4</td></tr>
+<tr><th class="stub" scope="row">8(b)(1)(2)</th><td>491</td><td>7.0</td></tr>
+<tr><th class="stub" scope="row">8(b)(1)(3)</th><td>78</td><td>1.1</td></tr>
+<tr><th class="stub" scope="row">8(b)(1)(5)</th><td>3</td><td>0</td></tr>
+<tr><th class="stub" scope="row">8(b)(1)(6)</th><td>1</td><td>0</td></tr>
+<tr><th class="stub" scope="row">8(b)(2)(3)</th><td>1</td><td>0</td></tr>
+<tr><th class="stub" scope="row">8(b)(1)(2)(3)</th><td>17</td><td>0.2</td></tr>
+<tr><th class="stub" scope="row">8(b)(1)(2)(5)</th><td>5</td><td>0.1</td></tr>
+<tr><th class="stub" scope="row">8(b)(1)(2)(3)(6)</th><td>1</td><td>0</td></tr>
+<tr><th class="stub" scope="row">Recapitulation</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">8(b)(1)</th><td>5,771</td><td>82.8</td></tr>
+<tr><th class="stub" scope="row">8(b)(2)</th><td>575</td><td>8.3</td></tr>
+<tr><th class="stub" scope="row">8(b)(3)</th><td>474</td><td>6.8</td></tr>
+<tr><th class="stub" scope="row">8(b)(4)</th><td>687</td><td>9.9</td></tr>
+<tr><th class="stub" scope="row">8(b)(5)</th><td>9</td><td>0.1</td></tr>
+<tr><th class="stub" scope="row">8(b)(6)</th><td>8</td><td>0.1</td></tr>
+<tr><th class="stub" scope="row">8(b)(7)</th><td>106</td><td>1.5</td></tr>
+<tr><th class="stub" scope="row">B1. Analysis of 8(b)(4)</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Total cases 8(b)(4)</th><td>650</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">8(b)(4)(A)</th><td>35</td><td>5.4</td></tr>
+<tr><th class="stub" scope="row">8(b)(4)(B)</th><td>379</td><td>58.3</td></tr>
+<tr><th class="stub" scope="row">8(b)(4)(C)</th><td>17</td><td>2.6</td></tr>
+<tr><th class="stub" scope="row">8(b)(4)(D)</th><td>186</td><td>28.6</td></tr>
+<tr><th class="stub" scope="row">8(b)(4)(A)(B)</th><td>29</td><td>4.5</td></tr>
+<tr><th class="stub" scope="row">8(b)(4)(A)(B)(C)</th><td>4</td><td>0.6</td></tr>
+<tr><th class="stub" scope="row">Recapitulation</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">8(b)(4)(A)</th><td>68</td><td>10.5</td></tr>
+<tr><th class="stub" scope="row">8(b)(4)(B)</th><td>412</td><td>63.4</td></tr>
+<tr><th class="stub" scope="row">8(b)(4)(C)</th><td>21</td><td>3.2</td></tr>
+<tr><th class="stub" scope="row">8(b)(4)(D)</th><td>186</td><td>28.6</td></tr>
+<tr><th class="stub" scope="row">B2. Analysis of 8(b)(7)</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Total cases 8(b)(7)</th><td>100</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">8(b)(7)(A)</th><td>33</td><td>33.0</td></tr>
+<tr><th class="stub" scope="row">8(b)(7)(B)</th><td>10</td><td>10.0</td></tr>
+<tr><th class="stub" scope="row">8(b)(7)(C)</th><td>51</td><td>51.0</td></tr>
+<tr><th class="stub" scope="row">8(b)(7)(A)(B)</th><td>3</td><td>3.0</td></tr>
+<tr><th class="stub" scope="row">8(b)(7)(A)(C)</th><td>2</td><td>2.0</td></tr>
+<tr><th class="stub" scope="row">8(b)(7)(B)(C)</th><td>1</td><td>1.0</td></tr>
+<tr><th class="stub" scope="row">Recapitulation</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">8(b)(7)(A)</th><td>38</td><td>38.0</td></tr>
+<tr><th class="stub" scope="row">8(b)(7)(B)</th><td>14</td><td>14.0</td></tr>
+<tr><th class="stub" scope="row">8(b)(7)(C)</th><td>54</td><td>54.0</td></tr>
+<tr><th class="stub" scope="row">C. Charges filed under Sec. 8(e)</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Total cases 8(e)</th><td>38</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">Against unions alone</th><td>27</td><td>71.1</td></tr>
+<tr><th class="stub" scope="row">Against employers alone</th><td>5</td><td>13.2</td></tr>
+<tr><th class="stub" scope="row">Against both</th><td>6</td><td>15.8</td></tr>
+<tr><th class="stub" scope="row">D. Charges filed Sec. 8(g)</th><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Total cases 8(g)</th><td>23</td><td>100.0</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb2003_p0135_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 A single case may include allegations of violations of more than one subsection of the Act.  Therefore, the total of the various allegations is greater than the total number of cases.</li>
+</ol>
+<p class="check"><b>0 of 71</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 135.</b> Three columns: stub, &quot;Number of cases showing specific allegations&quot;, &quot;Percent of total cases&quot;. The stub has no printed heading, so its heading cell is &quot;&quot;.
+
+The crop is cut off at the bottom: the table continues past the last transcribed row, 8(b)(1)(2) (491 / 7.0), presumably with further 8(b) combination rows and a 8(b) recapitulation on the continuation. The caption line at the very top (&quot;Table 2. Types of Unfair Labor Practices Alleged, Fiscal Year 2003&quot;) is clipped by the crop and is excluded per instructions.
+
+&quot;Recapitulation&quot; (the centered section line between the 8(a) detail rows and the 8(a)(1)-8(a)(5) summary rows) carries a superscript 1 footnote marker, transcribed as &quot;Recapitulation^1&quot;. No footnote text is printed within this crop, so `footnotes` is empty; the text of footnote 1 presumably appears at the foot of the table on the continuation page.
+
+&quot;A. Charges filed against employers under Sec. 8(a)&quot;, &quot;Recapitulation^1&quot; and &quot;B. Charges filed against unions under Sec. 8(b)&quot; are centered section lines spanning the full table width and carry no values.
+
+Values printed as a bare &quot;0&quot; in the percent column (8(a)(1)(2)(4), 8(a)(1)(2)(3)(4), 8(a)(1)(2)(4)(5), 8(a)(1)(2)(3)(4)(5), 8(b)(5)) are transcribed as &quot;0&quot; exactly as printed, not &quot;0.0&quot;.
+
+Nothing is illegible; all digits are crisply printed and the two value columns are separated by clear vertical rules, so column assignment is unambiguous. No arithmetic was checked or corrected.</p>
+<p><b>p. 136.</b> This is a continuation page (&quot;—Continued&quot; caption), so no column headings are printed; header_rows is therefore empty. The grid has three columns: the stub, a count column, and a percent column (unlabelled here).
+
+Three centred full-width section lines carry a label and no values and are transcribed as label-only rows: &quot;Recapitulation^1&quot; (after the 8(b) combination rows), &quot;B1. Analysis of 8(b)(4)&quot;, and a second &quot;Recapitulation^1&quot; (after the 8(b)(4) combination rows). Each &quot;Recapitulation&quot; bears a raised 1 footnote marker, recorded as ^1; the text of footnote 1 is not printed on this crop (it presumably appears on the table&#x27;s first page or at the table&#x27;s end), so footnotes is empty.
+
+Four percent cells print a bare &quot;0&quot; rather than &quot;0.0&quot; — rows 8(b)(1)(5), 8(b)(1)(6), 8(b)(2)(3) and 8(b)(1)(2)(3)(6); transcribed exactly as printed.
+
+Two internal inconsistencies are transcribed as printed, not corrected: (a) the first Recapitulation gives 8(b)(4) = 687, while the B1 panel below gives &quot;Total cases 8(b)(4)&quot; = 650, the base used for the B1 percentages; (b) in the second Recapitulation, 8(b)(4)(D) = 186 with 28.6 percent repeats the same values as the 8(b)(4)(D) line in the B1 panel above, even though the other three recapitulation entries exceed their B1 counterparts.
+
+All cells are clearly legible; no part of the table appears cut off by the crop other than the missing footnote text.</p>
+<p><b>p. 137.</b> This is a continuation page (&quot;—Continued&quot;), so no column headings are printed; header_rows is empty. The table has three columns: the stub, a count column, and a percent column. The full-width section lines (&quot;B2. Analysis of 8(b)(7)&quot;, &quot;Recapitulation^1&quot;, &quot;C. Charges filed under Sec. 8(e)&quot;, &quot;D. Charges filed Sec. 8(g)&quot;) carry labels only and are transcribed with empty value cells. &quot;Recapitulation&quot; carries a raised 1 footnote marker. Section D shows only its &quot;Total cases 8(g)&quot; row before the footnote rule; it has no further breakdown on this page. All cells are crisp and legible; no doubtful digits.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb2003_p0135_t0_p0135.webp" loading="lazy" alt="Source page 135 of NLRB FY2003 annual report">
+<figcaption>Source: NLRB Annual Report FY2003, p. 135.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb2003_p0135_t0_p0136.webp" loading="lazy" alt="Source page 136 of NLRB FY2003 annual report">
+<figcaption>Source: NLRB Annual Report FY2003, p. 136.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb2003_p0135_t0_p0137.webp" loading="lazy" alt="Source page 137 of NLRB FY2003 annual report">
+<figcaption>Source: NLRB Annual Report FY2003, p. 137.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

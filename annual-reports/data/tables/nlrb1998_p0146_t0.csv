@@ -1,8 +1,20 @@
-Action taken,Total all,Employer — Total,Employer — Agreement of parties — Informal settlement,Employer — Agreement of parties — Formal settlement,Employer — Pursuant to recommendation of administrative law judge,Employer — Pursuant Order of — Board,Employer — Pursuant Order of — Court,Union — Total,Union — Agreement of parties — Informal settlement,Union — Agreement of parties — Formal settlement,Union — Pursuant to recommendation of administrative law judge,Union — Pursuant Order of — Board,Union — Pursuant Order of — Court
-A. By number of cases involved,11910,,,,,,,,,,,,
-Notice posted,3402,2938,2319,86,11,276,246,464,395,18,0,39,12
-Recognition or other assistance withdrawn,14,14,5,2,0,5,2,0,0,0,0,0,0
-Employer-dominated unions Disestablished,7,7,3,1,0,3,0,0,0,0,0,0,0
-Employees offered reinstatement,926,926,782,20,5,60,59,0,0,0,0,0,0
-Collective bargaining begun,2878,2720,2477,27,2,95,119,158,154,0,0,4,0
-Backpay distributed,2839,2736,2376,61,9,157,133,103,85,4,0,9,5
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,AC,UC
+Hearings completed,56,3,51
+Decisions issued after hearing,54,3,51
+By Regional Directors,49,3,46
+By Board,5,0,5
+Transferred by Regional Directors for initial decision,0,0,0
+Review of Regional Directors' decisions,,,
+Requests for review received,43,3,37
+Withdrawn before request ruled upon,5,0,5
+"Board action on requests ruled upon, total",30,1,27
+Granted,4,0,4
+Denied,25,1,22
+Remanded,1,0,1
+"Withdrawn after request granted, before Board review",1,0,1
+"Board decision after review, total",5,0,5
+Regional Directors' decisions,,,
+Affirmed,3,0,3
+Modified,1,0,1
+Reversed,1,0,1

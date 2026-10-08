@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>C. Cases Certified or Dismissed on the Basis of the Record — NLRB FY1946</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1946.html">FY1946</a> &rsaquo; C. Cases Certified or Dismissed on the Basis of the Record</p>
+<h1>C. Cases Certified or Dismissed on the Basis of the Record</h1>
+<p class="meta">source pages 186–188 &middot; <code>nlrb1946_p0186_t0</code></p>
+<p class="spans-note">Stitched from pp. 186–188.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">5-R-1998</th><td>Western Electric Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">18-R-1312</th><td>Western Electric Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-2083</th><td>Westinghouse Electric Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-1900</th><td>Westinghouse Electric Corp.</td></tr>
+<tr><th class="stub" scope="row">19-R-1745</th><td>Westinghouse Electric Corp.</td></tr>
+<tr><th class="stub" scope="row">21-R-3207</th><td>Westinghouse Electric Corp.</td></tr>
+<tr><th class="stub" scope="row">11-R-860</th><td>Westinghouse Electric Corp., Ken-Rad Lamp Division.</td></tr>
+<tr><th class="stub" scope="row">19-R-1700</th><td>Westinghouse Radio Stations.</td></tr>
+<tr><th class="stub" scope="row">6-R-1346</th><td>Westinghouse Radio Station, Inc.</td></tr>
+<tr><th class="stub" scope="row">1-R-2916</th><td>Westinghouse Radio Stations, Inc. (WBZ) and (WBZA).</td></tr>
+<tr><th class="stub" scope="row">13-R-3463</th><td>Whitcomb Locomotive Co., The.</td></tr>
+<tr><th class="stub" scope="row">1-R-2596</th><td>Whittet-Higgins Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-2107</th><td>Williamson Heater Co., The.</td></tr>
+<tr><th class="stub" scope="row">5-R-2045</th><td>Wilson Cotton Mills Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3178</th><td>Wilson Industries, Inc.</td></tr>
+<tr><th class="stub" scope="row">7-R-2186</th><td>Wohlert Corp.</td></tr>
+<tr><th class="stub" scope="row">5-R-2044</th><td>WPTF Radio Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1469</th><td>WRIT Franklin Petroleum Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3266</th><td>Wyman-Gordan Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6492</th><td>Yale &amp; Towne Mfg. Co., The.</td></tr>
+<tr><th class="stub" scope="row">2-R-6514</th><td>Yankee Metal Products Corp.</td></tr>
+<tr><th class="stub" scope="row">18-R-1458</th><td>Youngstown Mines Corp.</td></tr>
+<tr><th class="stub" scope="row">13-R-3490</th><td>Zenith Radio Corp.</td></tr>
+<tr><th class="stub" scope="row">C. Cases Certified or Dismissed on the Basis of the Record</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">20-R-1394</th><td>Airline Bus Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1168</th><td>American Locomotive Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1499</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1392</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1592</th><td>Armour &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1756</th><td>Bancroft, J., &amp; Sons.</td></tr>
+<tr><th class="stub" scope="row">13-R-2946</th><td>Bell &amp; Howell Co., The.</td></tr>
+<tr><th class="stub" scope="row">3-R-1017</th><td>Bethlehem Steel Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-781</th><td>Briggs Indiana Corp.</td></tr>
+<tr><th class="stub" scope="row">20-R-1357</th><td>California Door Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1512</th><td>California Frozen Foods.</td></tr>
+<tr><th class="stub" scope="row">20-R-1511</th><td>California Sunset Products Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-6212</th><td>Cameron Machine Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1655</th><td>Central California Packing Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1019</th><td>Central New York Power Corp.</td></tr>
+<tr><th class="stub" scope="row">20-R-1431</th><td>Churchill, H. F., Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1868</th><td>Clarksburg Paper Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1180</th><td>Colorado Fuel &amp; Iron Corp., The.</td></tr>
+<tr><th class="stub" scope="row">2-R-6014</th><td>Columbia Broadcasting System, Inc.</td></tr>
+<tr><th class="stub" scope="row">19-R-1563</th><td>Columbia River Packers Assn.</td></tr>
+<tr><th class="stub" scope="row">8-R-1951</th><td>Consolidated Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-1909</th><td>Continental Can Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1952</th><td>Continental Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1151</th><td>Cooper-Bessemer Corp., The (Grove City Plant).</td></tr>
+<tr><th class="stub" scope="row">10-R-1666</th><td>Cozier Wood Package Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2183</th><td>Craddock Terry Shoe Corp.</td></tr>
+<tr><th class="stub" scope="row">11-R-837</th><td>Crosley Corp., The</td></tr>
+<tr><th class="stub" scope="row">14-R-1283</th><td>Curran, Con. P., Printing Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1225</th><td>Dedman Foundry &amp; Machine Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1655</th><td>Douglas Mill, Inc.</td></tr>
+<tr><th class="stub" scope="row">8-R-1953</th><td>Duluth Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1520</th><td>Fair View Packing Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-4969</th><td>Federal Shipbuilding Dry Dock Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5509</th><td>Federal Shipbuilding &amp; Dry Dock Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1450</th><td>Firestone Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1439</th><td>Florida Power &amp; Light Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1455</th><td>Flotill Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">18-R-1453</th><td>Fort Dodge Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1342</th><td>Freeport Sulphur Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1053</th><td>Gair, Robert Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1742</th><td>General Cigar Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3377</th><td>General Electric X-Ray Corp.</td></tr>
+<tr><th class="stub" scope="row">16-R-1361</th><td>General Tire &amp; Rubber Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1402</th><td>Goodyear Synthetic Rubber Corp.</td></tr>
+<tr><th class="stub" scope="row">10-R-1771</th><td>Greenville Milling Co.</td></tr>
+<tr><th class="stub" scope="row">7-R-2135</th><td>Greyhound Terminal Detroit, Inc.</td></tr>
+<tr><th class="stub" scope="row">4-R-1647</th><td>Hancock, John, Mutual Life Insurance Co.</td></tr>
+<tr><th class="stub" scope="row">4-R-1794</th><td>Hancock, John, Mutual Life Insurance Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1566</th><td>Hattiesburg Compress Co.</td></tr>
+<tr><th class="stub" scope="row">3-R-1200</th><td>Henry &amp; Allen, Inc</td></tr>
+<tr><th class="stub" scope="row">20-R-1522</th><td>Hershel California Fruit Products, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1523</th><td>Hollister Canning Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">13-R-3341</th><td>Hummer Manufacturing Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1465</th><td>Kadota Fig Association.</td></tr>
+<tr><th class="stub" scope="row">7-R-2098</th><td>Kalamazoo Stove &amp; Furnace Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1327</th><td>Kennecott Copper Corp.</td></tr>
+<tr><th class="stub" scope="row">18-R-1420</th><td>Kiewit, Peter, Sons Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1506</th><td>L. &amp; L. Packing Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">7-R-2066</th><td>Lansing Drop Forge Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1245</th><td>Lincoln Steel Works.</td></tr>
+<tr><th class="stub" scope="row">2-R-5661</th><td>Marcal Pulp &amp; Paper, Inc.</td></tr>
+<tr><th class="stub" scope="row">20-R-1442</th><td>Matmor Canning Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1354</th><td>Memphis Hardware Flooring Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1388</th><td>Milk Producers Association of Central California.</td></tr>
+<tr><th class="stub" scope="row">14-R-1346</th><td>Monsanto Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1369</th><td>Monsanto Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1370</th><td>Monsanto Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">14-R-1371</th><td>Monsanto Chemical Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2499</th><td>Narragansett Electric Co., The.</td></tr>
+<tr><th class="stub" scope="row">10-R-1751</th><td>Nu-Maid Hosiery Mills, Inc.</td></tr>
+<tr><th class="stub" scope="row">21-R-2993</th><td>Ocean Terminals Co., Berth 230.</td></tr>
+<tr><th class="stub" scope="row">10-R-1755</th><td>Orange Cotton Mills.</td></tr>
+<tr><th class="stub" scope="row">21-R-2693</th><td>Pacific Naval Air Base.</td></tr>
+<tr><th class="stub" scope="row">21-R-2947</th><td>Pacific Press, Inc.</td></tr>
+<tr><th class="stub" scope="row">16-R-1151</th><td>Pan American Refinery.</td></tr>
+<tr><th class="stub" scope="row">19-R-1562</th><td>Paragon Packing Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1500</th><td>Paulus Bros. Packing Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1503</th><td>Pearce Canning Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1505</th><td>Plagg, Fred A., Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1532</th><td>Planada Packers</td></tr>
+<tr><th class="stub" scope="row">19-R-1553</th><td>Pointer-Willamette Co.</td></tr>
+<tr><th class="stub" scope="row">11-R-738</th><td>Roots-Connersville Blower Corp.</td></tr>
+<tr><th class="stub" scope="row">1-R-2555</th><td>S. &amp; R. Baking Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">14-R-1195</th><td>St. Louis Public Service Co., &amp; Transit Casualty Co.</td></tr>
+<tr><th class="stub" scope="row">21-R-3228</th><td>Saks Fifth Avenue.</td></tr>
+<tr><th class="stub" scope="row">20-R-1509</th><td>San Jose Canning Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5446</th><td>Schieffelin &amp; Co</td></tr>
+<tr><th class="stub" scope="row">20-R-1525</th><td>Shell Oil Co., Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-1956</th><td>Sierra Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1242</th><td>Sinclair Refining Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1243</th><td>Sinclair Refining Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1244</th><td>Sinclair Refining Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1245</th><td>Sinclair Refining Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1579</th><td>Southland Cotton Oil Mill.</td></tr>
+<tr><th class="stub" scope="row">5-R-2207</th><td>Sprunt, Alexander, &amp; Son, Inc.</td></tr>
+<tr><th class="stub" scope="row">2-R-6085</th><td>Squibb, E. R., &amp; Sons.</td></tr>
+<tr><th class="stub" scope="row">11-R-829</th><td>Standard Oil Co.</td></tr>
+<tr><th class="stub" scope="row">9-R-1694</th><td>Standard Oil Co. of Ohio.</td></tr>
+<tr><th class="stub" scope="row">7-R-2018</th><td>Star Brass Works.</td></tr>
+<tr><th class="stub" scope="row">14-R-1237</th><td>Sterling Steel Casting Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5435</th><td>Sullivan Dry Dock &amp; Repair Corp</td></tr>
+<tr><th class="stub" scope="row">2-R-1957</th><td>Sumatra Steamship Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1508</th><td>Sun Garden Packing Co.</td></tr>
+<tr><th class="stub" scope="row">13-RE-38</th><td>Superior Engraving Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3248</th><td>Superior Engraving Co.</td></tr>
+<tr><th class="stub" scope="row">8-R-1909</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3149</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">16-R-1424</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1176</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1256</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">18-R-1351</th><td>Swift &amp; Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1583</th><td>Taylor-Colquitt Co.</td></tr>
+<tr><th class="stub" scope="row">15-R-1612</th><td>Texas Co., The</td></tr>
+<tr><th class="stub" scope="row">2-R-5352</th><td>Todd Shipyards Corp.</td></tr>
+<tr><th class="stub" scope="row">8-R-1933</th><td>Truscon Steel Co.</td></tr>
+<tr><th class="stub" scope="row">1-R-2370</th><td>U. S. Finishing Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2145</th><td>Virginia Bridge Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1497</th><td>Walnut Creek Canning Co.</td></tr>
+<tr><th class="stub" scope="row">20-R-1496</th><td>Watsonville Canning Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1501</th><td>West Coast Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">19-R-1509</th><td>West Coast Telephone Co.</td></tr>
+<tr><th class="stub" scope="row">6-R-1304</th><td>Weston Glass Co.</td></tr>
+<tr><th class="stub" scope="row">5-R-2102</th><td>West Virginia Pulp &amp; Paper Co.</td></tr>
+<tr><th class="stub" scope="row">10-R-1695</th><td>West Virginia Pulp &amp; Paper Co.</td></tr>
+<tr><th class="stub" scope="row">2-R-5656</th><td>Westinghouse Electric International Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3209</th><td>Wisconsin Power &amp; Light Co.</td></tr>
+<tr><th class="stub" scope="row">13-R-3232</th><td>Wisconsin Power &amp; Light Co.</td></tr>
+<tr><th class="stub" scope="row">17-R-1092</th><td>World Publishing Co.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1946_p0186_t0.csv" download>Download this table (CSV)</a></p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 186.</b> This page is not a numeric statistical table but an alphabetical case list from Appendix D (running head &quot;Appendix D. Decisions Rendered During 1946&quot;, page 151), transcribed as a two-column grid: column 0 = case number, column 1 = company name.
+
+No column headings are printed on this page; the list continues from the preceding page (the entries at the top, starting at &quot;W&quot;, are the tail of an earlier lettered section, presumably section B), so header_rows is empty.
+
+The one section line printed on the page, &quot;C. Cases Certified or Dismissed on the Basis of the Record&quot;, is given as a label-only row with an empty second cell.
+
+The printed list is broken up by blank lines between alphabetical groups (W / Y / Z, and A / B / C / D / F within section C); these are spacing only and are not transcribed as rows.
+
+Doubtful / notable cells:
+- Row &quot;Airline Bus Co.&quot;, case-number column: the &quot;R&quot; is broken in the scan and reads almost like &quot;K&quot; (&quot;20-K-1394&quot;); given the uniform N-R-nnnn format of every other entry it is transcribed as &quot;20-R-1394&quot;.
+- Row &quot;Westinghouse Radio Stations.&quot; (19-R-1700): the case number is heavily inked/smudged; read as 19-R-1700.
+- Row &quot;Wyman-Gordan Co.&quot; (13-R-3266): transcribed as printed; the firm is normally spelled &quot;Wyman-Gordon&quot;. The case number&#x27;s final digits are smudged and read as 3266.
+- Row &quot;Federal Shipbuilding Dry Dock Co.&quot;: printed with a space after the region number (&quot;2- R-4969&quot;), normalized to &quot;2-R-4969&quot;; the name appears to omit an ampersand (&quot;Shipbuilding &amp; Dry Dock&quot;), but is transcribed as printed.
+- Row &quot;Crosley Corp., The&quot; (11-R-837): no terminal period is printed, unlike neighbouring entries; transcribed as printed. A stray mark follows the case number.
+- Rows &quot;Central California Packing Co.&quot; (20-R-1655) and &quot;Douglas Mill, Inc.&quot; (10-R-1655) carry the same case serial under different regions; both read clearly.
+
+The list continues past the bottom edge of the crop (section C is unfinished, ending mid-&quot;F&quot;).</p>
+<p><b>p. 187.</b> The crop is a continuation page of an alphabetical list (case number in the stub, company name in column 2); no column headings are printed on this image, so header_rows is empty. The list is cut off by the page: it begins mid-&quot;F&quot; (continuing from the previous page) and ends with 20-R-1525 Shell Oil Co., Inc., continuing onto the next page. Blank lines separating the alphabetical groups (F, G, H, K, L, M, N, O, P, R, S) carry no label and were not transcribed as rows. Row 20-R-1522: a short mark follows &quot;Hershel&quot; (printed roughly as &quot;Hershel- California Fruit Products, Inc.&quot;); it may be a stray mark, a hyphen or a period, and the firm is elsewhere spelled &quot;Herschel&quot; — transcribed here as &quot;Hershel California Fruit Products, Inc.&quot;. As printed, &quot;Henry &amp; Allen, Inc&quot;, &quot;Planada Packers&quot; and &quot;Schieffelin &amp; Co&quot; carry no closing period while most other entries do; &quot;St. Louis Public Service Co., &amp; Transit Casualty Co&quot; likewise ends without a clear period (a faint mark sits at the right margin). The case-number dashes are set as short dashes in the scan and are transcribed as hyphens. Faint speckles and stray ink marks are scattered across the page but do not obscure any character.</p>
+<p><b>p. 188.</b> This crop is a continuation page of an alphabetical two-column list (case number in the stub, company name in column 1); no column headings are printed on the image, so header_rows is empty. The list continues from the previous page (it opens mid-&quot;S&quot;) and continues past the bottom of the crop, which ends at &quot;17-R-1092 World Publishing Co.&quot; with no total or closing rule visible. Blank lines appear in the printing between the alphabetical groups (after &quot;18-R-1351 Swift &amp; Co.&quot;, after &quot;8-R-1933 Truscon Steel Co.&quot;, after &quot;1-R-2370 U. S. Finishing Co.&quot; and after &quot;5-R-2145 Virginia Bridge Co.&quot;); these are spacing only and are not transcribed as rows. Several isolated specks sit in the right margin and between words (e.g. a tick at the top right, a dot before &quot;Co.&quot; in &quot;West Coast Telephone Co.&quot; at 19-R-1501, dots to the right of 7-R-2018, 8-R-1909, 16-R-1424, 10-R-1583, 15-R-1612, 13-R-3209); these are scan dirt, not footnote markers, and are omitted. Two labels are printed without a terminal period, as transcribed: &quot;Sullivan Dry Dock &amp; Repair Corp&quot; (2-R-5435) and &quot;Texas Co., The&quot; (15-R-1612). The list is otherwise alphabetical, but &quot;6-R-1304 Weston Glass Co.&quot; is printed before the two &quot;West Virginia Pulp &amp; Paper Co.&quot; entries, i.e. out of strict alphabetical order; transcribed in the printed order. Note also that the two Watsonville/Walnut Creek case numbers run 20-R-1497 then 20-R-1496, as printed.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0186_t0_p0186.webp" loading="lazy" alt="Source page 186 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 186.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0186_t0_p0187.webp" loading="lazy" alt="Source page 187 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 187.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1946_p0186_t0_p0188.webp" loading="lazy" alt="Source page 188 of NLRB FY1946 annual report">
+<figcaption>Source: NLRB Annual Report FY1946, p. 188.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

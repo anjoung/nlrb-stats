@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Size of Units in Representation Elections Held in Cases Closed, Fiscal Year 1964 — NLRB FY1964</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1964.html">FY1964</a> &rsaquo; Size of Units in Representation Elections Held in Cases Closed, Fiscal Year 1964</p>
+<h1>Size of Units in Representation Elections Held in Cases Closed, Fiscal Year 1964</h1>
+<p class="meta">printed as Table 17 &middot; source pages 211–212 &middot; <code>nlrb1964_p0211_t0</code></p>
+<p class="spans-note">Stitched from pp. 211–212.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Size of unit (number of employees)</th><th>Number eligible to vote</th><th>Total elections</th><th>Percent of total</th><th>Cumulative percent of total</th><th colspan="12">Elections in which representation rights were won by—</th><th colspan="3">Elections in which no representative was chosen</th></tr>
+<tr><th>Size of unit (number of employees)</th><th>Number eligible to vote</th><th>Total elections</th><th>Percent of total</th><th>Cumulative percent of total</th><th colspan="3">AFL-CIO affiliates</th><th colspan="3">Teamsters</th><th colspan="3">Other national unions</th><th colspan="3">Unaffiliated local unions</th><th colspan="3">Elections in which no representative was chosen</th></tr>
+<tr><th>Size of unit (number of employees)</th><th>Number eligible to vote</th><th>Total elections</th><th>Percent of total</th><th>Cumulative percent of total</th><th>Number</th><th colspan="2">Percent by size class—</th><th>Number</th><th colspan="2">Percent by size class—</th><th>Number</th><th colspan="2">Percent by size class—</th><th>Number</th><th colspan="2">Percent by size class—</th><th>Number</th><th colspan="2">Percent by size class—</th></tr>
+<tr><th>Size of unit (number of employees)</th><th>Number eligible to vote</th><th>Total elections</th><th>Percent of total</th><th>Cumulative percent of total</th><th>Number</th><th>of total elections</th><th>of elections won</th><th>Number</th><th>of total elections</th><th>of elections won</th><th>Number</th><th>of total elections</th><th>of elections won</th><th>Number</th><th>of total elections</th><th>of elections won</th><th>Number</th><th>of total elections</th><th>of elections won</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">A. CERTIFICATION ELECTIONS (RC &amp; RM)</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Total RC &amp; RM elections</th><td>538,019</td><td>7,309</td><td>100.0</td><td class="blank"></td><td>2,633</td><td>36.0</td><td>100.0</td><td>1,133</td><td>15.5</td><td>100.0</td><td>294</td><td>4.0</td><td>100.0</td><td>169</td><td>2.3</td><td>100.0</td><td>3,080</td><td>42.2</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">1-9</th><td>9,916</td><td>1,704</td><td>23.3</td><td>23.3</td><td>558</td><td>32.8</td><td>21.2</td><td>491</td><td>28.8</td><td>43.3</td><td>79</td><td>4.6</td><td>26.9</td><td>29</td><td>1.7</td><td>17.2</td><td>547</td><td>32.1</td><td>17.8</td></tr>
+<tr><th class="stub" scope="row">10-19</th><td>22,489</td><td>1,599</td><td>21.9</td><td>45.2</td><td>543</td><td>34.0</td><td>20.6</td><td>306</td><td>19.1</td><td>27.0</td><td>72</td><td>4.5</td><td>24.5</td><td>31</td><td>1.9</td><td>18.3</td><td>647</td><td>40.5</td><td>21.0</td></tr>
+<tr><th class="stub" scope="row">20-29</th><td>21,380</td><td>886</td><td>12.1</td><td>57.3</td><td>350</td><td>39.5</td><td>13.3</td><td>116</td><td>13.1</td><td>10.2</td><td>26</td><td>2.9</td><td>8.8</td><td>23</td><td>2.6</td><td>13.6</td><td>371</td><td>41.9</td><td>12.0</td></tr>
+<tr><th class="stub" scope="row">30-39</th><td>20,611</td><td>603</td><td>8.3</td><td>65.6</td><td>239</td><td>39.6</td><td>9.1</td><td>57</td><td>9.5</td><td>5.0</td><td>19</td><td>3.2</td><td>6.4</td><td>18</td><td>3.0</td><td>10.7</td><td>270</td><td>44.7</td><td>8.8</td></tr>
+<tr><th class="stub" scope="row">40-49</th><td>18,529</td><td>419</td><td>5.7</td><td>71.3</td><td>163</td><td>38.9</td><td>6.2</td><td>38</td><td>9.1</td><td>3.4</td><td>18</td><td>4.3</td><td>6.1</td><td>11</td><td>2.6</td><td>6.5</td><td>189</td><td>45.1</td><td>6.1</td></tr>
+<tr><th class="stub" scope="row">50-59</th><td>17,810</td><td>327</td><td>4.5</td><td>75.8</td><td>127</td><td>38.8</td><td>4.8</td><td>26</td><td>8.0</td><td>2.3</td><td>9</td><td>2.8</td><td>3.1</td><td>10</td><td>3.0</td><td>5.9</td><td>155</td><td>47.4</td><td>5.0</td></tr>
+<tr><th class="stub" scope="row">60-69</th><td>14,570</td><td>228</td><td>3.1</td><td>78.9</td><td>90</td><td>39.5</td><td>3.4</td><td>17</td><td>7.5</td><td>1.5</td><td>5</td><td>2.2</td><td>1.7</td><td>4</td><td>1.7</td><td>2.3</td><td>112</td><td>49.1</td><td>3.6</td></tr>
+<tr><th class="stub" scope="row">70-79</th><td>12,608</td><td>170</td><td>2.3</td><td>81.2</td><td>75</td><td>44.1</td><td>2.9</td><td>6</td><td>3.5</td><td>.5</td><td>4</td><td>2.4</td><td>1.4</td><td>5</td><td>2.9</td><td>3.0</td><td>80</td><td>47.1</td><td>2.6</td></tr>
+<tr><th class="stub" scope="row">80-89</th><td>10,210</td><td>121</td><td>1.7</td><td>82.9</td><td>53</td><td>43.8</td><td>2.0</td><td>8</td><td>6.6</td><td>.7</td><td>5</td><td>4.1</td><td>1.7</td><td>4</td><td>3.3</td><td>2.3</td><td>51</td><td>42.2</td><td>1.7</td></tr>
+<tr><th class="stub" scope="row">90-99</th><td>12,190</td><td>129</td><td>1.8</td><td>84.7</td><td>47</td><td>36.4</td><td>1.8</td><td>8</td><td>6.2</td><td>.7</td><td>5</td><td>3.9</td><td>1.7</td><td>3</td><td>2.3</td><td>1.8</td><td>66</td><td>51.2</td><td>2.1</td></tr>
+<tr><th class="stub" scope="row">100-149</th><td>47,123</td><td>391</td><td>5.3</td><td>90.0</td><td>142</td><td>36.3</td><td>5.4</td><td>24</td><td>6.1</td><td>2.1</td><td>14</td><td>3.6</td><td>4.8</td><td>10</td><td>2.6</td><td>5.9</td><td>201</td><td>51.4</td><td>6.5</td></tr>
+<tr><th class="stub" scope="row">150-199</th><td>39,182</td><td>227</td><td>3.1</td><td>93.1</td><td>79</td><td>34.8</td><td>3.0</td><td>11</td><td>4.8</td><td>1.0</td><td>7</td><td>3.1</td><td>2.4</td><td>3</td><td>1.3</td><td>1.8</td><td>127</td><td>56.0</td><td>4.1</td></tr>
+<tr><th class="stub" scope="row">200-299</th><td>50,707</td><td>209</td><td>2.8</td><td>95.9</td><td>69</td><td>33.0</td><td>2.6</td><td>10</td><td>4.8</td><td>.9</td><td>10</td><td>4.8</td><td>3.4</td><td>5</td><td>2.4</td><td>3.0</td><td>115</td><td>55.0</td><td>3.8</td></tr>
+<tr><th class="stub" scope="row">300-399</th><td>37,183</td><td>107</td><td>1.5</td><td>97.4</td><td>31</td><td>29.0</td><td>1.2</td><td>5</td><td>4.7</td><td>.4</td><td>6</td><td>5.6</td><td>2.0</td><td>1</td><td>.9</td><td>.6</td><td>64</td><td>59.8</td><td>2.1</td></tr>
+<tr><th class="stub" scope="row">400-499</th><td>22,604</td><td>51</td><td>.7</td><td>98.1</td><td>18</td><td>35.3</td><td>.7</td><td>3</td><td>5.9</td><td>.3</td><td>5</td><td>9.8</td><td>1.7</td><td>3</td><td>5.9</td><td>1.8</td><td>22</td><td>43.1</td><td>.7</td></tr>
+<tr><th class="stub" scope="row">500-599</th><td>18,812</td><td>35</td><td>.5</td><td>98.6</td><td>11</td><td>31.4</td><td>.4</td><td>3</td><td>8.6</td><td>.3</td><td>2</td><td>5.7</td><td>.7</td><td>2</td><td>5.7</td><td>1.2</td><td>17</td><td>48.6</td><td>.6</td></tr>
+<tr><th class="stub" scope="row">600-799</th><td>28,902</td><td>42</td><td>.6</td><td>99.2</td><td>18</td><td>42.8</td><td>.7</td><td>2</td><td>4.8</td><td>.2</td><td>1</td><td>2.4</td><td>.3</td><td>1</td><td>2.4</td><td>.6</td><td>20</td><td>47.6</td><td>.6</td></tr>
+<tr><th class="stub" scope="row">800-999</th><td>9,685</td><td>11</td><td>.2</td><td>99.4</td><td>4</td><td>36.4</td><td>.2</td><td>0</td><td>.0</td><td>.0</td><td>2</td><td>18.2</td><td>.7</td><td>0</td><td>.0</td><td>.0</td><td>5</td><td>45.4</td><td>.2</td></tr>
+<tr><th class="stub" scope="row">1,000-1,999</th><td>48,058</td><td>35</td><td>.5</td><td>99.9</td><td>10</td><td>28.6</td><td>.4</td><td>2</td><td>5.7</td><td>.2</td><td>4</td><td>11.4</td><td>1.4</td><td>4</td><td>11.4</td><td>2.3</td><td>15</td><td>42.9</td><td>.5</td></tr>
+<tr><th class="stub" scope="row">2,000-2,999</th><td>14,410</td><td>6</td><td>.1</td><td>100.0</td><td>3</td><td>50.0</td><td>.1</td><td>0</td><td>.0</td><td>.0</td><td>1</td><td>16.7</td><td>.3</td><td>1</td><td>16.7</td><td>.6</td><td>1</td><td>16.6</td><td>[2]</td></tr>
+<tr><th class="stub" scope="row">3,000-3,999</th><td>9,664</td><td>3</td><td>[2]</td><td>100.0</td><td>1</td><td>33.3</td><td>[2]</td><td>0</td><td>.0</td><td>.0</td><td>0</td><td>.0</td><td>.0</td><td>0</td><td>.0</td><td>.0</td><td>2</td><td>66.7</td><td>.1</td></tr>
+<tr><th class="stub" scope="row">4,000-4,999</th><td>8,627</td><td>2</td><td>[2]</td><td>100.0</td><td>0</td><td>.0</td><td>.0</td><td>0</td><td>.0</td><td>.0</td><td>0</td><td>.0</td><td>.0</td><td>1</td><td>50.0</td><td>.6</td><td>1</td><td>50.0</td><td>[2]</td></tr>
+<tr><th class="stub" scope="row">5,000-9,999</th><td>18,749</td><td>3</td><td>[2]</td><td>100.0</td><td>1</td><td>33.3</td><td>[2]</td><td>0</td><td>.0</td><td>.0</td><td>0</td><td>.0</td><td>.0</td><td>0</td><td>.0</td><td>.0</td><td>2</td><td>66.7</td><td>.1</td></tr>
+<tr><th class="stub" scope="row">10,000 and over</th><td>24,000</td><td>1</td><td>[2]</td><td>100.0</td><td>1</td><td>100.0</td><td>[2]</td><td>0</td><td>.0</td><td>.0</td><td>0</td><td>.0</td><td>.0</td><td>0</td><td>.0</td><td>.0</td><td>0</td><td>.0</td><td>.0</td></tr>
+<tr><th class="stub" scope="row">B DECERTIFICATION ELECTIONS (RD)</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Total RD elections</th><td>13,732</td><td>220</td><td>100.0</td><td class="blank"></td><td>52</td><td>23.6</td><td>100.0</td><td>13</td><td>5.9</td><td>100.0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>.9</td><td>100.0</td><td>153</td><td>69.6</td><td>100.0</td></tr>
+<tr><th class="stub" scope="row">1-9</th><td>339</td><td>59</td><td>26.8</td><td>26.8</td><td>5</td><td>8.5</td><td>9.6</td><td>5</td><td>8.5</td><td>38.5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>49</td><td>83.0</td><td>32.0</td></tr>
+<tr><th class="stub" scope="row">10-19</th><td>738</td><td>53</td><td>24.1</td><td>50.9</td><td>8</td><td>15.1</td><td>15.4</td><td>3</td><td>5.7</td><td>23.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>42</td><td>79.2</td><td>27.4</td></tr>
+<tr><th class="stub" scope="row">20-29</th><td>683</td><td>27</td><td>12.3</td><td>63.2</td><td>8</td><td>29.6</td><td>15.4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>70.4</td><td>12.4</td></tr>
+<tr><th class="stub" scope="row">30-39</th><td>587</td><td>17</td><td>7.7</td><td>70.9</td><td>5</td><td>29.4</td><td>9.6</td><td>1</td><td>5.9</td><td>7.7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td><td>64.7</td><td>7.2</td></tr>
+<tr><th class="stub" scope="row">40-49</th><td>353</td><td>8</td><td>3.6</td><td>74.5</td><td>1</td><td>12.5</td><td>1.9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>12.5</td><td>50.0</td><td>6</td><td>75.0</td><td>3.9</td></tr>
+<tr><th class="stub" scope="row">50-59</th><td>386</td><td>7</td><td>3.2</td><td>77.7</td><td>5</td><td>71.4</td><td>9.6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>28.6</td><td>1.3</td></tr>
+<tr><th class="stub" scope="row">60-69</th><td>388</td><td>6</td><td>2.7</td><td>80.4</td><td>1</td><td>16.7</td><td>1.9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>83.3</td><td>3.3</td></tr>
+<tr><th class="stub" scope="row">70-79</th><td>446</td><td>6</td><td>2.7</td><td>83.1</td><td>3</td><td>50.0</td><td>5.8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>50.0</td><td>2.0</td></tr>
+<tr><th class="stub" scope="row">80-89</th><td>175</td><td>2</td><td>.9</td><td>84.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>100.0</td><td>1.3</td></tr>
+<tr><th class="stub" scope="row">90-99</th><td>475</td><td>5</td><td>2.3</td><td>86.3</td><td>1</td><td>20.0</td><td>1.9</td><td>2</td><td>40.0</td><td>15.4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>40.0</td><td>1.3</td></tr>
+<tr><th class="stub" scope="row">100-149</th><td>1,440</td><td>12</td><td>5.5</td><td>91.8</td><td>4</td><td>33.4</td><td>7.7</td><td>1</td><td>8.3</td><td>7.7</td><td>0</td><td>0</td><td>0</td><td>1</td><td>8.3</td><td>50.0</td><td>6</td><td>50.0</td><td>3.9</td></tr>
+<tr><th class="stub" scope="row">150-199</th><td>1,320</td><td>8</td><td>3.6</td><td>95.4</td><td>6</td><td>75.0</td><td>11.5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>25.0</td><td>1.3</td></tr>
+<tr><th class="stub" scope="row">200-299</th><td>729</td><td>3</td><td>1.4</td><td>96.8</td><td>2</td><td>66.7</td><td>3.9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>33.3</td><td>.7</td></tr>
+<tr><th class="stub" scope="row">300-399</th><td>665</td><td>2</td><td>.9</td><td>97.7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>100.0</td><td>1.3</td></tr>
+<tr><th class="stub" scope="row">400 and over</th><td>5,008</td><td>5</td><td>2.3</td><td>100.0</td><td>3</td><td>60.0</td><td>5.8</td><td>1</td><td>20.0</td><td>7.7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>20.0</td><td>.7</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1964_p0211_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 See &quot;Glossary&quot; for definition of terms.</li>
+<li>2 Less than one-tenth of 1 percent</li>
+</ol>
+<p class="check"><b>231 of 231</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 211.</b> Crop scope: this image shows only the column-heading block and Panel A (&quot;A. CERTIFICATION ELECTIONS (RC &amp; RM)&quot;) of Table 17. Panel B and the footnote block are below the crop, so `footnotes` is empty even though the caption carries a marker 1 and the body cells reference a footnote 2.
+
+Decimal points: in this scan a great many one-decimal percentages print with a faint or dropped decimal point, so they appear as e.g. &quot;100 0&quot;, &quot;42 2&quot;, &quot;23 3&quot;, &quot;4 0&quot;, &quot;2 3&quot;. Every such cell is a percent carried to one decimal, and I transcribed the decimal point in each. This is corroborated arithmetically: in every data row the five &quot;of total elections&quot; percents sum to exactly 100.0, each &quot;of elections won&quot; column sums down to 100.0, and the &quot;Cumulative percent of total&quot; column is the exact running sum of &quot;Percent of total&quot;.
+
+&quot;(2)&quot; cells: in the &quot;Percent of total&quot; and three &quot;of elections won&quot; columns, several cells hold a raised parenthesized 2 standing in place of a value (the usual &quot;less than 0.05 percent&quot; convention) rather than a number attached to a marker. I transcribed these as &quot;(2)&quot;. They are consistent with the underlying counts (e.g. 3 of 7,309 = 0.04 percent).
+
+&quot;Cumulative percent of total&quot; in the &quot;Total RC &amp; RM elections&quot; row is a dash rule, transcribed as &quot;&quot;.
+
+Column alignment was verified independently: each of the five component &quot;Number&quot; columns sums down to its printed total (2,633 / 1,133 / 294 / 169 / 3,080), those five totals sum to 7,309, and each data row&#x27;s five Numbers sum to that row&#x27;s &quot;Total elections&quot;. No misprints detected.</p>
+<p><b>p. 212.</b> No column headings are printed on this crop — it continues a table whose headings stand on the preceding page — so header_rows is empty. The grid is 20 columns: stub + a 4-column first group (employees eligible; number of elections; percent; cumulative percent) followed by five 3-column groups (count; percent of the size class; percent of that group&#x27;s total). The first group&#x27;s cumulative-percent cell on the &quot;Total RD elections&quot; line is a dash rule and is given as &quot;&quot;.
+
+Decimal points: this is a 1-bit scan in which most periods inside numbers have dropped out, so percentages print as e.g. &quot;26 8&quot;, &quot;100 0&quot;. The commas in &quot;13, 732&quot;, &quot;1, 440&quot;, &quot;5, 008&quot; survive, and a few periods do survive (&quot;33.3&quot; at 200-299, &quot;3.9&quot; at 40-49), confirming the points are present in the original. I have restored them, i.e. &quot;26 8&quot; is transcribed &quot;26.8&quot;. Values printed without a leading zero (&quot;.9&quot;, &quot;.7&quot;) are kept that way.
+
+Doubtful cell: row &quot;100-149&quot;, column 6 (percent of the size class in the first 3-column group) reads &quot;33 4&quot; to me, i.e. 33.4, but 4 of 12 is 33.3, and the corresponding cell at row &quot;200-299&quot; column 18 is printed &quot;33.3&quot;. This is either a printer&#x27;s error or a misread of a damaged &quot;3&quot;; it is the one cell in the table that fails the arithmetic cross-check. Transcribed as read.
+
+Stray marks: a faint dot precedes the 0 at row &quot;1-9&quot; column 16 and at row &quot;400 and over&quot; column 15. Since every other zero in the table is set as a bare &quot;0&quot; and both cells are 0 of 2 and 0 of 5 respectively, I read these as scan specks and transcribed &quot;0&quot;.
+
+Footnote marker 2 (&quot;Less than one-tenth of 1 percent&quot;) is not attached to any value in this panel; it presumably marks a cell in panel A on the previous page. The section line is printed &quot;B  DECERTIFICATION ELECTIONS (RD)&quot; above the table&#x27;s top rule; a period after the &quot;B&quot; may have been lost with the other periods, but none is visible, so it is transcribed without one.
+
+Arithmetic checks that do pass: column 1 sums to 13,732; column 2 to 220; the five category counts sum to 220 (52 + 13 + 0 + 2 + 153) and to each size class&#x27;s election total row by row; the cumulative-percent column accumulates correctly to 100.0; and all remaining percentages reproduce from the counts.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1964_p0211_t0_p0211.webp" loading="lazy" alt="Source page 211 of NLRB FY1964 annual report">
+<figcaption>Source: NLRB Annual Report FY1964, p. 211.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1964_p0211_t0_p0212.webp" loading="lazy" alt="Source page 212 of NLRB FY1964 annual report">
+<figcaption>Source: NLRB Annual Report FY1964, p. 212.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

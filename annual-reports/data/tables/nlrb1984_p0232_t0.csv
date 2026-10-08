@@ -1,6 +1,67 @@
-Division and State,Total elections,Number of elections in which representation rights were won by unions — Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Number of elections in which no representative was chosen,Number of employees eligible to vote,Total valid votes cast,Valid votes cast for unions — Total,Valid votes cast for unions — AFL-CIO unions,Valid votes cast for unions — Teamsters,Valid votes cast for unions — Other national unions,Valid votes cast for unions — Other local unions,Total valid votes cast for no representation,Eligible employees in elections choosing no representation
-South Atlantic — Division subtotal (DE+DC+MD+VA+WV+NC+SC+GA+FL RD),58,12,9,2,0,1,46,4708,4250,1876,1684,91,0,45,2417,1124
-East South Central — Division subtotal (KY+TN+AL+MS RD),34,12,7,4,0,1,22,3185,2905,1188,892,100,0,17,1717,1012
-West South Central — Division subtotal (AR+LA+OK+TX RD),49,17,10,3,1,3,32,6784,4236,2063,1555,624,330,45,1971,2887
-Mountain — Division subtotal (MT+ID+WY+CO+NM+AZ+UT+NV RD),40,11,6,4,0,1,29,,,,,,,,,
-Per-state RD,,,,,,,,,,,,,,,,
+Division and State,Total elections,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which representation rights were won by unions,Number of elections in which no representative was chosen,Number of employees eligible to vote,Total valid votes cast,Valid votes cast for unions,Valid votes cast for unions,Valid votes cast for unions,Valid votes cast for unions,Valid votes cast for unions,Total votes for no union,Eligible employees in units choosing representation
+Division and State,Total elections,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Number of elections in which no representative was chosen,Number of employees eligible to vote,Total valid votes cast,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Total votes for no union,Eligible employees in units choosing representation
+Maine,5,2,1,0,0,1,3,307,202,84,27,46,0,11,118,67
+New Hampshire,1,0,0,0,0,0,1,46,44,18,18,0,0,0,26,0
+Vermont,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Massachusetts,18,7,3,4,0,0,11,"1,521","1,377",945,869,49,0,27,432,"1,248"
+Rhode Island,2,1,0,1,0,0,1,65,61,31,2,29,0,0,30,49
+Connecticut,6,2,2,0,0,0,4,686,616,263,263,0,0,0,353,201
+New England,32,12,6,5,0,1,20,"2,625","2,300","1,341","1,179",124,0,38,959,"1,565"
+New York,43,9,5,3,0,1,34,874,765,280,158,105,0,17,485,132
+New Jersey,17,4,1,2,0,1,13,449,405,227,61,66,3,97,178,237
+Pennsylvania,38,7,4,0,0,3,31,"1,267","1,101",412,247,70,0,95,689,340
+Middle Atlantic,98,20,10,5,0,5,78,"2,590","2,271",919,466,241,3,209,"1,352",709
+Ohio,51,12,10,1,1,0,39,"1,522","1,358",522,323,116,18,65,836,401
+Indiana,17,7,6,1,0,0,10,525,512,246,230,13,0,3,266,389
+Illinois,46,13,6,1,2,4,33,"1,582","1,395",827,506,34,54,233,568,"1,044"
+Michigan,40,8,4,3,0,1,32,835,760,325,239,51,2,33,435,240
+Wisconsin,26,11,9,2,0,0,15,"1,195","1,115",527,364,49,0,114,588,510
+East North Central,180,51,35,8,3,5,129,"5,659","5,140","2,447","1,662",263,74,448,"2,693","2,584"
+Iowa,7,2,1,1,0,0,5,156,135,47,40,7,0,0,88,17
+Minnesota,45,6,5,1,0,0,39,"1,181","1,032",294,277,11,0,6,738,216
+Missouri,43,12,8,4,0,0,31,"1,503","1,314",564,300,264,0,0,750,671
+North Dakota,1,0,0,0,0,0,1,4,4,0,0,0,0,0,4,0
+South Dakota,1,0,0,0,0,0,1,8,8,2,2,0,0,0,6,0
+Nebraska,5,0,0,0,0,0,5,339,202,15,9,6,0,0,187,0
+Kansas,10,3,2,1,0,0,7,213,179,78,40,38,0,0,101,74
+West North Central,112,23,16,7,0,0,89,"3,404","2,874","1,000",668,326,0,6,"1,874",978
+Delaware,1,0,0,0,0,0,1,27,25,1,1,0,0,0,24,0
+Maryland,7,1,0,1,0,0,6,134,120,48,1,39,6,2,72,56
+District of Columbia,2,0,0,0,0,0,2,66,64,2,2,0,0,0,62,0
+Virginia,8,1,1,0,0,0,7,"1,257","1,145",396,396,0,0,0,749,46
+West Virginia,3,0,0,0,0,0,3,41,40,13,10,3,0,0,27,0
+North Carolina,8,3,3,0,0,0,5,621,570,279,279,0,0,0,291,289
+South Carolina,2,0,0,0,0,0,2,810,748,365,365,0,0,0,383,0
+Georgia,11,3,3,0,0,0,8,"1,121",977,385,385,0,0,0,592,351
+Florida,16,4,2,1,0,1,12,631,604,387,255,49,39,44,217,382
+South Atlantic,58,12,9,2,0,1,46,"4,708","4,293","1,876","1,694",91,45,46,"2,417","1,124"
+Kentucky,3,2,2,0,0,0,1,217,208,110,109,1,0,0,98,210
+Tennessee,16,2,1,0,0,1,14,"1,644","1,466",534,511,14,0,9,932,36
+Alabama,12,2,2,0,0,0,10,688,633,217,215,2,0,0,416,138
+Mississippi,3,1,1,0,0,0,2,636,598,287,177,0,0,110,311,227
+East South Central,34,7,6,0,0,1,27,"3,185","2,905","1,148","1,012",17,0,119,"1,757",611
+Arkansas,13,3,2,0,0,1,10,"2,045","1,801",904,878,15,0,11,897,808
+Louisiana,9,2,2,0,0,0,7,248,222,44,39,5,0,0,178,10
+Oklahoma,6,3,2,0,1,0,3,664,635,331,296,0,35,0,304,576
+Texas,21,9,4,3,0,2,12,"1,827","1,578",984,342,604,0,38,594,"1,473"
+West South Central,49,17,10,3,1,3,32,"4,784","4,236","2,263","1,555",624,35,49,"1,973","2,867"
+Montana,5,3,1,1,0,1,2,87,74,34,4,11,0,19,40,63
+Idaho,2,0,0,0,0,0,2,59,54,24,24,0,0,0,30,0
+Wyoming,2,1,1,0,0,0,1,257,249,83,83,0,0,0,166,113
+Colorado,12,1,0,1,0,0,11,282,259,87,70,17,0,0,172,13
+New Mexico,5,3,3,0,0,0,2,74,72,38,38,0,0,0,34,45
+Arizona,17,4,3,1,0,0,13,369,342,140,86,49,5,0,202,99
+Utah,4,0,0,0,0,0,4,110,108,45,0,45,0,0,63,0
+Nevada,7,0,0,0,0,0,7,783,601,136,126,10,0,0,465,0
+Mountain,54,12,8,3,0,1,42,"2,021","1,759",587,431,132,5,19,"1,172",333
+Washington,72,8,7,0,0,1,64,"2,748","2,334",949,770,95,20,64,"1,385",357
+Oregon,36,8,7,0,0,1,28,"1,404","1,095",452,412,14,2,24,643,514
+California,137,34,23,9,0,2,103,"4,203","3,708","1,548","1,112",328,29,79,"2,160","1,892"
+Alaska,6,0,0,0,0,0,6,99,90,21,0,21,0,0,69,0
+Hawaii,3,1,0,0,1,0,2,292,258,95,10,0,85,0,163,137
+Guam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pacific,254,51,37,9,1,4,203,"8,746","7,485","3,055","2,304",458,136,167,"4,420","2,900"
+Puerto Rico,4,1,0,0,0,1,3,94,91,24,14,0,0,10,67,17
+Virgin Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Outlying Areas,4,1,0,0,0,1,3,94,91,24,14,0,0,10,67,17
+"Total, all States and areas",875,206,137,42,5,22,669,"37,816","33,354","14,670","10,985","2,276",298,"1,111","18,684","13,688"

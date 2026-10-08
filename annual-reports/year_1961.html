@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -122,37 +130,53 @@ ul.link-list li { margin: 0.3rem 0; }
 <h1>NLRB statistical tables — FY1961</h1>
 <table class="listing">
 <thead>
-<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
+<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Printed as<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
 </thead>
 <tbody>
-<tr><td><a href="table_nlrb1961_p0033_t0.html">NLRB obligations and expenditures</a></td><td><span class="type-label">Table</span></td><td>33</td></tr>
-<tr><td><a href="table_nlrb1961_p0229_t0.html">Total cases received, closed, and pending</a></td><td><span class="type-label">Table</span></td><td>229</td></tr>
-<tr><td><a href="table_nlrb1961_p0230_t0.html">Unfair labor practice and representation cases received, closed, and pending (complainant or petitioner identified)</a></td><td><span class="type-label">Table</span></td><td>230</td></tr>
-<tr><td><a href="table_nlrb1961_p0232_t0.html">Formal action taken, by number of cases</a></td><td><span class="type-label">Table</span></td><td>232</td></tr>
-<tr><td><a href="table_nlrb1961_p0234_t0.html">Industrial distribution of unfair labor practice and representation cases received</a></td><td><span class="type-label">Table</span></td><td>234</td></tr>
-<tr><td><a href="table_nlrb1961_p0234_t1.html">Industrial distribution of unfair labor practice and representation cases received</a></td><td><span class="type-label">Table</span></td><td>234</td></tr>
-<tr><td><a href="table_nlrb1961_p0235_t0.html">Industrial distribution of cases received</a></td><td><span class="type-label">Table</span></td><td>235</td></tr>
-<tr><td><a href="table_nlrb1961_p0236_t0.html">Geographic distribution of unfair labor practice and representation cases received</a></td><td><span class="type-label">Table</span></td><td>236</td></tr>
-<tr><td><a href="table_nlrb1961_p0237_t0.html">Cases received — by state and type of case</a></td><td><span class="type-label">Table</span></td><td>237</td></tr>
-<tr><td><a href="table_nlrb1961_p0238_t0.html">Stages of disposition of unfair labor practice cases closed</a></td><td><span class="type-label">Table</span></td><td>238</td></tr>
-<tr><td><a href="table_nlrb1961_p0239_t0.html">Stages and methods of disposition of unfair labor practice cases closed</a></td><td><span class="type-label">Table</span></td><td>239</td></tr>
-<tr><td><a href="table_nlrb1961_p0240_t0.html">Disposition of unfair labor practice cases closed</a></td><td><span class="type-label">Table</span></td><td>240</td></tr>
-<tr><td><a href="table_nlrb1961_p0240_t1.html">Disposition of representation cases closed</a></td><td><span class="type-label">Table</span></td><td>240</td></tr>
-<tr><td><a href="table_nlrb1961_p0241_t0.html">Methods of disposition of representation cases closed</a></td><td><span class="type-label">Table</span></td><td>241</td></tr>
-<tr><td><a href="table_nlrb1961_p0242_t0.html">Types of elections conducted</a></td><td><span class="type-label">Table</span></td><td>242</td></tr>
-<tr><td><a href="table_nlrb1961_p0243_t0.html">Results of union-shop deauthorization polls</a></td><td><span class="type-label">Table</span></td><td>243</td></tr>
-<tr><td><a href="table_nlrb1961_p0243_t1.html">Collective-bargaining elections — by affiliation of participating unions</a></td><td><span class="type-label">Table</span></td><td>243</td></tr>
-<tr><td><a href="table_nlrb1961_p0244_t0.html">Outcome of collective-bargaining elections, by affiliation of participating unions</a></td><td><span class="type-label">Table</span></td><td>244</td></tr>
-<tr><td><a href="table_nlrb1961_p0245_t0.html">Decertification elections — by affiliation of participating unions</a></td><td><span class="type-label">Table</span></td><td>245</td></tr>
-<tr><td><a href="table_nlrb1961_p0245_t1.html">Voting in decertification elections</a></td><td><span class="type-label">Table</span></td><td>245</td></tr>
-<tr><td><a href="table_nlrb1961_p0246_t0.html">Collective-bargaining elections</a></td><td><span class="type-label">Table</span></td><td>246</td></tr>
-<tr><td><a href="table_nlrb1961_p0247_t0.html">Representation election results — by state</a></td><td><span class="type-label">Table</span></td><td>247</td></tr>
-<tr><td><a href="table_nlrb1961_p0248_t0.html">Collective-bargaining elections — by industry</a></td><td><span class="type-label">Table</span></td><td>248</td></tr>
-<tr><td><a href="table_nlrb1961_p0250_t0.html">Injunction litigation under Sec. 10(j) and (l)</a></td><td><span class="type-label">Table</span></td><td>250</td></tr>
-<tr><td><a href="table_nlrb1961_p0250_t1.html">Litigation for enforcement or review of Board orders</a></td><td><span class="type-label">Table</span></td><td>250</td></tr>
+<tr><td><a href="table_nlrb1961_p0017_f0.html">Unfair labor practice cases settled</a><br><span class="hint">ULP cases settled</span></td><td><span class="type-label">Figure</span></td><td>Chart 1</td><td>17</td></tr>
+<tr><td><a href="table_nlrb1961_p0018_t0.html">Unfair labor practice cases on hand end of fiscal year</a><br><span class="hint">Unfair Labor Practice Cases on Hand End of Fiscal Year</span></td><td><span class="type-label">Table</span></td><td></td><td>18</td></tr>
+<tr><td><a href="table_nlrb1961_p0019_f0.html">Cases closed</a></td><td><span class="type-label">Figure</span></td><td>Chart 2</td><td>19</td></tr>
+<tr><td><a href="table_nlrb1961_p0019_t0.html">Cases closed</a></td><td><span class="type-label">Table</span></td><td></td><td>19</td></tr>
+<tr><td><a href="table_nlrb1961_p0020_f0.html">Cases decided</a></td><td><span class="type-label">Figure</span></td><td>Chart 3</td><td>20</td></tr>
+<tr><td><a href="table_nlrb1961_p0020_t0.html">Cases decided</a></td><td><span class="type-label">Table</span></td><td></td><td>20</td></tr>
+<tr><td><a href="table_nlrb1961_p0022_f0.html">ULP case intake by charges and situations filed</a><br><span class="hint">ULP case intake (Charges and Situations Filed)</span></td><td><span class="type-label">Figure</span></td><td>Chart 4</td><td>22</td></tr>
+<tr><td><a href="table_nlrb1961_p0023_f0.html">R and UD case intake</a><br><span class="hint">R and UD case intake (Petitions Filed)</span></td><td><span class="type-label">Figure</span></td><td>Chart 5</td><td>23</td></tr>
+<tr><td><a href="table_nlrb1961_p0024_f0.html">Unfair labor practice cases pending under investigation</a><br><span class="hint">ULP cases pending under investigation</span></td><td><span class="type-label">Figure</span></td><td>Chart 6</td><td>24</td></tr>
+<tr><td><a href="table_nlrb1961_p0025_f0.html">Time required to process ULP cases</a></td><td><span class="type-label">Figure</span></td><td>Chart 7</td><td>25</td></tr>
+<tr><td><a href="table_nlrb1961_p0026_f0.html">Time required to process ULP cases</a></td><td><span class="type-label">Figure</span></td><td>Chart 8</td><td>26</td></tr>
+<tr><td><a href="table_nlrb1961_p0027_f0.html">Backpay received by discriminatees</a></td><td><span class="type-label">Figure</span></td><td>Chart 9</td><td>27</td></tr>
+<tr><td><a href="table_nlrb1961_p0028_f0.html">Complaints issued</a><br><span class="hint">Complaints issued (Proceedings)</span></td><td><span class="type-label">Figure</span></td><td>Chart 10</td><td>28</td></tr>
+<tr><td><a href="table_nlrb1961_p0029_f0.html">Elections held</a></td><td><span class="type-label">Figure</span></td><td>Chart 11</td><td>29</td></tr>
+<tr><td><a href="table_nlrb1961_p0033_f0.html">Trial examiner hearings and intermediate reports</a><br><span class="hint">Trial examiner hearings held and IR&#x27;s issued (Proceedings)</span></td><td><span class="type-label">Figure</span></td><td>Chart 12</td><td>33</td></tr>
+<tr><td><a href="table_nlrb1961_p0033_t0.html">NLRB expenditures and obligations</a><br><span class="hint">NLRB obligations and expenditures</span></td><td><span class="type-label">Table</span></td><td></td><td>33</td></tr>
+<tr><td><a href="table_nlrb1961_p0034_t0.html">Obligations and expenditures by object of expenditure</a></td><td><span class="type-label">Table</span></td><td></td><td>34</td></tr>
+<tr><td><a href="table_nlrb1961_p0230_t0.html">Unfair labor practice and representation cases received, closed, and pending</a><br><span class="hint">Total Cases Received, Closed, and Pending (Complainant or Petitioner Identified), Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 1</td><td>230</td></tr>
+<tr><td><a href="table_nlrb1961_p0231_t0.html">Unfair labor practice and representation cases received, closed, and pending</a><br><span class="hint">Unfair Labor Practice and Representation Cases Received, Closed, and Pending (Complainant or Petitioner Identified), Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 1A</td><td>231</td></tr>
+<tr><td><a href="table_nlrb1961_p0233_t0.html">Types of unfair labor practices alleged</a><br><span class="hint">Types of Unfair Labor Practices Alleged, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 2</td><td>233</td></tr>
+<tr><td><a href="table_nlrb1961_p0233_t1.html">Formal action taken, by number of cases</a><br><span class="hint">Formal Action Taken, by Number of Cases, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 3</td><td>233</td></tr>
+<tr><td><a href="table_nlrb1961_p0234_t0.html">Industrial distribution of unfair labor practice and representation cases received</a><br><span class="hint">Remedial Action Taken in Unfair Labor Practice Cases Closed, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 4</td><td>234</td></tr>
+<tr><td><a href="table_nlrb1961_p0235_t0.html">Industrial distribution of cases received</a><br><span class="hint">Industrial Distribution of Unfair Labor Practice and Representation Cases Received, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 5</td><td>235</td></tr>
+<tr><td><a href="table_nlrb1961_p0237_t0.html">Cases received — by case type and State</a><br><span class="hint">Geographic Distribution of Unfair Labor Practice and Representation Cases Received, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 6</td><td>237</td></tr>
+<tr><td><a href="table_nlrb1961_p0239_t0.html">Stages and methods of disposition of unfair labor practice (C) cases closed</a><br><span class="hint">Analysis of Stages of Disposition of Unfair Labor Practice Cases Closed, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 7</td><td>239</td></tr>
+<tr><td><a href="table_nlrb1961_p0241_t0.html">Analysis of methods of disposition of representation cases closed</a><br><span class="hint">Disposition of Unfair Labor Practice Cases Closed, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 8</td><td>241</td></tr>
+<tr><td><a href="table_nlrb1961_p0241_t1.html">Disposition of representation cases closed</a><br><span class="hint">Disposition of Representation Cases Closed, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 9</td><td>241</td></tr>
+<tr><td><a href="table_nlrb1961_p0242_t0.html">Analysis of Methods of Disposition of Representation Cases Closed, Fiscal Year 1961</a></td><td><span class="type-label">Table</span></td><td>Table 10</td><td>242</td></tr>
+<tr><td><a href="table_nlrb1961_p0243_t0.html">Types of Elections Conducted, Fiscal Year 1961</a></td><td><span class="type-label">Table</span></td><td>Table 11</td><td>243</td></tr>
+<tr><td><a href="table_nlrb1961_p0244_t0.html">Results of Union-Shop Deauthorization Polls, Fiscal Year 1961</a></td><td><span class="type-label">Table</span></td><td>Table 12</td><td>244</td></tr>
+<tr><td><a href="table_nlrb1961_p0244_t1.html">Collective-bargaining elections — by affiliation of participating unions</a><br><span class="hint">Collective-Bargaining Elections by Affiliation of Participating Unions, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 13</td><td>244</td></tr>
+<tr><td><a href="table_nlrb1961_p0245_t0.html">Decertification elections — by affiliation of participating unions</a><br><span class="hint">Outcome of Collective-Bargaining Elections by Affiliation of Participating Unions, and Number of Employees in Units, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 13A</td><td>245</td></tr>
+<tr><td><a href="table_nlrb1961_p0246_t0.html">Collective-bargaining elections</a><br><span class="hint">Decertification Elections by Affiliation of Participating Unions, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 14</td><td>246</td></tr>
+<tr><td><a href="table_nlrb1961_p0246_t1.html">Voting in decertification elections</a><br><span class="hint">Voting in Decertification Elections, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 14A</td><td>246</td></tr>
+<tr><td><a href="table_nlrb1961_p0247_t0.html">Geographic Distribution of Collective-Bargaining Elections, Fiscal Year 1961</a></td><td><span class="type-label">Table</span></td><td>Table 15</td><td>247</td></tr>
+<tr><td><a href="table_nlrb1961_p0249_t0.html">Industrial distribution of collective-bargaining elections</a><br><span class="hint">Industrial Distribution of Collective-Bargaining Elections, Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 16</td><td>249</td></tr>
+<tr><td><a href="table_nlrb1961_p0250_t0.html">Size of Units in Collective-Bargaining and Decertification Elections, Fiscal Year 1961</a></td><td><span class="type-label">Table</span></td><td>Table 17</td><td>250</td></tr>
+<tr><td><a href="table_nlrb1961_p0251_t0.html">Injunction litigation docket under Sec. 10(j) and 10(l)</a><br><span class="hint">Injunction Litigation Under Sec. 10(j) and (l), Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 18</td><td>251</td></tr>
+<tr><td><a href="table_nlrb1961_p0251_t1.html">Litigation for enforcement and/or review of Board orders</a><br><span class="hint">Litigation for Enforcement or Review of Board Orders, July 1, 1960–June 30, 1961, and July 5, 1935–June 30, 1961</span></td><td><span class="type-label">Table</span></td><td>Table 19</td><td>251</td></tr>
+<tr><td><a href="table_nlrb1961_p0252_t0.html">Record of 10(l) and 10(j) injunctions litigated</a><br><span class="hint">Record of 10(l) and 10(j) Injunctions Litigated During Fiscal Year 1961</span></td><td><span class="type-label">Table</span></td><td>Table 20</td><td>252</td></tr>
 </tbody>
 </table>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 <script>
 (function () {

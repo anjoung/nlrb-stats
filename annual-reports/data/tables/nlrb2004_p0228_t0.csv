@@ -1,12 +1,21 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11
-All representation elections................................,2832,136,4.8,27,1.0,8,0.3,144,5.1,35,1.2
-By type of cases:,,,,,,,,,,,
-In RC cases...................................................,2362,116,4.9,25,1.1,6,0.3,122,5.2,31,1.3
-In RMcases..................................................,39,1,2.6,0,0.0,1,2.6,2,5.1,1,2.6
-In RD cases...................................................,431,19,4.4,2,0.5,1,0.2,20,4.6,3,0.7
-By type of election:,,,,,,,,,,,
-Consent elections..........................................,60,1,1.7,0,0.0,0,0.0,1,1.7,0,0.0
-Stipulated elections.......................................,2330,33,1.4,14,0.6,5,0.2,38,1.6,19,0.8
-Expedited elections.......................................,1,1,100.0,0,0.0,0,0.0,1,100.0,0,0.0
-Regional Director-directed elections............,441,101,22.9,13,2.9,3,0.7,104,23.6,16,3.6
-Board-directed elections...............................,0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+Type of election,All R elections,All R elections,All R elections,All R elections,RC elections,RC elections,RC elections,RC elections,RM elections,RM elections,RM elections,RM elections,RD elections,RD elections,RD elections,RD elections
+Type of election,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted,Elections conducted
+Type of election,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification,Total elections,Withdrawn or dismissed before certification,Resulting in a rerun or runoff,Resulting in certification
+All representation elections,"2,826",71,54,"2,701","2,356",67,46,"2,243",39,2,0,37,431,2,8,421
+Rerun required,,,52,,,,44,,,,0,,,,8,
+Runoff required,,,2,,,,2,,,,0,,,,0,
+Consent elections,60,2,0,58,60,2,0,58,0,0,0,0,0,0,0,0
+Rerun required,,,0,,,,0,,,,,,,,,
+Runoff required,,,0,,,,0,,,,,,,,,
+Stipulated elections,"2,321",42,38,"2,241","1,912",41,31,"1,840",30,0,0,30,379,1,7,371
+Rerun required,,,36,,,,29,,,,0,,,,7,
+Runoff required,,,2,,,,2,,,,0,,,,0,
+Regional Director–directed,444,27,16,401,384,24,15,345,8,2,0,6,52,1,1,50
+Rerun required,,,16,,,,15,,,,0,,,,1,
+Runoff required,,,0,,,,0,,,,0,,,,0,
+Board-directed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rerun required,,,0,,,,,,,,,,,,,
+Runoff required,,,0,,,,,,,,,,,,,
+Expedited–Sec. 8(b)(7)(C),1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Rerun required,,,0,,,,,,,,0,,,,,
+Runoff required,,,0,,,,,,,,0,,,,,

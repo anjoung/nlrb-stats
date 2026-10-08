@@ -1,14 +1,28 @@
-row_label,col_1,col_2
-"Total, all",66,250
-Certification amended or unit clarified,37,36
-Before hearing,31,13
-By regional director's decision By Board decision,31 0,13 0
-After hearing,6,23
-By regional director's decision By Board decision,6 0,22 .1
-Dismissed,12,119
-Before hearing,8,63
-By regional director's decision By Board decision,8 0,63 0
-After hearing,4,66
-By regional director's decision By Board decision,2 2,61 5
-Withdrawn,17,95
-Before hearing After hearing,16 1,91 4
+Method and stage of disposition,All R cases,All R cases,RC cases,RC cases,RM cases,RM cases,RD cases,RD cases,UD cases,UD cases
+Method and stage of disposition,Number,Percent,Number,Percent,Percent,Number,Number,Percent,Number,Percent
+"Total, all","14,059",100.0,"11,970",100.0,971,100.0,"1,118",100.0,202,100.0
+"Certification issued, total","9,493",67.5,"8,556",71.5,477,49.2,460,41.1,109,54.0
+After.,,,,,,,,,,
+Consent election,"1,551",11.0,"1,360",11.4,94,9.7,97,8.7,32,15.9
+Before notice of hearing,932,6.6,794,6.7,77,7.9,61,5.5,30,15.0
+"After notice of hearing, before hearing closed",616,4.4,563,4.7,17,1.8,36,3.2,2,0.9
+"After hearing closed, before decision",3,0.0,3,0.0,0,,0,,0,
+Stipulated election,"6,145",43.7,"5,582",46.6,289,29.8,274,24.5,15,7.4
+Before notice of hearing,"2,378",16.9,"2,072",17.3,170,17.5,136,12.2,14,6.9
+"After notice of hearing, before hearing closed","3,729",26.5,"3,478",29.1,118,12.2,133,11.9,1,0.5
+"After hearing closed, before decision",38,0.3,32,0.2,1,0.1,5,0.4,0,
+Expedited election,30,0.2,4,0.0,26,2.7,0,,0,
+Regional director-directed election,"1,695",12.1,"1,544",12.9,65,6.7,86,7.7,62,30.7
+Board-directed election,72,0.5,66,0.6,3,0.3,3,0.2,0,
+"By withdrawal, total","3,375",24.0,"2,628",22.0,348,35.8,399,35.7,72,35.6
+Before notice of hearing,"1,680",11.9,"1,152",9.6,250,25.7,278,24.9,70,34.7
+"After notice of hearing, before hearing closed","1,429",10.2,"1,246",10.4,86,8.9,97,8.7,2,0.9
+"After hearing closed, before decision",63,0.4,55,0.5,5,0.5,3,0.2,0,
+After regional director's decision and direction of election,192,1.4,164,1.4,7,0.7,21,1.9,0,
+After Board decision and direction of election,11,0.1,11,0.1,0,,0,,0,
+"By dismissal, total","1,191",8.5,786,6.5,146,15.0,259,23.2,21,10.4
+Before notice of hearing,630,4.5,337,2.8,111,11.4,182,16.3,19,9.4
+"After notice of hearing, before hearing closed",143,1.0,84,0.7,15,1.5,44,3.9,1,0.5
+"After hearing closed, before decision",42,0.3,41,0.3,1,0.1,0,,0,
+By regional director's decision,339,2.4,291,2.4,17,1.8,31,2.8,1,0.5
+By Board decision,37,0.3,33,0.3,2,0.2,2,0.2,0,

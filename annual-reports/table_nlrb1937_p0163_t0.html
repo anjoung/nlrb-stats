@@ -1,0 +1,945 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Cases heard and decisions rendered — NLRB FY1937</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1937.html">FY1937</a> &rsaquo; Cases heard and decisions rendered</p>
+<h1>Cases heard and decisions rendered</h1>
+<p class="meta">source pages 163–173 &middot; <code>nlrb1937_p0163_t0</code></p>
+<p class="spans-note">Stitched from pp. 163–173.</p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Name of case</th><th colspan="4">Date hearing held—</th><th>Date decision issued</th></tr>
+<tr><th>Name of case</th><th colspan="2">By trial examiner</th><th colspan="2">By Board</th><th>Date decision issued</th></tr>
+<tr><th>Name of case</th><th>Date opened</th><th>Date closed</th><th>Date opened</th><th>Date closed</th><th>Date decision issued</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Delaware-New Jersey Ferry Co.</th><td>Oct. 31, 1935</td><td>Oct. 31, 1935</td><td class="blank"></td><td class="blank"></td><td>Dec. 30, 1935</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Nov. 11, 1936</td><td>Nov. 11, 1936</td><td class="blank"></td><td class="blank"></td><td>Nov. 20, 1936</td></tr>
+<tr><th class="stub" scope="row">Wheeling Steel Co.</th><td class="blank"></td><td class="blank"></td><td>Nov. 18, 1935</td><td>Nov. 20, 1935</td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">El Paso Electric Co.</th><td>Nov. 18, 1935</td><td>Nov. 26, 1935</td><td class="blank"></td><td class="blank"></td><td>(d)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(d)</td></tr>
+<tr><th class="stub" scope="row">New England Transportation Co.</th><td>Nov. 26, 1935</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Jan. 21, 1936</td></tr>
+<tr><th class="stub" scope="row">Consumers Research, Inc.</th><td>Dec. 16, 1935</td><td>Dec. 23, 1935</td><td class="blank"></td><td class="blank"></td><td>July 7, 1936</td></tr>
+<tr><th class="stub" scope="row">Protective Motor Service Co., Inc.</th><td>Jan. 8, 1936</td><td>Feb. 8, 1936</td><td class="blank"></td><td class="blank"></td><td>Apr. 28, 1936</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Aug. 6, 1936</td><td>Aug. 6, 1936</td><td class="blank"></td><td class="blank"></td><td>May 6, 1936</td></tr>
+<tr><th class="stub" scope="row">Bemis Bros. Bag Co.</th><td>Jan. 24, 1936</td><td>Feb. 25, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Lion Shoe Co.</th><td>Jan. 27, 1936</td><td>Jan. 31, 1936</td><td class="blank"></td><td class="blank"></td><td>May 20, 1937</td></tr>
+<tr><th class="stub" scope="row">Lehman Bros., Inc.</th><td>Jan. 29, 1936</td><td>Jan. 29, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Sneath Glass Co.</th><td>Feb. 4, 1936</td><td>Feb. 6, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">International Mercantile Marine Co.</th><td>Feb. 13. 1936</td><td>Feb. 18, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Nov. 24, 1936</td><td>Nov. 24, 1936</td><td class="blank"></td><td class="blank"></td><td>Mar. 21, 1936</td></tr>
+<tr><th class="stub" scope="row">Wallace Manufacturing Co.</th><td>Feb. 10, 1936</td><td>Feb. 11, 1936</td><td class="blank"></td><td class="blank"></td><td>June 30, 1937</td></tr>
+<tr><th class="stub" scope="row">Ralph A. Freundlich</th><td>Feb. 17, 1936</td><td>Feb. 19, 1936</td><td class="blank"></td><td class="blank"></td><td>May 19, 1937</td></tr>
+<tr><th class="stub" scope="row">Gray-Knox Marble Co.</th><td>do</td><td>Apr. 3, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Englander Spring Bed Co.</th><td>Mar. 2, 1936</td><td>Apr. 10, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Ohio Custom Garment Co.</th><td>do</td><td>Mar. 4, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Hardwick Stove Co.</th><td>do</td><td>Mar. 5, 1936</td><td class="blank"></td><td class="blank"></td><td>July 8, 1936</td></tr>
+<tr><th class="stub" scope="row">Alabama Mills, Inc.</th><td>Mar. 9, 1936</td><td>Mar. 10, 1936</td><td class="blank"></td><td class="blank"></td><td>July 6, 1936</td></tr>
+<tr><th class="stub" scope="row">Alaska Juneau Gold Mining Co.</th><td>Mar. 12, 1936</td><td>Mar. 21, 1936</td><td class="blank"></td><td class="blank"></td><td>July 21, 1936</td></tr>
+<tr><th class="stub" scope="row">The Warfield Co.</th><td>do</td><td>Mar. 14, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Mesta Machine Co.</th><td>Mar. 16, 1936</td><td>Mar. 16, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Mooresville Cotton Mills</th><td>do</td><td>Apr. 29, 1936</td><td class="blank"></td><td class="blank"></td><td>June 10, 1937</td></tr>
+<tr><th class="stub" scope="row">Renown Stove Co.</th><td>Mar. 17, 1936</td><td>Mar. 19, 1936</td><td class="blank"></td><td class="blank"></td><td>July 21, 1936</td></tr>
+<tr><th class="stub" scope="row">Bradley-Lumber Co.</th><td>Mar. 16, 1936</td><td>Apr. 29, 1936</td><td class="blank"></td><td class="blank"></td><td>(d)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(d)</td></tr>
+<tr><th class="stub" scope="row">C. G. Conn, Ltd.</th><td>Mar. 19, 1936</td><td>Mar. 30, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Crucible Steel Co.</th><td>Mar. 23, 1936</td><td>Mar. 23, 1936</td><td class="blank"></td><td class="blank"></td><td>Oct. 29, 1936</td></tr>
+<tr><th class="stub" scope="row">Cherry Cotton Mills</th><td>do</td><td>Mar. 26, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Robert H. Foerderer, Inc.</th><td>Mar. 24, 1936</td><td>Apr. 7, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">S. Cohen &amp; Sons</th><td>Mar. 30, 1936</td><td>Mar. 30, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Wholesale Radio Service, Inc.</th><td>Apr. 2, 1936</td><td>Apr. 10, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Gray-Knox Marble Co.</th><td>do</td><td>Apr. 3, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Aluminum Co. of America</th><td>Apr. 7, 1936</td><td>June 30, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Carlisle Lumber Co.</th><td>do</td><td>Apr. 18, 1936</td><td class="blank"></td><td class="blank"></td><td>Sept. 26, 1936</td></tr>
+<tr><th class="stub" scope="row">Indiana Textile Mills, Inc.</th><td>Apr. 9, 1936</td><td>Apr. 9, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Robinson &amp; Golluber</th><td>Apr. 13, 1936</td><td>Apr. 14, 1936</td><td class="blank"></td><td class="blank"></td><td>Dec. 19, 1936</td></tr>
+<tr><th class="stub" scope="row">Louis Hornick Co.</th><td>Apr. 16, 1936</td><td>Apr. 22, 1936</td><td class="blank"></td><td class="blank"></td><td>June 12, 1937</td></tr>
+<tr><th class="stub" scope="row">Bemis Bros. Bag Co.</th><td>Apr. 17, 1936</td><td>Apr. 18, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Signal Knitting Mills</th><td>Apr. 20, 1936</td><td>Apr. 23, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Ilena Knitting Mills</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Samson Tire &amp; Rubber Corp.</th><td>do</td><td>May 20, 1936</td><td class="blank"></td><td class="blank"></td><td>Sept. 10, 1936</td></tr>
+<tr><th class="stub" scope="row">Tucker Oil Co.</th><td>Apr. 24, 1936</td><td>Apr. 25, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Demarest Silk Co.</th><td>Apr. 27, 1936</td><td>Apr. 27, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Gardner-Denver Co.</th><td>Apr. 29, 1936</td><td>May 1, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">The Optical Products Co.</th><td>Apr. 30, 1936</td><td>May 2, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Boss Manufacturing Co.</th><td>do</td><td>May 1, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Riverside Knitting Mills</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Aluminum Products Co.</th><td>do</td><td>June 16, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Trenton Mills, Inc.</th><td>May 1, 1936</td><td>May 2, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Welwood Norwich Silk Mills, Inc.</th><td>do</td><td>May 4, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Club Troika, Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>July 8, 1936</td></tr>
+<tr><th class="stub" scope="row">Pacific Mills Co.</th><td>do</td><td>May 6, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">S. Gutman &amp; Co., Inc.</th><td>do</td><td>May 23, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">American Potash &amp; Chemical Co.</th><td>do</td><td>June 3, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">International Harvester Co.</th><td class="blank"></td><td class="blank"></td><td>May 5, 1936</td><td>May 16, 1936</td><td>Nov. 12, 1936</td></tr>
+<tr><th class="stub" scope="row">J. Freezer &amp; Sons, Inc.</th><td>May 7, 1936</td><td>May 7, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Agwilines, Inc.</th><td>do</td><td>May 11, 1936</td><td class="blank"></td><td class="blank"></td><td>July 3, 1936</td></tr>
+<tr><th class="stub" scope="row">Quidnick Dye Works</th><td>May 14, 1936</td><td>May 14, 1936</td><td class="blank"></td><td class="blank"></td><td>June 11, 1937</td></tr>
+<tr><th class="stub" scope="row">American Tobacco Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Oct. 31, 1936</td></tr>
+<tr><th class="stub" scope="row">Fall River Gas Works Co.</th><td>May 18, 1936</td><td>May 19, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Fit-Rite Slipper Co. Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">St. Joseph Stock Yards Co.</th><td>do</td><td>May 18, 1936</td><td class="blank"></td><td class="blank"></td><td>July 8, 1936</td></tr>
+<tr><th class="stub" scope="row">Memphis Furniture Mfg. Co.</th><td>May 21, 1936</td><td>May 27, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Clark &amp; Reid</th><td>May 25, 1936</td><td>May 25, 1936</td><td class="blank"></td><td class="blank"></td><td>Dec. 30, 1936</td></tr>
+<tr><th class="stub" scope="row">Atlas Mills</th><td>do</td><td>May 26, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">J. W. Sanders Cotton Mills, Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Stanley Works Co.</th><td>May 28, 1936</td><td>May 28, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Richards Wilcox Mfg. Co.</th><td>do</td><td>May 29, 1936</td><td class="blank"></td><td class="blank"></td><td>July 8, 1936</td></tr>
+<tr><th class="stub" scope="row">D. &amp; H. Motor Freight Co.</th><td>June 8, 1936</td><td>June 8, 1936</td><td class="blank"></td><td class="blank"></td><td>Sept. 12, 1936</td></tr>
+<tr><th class="stub" scope="row">Lykes Bros.-Ripley Steamship Co.</th><td>June 12, 1936</td><td>June 15, 1936</td><td class="blank"></td><td class="blank"></td><td>July 8, 1936</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Chesapeake Mfg. Co.</th><td>June 15, 1936</td><td>June 16, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Claussner Hosiery Co.</th><td class="blank"></td><td class="blank"></td><td>June 17, 1936</td><td>June 17, 1936</td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Nolan Motor Co.</th><td>June 22, 1936</td><td>June 23, 1936</td><td class="blank"></td><td class="blank"></td><td>Nov. 12, 1936</td></tr>
+<tr><th class="stub" scope="row">Schonfield &amp; Reis</th><td>June 25, 1936</td><td>June 25, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Boyertown Burial Casket Co.</th><td>June 26, 1936</td><td>June 26, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Fisher Body Corporation</th><td>June 30, 1936</td><td>July 6, 1936</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Chevrolet Motor Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Martin Dyeing &amp; Finishing Co.</th><td>July 2, 1936</td><td>Aug. 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Dec. 7, 1936</td></tr>
+<tr><th class="stub" scope="row">Uxbridge Worsted Co., Glenmark mill</th><td>July 9, 1936</td><td>Aug. 11, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Luckenbach Steamship Co., Inc.</th><td>July 15, 1936</td><td>July 17, 1936</td><td class="blank"></td><td class="blank"></td><td>Aug. 31, 1936</td></tr>
+<tr><th class="stub" scope="row">Associated Banning Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">United Fruit Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Dollar Steamship Lines, Inc., Ltd.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">San Francisco Stevedoring Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">American-Hawaiian Steamship Co., a corporation</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Matson Navigation Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">McCormick Steamship Co., a corporation</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Union Steamship Co. of New Zealand</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Nelson Steamship Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Ocean Terminals, Inc.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Pacific Steamship Lines</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Arrow Line</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pacific Oriental Terminals Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Aug. 31, 1936</td></tr>
+<tr><th class="stub" scope="row">Nippon Yusen Kaisha Line</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Grace Line, a corporation</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Aug. 31, 1936</td></tr>
+<tr><th class="stub" scope="row">Bay Cities Transportation Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Williams Dimond &amp; Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Sudden &amp; Christenson</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">The Kingsly Co. of California</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Mackay Radio &amp; Telegraph Co.</th><td>do.</td><td>July 27, 1936</td><td class="blank"></td><td class="blank"></td><td>Dec. 29, 1936</td></tr>
+<tr><th class="stub" scope="row">Bell Oil &amp; Gas Co. et al.</th><td>July 16, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>June 1, 1937</td></tr>
+<tr><th class="stub" scope="row">Clermont Cravat Co.</th><td>July 20, 1936</td><td>do.</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pacific Steamship Lines</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>Sept. 10, 1936</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">A. B. Johnson Lumber Co.</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">E. K. Wood Lumber Co.</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">J. Ramselius</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Hart Wood Lumber Co.</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pacific Lumber Co.</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Dispatch Stevedoring &amp; Contracting Co.</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Sept. 10, 1936</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">E. L. Reitz Co.</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">American-Hawaiian Steamship Co.</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">American Mail Line, a corporation</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Sept. 10, 1936</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Los Angeles-San Francisco Navigation Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Baxter Lumber Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Beadle Steamship Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Chamberlain Steamship Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Coos Bay Lumber Co</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Dollar Lines, Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Freeman Steamship Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Grace Line, Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">J. A. Griffiths Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Hammond Shipping Co., Inc.</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Higgins Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Hobbs-Wall Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Kingsley Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Sept. 10, 1936</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Lawrence-Phillips Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">McCormick Steamship Co</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">McCormick Steamship Co</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Moore Mill &amp; Lumber Co</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">National Steamship Co</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Nelson Steamship Co</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Nelson &amp; Co</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Oceanic &amp; Oriental Navigation Co</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Ogden Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Olson Steamship Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Paramino Lumber Co</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Schaeffer Brothers, Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">States Steamship Co., Inc</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Sudden &amp; Christenson</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Sudden &amp; Christenson</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Swayne &amp; Hoyt</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">United Fruit Co</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Matson Lines</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">J. R. Hanify</th><td>July 20, 1936</td><td>July 21, 1936</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Sept. 2, 1936</td><td>Sept. 3, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Bell Oil &amp; Gas Co., et al</th><td>July 21, 1936</td><td>July 22, 1936</td><td class="blank"></td><td class="blank"></td><td>Mar. 4, 1937</td></tr>
+<tr><th class="stub" scope="row">Pacific Greyhound Lines, Inc.</th><td>July 23, 1936</td><td>July 29, 1936</td><td class="blank"></td><td class="blank"></td><td>Dec. 18, 1936</td></tr>
+<tr><th class="stub" scope="row">R. C. A. Mfg. Co., Inc.</th><td>July 25, 1936</td><td>July 25, 1936</td><td class="blank"></td><td class="blank"></td><td>Aug. 3, 1936</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Y. M. C. A. of the District of Columbia</th><td>Aug. 3, 1936</td><td>Aug. 5, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Union Pacific Stages, Inc.</th><td>do</td><td>Aug. 12, 1936</td><td class="blank"></td><td class="blank"></td><td>Dec. 19, 1936</td></tr>
+<tr><th class="stub" scope="row">American-Hawaiian Steamship Co.</th><td>Aug. 6, 1936</td><td>Aug. 6, 1936</td><td class="blank"></td><td class="blank"></td><td>Dec. 12, 1936</td></tr>
+<tr><th class="stub" scope="row">Oceanic &amp; Oriental Navigation Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Williams Steamship Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Swayne &amp; Hoyt, Ltd.</th><td>Aug. 7, 1936</td><td>Aug. 7, 1936</td><td class="blank"></td><td class="blank"></td><td>Oct. 2, 1936</td></tr>
+<tr><th class="stub" scope="row">S. Liebovitz &amp; Sons, Inc.</th><td>Aug. 10, 1936</td><td>Aug. 10, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Black Diamond Steamship Corporation</th><td>Aug. 20, 1936</td><td>Aug. 24, 1936</td><td class="blank"></td><td class="blank"></td><td>Sept. 24, 1936</td></tr>
+<tr><th class="stub" scope="row">Panama R. R. Co.</th><td>Aug. 21, 1936</td><td>Aug. 22, 1936</td><td class="blank"></td><td class="blank"></td><td>Oct. 21, 1936</td></tr>
+<tr><th class="stub" scope="row">The Associated Press</th><td>Aug. 27, 1936</td><td>Aug. 27, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">The Weiss &amp; Klau Co.</th><td>Sept. 3, 1936</td><td>Sept. 14, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Cities Service Refining Co.</th><td>Sept. 10, 1936</td><td>Sept. 11, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">William Randolph Hearst et al.</th><td>do</td><td>Sept. 29, 1936</td><td>Nov. 9, 1936</td><td>Nov. 10, 1936</td><td>Jan. 13, 1937</td></tr>
+<tr><th class="stub" scope="row">Alexander Smith Sons &amp; Co.</th><td>Sept. 24, 1936</td><td>Sept. 25, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Seas Shipping Co.</th><td>Oct. 13, 1936</td><td>Oct. 13, 1936</td><td class="blank"></td><td class="blank"></td><td>Dec. 4, 1936</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Nov. 19, 1936</td><td>Nov. 19, 1936</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Grace Line, Inc.</th><td>Oct. 13, 1936</td><td>Oct. 13, 1936</td><td class="blank"></td><td class="blank"></td><td>Nov. 13, 1936</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>Jan. 7, 1937</td><td>Jan. 7, 1937</td><td class="blank"></td><td class="blank"></td><td>Feb. 4, 1937</td></tr>
+<tr><th class="stub" scope="row">Remington-Rand, Inc.</th><td>Oct. 14, 1936</td><td>Dec. 11, 1936</td><td class="blank"></td><td class="blank"></td><td>Mar. 13, 1937</td></tr>
+<tr><th class="stub" scope="row">Waldorf System, Inc.—John F. Brady</th><td>Oct. 15, 1936</td><td>Oct. 19, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">American Potash &amp; Chemical Co.</th><td>do</td><td>Oct. 16, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Hill Bus Co., a corporation</th><td>Oct. 26, 1936</td><td>Nov. 12, 1936</td><td class="blank"></td><td class="blank"></td><td>May 3, 1937</td></tr>
+<tr><th class="stub" scope="row">Clyde-Mallory Lines</th><td>Nov. 2, 1936</td><td>Nov. 2, 1936</td><td class="blank"></td><td class="blank"></td><td>Nov. 30, 1936</td></tr>
+<tr><th class="stub" scope="row">Oregon Worsted Co.</th><td>Nov. 9, 1936</td><td>Nov. 9, 1936</td><td class="blank"></td><td class="blank"></td><td>Dec. 9, 1936</td></tr>
+<tr><th class="stub" scope="row">Tidewater Express Lines, Inc.</th><td>Nov. 23, 1936</td><td>Nov. 30, 1936</td><td class="blank"></td><td class="blank"></td><td>Jan 23, 1937</td></tr>
+<tr><th class="stub" scope="row">Motor Transport Co.</th><td>Nov. 24, 1936</td><td>Nov. 25, 1936</td><td class="blank"></td><td class="blank"></td><td>Jan. 22, 1937</td></tr>
+<tr><th class="stub" scope="row">International Mercantile Marine Co.</th><td>do</td><td>Nov. 24, 1936</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Globe Mail Service, Inc.</th><td>Dec. 7, 1936</td><td>Dec. 23, 1936</td><td class="blank"></td><td class="blank"></td><td>Mar. 10, 1937</td></tr>
+<tr><th class="stub" scope="row">The Samoset Mills</th><td>Dec. 8, 1936</td><td>Mar. 30, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Shell Oil Co.</th><td>Dec. 10, 1936</td><td>Jan. 29, 1937</td><td class="blank"></td><td class="blank"></td><td>May 24, 1937</td></tr>
+<tr><th class="stub" scope="row">Moore Dry Dock</th><td>Dec. 15, 1936</td><td>Dec. 17, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">United States Steel Corporation and carnegie Illinois Steel Corporation</th><td>Jan. 13, 1937</td><td>Feb. 20, 1937</td><td>Dec. 17, 1936</td><td>Jan. 12, 1937</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td class="blank"></td><td class="blank"></td><td>Apr. 26, 1937</td><td>Apr. 26, 1937</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Do.</th><td class="blank"></td><td class="blank"></td><td>June 4, 1937</td><td>June 4, 1937</td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Rocks Express Co.</th><td>Dec. 21, 1936</td><td>Dec. 21, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Stimson Lumber Co.</th><td>do</td><td>Dec. 22, 1936</td><td class="blank"></td><td class="blank"></td><td>Feb. 16, 1937</td></tr>
+<tr><th class="stub" scope="row">Portland Gas &amp; Coke Co.</th><td>Dec. 22, 1936</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Mar. 9, 1937</td></tr>
+<tr><th class="stub" scope="row">Crystal Springs Finishing Co.</th><td>Dec. 28, 1936</td><td>Dec. 28, 1936</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Houston Cartage Co.</th><td>do</td><td>Dec. 29, 1936</td><td class="blank"></td><td class="blank"></td><td>June 12, 1937</td></tr>
+<tr><th class="stub" scope="row">Goodman Warehouse Corporation</th><td>Jan. 4, 1937</td><td>Jan. 4, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Cosmopolitan Shipping Co.</th><td>Jan. 11, 1937</td><td>Jan. 11, 1937</td><td class="blank"></td><td class="blank"></td><td>Apr. 2, 1937</td></tr>
+<tr><th class="stub" scope="row">Merchants &amp; Miners Transportation Co.</th><td>Jan. 14, 1937</td><td>Jan. 14, 1937</td><td class="blank"></td><td class="blank"></td><td>Mar. 18, 1937</td></tr>
+<tr><th class="stub" scope="row">Phillips Petroleum Co., Phillips Pipe Line Co.</th><td>Jan. 18, 1937</td><td>Feb. 5, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Shell Oil Co. of Calif.</th><td>do</td><td>Jan. 29, 1937</td><td class="blank"></td><td class="blank"></td><td>May 24, 1937</td></tr>
+<tr><th class="stub" scope="row">Ocean Steamship Co. of Savannah</th><td>Jan. 21, 1937</td><td>Jan. 21, 1937</td><td class="blank"></td><td class="blank"></td><td>Mar. 6, 1937</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">New York &amp; Cuba Mail Steamship Co.</th><td>Jan. 22, 1937</td><td>Jan. 22, 1937</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">American Steamship Owners&#x27; Association</th><td class="blank"></td><td class="blank"></td><td>Jan. 22, 1937</td><td>Jan. 28, 1937</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">International Mercantile Marine Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Grace Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Luckenbach Gulf Steamship Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Luckenbach Steamship Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Munson Steamship Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Export Steamship Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">American Pioneer Line, Atlantic Division, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Panama Mail Steamship Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">United States Line Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">American Hampton Roads Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Baltimore Insular Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">A. H. Bull Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Shepard Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Mississippi Shipping Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Waterman Steamship Corporation, Mobile, Ala.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Pan Atlantic Steamship Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Ocean Steamship Co. of Savannah</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Mooremack Gulf Lines</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Newtex Steamship Corporation, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Argonaut Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Sword Steamship Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Sinclair Navigation Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Lykes Bros. Ripley Steamship Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Lykes Brothers Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">American Republic Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Cosmopolitan Shipping Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">New York &amp; Cuba Mail Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">New York &amp; Porto Rico Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Clyde Mallory Lines</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Colombian Steamship Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Isthmian Steamship Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Standard Oil Co. of New Jersey</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Black Diamond Steamship Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Atlantic Gulf &amp; West Indies Steamship Lines</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">American West African Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Willard, Inc.</th><td>Jan. 25, 1937</td><td>Jan. 25, 1937</td><td class="blank"></td><td class="blank"></td><td>June 30, 1937</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>May 11, 1937</td><td>May 11, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Calvert-Maryland Distilling Co., Inc.</th><td>Jan. 28, 1937</td><td>Jan. 29, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">United Fruit Co.</th><td>Feb. 2, 1937</td><td>Feb. 4, 1937</td><td class="blank"></td><td class="blank"></td><td>June 1, 1937</td></tr>
+<tr><th class="stub" scope="row">Elbe File &amp; Binder Co., Inc.</th><td>Feb. 4, 1937</td><td>Feb. 6, 1937</td><td class="blank"></td><td class="blank"></td><td>June 2, 1937</td></tr>
+<tr><th class="stub" scope="row">Wald Transfer &amp; Storage Co., Inc.</th><td>Feb. 8, 1937</td><td>Feb. 18, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Oregon Worsted Co.</th><td>do</td><td>Mar. 25, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Greenwald &amp; Co.</th><td>Feb. 9, 1937</td><td>Feb. 9, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Condenser Corporation of America</th><td>Feb. 15, 1937</td><td>Pending</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>June 3, 1937</td><td>June 24, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Condenser Corporation of America</th><td>Feb. 15, 1937</td><td>Mar. 1, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>June 3, 1937</td><td>June 24, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Cornell Dubilier Corporation</th><td>Feb. 15, 1937</td><td>Mar. 1, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>June 3, 1937</td><td>June 24, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Suburban Lumber Co.</th><td>Feb. 18, 1937</td><td>Feb. 19, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Black Diamond Steamship Corporation</th><td>Feb. 23, 1937</td><td>Feb. 25, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Appalachian Electric Power Co.</th><td>Feb. 25, 1937</td><td>Feb. 26, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Central Truck Lines, Inc.</th><td>Feb. 26, 1937</td><td>Mar. 2, 1937</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(a)</td></tr>
+<tr><th class="stub" scope="row">Postal Telegraph Cable Co</th><td>Mar. 1, 1937</td><td>Mar. 1, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Millfay Manufacturing Co</th><td>do</td><td>Mar. 3, 1937</td><td class="blank"></td><td class="blank"></td><td>June 5, 1937</td></tr>
+<tr><th class="stub" scope="row">Northrup Corporation</th><td>Mar. 5, 1937</td><td>Mar. 5, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Douglas Aircraft Co., Inc.</th><td>do</td><td>Mar. 15, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Santa Fe Trail Transportation Co.</th><td>Mar. 8, 1937</td><td>Mar. 8, 1937</td><td class="blank"></td><td class="blank"></td><td>Apr. 2, 1937</td></tr>
+<tr><th class="stub" scope="row">Grace Line, Inc.</th><td>Mar. 9, 1937</td><td>Mar. 9, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Consolidated Aircraft Corporation</th><td>Mar. 11, 1937</td><td>Mar. 16, 1937</td><td class="blank"></td><td class="blank"></td><td>Apr. 30, 1937</td></tr>
+<tr><th class="stub" scope="row">Harrisburg Children&#x27;s Dress Co.</th><td>Mar. 12, 1937</td><td>Mar. 25, 1937</td><td class="blank"></td><td class="blank"></td><td>June 28, 1937</td></tr>
+<tr><th class="stub" scope="row">WCAU Broadcasting Co.</th><td>Mar. 15, 1937</td><td>Mar. 15, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Montgomery Ward &amp; Co.</th><td>Mar. 17, 1937</td><td>Mar. 24, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Willard, Inc.</th><td>Mar. 18, 1937</td><td>Mar. 30, 1937</td><td class="blank"></td><td class="blank"></td><td>June 30, 1937</td></tr>
+<tr><th class="stub" scope="row">Further hearing</th><td>May 11, 1937</td><td>May 11, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">The Borden Co. et al</th><td>Mar. 18, 1937</td><td>May 17, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Willard, Inc.</th><td>do</td><td>Mar. 30, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Nicolet Paper Co.</th><td>do</td><td>Mar. 18, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Newton Packing Co.</th><td>Mar. 29, 1937</td><td>May 22, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Louisville Refining Co.</th><td>Apr. 1, 1937</td><td>Apr. 8, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Panama Pacific Lines</th><td>do</td><td>Apr. 5, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Williams Dimond Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>May 24, 1937</td></tr>
+<tr><th class="stub" scope="row">Associated Banning Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Norton Lilly &amp; Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">American Hawaiian Steamship Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>May 24, 1937</td></tr>
+<tr><th class="stub" scope="row">Interocean Steamship Corporation</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Luckenbach Steamship Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>May 24, 1937</td></tr>
+<tr><th class="stub" scope="row">Dollar Steamship Lines, Inc., Ltd.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Swayne &amp; Hoyt, Inc. Steamship Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>May 24, 1937</td></tr>
+<tr><th class="stub" scope="row">McCormick Steamship Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Ocean Terminals, Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Hammond Shipping Co., Ltd.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>May 24, 1937</td></tr>
+<tr><th class="stub" scope="row">Grace Line</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Matson Navigation Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Outer Harbor Dock Wharf Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>May 24, 1937</td></tr>
+<tr><th class="stub" scope="row">Inner Harbor Terminal Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Kerckhoff &amp; Cuzner Mill &amp; Lumber Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Hammond Lumber Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Consolidated Lumber Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Patten-Blinn Lumber Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">John E. Marshall, Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Gripper and Haglind Lumber Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Barber Steamship Lines, Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Dodwell &amp; Co., Ltd.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Furness Pacific, Ltd.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Marine Terminals Corporation</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">P. F. Soto Shipping Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Sudden &amp; Christenson</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">American Lumber &amp; Treating Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">E. K. Wood Lumber Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Pinkerton National Detectives Agency &amp; Patrol Service</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>May 24, 1937</td></tr>
+<tr><th class="stub" scope="row">Pacific Port Service Corporation</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Honolulu Stevedores, Ltd., &amp; Castle &amp; Cook, Ltd.</th><td>Apr. 5, 1937</td><td>Apr. 29, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Grower-Shipper Vegetable Association of Central California</th><td>Apr. 12, 1937</td><td>May 18, 1937</td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">F. V. Birbeck</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Bruce Church Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">O. O. Eaton</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Farley Fruit Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">H. P. Garin Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">E. E. Harden Packing Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Holme &amp; Seifert</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Ice-Kist Packing Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">M. L. Kalich &amp; Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">J. G. Marinovich</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">S. Rianda Packing Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">J. A. Simmons, Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">E. H. Spiegl</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">D. A. Storm, Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Watsonville Exchange, Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">A. Arena &amp; Co., Ltd.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Farmers Produce Co., Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">S. A. Gerrard Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">W. B. Grainger Packing Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Major Distributing Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Merrill Packing Co., Inc., Ltd.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">K. R. Nutting Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Salinas Valley Vegetable Exchange</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Salinas Lettuce Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Sears Brothers &amp; Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Lester Stirling Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Peter A. Stolich, Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">W. R. Van Noy, Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">W. &amp; S. Packing Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Western Growers Protective Association</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Ohio Fuel &amp; Gas Co.</th><td>do</td><td>Apr. 14, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">New York-Pennsylvania Motor Express, Inc.</th><td>Apr. 15, 1937</td><td>Apr. 16, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Benders Transport Co.</th><td>Apr. 16, 1937</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Todd Seattle Dry Docks, Inc.</th><td>do</td><td>Apr. 22, 1937</td><td class="blank"></td><td class="blank"></td><td>June 29, 1937</td></tr>
+<tr><th class="stub" scope="row">Acklin Stamping Co.</th><td>do</td><td>Apr. 27, 1937</td><td class="blank"></td><td class="blank"></td><td>May 28, 1937</td></tr>
+<tr><th class="stub" scope="row">Frederick R. Barrett</th><td>Apr. 29, 1937</td><td>May 8, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Bowman Elder, receiver for Indiana R. R., Inc.</th><td>May 3, 1937</td><td>May 18, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">United States Stamping Co.</th><td>May 6, 1937</td><td>May 21, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">The Goodyear Tire &amp; Rubber Co.</th><td>do</td><td>May 6, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Highway Trailer Co.</th><td>do</td><td>May 13, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Emerson Electric Mfg. Co.</th><td>May 7, 1937</td><td>May 14, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Southgate Nelson Corporation</th><td>May 13, 1937</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Advance Pressure Castings, Inc.</th><td>do</td><td>May 15, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">American Cyanamid &amp; Chemical Corporation</th><td>do</td><td>May 13, 1937</td><td class="blank"></td><td class="blank"></td><td>May 28, 1937</td></tr>
+<tr><th class="stub" scope="row">Southgate Nelson Corporation of Norfolk, Va.</th><td>May 14, 1937</td><td>May 14, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Cosmopolitan Chemical Co. et al.</th><td>May 17, 1937</td><td>June 26, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Biles Coleman Lumber Co.</th><td>do</td><td>Pending</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">McCabe, Hamilton &amp; Renny, Ltd.</th><td>May 18, 1937</td><td>May 20, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Interlake Iron Corporation</th><td>May 20, 1937</td><td>May 22, 1937</td><td class="blank"></td><td class="blank"></td><td>June 26, 1937</td></tr>
+<tr><th class="stub" scope="row">Electric Boat Co.</th><td>do</td><td>June 17, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Kroehler Manufacturing Co.</th><td>do</td><td>June 18, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">National Motor Bearing Co.</th><td>May 24, 1937</td><td>Pending</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Charles Cushman Shoe Co.</th><td>do</td><td>June 15, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Somerset Shoe Co</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Clark Shoe Co.</th><td>June 15, 1937</td><td>May 24, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Augusta Shoe Corp.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">C. V. Watson Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Venus Shoe Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Mascott Shoe Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Holmes-Bohr Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Lown Shoe Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Maine Shoes, Inc.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Lumbard Shoe Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Koss Shoe Co., Inc.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">B. A. Corbin &amp; Son</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Ault-Williamson Shoe Co.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Thompson Products, Inc.</th><td>do.</td><td>May 26, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">RCA Communications, Inc.</th><td>May 27, 1937</td><td>May 27, 1937</td><td class="blank"></td><td class="blank"></td><td>June 30, 1937</td></tr>
+<tr><th class="stub" scope="row">R. C. A. Communications, Inc.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>June 30, 1937</td></tr>
+<tr><th class="stub" scope="row">Sheba Ann Frocks, Inc.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">The Industrial Rayon Corporation</th><td>do.</td><td>June 10, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">International Mercantile Marine Co.</th><td class="blank"></td><td class="blank"></td><td>May 27, 1937</td><td>May 28, 1937</td><td>June 11, 1937</td></tr>
+<tr><th class="stub" scope="row">Luckenbach Steamship Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do.</td><td>do.</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Black Diamond Steamship Corporation</th><td class="blank"></td><td class="blank"></td><td>do.</td><td>do.</td><td>Do.</td></tr>
+<tr><th class="stub" scope="row">Seagraves Corporation</th><td>June 1, 1937</td><td>June 1, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Lukens Steel Co.</th><td>June 2, 1937</td><td>June 9, 1937</td><td class="blank"></td><td class="blank"></td><td>June 14, 1937</td></tr>
+<tr><th class="stub" scope="row">Yardley Screen &amp; Weatherstrip Co.</th><td>do.</td><td>June 8, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Johns-Manville Products Corporation</th><td>June 3, 1937</td><td>June 3, 1937</td><td class="blank"></td><td class="blank"></td><td>June 26, 1937</td></tr>
+<tr><th class="stub" scope="row">Grover C. Naylor, Jr.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Federal Bearing Co., Inc. et al.</th><td>do.</td><td>June 12, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Hopwood Retinning Co., Inc. et al.</th><td>June 7, 1937</td><td>June 19, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Fansteel Metallurgical Co.</th><td>do.</td><td>June 25, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Douglas Aircraft Co., Inc.</th><td>do.</td><td>Pending</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Mansfield Mills, Inc.</th><td>June 10, 1937</td><td>June 14, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Metropolitan Engineering Co. et al.</th><td>do.</td><td>June 17, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Electric Vacuum Cleaner Co.</th><td>do.</td><td>June 18, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Combustion Engineering Co., Inc.</th><td>do.</td><td>June 11, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Westinghouse Electric Mfg. Co.</th><td>June 11, 1937</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Hunter Packing Co.</th><td>June 14, 1937</td><td>June 15, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Northrop Corp.</th><td>do.</td><td>June 19, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Fleischer Studios, Inc.</th><td>June 16, 1937</td><td>June 17, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Titan Metal Manufacturing Co.</th><td>June 17, 1937</td><td>Pending</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Cardinale Trucking Corp.</th><td>do.</td><td>June 18, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Triplett Electrical Instrument Co.</th><td>do.</td><td>June 23, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Do.</th><td>do.</td><td>do.</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Industrial Rayon Corp.</th><td class="blank"></td><td class="blank"></td><td>June 18, 1937</td><td>June 19, 1937</td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">American Locomotive Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Idaho-Maryland Mining Co.</th><td>do.</td><td>June 30, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Dickson-Jenkins Mfg. Co.</th><td>do.</td><td>June 24, 1937</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Washington Mfg. Co.</th><td>do.</td><td>Pending</td><td class="blank"></td><td class="blank"></td><td>(c)</td></tr>
+<tr><th class="stub" scope="row">Huth &amp; James Shoe Mfg. Co.</th><td>June 21, 1937</td><td>June 21, 1937</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American France Line</th><td class="blank"></td><td class="blank"></td><td>June 21, 1937</td><td>June 21, 1937</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American Foreign Steamship Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American Caribbean Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American Diamond Lines, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American Export Lines</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American Hampton Roads Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American Republics Lines</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American Scantic Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American South African Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American Sugar Transit Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American Tankers Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American West African Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Anchor Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Argonaut Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">The Atlantic &amp; Caribbean Steam-Navigation Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Atlantic Gulf and West Indies Steamship Lines</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">The Atlantic Refining Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Baltimore &amp; Carolina Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Baltimore Mail Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Baltimore Steam Packet Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Barbour Steamship Lines, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">A. H. Bull Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Baltimore Insular Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Calmar Steamship Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Cities Service Oil Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Clyde Mallory Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Colonial Navigation Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Continental Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Grace Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Gulf Oil Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Isthmian Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Kellogg Steamship Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Lykes Bros. Ripley Steamship Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">The Export Steamship Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Cosmopolitan Shipping Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Eastern Steamship Lines</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Moor &amp; McCormack Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Merchant &amp; Miners Transportation Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Mississippi Shipping Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Mooremack Gulf Lines, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Munson Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">The New York &amp; Porto Rico Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Newtex Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">New York &amp; Cuba Mail Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Ocean Steamship Co. of Savannah</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Old Dominion Steamship Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Ore Steamship Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Panama R. R. Co. Steamship Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Pennsylvania Shipping Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Petroleum Navigation Co.</th><td class="blank"></td><td class="blank"></td><td>June 21, 1937</td><td>June 21, 1937</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Porto Rico Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Pure Oil Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Red &quot;D&quot; Line of Steamships</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Richfield Oil Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Sabin Towing Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Savannah Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Seas Shipping Co., Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Seatrain Lines, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Shepard Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Sinclair Navigation Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Socony Vacuum Oil Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">South Atlantic Steamship Line</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Southern Pacific Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Southern Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Standard Fruit &amp; Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Standard Navigation Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Standard Oil Co. of New Jersey</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Sun Oil Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Sword Steamship Line, Inc.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Tampa Inter Ocean Steamship Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Tankers Corporation</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">The Texas Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Tidewater Associated Oil Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">United Fruit Co.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Waterman Steamship Corp.</th><td class="blank"></td><td class="blank"></td><td>do</td><td>do</td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Harry Fleisig, Inc.</th><td>June 22, 1937</td><td>June 25, 1937</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Canadian Fur Trappers Corporation et al</th><td>June 24, 1937</td><td>June 30, 1937</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">The Globe Machine &amp; Stamping Co.</th><td>do</td><td>June 25, 1937</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Do</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Ward Furniture Mfg. Co.</th><td>do</td><td>June 28, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Montgomery Ward &amp; Co., Inc.</th><td>do</td><td>Pending</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">American-Hawaiian Steamship Co.</th><td class="blank"></td><td>June 24, 1937</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">McCormick Steamship Co. et al</th><td class="blank"></td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Panama Pacific Steamship Co. et al</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Williams Dimond &amp; Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Swayne &amp; Hoyt</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">General Steamship Corporation</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Norton Lilly &amp; Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Hammond Shipping Co., Ltd.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Associated Banning Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Dollar Steamship Lines, Inc., Ltd.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Grace Line</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Marine Terminals Corporation</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Matson Navigation Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Interocean Steamship Corporation</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Los Angeles &amp; San Francisco Navigation Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">P. F. Soto Shipping Co., Ltd.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Luckenbach Steamship Co., Inc.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Outer Harbor Dock &amp; Wharf Co.</th><td>do</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+<tr><th class="stub" scope="row">Ward Furniture Mfg. Co.</th><td>do</td><td>June 28, 1937</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Woods Manufacturing Co.</th><td>June 28, 1937</td><td>do</td><td class="blank"></td><td class="blank"></td><td>(b)</td></tr>
+<tr><th class="stub" scope="row">Inland Steel Co.</th><td>do</td><td>Pending</td><td class="blank"></td><td class="blank"></td><td>(e)</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1937_p0163_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>a Where the trial examiners held hearings in cases filed in the regional office originally, and the Board held further hearings at a later date, the hearings before the trial examiners are the only ones listed.</li>
+<li>b Settled before decision of Board was issued.</li>
+<li>c Awaiting Board decision.</li>
+<li>d Decision not issued because of pending injunction proceeding.</li>
+<li>b Settled before decision of Board was issued</li>
+<li>a Settled before decision of Board was issued.</li>
+<li>b Awaiting Board decision.</li>
+<li>e Hearing continued until July 14, 1937.</li>
+<li>f Hearing continued until July 2, 1937.</li>
+<li>g Hearing continued until Aug. 20, 1937.</li>
+<li>h Hearing continued until July 7, 1937.</li>
+<li>i Hearing continued until July 30, 1937.</li>
+<li>e Awaiting Board decision.</li>
+<li>i Hearing continued until July 9, 1937.</li>
+<li>k Hearing continued until Oct. 13, 1937.</li>
+</ol>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 163.</b> Six printed columns: stub, two columns under &quot;By trial examiner&quot;, two under &quot;By Board&quot;, and &quot;Date decision issued&quot;. The &quot;By Board&quot; pair is used only once in this crop (Wheeling Steel Co.); every other row leaves it as leader dots, transcribed as &quot;&quot;.
+
+Footnote references in the &quot;Date decision issued&quot; column are printed as small raised letters inside parentheses with no accompanying value; they are transcribed exactly as the glyphs appear, e.g. &quot;(b)&quot;, &quot;(c)&quot;, &quot;(d)&quot;. The &quot;a&quot; marker on the &quot;By Board&quot; heading is likewise a raised letter and is given as &quot;By Board^a&quot;.
+
+A large brace in the printed table joins the &quot;International Mercantile Marine Co.&quot; row and the following &quot;Further hearing&quot; row, with the single decision date &quot;Mar. 21, 1936&quot; printed to the right of the brace and vertically aligned with the &quot;Further hearing&quot; line. The date has been placed on the &quot;Further hearing&quot; row and the Marine Co. row&#x27;s decision cell left empty; a reader should understand the one date as covering both rows.
+
+&quot;International Mercantile Marine Co.&quot;, Date opened: printed as &quot;Feb. 13. 1936&quot; with what appears to be a period rather than a comma after the day. Transcribed as printed; it is most likely a broken comma in the typesetting or scan.
+
+&quot;C. G. Conn, Ltd.&quot;: the leading initial is a worn capital that could be read as either C or O in this 1-bit scan. Transcribed as &quot;C&quot; (the firm is C. G. Conn, Ltd.), but the glyph itself is ambiguous.
+
+&quot;Further hearing&quot; under Protective Motor Service Co., Inc. is dated Aug. 6, 1936 with a decision issued May 6, 1936, i.e. the decision date precedes the hearing. Transcribed as printed; it may be a misprint in the source.
+
+Rows carrying only &quot;do&quot; (ditto) in a date column are transcribed as &quot;do&quot; with their leader dots dropped, per instruction. Two cases appear twice in the list (Bemis Bros. Bag Co. and Gray-Knox Marble Co.); both occurrences are printed and both are retained.
+
+Minor ink specks appear in the &quot;By Board&quot; columns on the &quot;Do&quot; (El Paso Electric) and &quot;Protective Motor Service Co., Inc.&quot; rows; they are scan artifacts, not values. The table has no total row and runs to the bottom rule of the crop, so it presumably continues on the following page; the printed page number and any continuation line are omitted.</p>
+<p><b>p. 164.</b> COLUMN COUNT: 6 — stub (&quot;Name of case&quot;), four date columns under &quot;Date hearing held—&quot; (By trial examiner: Date opened / Date closed; By Board: Date opened / Date closed), and &quot;Date decision issued&quot;.
+
+FOOTNOTE-REFERENCE CELLS IN THE LAST COLUMN: where no decision date is printed, the &quot;Date decision issued&quot; cell holds only a small raised letter in parentheses. Because the instructions require a raised marker to be written behind a caret rather than inside the value, I have rendered these as the parenthesis pair plus the marker, e.g. a raised b in parentheses is written &quot;(a)^b&quot;. Readers should understand every such cell as a bare footnote reference — &quot;(b)&quot;, &quot;(c)&quot; or &quot;(a)&quot; as printed — and NOT as a value &quot;(a)&quot; with a superscript. If the grid is consumed programmatically, these 23 cells are reference marks, not data. Markers used in the body, by row: b — The Optical Products Co., Riverside Knitting Mills, Welwood Norwich Silk Mills Inc., Pacific Mills Co., Claussner Hosiery Co., Schonfield &amp; Reis, Fisher Body Corporation, Chevrolet Motor Co.; c — Boss Manufacturing Co. and its Do., Aluminum Products Co., Trenton Mills Inc., S. Gutman &amp; Co. Inc., J. Freezer &amp; Sons Inc., Fall River Gas Works Co., Fit-Rite Slipper Co. Inc., Memphis Furniture Mfg. Co. and its Do., Atlas Mills, J. W. Sanders Cotton Mills Inc., Stanley Works Co., Boyertown Burial Casket Co.; a — American Potash &amp; Chemical Co., Chesapeake Mfg. Co.
+
+DOUBTFUL MARKER: the two cells I read as marker &quot;a&quot; (American Potash &amp; Chemical Co. and Chesapeake Mfg. Co., &quot;Date decision issued&quot;) carry a raised letter that could equally be &quot;e&quot;; the glyph is too small to resolve at this resolution. Only markers &quot;b&quot; and &quot;c&quot; are defined under the table, so this third marker is presumably defined on an earlier page of the same table.
+
+DASH RULES: cells filled with a dashed rule (&quot;-------&quot;) are transcribed as &quot;&quot;. In every row but International Harvester Co. and Claussner Hosiery Co. both &quot;By Board&quot; columns are dashed; for those two rows both &quot;By trial examiner&quot; columns are dashed instead.
+
+LEADER-DOT &quot;do&quot;: the repeat word is printed as &quot;do&quot; surrounded by leader dots; the dots are dropped and the cell is &quot;do&quot;. Stub repeat rows are printed as &quot;Do&quot; followed by leaders and are transcribed &quot;Do.&quot;; the two &quot;Do.&quot; values in the last column are printed with a period and no leaders.
+
+WRAPPED LABELS JOINED: &quot;Welwood N o r w i c h S i l k Mills, Inc.&quot; (letterspaced in print, normalised to single spaces), &quot;American Potash &amp; Chemical Co.&quot; (printed &quot;Chemi-/cal Co.&quot;), &quot;J. W. Sanders Cotton Mills, Inc.&quot;, &quot;Lykes Bros.-Ripley Steamship Co.&quot; (printed &quot;Steam-/ship Co.&quot;).
+
+APPARENT MISPRINT: St. Joseph Stock Yards Co. shows a trial-examiner &quot;Date closed&quot; of May 18, 1936 against a &quot;Date opened&quot; of &quot;do&quot; (= May 18, 1936 from Fit-Rite Slipper Co. Inc., itself &quot;do&quot; for Fall River Gas Works Co.&#x27;s May 18, 1936) — consistent, but note that the preceding Fit-Rite row&#x27;s closed date is &quot;do&quot; (May 19, 1936), so the sequence of closed dates runs May 19, May 19, May 18. Transcribed exactly as printed.
+
+CROP: this page carries the column headings but no caption and no &quot;—Continued&quot; line is visible; the table continues from a preceding page (hence the missing definition of footnote marker &quot;a&quot;).</p>
+<p><b>p. 165.</b> Six columns: stub (Name of case), Date opened / Date closed under &quot;By trial examiner&quot;, Date opened / Date closed under &quot;By Board&quot;, and &quot;Date decision issued&quot;. The two &quot;By Board&quot; columns are empty for every row on this page — each cell is printed as a dash rule only, so all are transcribed as &quot;&quot;.
+
+Braced groups: from &quot;Pacific Steamship Lines&quot; (row 26) to the end, each case is printed as two lines joined by a brace — the case line (original hearing, July 20-21, 1936) and an indented &quot;Further hearing&quot; line (Sept. 2-3, 1936). The single date in &quot;Date decision issued&quot; is printed once, vertically centred between the two lines of the brace; I have placed it on the case row and left the &quot;Further hearing&quot; row&#x27;s last cell empty. It applies to the pair. Two labels inside this section wrap and are braced to a single date line: &quot;Dispatch Stevedoring &amp; Contracting Co.&quot; and &quot;American-Hawaiian Steamship Co.&quot;; each is one row here.
+
+Ditto marks are kept as printed: lowercase &quot;do.&quot; (with leader dashes, dropped) in the trial-examiner date columns, capitalised &quot;Do.&quot; in the decision column.
+
+Footnote markers: the heading marker and the in-cell markers are tiny raised letters. Cells whose whole content is a parenthesised marker are written as &quot;(^b)&quot; / &quot;(^c)&quot;, preserving the printed parentheses. The raised letters &quot;a&quot; and &quot;c&quot; are both small round glyphs at this resolution and are not reliably distinguishable from each other; I assigned them by sense — the heading marker is &quot;a&quot; (footnote a concerns the Board-hearing columns) and the Uxbridge Worsted decision cell is &quot;c&quot; (&quot;Awaiting Board decision&quot;), since it clearly lacks the ascender that makes &quot;b&quot; distinct. The four cells read as &quot;(^b)&quot; (Arrow Line, Nippon Yusen Kaisha Line, Clermont Cravat Co., Pacific Lumber Co.) all show that ascender.
+
+Footnote b: the second word is degraded and renders as &quot;Settted&quot;; I have transcribed it as &quot;Settled&quot;, the evidently intended and almost certainly printed word, but the glyph is doubtful.
+
+Doubtful spellings, as printed: &quot;The Kingsly Co. of California&quot; (not &quot;Kingsley&quot;); &quot;J. Ramselius&quot;; &quot;Clermont Cravat Co.&quot;; &quot;Williams Dimond &amp; Co.&quot; (no comma after Williams). The first stub label appears as &quot;Martin Dyeing &amp; Finishing Co.&quot; with a mark after &quot;Co.&quot; that may be a colon or the start of the leader dots.
+
+&quot;Pacific Steamship Lines&quot; and &quot;American-Hawaiian Steamship Co.&quot; each appear twice in the list (the earlier occurrences carry &quot;, a corporation&quot; for American-Hawaiian); both are transcribed where printed.
+
+Omitted as instructed: the running head &quot;LIST OF CASES HEARD AND DECISIONS RENDERED—Continued&quot;, the lead-in sentence &quot;Following is a list of cases originally heard during the fiscal year 1937:&quot;, and the page number 159. Nothing appears cut off by the crop; the table ends on this page with the footnotes.</p>
+<p><b>p. 166.</b> Continuation page of a case-list table (printed page 160); no caption or total line appears in the crop, but the full three-level column heading is printed, so header_rows is filled.
+
+Brace-spanned cells: for the first 33 case entries the typesetter joins the case row and its &quot;Further hearing&quot; row with a right-facing brace, and prints ONE &quot;Date decision issued&quot; value vertically centred between the two lines. I placed that single value on the first row of each pair (the named-case row) and left the &quot;Further hearing&quot; row&#x27;s last cell empty; no decision date is separately printed for a &quot;Further hearing&quot; line.
+
+&quot;By Board&quot; columns: both the &quot;Date opened&quot; and &quot;Date closed&quot; columns under &quot;By Board&quot; are empty for every row on this page — they carry only a dash rule (------), drawn once per brace group — so all those cells are &quot;&quot;.
+
+Footnote marker: the cells for &quot;Higgins Co., Inc&quot; and &quot;Hobbs-Wall Co., Inc&quot; in the &quot;Date decision issued&quot; column hold only a parenthesised raised character, transcribed &quot;(^b)&quot;. The raised glyph is small and could conceivably be a numeral rather than a lowercase &quot;b&quot;; the same glyph opens the single footnote below the table, which I also read as &quot;b&quot;.
+
+&quot;Paramino Lumber Co&quot;, &quot;Date decision issued&quot; column: a small tick/apostrophe-like speck is printed immediately before &quot;Do.&quot;. I read it as a printing artefact, not a footnote marker, and did not transcribe it; no footnote with such a marker is printed.
+
+Last row: the stub reads &quot;Do.&quot; and both trial-examiner date columns hold the ditto word &quot;do&quot; between leader dots; I transcribed them as &quot;do&quot; with the dots dropped.
+
+Label wrapping repaired: &quot;American Mail Line, a cor-/poration&quot;, &quot;Los Angeles-San Francisco/Navigation Co., Inc&quot;, &quot;Chamberlain Steamship Co.,/Inc&quot;, &quot;Freeman Steamship Co.,/Inc&quot;, &quot;Oceanic &amp; Oriental Naviga-/tion Co&quot;, and &quot;Pacific Greyhound Lines,/Inc.&quot; were each joined into one row label. &quot;McCormick Steamship Co&quot; and &quot;Sudden &amp; Christenson&quot; each appear twice, as printed.
+
+Scan quality is a 1-bit halftone; the repeated date values (&quot;July 20, 1936&quot;, &quot;July 21, 1936&quot;, &quot;Sept. 2, 1936&quot;, &quot;Sept. 3, 1936&quot;) are uniform down the page, which makes individual-digit misreads unlikely but not impossible.</p>
+<p><b>p. 167.</b> Continuation page (p. 161) of a multi-page case list; column headings are reprinted here so they are given. No footnote &quot;a&quot; is printed on this page, though the markers used are b and c, so footnote a presumably appears on an earlier page of the table.
+
+The six columns are: Name of case (stub); Date hearing held—By trial examiner—Date opened; —Date closed; Date hearing held—By Board—Date opened; —Date closed; Date decision issued.
+
+Cells that print only a small raised letter inside parentheses, i.e. (b) or (c), stand in place of a decision date and are footnote references; they are transcribed as &quot;(b)&quot; / &quot;(c)&quot;. These superscript letters are very small in the 300-ppi scan and b/c are the chief risk of confusion; the readings I am least certain of are the markers for &quot;The Associated Press&quot;, &quot;The Weiss &amp; Klau Co.&quot; and &quot;Cities Service Refining Co.&quot; (read as c, c, b).
+
+Braces in the body join rows that share one entry, and I placed the shared entry on the first row of each braced group:
+- &quot;Seas Shipping Co.&quot; / &quot;Further hearing&quot;: a brace spans the two rows in the Board columns (both blank) and &quot;Dec. 4, 1936&quot; is printed vertically centred between the two lines in the Date decision issued column; I put it on the &quot;Seas Shipping Co.&quot; row.
+- &quot;United States Steel Corporation and carnegie Illinois Steel Corporation&quot; / &quot;Further hearing&quot; / &quot;Do.&quot;: a brace spans the three rows and &quot;(b)&quot; is printed beside the middle (&quot;Further hearing&quot;) line; I put it on the first row of the group, since it belongs to the case as a whole.
+
+&quot;Jan 23, 1937&quot; in Date decision issued for &quot;Tidewater Express Lines, Inc.&quot; is printed without a period after &quot;Jan&quot;; every other month abbreviation in the column has one, so this is most likely a dropped/faint period, transcribed as printed.
+
+&quot;United States Steel Corporation and carnegie Illinois Steel Corporation&quot; is printed with a lower-case &quot;carnegie&quot; and no hyphen (the firm is Carnegie-Illinois Steel Corporation); transcribed as printed.
+
+Long dash rules (&quot;------&quot;) filling the Board columns of most rows, and the trial-examiner columns of the last six rows, are transcribed as &quot;&quot;. Ditto entries printed as &quot;___do___&quot; are transcribed as &quot;do&quot;; stub and decision-column ditto entries printed &quot;Do.&quot; keep that form.
+
+A faint stray dot sits in the Board &quot;Date closed&quot; column on the &quot;New York &amp; Cuba Mail Steamship Co.&quot; row; it appears to be a printing artefact, not a value, so that cell is &quot;&quot;.</p>
+<p><b>p. 168.</b> This is a continuation page (p. 162) of a case-by-case hearing list; no caption or &quot;—Continued&quot; line is printed on the crop, but the column headings are printed in full, so header_rows is populated.
+
+Footnote markers: the &quot;Date decision issued&quot; column holds a parenthesised raised letter in place of a date. Only footnotes a and b are printed under the table, so every marker must be one of those two. The raised &quot;b&quot; is legible; the raised &quot;a&quot; is a small blurred glyph that could be misread as &quot;c&quot; or &quot;e&quot; at this scan resolution (the same glyph opens the first printed footnote line). I have transcribed those cells as (a). Affected rows: Export Steamship Corporation, Calvert-Maryland Distilling Co., Inc., Wald Transfer &amp; Storage Co., Inc., Oregon Worsted Co., Condenser Corporation of America (both occurrences and both &quot;Further hearing&quot; rows), Cornell Dubilier Corporation and its &quot;Further hearing&quot;, Suburban Lumber Co., Black Diamond Steamship Corporation, Appalachian Electric Power Co., Central Truck Lines, Inc., and the following &quot;Do&quot;. Row 1 (Export Steamship Corporation) is the least certain of these — its marker sits alone at the top of the column and may well be (b) like the 29 steamship rows that follow it; a reader who needs that cell should re-check the original.
+
+The two Willard, Inc. rows (&quot;Willard, Inc.&quot; and &quot;Further hearing&quot;) are joined in the printed &quot;By Board&quot; columns by a single brace enclosing a dash rule; both Board cells are therefore empty, and &quot;June 30, 1937&quot; is printed on the first of the two lines, where I have placed it.
+
+&quot;do&quot; cells are printed as ditto marks set between leader dashes; I transcribed the word only. The &quot;Date closed&quot; cell for the first Condenser Corporation of America row reads &quot;Pending&quot; rather than a date, as printed.
+
+Rows labelled &quot;Do&quot; repeat the case above them, as printed. &quot;Mooremack Gulf Lines&quot; is transcribed as printed (the firm is elsewhere spelled Moore-McCormack). &quot;American Pioneer Line, Atlantic Division, Inc.&quot; shows what may be a semicolon after &quot;Line&quot; in the scan; I read it as the comma it almost certainly is.
+
+Running head (&quot;SECOND ANNUAL REPORT&quot;) and page number 162 omitted per instructions.</p>
+<p><b>p. 169.</b> Six printed columns: stub &quot;Name of case&quot;, two columns under &quot;By trial examiner&quot; (Date opened / Date closed), two under &quot;By Board&quot; (Date opened / Date closed), and &quot;Date decision issued&quot;. The two &quot;By Board&quot; columns are filled with dash rules on every body row of this page, so they are transcribed as &quot;&quot; throughout.
+
+The &quot;Date decision issued&quot; column frequently holds only a parenthesized raised letter referring to a footnote; these are written &quot;(^b)&quot; and &quot;(^c)&quot; to show that the letter inside the parentheses is a superscript footnote marker, not printed text.
+
+Rows &quot;Willard, Inc.&quot; (Mar. 18, 1937) and the following &quot;Further hearing&quot; (May 11, 1937) are joined by a printed brace in the &quot;Date closed&quot; area, and the single decision date &quot;June 30, 1937&quot; is set beside the brace, applying to both rows; it is placed on the &quot;Willard, Inc.&quot; row here and the &quot;Further hearing&quot; row&#x27;s decision cell is left empty.
+
+The second &quot;Willard, Inc.&quot; row (the one after &quot;The Borden Co. et al&quot;) appears in the scan as &quot;Willard; Inc&quot; — the mark after &quot;Willard&quot; could be a semicolon or a comma with a speck; transcribed as a comma.
+
+The &quot;By Board&quot; heading has a stray ink dot printed after it (&quot;By Board .&quot;); treated as a speck and omitted.
+
+Dates are printed with extra alignment spacing (e.g. &quot;Mar.  1, 1937&quot;, &quot;Mar. 15,1937&quot;, &quot;Apr. 8,  1937&quot;); spacing is normalized to &quot;Mon. D, YYYY&quot;. Ditto marks in the data columns are printed lowercase as &quot;do&quot; with trailing leader dots; stub ditto rows are printed &quot;Do.&quot; and kept as such.
+
+This table carries full column headings on this page but is a continuation of a case list begun earlier (footnote letters start at b, with no &quot;a&quot; marker on this page) and continues past the bottom of this page.</p>
+<p><b>p. 170.</b> The page continues a table from the preceding page: no caption and no total row, and the stub&#x27;s ditto entries (&quot;do&quot;, &quot;Do&quot;) refer back to values printed earlier. The six columns are the stub plus Date opened / Date closed under &quot;By trial examiner&quot;, Date opened / Date closed under &quot;By Board&quot;, and &quot;Date decision issued&quot;.
+
+Both &quot;By Board&quot; columns are a dash rule on every row of this page, so they are transcribed as &quot;&quot;.
+
+Last column: most cells hold nothing but a small raised footnote letter inside parentheses, with no value attached. I transcribed these literally as &quot;(b)&quot; / &quot;(c)&quot; rather than as caret markers, since the parenthesised reference is the whole printed cell content. These raised letters are only a few pixels tall in this scan and b and c are the hardest pair to separate; my readings are best-effort and the specific b-vs-c calls should be treated as doubtful, especially in the final block (&quot;Charles Cushman Shoe Co.&quot; and the three &quot;Do&quot; rows beneath it, &quot;Somerset Shoe Co&quot; and the three &quot;Do&quot; rows beneath it), where I read (b),(b),(c),(b) and (b),(b),(b),(c) but the whole block may well be a uniform run of (b).
+
+The printed footnote list runs b, c, e, f — markers a and d are not printed on this page, presumably because they are referenced only on the preceding page. The third footnote&#x27;s marker is small and could be d rather than e; I read it as e because the body marker it serves (&quot;Pending&quot; for Biles Coleman Lumber Co.) precedes the f marker on National Motor Bearing Co.
+
+Row labels that wrap were joined and end-of-line hyphens repaired: &quot;Salinas Valley Vegetable Ex-/change&quot;, &quot;The Goodyear Tire &amp; Rub-/ber Co.&quot;, &quot;Southgate Nelson Corpora-/tion&quot; (twice), &quot;McCabe, Hamilton &amp; Ren-/ny, Ltd.&quot;. &quot;New York-Pennsylvania Motor Express, Inc.&quot; is printed with the first word letterspaced (&quot;N e w&quot;); the spacing is typographic justification and was removed. &quot;Somerset Shoe Co&quot; is printed without a closing period, unlike the other &quot;Co.&quot; labels.
+
+&quot;American Cyanamid &amp; Chemical Corporation&quot; shows a trial-examiner hearing opened &quot;do&quot; (May 13, 1937, carried from the Southgate Nelson Corporation row) and closed May 13, 1937, i.e. opened and closed the same day; transcribed as printed.</p>
+<p><b>p. 171.</b> Six printed columns: stub plus a four-column &quot;Date hearing held—&quot; spanner (By trial examiner: Date opened / Date closed; By Board: Date opened / Date closed) and a tall &quot;Date decision issued&quot; column.
+
+Footnote-reference cells: in the &quot;Date decision issued&quot; column most cells hold nothing but a parenthesized raised letter, e.g. (b) or (c). Because the marker is the entire cell rather than something attached to a value, it is transcribed with its printed parentheses — &quot;(b)&quot;, &quot;(c)&quot; — not in caret form. Caret form is used only where a marker is attached to text: &quot;Pending^g&quot;, &quot;do.^g&quot;, &quot;Pending^h&quot;, &quot;Pending^i&quot;.
+
+Suspected misprint, row &quot;Clark Shoe Co.&quot;, column &quot;By trial examiner / Date opened&quot;: it reads &quot;June 15, 1937&quot; although the same row&#x27;s Date closed is &quot;May 24, 1937&quot;, and the 21 rows below it that carry &quot;do.&quot; in that column are followed by openings of May 27, June 1, June 2, June 3 ... in ascending order. The printed value is almost certainly an error for &quot;May 15, 1937&quot;; it is transcribed exactly as printed.
+
+Row &quot;Idaho-Maryland Mining Co.&quot;: the &quot;Date decision issued&quot; cell is ink-blotted and heavier than its neighbours. It is read as &quot;(c)&quot;, consistent with the rows around it, but the letter cannot be resolved with certainty — it could be another raised letter. The final &quot;d&quot; of &quot;Maryland&quot; in that same row&#x27;s label is likewise blotted but legible from context.
+
+Footnote lettering on this page starts at &quot;b&quot; and jumps from &quot;c&quot; to &quot;g&quot;; letters a and d–f are not printed here, presumably because they are defined on the earlier pages of this multi-page table.
+
+The three &quot;By Board&quot; rows (International Mercantile Marine Co., Luckenbach Steamship Co., Inc., Black Diamond Steamship Corporation) show dash rules or blanks in the two trial-examiner columns; these are transcribed as empty cells. &quot;Industrial Rayon Corp.&quot; near the foot is likewise a By-Board row.
+
+&quot;Do.&quot; in the stub repeats the preceding case name; &quot;do.&quot; in the date columns repeats the date above. Both are kept as printed. Column rules are unbroken down the page, so no column assignment is in doubt.</p>
+<p><b>p. 172.</b> The table is a continuation of a case list that runs across several pages; column headings are printed on this page, so they are given. The last column holds only a parenthesized footnote reference on every row; the printed glyph is a small italic/raised letter that reads as &quot;e&quot; throughout, matching the single footnote &quot;e Awaiting Board decision.&quot; at the foot of the page. The scan renders several of these as a smudged &quot;(c)&quot; or &quot;(o)&quot;; I have normalized all of them to &quot;(e)&quot; on the strength of the printed footnote. The references on the last two rows (Panama R. R. Co. Steamship Line, Pennsylvania Shipping Co.) are especially faint and the letter inside the parentheses is barely legible.
+
+Columns 2-5 of the body carry dash leaders in almost every cell; these are rendered as &quot;&quot;. The &quot;do&quot; cells in the two &quot;By Board&quot; columns are printed as &quot;do&quot; surrounded by dash leaders; only &quot;do&quot; is transcribed. Whether a period follows &quot;do&quot; is not resolvable at this resolution, so none is written.
+
+Doubtful row labels: &quot;Grace Line, Inc.&quot; prints with a degraded final letter that could be read as &quot;Lino&quot;; I read it as &quot;Line&quot;. &quot;Moor &amp; McCormack Co., Inc.&quot; is transcribed as printed (the firm is normally &quot;Moore &amp; McCormack&quot;), and the later row &quot;Mooremack Gulf Lines, Inc.&quot; is likewise as printed. &quot;Continental Steamship Co.&quot; has a heavily inked label but the reading is not in real doubt.
+
+The table continues past the bottom of this page; the crop ends after &quot;Pennsylvania Shipping Co.&quot; with no total row.</p>
+<p><b>p. 173.</b> Six printed columns: stub &quot;Name of case&quot;, then the spanner &quot;Date hearing held—&quot; over four columns (By trial examiner: Date opened / Date closed; By Board: Date opened / Date closed), then &quot;Date decision issued&quot;.
+
+FOOTNOTE LETTER UNCERTAIN: the italic superscript letter used in the &quot;Date decision issued&quot; column for almost every row, and the second printed footnote (&quot;Awaiting Board decision.&quot;), is a small letter that at this scan resolution reads as either &#x27;e&#x27; or &#x27;c&#x27;. I transcribed it as &#x27;e&#x27; throughout (cells &quot;(e)&quot; and footnote &quot;e Awaiting Board decision.&quot;), consistently in both the cells and the footnote list, but a reader should verify against a higher-resolution scan; if it is &#x27;c&#x27; then every &quot;(e)&quot; cell and the second footnote should be re-lettered. The &#x27;b&#x27;, &#x27;i&#x27; and &#x27;k&#x27; markers are unambiguous.
+
+The &quot;Date decision issued&quot; column contains no dates anywhere on this page: every cell holds only a parenthesized footnote letter, &quot;(e)&quot; or &quot;(b)&quot;, which is how it is printed.
+
+Cells transcribed as &quot;do&quot; are printed as &quot;do&quot; embedded in a leader-dot rule (&quot;----do----&quot;); the leaders are dropped per instruction. Cells transcribed as &quot;&quot; are either blank or a plain dash/leader rule.
+
+Rows 1–26 (&quot;Petroleum Navigation Co.&quot; through &quot;Waterman Steamship Corp.&quot;) have both &quot;By trial examiner&quot; cells empty and carry the June 21, 1937 Board hearing; rows 27–54 have both &quot;By Board&quot; cells empty.
+
+&quot;Canadian Fur Trappers Corporation et al&quot; — the date separators in &quot;June 24, 1937&quot; (Date opened) and &quot;June 30, 1937&quot; (Date closed) look more like periods than commas in this scan; I normalized to the comma used in every other date on the page, but the glyphs are doubtful.
+
+&quot;Ward Furniture Mfg. Co.&quot; — the Date closed value in the earlier of its two rows (the row following the two &quot;Do&quot; rows) is faint; the tens digit could be 3 rather than 8. I read it as &quot;June 28, 1937&quot; partly on the strength of the second, clearer &quot;Ward Furniture Mfg. Co.&quot; row near the foot of the table, which reads &quot;June 28, 1937&quot;.
+
+&quot;Ward Furniture Mfg. Co.&quot; appears twice as a row label (once after the two &quot;Do&quot; rows, once three rows from the bottom), both times with Date opened &quot;do&quot;, Date closed &quot;June 28, 1937&quot; and marker &quot;(b)&quot;. This duplication is as printed, not a transcription error.
+
+The two &quot;Do&quot; rows are printed as &quot;Do&quot; followed by leader dots; it is not possible to separate an abbreviation period from the first leader dot, so they are given as &quot;Do&quot;. The same ambiguity applies to the trailing period on abbreviations such as &quot;Co.&quot;, &quot;Inc.&quot;, &quot;Corp.&quot; and &quot;Ltd.&quot; in the stub, which I retained.
+
+Running head &quot;NATIONAL LABOR RELATIONS BOARD&quot; and page number 167 omitted. The table continues from the previous page (the case list is mid-alphabet at the top), but column headings are reprinted on this page, so they are given.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0163_t0_p0163.webp" loading="lazy" alt="Source page 163 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 163.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0163_t0_p0164.webp" loading="lazy" alt="Source page 164 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 164.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0163_t0_p0165.webp" loading="lazy" alt="Source page 165 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 165.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0163_t0_p0166.webp" loading="lazy" alt="Source page 166 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 166.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0163_t0_p0167.webp" loading="lazy" alt="Source page 167 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 167.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0163_t0_p0168.webp" loading="lazy" alt="Source page 168 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 168.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0163_t0_p0169.webp" loading="lazy" alt="Source page 169 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 169.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0163_t0_p0170.webp" loading="lazy" alt="Source page 170 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 170.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0163_t0_p0171.webp" loading="lazy" alt="Source page 171 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 171.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0163_t0_p0172.webp" loading="lazy" alt="Source page 172 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 172.</figcaption>
+</figure>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0163_t0_p0173.webp" loading="lazy" alt="Source page 173 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 173.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Results of elections held by the National Labor Relations Board — NLRB FY1937</title>
+<style>
+:root {
+  --border: #d0d0d0; --header-bg: #1f2d3d; --zebra: #f6f8fa;
+  --accent: #0a58ca; --muted: #555;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 1rem 1.25rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; color: #1a1a1a; line-height: 1.45;
+}
+a { color: var(--accent); }
+/* Centered content column + slim site masthead (present on every page). */
+.wrap { max-width: 72rem; margin: 0 auto; }
+.site-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin: 0 0 0.9rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border); font-size: 13px; }
+.site-head a { text-decoration: none; }
+.site-head .brand { font-weight: 600; color: var(--header-bg); }
+.site-head .site-nav a { font-weight: 500; color: var(--accent); }
+h1 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+h2 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+.meta { color: var(--muted); margin: 0 0 0.9rem; font-size: 12.5px; }
+.crumbs { font-size: 12.5px; margin: 0 0 0.75rem; color: var(--muted); }
+.crumbs a { text-decoration: none; }
+.about { max-width: 60rem; }
+.about p { margin: 0.4rem 0; }
+
+/* Year list (landing) + table list (year page) */
+h3.decade { font-size: 0.9rem; color: var(--muted); font-weight: 600;
+  margin: 1rem 0 0.3rem; }
+ul.cards { list-style: none; padding: 0; margin: 0.5rem 0;
+  display: flex; flex-wrap: wrap; gap: 0.5rem; }
+ul.cards li a {
+  display: inline-block; padding: 0.45rem 0.85rem; border: 1px solid var(--border);
+  border-radius: 6px; text-decoration: none; background: #fff;
+}
+ul.cards li a:hover { background: var(--zebra); border-color: var(--accent); }
+
+table.listing { border-collapse: collapse; width: 100%; margin-top: 0.5rem; }
+table.listing th, table.listing td {
+  text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.listing thead th {
+  background: var(--header-bg); color: #fff; cursor: pointer; user-select: none;
+  white-space: nowrap; position: sticky; top: 0; z-index: 2;
+}
+table.listing thead th:hover { background: #2c3e50; }
+table.listing thead th .arrow { opacity: 0.5; font-size: 10px; margin-left: 4px; }
+table.listing tbody tr:nth-child(even) { background: var(--zebra); }
+
+/* Item-type label (year-listing only): a light plain-text tag, not a badge. */
+.type-label { color: var(--muted); font-size: 12px; }
+
+/* Reconstructed wide grid (table page) */
+.grid-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+table.grid { border-collapse: collapse; min-width: 100%; font-size: 13px; }
+table.grid thead th {
+  position: sticky; top: 0; z-index: 2; background: var(--header-bg); color: #fff;
+  text-align: left; padding: 6px 9px; white-space: nowrap;
+  border: 1px solid var(--header-bg);
+}
+table.grid tbody th.stub {
+  text-align: left; padding: 4px 9px; border: 1px solid var(--border);
+  font-weight: 500; background: #fbfcfd; vertical-align: top;
+  max-width: 26rem; overflow-wrap: anywhere; position: sticky; left: 0;
+}
+table.grid tbody td {
+  padding: 4px 9px; border: 1px solid var(--border); vertical-align: top;
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-family: "Cascadia Code", "Consolas", monospace;
+}
+table.grid tbody tr:nth-child(even) th.stub,
+table.grid tbody tr:nth-child(even) td { background: var(--zebra); }
+td.blank { color: transparent; }
+
+/* Source image */
+figure.source-img { margin: 0.5rem 0 0; max-width: 60rem; }
+figure.source-img img {
+  width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px;
+}
+figure.source-img figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+/* Figure (chart) pages: the source image is the content, so let it use the full
+   text column; multiple stacked images (stitched tables) get a small gap. */
+figure.source-img.fig-only { max-width: 72rem; }
+figure.source-img + figure.source-img { margin-top: 0.75rem; }
+/* "spans pp. X–Y" note above a stitched table's grid. */
+p.spans-note { color: var(--muted); font-size: 12.5px; margin: 0 0 0.5rem; }
+
+/* Search (landing) */
+#search { width: 100%; max-width: 34rem; padding: 0.5rem 0.7rem; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 6px; margin: 0.25rem 0 0.5rem; }
+#search-results { margin: 0.5rem 0; }
+#search-results ul { list-style: none; padding: 0; margin: 0; }
+#search-results li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#search-results .hint { color: var(--muted); font-size: 12.5px; }
+.foot { margin-top: 2rem; color: var(--muted); font-size: 11.5px; }
+/* Per-table CSV download link (table pages) + bulk download list (landing). */
+p.downloads { margin: 0 0 1.1rem; font-size: 12.5px; }
+ul.dl-list { margin: 0.3rem 0 0.6rem; padding-left: 1.1rem; }
+ul.dl-list li { margin: 0.25rem 0; }
+/* Portal homepage: section sub-headings + bare link lists. */
+h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
+ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
+ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head"><a class="brand" href="../index.html">NLRB Stats Archive</a><nav class="site-nav"><a href="../about.html">About</a></nav></header>
+<p class="crumbs"><a href="../index.html">NLRB Stats Archive</a> &rsaquo; <a href="index.html">Annual Reports</a> &rsaquo; <a href="year_1937.html">FY1937</a> &rsaquo; Results of elections held by the National Labor Relations Board</p>
+<h1>Results of elections held by the National Labor Relations Board</h1>
+<p class="meta">printed as Table 8 &middot; source page 36 &middot; <code>nlrb1937_p0036_t0</code></p>
+<div class="grid-wrap">
+<table class="grid">
+<thead>
+<tr><th>Region of origin of cases in which elections were held</th><th>Number of elections held</th><th>Number of employees eligible to vote</th><th colspan="4">Valid votes cast</th><th colspan="2">Percent of total votes cast</th><th>Units won by trade-union</th><th>Units lost by trade-union</th></tr>
+<tr><th>Region of origin of cases in which elections were held</th><th>Number of elections held</th><th>Number of employees eligible to vote</th><th>Total</th><th>For petitioning trade-union</th><th>For non-petitioning trade-union</th><th>For company union or against petitioning trade-union</th><th>For company union or against trade-union</th><th>For trade-unions including petitioning and non-petitioning union</th><th>Units won by trade-union</th><th>Units lost by trade-union</th></tr>
+</thead>
+<tbody>
+<tr><th class="stub" scope="row">Total</th><td>265</td><td>181,424</td><td>164,207</td><td>107,227</td><td>6,261</td><td>50,647</td><td>30.8</td><td>69.1</td><td>214</td><td>44</td></tr>
+<tr><th class="stub" scope="row">1</th><td>24</td><td>7,351</td><td>7,265</td><td>4,605</td><td>119</td><td>2,541</td><td>34.9</td><td>65.0</td><td>18</td><td>6</td></tr>
+<tr><th class="stub" scope="row">2</th><td>51</td><td>42,162</td><td>39,262</td><td>24,028</td><td>1,916</td><td>13,318</td><td>33.8</td><td>66.2</td><td>44</td><td>7</td></tr>
+<tr><th class="stub" scope="row">3</th><td>8</td><td>2,460</td><td>2,453</td><td>1,312</td><td class="blank"></td><td>1,069</td><td>43.5</td><td>53.4</td><td>6</td><td>1</td></tr>
+<tr><th class="stub" scope="row">4</th><td>29</td><td>26,351</td><td>17,672</td><td>9,611</td><td>1,010</td><td>7,051</td><td>39.8</td><td>60.1</td><td>21</td><td>7</td></tr>
+<tr><th class="stub" scope="row">5</th><td>5</td><td>939</td><td>894</td><td>738</td><td>4</td><td>152</td><td>17.1</td><td>82.9</td><td>4</td><td>1</td></tr>
+<tr><th class="stub" scope="row">6</th><td>3</td><td>33,840</td><td>32,059</td><td>23,404</td><td class="blank"></td><td>8,655</td><td>26.9</td><td>73.0</td><td>3</td><td>0</td></tr>
+<tr><th class="stub" scope="row">7</th><td>5</td><td>15,572</td><td>15,480</td><td>12,500</td><td class="blank"></td><td>2,980</td><td>19.2</td><td>80.7</td><td>5</td><td>0</td></tr>
+<tr><th class="stub" scope="row">8</th><td>7</td><td>6,397</td><td>6,118</td><td>3,722</td><td>1,350</td><td>1,046</td><td>17.0</td><td>82.9</td><td>4</td><td>3</td></tr>
+<tr><th class="stub" scope="row">9</th><td>13</td><td>5,315</td><td>4,774</td><td>2,959</td><td>918</td><td>897</td><td>18.7</td><td>81.2</td><td>10</td><td>3</td></tr>
+<tr><th class="stub" scope="row">10</th><td>4</td><td>1,724</td><td>1,166</td><td>896</td><td class="blank"></td><td>270</td><td>23.1</td><td>76.8</td><td>4</td><td>0</td></tr>
+<tr><th class="stub" scope="row">11</th><td>8</td><td>6,966</td><td>6,487</td><td>4,397</td><td>44</td><td>2,046</td><td>31.5</td><td>68.4</td><td>7</td><td>1</td></tr>
+<tr><th class="stub" scope="row">12</th><td>13</td><td>4,005</td><td>3,840</td><td>2,300</td><td>101</td><td>1,439</td><td>37.4</td><td>62.5</td><td>8</td><td>2</td></tr>
+<tr><th class="stub" scope="row">13</th><td>15</td><td>9,040</td><td>8,951</td><td>5,123</td><td class="blank"></td><td>3,828</td><td>42.9</td><td>57.2</td><td>10</td><td>5</td></tr>
+<tr><th class="stub" scope="row">14</th><td>6</td><td>5,986</td><td>5,862</td><td>4,172</td><td class="blank"></td><td>1,690</td><td>28.8</td><td>71.1</td><td>6</td><td>0</td></tr>
+<tr><th class="stub" scope="row">15</th><td>3</td><td>878</td><td>773</td><td>352</td><td>60</td><td>361</td><td>46.7</td><td>53.3</td><td>2</td><td>0</td></tr>
+<tr><th class="stub" scope="row">16</th><td>4</td><td>1,208</td><td>1,089</td><td>754</td><td class="blank"></td><td>335</td><td>30.7</td><td>69.2</td><td>3</td><td>1</td></tr>
+<tr><th class="stub" scope="row">17</th><td>7</td><td>601</td><td>593</td><td>305</td><td>143</td><td>145</td><td>24.4</td><td>75.5</td><td>5</td><td>2</td></tr>
+<tr><th class="stub" scope="row">18</th><td>12</td><td>2,379</td><td>2,265</td><td>1,493</td><td>91</td><td>681</td><td>30.0</td><td>69.9</td><td>10</td><td>1</td></tr>
+<tr><th class="stub" scope="row">19</th><td>5</td><td>1,483</td><td>1,445</td><td>805</td><td>144</td><td>496</td><td>34.3</td><td>65.6</td><td>4</td><td>1</td></tr>
+<tr><th class="stub" scope="row">20</th><td>26</td><td>1,844</td><td>1,799</td><td>924</td><td>361</td><td>514</td><td>28.5</td><td>71.4</td><td>25</td><td>2</td></tr>
+<tr><th class="stub" scope="row">21</th><td>17</td><td>4,923</td><td>3,960</td><td>2,827</td><td class="blank"></td><td>1,133</td><td>28.6</td><td>71.3</td><td>15</td><td>2</td></tr>
+</tbody>
+</table>
+</div>
+<p class="downloads"><a href="data/tables/nlrb1937_p0036_t0.csv" download>Download this table (CSV)</a></p>
+<ol class="footnotes">
+<li>1 Including 1 &quot;yes&quot; or &quot;no&quot; company union election.</li>
+<li>2 Tie vote, not counted to either credit.</li>
+<li>3 Including 3 &quot;yes&quot; or &quot;no&quot; company union elections.</li>
+<li>4 Two company unions involved.</li>
+</ol>
+<p class="check"><b>146 of 163</b> figures sit in a row or column sum that works out. <b>3 cells break a sum:</b> &#x27;Total&#x27;, column 4: prints 164,207, columns 5 to 7 add to 164,135; &#x27;3&#x27;, column 4: prints 2,453, columns 5 to 7 add to 2,381; &#x27;Total&#x27;, column 11: prints 44, rows &#x27;1&#x27; to &#x27;21&#x27; add to 45.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 36.</b> Eleven columns; the stub holds only the region numbers 1-21 (leader dots dropped) plus the &quot;Total&quot; line. Arithmetic verification: every numeric column sums exactly to its printed total (265; 181,424; 164,207; 107,227; 6,261; 50,647; 214; 44), so the column placement of each value is confirmed.
+
+Footnote-marker digits are the main uncertainty. At 300 ppi the raised 2 and raised 3 are nearly indistinguishable in this typeface. I read the markers as raised digits at these cells: row 3 on &quot;8&quot; (Number of elections), &quot;2,453&quot; (Total valid votes) and &quot;1,069&quot; (For company union...); row 4 on &quot;21&quot; and &quot;7&quot; (Units won / Units lost); row 14 on &quot;6&quot; (Number of elections); row 15 on &quot;3&quot; (Number of elections) and on &quot;0&quot; (Units lost); row 18 on &quot;10&quot; and &quot;1&quot; (Units won / Units lost). The marker on row 3 is clearly a raised 1 and the one on row 15&#x27;s Units lost is clearly a raised 4. For the ambiguous ones I assigned 2 to the Units-won/Units-lost pairs in rows 4 and 18 (footnote 2, &quot;tie vote, not counted to either credit&quot;, which is what those columns would need) and 3 to the Number-of-elections cells in rows 14 and 15 (footnote 3, about yes/no company union elections). Rows 4, 15 and 18 are arithmetically consistent with that assignment (elections minus units won minus units lost leaves 1, 1 and 1 respectively); row 14 is not (6 elections = 6 won + 0 lost, leaving no uncredited elections), so the marker there may instead be a raised 2, or may belong on another row. Row 12 (13 elections vs 8 won + 2 lost) has a shortfall of 3 but shows no marker on the image.
+
+Suspected misprints, transcribed as printed: row 3&#x27;s vote components (1,312 + 1,069 = 2,381) do not reach its printed valid-vote total of 2,453, a gap of 72 (row 3 carries footnote 1). Row 2&#x27;s percentages, 33.8 and 66.2, do not follow from its vote columns (13,318/39,262 = 33.9; 25,944/39,262 = 66.0). Row 5&#x27;s 17.1 does not follow either (152/894 = 17.0), nor does row 13&#x27;s 42.9 (3,828/8,951 = 42.7, and 42.9 + 57.2 = 100.1). All other percentage pairs reproduce from the vote columns under truncation. Row 20 shows 26 elections against 25 units won plus 2 units lost, an excess of 1; the Units-lost column nonetheless sums to the printed 44 with the value 2 there.
+
+Dash rules in the &quot;For non-petitioning trade-union&quot; column (rows 6, 7, 10, 13, 14, 16, 21) are rendered as empty cells; row 3&#x27;s blank in that column is likewise empty. The caption, footnote rules and page furniture are omitted.</p>
+</details>
+<h2>Source image</h2>
+<figure class="source-img">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1937_p0036_t0_p0036.webp" loading="lazy" alt="Source page 36 of NLRB FY1937 annual report">
+<figcaption>Source: NLRB Annual Report FY1937, p. 36.</figcaption>
+</figure>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
+</div>
+</body>
+</html>

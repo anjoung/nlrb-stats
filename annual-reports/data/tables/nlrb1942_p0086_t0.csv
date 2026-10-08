@@ -1,7 +1,26 @@
-Stage and method of disposition,All cases / Number,All cases / Workers involved,Cases filed by A. F. of L. affiliates / Number,Cases filed by A. F. of L. affiliates / Workers involved,Cases filed by C. I. O. affiliates / Number,Cases filed by C. I. O. affiliates / Workers involved,Cases filed by unaffiliated unions / Number,Cases filed by unaffiliated unions / Workers involved,Cases filed by employers / Number,Cases filed by employers / Workers involved
-"Cases closed, total",6255,1895231,2813,519179,2723,1035328,659,214305,92,126742
-"Before formal action, total",4876,1168206,2184,337822,2112,555238,509,147031,71,117841
-"After formal action, total",1410,727025,629,181357,611,470093,150,66674,20,8901
-Before hearing,92,24645,28,4088,52,18677,10,1871,2,9
-After hearing,111,21159,77,4467,25,10283,7,5562,2,845
-After Board decision,1207,681221,524,172802,534,441131,133,59241,16,8047
+Stage and method,Number of cases,Percent of cases closed,Percent of cases on docket
+"Cases closed, total","11,741",100.0,80.4
+"Before formal action, total","9,890",84.2,67.7
+Adjusted,"5,828",49.6,39.9
+Withdrawn,"2,879",24.5,19.7
+Dismissed,"1,183",10.1,8.1
+"After formal action, total","1,851",15.8,12.7
+Before hearing,119,1.0,.8
+Adjusted,87,.7,.6
+Withdrawn,26,.2,.2
+Dismissed,6,.1,.0
+After hearing,175,1.5,1.2
+Adjusted,53,.5,.4
+Closed by compliance with Intermediate Report,27,.2,.2
+Withdrawn,82,.7,.5
+Dismissed,13,.1,.1
+After Board decision,"1,298",11.1,8.9
+Closed by compliance,69,.6,.5
+Closed by certification,949,8.1,6.5
+Withdrawn,41,.3,.3
+Dismissed,231,2.0,1.6
+Closed otherwise,8,.1,.0
+After court action,259,2.2,1.8
+Closed by compliance,247,2.1,1.7
+Dismissed,6,.0,.0
+Closed otherwise,6,.1,.1

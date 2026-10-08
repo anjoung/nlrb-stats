@@ -1,27 +1,67 @@
-Division and State 1,All cases,Unfair labor practice cases / CA 2,Unfair labor practice cases / CB 2,Unfair labor practice cases / CC 2,Unfair labor practice cases / CD 4,Representation cases / RC 2,Representation cases / RM 2,Representation cases / RD 2
-Middle Atlantic,2760,812,310,70,33,1323,147,65
-New York,1415,463,188,41,15,584,95,32
-New Jersey,558,131,44,14,13,331,17,11
-Pennsylvania,787,218,78,15,5,408,35,22
-East North Central,2785,668,187,47,15,1666,104,98
-Ohio,666,144,35,17,7,411,34,24
-Indiana,364,97,27,6,4,197,14,19
-Illinois,853,222,72,4,2,511,33,33
-Michigan,668,155,30,4,1,391,21,22
-Wisconsin,254,50,23,16,1,134,7,10
-West North Central,1556,265,51,28,9,792,56,37
-West North Central states detail,,,,,,,,
-South Atlantic,1022,459,153,101,12,760,65,32
-South Atlantic states detail,,,,,,,,
-East South Central,815,212,112,61,32,326,28,16
-East South Central states detail,,,,,,,,
-West South Central,873,232,63,48,9,489,44,28
-West South Central states detail,,,,,,,,
-Mountain,353,154,28,11,4,322,39,16
-Mountain states detail,,,,,,,,
-Pacific,1610,429,171,47,12,823,88,40
-Washington,231,64,24,8,4,102,12,5
-Oregon,182,49,8,6,1,100,11,7
-California,1197,316,139,33,8,621,60,32
+Division and State,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases
+Division and State,All cases,CA,CB,CC,CD,RC,RM,RD
+Total,"13,341","3,522","1,171",421,151,"7,121",595,360
+New England,836,186,44,41,4,519,17,25
+Maine,79,20,1,3,1,50,0,4
+New Hampshire,42,7,1,2,0,31,0,1
+Vermont,27,2,0,3,0,22,0,0
+Massachusetts,382,89,16,14,0,240,12,11
+Rhode Island,124,26,10,16,1,63,4,4
+Connecticut,182,42,16,3,2,113,1,5
+Middle Atlantic,"2,760",812,310,70,35,"1,323",147,63
+New York,"1,418",463,188,41,15,584,95,32
+New Jersey,555,131,44,11,10,331,17,11
+Pennsylvania,787,218,78,18,10,408,35,20
+East North Central,"2,785",668,187,47,15,"1,666",104,98
+Ohio,666,144,35,17,1,411,34,24
+Indiana,368,97,24,7,4,219,9,8
+Illinois,883,222,72,4,7,511,33,34
+Michigan,668,165,52,14,3,391,21,22
+Wisconsin,200,40,4,5,0,134,7,10
+West North Central,"1,208",265,51,28,9,762,56,37
+Iowa,111,25,2,0,0,73,7,4
+Minnesota,278,38,3,3,3,205,23,3
+Missouri,500,130,41,18,6,276,17,12
+North Dakota,41,6,0,0,0,34,0,1
+South Dakota,24,2,0,0,0,19,2,1
+Nebraska,102,30,2,3,0,62,4,1
+Kansas,152,34,3,4,0,93,3,15
+South Atlantic,"1,522",459,153,101,12,700,65,32
+Delaware,44,17,12,0,0,15,0,0
+Maryland,181,32,14,7,0,118,6,4
+District of Columbia,66,7,4,4,2,37,8,4
+Virginia,199,49,7,3,1,103,29,7
+West Virginia,90,17,9,6,1,54,1,2
+North Carolina,210,109,8,1,0,84,5,3
+South Carolina,60,33,5,1,1,19,0,1
+Georgia,348,90,72,69,0,102,9,6
+Florida,324,105,22,10,7,168,7,5
+East South Central,815,212,112,61,52,336,26,16
+Kentucky,168,36,16,2,0,105,8,1
+Tennessee,345,92,25,49,38,123,9,9
+Alabama,228,59,62,10,14,74,4,5
+Mississippi,74,25,9,0,0,34,5,1
+West South Central,873,232,63,8,9,489,44,28
+Arkansas,95,26,2,0,0,57,8,2
+Louisiana,170,51,19,2,0,93,2,3
+Oklahoma,80,15,2,0,3,50,6,4
+Texas,528,140,40,6,6,289,28,19
+Mountain,573,154,28,11,3,322,39,16
+Montana,50,12,4,1,1,23,8,1
+Idaho,68,15,0,0,0,44,7,2
+Wyoming,10,2,0,2,0,4,1,1
+Colorado,231,65,13,0,0,130,13,10
+New Mexico,54,14,3,1,1,34,1,0
+Arizona,79,20,4,2,1,47,4,1
+Utah,46,13,1,4,0,22,5,1
+Nevada,35,13,3,1,0,18,0,0
+Pacific,"1,610",429,171,47,12,823,88,40
+Washington,231,64,34,8,4,102,14,5
+Oregon,182,49,8,9,0,100,14,2
+California,"1,197",316,129,30,8,621,60,33
 Outlying areas,359,105,52,7,0,181,9,5
-Outlying areas detail,,,,,,,,
+Alaska,46,16,10,1,0,17,2,0
+Hawaii,53,4,1,0,0,46,1,1
+Puerto Rico,256,84,41,5,0,116,6,4
+Canada,1,0,0,1,0,0,0,0
+Virgin Islands,3,1,0,0,0,2,0,0

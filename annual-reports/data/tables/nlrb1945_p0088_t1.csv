@@ -1,13 +1,65 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-Total,9737,100.0,2427,100.0,7310,100.0
-Manufacturing,7291,74.9,1814,74.7,5477,74.9
-Food and kindred products,793,8.1,166,6.8,627,8.8
-Tobacco manufactures__ _,21,.2,6,. 2,15,. 2
-Textile-mill products,363,3.7,98,4.0,265,3.6
-Apparel and other finished products made from fabric and similar materials,230,2.4,94,3-9,136,1.9
-Lumber and timber basic products,306,3.1,75,3.1,231,3.2
-Furniture and finished lumber products_ _ _,240,2.5,71,2.9,169,2.3
-Paper and allied products,250,2.6,46,1.9,204,2.8
-"Printing, publishing, and allied industries _ _",212,2.2,49,2.0,163,2.2
-Chemicals and allied products,455,4.7,74,3.0,381,5.2
-,189,1.9,26,1.1,163,2.2
+Division and State,Number of cases received in 1945,Number of cases received in 1945,Number of cases received in 1945,Number of cases received in 1945,Number of cases received in 1945,Percent increase or decrease compared with 1944,Percent increase or decrease compared with 1944
+Division and State,All cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Unfair labor practice cases,Representation cases
+Division and State,All cases,Number,Percent of total,Number,Percent of total,Unfair labor practice cases,Representation cases
+New England,759,159,6.6,600,8.2,-14.5,+15.8
+Maine,40,8,0.4,32,0.4,-46.7,-13.5
+New Hampshire,46,9,0.4,37,0.5,+50.0,+48.0
+Vermont,34,7,0.3,27,0.4,-36.4,-27.0
+Massachusetts,387,78,3.2,309,4.2,-24.3,+6.2
+Rhode Island,90,20,0.8,70,1.0,+17.6,+100.0
+Connecticut,162,37,1.5,125,1.7,+8.8,+31.6
+Middle Atlantic,"2,087",512,21.1,"1,575",21.5,-7.7,+10.1
+New York,"1,142",297,12.2,845,11.5,-9.7,+23.0
+New Jersey,446,112,4.6,334,4.6,+2.8,-3.2
+Pennsylvania,499,103,4.3,396,5.4,-12.7,-3.9
+East North Central,"2,302",601,24.8,"1,701",23.3,-11.7,-1.4
+Ohio,687,185,7.6,502,6.9,-13.6,-7.4
+Indiana,265,69,2.9,196,2.7,-6.8,-8.8
+Illinois,669,169,7.0,500,6.8,-13.3,-2.5
+Michigan,455,131,5.4,324,4.4,-8.4,+1.3
+Wisconsin,226,47,1.9,179,2.5,-16.1,+20.1
+West North Central,723,180,7.4,543,7.4,-23.1,-9.8
+Iowa,156,36,1.5,120,1.6,-16.3,+12.1
+Minnesota,97,29,1.2,68,0.9,+7.4,-26.9
+Missouri,312,78,3.2,234,3.2,-28.4,-19.0
+North Dakota,13,1,0.0,12,0.2,-90.0,-14.3
+South Dakota,22,4,0.2,18,0.3,-42.9,+200.0
+Nebraska,61,16,0.7,45,0.6,0,0
+Kansas,62,16,0.6,46,0.6,-27.3,-27.0
+South Atlantic,918,269,11.1,649,8.9,-1.5,+9.3
+Delaware,23,6,0.2,17,0.2,-33.3,-27.0
+Maryland,160,38,1.6,122,1.7,-24.0,+22.0
+District of Columbia,47,17,0.7,30,0.4,+30.8,+15.4
+Virginia,156,28,1.2,128,1.8,-6.7,+34.7
+West Virginia,126,43,1.8,83,1.1,-8.5,-9.8
+North Carolina,134,44,1.8,90,1.2,+57.1,-7.2
+South Carolina,26,9,0.4,17,0.3,-25.0,-15.0
+Georgia,138,50,2.0,88,1.2,-5.7,+29.4
+Florida,108,34,1.4,74,1.0,+9.7,-16.9
+East South Central,503,154,6.3,349,4.8,-7.2,-5.2
+Kentucky,155,39,1.6,116,1.6,-11.4,-1.7
+Tennessee,210,77,3.1,133,1.8,+2.7,-14.2
+Alabama,84,19,0.8,65,0.9,-51.3,-32.3
+Mississippi,54,19,0.8,35,0.5,+137.5,+118.8
+West South Central,693,166,6.8,527,7.2,+1.2,+24.6
+Arkansas,28,9,0.4,19,0.3,-65.4,-54.8
+Louisiana,131,28,1.1,103,1.4,+16.7,+58.5
+Oklahoma,89,27,1.1,62,0.8,+28.6,-8.8
+Texas,445,102,4.2,343,4.7,+9.7,+35.6
+Mountain,320,66,2.7,254,3.5,-15.4,+14.9
+Montana,22,4,0.2,18,0.2,-50.0,+5.9
+Idaho,19,6,0.2,13,0.2,-62.5,-67.5
+Wyoming,21,5,0.2,16,0.2,+400.0,+166.7
+Colorado,98,31,1.2,67,0.9,0,+11.7
+New Mexico,32,9,0.4,23,0.3,+80.0,+360.0
+Arizona,114,7,0.3,107,1.5,-12.5,+81.4
+Utah,8,2,0.1,6,0.1,-71.4,-60.0
+Nevada,6,2,0.1,4,0.1,0.0,-86.2
+Pacific,"1,157",254,10.5,903,12.3,+24.5,+32.4
+Washington,122,25,1.0,97,1.3,-3.8,+76.4
+Oregon,120,23,1.0,97,1.3,-30.3,-4.9
+California,915,206,8.5,709,9.7,+42.1,+34.8
+Outlying Areas,275,66,2.7,209,2.9,+106.3,+422.5
+Alaska,18,0,0.0,18,0.3,-100.0,+200.0
+Hawaii,87,9,0.4,78,1.1,-10.0,+333.3
+Puerto Rico,170,57,2.3,113,1.5,+171.4,+606.3

@@ -1,12 +1,46 @@
-Industry,Establishments employing (workers)— / Less than 100,Establishments employing (workers)— / 100-199,Establishments employing (workers)— / 200-299,Establishments employing (workers)— / 300-399,Establishments employing (workers)— / 400-499,Establishments employing (workers)— / 500-999,"Establishments employing (workers)— / 1,000 and over"
-Total,37,16,9,4,4,10,18
-"Manufacturing, total",32,18,10,6,5,11,20
-Transportation equipment,16,11,6,4,5,11,47
-Agriculture and forestry,73,9,0,9,9,0,0
-Mining,60,14,2,2,4,7,11
-Construction,71,13,4,0,4,4,4
-Wholesale trade,76,13,3,3,2,0,3
-Retail trade,69,12,10,4,0,2,3
-"Finance, insurance, and real estate",55,12,8,4,5,8,8
-"Transportation, communication, and other public utilities",55,15,5,3,2,8,12
-Services,,,,,,,
+Industrial group,All cases,All cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases
+Industrial group,Number,Percent of total,Number,Percent of total,Number,Percent of total
+Total,"9,543",100.0,"3,403",100.0,"6,140",100.0
+Manufacturing,"7,560",79.2,"2,729",80.2,"4,831",78.7
+Food and kindred products,544,5.7,201,5.9,343,5.6
+Tobacco manufactures,30,.3,9,.3,21,.3
+Textile-mill products,321,3.4,136,4.0,185,3.0
+Apparel and other finished products made from fabrics and similar materials,272,2.9,149,4.4,123,2.0
+Lumber and timber basic products,290,3.0,90,2.6,200,3.3
+Furniture and finished lumber products,221,2.3,96,2.8,125,2.0
+Paper and allied products,175,1.8,60,1.8,115,1.9
+"Printing, publishing, and allied industries",207,2.2,80,2.3,127,2.1
+Chemicals and allied products,425,4.5,106,3.1,319,5.2
+Products of petroleum and coal,126,1.3,31,.9,95,1.6
+Rubber products,57,.6,20,.6,37,.6
+Leather and leather products,226,2.4,119,3.5,107,1.7
+"Stone, clay, and glass products",251,2.6,101,3.0,150,2.4
+Iron and steel and their products,"1,512",15.8,473,13.9,"1,039",16.9
+Nonferrous metals and their products,248,2.6,86,2.5,162,2.6
+Machinery (except electrical),891,9.3,298,8.8,593,9.7
+Electrical machinery,372,3.9,127,3.7,245,4.0
+Transportation equipment,"1,146",12.0,448,13.2,698,11.4
+Aircraft and parts,553,5.8,223,6.6,330,5.4
+Automotive,97,1.0,24,.7,73,1.2
+Ship and boat building and repairing,475,5.0,193,5.7,282,4.6
+Other,21,.2,8,.2,13,.2
+Miscellaneous manufacturing,246,2.6,99,2.9,147,2.4
+Agriculture and forestry,26,.3,12,.4,14,.2
+Mining,359,3.8,100,2.9,259,4.2
+Metal mining,150,1.6,24,.7,126,2.0
+Coal mining,77,.8,39,1.1,38,.6
+Crude petroleum and natural gas production,45,.5,11,.3,34,.6
+Nonmetallic mining and quarrying,87,.9,26,.8,61,1.0
+Construction,85,.9,43,1.3,42,.7
+Wholesale trade,295,3.1,108,3.2,187,3.0
+Retail trade,148,1.5,56,1.6,92,1.5
+"Finance, insurance, and real estate",143,1.5,40,1.2,103,1.7
+"Transportation, communication, and other public utilities",716,7.5,219,6.4,497,8.1
+Highway passenger transportation,61,.6,30,.9,31,.5
+Highway freight transportation,99,1.0,53,1.5,46,.8
+Water transportation,68,.7,26,.8,42,.7
+Warehousing and storage,62,.7,17,.5,45,.7
+Other transportation,44,.5,18,.5,26,.4
+Communication,90,.9,24,.7,66,1.1
+"Heat, light, power, water, and sanitary services",292,3.1,51,1.5,241,3.9
+Services,211,2.2,96,2.8,115,1.9

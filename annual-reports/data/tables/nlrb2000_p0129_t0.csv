@@ -1,42 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Pending October 1, 1999....................","*22,033",16114,613,730,4473,103
-Received fiscal 2000..........................,22094,15581,723,616,5114,60
-On docket fiscal 2000........................,44127,31695,1336,1346,9587,163
-Closed fiscal 2000..............................,22289,15838,626,564,5198,63
-"Pending September 30, 2000..............",21838,15857,710,782,4389,100
-,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases,CB Cases
-"Pending October 1, 1999....................",3160,50,6,11,2716,377
-Received fiscal 2000..........................,6166,63,11,25,5312,755
-On docket fiscal 2000........................,9326,113,17,36,8028,1132
-Closed fiscal 2000..............................,6049,54,11,30,5271,683
-"Pending September 30, 2000..............",3277,59,6,6,2757,449
-,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases,CC Cases
-"Pending October 1, 1999....................",211,1,3,2,5,200
-Received fiscal 2000..........................,567,9,5,1,43,509
-On docket fiscal 2000........................,778,10,8,3,48,709
-Closed fiscal 2000..............................,554,9,8,2,40,495
-"Pending September 30, 2000..............",224,1,0,1,8,214
-,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases,CD Cases
-"Pending October 1, 1999....................",55,2,0,0,0,53
-Received fiscal 2000..........................,194,14,0,0,8,172
-On docket fiscal 2000........................,249,16,0,0,8,225
-Closed fiscal 2000..............................,174,15,0,0,6,153
-"Pending September 30, 2000..............",75,1,0,0,2,72
-,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases,CE Cases
-"Pending October 1, 1999....................",29,1,0,0,0,28
-Received fiscal 2000..........................,22,0,0,2,5,15
-On docket fiscal 2000........................,51,1,0,2,5,43
-Closed fiscal 2000..............................,27,0,0,2,5,20
-"Pending September 30, 2000..............",24,1,0,0,0,23
-,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases,CG Cases
-"Pending October 1, 1999....................",10,0,0,0,0,10
-Received fiscal 2000..........................,12,0,0,0,0,12
-On docket fiscal 2000........................,22,0,0,0,0,22
-Closed fiscal 2000..............................,18,0,0,0,0,18
-"Pending September 30, 2000..............",4,0,0,0,0,4
-,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases,CP Cases
-"Pending October 1, 1999....................",45,1,0,0,1,43
-Received fiscal 2000..........................,133,3,2,0,11,117
-On docket fiscal 2000........................,178,4,2,0,12,160
-Closed fiscal 2000..............................,130,3,1,0,8,118
-"Pending September 30, 2000..............",48,1,1,0,4,42
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO Unions,Other national unions,Other local unions,Individuals,Employers
+All Cases,,,,,,
+"Pending October 1, 1999","27,412","17,546",673,812,"7,483",898
+Received fiscal 2000,"35,249","20,033",956,890,"11,513","1,857"
+On docket fiscal 2000,"62,661","37,579","1,629","1,702","18,996","2,755"
+Closed fiscal 2000,"35,034","20,250",839,810,"11,412","1,723"
+"Pending September 30, 2000","27,627","17,329",790,892,"7,584","1,032"
+Unfair labor practice cases,,,,,,
+"Pending October 1, 1999","25,543","16,169",622,743,"7,195",814
+Received fiscal 2000,"29,188","15,670",741,644,"10,493","1,640"
+On docket fiscal 2000,"54,731","31,839","1,363","1,387","17,688","2,454"
+Closed fiscal 2000,"29,241","15,919",646,598,"10,528","1,550"
+"Pending September 30, 2000","25,490","15,920",717,789,"7,160",904
+Representation cases,,,,,,
+"Pending October 1, 1999","1,701","1,282",45,59,254,61
+Received fiscal 2000,"5,671","4,182",176,226,910,177
+On docket fiscal 2000,"7,372","5,464",221,285,"1,164",238
+Closed fiscal 2000,"5,442","4,154",175,193,781,139
+"Pending September 30, 2000","1,930","1,310",46,92,383,99
+Union-shop deauthorization cases,,,,,,
+"Pending October 1, 1999",34,,,,34,
+Received fiscal 2000,103,,,,103,
+On docket fiscal 2000,137,,,,137,
+Closed fiscal 2000,98,,,,98,
+"Pending September 30, 2000",39,,,,39,
+Amendment of certification cases,,,,,,
+"Pending October 1, 1999",7,7,0,0,0,0
+Received fiscal 2000,37,12,22,2,0,1
+On docket fiscal 2000,44,19,22,2,0,1
+Closed fiscal 2000,15,12,0,2,0,1
+"Pending September 30, 2000",29,7,22,0,0,0
+Unit clarification cases,,,,,,
+"Pending October 1, 1999",127,88,6,10,0,23
+Received fiscal 2000,250,169,17,18,7,39
+On docket fiscal 2000,377,257,23,28,7,62
+Closed fiscal 2000,238,165,18,17,5,33
+"Pending September 30, 2000",139,92,5,11,2,29

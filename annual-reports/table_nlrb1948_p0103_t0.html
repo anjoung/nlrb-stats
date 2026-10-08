@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -124,39 +132,34 @@ ul.link-list li { margin: 0.3rem 0; }
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th>Stage / Case-type section</th><th>Total</th><th>A.F. of L. affiliates</th><th>C.I.O. affiliates</th><th>Unaffiliated unions</th><th>Individuals</th><th>Employers</th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">ALL CASES — Cases pending July 1, 1947</th><td>5,058</td><td>2,014</td><td>2,297</td><td>576</td><td>143</td><td>28</td></tr>
-<tr><th class="stub" scope="row">ALL CASES — Cases received July 1947-June 1948</th><td>36,735</td><td>23,438</td><td>5,212</td><td>5,193</td><td>1,985</td><td>907</td></tr>
-<tr><th class="stub" scope="row">ALL CASES — Cases on docket July 1947-June 1948</th><td>41,793</td><td>25,452</td><td>7,509</td><td>5,769</td><td>2,128</td><td>935</td></tr>
-<tr><th class="stub" scope="row">ALL CASES — Cases closed July 1947-June 1948</th><td>29,151</td><td>18,170</td><td>5,294</td><td>3,954</td><td>1,115</td><td>618</td></tr>
-<tr><th class="stub" scope="row">ALL CASES — Cases pending June 30, 1948</th><td>12,642</td><td>7,282</td><td>2,215</td><td>1,815</td><td>1,013</td><td>317</td></tr>
-<tr><th class="stub" scope="row">UNFAIR LABOR PRACTICE CASES — Cases pending July 1, 1947</th><td>2,443</td><td>852</td><td>1,244</td><td>204</td><td>143</td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">ULP — Cases received July 1947-June 1948</th><td>3,598</td><td>990</td><td>415</td><td>239</td><td>1,518</td><td>436</td></tr>
-<tr><th class="stub" scope="row">ULP — Cases on docket July 1947-June 1948</th><td>6,041</td><td>1,842</td><td>1,659</td><td>443</td><td>1,661</td><td>436</td></tr>
-<tr><th class="stub" scope="row">ULP — Cases closed July 1947-June 1948</th><td>3,643</td><td>1,228</td><td>1,070</td><td>274</td><td>821</td><td>250</td></tr>
-<tr><th class="stub" scope="row">ULP — Cases pending June 30, 1948</th><td>2,398</td><td>614</td><td>589</td><td>169</td><td>840</td><td>186</td></tr>
-<tr><th class="stub" scope="row">REPRESENTATION CASES — Cases pending July 1, 1947</th><td>2,615</td><td>1,162</td><td>1,053</td><td>372</td><td class="blank"></td><td>28</td></tr>
-<tr><th class="stub" scope="row">Rep — Cases received July 1947-June 1948</th><td>7,038</td><td>3,472</td><td>1,220</td><td>1,408</td><td>467</td><td>471</td></tr>
-<tr><th class="stub" scope="row">Rep — Cases on docket July 1947-June 1948</th><td>9,653</td><td>4,634</td><td>2,273</td><td>1,780</td><td>467</td><td>499</td></tr>
-<tr><th class="stub" scope="row">Rep — Cases closed July 1947-June 1948</th><td>6,817</td><td>3,251</td><td>1,729</td><td>1,175</td><td>294</td><td>368</td></tr>
-<tr><th class="stub" scope="row">Rep — Cases pending June 30, 1948</th><td>2,836</td><td>1,383</td><td>544</td><td>605</td><td>173</td><td>131</td></tr>
-<tr><th class="stub" scope="row">UNION-SHOP AUTHORIZATION CASES — Cases pending July 1, 1947</th><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">UD — Cases received July 1947-June 1948</th><td>26,099</td><td>18,976</td><td>3,577</td><td>3,546</td><td class="blank"></td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">UD — Cases on docket July 1947-June 1948</th><td>26,099</td><td>18,976</td><td>3,577</td><td>3,546</td><td class="blank"></td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">UD — Cases closed July 1947-June 1948</th><td>18,691</td><td>13,691</td><td>2,495</td><td>2,505</td><td class="blank"></td><td class="blank"></td></tr>
-<tr><th class="stub" scope="row">UD — Cases pending June 30, 1948</th><td>7,408</td><td>5,285</td><td>1,082</td><td>1,041</td><td class="blank"></td><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">Salaries</th><td>$4,153,719</td></tr>
+<tr><th class="stub" scope="row">Travel</th><td>406,796</td></tr>
+<tr><th class="stub" scope="row">Transportation of things</th><td>20,629</td></tr>
+<tr><th class="stub" scope="row">Communication services</th><td>145,362</td></tr>
+<tr><th class="stub" scope="row">Penalty mail costs</th><td>14,874</td></tr>
+<tr><th class="stub" scope="row">Rents and utility services</th><td>226,088</td></tr>
+<tr><th class="stub" scope="row">Printing and binding</th><td>174,368</td></tr>
+<tr><th class="stub" scope="row">Other contractual services</th><td>180,360</td></tr>
+<tr><th class="stub" scope="row">Supplies and materials</th><td>91,594</td></tr>
+<tr><th class="stub" scope="row">Equipment</th><td>124,717</td></tr>
+<tr><th class="stub" scope="row">Grand total obligations and expenditures for salaries and expenses</th><td>5,538,507</td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1948_p0103_t0.csv" download>Download this table (CSV)</a></p>
+<p class="check"><b>0 of 11</b> figures sit in a row or column sum that works out.</p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 103.</b> The table has two printed columns (stub plus one money column) and no column headings on this crop, so header_rows is empty. A partial line of the surrounding running text (&quot;...1948, are as follows:&quot;) is clipped at the top of the image above the first row; it is lead-in prose, not a table row, so it is omitted. A rule separates &quot;Equipment&quot; from the grand total row. A stray ink speck sits in the blank leader area of the &quot;Supplies and materials&quot; row and a smaller one near the grand total label; neither is a footnote marker. The dollar sign is printed only on the first value (&quot;Salaries&quot;). The printed grand total is internally consistent: the ten listed items sum exactly to 5,538,507. A page number (apparently &quot;97&quot;) is partly cut off at the bottom edge and is excluded.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1948_p0103.webp" loading="lazy" alt="Source page 103 of NLRB FY1948 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1948_p0103_t0_p0103.webp" loading="lazy" alt="Source page 103 of NLRB FY1948 annual report">
 <figcaption>Source: NLRB Annual Report FY1948, p. 103.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

@@ -1,39 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7
-,,,,CA cases,,,
-"Pending October 1, 1989","• 16,337",8106,1812,864,1071,4484,0
-Received fiscal 1990,24075,12485,2691,747,1022,7130,0
-On docket fiscal 1990.,40412,20591,4503,1611,2093,11614,0
-Closed fiscal 1990,23156,11665,2661,720,1095,7015,0
-"Pending September 30, 1990",17256,8926,1842,891,998,4599,0
-,,,,CB cases,,,
-"Pending October 1, 1989","*3,730",58,14,6,15,2707,930
-Received fiscal 1990.,8157,88,18,7,27,6854,1163
-On docket fiscal 1990 ..,11887,146,32,13,42,9561,2093
-Closed fiscal 1990. .... . ..... ... ... ..,7966,86,22,8,21,6723,1106
-"Pending September 30, 1990 . .. ....",3921,60,10,5,21,2838,987
-,,,,CC cases,,,
-"Pending October 1, 1989 .",*913,3,1,I,10,0,898
-Received fiscal 1990,965,7,0,13,8,0,937
-On docket fiscal 1990....,1878,10,1,14,18,0,1835
-Closed fiscal 1990,949,10,0,12,12,0,915
-"Pending September 30, 1990",929,0,1,2,6,0,920
-"Pending October 1, 1989",118,3,0,0,0,0,115
-Received fiscal 1990,297,13,1,1,5,0,277
-On docket fiscal 1990,415,16,1,I,5,0,392
-"Closed fiscal 1990 Pending September 30, 1990... ...",288 127,13 3,1 0,0 I,4 1,0 0,270 122
-,,CE cases,CE cases,CE cases,CE cases,CE cases,CE cases
-"Pending October I, 1989",.60,1,0,0,3,0,56
-Received fiscal 1990,44,4,0,0,3,1,36
-On docket fiscal 1990,104,5,0,0,6,1,92
-"Closed fiscal 1990 . . ... .. Pending September 30, 1990",62 42,3 2,0 0,0 0,4 2,I,54 38
-Received fiscal 1990,,,,,,,
-,41,,,CO cases 0,1,0,57
-"Pending October I, 1989 ......",30,1,0,0,0,0,29
-,30,1,0,0,1,0,28
-On docket fiscal 1990,60,2,0,0,,0,38
-"Closed fiscal 1990. Pending September 30, 1990",19,2 0,", 0 0",0,1 0,0 0,19
-,,CP cases,,,,,
-"Pending October 1, 1990",125,1,1,0,0,0,123
-Received fiscal 1990.,265,1,,4,2,0,258
-On docket fiscal 1990 Closed fiscal 1990.,390 294,2 1,0 I 1,4 4,2 0,0 0,381 288
-"Pending September 30, 1990",96,1,0,0,2,0,93
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending October 1, 1989","24,640","9,797","2,376",949,"1,344","7,737","2,437"
+Received fiscal 1990,"41,507","16,369","4,320",951,"1,411","15,303","3,153"
+On docket fiscal 1990,"66,147","26,166","6,696","1,900","2,755","23,040","5,590"
+Closed fiscal 1990,"40,595","15,600","4,321",918,"1,510","15,099","3,147"
+"Pending September 30, 1990","25,552","10,566","2,375",982,"1,245","7,941","2,443"
+Unfair labor practice cases,,,,,,,
+"Pending October 1, 1989","21,313","8,173","1,828",871,"1,099","7,191","2,151"
+Received fiscal 1990,"33,833","12,599","2,710",772,"1,068","13,985","2,699"
+On docket fiscal 1990,"55,146","20,772","4,538","1,643","2,167","21,176","4,850"
+Closed fiscal 1990,"32,756","11,780","2,685",744,"1,137","13,739","2,671"
+"Pending September 30, 1990","22,390","8,992","1,853",899,"1,030","7,437","2,179"
+Representation cases,,,,,,,
+"Pending October 1, 1989","3,014","1,556",529,72,219,464,174
+Received fiscal 1990,"7,173","3,625","1,570",170,315,"1,166",327
+On docket fiscal 1990,"10,187","5,181","2,099",242,534,"1,630",501
+Closed fiscal 1990,"7,271","3,663","1,588",162,335,"1,192",331
+"Pending September 30, 1990","2,916","1,518",511,80,199,438,170
+Union-shop deauthorization cases,,,,,,,
+"Pending October 1, 1989",82,,,,,82,
+Received fiscal 1990,152,,,,,152,
+On docket fiscal 1990,234,,,,,234,
+Closed fiscal 1990,168,,,,,168,
+"Pending September 30, 1990",66,,,,,66,
+Amendment of certification cases,,,,,,,
+"Pending October 1, 1989",17,9,1,0,6,0,1
+Received fiscal 1990,23,9,2,2,2,0,8
+On docket fiscal 1990,40,18,3,2,8,0,9
+Closed fiscal 1990,32,16,2,2,4,0,8
+"Pending September 30, 1990",8,2,1,0,4,0,1
+Unit clarification cases,,,,,,,
+"Pending October 1, 1989",214,59,18,6,20,0,111
+Received fiscal 1990,326,136,38,7,26,0,119
+On docket fiscal 1990,540,195,56,13,46,0,230
+Closed fiscal 1990,368,141,46,10,34,0,137
+"Pending September 30, 1990",172,54,10,3,12,0,93

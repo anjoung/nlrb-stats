@@ -1,42 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7
-"Pending October 1, 1990 .","*17,565",9074,1868,909,1006,4708,
-Received fiscal 1991,23005,11765,2557,745,946,6992,
-On docket fiscal 1991,40570,20839,4425,1654,1952,11700,
-Closed fiscal 1991,22484,11330,2500,755,955,6944,
-"Pending September 30, 1991",18086,9509,1925,899,997,4756,
-,CB cases,CB cases,CB cases,CB cases,CB cases,CB cases,CB cases
-"Pending October 1, 1990","*4,043",62,10,5,22,2952,992
-Received fiscal 1991,7921,51,17,9,35,6848,961
-On docket fiscal 1991,11964,113,27,14,57,9800,1953
-Closed fiscal 1991,7787,54,9,10,29,6573,1112
-"Pending September 30, 1991",4177,59,18,4,28,3227,841
-,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases
-"Pending October 1, 1990",*948,0,1,2,6,,939
-Received fiscal 1991,731,4,4,3,6,,714
-On docket fiscal 1991,1679,4,5,5,12,,1653
-Closed fiscal 1991,778,1,4,5,5,,763
-"Pending September 30, 1991",901,3,,0,7,,890
-,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases
-"Pending October 1, 1990",*133,3,,,1,,128
-Received fiscal 1991,236,8,,,1,,227
-On docket fiscal 1991,369,11,,,2,,355
-Closed fiscal 1991,241,8,,,1,,231
-"Pending September 30, 1991",128,3,,,1,,124
-,CE cases,CE cases,CE cases,CE cases,CE cases,CE cases,CE cases
-"Pending October 1, 1990",.42,2,,,2,0,38
-Received fiscal 1991,148,0,,,3,3,142
-On docket fiscal 1991,190,2,,,5,3,180
-Closed fiscal 1991,49,1,,,1,0,47
-"Pending September 30, 1991",141,1,,,4,3,133
-,CG cases,CG cases,CG cases,CG cases,CG cases,CG cases,CG cases
-"Pending October 1, 1990",*19,,,,,,19
-Received fiscal 1991,19,,,,,,19
-On docket fiscal 1991,38,,,,,,38
-Closed fiscal 1991,16,,,,,,16
-,CP cases,CP cases,CP cases,CP cases,CP cases,CP cases,CP cases
-"Pending October 1, 1990",*102,1,1,0,2,,98
-Received fiscal 1991,211,4,2,3,1,,201
-On docket fiscal 1991,313,5,3,3,3,,299
-Closed fiscal 1991,238,4,2,3,,,226
-"Pending September 30, 1991",75,,1,,3,,
-,,1,,0,,,73
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending October 1, 1990","26,058","10,734","2,408","1,004","1,257","8,169","2,486"
+Received fiscal 1991,"38,923","14,971","4,018",961,"1,321","15,037","2,615"
+On docket fiscal 1991,"64,981","25,705","6,426","1,965","2,578","23,206","5,101"
+Closed fiscal 1991,"38,249","14,536","3,906",959,"1,321","14,736","2,791"
+"Pending September 30, 1991","26,732","11,169","2,520","1,006","1,257","8,470","2,310"
+Unfair labor practice cases,,,,,,,
+"Pending October 1, 1990","22,852","9,142","1,880",917,"1,039","7,660","2,214"
+Received fiscal 1991,"32,271","11,832","2,580",760,992,"13,843","2,264"
+On docket fiscal 1991,"55,123","20,974","4,460","1,677","2,031","21,503","4,478"
+Closed fiscal 1991,"31,593","11,398","2,515",774,994,"13,517","2,395"
+"Pending September 30, 1991","23,530","9,576","1,945",903,"1,037","7,986","2,083"
+Representation cases,,,,,,,
+"Pending October 1, 1990","2,954","1,537",517,84,201,443,172
+Received fiscal 1991,"6,223","3,010","1,410",193,289,"1,061",260
+On docket fiscal 1991,"9,177","4,547","1,927",277,490,"1,504",432
+Closed fiscal 1991,"6,235","3,003","1,361",177,293,"1,097",304
+"Pending September 30, 1991","2,942","1,544",566,100,197,407,128
+Union-shop deauthorization cases,,,,,,,
+"Pending October 1, 1990",66,,,,,66,
+Received fiscal 1991,133,,,,,133,
+On docket fiscal 1991,199,,,,,199,
+Closed fiscal 1991,122,,,,,122,
+"Pending September 30, 1991",77,,,,,77,
+Amendment of certification cases,,,,,,,
+"Pending October 1, 1990",12,2,1,0,4,0,5
+Received fiscal 1991,22,5,4,2,6,0,5
+On docket fiscal 1991,34,7,5,2,10,0,10
+Closed fiscal 1991,25,4,4,2,6,0,9
+"Pending September 30, 1991",9,3,1,0,4,0,1
+Unit clarification cases,,,,,,,
+"Pending October 1, 1990",174,53,10,3,13,0,95
+Received fiscal 1991,274,124,24,6,34,0,86
+On docket fiscal 1991,448,177,34,9,47,0,181
+Closed fiscal 1991,274,131,26,6,28,0,83
+"Pending September 30, 1991",174,46,8,3,19,0,98

@@ -1,10 +1,8 @@
-Affiliation of participating unions,Number of elections / Total,Number of elections / In which representation rights were won by — AFL affiliates,Number of elections / In which representation rights were won by — CIO affiliates,Number of elections / In which representation rights were won by — AFL-CIO affiliates,Number of elections / In which representation rights were won by — Unaffiliated unions,Number of elections / In units in which no representative was won,Number of employees involved (number eligible to vote) / Total,Number of employees involved (number eligible to vote) / AFL affiliates,Number of employees involved (number eligible to vote) / CIO affiliates,Number of employees involved (number eligible to vote) / AFL-CIO affiliates,Number of employees involved (number eligible to vote) / Unaffiliated unions,Number of employees involved (number eligible to vote) / In units in which no representative was won,Total valid votes cast
-Total,4946,986,486,1430,328,1716,462712,63092,60119,114408,53673,171420,414568
-1-union elections,,,,,,,,,,,,,
-AFL,1371,818,,,,553,84575,45187,,,,39484,76572
-AFL-CIO,2014,,,1239,,775,205409,,,92971,,81676,187659
-CIO,700,,372,,,388,68725,,30961,,,32118,62728
-Unaffiliated,330,,,,162,168,44156,,,,8488,12125,39720
-2-union elections (multiple combos),,,,,,,,,,,,,
-3-union elections (multiple combos),,,,,,,,,,,,,
-4-union elections (multiple combos),,,,,,,,,,,,,
+Union affiliation,Elections participated in,Elections participated in,Elections participated in,Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Union affiliation,Total,Won,Percent won,Total eligible,Employees in units selecting bargaining agent,Employees in units selecting bargaining agent,Total,Percent of total eligible,Cast for the union,Cast for the union
+Union affiliation,Total,Won,Percent won,Total eligible,Number,Percent of total eligible,Total,Percent of total eligible,Number,Percent of total cast
+Total,"4,946","3,230",65.3,"462,712","291,292",63.0,"414,568",89.6,"268,531",64.8
+AFL,"1,720",986,57.3,"135,607","63,092",46.5,"121,760",89.8,"61,691",50.7
+AFL-CIO,"2,316","1,430",61.7,"224,527","114,408",51.0,"201,078",89.6,"109,704",54.6
+CIO,854,486,56.9,"124,117","60,119",48.4,"111,526",89.9,"56,379",50.6
+Unaffiliated,539,328,60.9,"84,554","53,673",63.5,"74,814",88.5,"40,757",54.5

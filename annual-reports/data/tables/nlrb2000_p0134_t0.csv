@@ -1,27 +1,27 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Hearings completed, total......................................................",835,773,697,13,63,0
-Initial hearing......................................................................,661,612,552,11,49,0
-Hearing on objections and/or challenges............................,174,161,145,2,14,0
-"Decisions issued, total............................................................",670,623,547,30,46,9
-By Regional Director..........................................................,609,566,496,27,43,9
-Elections directed..........................................................,496,468,437,6,25,9
-Dismissals on record....................................................,113,98,59,21,18,0
-By Board............................................................................,61,57,51,3,3,0
-Transferred by Regional Directors for initial decision.,0,0,0,0,0,0
-Elections directed...................................................,0,0,0,0,0,0
-Dismissals on record..............................................,0,0,0,0,0,0
-Review of Regional Directors' decisions:,,,,,,
-Requests for review received..................................,319,304,251,16,37,1
-Withdrawn before request ruled upon....................,20,19,18,1,0,0
-"Board action on request ruled upon, total..............",287,271,230,11,30,1
-Granted..............................................................,43,40,33,3,4,0
-Denied..............................................................,239,227,196,7,24,1
-Remanded........................................................,5,4,1,1,2,0
-"Withdrawn after request granted, before Board review......................................................................",4,3,3,0,0,0
-"Board decision after review, total..........................",61,57,51,3,3,0
-Regional Directors' decisions:,,,,,,
-Affirmed......................................................,26,26,23,2,1,0
-Modified......................................................,5,5,5,0,0,0
-Reversed......................................................,30,26,23,1,2,0
-Outcome:,,,,,,
-Election directed........................................,50,47,44,1,2,0
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,Total formal actions taken,CA,CB,CC,CD,CD,CE,CG,CP,CA combined with CB,C combined with representation cases,Other C combinations
+Types of formal actions taken,Cases in which formal actions taken,Total formal actions taken,CA,CB,CC,Jurisdictional disputes,Unfair labor practices,CE,CG,CP,CA combined with CB,C combined with representation cases,Other C combinations
+10(k) notices of hearings issued,35,33,,,,33,,,,,,,
+Complaints issued,"3,761","2,556","2,288",175,32,,3,1,0,10,14,26,7
+Compliance specification issued,188,79,76,2,0,,0,0,0,0,1,0,0
+"Hearings completed, total",793,400,351,23,2,0,0,1,0,1,3,15,4
+Initial ULP hearings,700,369,320,23,2,0,0,1,0,1,3,15,4
+Backpay hearings,8,7,7,0,0,0,0,0,0,0,0,0,0
+Other hearings,85,24,24,0,0,0,0,0,0,0,0,0,0
+"Decisions by administrative law judges, total",981,398,345,23,4,0,0,3,0,1,7,12,3
+Initial ULP decisions,775,342,294,20,4,0,0,2,0,1,6,12,3
+Backpay decisions,11,5,5,0,0,0,0,0,0,0,0,0,0
+Supplemental decisions,195,51,46,3,0,0,0,1,0,0,1,0,0
+"Decisions and orders by the Board, total",1228,607,518,33,3,11,0,0,0,2,7,31,2
+Upon consent of parties:,,,,,,,,,,,,,
+Initial decisions,24,14,11,0,1,0,0,0,0,1,0,0,1
+Supplemental decisions,22,9,8,0,0,0,0,0,0,0,0,1,0
+Adopting administrative law judges' decisions (no exceptions filed):,,,,,,,,,,,,,
+Initial ULP decisions,189,106,91,8,1,0,0,0,0,0,2,4,0
+Backpay decisions,1,1,1,0,0,0,0,0,0,0,0,0,0
+Supplemental decisions,9,5,2,3,0,0,0,0,0,0,0,0,0
+Contested:,,,,,,,,,,,,,
+Initial ULP decisions,912,428,367,20,0,11,0,0,0,1,2,26,1
+Decisions based on stipulated record,7,7,6,1,0,0,0,0,0,0,0,0,0
+Supplemental ULP decisions,31,16,11,1,1,0,0,0,0,0,3,0,0
+Backpay decisions,33,21,21,0,0,0,0,0,0,0,0,0,0

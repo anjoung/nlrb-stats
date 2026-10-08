@@ -1,23 +1,26 @@
-row_label,col_1,col_2,col_3,col_4
-Cases disposed of before issuance of complaint:,,,,
-By settlement,240,25966,27.8,45.2
-By withdrawal of charge,168,37772,19.4,31.8
-By refusal to issue complaint,108,15681,12.5,20.8
-By transfer,13,1779,1.5,2.5
-By consolidation,2,", .1",• 2,.4
-Total disposed of before issuance of complaint,531,81199,61.4,100.0
-Cases disposed of after issuance of complaint:,,,,
-By settlement before hearing,18,1365,2.1,17.1
-By settlement during hearing,6,SS,.7,5.7
-By settlement after hearing,13,2119,1.5,12.4
-By dismissal after hearing by Board or trial examiners,9,2199,1.0,8.6
-By withdrawal of charge after hearing,3,231,.8,2.9
-By cease-and-desist orders issued by the Board_,56,5514,6.5,53.3
-Total disposed of after issuance of complaint,105,11526,12.1,100.0
-Cases pending:,,,,
-Hearings to be held,135,36725,15.6,58.9
-Hearings prevented by injunction,30,17487,3.5,18.1
-Decisions of Board pending,48,11934,5.5,21.0
-Intermediate reports pending,16,1475,1.9,7.0
-Total cases pending,229,67621,26.5,100.0
-Total complaint cases,886,". 180,346",we (),
+,Number of cases,Subsections of section 8 involved,Subsections of section 8 involved,Subsections of section 8 involved,Subsections of section 8 involved,Subsections of section 8 involved,Subsections of section 8 involved,Subsections of section 8 involved,Subsections of section 8 involved,Subsections of section 8 involved,Subsections of section 8 involved,Subsections of section 8 involved,"""Other"" analyzed","""Other"" analyzed","""Other"" analyzed","""Other"" analyzed","""Other"" analyzed","""Other"" analyzed","""Other"" analyzed","""Other"" analyzed","""Other"" analyzed"
+,Number of cases,1,2,3,4,5,1 and 3,1 and 5,"1, 3, and 5","1, 2, and 3","1, 2, 3, and 5",Other,1,1 and 2,1 and 4,"1, 2, and 5","1, 3, and 4","1, 2, 3, and 4","1, 3, 4, and 5","1, 2, 3, 4 and 5","1, 4, and 5"
+Board,2,2,2,2,,,,,,2,,,,,,,,,,,
+Region:,,,,,,,,,,,,,,,,,,,,,
+1,63,63,15,48,,24,29,11,8,6,5,4,,4,,,,,,,
+2,119,119,26,81,1,69,33,30,27,12,9,8,2,2,1,3,,,,,
+3,23,23,6,17,,17,4,3,10,,3,3,,2,,1,,,,,
+4,77,77,14,46,,38,29,25,7,6,4,6,2,2,,2,,,,,
+5,24,24,11,20,3,6,10,,2,4,1,7,,1,,3,1,2,,,
+6,29,29,3,21,,13,13,6,7,1,,2,,2,,,,,,,
+7,17,17,3,12,2,7,3,1,5,1,1,6,3,1,,,2,,,,
+8,34,34,9,19,,12,13,8,2,4,,7,2,3,,2,,,,,
+9,30,30,11,21,1,14,8,2,6,4,2,8,3,,,4,,1,,,
+10,88,88,15,67,3,36,40,16,11,6,8,7,3,1,1,,1,,1,,
+11,31,31,13,17,1,17,6,7,4,4,2,8,1,2,,4,,1,,,
+12,26,26,2,14,,17,6,11,7,1,,1,,2,,,,,,,
+13,51,51,13,38,4,26,19,11,8,4,3,6,,2,,,,,,4,
+14,15,15,6,12,,2,7,1,1,4,,2,,2,,,,,,,
+15,32,32,5,28,1,7,21,1,4,1,1,4,,2,,1,1,,,,
+16,22,22,3,15,2,14,7,7,4,1,1,2,,,,,,,1,1,
+17,30,30,9,20,3,7,12,4,,6,,8,4,1,,,,,,2,1
+18,11,11,1,7,,5,4,2,2,,1,2,2,,,,,,,,
+19,40,40,13,32,,20,12,6,9,6,5,2,,2,,,,,,,
+20,22,22,4,19,,6,13,2,3,3,,1,,,,1,,,,,
+21,79,79,13,38,,43,27,31,8,3,,10,,2,,8,,,,,
+Total,865,865,197,594,21,405,316,185,135,79,46,104,22,32,2,29,5,4,2,7,1

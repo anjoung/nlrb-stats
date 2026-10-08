@@ -1,9 +1,9 @@
-Participating unions,Total elections,Percent won by unions,Elections won by unions — Total,Elections won by unions — AFL-CIO unions,Elections won by unions — Teamsters,Elections won by unions — Other national unions,Elections won by unions — Other local unions,Elections in which no representative chosen,Employees eligible to vote — Total,Employees eligible to vote — In elections won by unions,Employees eligible to vote — In units won by AFL-CIO,Employees eligible to vote — In units won by Teamsters,Employees eligible to vote — In units won by Other national unions,Employees eligible to vote — In units won by Other local unions,In elections in which no representative chosen
-AFL-CIO unions [1-union],2590,41.6,1071,1071,0,0,0,1519,127713,47541,47541,0,0,0,80172
-Teamsters [1-union],1219,38.3,467,0,467,0,0,752,35078,12149,0,12149,0,0,22369
-Other national unions [1-union],104,51.0,53,0,0,53,0,51,13348,2539,0,0,2539,0,9700
-Other local unions [1-union],282,47.5,134,0,0,0,134,148,18200,9700,0,0,0,9700,8546
-1-union elections (subtotal),4195,41.1,1725,1071,467,53,134,2470,186576,71899,47541,12119,2539,9700,114677
-2-union elections (subtotal),200,80.0,160,67,29,6,18,56,20615,16685,7014,1936,1562,6173,3930
-3 (or more)-union elections (subtotal),10,100.0,10,,,,,0,2727,2727,1870,,84,86,0
-Total representation elections (GRAND TOTAL — All R wins),4405,43.0,1895,1141,497,62,195,2510,209918,91311,54925,14129,4190,18067,118607
+Affiliation of union holding union-shop contract,Number of polls,Number of polls,Number of polls,Number of polls,Number of polls,Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Affiliation of union holding union-shop contract,Total,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total eligible,In polls,In polls,In polls,In polls,Total,Percent of total eligible,Cast for deauthorization,Cast for deauthorization
+Affiliation of union holding union-shop contract,Total,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total eligible,Resulting in deauthorization,Resulting in deauthorization,Resulting in continued authorization,Resulting in continued authorization,Total,Percent of total eligible,Cast for deauthorization,Cast for deauthorization
+Affiliation of union holding union-shop contract,Total,Number,Percent of total,Number,Percent of total,Total eligible,Number,Percent of total,Number,Percent of total,Total,Percent of total eligible,Number,Percent of total eligible
+Total,76,51,67.1,25,32.9,"3,158","1,677",53.1,"1,481",46.9,"2,526",80.0,"1,307",41.4
+AFL-CIO unions,50,32,64.0,18,36.0,"2,017",957,47.4,"1,060",52.6,"1,588",78.7,725,35.9
+Teamsters,17,14,82.4,3,17.6,326,217,66.6,109,33.4,287,88.0,262,80.4
+Other national unions,4,3,75.0,1,25.0,45,26,57.8,19,42.2,40,88.9,13,28.9
+Other local unions,5,2,40.0,3,60.0,770,477,61.9,293,38.1,611,79.4,307,39.9

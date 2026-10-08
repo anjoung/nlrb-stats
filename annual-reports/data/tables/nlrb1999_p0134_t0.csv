@@ -1,13 +1,22 @@
-Type of election,All R elections / Total elections,All R elections / Elections conducted: Withdrawn or dismissed before election,All R elections / Elections conducted: Resulting in a rerun or runoff,All R elections / Elections conducted: Resulting in certification,All R elections / Elections conducted: Resulting in certification¹,RC elections / Total elections,RC elections / Elections conducted: Withdrawn or dismissed before election,RC elections / Elections conducted: Resulting in a rerun or runoff,RC elections / Elections conducted: Resulting in certification,RC elections / Elections conducted: Resulting in certification¹,RM elections / Total elections,RM elections / Elections conducted: Withdrawn or dismissed before election,RM elections / Elections conducted: Resulting in a rerun or runoff,RM elections / Elections conducted: Resulting in certification,RM elections / Elections conducted: Resulting in certification¹,RD elections / Total elections,RD elections / Elections conducted: Withdrawn or dismissed before election,RD elections / Elections conducted: Resulting in a rerun or runoff,RD elections / Elections conducted: Resulting in certification,RD elections / Elections conducted: Resulting in certification¹
-All types,All types,3743,79,76,3,3585,3264,73,71,3120,,45,1,2,42,434,5,6,423,
-Rerun required,Rerun required,0,0,63,0,0,0,0,56,0,,0,0,0,1,0,0,0,0,
-Runoff required,Runoff required,0,0,16,0,0,0,0,15,0,,0,0,0,0,0,0,0,0,
-Consent elections,Consent elections,17,0,0,17,0,16,0,0,16,,0,0,0,0,1,0,0,1,
-Stipulated elections,Stipulated elections,3136,66,70,3,3006,2717,56,63,2598,,41,0,2,39,378,4,5,369,
-Rerun required,Rerun required,0,0,54,0,0,0,0,48,0,,0,0,0,1,0,0,0,5,
-Runoff required,Runoff required,0,0,16,0,0,0,0,15,0,,0,0,0,0,0,0,0,1,
-Regional Director-directed,Regional Director-directed,583,18,9,0,556,524,16,8,500,,4,1,0,3,55,1,1,53,
-Rerun required,Rerun required,0,0,9,0,0,0,0,8,0,,0,0,0,0,0,0,0,1,
-Board-directed,Board-directed,7,1,0,0,6,7,1,0,6,,0,0,0,0,0,0,0,0,
-Rerun required,Rerun required,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,
-Expedited-Sec. 8(b)(7)(C),Expedited-Sec. 8(b)(7)(C),0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,
+Type of case,Type of election,Type of election,Type of election,Type of election,Type of election,Type of election
+Type of case,Total,Consent,Stipulated,Board-directed,Regional Director-directed,Expedited elections under 8(b)(7)(C)
+"All types, total:",,,,,,
+Elections,"3,639",17,"3,038",6,578,0
+Eligible voters,"245,768",367,"191,561",319,"53,521",0
+Valid votes,"212,990",309,"167,748",262,"44,671",0
+RC cases:,,,,,,
+Elections,"3,120",16,"2,598",6,500,0
+Eligible voters,"221,210",363,"171,428",319,"49,100",0
+Valid votes,"192,450",305,"150,695",262,"41,188",0
+RM cases:,,,,,,
+Elections,42,0,39,0,3,0
+Eligible voters,"2,029",0,"1,655",0,374,0
+Valid votes,"1,644",0,"1,330",0,314,0
+RD cases:,,,,,,
+Elections,423,1,369,0,53,0
+Eligible voters,"18,884",4,"16,347",0,"2,533",0
+Valid votes,"16,293",4,"14,233",0,"2,056",0
+UD cases:,,,,,,
+Elections,54,0,32,0,22,
+Eligible voters,"3,645",0,"2,131",0,"1,514",
+Valid votes,"2,603",0,"1,490",0,"1,113",

@@ -1,2 +1,40 @@
-Method and stage of disposition,All C cases / Number,All C cases / Percent of total closed,CA cases / Number,CA cases / Percent of total closed,CB cases / Number,CB cases / Percent of total closed,CC cases / Number,CC cases / Percent of total closed,CD cases / Number,CD cases / Percent of total closed,CE cases / Number,CE cases / Percent of total closed,CP cases / Number,CP cases / Percent of total closed
-"ULP disposition stage breakdown by method (Supreme Court action, Withdrawal, Dismissal, etc.)",,,,,,,,,,,,,,
+Method and stage of disposition,All C cases,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CG cases,CG cases,CP cases,CP cases
+Method and stage of disposition,Number,Percent of total closed,Percent of total method,Number,Percent of total closed,Number,Percent of total closed,Number,Percent of total closed,Number,Percent of total closed,Number,Percent of total closed,Number,Percent of total closed,Number,Percent of total closed
+Total number of cases closed,"32,756",100.0,,"23,156",100.0,"7,966",100.0,949,100.0,288,100.0,62,100.0,41,100.0,294,100.0
+Agreement of the parties,"9,773",29.8,100.0,"7,891",34.0,"1,297",16.2,435,45.8,4,1.3,19,30.6,17,41.4,110,37.4
+Informal settlement,"9,633",29.4,98.6,"7,782",33.6,"1,280",16.0,426,44.8,3,1.0,19,30.6,17,41.4,106,36.0
+Before issuance of complaint,"6,894",21.0,70.5,"5,494",23.7,970,12.1,329,34.6,,,7,11.2,15,36.5,79,26.8
+"After issuance of complaint, before opening of hearing","2,685",8.2,27.5,"2,243",9.6,307,3.8,96,10.1,2,0.6,10,16.1,2,4.8,25,8.5
+"After hearing opened, before issuance of administrative law judge's decision",54,0.2,0.6,45,0.1,3,0.0,1,0.1,1,0.3,2,3.2,0,,2,0.6
+Formal settlement,140,0.4,1.4,109,0.4,17,0.2,9,0.9,1,0.3,0,,0,,4,1.3
+"After issuance of complaint, before opening of hearing",46,0.1,0.5,30,0.1,9,0.1,5,0.5,0,,0,,0,,2,0.6
+Stipulated decision,0,,,0,,0,,0,,0,,0,,0,,0,
+Consent decree,46,0.1,0.5,30,0.1,9,0.1,5,0.5,0,,0,,0,,2,0.6
+After hearing opened,94,0.3,1.0,79,0.3,8,0.1,4,0.4,1,0.3,0,,0,,2,0.6
+Stipulated decision,30,0.1,0.3,21,0.0,4,0.0,3,0.3,0,,0,,0,,2,0.6
+Consent decree,64,0.2,0.7,58,0.2,4,0.0,1,0.1,1,0.3,0,,0,,0,
+Compliance with,800,2.4,100.0,644,2.7,133,1.6,12,1.2,1,0.3,1,1.6,0,,9,3.0
+Administrative law judge's decision,43,0.1,5.4,40,0.1,2,0.0,0,,0,,0,,0,,1,0.3
+Board decision,539,1.6,67.4,414,1.7,108,1.3,7,0.7,1,0.3,1,1.6,0,,8,2.7
+Adopting administrative law judge's decision (no exceptions filed),209,0.6,26.1,155,0.6,51,0.6,2,0.2,0,,0,,0,,1,0.3
+Contested,330,1.0,41.3,259,1.1,57,0.7,5,0.5,1,0.3,1,1.6,0,,7,2.3
+Circuit court of appeals decree,205,0.6,25.6,180,0.7,20,0.2,5,0.5,0,,0,,0,,0,
+Supreme Court action,13,0.0,1.6,10,0.0,3,0.0,0,,0,,0,,0,,0,
+Withdrawal,"10,108",30.9,100.0,"7,294",31.4,"2,338",29.3,346,36.4,0,,21,33.8,12,29.2,97,32.9
+Before issuance of complaint,"9,810",29.9,97.1,"7,046",30.4,"2,312",29.0,328,34.5,,,21,33.8,11,26.8,92,31.2
+"After issuance of complaint, before opening of hearing",260,0.8,2.6,213,0.9,25,0.3,17,1.7,0,,0,,1,2.4,4,1.3
+"After hearing opened, before administrative law judge's decision",38,0.1,0.4,35,0.1,1,0.0,1,0.1,0,,0,,0,,1,0.3
+"After administrative law judge's decision, before Board decision",0,,,0,,0,,0,,0,,0,,0,,0,
+After Board or court decision,0,,,0,,0,,0,,0,,0,,0,,0,
+Dismissal,"11,699",35.7,100.0,"7,251",31.3,"4,181",52.4,156,16.4,0,,21,33.8,12,29.2,78,26.5
+Before issuance of complaint,"11,341",34.6,96.9,"6,983",30.1,"4,103",51.5,149,15.7,,,21,33.8,12,29.2,73,24.8
+"After issuance of complaint, before opening of hearing",113,0.3,1.0,69,0.2,40,0.5,4,0.4,0,,0,,0,,0,
+"After hearing opened, before administrative law judge's decision",6,0.0,0.1,5,0.0,1,0.0,0,,0,,0,,0,,0,
+By administrative law judge's decision,2,0.0,0.0,0,,2,0.0,0,,0,,0,,0,,0,
+By Board decision,227,0.7,1.9,186,0.8,34,0.4,2,0.2,0,,0,,0,,5,1.7
+Adopting administrative law judge's decision (no exceptions filed),15,0.0,0.1,14,0.0,1,0.0,0,,0,,0,,0,,0,
+Contested,212,0.6,1.8,172,0.7,33,0.4,2,0.2,0,,0,,0,,5,1.7
+By circuit court of appeals decree,8,0.0,0.1,7,0.0,0,,1,0.1,0,,0,,0,,0,
+By Supreme Court action,2,0.0,0.0,1,0.0,1,0.0,0,,0,,0,,0,,0,
+10(k) actions (see Table 7A for details of dispositions),283,0.9,0.0,0,,0,,0,,283,98.2,0,,0,,0,
+Otherwise (compliance with order of administrative law judge or Board not achieved—firm went out of business),93,0.3,0.0,76,0.3,17,0.2,0,,0,,0,,0,,0,

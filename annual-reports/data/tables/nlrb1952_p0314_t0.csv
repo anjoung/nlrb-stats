@@ -1,25 +1,57 @@
 Case No.,Companies and unions involved,Election date,Eligible voters,Votes in favor of accepting final offer,Votes against accepting final offer
-Philadelphia Marine Trade Association,,,,,
-Longshoremen,,do.,2900,78,2361
-Checkers,,do.,200,17,167
-Clerks,,do.,32,9,24
-Maintenance Workers,,do.,100,0,96
-"Steamship Trade Association of Baltimore, Inc.",,,,,
-Longshoremen,,do.,4729,207,1472
-Checkers,,do.,213,7,110
-Clerks,,do.,115,6,83
-"Hampton Roads Maritime Association, Inc.",,,,,
-Longshoremen,,do.,1408,51,853
-Checkers,,do.,108,18,81
-Clerks,,do.,35,0,45
-IV.,Copper and Nonferrous Metals Industry:,,,,
-19-X-1,"International Union of Mine, Mill & Smelter Workers, and 25 Companies involved: 8 Companies (Federal Mining and Smelting Co., Sunshine Hill, Bunker Hill, Sullivan Mining, American Lead, Howe Sound, etc.)","Nov. 20, 1951",,,
-"Federal Mining and Smelting Co. (Morning Mine), Wallace, Idaho",,,268,184,78
-"Sunshine Hill and Sullivan Mining & Concentrating Co., Kellogg, Idaho",,,1561,547,822
-"Sunshine Mining Co., Kellogg, Idaho",,,850,384,242
-"Sullivan Mining Co., Kellogg, Idaho",,,357,282,42
-"American Lead & Smelting Co., Metaline, Wash.",,,132,89,67
-"Bunker Hill and Sullivan Co., Metaline, Wash.",,,178,70,92
-"Howe Sound Co., Holden, Wash.",,,89,38,65
-20-X-2,"U. S. Vanadium Co., Bishop, Calif.",,233,80,94
-Total,,,68312,3520,21227
+I,Oak Ridge Maintenance Employees Dispute:,,,,
+10-X-1,"Oak Ridge National Laboratory, Division of Carbide and Carbon Chemicals Corp , Oak Ridge, Tenn., and Atomic Trades & Labor Council (AFL)","June 2, 1948",877,26,771
+II,Labor Disputes in the Maritime Industry of the United States,,,,
+2-X-1,"Atlantic and Gulf Coast companies, unlicensed personnel, and National Maritime Union (CIO), National Marine Engineers' Beneficial Association (CIO), American Radio Association (CIO)",,[1],,
+8-X-1,"International Harvester Co., Wisconsin Steel Division and National Maritime Union (CIO); Lake Tankers, Cleveland Tankers, Great Lakes Transportation Co., Nicholson Transit Co , Johnson Transportation Co ; Ford Motor Co , Interstate Steamship Co., Inland Steel Co ; Bethlehem Transportation Co ; and National Maritime Union (CIO)","Aug. 28-Sept. 8, 1948",61,25,2
+20-X-1,"Waterfront Employers Association, et al (Pacific Coast), and International Longshoremen's and Warehousemen's Union (then CIO)","Aug 30-31, 1948","26,965",[3],
+,"Alaska Steamship Company, Northland Transportation Company, and Alaska Transportation Company and International Longshoremen's & Warehousemen's Union (then CIO)",,[1],,
+,"Pacific American Shipowners Association, et al","Aug 31-Oct. 11, 1948",,,
+,Employees represented by National Engineers Beneficial Association (CIO).,,,,
+,Offshore,,"1,538",189,199
+,Coastwise,,14,1,3
+,"Employees represented by Pacific Coast Marine Firemen, Oilers, (CIO)",,,,
+,Offshore,,"3,115",41,328
+,Coastwise,,26,0,0
+,Employees represented by Marine Cooks and Stewards Union.,,,,
+,Offshore,,"4,097",65,121
+,Coastwise,,22,0,0
+III,Atlantic Coast Longshoremen's Dispute,,,,
+2-X-2,"Maritime Industry on the Atlantic Coast, and International Longshoremen's Association (AFL):",,,,
+,"Deep Water Steamship Lines and Contracting Stevedores, Portland, Maine:",,,,
+,Longshoremen,"Nov 5, 1948",400,10,139
+,Checkers,do,25,0,7
+,"Boston Shipping Association, Inc.:",,,,
+,Longshoremen,do,"2,975",42,"1,198"
+,Checkers,do,220,8,163
+,New York Shipping Association,,,,
+,Longshoremen,do,"12,664",698,"10,623"
+,Checkers,do,"1,660",138,"1,364"
+,Clerks,do,484,93,348
+,Cargo Repairmen,do,130,3,101
+,Philadelphia Marine Trade Association:,,,,
+,Longshoremen,do,"2,900",75,"2,361"
+,Checkers,do,250,17,167
+,Clerks,do,60,4,34
+,Maintenance Workers,do,150,0,96
+,"Steamship Trade Association of Baltimore, Inc.",,,,
+,Longshoremen,do,"4,729",207,"1,472"
+,Checkers,do,115,7,81
+,Clerks,do,115,6,82
+,"Hampton Roads Maritime Association, Inc.",,,,
+,Longshoremen,do,"1,408",51,853
+,Checkers,do,76,3,45
+,Clerks,do,67,3,40
+IV,Copper and Nonferrous Metals Industry:,,,,
+,"International Union of Mine, Mill & Smelter Workers, and 25 Companies involved:",,,,
+,17 Companies,[1],[1],,
+,8 Companies,,,,
+19-X-1,"Federal Mining and Smelting Co. (Morning Mine), Wallace, Idaho","Nov. 20, 1951",268,184,14
+,"Bunker Hill and Sullivan Mining & Concentrating Co., Kellogg, Idaho",,"1,341",822,284
+,"Sunshine Mining Co., Kellogg, Idaho",,385,242,59
+,"Sullivan Mining Co., Kellogg, Idaho",,387,242,62
+,"American Zinc Lead & Smelting Co., Metaline, Wash.",,136,42,69
+,"Pend Oreille Mines & Metals Co., Metaline, Wash.",,167,74,15
+,"Howe Sound Co., Holden, Wash.",,257,164,32
+20-X-2,"U. S. Vanadium Co., Bishop, Calif.",,228,38,94
+,Total,,"68,312","3,520","21,227"

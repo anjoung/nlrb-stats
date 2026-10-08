@@ -1,21 +1,39 @@
-Status,Total,Identification of filing party / AFL-CIO affiliates,Identification of filing party / Teamsters,Identification of filing party / Other national unions,Identification of filing party / Unaffiliated local unions,Identification of filing party / Individuals,Identification of filing party / Employers
-"RC cases — Pending July 1, 1963",1904,1294,407,129,72,2,
-RC cases — Received fiscal 1964,10018,6041,2979,649,338,11,
-RC cases — On docket fiscal 1964,11922,7335,3386,778,410,13,
-RC cases — Closed fiscal 1964,9925,6058,2885,644,329,9,
-"RC cases — Pending June 30, 1964",1997,1277,501,134,81,4,
-"RM cases — Pending July 1, 1963",181,,,,,,181
-RM cases — Received fiscal 1964,988,,,,,,988
-RM cases — On docket fiscal 1964,1169,,,,,,1169
-RM cases — Closed fiscal 1964,939,,,,,,939
-"RM cases — Pending June 30, 1964",230,,,,,,230
-"RD cases — Pending July 1, 1963",110,2,0,0,1,107,
-RD cases — Received fiscal 1964,679,5,1,0,4,669,
-RD cases — On docket fiscal 1964,789,7,1,0,5,776,
-RD cases — Closed fiscal 1964,682,4,1,0,4,673,
-"RD cases — Pending June 30, 1964",107,3,0,0,1,103,
-"UD cases — Pending July 1, 1963",17,,,,,17,
-UD cases — Received fiscal 1964,98,,,,,98,
-UD cases — On docket fiscal 1964,115,,,,,115,
-UD cases — Closed fiscal 1964,95,,,,,95,
-"UD cases — Pending June 30, 1964",20,,,,,20,
+,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO affiliates,Teamsters,Other national unions,Unaffiliated local unions,Individuals,Employers
+CA cases,,,,,,,
+"Pending July 1, 1963","3,653","1,932",412,138,69,"1,100",2
+Received fiscal 1964,"10,695","5,141","1,304",368,195,"3,685",2
+On docket fiscal 1964,"14,348","7,073","1,716",506,264,"4,785",4
+Closed fiscal 1964,"10,189","4,792","1,227",354,170,"3,642",4
+"Pending June 30, 1964","4,159","2,281",489,152,94,"1,143",0
+CB cases,,,,,,,
+"Pending July 1, 1963",943,41,4,7,14,677,200
+Received fiscal 1964,"2,811",70,9,9,16,"2,119",588
+On docket fiscal 1964,"3,754",111,13,16,30,"2,796",788
+Closed fiscal 1964,"2,958",79,11,9,16,"2,228",615
+"Pending June 30, 1964",796,32,2,7,14,568,173
+CC cases,,,,,,,
+"Pending July 1, 1963",357,4,0,0,5,7,341
+Received fiscal 1964,"1,233",7,0,16,25,36,"1,149"
+On docket fiscal 1964,"1,590",11,0,16,30,43,"1,490"
+Closed fiscal 1964,"1,154",6,0,3,20,27,"1,098"
+"Pending June 30, 1964",436,5,0,13,10,16,392
+CD cases,,,,,,,
+"Pending July 1, 1963",93,8,1,0,0,3,81
+Received fiscal 1964,393,15,0,2,2,16,358
+On docket fiscal 1964,486,23,1,2,2,19,439
+Closed fiscal 1964,328,17,1,1,1,12,296
+"Pending June 30, 1964",158,6,0,1,1,7,143
+CE cases,,,,,,,
+"Pending July 1, 1963",43,5,0,0,0,3,35
+Received fiscal 1964,69,7,1,0,1,5,55
+On docket fiscal 1964,112,12,1,0,1,8,90
+Closed fiscal 1964,49,4,0,0,1,4,40
+"Pending June 30, 1964",63,8,1,0,0,4,50
+CP cases,,,,,,,
+"Pending July 1, 1963",96,0,0,0,0,1,95
+Received fiscal 1964,419,3,0,1,17,4,394
+On docket fiscal 1964,515,3,0,1,17,5,489
+Closed fiscal 1964,396,2,0,0,16,4,374
+"Pending June 30, 1964",119,1,0,1,1,1,115

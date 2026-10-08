@@ -1,5 +1,24 @@
-row_label,col_1,col_2,col_3,col_4
-Hearings,completed,83,9,65
-Decisions,issued after hearing,111,15,83
-By By,regional directors Board,96 15,18 2,76 7
-,After transfer by regional directors for initial decision After review of regional directors' decisions,10 5,2 o,2 5
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,Total formal actions taken,RC,RM,RD,UD
+"Hearings completed, total","2,790","2,530","2,295",73,162,15
+Initial hearings,"2,524","2,267","2,041",70,156,5
+Hearings on objections and/or challenges,266,263,254,3,6,10
+"Decisions issued, total","2,458","2,282","2,059",75,148,5
+By regional directors,"2,318","2,160","1,946",69,145,5
+Elections directed,"2,007","1,872","1,690",61,121,4
+Dismissals on record,311,288,256,8,24,1
+By Board,140,122,113,6,8,0
+After transfer by regional directors for initial decision,106,88,79,6,3,0
+Elections directed,67,54,40,2,2,0
+Dismissals on record,39,34,29,4,1,0
+After review of regional directors' decisions,34,34,34,0,0,0
+Elections directed,26,26,26,0,0,0
+Dismissals on record,8,8,8,0,0,0
+"Decisions on objections and/or challenges, total","1,253","1,232","1,136",52,44,11
+By regional directors,364,357,328,12,17,9
+By Board,889,875,808,40,27,2
+In stipulated elections,851,838,777,37,24,2
+No exceptions to regional directors' reports,551,539,500,22,17,2
+Exceptions to regional directors' reports,300,299,277,15,7,0
+In directed elections (after transfer by regional directors),16,16,14,1,1,0
+In directed elections after review of regional directors' supplemental decisions,22,21,17,2,2,0

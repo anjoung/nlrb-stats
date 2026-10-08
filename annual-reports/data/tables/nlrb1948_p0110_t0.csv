@@ -1,21 +1,46 @@
-Location of regional office,All cases,Unfair labor practice cases / Total,Unfair labor practice cases / NLRA C,Unfair labor practice cases / LMRA C,Representation cases / Total,Representation cases / NLRA R,Representation cases / LMRA R,Union authorization cases
-Total,36735,3598,296,3302,7038,643,6395,26099
-Boston,3039,286,17,269,638,48,590,2115
-New York,5190,625,30,595,689,49,640,3876
-Buffalo,968,85,3,82,169,5,164,714
-Philadelphia,1510,139,8,131,264,29,235,1107
-Baltimore and subregions,1301,219,14,205,385,47,338,697
-Pittsburgh,1056,133,10,123,221,14,207,702
-Detroit,1895,131,14,117,333,21,312,1431
-Cleveland,1555,99,10,89,255,33,222,1211
-Cincinnati and subregion,1866,164,16,148,406,45,361,1296
-Atlanta,790,304,20,284,376,39,337,110
-Chicago and subregion,2783,272,19,253,420,41,379,2091
-St. Louis,2601,125,14,111,414,23,391,2062
-New Orleans and subregion,667,118,12,106,248,28,220,301
-Fort Worth and subregion,743,119,14,105,351,58,293,273
-Kansas City and subregion,1975,90,18,72,376,25,351,1509
-Minneapolis,1458,69,8,61,223,12,211,1166
-Seattle and subregion,2821,187,11,176,359,32,327,2275
-San Francisco,1863,181,29,152,319,34,285,1363
-Los Angeles and subregion,2644,352,29,323,592,60,532,1700
+Industrial Group,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases,Representation cases
+Industrial Group,All cases,NLRA C,CA,CB,CC,CD,NLRA R,RC,RM,RD
+Total,"10,636",296,"2,553",438,243,68,643,"5,478",459,458
+Manufacturing,"6,996",224,"1,725",209,87,14,463,"3,674",288,312
+Food and kindred products,"1,072",33,304,37,27,5,60,491,61,54
+Tobacco manufacturers,17,1,2,1,0,0,0,11,2,0
+Textile-mill products,416,11,152,10,2,0,36,161,19,25
+Apparel and other finished products made from fabrics and similar materials,325,9,126,38,18,0,14,84,22,14
+Lumber and wood products,443,12,91,11,7,2,46,240,22,12
+Furniture and fixtures,234,18,46,5,2,0,18,134,4,7
+Paper and allied products,235,4,41,3,4,1,23,148,5,6
+"Printing, publishing, and allied industries",268,8,52,23,8,3,14,141,9,10
+Chemicals and allied products,350,7,57,6,0,1,29,224,13,13
+Products of petroleum and coal,135,0,17,5,0,0,6,94,4,9
+Rubber products,70,2,15,2,0,0,7,40,0,4
+Leather and leather products,160,4,32,4,1,0,7,99,8,5
+"Stone, clay, and glass products",282,7,67,7,3,1,22,151,9,15
+Primary metal industries,367,7,110,8,2,0,16,184,14,26
+Fabricated metal products (except machinery and transportation equipment),537,27,97,11,1,0,40,319,22,20
+Machinery (except electrical),868,35,206,9,4,0,54,486,33,41
+"Electrical machinery, equipment and supplies",357,7,74,16,5,0,21,210,13,11
+Transportation equipment,500,26,146,8,1,1,31,253,10,24
+Aircraft and parts,137,2,83,0,0,0,5,38,1,8
+Ship and boat building and repairing,84,6,14,4,0,1,9,39,3,8
+Automotive and other transportation equipment,279,18,49,4,1,0,17,176,6,8
+"Professional, scientific, and controlling instruments",94,2,9,1,0,0,7,65,3,7
+Miscellaneous manufacturing,266,4,81,4,2,0,12,139,15,9
+"Agriculture, forestry, and fisheries",14,0,4,0,1,0,1,8,0,0
+Mining,213,7,28,16,10,0,28,104,12,8
+Metal mining,45,1,2,1,0,0,1,39,0,1
+Coal mining,43,3,3,15,9,0,4,2,6,1
+Crude petroleum and natural gas production,49,2,10,0,0,0,11,20,2,4
+Nonmetallic mining and quarrying,76,1,13,0,1,0,12,43,4,2
+Construction,341,4,50,47,45,28,3,151,11,2
+Wholesale trade,657,12,138,11,19,1,26,358,49,43
+Retail trade,635,7,111,59,21,3,28,342,43,21
+"Finance, insurance, and real estate",174,0,79,4,0,0,4,80,6,1
+"Transportation, communication, and other public utilities","1,133",27,287,65,40,8,76,545,31,54
+Highway passenger transportation,115,4,35,7,3,1,3,51,6,5
+Highway freight transportation,304,9,123,11,23,3,9,104,9,13
+Water transportation,139,1,20,24,5,0,34,53,0,2
+Warehousing and storage,146,2,31,9,4,2,5,73,9,11
+Other transportation,54,2,12,4,0,0,1,29,1,5
+Communication,245,5,45,9,4,0,16,152,5,9
+"Heat, light, power, water, and sanitary services",130,4,21,1,1,2,8,83,1,9
+Services,473,15,131,27,20,14,14,216,19,17

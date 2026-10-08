@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -122,46 +130,47 @@ ul.link-list li { margin: 0.3rem 0; }
 <h1>NLRB statistical tables — FY1942</h1>
 <table class="listing">
 <thead>
-<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
+<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Printed as<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
 </thead>
 <tbody>
-<tr><td><a href="table_nlrb1942_p0023_t0.html">Number of cases filed</a></td><td><span class="type-label">Table</span></td><td>23</td></tr>
-<tr><td><a href="table_nlrb1942_p0024_t0.html">Distribution of Board cases vs. workers covered by unemployment compensation — by State</a></td><td><span class="type-label">Table</span></td><td>24</td></tr>
-<tr><td><a href="table_nlrb1942_p0026_t0.html">Industries with preponderance of representation cases</a></td><td><span class="type-label">Table</span></td><td>26</td></tr>
-<tr><td><a href="table_nlrb1942_p0026_t1.html">Industries with preponderance of unfair labor practice cases</a></td><td><span class="type-label">Table</span></td><td>26</td></tr>
-<tr><td><a href="table_nlrb1942_p0027_t0.html">Cases received and workers involved — by party filing</a></td><td><span class="type-label">Table</span></td><td>27</td></tr>
-<tr><td><a href="table_nlrb1942_p0033_t0.html">Unfair labor practice cases closed compared with cases filed</a></td><td><span class="type-label">Table</span></td><td>33</td></tr>
-<tr><td><a href="table_nlrb1942_p0037_t0.html">Representation cases closed compared with cases filed</a></td><td><span class="type-label">Table</span></td><td>37</td></tr>
-<tr><td><a href="table_nlrb1942_p0042_t0.html">Distribution of workers and valid votes in leading manufacturing industries</a></td><td><span class="type-label">Table</span></td><td>42</td></tr>
-<tr><td><a href="table_nlrb1942_p0044_t0.html">Results of elections and pay-roll checks</a></td><td><span class="type-label">Table</span></td><td>44</td></tr>
-<tr><td><a href="table_nlrb1942_p0045_t0.html">Success of petitioning unions in elections with two parties on the ballot</a></td><td><span class="type-label">Table</span></td><td>45</td></tr>
-<tr><td><a href="table_nlrb1942_p0080_t0.html">Expenditures and obligations</a></td><td><span class="type-label">Table</span></td><td>80</td></tr>
-<tr><td><a href="table_nlrb1942_p0082_t0.html">Cases received, closed, and pending</a></td><td><span class="type-label">Table</span></td><td>82</td></tr>
-<tr><td><a href="table_nlrb1942_p0082_t1.html">Workers involved in cases received, closed, and pending — by party filing</a></td><td><span class="type-label">Table</span></td><td>82</td></tr>
-<tr><td><a href="table_nlrb1942_p0083_t0.html">Distribution of cases and workers involved in cases received</a></td><td><span class="type-label">Table</span></td><td>83</td></tr>
-<tr><td><a href="table_nlrb1942_p0083_t1.html">Types of unfair labor practices alleged in charges received</a></td><td><span class="type-label">Table</span></td><td>83</td></tr>
-<tr><td><a href="table_nlrb1942_p0084_t0.html">Disposition of cases closed</a></td><td><span class="type-label">Table</span></td><td>84</td></tr>
-<tr><td><a href="table_nlrb1942_p0085_t0.html">Percentage distribution of all cases closed — by stage and method</a></td><td><span class="type-label">Table</span></td><td>85</td></tr>
-<tr><td><a href="table_nlrb1942_p0086_t0.html">Disposition of representation cases closed</a></td><td><span class="type-label">Table</span></td><td>86</td></tr>
-<tr><td><a href="table_nlrb1942_p0087_t0.html">Disposition of representation cases — by affiliation of filing union</a></td><td><span class="type-label">Table</span></td><td>87</td></tr>
-<tr><td><a href="table_nlrb1942_p0088_t0.html">Percentage distribution of representation cases closed</a></td><td><span class="type-label">Table</span></td><td>88</td></tr>
-<tr><td><a href="table_nlrb1942_p0089_t0.html">Forms of remedy in unfair labor practice cases closed</a></td><td><span class="type-label">Table</span></td><td>89</td></tr>
-<tr><td><a href="table_nlrb1942_p0089_t1.html">Cases pending before the NLRB — by stage of activity</a></td><td><span class="type-label">Table</span></td><td>89</td></tr>
-<tr><td><a href="table_nlrb1942_p0089_t2.html">Types of formal action taken by NLRB</a></td><td><span class="type-label">Table</span></td><td>89</td></tr>
-<tr><td><a href="table_nlrb1942_p0090_t0.html">Number of elections and pay-roll checks and votes cast for participating unions</a></td><td><span class="type-label">Table</span></td><td>90</td></tr>
-<tr><td><a href="table_nlrb1942_p0091_t0.html">Number of elections and pay-roll checks and votes cast for participating unions</a></td><td><span class="type-label">Table</span></td><td>91</td></tr>
-<tr><td><a href="table_nlrb1942_p0092_t0.html">Number of elections and pay-roll checks and number of valid votes cast</a></td><td><span class="type-label">Table</span></td><td>92</td></tr>
-<tr><td><a href="table_nlrb1942_p0093_t0.html">Elections and pay-roll checks and valid votes cast — by industry</a></td><td><span class="type-label">Table</span></td><td>93</td></tr>
-<tr><td><a href="table_nlrb1942_p0096_t0.html">Cases heard — unfair labor practice cases</a></td><td><span class="type-label">Table</span></td><td>96</td></tr>
-<tr><td><a href="table_nlrb1942_p0116_t0.html">Unfair labor practice cases decided on the basis of a stipulation of agreement</a></td><td><span class="type-label">Table</span></td><td>116</td></tr>
-<tr><td><a href="table_nlrb1942_p0117_t0.html">Cases in which the Board rendered decisions</a></td><td><span class="type-label">Table</span></td><td>117</td></tr>
-<tr><td><a href="table_nlrb1942_p0118_t0.html">Table of cases — volume and page citations</a></td><td><span class="type-label">Table</span></td><td>118</td></tr>
-<tr><td><a href="table_nlrb1942_p0127_t0.html">Cases in which the Board rendered decisions</a></td><td><span class="type-label">Table</span></td><td>127</td></tr>
-<tr><td><a href="table_nlrb1942_p0129_t0.html">Cases in which the Board rendered decisions</a></td><td><span class="type-label">Table</span></td><td>129</td></tr>
-<tr><td><a href="table_nlrb1942_p0195_t0.html">Regional offices</a></td><td><span class="type-label">Table</span></td><td>195</td></tr>
+<tr><td><a href="table_nlrb1942_p0024_t0.html">Distribution of Board cases vs. workers covered by unemployment compensation — by State</a><br><span class="hint">Number of cases filed, 1936–1942</span></td><td><span class="type-label">Table</span></td><td>Table 1</td><td>24</td></tr>
+<tr><td><a href="table_nlrb1942_p0025_t0.html">Distribution of Board cases vs. workers covered by unemployment compensation — by State</a><br><span class="hint">Comparison of the distribution of Board cases and the distribution of workers covered by unemployment compensation in the 12 leading States</span></td><td><span class="type-label">Table</span></td><td>Table 2</td><td>25</td></tr>
+<tr><td><a href="table_nlrb1942_p0027_t0.html">Cases received and workers involved — by party filing</a><br><span class="hint">Industries with preponderance of representation cases</span></td><td><span class="type-label">Table</span></td><td>Table 3</td><td>27</td></tr>
+<tr><td><a href="table_nlrb1942_p0027_t1.html">Industries with preponderance of unfair labor practice cases</a></td><td><span class="type-label">Table</span></td><td>Table 4</td><td>27</td></tr>
+<tr><td><a href="table_nlrb1942_p0028_t0.html">Cases received and workers involved — by party filing</a><br><span class="hint">Number of cases received and workers involved in cases received during 1942, by union or party filing</span></td><td><span class="type-label">Table</span></td><td>Table 5</td><td>28</td></tr>
+<tr><td><a href="table_nlrb1942_p0029_f0.html">Disposition of cases closed</a></td><td><span class="type-label">Figure</span></td><td></td><td>29</td></tr>
+<tr><td><a href="table_nlrb1942_p0030_f0.html">Origin of cases closed compared with cases filed</a><br><span class="hint">Comparison of the origin of cases closed and cases filed during the fiscal year 1942</span></td><td><span class="type-label">Figure</span></td><td>Chart 2</td><td>30</td></tr>
+<tr><td><a href="table_nlrb1942_p0032_f0.html">Disposition of cases closed</a><br><span class="hint">Disposition of cases closed during the fiscal year 1942</span></td><td><span class="type-label">Figure</span></td><td>Chart 3</td><td>32</td></tr>
+<tr><td><a href="table_nlrb1942_p0034_t0.html">Unfair labor practice cases closed compared with cases filed</a><br><span class="hint">Unfair labor practice cases closed during 1942 compared with cases filed, by union or party filing</span></td><td><span class="type-label">Table</span></td><td>Table 6</td><td>34</td></tr>
+<tr><td><a href="table_nlrb1942_p0036_f0.html">Disposition of cases closed</a><br><span class="hint">Disposition of cases closed during the fiscal year 1942</span></td><td><span class="type-label">Figure</span></td><td>Chart 4</td><td>36</td></tr>
+<tr><td><a href="table_nlrb1942_p0038_t0.html">Representation cases closed compared with cases filed</a><br><span class="hint">Representation cases closed during 1942 compared with cases filed, by type of petitioner</span></td><td><span class="type-label">Table</span></td><td>Table 7</td><td>38</td></tr>
+<tr><td><a href="table_nlrb1942_p0043_t0.html">Distribution of workers and valid votes in leading manufacturing industries</a><br><span class="hint">Comparison of the distribution of workers and the distribution of valid votes cast in 12 leading manufacturing industries</span></td><td><span class="type-label">Table</span></td><td>Table 8</td><td>43</td></tr>
+<tr><td><a href="table_nlrb1942_p0045_t0.html">Success of petitioning unions in elections with two parties on the ballot</a><br><span class="hint">Results of elections and pay-roll checks conducted during 1942, by participating union</span></td><td><span class="type-label">Table</span></td><td>Table 9</td><td>45</td></tr>
+<tr><td><a href="table_nlrb1942_p0046_t0.html">Success of petitioning unions in elections with two parties on the ballot</a></td><td><span class="type-label">Table</span></td><td>Table 10</td><td>46</td></tr>
+<tr><td><a href="table_nlrb1942_p0081_t0.html">Expenditures and obligations by object of expenditure</a></td><td><span class="type-label">Table</span></td><td></td><td>81</td></tr>
+<tr><td><a href="table_nlrb1942_p0083_t0.html">Cases and workers involved in cases received</a><br><span class="hint">Number of cases received, closed, and pending during the fiscal year 1942, by party filing</span></td><td><span class="type-label">Table</span></td><td>Table 1</td><td>83</td></tr>
+<tr><td><a href="table_nlrb1942_p0083_t1.html">Types of unfair labor practices alleged in charges received</a><br><span class="hint">Number of workers involved in cases received, closed, and pending during the fiscal year 1942, by party filing</span></td><td><span class="type-label">Table</span></td><td>Table 2</td><td>83</td></tr>
+<tr><td><a href="table_nlrb1942_p0084_t0.html">Disposition of cases closed</a><br><span class="hint">Distribution of cases and workers involved in cases received during the fiscal year 1942, by month</span></td><td><span class="type-label">Table</span></td><td>Table 3</td><td>84</td></tr>
+<tr><td><a href="table_nlrb1942_p0084_t1.html">Types of unfair labor practices alleged in charges received</a><br><span class="hint">Types of unfair labor practices alleged in charges received during the fiscal year 1942</span></td><td><span class="type-label">Table</span></td><td>Table 4</td><td>84</td></tr>
+<tr><td><a href="table_nlrb1942_p0085_t0.html">Percentage distribution of all cases closed — by stage and method</a><br><span class="hint">Disposition of all cases closed during the fiscal year 1942, by stage and method, by party filing</span></td><td><span class="type-label">Table</span></td><td>Table 7</td><td>85</td></tr>
+<tr><td><a href="table_nlrb1942_p0086_t0.html">Disposition of representation cases closed</a><br><span class="hint">Percentage distribution of all cases closed during the fiscal year 1942, by stage and method</span></td><td><span class="type-label">Table</span></td><td>Table 8</td><td>86</td></tr>
+<tr><td><a href="table_nlrb1942_p0087_t0.html">Disposition of representation cases — by affiliation of filing union</a><br><span class="hint">Disposition of representation cases closed during the fiscal year 1942, by stage and method, by party filing</span></td><td><span class="type-label">Table</span></td><td>Table 11</td><td>87</td></tr>
+<tr><td><a href="table_nlrb1942_p0089_t0.html">Forms of remedy in unfair labor practice cases</a><br><span class="hint">Percentage distribution of representation cases closed during the fiscal year 1942, by stage and method</span></td><td><span class="type-label">Table</span></td><td>Table 12</td><td>89</td></tr>
+<tr><td><a href="table_nlrb1942_p0090_t0.html">Forms of remedy in unfair labor practice cases closed during the fiscal year 1942, by party filing</a></td><td><span class="type-label">Table</span></td><td>Table 13</td><td>90</td></tr>
+<tr><td><a href="table_nlrb1942_p0090_t1.html">Cases pending, by stage of activity</a><br><span class="hint">Number of cases pending before the National Labor Relations Board June 30, 1942, by status</span></td><td><span class="type-label">Table</span></td><td>Table 14</td><td>90</td></tr>
+<tr><td><a href="table_nlrb1942_p0090_t2.html">Types of formal action taken</a><br><span class="hint">Types of formal action taken by the National Labor Relations Board during the fiscal year 1942</span></td><td><span class="type-label">Table</span></td><td>Table 15</td><td>90</td></tr>
+<tr><td><a href="table_nlrb1942_p0091_t0.html">Elections and pay-roll checks and votes cast, for participating unions</a><br><span class="hint">Number of elections and pay-roll checks and number of votes cast for participating unions during the fiscal year 1942</span></td><td><span class="type-label">Table</span></td><td>Table 16</td><td>91</td></tr>
+<tr><td><a href="table_nlrb1942_p0092_t0.html">Elections, pay-roll checks, and valid votes cast</a><br><span class="hint">Number of elections and pay-roll checks and number of votes cast for participating unions during the fiscal year 1942, by petitioning union</span></td><td><span class="type-label">Table</span></td><td>Table 17</td><td>92</td></tr>
+<tr><td><a href="table_nlrb1942_p0093_t0.html">Elections and pay-roll checks and valid votes cast</a><br><span class="hint">Number of elections and pay-roll checks and number of valid votes cast during the fiscal year 1942, by industry</span></td><td><span class="type-label">Table</span></td><td>Table 18</td><td>93</td></tr>
+<tr><td><a href="table_nlrb1942_p0097_t0.html">Cases heard</a></td><td><span class="type-label">Table</span></td><td></td><td>97</td></tr>
+<tr><td><a href="table_nlrb1942_p0113_t0.html">Cases in which the Board rendered decisions</a><br><span class="hint">Appendix C. List of Cases in Which the Board Rendered Decisions During the Fiscal Year 1942</span></td><td><span class="type-label">Table</span></td><td></td><td>113</td></tr>
+<tr><td><a href="table_nlrb1942_p0120_t0.html">Cases in which the Board rendered decisions</a></td><td><span class="type-label">Table</span></td><td></td><td>120</td></tr>
+<tr><td><a href="table_nlrb1942_p0171_t0.html">Concordance of section numbers with the Federal Register</a></td><td><span class="type-label">Table</span></td><td></td><td>171</td></tr>
+<tr><td><a href="table_nlrb1942_p0195_t0.html">Regional offices</a></td><td><span class="type-label">Table</span></td><td></td><td>195</td></tr>
 </tbody>
 </table>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 <script>
 (function () {

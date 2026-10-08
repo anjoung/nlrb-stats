@@ -1,19 +1,41 @@
-Case number,Respondent (party),Date charge filed,Date temporary restraining order filed or denied,Date hearing on petition,"Date dismissed, withdrawn, or otherwise disposed",Result / Disposition
-"20-CA-023, 524, 597, 624, 626, 25-CB-173, 172, 184, 200, 207","American President Lines Ltd., and Matson Navigation Co. (Individual) National Union of Marine Cooks & Stewards (Individual)","Aug. 28, 1951",,,"Jan. 23, 1952",
-6-CC-22,CIO-Sindicato de Trabajadores (South Porto Rico Sugar Co.),"Aug. 30, 1951",,,"Feb. 19, 1952","Jan. 11, 1952"
-6-CC-10,"AFL-Teamsters, Local 307 (Mc Enery Co.)","Aug. 30, 1951",,,,"Dec. 24, 1951"
-19-CC-13,"AFL-Carpenters, Local 2781 (Plywood & Door Corp.)","Sept. 5, 1951",,,,"Sept. 25, 1951"
-13-CC-16,"AFL-Sheet Metal Workers, Local 28 (Ferrocraft, etc.)","Sept. 12, 1951",,,,"Nov. 20, 1951"
-6-CC-23,"AFL-Teamsters, Local 626 (Roy Stone)","Sept. 21, 1951",,,,"Dec. 11, 1951"
-"10-CC-2, 6-CD-13",AFL-Teamsters (Hammermill Paper Co.),"Oct. 4, 1951",,,,
-12-CC-1,"AFL-Carpenters, Local 50 (Clyde M. Furr)","Oct. 9, 1951",,,,"June 5, 1952"
-20-CC-7,"AFL-Teamsters, Local 814 (Montgomery Ward & Co.)","Oct. 24, 1951",,,,"Dec. 27, 1951"
-"24-CC-11, 12","AFL-Longshoremen (Puerto Rico Steamship Ass'n, et al)","Nov. 5, 1951","Nov. 14, 1951","Nov. 23, 1951","Nov. 23, 1951",
-2-CC-20,"AFL-Confectionery Employees and Confectionery Employees Local 30 (Henry Heide, Inc.)","Nov. 6, 1951",,,,"Feb. 16, 1952"
-24-CD-40,AFL-Longshoremen (General Council of Ports of Puerto Rico (Bermuda Steamship association)),"Nov. 26, 1951","Feb. 6, 1952",,,"Feb. 20, 1952"
-20-CC-9,"Mine Workers, District 50 and Harry Livington (National Cylinder Gas Co.) (Atlas Canning Co.)","Mar. 12, 1952",,,,"April 11, 1952"
-19-CC-21,AFL-Teamsters (Wash. & State Allied Trades) (Atlas Canning Co.) (Shingle Co.),"Mar. 25, 1952",,,,"May 27, 1952"
-"21-CC-22, 6-CC-21",AFL-Teamsters (Capital Service Inc.),"May 14, 1952",,,,"June 2, 1952"
-10-CC-37,"AFL-Teamsters, Local 135 (Motor Freight Carriers of So.)","May 28, 1952",,,,"June 26, 1952"
-"13-CA-1065, 24-CC-13, 14, 15, 16-CD-A","Mine Workers, District 50 (Jordan Plumes Corp.) (Puerto Rico Tugboatmen) (Puerto Rico Tugboatmen Workers' Union) (AFL-Longshoremen (Puerto Rico Steamship association, et al.))","May 29, 1952",,,,
-6-CD-10,"Pacific Coast Dist. Metal Trades Council (McDowell Company, Inc.)","June 19, 1952",,,,"June 26, 1952"
+Case number,Union or company,Date petition for injunction filed,Type of petition,Temporary restraining order,Temporary restraining order,Date temporary injunction granted,Date injunction denied,Date injunction proceedings withdrawn or dismissed,Date of Board decision and/or order
+Case number,Union or company,Date petition for injunction filed,Type of petition,Date issued,Date lifted,Date temporary injunction granted,Date injunction denied,Date injunction proceedings withdrawn or dismissed,Date of Board decision and/or order
+21-CD-19,"AFL-Los Angeles Building and Construction Trades Council, et al., (Westinghouse Electric Co.).","May 3, 1949",10 (l),,,"June 10, 1949",,"Dec. 5, 1951","May 11, 1951"
+"5-CB-43, 44, 45, 46, 47.",Mine Workers & John L. Lewis (Southern Coal Producers Association).,"Jan. 18, 1950",10 (j),,,"Feb 11, 1950",,"Oct. 10, 1951",
+16-CC-14,"AFL-Meat Cutters & Butchers, Local 303 (Western, Inc.).","May 17, 1950",10 (l),,,,"July 25, 1950","Dec. 12, 1951","Feb. 19, 1951"
+21-CC-92,AFL-Boilermakers Local 92 (Richfield Oil Corp.).,"May 22, 1950",10 (l),,,[2],,"Sept. 6, 1951","Aug. 21, 1951"
+9-CC-31,"United Construction Workers, UMWA (Kanawha Coal Operators Association).","July 5, 1950",10 (l),,,"July 27, 1950",,"Aug 13, 1951","June 29, 1951"
+17-CC-10,"AFL-Meat Cutters & Butchers, Local 172 (Producers Produce Co.).","Aug. 17, 1950",10 (l),"Sept. 15, 1950","Sept. 19, 1950","Sept. 19, 1950",,"July 7, 1951",[1]
+3-CC-19,"AFL-Teamsters, Local 649 (Jamestown Builders Exchange, Inc).","Aug. 24, 1950",10 (l),,,[2],,"Nov. 16, 1951","Feb. 23, 1951"
+"20-CD-17, 18","Longshoremen & Warehousemen & AFL-Sailors Union of the Pacific, (Pacific Maritime Association).","Jan. 5, 1951",10 (l),"Jan. 5, 1951","Jan. 9, 1951","Jan 30, 1951",,"Mar. 20, 1952","May 11, 1951"
+,"Longshoremen & Warehousemen, Local 48","Jan. 6, 1951",10 (l),"Jan. 8, 1951","Mar. 15, 1951","Mar. 15, 1951",,"Mar. 24, 1952","May 11, 1951"
+,"Longshoremen & Warehousemen, Local 13","Mar. 28, 1951",10 (l),,,[2],,"Apr. 25, 1952","May 11, 1951"
+"2-CB-135, 145, 330, 373, 381.","Newspaper & Mail Deliverers Union of New York, (New York Times, Inc., et al).","Mar. 1, 1951",10 (j),,,"Apr. 10, 1951",,,"Aug. 14, 1951"
+14-CC-24,"AFL-Electrical Workers, Local 1 (Carondelet Neon Sign Co.).","Apr. 16, 1951",10 (l),,,[2],,"Sept. 12, 1951","Aug. 6, 1951"
+2-CD-40,National Association of Broadcast Engineers & Technicians (Teleprompter Service Corp.).,"Apr. 24, 1951",10 (l),,,[2],,,"Aug 30, 1951"
+"10-CC-24, 25","AFL-Lathers, Local 234 (Acousti Engineering Co.).","June 8, 1951",10 (l),,,[2],,"Jan 28, 1952","Dec 18, 1951"
+"2-CA-1925, 1934 2-CB-628.","Anheuser-Busch, Inc, and AFL-Teamsters, Locals 153 & 843 (CIO-Brewery Workers).","June 12, 1951",10 (j),,,"Aug. 17, 1951",,"Jan. 17, 1952","Jan 4, 1952"
+21-CC-115,"AFL-New Furniture & Appliance Drivers, Warehousemen & Helpers Union, Local 196 (Bigelow-Sanford Carpet Co., Inc.).","June 1, 1951",10 (l),,,"June 12, 1951",,"Dec. 19, 1951","Nov. 9, 1951"
+21-CC-114,"AFL-Teamsters, Local 942 (Royden Ice Co).","June 18, 1951",10 (l),,,[2],,"Jan. 10, 1952",
+17-CC-15,"AFL-Teamsters, Local 41 (Union Chevrolet Co).","June 14, 1951",10 (l),,,"June 25, 1951",,"Dec. 14, 1951","Oct. 19, 1951"
+"20-CA-523,524, 567, 609, 610, 20-CB-171, 172, 184, 206, 207.","American President Lines Ltd., and Matson Navigation Co. (Individual) National Union of Marine Cooks & Stewards (Individual)","Aug. 28, 1951",10 (j),,,"Jan. 23, 1952",,,
+24-CC-6,CIO-Sindicato de Trabajadores (South Porto Rico Sugar Co.).,"Aug. 29, 1951",10 (l),,,,,"Feb. 19, 1952","Jan. 11, 1952"
+6-CC-59,"AFL-Teamsters, Local 397 (Mc Enery Co., et al).","Aug. 30, 1951",10 (l),,,[2],,"Dec. 24, 1951",[1]
+19-CC-38,"AFL-Carpenters, Local 2781 (Everette Plywood & Door Corp.).","Sept. 5, 1951",10 (l),,,,,"Sept. 20, 1951",
+2-CC-193,"AFL-Sheet Metal Workers, Local 28 (Ferro-Co. Corp.).","Sept. 12, 1951",10 (l),,,,"Nov. 20, 1951",,
+"6-CC-60, 6-CD-14.","AFL-Teamsters, Local 636, (Roy Stone Transfer Corp.).","Sept. 14, 1951",10 (l),,,,"Dec. 17, 1951",,
+6-CC-61,AFL-Seafarers (Hammermill Paper Co.).,"Oct. 4, 1951",10 (l),,,[2],,,
+10-CC-37,"AFL-Carpenters, Local 50 (Clyde M. Furr)","Oct. 26, 1951",10 (l),,,[2],,"June 5, 1952",
+2-CC-201,"AFL-Teamsters, Local 814 (Montgomery Ward & Co.).","Nov. 8, 1951",10 (l),,,[2],,"Dec. 19, 1951",
+"24-CC-11, 12",AFL-Longshoremen (Puerto Rico Steamship Ass'n. et al).,"Nov. 8, 1951",10 (l),"Nov. 14, 1951","Nov. 23, 1951","Nov. 23, 1951",,,
+2-CC-202,"CIO-Candy and Confectionery Employees Local 50 (Henry Heide, Inc.).","Nov. 29, 1951",10 (l),,,[2],,"Feb. 16, 1952",
+24-CB-40,"AFL-Longshoremen, District Council of Ports of Puerto Rico (Puerto Rico Steamship Association)","Feb. 6, 1952",10 (j),"Feb. 6, 1952","Feb. 20, 1952",,,"Feb. 20, 1952",
+10-CC-49,"Mine Workers, District 50 and Harry Livingston (National Cylinder Gas Co.)","Mar. 12, 1952",10 (l),,,"April 11, 1952",,,
+2-CC-215,"AFL-Meat Cutters and Butchers, Local 342 (Atlas Canning Co.)","Mar. 28, 1952",10 (l),,,[2],,,
+19-CC-42,AFL-Carpenters (Sound Shingle Co.),"April 7, 1952",10 (l),,,,"May 27, 1952",,
+21-CC-130,"AFL-Teamsters, Local 276 (Capital Service, Inc.).","May 14, 1952",10 (l),,,"June 2, 1952",,,
+35-CC-14,"AFL-Teamsters, Local 135 (Motor Freight Carriers of Ind.).","May 15, 1952",10 (l),,,[2],,,
+2-CC-220,"Mine Workers, District 50 (Nordan Plastics Corp.).","May 19, 1952",10 (l),,,[2],,,
+13-CA-1063,"Cargill, Inc. (CIO-Packinghouse Workers)","May 29, 1952",10 (j),,,,,,
+"24-CC-14, 15, 16; 24-CD-2, 3, 4","AFL-Longshoremen (Puerto Rico Steamship association, et al).","June 26, 1952",10 (l),,,,,,
+20-CD-28,"Pacific Coast Dist. Metal Trades Council (McDowell Company, Inc.).","June 19, 1952",10 (l),"June 25, 1952",,,,,

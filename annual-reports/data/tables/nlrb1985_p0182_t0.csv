@@ -1,17 +1,22 @@
-row_label,All R elections / Elections conducted / Total elections,All R elections / Elections conducted / Withdrawn or dismissed before certification,All R elections / Elections conducted / Resulting in a rerun or runoff,All R elections / Elections conducted / Resulting in a certification,RC elections / Elections conducted / Total elections,RC elections / Elections conducted / Withdrawn or dismissed before certification,RC elections / Elections conducted / Resulting in a rerun or runoff,RC elections / Elections conducted / Resulting in a certification,RM elections / Elections conducted / Total elections,RM elections / Elections conducted / Withdrawn or dismissed before certification,RM elections / Elections conducted / Resulting in a rerun or runoff,RM elections / Elections conducted / Resulting in a certification,RD elections / Elections conducted / Total elections,RD elections / Elections conducted / Withdrawn or dismissed before certification,RD elections / Elections conducted / Resulting in a rerun or runoff,RD elections / Elections conducted / Resulting in a certification
-All types,4722,7,101,4614,3639,7,87,3545,204,0,0,204,879,0,14,865
-Rerun required,,,69,,,,60,,,,0,,,,9,
-Runoff required,,,32,,,,27,,,,0,,,,5,
-Consent elections,116,0,1,115,71,0,1,70,11,0,0,11,34,0,0,34
-Rerun required,,,1,,,,1,,,,0,,,,0,
-Runoff required,,,0,,,,0,,,,0,,,,0,
-Stipulated elections,3785,6,68,3711,2925,6,61,2858,151,0,0,151,709,0,7,702
-Rerun required,,,47,,,,41,,,,0,,,,6,
-Runoff required,,,21,,,,20,,,,0,,,,1,
-Regional Director-directed,784,1,25,758,620,1,21,598,41,0,0,41,123,0,4,119
-Rerun required,,,15,,,,13,,,,0,,,,2,
-Runoff required,,,10,,,,8,,,,0,,,,2,
-Board-directed,34,0,7,27,22,0,4,18,0,0,0,0,12,0,3,9
-Rerun required,,,5,,,,4,,,,0,,,,1,
-Runoff required,,,2,,,,0,,,,0,,,,2,
-Expedited—Sec. 8(b)(7)(C),3,0,0,3,1,0,0,1,1,0,0,1,1,0,0,1
+Type of case,Type of election,Type of election,Type of election,Type of election,Type of election,Type of election
+Type of case,Total,Consent,Stipulated,Board-directed,Regional Director-directed,Expedited elections under 8(b)(7)(C)
+"All types, total",,,,,,
+Elections,"4,743",121,"3,795",29,795,3
+Eligible voters,"262,416","2,946","201,880","3,444","54,017",129
+Valid votes,"229,513","2,400","178,579","3,031","45,388",115
+RC cases,,,,,,
+Elections,"3,545",70,"2,858",18,598,1
+Eligible voters,"211,161","1,376","164,530","1,859","43,286",110
+Valid votes,"187,186","1,173","146,633","1,565","37,718",97
+RM cases,,,,,,
+Elections,204,11,151,0,41,1
+Eligible voters,"6,170",170,"5,224",0,774,2
+Valid votes,"5,206",132,"4,436",0,636,2
+RD cases,,,,,,
+Elections,865,34,702,9,119,1
+Eligible voters,"36,889",986,"28,282","1,486","6,118",17
+Valid votes,"31,724",766,"24,446","1,371","5,125",16
+UD cases,,,,,,
+Elections,129,6,84,2,37,
+Eligible voters,"8,196",414,"3,844",99,"3,839",
+Valid votes,"5,397",329,"3,064",95,"1,909",

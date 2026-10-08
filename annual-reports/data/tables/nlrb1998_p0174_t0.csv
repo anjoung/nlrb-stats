@@ -1,25 +1,55 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11
-AFL-C10 v Local,7378,2784,2068,,716,116,1934,783,,1151,2544
+Participating unions,Total valid votes cast,Valid votes cast in elections won,Valid votes cast in elections won,Valid votes cast in elections won,Valid votes cast in elections won,Valid votes cast in elections won,Valid votes cast in elections lost,Valid votes cast in elections lost,Valid votes cast in elections lost,Valid votes cast in elections lost,Valid votes cast in elections lost
+Participating unions,Total valid votes cast,Votes for unions,Votes for unions,Votes for unions,Votes for unions,Total votes for no union,Votes for unions,Votes for unions,Votes for unions,Votes for unions,Total votes for no union
+Participating unions,Total valid votes cast,Total,AFL-CIO unions,Other national unions,Other local unions,Total votes for no union,Total,AFL-CIO unions,Other national unions,Other local unions,Total votes for no union
+A. All representation elections,,,,,,,,,,,
+AFL-CIO,"180,219","44,462","44,462",,,"21,222","39,015","39,015",,,"75,520"
+Other national unions,"7,290","2,311",,"2,311",,"1,140","1,412",,"1,412",,"2,427"
+Other local unions,"17,102","5,502",,,"5,502","2,769","3,166",,,"3,166","5,665"
+1-union elections,"204,611","52,275","44,462","2,311","5,502","25,131","43,593","39,015","1,412","3,166","83,612"
+AFL-CIO v AFL-CIO,"2,632","1,573","1,573",,,97,363,363,,,599
+AFL-CIO v National,"1,607","1,461",641,820,,41,46,4,42,,59
+AFL-CIO v Local,"7,427","2,808","2,075",,733,116,"1,938",787,,"1,151","2,565"
+National v Local,39,38,,17,21,1,0,,0,0,0
+Local v Local,757,704,,,704,53,0,,,0,0
+2-union elections,"12,462","6,584","4,289",837,"1,458",308,"2,347","1,154",42,"1,151","3,223"
+AFL-CIO v AFL-CIO v AFL-CIO,122,121,121,,,1,0,0,,,0
+AFL-CIO v AFL-CIO v Local,313,307,148,,159,6,0,0,,0,0
+AFL-CIO v National v Local,87,86,3,,83,1,0,0,,0,0
+3 (or more)-union elections,522,514,272,0,242,8,0,0,0,0,0
+Total representation elections,"217,595","59,373","49,023","3,148","7,202","25,447","45,940","40,169","1,454","4,317","86,835"
+B. Elections in RC cases,,,,,,,,,,,
+AFL-CIO,"162,146","39,114","39,114",,,"18,287","35,654","35,654",,,"69,091"
+Other national unions,"6,983","2,297",,"2,297",,"1,129","1,318",,"1,318",,"2,239"
+Other local unions,"15,575","5,272",,,"5,272","2,671","2,732",,,"2,732","4,900"
+1-union elections,"184,704","46,683","39,114","2,297","5,272","22,087","39,704","35,654","1,318","2,732","76,230"
+AFL-CIO v AFL-CIO,"2,369","1,349","1,349",,,76,361,361,,,583
+AFL-CIO v National,"1,607","1,461",641,820,,41,46,4,42,,59
+AFL-CIO v Local,"7,378","2,784","2,068",,716,116,"1,934",783,,"1,151","2,544"
 National v Local,39,38,,17,21,1,0,,0,0,0
 Local v Local,735,682,,,682,53,0,,,0,0
-2-union elections,12128,6314,4058,837,1419,287,2341,1148,42,1151,3186
-AFL-CIO v AFL-C10 v AFL-CIO,112,112,112,,,0,0,0,,,0
-AFL-C10 v AFL-C10 v Local,313,307,148,,159,6,0,0,,0,0
+2-union elections,"12,128","6,314","4,058",837,"1,419",287,"2,341","1,148",42,"1,151","3,186"
+AFL-CIO v AFL-CIO v AFL-CIO,112,112,112,,,0,0,0,,,0
+AFL-CIO v AFL-CIO v Local,313,307,148,,159,6,0,0,,0,0
 AFL-CIO v Local v Local,87,86,3,,83,1,0,0,,0,0
 3 (or more)-union elections,512,505,263,0,242,7,0,0,0,0,0
-Total RC elections,197344,53502,43435,3134,6933,22381,42045,36802,1360,3883,79416
-C. Elections in KMcases,C. Elections in KMcases,C. Elections in KMcases,C. Elections in KMcases,C. Elections in KMcases,C. Elections in KMcases,C. Elections in KMcases,C. Elections in KMcases,C. Elections in KMcases,C. Elections in KMcases,C. Elections in KMcases,C. Elections in KMcases
-AFL-CIO,1014,230,230,,,123,222,222,,,439
+Total RC elections,"197,344","53,502","43,435","3,134","6,933","22,381","42,045","36,802","1,360","3,883","79,416"
+C. Elections in RM cases,,,,,,,,,,,
+AFL-CIO,"1,014",230,230,,,123,222,222,,,439
 Other national unions,81,0,,0,,0,26,,26,,55
 Other local unions,23,0,,,0,0,8,,,8,15
-1-union elections,1118,230,230,0,0,123,256,222,26,8,509
+1-union elections,"1,118",230,230,0,0,123,256,222,26,8,509
 AFL-CIO v AFL-CIO,4,4,4,,,0,0,0,,,0
 2-union elections,4,4,4,0,0,0,0,0,0,0,0
-AFL-C10 v AFL-C10 v AFL-CIO,10,9,9,,,1,0,0,0,0,0
+AFL-CIO v AFL-CIO v AFL-CIO,10,9,9,,,1,0,0,0,0,0
 3 (or more) union elections,10,9,9,0,0,1,0,0,,,0
-Total RM elections,1132,243,243,0,0,124,256,' 222,26,8,509
-DElections in RD cases,DElections in RD cases,DElections in RD cases,DElections in RD cases,DElections in RD cases,DElections in RD cases,DElections in RD cases,DElections in RD cases,DElections in RD cases,DElections in RD cases,DElections in RD cases,DElections in RD cases
-AFL-CIO,17059,5118,5118,,,2812,3139,3139,,,5990
-Other national unions.,226,14,,14,,II,68,,68,,133
-Other local unions,1504,230,,,230,98,426,,,426,750
-1-union elections,18789,5362,5118,14,230,2921,3633,3139,68,426,6873
+Total RM elections,"1,132",243,243,0,0,124,256,222,26,8,509
+D. Elections in RD cases,,,,,,,,,,,
+AFL-CIO,"17,059","5,118","5,118",,,"2,812","3,139","3,139",,,"5,990"
+Other national unions,226,14,,14,,11,68,,68,,133
+Other local unions,"1,504",230,,,230,98,426,,,426,750
+1-union elections,"18,789","5,362","5,118",14,230,"2,921","3,633","3,139",68,426,"6,873"
+AFL-CIO v AFL-CIO,259,220,220,,,21,2,2,,,16
+AFL-CIO v Local,49,24,7,,17,0,4,4,,0,21
+Local v Local,22,22,,,22,0,0,,,0,0
+2-union elections,330,266,227,0,39,21,6,6,0,0,37
+Total RD elections,"19,119","5,628","5,345",14,269,"2,942","3,639","3,145",68,426,"6,910"

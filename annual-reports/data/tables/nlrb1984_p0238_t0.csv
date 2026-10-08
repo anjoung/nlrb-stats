@@ -1,5 +1,57 @@
-Size of unit (number of employees),Number eligible to vote,Total elections — Number,Total elections — Percent of total,Elections in which representation rights were won by unions — Cumulative percent of total,AFL-CIO unions — Number,AFL-CIO unions — Percent by size class,Teamsters — Number,Teamsters — Percent by size class,Other national unions — Number,Other national unions — Percent by size class,Other local unions — Number,Other local unions — Percent by size class,Elections in which no representative was chosen — Number,Elections in which no representative was chosen — Percent by size class
-Total RD elections,37616,875,100.0,100.0,137,34.9,42,100.0,5,100.0,22,100.0,669,100.0
-Under 10 employees,1876,277,31.7,31.7,31,22.6,8,19.0,2,40.0,8,36.4,228,34.1
-10-19 employees,2648,197,22.5,54.2,33,24.1,12,28.6,0,0.0,5,22.7,147,22.0
-Size-of-unit RD,,,,,,,,,,,,,,
+Size of unit (number of employees),Number eligible to vote,Total elections,Percent of total,Cumulative percent of total,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which representation rights were won by,Elections in which no representative was chosen,Elections in which no representative was chosen
+Size of unit (number of employees),Number eligible to vote,Total elections,Percent of total,Cumulative percent of total,AFL-CIO unions,AFL-CIO unions,Teamsters,Teamsters,Other national unions,Other national unions,Other local unions,Other local unions,Elections in which no representative was chosen,Elections in which no representative was chosen
+Size of unit (number of employees),Number eligible to vote,Total elections,Percent of total,Cumulative percent of total,Number,Percent by size class,Number,Percent by size class,Number,Percent by size class,Number,Percent of size class,Number,Percent by size class
+A. Certification elections (RC and RM),,,,,,,,,,,,,,
+Total RC and RM elections,"211,696","3,561",100.0,,983,100.0,424,100.0,64,100.0,184,100.0,"1,906",100.0
+Under 10,"22,777",817,22.9,22.9,228,23.2,154,36.3,23,35.9,32,17.4,380,19.9
+10 to 19,"11,390",805,22.6,45.5,227,23.1,132,31.1,16,25.0,39,21.2,391,20.5
+20 to 29,"10,259",427,12.0,57.5,117,12.0,39,9.3,9,14.0,24,13.0,238,12.5
+30 to 39,"10,273",301,8.5,66.0,87,8.9,22,5.3,2,3.1,21,11.4,169,8.9
+40 to 49,"9,481",216,6.1,72.1,58,5.9,19,4.5,4,6.2,9,4.9,126,6.6
+50 to 59,"8,808",163,4.6,76.7,56,5.7,13,3.1,2,3.1,7,3.8,85,4.5
+60 to 69,"7,580",118,3.3,80.0,30,3.1,8,1.9,0,0.0,9,4.9,71,3.7
+70 to 79,"8,356",113,3.2,83.2,42,4.3,4,0.9,0,0.0,2,1.1,65,3.4
+80 to 89,"6,560",78,2.2,85.4,20,2.0,4,0.9,0,0.0,4,2.2,50,2.6
+90 to 99,"6,511",69,1.9,87.3,16,1.6,8,1.9,1,1.6,4,2.2,40,2.1
+100 to 109,"5,341",51,1.4,88.7,16,1.6,1,0.2,0,0.0,6,3.3,28,1.5
+110 to 119,"5,600",49,1.4,90.1,10,1.0,2,0.5,0,0.0,4,2.2,33,1.7
+120 to 129,"4,718",38,1.1,91.2,11,1.1,1,0.2,0,0.0,5,2.7,21,1.1
+130 to 139,"4,685",35,1.0,92.2,10,1.0,5,1.2,0,0.0,3,1.6,17,0.9
+140 to 149,"3,486",24,0.7,92.9,5,0.5,3,0.7,1,1.6,0,0.0,15,0.8
+150 to 159,"4,330",28,0.8,93.7,5,0.5,1,0.2,1,1.6,2,1.1,19,1.0
+160 to 169,"3,284",20,0.6,94.3,7,0.7,1,0.2,0,0.0,0,0.0,12,0.6
+170 to 179,"2,253",13,0.4,94.7,5,0.5,1,0.2,0,0.0,0,0.0,7,0.4
+180 to 189,"3,122",17,0.5,95.2,4,0.4,2,0.5,0,0.0,0,0.0,11,0.6
+190 to 199,"2,927",15,0.4,95.6,3,0.3,0,0.0,1,1.6,1,0.5,10,0.5
+200 to 299,"20,090",84,2.4,98.0,16,1.6,2,0.5,3,4.7,4,2.2,59,3.1
+300 to 399,"10,425",31,0.9,98.9,7,0.7,0,0.0,1,1.6,2,1.1,21,1.1
+400 to 499,"5,842",13,0.4,99.3,0,0.0,0,0.0,0,0.0,2,1.1,11,0.6
+500 to 599,"5,458",10,0.2,99.5,1,0.1,1,0.2,0,0.0,0,0.0,8,0.4
+600 to 799,"8,149",12,0.2,99.7,2,0.2,0,0.0,0,0.0,1,0.5,9,0.5
+800 to 999,"3,790",4,0.1,99.8,0,0.0,0,0.0,0,0.0,0,0.0,4,0.2
+"1,000 to 1,999","11,743",9,0.2,100.0,0,0.0,0,0.0,0,0.0,3,1.6,6,0.3
+"2,000 to 2,999","4,458",1,0.0,100.0,0,0.0,1,0.2,0,0.0,0,0.0,0,0.0
+B. Decertification elections (RD),,,,,,,,,,,,,,
+Total RD elections,"37,816",875,100.0,,137,100.0,42,100.0,5,100.0,22,100.0,669,100.0
+Under 10,"1,679",305,34.9,34.9,14,10.2,10,23.8,0,0.0,2,9.1,279,41.7
+10 to 19,"2,445",176,20.1,55.0,29,21.2,11,26.1,0,0.0,4,18.2,132,19.7
+20 to 29,"2,364",99,11.3,66.3,19,13.9,2,4.8,1,20.0,4,18.2,73,10.9
+30 to 39,"2,424",71,8.1,74.4,16,11.7,4,9.5,0,0.0,1,4.5,50,7.5
+40 to 49,"2,276",51,5.8,80.2,11,8.0,5,11.9,0,0.0,5,22.9,30,4.5
+50 to 59,"1,918",36,4.1,84.3,8,5.8,2,4.8,1,20.0,0,0.0,25,3.7
+60 to 69,"2,047",32,3.7,88.0,6,4.4,4,9.5,1,20.0,1,4.5,20,3.0
+70 to 79,726,10,1.1,89.1,1,0.7,0,0.0,1,20.0,2,9.1,6,0.9
+80 to 89,"1,009",12,1.4,90.5,5,3.7,0,0.0,0,0.0,1,4.5,6,0.9
+90 to 99,670,7,0.8,91.3,2,1.5,0,0.0,0,0.0,0,0.0,5,0.7
+100 to 109,"1,365",13,1.5,92.8,4,2.9,1,2.4,0,0.0,0,0.0,8,1.2
+110 to 119,453,4,0.5,93.3,3,2.2,0,0.0,0,0.0,0,0.0,1,0.2
+120 to 129,626,5,0.6,93.9,1,0.7,0,0.0,0,0.0,1,4.5,3,0.4
+130 to 139,412,3,0.3,94.2,1,0.7,0,0.0,1,20.0,0,0.0,1,0.2
+140 to 149,582,4,0.5,94.7,2,1.5,0,0.0,0,0.0,0,0.0,2,0.3
+150 to 159,463,3,0.3,95.0,1,0.7,0,0.0,0,0.0,0,0.0,2,0.3
+160 to 169,323,2,0.2,95.2,1,0.7,1,2.4,0,0.0,0,0.0,0,0.0
+170 to 199,"1,094",6,0.7,95.9,0,0.0,0,0.0,0,0.0,0,0.0,6,0.9
+200 to 299,"4,935",21,2.4,98.3,9,6.6,1,2.4,0,0.0,1,4.5,10,1.5
+300 to 499,"1,590",4,0.5,98.8,2,1.5,0,0.0,0,0.0,0,0.0,2,0.3
+500 to 799,"5,059",8,0.9,99.7,1,0.7,1,2.4,0,0.0,0,0.0,6,0.9
+800 and over,"3,356",3,0.3,100.0,1,0.7,0,0.0,0,0.0,0,0.0,2,0.3

@@ -1,43 +1,27 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Hearings completed, total.......................................................",410,397,321,18,58,5
-Initial hearing......................................................................,305,294,240,16,38,2
-Hearing on objections and/or challenges............................,105,103,81,2,20,3
-"Decisions issued, total............................................................",369,355,306,18,31,15
-By Regional Director..........................................................,314,304,259,16,29,15
-Elections directed..........................................................,263,252,225,6,21,15
-Dismissals on record.....................................................,51,52,34,10,8,0
-By Board.............................................................................,55,51,47,2,2,0
-Transferred by Regional Directors for initial decision.,2,2,2,0,0,0
-Elections directed....................................................,0,0,0,0,0,0
-Dismissals on record...............................................,1,1,1,0,0,0
-Other………………...............................................,1,1,1,0,0,0
-Review of Regional Directors' decisions:,,,,,,
-Requests for review received..................................,140,130,97,14,19,2
-Withdrawn before request ruled upon.....................,16,15,11,0,4,0
-"Board action on request ruled upon, total...............",127,117,89,12,16,1
-Granted..............................................................,21,19,12,5,2,1
-Denied................................................................,100,92,73,6,13,0
-Remanded..........................................................,6,6,4,1,1,0
-"Withdrawn after request granted, before Board review......................................................................",6,6,6,0,0,0
-"Board decision after review, total...........................",53,49,45,2,2,0
-Regional Directors' decisions:,,,,,,
-Affirmed......................................................,5,4,4,0,0,0
-Modified......................................................,40,37,36,1,0,0
-Reversed......................................................,8,8,5,1,2,0
-Outcome:,,,,,,
-Election directed.........................................,50,46,43,2,1,0
-Dismissals on record...................................,3,3,2,0,1,0
-Other………………...................................,0,0,0,0,0,0
-"Decisions on Objections and/or Challenges, total..................",409,389,328,2,59,11
-By Regional Directors.........................................................,187,176,145,0,31,6
-By Administrative Law Judges….......................................,23,23,18,0,5,1
-By Board............................................................................,199,190,165,2,23,4
-In stipulated elections...................................................,166,159,137,1,21,2
-No Exceptions to Regional Directors' reports.......,98,92,75,1,16,1
-Exceptions to Regional Directors' reports.............,68,67,62,0,5,1
-In directed elections ( after transfer by Regional Director)........................................................................,22,21,18,1,2,1
-No exceptions to RDs/HOs Reports………………….,,11,,,,
-,12,,10,1,0,0
-Exceptions to RDs/HOs Reports…………………….. Review of Regional Directors' supplemental,10,10,8,0,2,1
-Request for review received.................................... Withdrawn before request ruled upon....................,25,0,21,0,0,1
-,3,3,3,0,0,0
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,Total formal actions taken,CA,CB,CC,CD,CD,CE,CG,CP,CA combined with CB,C combined with representation cases,Other C combinations
+Types of formal actions taken,Cases in which formal actions taken,Total formal actions taken,CA,CB,CC,Jurisdictional disputes,Unfair labor practices,CE,CG,CP,CA combined with CB,C combined with representation cases,Other C combinations
+10(k) notices of hearings issued,12,12,,,,12,,,,,,,
+Complaints issued,"1,970","1,274","1,107",111,16,,0,1,2,3,15,16,3
+Backpay specifications issued,126,45,42,0,0,,0,0,0,0,0,3,0
+"Hearings completed, total",486,225,189,22,1,0,0,1,0,0,5,7,0
+Initial ULP hearings,431,205,170,22,1,0,0,0,0,0,5,7,0
+Backpay hearings,21,7,7,0,0,0,0,0,0,0,0,0,0
+Other hearings,34,13,12,0,0,0,0,1,0,0,0,0,0
+"Decisions by administrative law judges, total",543,239,207,18,1,0,0,0,0,0,5,8,0
+Initial ULP decisions,467,211,181,17,1,0,0,0,0,0,5,7,0
+Backpay decisions,14,6,5,1,0,0,0,0,0,0,0,0,0
+Supplemental decisions,62,22,21,0,0,0,0,0,0,0,0,1,0
+"Decisions and orders by the Board, total",958,447,393,28,6,7,0,0,0,0,3,8,2
+Upon consent of parties:,,,,,,,,,,,,,
+Initial decisions,69,26,16,5,4,0,0,0,0,0,0,0,1
+Supplemental decisions,11,7,5,0,0,0,0,0,0,0,0,2,0
+Adopting administrative law judges' decisions (no exceptions filed):,,,,,,,,,,,,,
+Initial ULP decisions,140,84,77,4,0,0,0,0,0,0,1,2,0
+Backpay decisions,3,2,2,0,0,0,0,0,0,0,0,0,0
+Supplemental decisions,6,4,3,0,0,0,0,0,0,0,0,1,0
+Contested:,,,,,,,,,,,,,
+Initial ULP decisions,584,272,246,17,2,7,0,0,0,0,0,0,0
+Decisions based on stipulated record,10,2,1,1,0,0,0,0,0,0,0,0,0
+Supplemental ULP decisions,106,37,31,0,0,0,0,0,0,0,2,3,1
+Backpay decisions,29,13,12,1,0,0,0,0,0,0,0,0,0

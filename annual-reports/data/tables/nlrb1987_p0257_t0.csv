@@ -1,13 +1,25 @@
-row_label,Circuit courts of appeals (headquarters),Total Board orders fiscal 1987,Affirmed in full / Fiscal year 1987 Number,Affirmed in full / Fiscal year 1987 Percent,Affirmed in full / Cumulative fiscal years 1935-1986,Modified / Fiscal year 1987 Number,Modified / Fiscal year 1987 Percent,Modified / Cumulative fiscal years 1935-1986,Remanded to Board / Fiscal year 1987 Number,Remanded to Board / Fiscal year 1987 Percent,Remanded to Board / Cumulative fiscal years 1935-1986,Affirmed in part and remanded in part / Fiscal year 1987 Number,Affirmed in part and remanded in part / Fiscal year 1987 Percent,Affirmed in part and remanded in part / Cumulative fiscal years 1935-1986,Set aside / Fiscal year 1987 Number,Set aside / Fiscal year 1987 Percent,Set aside / Cumulative fiscal years 1935-1986
-Total all circuits,199,1597,158,79.4,1105,9,4.5,141,14,7.0,109,7,3.5,44,11,5.6,198
-"1. Boston, MA",56,,2,100.0,35,0,0.0,,0,0.0,5,0,0.0,3,0,,13
-"2. New York, NY",21,127,19,90.6,92,0,0.0,7,1,4.8,7,0,0.0,3,1,4.8,17
-"3. Philadelphia, PA",15,118,13,86.7,75,0,0.0,13,0,0.0,6,1,6.7,2,1,6.7,16
-"4. Richmond, VA",12,147,11,91.7,83,0,0.0,16,1,8.3,5,0,0.0,0,0,0.0,16
-"5. New Orleans, LA",12,248,10,83.3,163,2,16.7,23,0,0.0,14,0,0.0,5,0,0.0,39
-"6. Cincinnati, OH",21,316,16,75.0,229,1,4.8,25,1,4.8,11,2,9.5,8,1,4.8,
-"7. Chicago, IL",11,246,10,90.9,169,0,0.0,,1,9.1,10,0,0.0,,0,0.0,39
-"8. St. Louis, MO",7,139,5,71.4,92,2,28.6,16,0,0.0,6,0,0.0,4,0,0.0,21
-"9. San Francisco, CA",32,194,28,87.5,133,1,3.1,13,2,6.3,12,0,0.0,5,1,3.1,31
-"10. Denver, CO",8,85,8,100.0,60,0,0.0,9,0,0.0,5,0,0.0,2,0,0.0,
-"11. Atlanta, GA",5,76,5,100.0,0,0,0.0,0,0,0.0,0,0,0.0,5,0,0.0,
+,Fiscal year 1987,Fiscal year 1987,Fiscal year 1987,Fiscal year 1987,Fiscal year 1987,Fiscal year 1987,Fiscal year 1987,Fiscal year 1987,Fiscal year 1987,"July 5, 1935–Sept. 30, 1987","July 5, 1935–Sept. 30, 1987"
+,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Percentages,Percentages,Percentages,Percentages,"July 5, 1935–Sept. 30, 1987","July 5, 1935–Sept. 30, 1987"
+,Total,Vs. employers only,Vs. unions only,Vs. both employers and unions,Board dismissal,Vs. employers only,Vs. unions only,Vs. both employers and unions,Board dismissal,Number,Percent
+Proceedings decided by U.S. courts of appeals,226,182,38,0,6,,,,,,
+On petitions for review and/or enforcement,199,164,29,0,6,100.0,100.0,,100.0,"9,492",100.0
+Board orders affirmed in full,158,133,22,0,3,81.1,75.9,,50.0,"6,148",64.8
+Board orders affirmed with modification,9,8,1,0,0,4.9,3.5,,0.0,"1,364",14.4
+Remanded to Board,14,9,4,0,1,5.5,13.8,,16.6,468,4.9
+Board orders partially affirmed and partially remanded,7,5,1,0,1,3.0,3.4,,16.7,179,1.9
+Board orders set aside,11,9,1,0,1,5.5,3.4,,16.7,"1,333",14.0
+On petitions for contempt,27,18,9,0,0,100.0,100.0,,,,
+"Compliance after filing of petition, before court order",0,0,0,0,0,0.0,0.0,,,,
+Court orders holding respondent in contempt,23,14,9,0,0,77.8,100.0,,,,
+Court orders denying petition,1,1,0,0,0,5.6,0.0,,,,
+Court orders directing compliance without contempt adjudication,2,2,0,0,0,11.1,0.0,,,,
+Contempt petitions withdrawn without compliance,1,1,0,0,0,5.5,0.0,,,,
+Proceedings decided by U.S. Supreme Court,2,1,1,0,0,100.0,100.0,,,245,100.0
+Board orders affirmed in full,1,1,0,0,0,100.0,,,,147,60.0
+Board orders affirmed with modification,0,0,0,0,0,,,,,18,7.4
+Board orders set aside,1,0,1,0,0,,100.0,,,42,17.1
+Remanded to Board,0,0,0,0,0,,,,,19,7.8
+Remanded to court of appeals,0,0,0,0,0,,,,,16,6.5
+Board's request for remand or modification of enforcement order denied,0,0,0,0,0,,,,,1,0.4
+Contempt cases remanded to court of appeals,0,0,0,0,0,,,,,1,0.4
+Contempt cases enforced,0,0,0,0,0,,,,,1,0.4

@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -124,25 +132,27 @@ ul.link-list li { margin: 0.3rem 0; }
 <div class="grid-wrap">
 <table class="grid">
 <thead>
-<tr><th></th><th></th><th></th><th></th></tr>
 </thead>
 <tbody>
-<tr><th class="stub" scope="row">8-C-2006</th><td>Alliance Rubber Co.</td><td>10-C-1869</td><td>Atlantic Towing Co.</td></tr>
-<tr><th class="stub" scope="row">2-C-6506</th><td>Aluminum Co. of Amer- ica.</td><td>10-C-1928</td><td>Babcock-Wilson Co.,</td></tr>
-<tr><th class="stub" scope="row">9-0-2349 _</th><td>American Laundry Ma- chinery Co.</td><td>8-C-1818</td><td>The, Bailey Co., The (East</td></tr>
-<tr><th class="stub" scope="row">20-0-1553</th><td>American Patrol Service, C. F. Fellows, d/b/a.</td><td class="blank"></td><td>Side Branch).</td></tr>
-<tr><th class="stub" scope="row">2-0-6008</th><td>Ames Spot Welding Co., Inc.</td><td>13-0-2761 20-0-1452</td><td>Baker Manufacturing Co. Basic Vegetable Prod- ucts, Inc.</td></tr>
-<tr><th class="stub" scope="row">10-0-1842</th><td>Atlanta Metallic Casket Co.</td><td>8-C-1976</td><td>Bettcher &#x27;Manufacturing Corp., The.</td></tr>
+<tr><th class="stub" scope="row">D. Cases in which the board directed the opening and counting of challenged ballots, following a prehearing election</th><td class="blank"></td></tr>
+<tr><th class="stub" scope="row">4-R-2567</th><td>Motor Rebuilders, Inc.</td></tr>
+<tr><th class="stub" scope="row">15-R-2214</th><td>Perry County Plywood Corp.</td></tr>
+<tr><th class="stub" scope="row">2-R-7639</th><td>Slater, N. G., Corp.</td></tr>
+<tr><th class="stub" scope="row">5W-R-55</th><td>Sterling Cotton Mills, Inc.</td></tr>
 </tbody>
 </table>
 </div>
 <p class="downloads"><a href="data/tables/nlrb1948_p0154_t0.csv" download>Download this table (CSV)</a></p>
+<details class="notes"><summary>Reader&rsquo;s notes</summary>
+<p><b>p. 154.</b> The crop prints no column headings (it is a case list continuing a larger table), so header_rows is empty. Two printed columns: case number (stub) and company name. The page is set as two side-by-side panels separated by a vertical rule; the left panel&#x27;s two entries (4-R-2567, 15-R-2214) are given first, then the right panel&#x27;s two (2-R-7639, 5W-R-55). Row 1 is the italic section line &quot;D. Cases in which the board directed the opening and counting of challenged ballots, following a prehearing election&quot;, which carries no value. Wrapped labels were joined: &quot;Perry County Plywood Corp.&quot; and &quot;Sterling Cotton Mills, Inc.&quot; each print on two lines. Case numbers are set with en dashes; transcribed with plain hyphens. &quot;5W-R-55&quot; is read with a capital W attached to the region number, which is unusual but clearly printed.</p>
+</details>
 <h2>Source image</h2>
 <figure class="source-img">
-<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/1948_p0154.webp" loading="lazy" alt="Source page 154 of NLRB FY1948 annual report">
+<img src="https://pub-b95a5151031e423caf0d4033a2092e66.r2.dev/images/nlrb1948_p0154_t0_p0154.webp" loading="lazy" alt="Source page 154 of NLRB FY1948 annual report">
 <figcaption>Source: NLRB Annual Report FY1948, p. 154.</figcaption>
 </figure>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 </body>
 </html>

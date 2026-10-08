@@ -1,68 +1,783 @@
-row_label,col_1,col_2,col_3
-,"June 16,1938 Dec. 9,1937","June 14,1938 Dec. 10,1937 Sept. 13,1937 Apr. 7,1938 Apr. 11, 1938 Feb. 17,1938 Nov. 23, 1937 do",(I)
-Armour &Co,,,"Feb. 21,1938"
-Do,,,
-Do,"Sept. 13,1937",,"Oct. 28,1937"
-Do,"Apr. 7,1938",,"June 6,1938"
-Do,"Jan. 20,1938",,(I)
-Do,"Feb. 17,1938",,"Apr. 15,1938"
-Do,"Nov. 17, 1937",,"Ian. 14,1938"
-Do,do,,Do.
+Name of case,Date hearing held,Date hearing held,Date decision issued
+Name of case,Date opened,Date closed,Date decision issued
+A. Arena Co.,"Mar. 29, 1938","Mar. 30, 1938",[1]
+"Acme Air Appliance Co., Inc.","Mar. 10, 1938","Mar. 15, 1938",[1]
+"Acme Scaling Co., Inc.","Aug. 5, 1937","Aug. 6, 1937","Sept. 25, 1937"
+Admlar Rubber Co.,"June 15, 1938","June 18, 1938",[1]
+"Adolf Gobel, Inc.","Aug. 13, 1937","Aug. 17, 1937",[1]
+A. F. Gallun & Sons Corporation,"Dec. 20, 1937","Jan. 5, 1938",[1]
+A. J. Harper Co.,"Oct. 26, 1937","Oct. 26, 1937","Dec. 3, 1937"
+Do.,do,do,Do.
+"A. K. Miller Co., Inc.","June 20, 1938",[2],
+Alabama Drydock & Shipbuilding Co.,"Nov. 26, 1937","Nov. 26, 1937","Feb. 8, 1938"
+Do.,do,do,Do.
+Alaska Packers Association,"Apr. 22, 1938","Apr. 25, 1938","May 11, 1938"
+Alaska Salmon Co.,do,do,Do.
+"Alfred LeBlanc, Inc.","June 20, 1938",[2],
+Alma Mills,"Apr. 8, 1938","Apr. 8, 1938","May 25, 1938"
+Allis-Chalmers Manufacturing Co.,"July 12, 1937","July 28, 1937","Nov. 20, 1937"
+Do.,"Dec. 11, 1937","Dec. 11, 1937","Jan. 10, 1938"
+Aluminum Co. of America,"Mar. 7, 1938","Mar. 7, 1938","Apr. 6, 1938"
+Do.,do,do,Do.
+Do.,"Mar. 14, 1938","Mar. 14, 1938","Apr. 11, 1938"
+Do.,"Mar. 18, 1938","Mar. 19, 1938",[1]
+Aluminum Line,"June 20, 1938",[2],
+American Baltic Chartering & Ship,do,[2],
+"American Cyanamid Co., Inc.","Sept. 8, 1937","Sept. 30, 1937","June 23, 1938"
+American Enamel Magnet Wire Co.,"June 30, 1938",[2],
+Do.,do,[2],
+"American Fruit Growers, Inc.","Mar. 29, 1938","Mar. 30, 1938",[1]
+American Furniture Co.,"Oct. 4, 1937","Oct. 4, 1937","Dec. 23, 1937"
+American Hair & Felt Co.,"Mar. 4, 1938","Mar. 5, 1938","Apr. 16, 1938"
+American Hardware Corporation,"Aug. 9, 1937","Aug. 9, 1937","Dec. 4, 1937"
+"American Machine & Foundry Co., Inc.","Feb. 14, 1938","Feb. 28, 1938",[1]
+"American Newspapers, Inc.","May 28, 1938","June 15, 1938",[1]
+"American Oil Co., Inc.","Apr. 14, 1938","Apr. 21, 1938",[1]
+"American Oil Co., et al.","Mar. 12, 1938","Mar. 12, 1938","May 14, 1938"
+American Petroleum Co.,"Dec. 9, 1937","Dec. 9, 1937",[1]
+American Pioneer Line,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+American Pioneer Line (Roos. S. S. Co.),"Sept. 20, 1937","Sept. 20, 1937",[1]
+American Radiator Co. (Bond Plant),"Mar. 14, 1938","Mar. 14, 1938","May 25, 1938"
+American Radiator Co. (Terminal Plant),do,do,Do.
+American Range Lines,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+American Steel & Wire Co.,"Jan. 10, 1938","Jan. 10, 1938","Mar. 8, 1938"
+"American South African Line, Inc.","June 20, 1938",[2],
+American Sugar Refining Co.,"Oct. 25, 1937","Oct. 25, 1937","Jan. 13, 1938"
+Do.,do,do,Do.
+American West African Line,"Aug. 5, 1937","Aug. 5, 1937","Jan. 20, 1938"
+American Woolen Co.,"Nov. 18, 1937","Nov. 18, 1937","Feb. 8, 1938"
+Anchor Line,"June 20, 1938",[2],
+Anderson Mattress Co.,"Apr. 21, 1938","Apr. 27, 1938",[1]
+Andrew Jergen's Co. of California,"Jan. 11, 1938","Mar. 11, 1938",[1]
+Ansley Radio Corporation,"Jan. 13, 1938","Jan. 26, 1938",[1]
+"Apache Distributors, Inc.","Mar. 29, 1938","Mar. 30, 1938",[1]
+Arbuckle Brothers,"June 7, 1938","June 7, 1938","June 28, 1938"
+"Ardmore S. S. Co., Inc.","Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+"Arizona Vegetable Distributors, Inc.","Mar. 29, 1938","Mar. 30, 1938",[1]
+Arma Engineering Co.,"Jan. 31, 1938","Feb. 14, 1938",[1]
+Armco Finishing Corporation Inc.,"Mar. 17, 1938","Mar. 17, 1938","May 21, 1938"
+Armour & Co.,"Feb. 7, 1938","Feb. 10, 1938",[1]
+Do.,"June 27, 1938","June 30, 1938",[1]
+Do.,"Dec. 16, 1937","Dec. 17, 1937","Mar. 15, 1938"
+Do.,"July 19, 1937","July 22, 1937",[1]
+Armour & Co.,"June 16, 1938","June 16, 1938",[1]
+Do.,"Dec. 9, 1937","Dec. 10, 1937","Feb. 21, 1938"
+Do.,"Sept. 13, 1937","Sept. 13, 1937","Oct. 26, 1937"
+Do.,"Apr. 7, 1938","Apr. 7, 1938","June 6, 1938"
+Do.,"Jan. 20, 1938","Apr. 11, 1938",[1]
+Do.,"Feb. 17, 1938","Feb. 17, 1938","Apr. 15, 1938"
+Do.,"Nov. 17, 1937","Nov. 23, 1937","Jan. 18, 1938"
+Do.,do,do,Do.
+Do.,do,do,Do.
+Do.,do,do,Do.
+Do.,do,do,Do.
+Armour & Co. (Brooks Ave. Market),"Nov. 22, 2937",do,Do.
+Armour & Co. (Ft. Green Pl.),"Nov. 17, 1937",do,Do.
+Armour & Co. (Jamaica Market),do,do,Do.
+Armour & Co. (West St. Market),do,do,Do.
+Armour & Co. (Wmsburgh. Market),do,do,Do.
+"Art Crayon Co., Inc., et al","July 22, 1937","July 27, 1937","May 11, 1938"
+Atlantic Basin Iron Works,"Dec. 15, 1937","Dec. 20, 1937","Feb. 18, 1938"
+"Atlantic Footwear Co., Inc.","Dec. 10, 1937","Dec. 23, 1937","Feb. 12, 1938"
+Atlantic Greyhound Lines,"July 1, 1937","July 26, 1937","Sept. 14, 1937"
+Do.,do,do,Do.
+"Atlantic Gulf Stevedores, Inc.","June 20, 1938",[3],
+Atlantic Transport Co.,"Oct. 26, 1937","Oct. 26, 1937","Dec. 3, 1937"
+Do.,do,do,Do.
+Atolia Mining Co.,"Dec. 28, 1937","Jan. 1, 1938",[4]
+Do.,"May 12, 1938","May 13, 1938","June 18, 1938"
+"Auburn Foundry, Inc.","Apr. 7, 1938","Apr. 15, 1938",[1]
+"A. Zerega's Sons, Inc.","Dec. 11, 1937","Dec. 11, 1937","Feb. 19, 1938"
+"Baker, Whitley Co.","Oct. 26, 1937","Oct. 26, 1937","Dec. 3, 1937"
+Do.,do,do,Do.
+Bamberger Reinthal Co.,"July 15, 1937","July 17, 1937","Aug. 7, 1937"
+Barton Mfg. Co.,"Mar. 18, 1938","Mar. 19, 1938",[2]
+Beaumont Mfg. Co.,"Jan. 11, 1938","Jan. 11, 1938","Feb. 4, 1938"
+Beckerman Shoe Co.,"Jan. 3, 1938","Jan. 8, 1938",[1]
+Beloit Iron Works,"Nov. 1, 1937","Nov. 10, 1937","May 16, 1938"
+Bemis Bros. Bag Co.,"Nov. 18, 1937","Nov. 22, 1937","Feb. 4, 1938"
+"Bethlehem Shipbuilding Corporation, Ltd.","Mar. 21, 1938","June 3, 1938",[1]
+Do.,do,do,[1]
+Bethlehem Steel Corporation & Bethlehem Steel Co.,"Sept. 8, 1937",[3],
+Bendix Prod. Corp.,"Aug. 2, 1937","Aug. 4, 1937","Sept. 16, 1937"
+B. F. Goodrich Co.,do,"Aug. 2, 1937","Oct. 8, 1937"
+B. F. Johnson Lumber Co.,"Sept. 20, 1937","Sept. 22, 1937","Oct. 21, 1937"
+B. F. Sturtevant Co.,"May 19, 1938","May 24, 1938",[1]
+"B. G. Hoadley Quarries, Inc.","Mar. 10, 1938","Mar. 12, 1938",[1]
+Bingham & Taylor Corporation,"Aug. 30, 1937","Aug. 31, 1937","Dec. 3, 1937"
+"Binnings, E. S.","June 20, 1938",[3],
+"Bishop & Co., Inc.","Nov. 1, 1937","Nov. 1, 1937","Dec. 15, 1937"
+"Blackstone Manufacturing Co., Inc.","May 13, 1938","May 20, 1938","June 24, 1938"
+"Blake, Moffitt and Towne","Nov. 4, 1937","Nov. 10, 1937","Jan. 17, 1938"
+Bloedel-Donovan Lumber Mills & Columbia Valley Lumber Co.,"Apr. 4, 1938","Apr. 7, 1938",[1]
+Bloomington Limestone Corp.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+Boat Owning & Operating Co.,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+Boorum & Pease Co.,"Mar. 29, 1938","Mar. 29, 1938","May 26, 1938"
+"B. P. Schulberg Pictures, Inc.","Sept. 30, 1937","Oct. 21, 1937","June 4, 1938"
+"Borden Mills, Inc.","Dec. 13, 1937","Jan. 14, 1938",[1]
+Boston Daily Record,"Apr. 5, 1938","Apr. 6, 1938",[1]
+Boston Evening American & Sunday Advertiser,do,do,[1]
+Bradley Lumber Co. of Arkansas,"Aug. 16, 1937","Aug. 18, 1937","Sept. 25, 1937"
+Bradley Mfg. Co.,"Nov. 26, 1937","Nov. 26, 1937","Jan. 21, 1938"
+Brand-Hagen,"Mar. 29, 1938","Mar. 30, 1938",[1]
+"Brasilero, Lloyd","June 20, 1938",[3],
+"Breeze Corporation, Inc.","Mar. 17, 1938","Mar. 23, 1938",[1]
+Brooklyn Beef & Provisions Co.,"Nov. 17, 1937","Nov. 23, 1937","Jan. 18, 1938"
+Brown-Saltman Furniture Co.,"May 23, 1938","May 24, 1938","June 25, 1938"
+Brown Shoe Co.,"Nov. 29, 1938","Jan. 24, 1938","Feb. 11, 1938"
+Burlington Dyeing & Finishing Co.,"Mar. 17, 1938","Mar. 19, 1938",[1]
+Burrel Collins,"Mar. 29, 1938","Mar. 30, 1938",[1]
+"Byco Distributors, Inc.",do,do,[1]
+C. A. Lund Co. and Northland Ski Co.,"July 6, 1937","July 9, 1937","Apr. 5, 1938"
+"Calco Chemical Co., Inc.","Sept. 8, 1937","Sept. 30, 1937","June 23, 1938"
+California Walnut Growers' Association,"Mar. 3, 1938","Mar. 14, 1938",[5]
+California Woodturning Co.,"June 9, 1938","June 16, 1938",[1]
+California Wool Scouring Co.,"Nov. 4, 1937","Nov. 6, 1937","Mar. 4, 1938"
+Calumet Steel Division of Borg-Warner Corp.,"Sept. 15, 1937","Sept. 16, 1937","May 21, 1938"
+"Canadian Fur Trappers of N. J., Inc.","Nov. 1, 1937","Nov. 3, 1937","Jan. 13, 1938"
+Capitol Greyhound Lines,"July 1, 1937","July 26, 1937","Sept. 14, 1937"
+Carl Furst Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+Carrollton Metal Products Co.,"Sept. 2, 1937","Sept. 2, 1937",[4]
+Carolina Marble & Granite Works,"Dec. 15, 1937","Dec. 16, 1937",[1]
+C. D. Mallory & Co.,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+Celanese Corporation of America,"July 6, 1937","July 6, 1937",[1]
+Do.,do,do,[1]
+"Central Greyhound Lines, Inc.","July 1, 1937","July 26, 1937","Sept. 24, 1937"
+"Central Truck Lines, Inc.","Feb. 26, 1937","Mar. 2, 1937","Aug. 12, 1937"
+"Centre Brass Co., Inc., & Enterprise Novelty Co.","Jan. 7, 1938","Jan. 13, 1938",[1]
+"Century Mills, Inc.","Dec. 20, 1937","Dec. 21, 1937","Mar. 5, 1938"
+Century Woven Label Co.,"Mar. 28, 1938","Apr. 9, 1938",[1]
+Charles R. McCormick Lumber Co.,do,"Mar. 29, 1938","May 5, 1938"
+"Chase Brass & Copper Co., Inc.","Sept. 30, 1937","Sept. 30, 1937","Nov. 8, 1937"
+Chesapeake Lighterage Co.,"Oct. 26, 1937","Oct. 26, 1937","Dec. 3, 1937"
+Do.,do,do,Do.
+Chicago Apparatus Co.,"Dec. 13, 1937","Dec. 16, 1937",[1]
+Chicopee Manufacturing Corporation,"Sept. 27, 1937","Sept. 27, 1937","Dec. 8, 1937"
+City Auto Stamping Co.,"July 9, 1937","July 9, 1937","Aug. 11, 1937"
+Clark Equipment Co.,"Mar. 1, 1938","Mar. 16, 1938",[1]
+Clark & Wilson Lumber Co.,"Sept. 20, 1937","Sept. 22, 1937","Oct. 21, 1937"
+Cleveland Cliffs Iron Co.,"Jan. 24, 1938","Feb. 7, 1938",[1]
+Cleveland Equipment Works,"Mar. 10, 1938","Mar. 10, 1938","Apr. 22, 1938"
+Cleveland Worsted Mills Co.,"Aug. 10, 1937","Aug. 10, 1937",[4]
+Clinton Garment Co.,"May 26, 1938","May 26, 1938",[1]
+Clyde-Mallory Lines,"Jan. 11, 1938","Jan. 12, 1938","Feb. 19, 1938"
+C. O. Bartlett & Snow Co.,"Sept. 16, 1937","Sept. 16, 1937","Nov. 11, 1937"
+Do.,do,do,Do.
+"Coastal Freight Handlers, Inc.","June 30, 1938",[3],
+"Cohn, Hall, Marx & Subsidiaries & United Merchants & Manufacturers, Inc.","Sept. 13, 1937","Sept. 28, 1937",[1]
+"Columbia Broadcasting System, Inc.","Sept. 28, 1937","Oct. 2, 1937","Mar. 25, 1938"
+Do.,"May 26, 1938","May 26, 1938",[1]
+Columbian Line,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+Combustion Engineering Co.,"Aug. 12, 1937","Aug. 14, 1937","Feb. 16, 1938"
+Condenser Corporation of America,"Sept. 2, 1937","Oct. 15, 1937",[1]
+Connor Lumber & Land Co.,"June 9, 1938",[3],
+Consolidated Aircraft Corporation,"May 10, 1938","May 12, 1938","June 22, 1938"
+Continental Oil Co.,"Mar. 3, 1938","Mar. 18, 1938",[1]
+Cornell Dubilier Corporation,"Sept. 2, 1937","Oct. 30, 1937",[1]
+Cosmolite Corporation,"Apr. 7, 1938","Apr. 8, 1938",[4]
+"Cote Baking Co., Inc.","Mar. 7, 1938","Mar. 8, 1938","May 9, 1938"
+Cottman Co.,"Oct. 26, 1937","Oct. 26, 1937","Dec. 3, 1937"
+Do.,do,do,Do.
+Cudahy Bros. Packing Co.,"Dec. 6, 1937","Dec. 6, 1937","Jan. 27, 1938"
+Cudahy Packing Co.,"Oct. 4, 1937","Oct. 4, 1937","Dec. 30, 1937"
+Do.,"July 19, 1937","July 22, 1937",[1]
+Do.,"May 12, 1938","June 29, 1938",[1]
+Cunard White Star Lines,"June 20, 1938",[3],
+Cupples Match Co.,"Nov. 29, 1937","Dec. 14, 1937",[1]
+Do.,do,do,[1]
+Curtis Bay Towing Co.,"Oct. 26, 1937","Oct. 26, 1937","Dec. 3, 1937"
+Do.,do,do,Do.
+"Cutler-Hammer, Inc.","Apr. 11, 1938","Apr. 14, 1938","May 25, 1938"
+"Daily Mirror, Inc.","Dec. 4, 1937","Dec. 13, 1937","Feb. 17, 1938"
+Danahy Packing Co.,"Aug. 12, 1937","Aug. 12, 1937","Sept. 17, 1937"
+David and Hyman Zoslow,"Jan. 13, 1938","Jan. 14, 1938",[2]
+Davis Packing Co.,"Mar. 29, 1938","Mar. 30, 1938",[1]
+Delta Line,"June 20, 1938",[3],
+Des Moines Steel Co.,"Mar. 8, 1938","Mar. 9, 1938","Apr. 8, 1938"
+Detroit Gasket and Manufacturing Co.,"May 26, 1938","June 21, 1938",[1]
+Diamond Iron Works,"Feb. 15, 1938","Feb. 15, 1938","Mar. 21, 1938"
+Dickson-Jenkins Manufacturing Co.,"May 5, 1938","May 21, 1938",[1]
+Donaldson Atlantic Line,"June 20, 1938",[3],
+Donaldson Towing & Lighterage Co.,"Oct. 26, 1937","Oct. 26, 1937","Dec. 3, 1937"
+Eagle Manufacturing Co.,"Nov. 13, 1937","Nov. 15, 1937","Apr. 7, 1938"
+Eagle Pencil Co.,"Oct. 1, 1937","Dec. 29, 1937",[1]
+Eagle Phenix Mills,"Nov. 26, 1937","Nov. 26, 1937","Jan. 18, 1938"
+Eagle Picher Mining & Smelting Co.,"June 2, 1938","June 3, 1938",[1]
+East Gulf Stevedoring Co.,"June 20, 1938",[3],
+Eastern States Petroleum Co.,"May 2, 1938","June 28, 1938",[1]
+Eastern & Western Lumber Co.,"Sept. 20, 1937","Sept. 22, 1937","Oct. 21, 1937"
+Eaton Fruit Co.,"Mar. 29, 1938","Mar. 30, 1938",[1]
+Edna Cotton Mills Corporation,"Dec. 17, 1937","Dec. 17, 1937","Mar. 1, 1938"
+Electric Auto Lite Co.,"Mar. 7, 1938","Mar. 18, 1938",[1]
+El Paso Electric Co.,"Sept. 14, 1937","Sept. 17, 1937",[1]
+"Elliott Bay Lumber Co., Inc.","Mar. 7, 1938","Mar. 7, 1938",[1]
+Empire Furniture Co.,"Nov. 4, 1937","Nov. 6, 1937","Apr. 26, 1938"
+Empire Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+Erwin Cotton Mills Co.,"Jan. 10, 1938","Jan. 10, 1938","Apr. 14, 1938"
+Do.,do,do,Do.
+Do.,[6],[6],Do.
+Essex Cigar Co.,"Nov. 18, 1937","Nov. 26, 1937","Mar. 18, 1938"
+Exchange Lumber & Manufacturing Co.,[7],[7],"Feb. 24, 1938"
+"Fairbanks, Morse & Co.","Apr. 4, 1938","Apr. 4, 1938","May 16, 1938"
+Fairchild Clay Products Co.,"Jan. 6, 1938","Jan. 7, 1938",[1]
+Farmco Package Corporation,"Nov. 18, 1937","Nov. 19, 1937","Apr. 14, 1938"
+Farmers Distribution Co.,"Mar. 29, 1938","Mar. 30, 1938",[1]
+Federal Knitting Mills,"July 15, 1937","July 17, 1937","Aug. 7, 1937"
+Fedders Manufacturing Co.,"Aug. 30, 1937","Aug. 30, 1937","Oct. 15, 1937"
+Fitzgerald Cotton Mills,"Dec. 10, 1937","Dec. 10, 1937","Jan. 21, 1938"
+Flexo Products Corporation,"Apr. 21, 1938","Apr. 21, 1938","June 24, 1938"
+Foote Bros. Gear & Machine Corporation,"Jan. 10, 1938","Feb. 4, 1938",[5]
+Ford Motor Co.,"Dec. 16, 1937","Apr. 9, 1938",[1]
+Do.,"June 20, 1938",[3],
+Do.,"June 6, 1938","June 16, 1938",[1]
+Fox-Coffey-Edge Millinery Co.,"Sept. 30, 1937","Nov. 16, 1937",[1]
+Fred G. Hilvert Co.,"Mar. 29, 1938","Mar. 30, 1938",[1]
+"Freedman, Chas.",do,do,[1]
+French Line,"June 20, 1938",[3],
+French Maid Inc.,"Oct. 7, 1937","Oct. 7, 1937","Feb. 16, 1938"
+Friedman Blau Farber Co.,"Aug. 23, 1937","Aug. 25, 1937","Nov. 19, 1937"
+Fried-Ostermann Co.,"Jan. 27, 1938","Jan. 31, 1938","June 23, 1938"
+Furniture Guild of California,"June 9, 1938","June 16, 1938",[1]
+"F. W. Woolworth Co. of France, Inc.","Apr. 11, 1938","Apr. 26, 1938",[1]
+Gaffney Manufacturing Co.,"Apr. 7, 1938","Apr. 7, 1938",[2]
+"Garfield Machine Works, Inc.","Aug. 2, 1937","Aug. 3, 1937",[2]
+Gates Rubber Co.,"Mar. 28, 1938","Mar. 29, 1938",[1]
+Do.,do,do,[1]
+"General Cigar Co., Inc.","Nov. 18, 1937","Nov. 26, 1937","Mar. 18, 1938"
+General Electric Co.,"Aug. 26, 1937","Aug. 27, 1937","Nov. 19, 1937"
+Do.,do,do,[1]
+General Foods Corporation—Post Products Division,"Apr. 7, 1938","Apr. 7, 1938",[4]
+General Foods Sales Co. (Diamond Crystal Salt Division),"Mar. 31, 1938","Mar. 31, 1938","May 31, 1938"
+General Leather Products Inc.,"Sept. 24, 1937","Sept. 24, 1937","Feb. 23, 1938"
+"General Mills, Inc. (Washburn Crosby Co.)","Aug. 23, 1937","Aug. 24, 1937","Oct. 22, 1937"
+General Motor Corporation,"Mar. 28, 1938","Mar. 30, 1938","June 23, 1938"
+"General Motors Corporation (Fisher Body, Oakland Div.)",do,do,Do.
+General Petroleum Corporation of California,"Dec. 9, 1937","Dec. 10, 1937","Mar. 9, 1938"
+Do.,"Dec. 21, 1937","Dec. 21, 1937","Mar. 15, 1938"
+Do.,do,do,Do.
+Do.,"Dec. 22, 1937","Dec. 22, 1937","Mar. 14, 1938"
+Do.,"Dec. 21, 1937","Dec. 21, 1937","Mar. 15, 1938"
+General Steel Castings Corporation (Commonwealth Division),"July 2, 1937","July 7, 1937","Oct. 4, 1937"
+Do.,do,do,Do.
+Do.,do,do,Do.
+Do.,do,do,Do.
+"George H. Kent & Sons, Inc.","June 20, 1938",[3],
+Georgia Duck & Cordage Mill,"Aug. 10, 1937","Aug. 10, 1937","Nov. 1, 1937"
+Globe Cotton Mills,"Nov. 22, 1937","Nov. 22, 1937","Apr. 6, 1938"
+"Godchaux Sugars, Inc.","Jan. 24, 1938","Feb. 5, 1938",[1]
+Goldstein Hat Manufacturing Co.,"Sept. 30, 1937","Nov. 16, 1937","Dec. 23, 1937"
+Goodyear Tire & Rubber Co. of California,"July 22, 1937","July 22, 1937",[5]
+Do.,"July 28, 1937","July 28, 1937","Oct. 7, 1937"
+Gould & Rosenberg,"Jan. 24, 1938","Jan. 24, 1938",[2]
+"Gowanus Towing Co., Inc.","Mar. 14, 1938","Mar. 15, 1938",[1]
+Grace Line,"Aug. 5, 1937","Aug. 6, 1937","Sept. 25, 1937"
+Do.,"June 20, 1938",[3],
+Grand National Films & M. P. P. A.,"Sept. 30, 1937","Oct. 21, 1937","June 4, 1938"
+Granite Finishing Works of Proximity Manufacturing Co.,"Mar. 17, 1938","Mar. 17, 1938","May 21, 1938"
+Great Lakes Engineering Corporation,"July 26, 1937","July 27, 1937","Oct. 15, 1937"
+Great Lakes Engineering Works,"Dec. 2, 1937","Dec. 3, 1937","Mar. 4, 1938"
+Greer Steel Co.,"Nov. 11, 1937","Nov. 12, 1937","Dec. 3, 1937"
+Do.,"May 19, 1938","May 20, 1938",[1]
+Greiss-Pfleger Tanning Co.,"Nov. 9, 1937","Dec. 6, 1937",[1]
+Gulf Oil Corporation,"Aug. 5, 1937","Aug. 7, 1937","Nov. 16, 1937"
+"Gulf Pacific Lines, Ltd.","June 20, 1938",[3],
+Gulf Ports Service Corporation,"June 30, 1938",[3],
+Gulf Shipping Co.,"June 20, 1938",[3],
+Haas Baruch & Co.,"Oct. 13, 1937","Oct. 13, 1937",[4]
+Hamburg-American Line,"June 20, 1938",[3],
+Hamrick Mills,"Apr. 8, 1938","Apr. 8, 1938","May 25, 1938"
+Hanson-Whitney Machine Co.,"Jan. 4, 1938","Jan. 5, 1938",[1]
+Harnischfeger Corporation,"Aug. 12, 1937","Sept. 2, 1937",[1]
+Harter Corporation,"Oct. 7, 1937","Oct. 16, 1937",[1]
+Harris Structural Steel Co.,"Nov. 15, 1937","Nov. 16, 1937",[4]
+Hat Corporation of America,"Sept. 8, 1938","Sept. 8, 1937","Oct. 27, 1937"
+H. E. Fletcher Co.,"Oct. 18, 1937","Oct. 19, 1937","Mar. 2, 1938"
+Hillcone Steamship Co.,"Dec. 21, 1937","Dec. 21, 1937","Mar. 15, 1938"
+Do.,"Dec. 9, 1937","Dec. 10, 1937","Mar. 9, 1938"
+Do.,"Dec. 21, 1937","Dec. 21, 1937","Mar. 15, 1938"
+Do.,do,do,Do.
+"Hillcone Steamship Co., Ltd.","Dec. 22, 1937","Dec. 22, 1937","Mar. 14, 1938"
+Heltonville Limestone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+Heller Bros. Co.,"Dec. 6, 1937","Dec. 10, 1937","June 4, 1938"
+Henry Glass Co.,"Apr. 29, 1938","Apr. 29, 1938",[1]
+Highland Park Manufacturing Co.,"Dec. 9, 1937","Dec. 11, 1937",[1]
+"H. Margolin & Co., Inc.","Nov. 12, 1937","Nov. 30, 1937",[1]
+H. Neuer Glass Co.,"Aug. 9, 1937","Aug. 9, 1937","Nov. 10, 1937"
+Hoadley Bros. Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+Hoffman Beverage Co.,"July 26, 1937","July 31, 1937","Sept. 9, 1937"
+Holland American Line,"June 20, 1938",[3],
+Holland Reiger Division of Apex Electric Co.,"Jan. 28, 1938","Jan. 28, 1938","Mar. 24, 1938"
+Hollywood Citizen News,"Mar. 7, 1938","Mar. 28, 1938",[1]
+"Hood Rubber Co., Inc.","Oct. 25, 1937","Oct. 26, 1937",[1]
+"Hood Rubber Co., Inc. (Arrow Battery Products Division)","Jan. 6, 1938","Jan. 6, 1938","Feb. 9, 1938"
+Horace G. Prettyman and Arthur J. Wiltse,"May 2, 1938","May 12, 1938",[1]
+Horton Manufacturing Co.,"Feb. 21, 1938","Feb. 21, 1938","May 31, 1938"
+H. R. Webb Neckwear Manufacturing Co.,"May 5, 1938","May 5, 1938",[1]
+Hubinger Co.,"Aug. 30, 1937","Aug. 31, 1937","Dec. 4, 1937"
+Hudson Motor Car Co.,"June 27, 1938","June 30, 1938",[1]
+Hudson-Terraplane Sales Corporation,"May 25, 1938","May 25, 1938",[1]
+Hunter Bros. Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+"Ideal Novelty & Toy Co., Inc.","June 15, 1938","June 18, 1938",[1]
+Independent Limestone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+Indiana Limestone Corporation,do,do,[1]
+"Indiana R. R. & Bowman Elder, receiver","Nov. 8, 1937","Nov. 9, 1937",[1]
+Ingalls Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+Ingram Manufacturing Co.,"Aug. 12, 1937","Aug. 13, 1937","Mar. 11, 1938"
+Inman-Poulsen Lumber Co.,"Sept. 20, 1937","Sept. 22, 1937","Oct. 21, 1937"
+Interlake Iron Corporation,"Sept. 24, 1937","Sept. 25, 1937","Apr. 23, 1938"
+"International Freighting Corporation, et al.","Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+International Harvester Co.,"Mar. 2, 1938","Mar. 2, 1938","Apr. 11, 1938"
+International Harvester Co. (Tractor Works),"Dec. 16, 1937","Dec. 17, 1937","Feb. 10, 1938"
+International Harvester Co. (operator of Wisconsin Steel Mines),"July 12, 1937","July 12, 1938",[2]
+International Mercantile Marine Co.,"Aug. 5, 1937","Aug. 6, 1937","Sept. 25, 1937"
+Interstate Granite Corporation,"Dec. 13, 1937","Dec. 15, 1937",[1]
+"Ira S. Bushey & Sons, Inc.","Dec. 15, 1937","Dec. 22, 1937","Jan. 28, 1938"
+Isthmian Steamship Co.,"June 17, 1938","June 17, 1938",[1]
+Isthmian Steamship Co.,"June 20, 1938",[3],
+J. G. McDonald Chocolate Co.,"Dec. 17, 1937","Dec. 17, 1937","Feb. 21, 1938"
+J. J. Little & Ives Co.,"Mar. 1, 1938","Mar. 1, 1938","Apr. 4, 1938"
+J. P. Florio & Co.,"June 20, 1938",[3],
+"Jac Feinberg Hosiery Mills, Inc.","Jan. 17, 1938","Jan. 22, 1938",[1]
+"Jackson Daily News, Inc.","Dec. 9, 1937","Dec. 10, 1937",[1]
+Jacob Dold Packing Co.,"Aug. 12, 1937","Aug. 12, 1937","Sept. 17, 1937"
+"James McWilliams Blue Line, Inc.","Apr. 30, 1938","Apr. 30, 1938","June 15, 1938"
+"John B. Honor & Co., Inc.","June 20, 1938",[3],
+John Jacobs Farms,"Mar. 29, 1938","Mar. 30, 1938",
+John Morrell & Co.,"Sept. 16, 1937","Sept. 17, 1937","Dec. 6, 1937"
+Johns-Manville Corporation,"Apr. 12, 1938","Apr. 14, 1938","June 22, 1938"
+Do.,do,do,Do.
+Johns Manville Products Corporation,"Nov. 4, 1937","Nov. 4, 1937",
+Joliet Wrought Washer Co.,"Apr. 7, 1938","Apr. 13, 1938",
+Jones Lumber Co.,"Sept. 20, 1937","Sept. 22, 1937","Oct. 21, 1937"
+"Jos. S. Finch & Co., Inc.","Sept. 13, 1937","Sept. 14, 1937","May 2, 1938"
+Do.,do,do,Do.
+Journal American,"June 22, 1938",,
+Karastan Rug Mills,"Dec. 17, 1937","Dec. 17, 1937","Feb. 18, 1938"
+Kay Musical Co.,"Nov. 23, 1937","Nov. 23, 1937","Jan. 20, 1938"
+K. C. Power & Light Co.,"Sept. 24, 1937","Sept. 25, 1937",
+Keystone Manufacturing Co.,"Nov. 15, 1937","Nov. 24, 1937","May 13, 1938"
+"Killefer Manufacturing Corporation, Ltd.","Apr. 28, 1938","June 7, 1938",
+Kimberly-Clark Corporation,"June 20, 1938","June 20, 1938",
+Kinnear Manufacturing Co.,"Nov. 3, 1937","Nov. 3, 1937","Jan. 10, 1938"
+"Klinck Packing Co., Inc.","Aug. 12, 1937","Aug. 12, 1937","Sept. 17, 1937"
+Kling Factories,"May 13, 1938","May 20, 1938",
+LaCrosse Garment Industries,"Nov. 16, 1937","Nov. 16, 1937","Feb. 7, 1938"
+Lane Cotton Mills Co.,"July 20, 1937","July 23, 1937","Aug. 24, 1937"
+L. A. Nut House,"Oct. 13, 1937","Oct. 21, 1937","Mar. 5, 1938"
+Lenox Shoe Co.,"July 26, 1937","July 28, 1937","Dec. 3, 1937"
+Lidz Bros.,"Oct. 25, 1937","Oct. 25, 1937","Mar. 3, 1938"
+Limestone Mills,"Apr. 8, 1938","Apr. 8, 1938","May 25, 1938"
+"Loew's, Inc.","Sept. 30, 1937","Oct. 21, 1937","June 4, 1938"
+Lone Star Bag & Bagging Co.,"Aug. 26, 1937","Sept. 13, 1937",
+Loose-Wiles Biscuit Co.,"Oct. 25, 1937","Oct. 26, 1937","Feb. 4, 1938"
+"Los Angeles Broadcasting Co., Inc.","Oct. 12, 1937","Oct. 12, 1937","Dec. 6, 1937"
+Louisiana Terminal Co.,"July 20, 1937","July 22, 1937","Sept. 7, 1937"
+L. Salenfriend,"Oct. 6, 1937","Dec. 9, 1937",
+Lucerne Valley Engineering Co.,"Mar. 10, 1938","Mar. 12, 1938",
+"Luckenbach Gulf Steamship Co., Inc.","June 20, 1938",,
+"Luckenbach Steamship Co., Inc.","Feb. 7, 1938","Feb. 8, 1938",
+Lukenheimer Co.,"Nov. 2, 1937","Nov. 2, 1937","Jan. 24, 1938"
+Lykes Bros. Ripley Steamship Co.,"June 20, 1938",,
+Lykes Bros. Steamship Co.,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+"McKaig Hatch, Inc.","Dec. 2, 1937","Dec. 10, 1937",
+McKell Coal & Coke Co.,"Nov. 1, 1937","Nov. 1, 1937","Dec. 15, 1937"
+"McKesson & Robbins, Inc.","Nov. 8, 1937","Nov. 8, 1937",
+Do.,do,do,
+Do.,"Nov. 18, 1937","Nov. 22, 1937","Feb. 4, 1938"
+Do.,do,do,Do.
+McNeeley & Price Co.,"Nov. 17, 1937","Dec. 2, 1937","Apr. 23, 1938"
+Mackay Radio & Telegraph Co.,"Sept. 29, 1937","Oct. 2, 1937",
+Do.,do,do,"Feb. 26, 1938"
+Do.,do,do,Do.
+Do.,do,do,
+Magnolia Petroleum Co.,"May 9, 1938","June 14, 1938",
+Major Pictures Corporation,"Sept. 30, 1937","Oct. 21, 1937","June 4, 1938"
+"Malston Co., Inc.","Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+Mann Edge Tool Co.,"June 9, 1938","June 9, 1938",
+Marcus Loew Booking Agency,"July 2, 1937","July 6, 1937","Aug. 25, 1937"
+Marks Bros. Co.,"Nov. 26, 1937","Nov. 27, 1937","May 13, 1938"
+Marlin Rockwell Corporation,"Oct. 18, 1937","Oct. 19, 1937","Feb. 11, 1938"
+Marshall Field Blanket Mill,"Dec. 17, 1937","Dec. 17, 1937","Feb. 18, 1938"
+Marshall Field Sheeting Mill,do,do,Do.
+Martin Bros. Box Co.,"Dec. 16, 1937","Dec. 16, 1937","May 10, 1938"
+Maryland Bolt & Nut Co.,"June 2, 1938","June 7, 1938",
+Merchants Transfer & Storage Co.,"Apr. 25, 1938","Apr. 25, 1938",
+Mergenthaler Linotype Co.,"July 9, 1937","July 9, 1937","Sept. 1, 1937"
+Do.,"Sept. 13, 1937","Sept. 14, 1937","Apr. 18, 1938"
+Metropolitan Device Corporation,"June 3, 1938","June 3, 1938",
+"Metropolitan Stevedoring Co., Inc.","June 20, 1938",,
+M. H. Birge & Sons Co.,"Nov. 22, 1937","Nov. 22, 1937","Feb. 15, 1938"
+Micamold Radio Condenser Corporation,"Oct. 28, 1937","Nov. 6, 1937",
+Micamold Radio Corporation,"June 24, 1938","June 24, 1938",
+Michaels Stern & Co.,"Nov. 23, 1937","Nov. 24, 1937",
+Mid-States Gumner Paper Co.,"Dec. 2, 1937","Dec. 2, 1937","Feb. 1, 1938"
+Miller-Johns Co.,"Mar. 29, 1938","Mar. 30, 1938",
+Mine B. Coal Co.,"Oct. 25, 1937","Oct. 27, 1937","Dec. 2, 1937"
+Minneapolis-Moline Power Implement Co.,"Mar. 21, 1938","Mar. 22, 1938","June 10, 1938"
+Minnesota Broadcasting Co.,"Mar. 17, 1938","Mar. 18, 1938","June 13, 1938"
+"Mississippi Shipping Co., Inc.","June 20, 1938",,
+M. & J. Tracy,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+M. & J. Tracy Co.,"Mar. 14, 1938","Apr. 12, 1938",[1]
+"M. Lowenstein & Sons, Inc.","Sept. 23, 1937","Oct. 7, 1937","Mar. 26, 1938"
+Do.,do,do,Do.
+"Missouri, Kansas & Oklahoma Coach Lines","Sept. 9, 1937","Oct. 1, 1937",[1]
+Do.,"Sept. 7, 1937","Sept. 9, 1937","Oct. 23, 1937"
+Do.,do,"Oct. 1, 1937",[1]
+M. O. Best,"Mar. 29, 1938","Mar. 30, 1938",[1]
+Model Blouse Co.,"May 19, 1938","May 23, 1938",[1]
+"Monogram Productions, Inc.","Sept. 30, 1937","Oct. 21, 1937","June 4, 1938"
+Monon Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+"Mooremack Gulf Lines, Inc.","June 30, 1938",[3],
+Morgan Packing Co.,"Oct. 7, 1937","Oct. 16, 1937",[1]
+Morgan Packing Co. (teamsters),do,do,[1]
+Morris & Co. (Williamsburgh branch),"Nov. 17, 1937","Nov. 23, 1937","Jan. 18, 1938"
+Mosaic Tile Co.,"Nov. 10, 1937","Nov. 10, 1937","Feb. 7, 1938"
+Munson Steamship Lines,"Sept. 20, 1937","Sept. 20, 1937",[2]
+Munson Steamship Line,"June 20, 1938",[3],
+Murray Shipping Co.,do,[3],
+Mutual-Sunset Lamp Manufacturing Co.,"July 19, 1937","July 19, 1937","Aug. 27, 1937"
+Mystic Steamship Co.,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+"National Candy Co., Inc. (Veribrite Factory)","May 14, 1938","May 14, 1938","June 27, 1938"
+National Distillers Production Co.,"Jan. 24, 1938","Jan. 24, 1938","Mar. 7, 1938"
+National Electric Products Corporation,"Aug. 2, 1937","Aug. 7, 1937","Aug. 30, 1937"
+National Refining Co.,"Jan. 25, 1938","Jan. 25, 1938","Mar. 4, 1938"
+National Sewing Machine Co.,"Dec. 9, 1937","Dec. 9, 1937","Feb. 17, 1938"
+National Sugar Refining Co. of New Jersey,"Sept. 27, 1937","Oct. 8, 1937","Nov. 30, 1937"
+National Weaving Co.,"Apr. 25, 1938","Apr. 25, 1938","June 14, 1938"
+New England Newspaper Publishing Co.,"Apr. 5, 1938","Apr. 6, 1938",[1]
+New England Steamship Co.,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+New England & Southern Steamship Co.,do,do,Do.
+"New Idea, Inc.","Nov. 15, 1937","Nov. 17, 1937","Feb. 18, 1938"
+New Orleans Steamship Association,"June 24, 1938",[3],
+New Orleans Stevedoring Co.,"June 20, 1938",[3],
+N. Y. Handkerchief Co.,"Jan. 28, 1938","Jan. 28, 1938","Feb. 28, 1938"
+New York & Porto Rico Steamship Co.,"Dec. 21, 1937","Dec. 21, 1937",[1]
+"New York Evening Journal, Inc.","Apr. 13, 1938","Apr. 26, 1938",[5]
+New York Mail & Newspaper Transporation Co.,"Nov. 26, 1937","Nov. 26, 1937","Jan. 19, 1938"
+New York & Porto Rico Steamship Co.,"June 20, 1938",[3],
+Newark Rivet Works,"Nov. 26, 1937","Jan. 18, 1938",[1]
+"News Syndicate Co., Inc.",do,"Nov. 27, 1937","Jan. 19, 1938"
+Newtex Steamship Corporation,"Sept. 20, 1937","Sept. 20, 1937",[2]
+Niagara Box Factory,"Oct. 1, 1937","Dec. 29, 1937",[1]
+Niles Fire Brick Co.,"Nov. 1, 1937","Nov. 2, 1937",[1]
+Nippon Yusen Kaisha Line,"June 20, 1938",[3],
+North River Coal & Wharf Co.,"May 2, 1938","May 2, 1938",[1]
+North Star Specialty Co.,"Dec. 11, 1937","Dec. 11, 1937","Mar. 3, 1938"
+Norton Lilly & Co.,"June 20, 1938",[3],
+"Novelty Slipper Co., Inc.","Dec. 10, 1937","Dec. 11, 1937","Feb. 12, 1938"
+Novelty Steam Boiler Works,"Sept. 20, 1937","Sept. 20, 1937","June 17, 1938"
+"Oceanic Stevedoring Co. of Louisiana, Inc.","June 20, 1938",[3],
+Ohio Greyhound,"July 1, 1937","July 26, 1937","Sept. 14, 1937"
+Ohio Steel Foundry Co.,"Jan. 24, 1938","Jan. 24, 1938","Mar. 22, 1938"
+Oil Transfer Corporation,"May 20, 1938","May 20, 1938",[4]
+Omaha Hat Co.,"Sept. 8, 1937","Sept. 14, 1937","Jan. 12, 1938"
+Ontario Knife Co.,"Aug. 26, 1937","Aug. 26, 1937","Nov. 4, 1937"
+Ordway W. Rickard t/a Rickard & Davis,"Apr. 11, 1938","Apr. 11, 1938",[1]
+Osgood Co.,"Sept. 23, 1937","Sept. 23, 1937","Dec. 2, 1937"
+"Ostler Candy Co., a corporation","Dec. 17, 1937","Dec. 17, 1937","Feb. 21, 1938"
+Ourisman Chevrolet Sales Co.,"Feb. 14, 1938","Feb. 19, 1938",[1]
+Overhead Door Corporation,"May 6, 1938","May 9, 1938",[2]
+Pacific Gas & Electric Co.,"July 22, 1937","July 28, 1937","Oct. 16, 1937"
+Pacific Greyhound Lines,"June 23, 1938","June 27, 1938",[1]
+Do.,"July 12, 1937","July 13, 1937","Dec. 16, 1937"
+Do.,"June 23, 1938","June 27, 1938",[1]
+Pacific Lumber Inspection Bureau,"Apr. 11, 1938","Apr. 11, 1938","May 28, 1938"
+Pacific Manifold Book Co.,"July 8, 1937","July 9, 1937","Sept. 2, 1937"
+Pacific Mills,"Jan. 15, 1938","Jan. 15, 1938",[1]
+Padre Vineyard Co.,"Jan. 13, 1938","Feb. 1, 1938",[1]
+"Page L'Hote Co., Ltd.","June 20, 1938",[3],
+Pan-Atlantic Steamship Corporation,do,[3],
+Do.,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+"Panama Mail Steamship Co. (Grace Line, Inc.)",do,"Aug. 28, 1937",Do.
+Panther Panco Rubber Co.,"Feb. 24, 1938","Mar. 5, 1938",[1]
+"Paper, Calmenson & Co.","Jan. 17, 1938","Jan. 17, 1938",[4]
+"Paragon Rubber Co., Inc., & American Character Doll Co., Inc.",do,Jan. 18 1938,"Mar. 17, 1938"
+Paragon Slipper Co.,"May 12, 1938","May 13, 1938","June 27, 1938"
+"Paramount Pictures, Inc.","Apr. 27, 1938","Apr. 27, 1938","June 23, 1938"
+Peninsular & Occidental Steamship Co.,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+"Pennsylvania Greyhound Lines, Inc.","July 1, 1937","July 26, 1937","Sept. 24, 1937"
+Do.,"Nov. 26, 1937","Nov. 27, 1937","Mar. 31, 1938"
+Pennsylvania Salt Manufacturing Co.,"Sept. 2, 1937","Sept. 2, 1937","Sept. 24, 1937"
+Pennsylvania Shipyards Inc.,"Nov., 4, 1937","Nov. 5, 1937","Feb. 3, 1938"
+Petroleum Iron Works Co.,"Nov. 8, 1937","Nov. 8, 1937","Jan. 18, 1938"
+Do.,"Aug. 30, 1937","Aug. 30, 1937","Sept. 29, 1937"
+Petroleum Iron Works Co. of Texas,"Nov. 8, 1937","Nov. 8, 1937","Jan. 18, 1938"
+Phelps Dodge Corporation (United Verde Branch),"Jan. 10, 1938","Jan. 11, 1938","Apr. 15, 1938"
+Do.,do.,do.,Do.
+Do.,do.,do.,Do.
+Do.,do.,do.,Do.
+"Pier Machine Works, Inc.","Apr. 5, 1938","Apr. 5, 1938","May 23, 1938"
+Pilot Radio Corporation,"Nov. 8, 1937","Dec. 4, 1937",[1]
+Pioneer Gravel Equipment Manufacturing Co.,"Feb. 14, 1938","Feb. 14, 1938",[2]
+"P. Lorillard Co., Inc.","July 15, 1937","July 15, 1937","Sept. 1, 1937"
+P. Lorillard Tobacco Co.,do.,do.,Do.
+Plankinton Packing Co.,"Feb. 2, 1938","Feb. 2, 1938","Mar. 5, 1938"
+"Plant Line Stevedoring Co., Inc.","June 20, 1938",[3],[1]
+Planters Manufacturing Co.,"Nov. 23, 1937","Dec. 4, 1937",[1]
+Pocahontas Steamship Co.,"Aug. 23, 1937","Aug. 24, 1937","Sept 17, 1937"
+Portland Lumber Mills,"Sept. 20, 1937","Sept. 22, 1937","Oct. 21, 1937"
+"Postal Telegraph-Cable Co., et al","Dec. 22, 1937","Dec. 28, 1937","Feb. 12, 1938"
+Postal Telegraph-Cable Co.,do.,do.,Do.
+Do.,do.,do.,Do.
+Do.,do.,do.,Do.
+Do.,"Mar. 24, 1938","Mar. 24, 1938","May 25, 1938"
+"Pressed Steel Car Co., Inc.","Apr. 7, 1938","Apr. 8, 1938","June 23, 1938"
+Proximity Print Works,"Dec. 16, 1937","Dec. 17, 1937","June 9, 1938"
+Pulaski Veneer Corporation,"Feb. 3, 1938","Feb. 12, 1938",[1]
+Pure Oil Co.,"Jan. 13, 1938","Jan. 19, 1938",[2]
+Do.,"Nov. 29, 1937","Dec. 7, 1937",[1]
+Quality Art Novelty Co.,"May 19, 1938","June 17, 1938",[1]
+Quality Furniture Mfg. Co.,"June 9, 1938","June 16, 1938",[1]
+"R. C. A. Communications, Inc.","May 16, 1938","May 20, 1938",[1]
+Do.,do.,do.,[1]
+R. C. Mahon Co.,"Dec. 13, 1937","Dec. 13, 1937","Feb. 12, 1938"
+"Reading Batteries, Inc.","Apr. 28, 1938","May 5, 1938",[1]
+Reading Transportation Co.,"June 29, 1938","June 30, 1938",[1]
+Red River Lumber Co.,"Aug. 5, 1937","Aug. 7, 1937","Feb. 26, 1938"
+Red Salmon Canning Co.,"Apr. 22, 1938","Apr. 25, 1938","May 11, 1938"
+Reed-Powers Cut Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+Richard Meyer Co.,"June 20, 1938",[3],
+Richardson Co.,"Nov. 2, 1937","Nov. 3, 1937","Jan. 11, 1938"
+Do.,"May 9, 1938","May 9, 1938","June 23, 1938"
+Richfield Oil Co.,"Dec. 21, 1937","Dec. 21, 1937","Mar. 15, 1938"
+Richfield Oil Co. of California,"Dec. 9, 1937","Dec. 10, 1937","Mar. 9, 1938"
+Do.,"Dec. 21, 1937","Dec. 21, 1937","Mar. 15, 1938"
+Do.,do.,do.,Do.
+Richfield Oil Corporation,"Apr. 11, 1938","Apr. 11, 1938","June 2, 1938"
+"Richmond Greyhound Lines, Inc.","July 1, 1937","July 26, 1937","Sept. 14, 1937"
+"Richmond and Samuels, Inc.","Mar. 29, 1938","Mar. 30, 1938",[1]
+Ritz Distributing Co.,do.,do.,[1]
+Roberti Brothers,"Dec. 2, 1937","Dec. 28, 1937",[1]
+Robins Dry Dock & Repair Co.,"July 19, 1937","Aug. 3, 1937",[1]
+Robbins & Myers Co.,"May 19, 1938","May 19, 1938","June 23, 1938"
+Do.,do.,do.,Do.
+Do.,do.,do.,Do.
+Roma Wine Co.,"Mar. 24, 1938","Mar. 24, 1938","May 11, 1938"
+"Ross & Heyn, Inc.","June 20, 1938",[3],
+Rossie Velvet Co.,"Aug. 23, 1937","Aug. 24, 1937","Oct. 7, 1937"
+Do.,do.,do.,Do.
+Royal Warehouse Corporation and Royal Glass Works Corporation,"June 14, 1938","June 14, 1938",[1]
+Ryan Stevedoring Co.,"June 20, 1938",[3],
+S. A. Gerrard Co.,"Mar. 29, 1938","Mar. 30, 1938",[1]
+Salinas Valley Vegetable Exchange,do.,do.,[1]
+San Diego Ice & Cold Storage Co.,"Nov. 17, 1937","Dec. 13, 1937",[1]
+San Diego Marine Construction Co.,"Aug. 20, 1937","Aug. 20, 1937","Oct. 25, 1937"
+Do.,do.,do.,Do.
+Do.,do.,do.,Do.
+Santa Fe Trails Transportation Co.,"Apr. 4, 1938","Apr. 4, 1938","May 21, 1938"
+Sare-Hoadley Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+S. B. Penick & Co.,"Feb. 7, 1938","Feb. 23, 1938",[1]
+"S. Blechman & Sons, Inc.","July 2, 1937","July 3, 1937","Nov. 4, 1937"
+Scandinavian-American Line,"June 20, 1938",[3],
+Schick Dry Shaver Co.,"Aug. 26, 1937","Aug. 26, 1937","Nov. 29, 1937"
+"Schick Dry Shaver, Inc.",do,do,Do.
+Schwartz-Bernard Cigar Co.,"Nov. 18, 1937","Nov. 26, 1937","Mar. 18, 1938"
+Scottdale Mill,"Aug. 10, 1937","Aug. 10, 1937","Nov. 1, 1937"
+Seas Shipping Co.,"Apr. 28, 1938","Apr. 29, 1938","June 13, 1938"
+"Seattle Post Intelligencer Department of Hearst Publications, Inc.","Mar. 10, 1938","Apr. 1, 1938",[1]
+Seiss Mfg. Co.,"Mar. 9, 1938","Mar. 9, 1938","May 26, 1938"
+Semet-Solvay Co.,"July 6, 1937","July 24, 1937","May 28, 1938"
+"Seminole Steamship Co., Inc.","Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+Shawnee Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+"Shelby Shops, Inc.","May 16, 1938","May 26, 1938",[1]
+Shell Chemical Co.,"Sept. 20, 1937","Sept. 20, 1937","Nov. 29, 1937"
+Shell Oil Co.,"Nov. 22, 1927","Dec. 23, 1937","May 25, 1938"
+Shell Petroleum Corporation,"Mar. 4, 1938","Mar. 12, 1938",[1]
+Shipowners Association of Pacific Coast,"Feb. 14, 1938","Mar. 26, 1938","June 21, 1938"
+Showers Bros. Furniture Co.,"Oct. 14, 1937","Oct. 15, 1937","Dec. 17, 1937"
+Sierra Madre Lamanda Citrus Association,"Sept. 23, 1937","Sept. 23, 1937",[4]
+Silver Lake Co.,"Aug. 9, 1937","Aug. 9, 1937","Oct. 25, 1937"
+Simmons Co.,"Feb. 10, 1938","Feb. 10, 1938","Mar. 26, 1938"
+Simplex Wire & Cable Co.,"Nov. 1, 1937","Nov. 6, 1937","Mar. 29, 1938"
+Do.,do,"Nov. 1, 1937",Do.
+Singer Sewing Machine Co.,"Mar. 28, 1938","Mar. 28, 1938",[1]
+"Smith, E. G.","Mar. 29, 1938","Mar. 30, 1938",[1]
+"Smith-Thornburg, Inc.",do,do,[1]
+Solomon Manufacturing Co.,"Sept. 2, 1937","Sept. 2, 1937","Oct. 27, 1937"
+"Somerset Shoe Co., factory No. 1","Aug. 23, 1937","Aug. 24, 1937","Feb. 19, 1938"
+"Somerset Shoe Co., factory No. 2",do,do,Do.
+Sound Timber Co.,"June 23, 1938","June 23, 1938",[1]
+Southeastern Greyhound Lines,"July 1, 1937","July 26, 1937","Sept. 14, 1937"
+Southern California Gas Co.,"June 2, 1938","June 27, 1938",[1]
+Southern Chemical Cotton Co.,"Aug. 16, 1937","Aug. 18, 1937","Oct. 23, 1937"
+Southern Lumber Co.,"July 19, 1937","July 19, 1937",[2]
+"Southern Pacific Steamship Co., Morgan Line","Jan. 20, 1938","Feb. 1, 1938",[4]
+"Southern Pacific Steamship Lines, Morgan Lines","June 30, 1938","June 30, 1938",[1]
+Southern Stevedoring Co.,"June 20, 1938",[3],[1]
+Southgate Nelson Corporation,"Oct. 11, 1937","Oct. 11, 1937","Dec. 2, 1937"
+Do.,do,do,[5]
+Do.,do,do,[5]
+Southport Petroleum Co.,"Dec. 13, 1937","Dec. 17, 1937",[1]
+Southwestern Greyhound Lines,"July 1, 1937","July 26, 1937","Sept. 14, 1937"
+Do.,do,do,Do.
+"Spotless Stores, Inc.","Oct. 18, 1937","Jan. 6, 1938",[1]
+"Spray Woolen Mill, Division of Marshall Field & Co.","Dec. 17, 1937","Dec. 17, 1937","Feb. 18, 1938"
+Stafford Milling & Warehouse Co.,"Oct. 15, 1937","Oct. 16, 1937",[4]
+Standard Cap & Seal Co.,"June 16, 1938","June 16, 1938",[1]
+Standard Fruit & Steamship Co.,"June 30, 1938",[3],
+Standard Oil Co.,"Aug. 30, 1937","Sept. 2, 1937","Mar. 3, 1938"
+Standard Oil Co. (Indiana),"Jan. 24, 1938","Feb. 18, 1938",[1]
+Standard Oil Co. of N. J.,"June 6, 1938","June 6, 1938",[1]
+Do.,do,do,[1]
+Standard Oil Co. of N. J. (Marine Department),do,do,[1]
+Do.,do,[3],
+Standard Oil Co. of N. J.,"June 28, 1938",[3],
+Do.,"June 6, 1938","June 6, 1938",[1]
+Stanley Fruit Co.,"Mar. 29, 1938","Mar. 30, 1938",[1]
+Stanolind Oil & Gas Co.,"Jan. 24, 1938","Feb. 18, 1938",[1]
+"Stehli & Co., Inc.","Nov. 1, 1937","Dec. 15, 1937",[1]
+"Stephen Ranson, Inc.","Dec. 15, 1937","Dec. 22, 1937","Feb. 28, 1938"
+Stone Knitting Mills,"July 15, 1937","July 17, 1937","Aug. 7, 1937"
+Strachan Shipping Co.,"June 20, 1938",[3],
+Strain Manufacturing Co.,"Dec. 13, 1937","Dec. 13, 1937","Feb. 15, 1938"
+Sunlight Electric Co.,"Jan. 10, 1938","Jan. 10, 1938","Mar. 29, 1938"
+Sun Ship Building & Dry Dock Co.,"June 23, 1938","June 24, 1938",[1]
+Superior Electric Products Co.,"Jan. 21, 1938","Jan. 25, 1938","Mar. 17, 1938"
+Supplee-Wills-Jones Milk Co.,"May 9, 1938","May 10, 1938",[2]
+"Swayne & Hoyt, Ltd.","June 20, 1938",[3],
+"Sweet Candy Co., a corporation","Dec. 17, 1937","Dec. 17, 1937","Feb. 21, 1938"
+Swift & Co.,"Nov. 18, 1937","Nov. 18, 1937","Jan. 10, 1938"
+Do.,"Nov. 8, 1937","Nov. 20, 1937","May 20, 1938"
+Swift Manufacturing Co.,"Nov. 26, 1937","Nov. 26, 1937","Jan. 26, 1938"
+Swift Spinning Mills,"Nov. 27, 1937","Nov. 27, 1937",Do
+Talladega Cotton Mills,"Nov. 26, 1937","Nov. 30, 1937",[1]
+Tampa Inter-Ocean Steamship Co.,"Aug. 23, 1937","Aug. 24, 1937",[5]
+Do,"June 20, 1938",[3],
+Tegge-Jackman Cigar Co.,"Nov. 18, 1937","Nov. 26, 1937","Mar. 18, 1938"
+Tennessee Copper Co.,"Jan. 13, 1938","Jan. 14, 1938","Mar. 3, 1938"
+Tennessee Electric Power Co.,"Feb. 3, 1938","Feb. 4, 1938","May 5, 1938"
+Tennessee Schuylkill Corporation,"Nov. 29, 1937","Nov. 29, 1937","Feb. 4, 1938"
+Terminal Flour Mills Co.,"Jan. 19, 1938","Feb. 14, 1938",[1]
+Texas Corrugated Box Co.,"June 23, 1938","June 23, 1938",[1]
+Texas Mining & Smelting Co.,"Feb. 14, 1938","Feb. 25, 1938",[1]
+Texla Stevedoring Co.,"June 20, 1938",[3],
+Texas Transport & Terminal Co.,do,[3],
+The American Boston Mining Co. et al,"June 2, 1938","June 8, 1938",[1]
+The American Brass Co.,"Nov. 8, 1937","Nov. 8, 1937","Apr. 21, 1938"
+The American Paint Works (Glidden Co.),"Feb. 14, 1938","Feb. 22, 1938",[1]
+The Associated Press,"Dec. 6, 1937","Jan. 8, 1938",[1]
+Do,"Jan. 5, 1938","Jan. 6, 1938","Feb. 2, 1938"
+The Babcock & Wilcox Co.,"June 16, 1938","June 16, 1938",[1]
+The Campbell Machine Co.,"Aug. 18, 1937","Aug. 18, 1937","Oct. 4, 1937"
 Do,do,do,Do.
 Do,do,do,Do.
-Do__ Armour &Co. Brooks Ave. Market),"do Nov. 22, 2937",do do,Do. Do.
-Armour &Co. Ft. Green Pl.),"Nov. 17,1937",do,Do.
-Armour &Co. Jamaica Market),do,do,Do.
-Armour &Co. (West St. Market),do,do,Do.
-Armour &Co. (Wmsburgh. Market),"do July 22,1937","do July 27,1937","Do. May 11,1938"
-"Art Crayon Co., Inc., et al",,,
-Atlantic Basin Iron Works,"Dec. 15,1937","Dec. 20,1937","Feb. 14,1938"
-"Atlantic Footwear Co., Inc","Dec. 10, 1937","Dec. 23,1937","Feb. 12,1938"
-Atlantic Greyhound Lines,"July 1, 1937","July 24,1937","Sept. 14,1937"
+The Carrollton Metal Products Co.,"Sept. 2, 1937","Jan. 27, 1938","Apr. 14, 1938"
+The DeVilbiss Co.,"Mar. 9, 1938","Mar. 9, 1938","Mar. 16, 1938"
+The Falk Corporation,"Aug. 16, 1937","Aug. 25, 1937","Apr. 18, 1937"
+The Indianapolis Times,"June 27, 1938","June 28, 1938",[1]
+The International Nickel Co.,"Mar. 24, 1938","Mar. 24, 1938","May 6, 1938"
+The Kirsch Co.,"Oct. 13, 1937","Oct. 13, 1937",[4]
+The N. & G. Taylor Co.,"Sept. 9, 1937","Sept. 20, 1937",[1]
+"The Ohio Foundry Co., plant 1","July 6, 1937","July 7, 1937","Sept. 21, 1937"
+"The Ohio Foundry Co., plants 1, 2, and 3",do,do,Do.
+The Perry-Fay Co.,"Nov. 22, 1937","Nov. 22, 1937","Dec. 16, 1937"
+The Pittsburgh Plate Glass Co.,"Aug. 5, 1937","Aug. 5, 1937","Nov. 22, 1937"
+The Raleigh Hotel Co.,"Mar. 24, 1938","Apr. 2, 1938","May 21, 1938"
+The Rex Manufacturing Co.,"Nov. 22, 1937","Dec. 7, 1937","May 10, 1938"
+The Sandusky Metal Products Co.,"Jan. 28, 1938","Jan. 28, 1938","Mar. 16, 1938"
+The Serrick Corporation,"Oct. 18, 1937","Nov. 15, 1937",[1]
+The Sorg Paper Co.,"Mar. 18, 1938","Mar. 18, 1938",[1]
+The Texas Co.,"Mar. 17, 1938","Mar. 22, 1938","May 13, 1938"
+Do,"May 16, 1938","May 28, 1938",[1]
+The Texas Co. (Refining Department),"Sept. 16, 1937","Sept. 17, 1937","Nov. 20, 1937"
+The Toledo Steel Tube Co.,"Mar. 8, 1938","Mar. 8, 1938",[1]
+The Walworth Co.,"Mar. 18, 1938","Mar. 19, 1938",[1]
+Do,do,do,[1]
+The Waterbury Clock Co.,"Sept. 30, 1937","Sept. 30, 1937",[4]
+Thomas Paper Stock Co.,"Jan. 6, 1938","Jan. 8, 1938",[2]
+Tidewater Associated Oil Co.,"Dec. 9, 1937","Dec. 10, 1937","Mar. 9, 1938"
+Do,"Dec. 21, 1937","Dec. 21, 1937","Mar. 15, 1938"
 Do,do,do,Do.
-"Atlantic Gulf Stevedores, Inc Atlantic Transport Co","June 20,1938 Oct. 26,1937","(3) Oct. 28,1937","Dec. 3, 1937"
-Do,"do Dec. 28, 1937","do Jan. 1, 1938",Do.
-Atolls Mining Co Do,"May 12,1938","May 13,1938","June 18,1938"
-"Auburn Foundry, Inc","Apr. 7,1938","Apr. 15,1938",
-"A. Zerega's Sons, Inc Baker, Whitley Co","Dec. 11, 1937","Dec. 11,1937 Oct. 26,1937","Feb. 19,1938 Dec. 3.1937"
-,"Oct. 26, 1937",do,Do.
-Do,do,"July 17, 1937","Aug. 7, 1937"
-Bamberger Reinthal Co,"July 15, 1937","Mar. 19, 1938",
-Barton Mfg. Co,"Mar. 18,1938",,"Feb. 4,1938"
-Beaumont Mfg. Co,"Jan 11,1938","Jan. 11,1938",
-Beckerman Shoe Co,"Jan 3, 1938","Jan. 4,1938 Nov. 10,1937","(1) May 16,1938"
-Beloit Iron Works,"Nov. 1,1937","Nov. 22, 1937","Feb. 4,1938"
-Bemis Bros. Bag Co,"Nov. 18,1937",,(I)
-"Bethlehem Shipbuilding Corporation, Ltd_","Mar. 21,1938","June 3,1938",
-Do,do,do,(I)
-Bethlehem Steel Corporation &Bethlehem Steel Co,"Sept. 8, 1937",1) (,"Sept. 16,1937"
-Bendiz Prod. Corp,"Aug. 2,1937","4, Aug. 1937 Aug. 2,1937","Oct. 8,1937"
-B. F. Goodrich Co,do,"Sept. 22,1937","Oct. 21,1937"
-B. F. Johnson Lumber Co B. F. Sturtevant Co,"Sept. 20,1937 May 19,1938","May 24,1938",
-"B. G. Hoadley Quarries, Inc","Mar. 10,1938","Mar. 12,1938",g Dec.
-Bingham &Taylor Corporation,"Aug. 30,1937","Aug. 31,1937","3,1937"
-"Binnings, E. S","June 20,1938",,
-"Bishop &Co., Inc","Nov. 1, 1937","Nov. 1, 1937","Dec. 15, 1937"
-"Blackstone Manufacturing Co., Inc","May 13, 1938","May 20,1938","June 24,1938"
-"Blake, Moffitt and Towne Bloedel-Donovan Lumber Mills &Columbia Valley Lum-","Nov. 4,1937","Nov. 10,1937","Jan. 17,1938"
-ber Co,"Apr. 4,1938","Apr. 7,1938",
-,"Mar. 10,1938","Mar. 12,1938",
-Bloomington Limestone Corp Boat Owning &Operating Co,"Aug. 23,1937","Aug. 24,1937","Sept. 17,1937"
-Boorum &Pease Co,"Mar. 29,1938","Mar. 29,1938","May 26,1938"
-"B. P. Schulberg Pictures, Inc","Sept. 30, 1937","Oct. 21,1937","June 4,1938"
-"Borden Mills, Inc","Dec. 13,1937","Jan. 14,1938",
-Boston Daily Record,"Apr. 5, 1938","Apr. 4,1938",(1)
-Boston Evening American &Sunday Advertiser,do,do,"Sept. 25,1937"
-Bradley Lumber Co. of Arkansas,"Aug. 16, 1937 Nov. 26,1937","Aug. 14,1937 Nov. 26,1937","Jan. 21,1938"
-Bradley Mfg. Co,,,
-Brand-Hagen,"Mar. 29,1938","Mar. 30,1938",(I)
-"Bmsilero, Lloyd","June 29,1938",(s),
-,"Mar. 17, 1938","Mar. 23, 1938",
-"Breeze Corporation, Inc",,,"Jan. 18, 1938"
-Brooklyn Beef &Provisions Co,"Nov. 17, 1937","Nov. 23,1937","June 25,1938"
-Brown-Saltman Furniture Co,"May 23,1938","May 24, 1938 Jan. 24,1938","Feb. 11,1938"
-Brown Shoe Co,"Nov. 29,1938",,
-Burlington Dyeing & Finishing Co,"Mar. 17,1938","Mar. 19,1938",
-,,"Mar. 30,1938",
-Burrel Collins,"Mar. 29,1938",,
-"Byco Distributors, Inc",do,do,
+Do,do,do,Do.
+Do,"Dec. 22, 1937","Dec. 22, 1937","Mar. 14, 1938"
+Do,"Jan. 4, 1938","May 20, 1938",[1]
+Do,do,do,[1]
+Do,do,"May 20, 1938",[1]
+Do,"May 19, 1938",do,[1]
+Tidewater Association Oil Co.,"Jan. 4, 1938","Jan. 4, 1938",[4]
+Times Publishing Co.,"May 2, 1938","May 6, 1938",[1]
+"Todd-Johnson Dry Docks, Inc.","May 5, 1938","May 13, 1938",[1]
+Tolby Bros.,"Mar. 29, 1938","Mar. 30, 1938",[1]
+Towns & James,"Nov. 22, 1937","Nov. 22, 1937",[4]
+Tracy-Holmes Fruit Co.,"Mar. 29, 1938","Mar. 30, 1938",[1]
+"Trem Carr, Inc.","Sept. 30, 1937","Oct. 21, 1937","June 4, 1938"
+"T. Smith & Son, Inc.","June 20, 1938",[3],
+Union-Buffalo Mills Co.,"Jan. 13, 1938","Jan. 13, 1938","Feb. 18, 1938"
+Do,do,do,Do.
+"Union Bus Co., Inc.","July 1, 1937","July 26, 1937","Sept. 14, 1937"
+Union Lumber Co.,"Mar. 21, 1938","Mar. 21, 1938","June 23, 1938"
+Union Oil Co.,"Dec. 9, 1937","Dec. 10, 1937","Mar. 9, 1938"
+Do,"Dec. 21, 1937","Dec. 21, 1937","Mar. 15, 1938"
+Do,do,do,Do.
+Union Oil Co. of California,"Dec. 22, 1937","Dec. 22, 1937","Mar. 14, 1938"
+Do,"Dec. 21, 1937","Dec. 21, 1937","Mar. 15, 1938"
+"Union Premier Food Stores, Inc.","June 16, 1938","June 21, 1938",[1]
+Union Stockyard Co. of Fargo,"Dec. 17, 1937","Dec. 17, 1937",[4]
+Union-Tribune Publishing Co.,"Nov. 29, 1937","Dec. 8, 1937",[1]
+United Carbon Co.,"Nov. 22, 1937","Dec. 2, 1937","June 1, 1938"
+Unit Cast Corporation,"Mar. 7, 1938","Mar. 10, 1938","May 11, 1938"
+United Fruit Co.,"Feb. 9, 1938","Feb. 10, 1938",[1]
+Do.,"June 30, 1938",[3],
+United Press Associations,"July 8, 1937","July 8, 1937","Aug. 20, 1937"
+"United Shipyards, Inc.","Dec. 20, 1937","Jan. 22, 1938","Mar. 2, 1938"
+United States Lines,"Sept. 27, 1937","Sept. 27, 1937",[2]
+United States Lines Co.,"Sept. 20, 1937","Sept. 20, 1937",[2]
+"Universal Film Exchange, Inc.","May 26, 1938","May 27, 1938",[1]
+U. S. Coal & Coke Co.,"July 26, 1937","July 27, 1937",[4]
+Do.,do,"July 26, 1937",[1]
+U. S. Tank Ship Corporation,"Aug. 23, 1937","Aug. 24, 1937","Sept. 17, 1937"
+U. S. Sanitary Manufacturing Co.,"Apr. 14, 1938","Apr. 14, 1938",[2]
+"U. S. Testing Co., Inc.","Jan. 12, 1938","Jan. 15, 1938","Feb. 28, 1938"
+"Utah Copper Co., a corporation, & Kennecott Copper Corporation","Aug. 30, 1937","Sept. 4, 1937","June 16, 1938"
+"Vail-Ballou Press, Inc.","May 23, 1938","May 27, 1938",[1]
+Do.,do,do,[1]
+Valley Mould & Iron Corporation,"Jan. 6, 1938","Jan. 6, 1938","Feb. 4, 1938"
+Van Arnan Manufacturing Co.,"Feb. 28, 1938","Feb. 28, 1938","Apr. 7, 1938"
+Vesta Underwear Co.,"June 2, 1938","June 2, 1938",[1]
+Vicksburgh Garment Co.,"Dec. 23, 1937","Dec. 23, 1937","Feb. 14, 1938"
+Victor Oolitic Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+"Vogemann-Goudriaan Co., Inc.","June 20, 1938",[2],
+"Vultee Aircraft Division, Aviation Manufacturing Corporation","Apr. 28, 1938","Apr. 28, 1938",[1]
+Wadsworth Watch Case Co.,"Sept. 7, 1937","Sept. 8, 1937","Dec. 10, 1937"
+"Waggoner Refining Co., Inc., et al.","July 12, 1937","July 21, 1937","Apr. 21, 1938"
+"Waggoner Refining Co., Inc., and W. T. Waggoner Estate",do,"July 21, 1937",Do.
+"Walker Vehicle Co., et al.","Sept. 17, 1937","Sept. 18, 1937","June 10, 1938"
+"Walt Disney Productions, Ltd.","Sept. 30, 1937","Oct. 21, 1937","June 4, 1938"
+"Walter Wanger Productions, Inc.",do,do,Do.
+Wallis Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+"Ward Baking Co., a corporation","Oct. 11, 1937","Oct. 12, 1937",[1]
+Washburn Wire Co.,"Feb. 15, 1938","Apr. 1, 1938",[1]
+Waterbury Clock Co.,"Sept. 30, 1937","Sept. 30, 1937","Nov. 11, 1937"
+Waterbury Manufacturing Co.,do,do,"Feb. 14, 1938"
+Waterfront Employers Association of Southern California,"Dec. 13, 1937","Mar. 26, 1938","June 21, 1938"
+Waterman Steamship Corporation,"June 20, 1938",[3],
+Wearwell Bedspread Mills (Division of Marshall Field Co.),"Dec. 17, 1937","Dec. 17, 1937","Feb. 18, 1938"
+Webster Cigar Co.,"Nov. 18, 1937","Nov. 26, 1937","Mar. 18, 1938"
+"Weekly Publications, Inc.","May 13, 1938","May 18, 1938",[1]
+"Weinberger Banana Co., Inc.","Feb. 21, 1938","Mar. 8, 1938",[1]
+Weirton Steel Co.,"Aug. 16, 1937",[3],
+West Coast Kalsomine Co.,"Nov. 18, 1937","Nov. 22, 1937","Feb. 4, 1938"
+West Coast Wholesale Drug Co.,do,do,Do.
+West Oregon Lumber Co.,"Sept. 20, 1937","Sept. 22, 1937","Oct. 21, 1937"
+West Virginia Pulp & Paper Co.,"Aug. 16, 1937","Aug. 16, 1937","Sept. 15, 1937"
+Do.,"Nov. 11, 1937","Nov. 11, 1937","Dec. 1, 1937"
+Do.,"Nov. 15, 1937","Nov. 15, 1937","Dec. 4, 1937"
+Western Union Telegraph Co.,"Aug. 9, 1937","Aug. 14, 1937","Aug. 25, 1937"
+Western Vegetable Distributors,"Mar. 29, 1938","Mar. 30, 1938",[1]
+Westinghouse Airbrake Co.,"Sept. 9, 1937","Sept. 9, 1937","Dec. 4, 1937"
+Wheeling Steel Corporation,"May 2, 1938","May 2, 1938",[1]
+Whittier Mills,"Aug. 9, 1937","Aug. 10, 1937","Oct. 25, 1937"
+Wilmington Transportation Co.,"Nov. 4, 1937","Nov. 4, 1937","Dec. 31, 1937"
+William Manufacturing Co.,"Sept. 23, 1937","Sept. 28, 1937","Mar. 24, 1938"
+"Willys-Overland Motors, Inc.","June 2, 1938","June 7, 1938",[1]
+Wisconsin Bell Telephone,"Feb. 7, 1938","Feb. 22, 1938",[1]
+Wisconsin Power & Light Co.,"Feb. 3, 1938","Feb. 3, 1938","Mar. 31, 1938"
+Wisconsin Bell Telephone Co.,"Feb. 7, 1938","Feb. 22, 1938",[1]
+Do.,Do.,do,[1]
+Do.,do,do,[1]
+Woodside Cotton Mills Co.,"May 9, 1938","May 9, 1938","June 16, 1938"
+Woodville Lime Products Co.,"Mar. 8, 1938","Mar. 25, 1938","May 23, 1938"
+Woolery Bros. Stone Co.,"Mar. 10, 1938","Mar. 12, 1938",[1]
+Worthington Pump & Machinery Corporation,"Sept. 23, 1937","Sept. 23, 1937","Dec. 7, 1937"
+Zellerbach Paper Co.,"Oct. 12, 1937","Oct. 21, 1937","Dec. 3, 1937"
+Zenite Metal Corporation,"July 2, 1937","July 14, 1937","Feb. 19, 1938"

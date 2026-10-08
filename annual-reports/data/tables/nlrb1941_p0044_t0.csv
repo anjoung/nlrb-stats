@@ -1,6 +1,16 @@
-row_label,Petitioning union or party,Number of elections and pay-roll checks,Number won by petitioner,Percent won by petitioner,Valid votes cast — For A. F. of L. affiliates,Valid votes cast — For C. I. O. affiliates,Valid votes cast — For national unaffiliated unions,Valid votes cast — For local unaffiliated unions,Valid votes cast — For no union,Valid votes cast — Total,Percent of total votes for petitioner
-A. F. of L. affiliates — Petitioners,1128,934,82.8,135653,26487,1642,9078,39996,212834,63.7,
-C. I. O. affiliates — Petitioners,1260,914,72.5,43599,306382,7065,23083,94835,475169,64.5,
-National unaffiliated unions — Petitioners,48,39,81.3,1118,10421,10422,9265,4258,14679,71.0,
-Local unaffiliated unions — Petitioners,70,49,70.0,1720,2584,12172,398,4267,26141,65.7,
-Employer-Petitioners,129,96,74.4,3502,8658,,788,1968,35520,,
+Participating unions,Number of elections or pay-roll checks conducted,Elections or pay-roll checks won,Elections or pay-roll checks won,Elections or pay-roll checks won,Elections or pay-roll checks won,Elections or pay-roll checks won,Elections or pay-roll checks won,Elections or pay-roll checks won,Elections or pay-roll checks won,Votes cast,Votes cast,Votes cast,Votes cast,Votes cast,Votes cast,Votes cast,Votes cast,Against unions,Total valid votes
+Participating unions,Number of elections or pay-roll checks conducted,By A. F. of L. affiliates,By A. F. of L. affiliates,By C. I. O. affiliates,By C. I. O. affiliates,By national unaffiliated unions,By national unaffiliated unions,By local unaffiliated unions,By local unaffiliated unions,For A. F. of L. affiliates,For A. F. of L. affiliates,For C. I. O. affiliates,For C. I. O. affiliates,For national unaffiliated unions,For national unaffiliated unions,For local unaffiliated unions,For local unaffiliated unions,Against unions,Total valid votes
+Participating unions,Number of elections or pay-roll checks conducted,Number,Percent of total,Number,Percent of total,Number,Percent of total,Number,Percent of total,Number,Percent of total,Number,Percent of total,Number,Percent of total,Number,Percent of total,Against unions,Total valid votes
+A. F. L. affiliates,921,733,79.6,,,,,,,"95,399",74.1,,,,,,,"33,315","128,714"
+C. I. O. affiliates,893,,,753,84.3,,,,,,,"168,802",68.4,,,,,"77,966","246,768"
+National unaffiliated unions,48,,,,,39,81.3,,,,,,,"10,421",71.0,,,"4,258","14,679"
+Local unaffiliated unions,62,,,,,,,58,93.5,,,,,,,"8,827",89.0,"1,092","9,919"
+A. F. L. affiliates-C. I. O. affiliates,335,131,39.1,142,42.4,,,,,"66,992",34.5,"115,052",59.2,,,,,"12,362","194,406"
+A. F. L. affiliates-National unaffiliated unions,21,14,66.7,,,6,28.6,,,"3,682",62.7,,,"2,129",36.2,,,64,"5,875"
+A. F. L. affiliates-Local unaffiliated unions,96,46,47.9,,,,,46,47.9,"12,778",50.1,,,,,"11,720",45.9,"1,030","25,528"
+A. F. L. affiliates-C. I. O. affiliates-National unaffiliated unions,7,,,4,57.1,1,14.3,,,275,3.7,"3,026",41.2,"3,656",49.8,,,384,"7,341"
+A. F. L. affiliates-C. I. O. affiliates-Local unaffiliated unions,23,2,8.7,6,26.1,,,1,4.3,"1,883",15.3,"5,172",42.0,,,"4,136",33.6,"1,113","12,304"
+C. I. O. affiliates-National unaffiliated unions,27,,,14,51.9,10,37.0,,,,,"7,646",44.3,"5,885",34.1,,,"3,710","17,241"
+C. I. O. affiliates-Local unaffiliated unions,129,,,72,55.8,,,43,33.3,,,"35,921",54.2,,,"25,735",38.8,"4,687","66,325"
+National unaffiliated unions-Local unaffiliated unions,6,,,,,2,33.3,4,66.6,,,,,353,43.3,431,52.9,31,815
+Total,"2,568",926,36.0,991,38.6,58,2.2,152,5.9,"181,009",24.8,"335,619",46.0,"22,444",3.1,"50,849",7.0,"140,012","729,915"

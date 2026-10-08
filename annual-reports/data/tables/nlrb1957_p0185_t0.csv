@@ -1,4 +1,6 @@
-Union affiliation,Elections participated in / Total,Elections participated in / Resulting in certification — Number,Elections participated in / Resulting in certification — Percent of total,Elections participated in / Resulting in decertification — Number,Elections participated in / Resulting in decertification — Percent of total,Employees involved in elections (number eligible to vote) / Total eligible,Employees involved in elections (number eligible to vote) / Resulting in certification — Number,Employees involved in elections (number eligible to vote) / Resulting in certification — Percent of total eligible,Employees involved in elections (number eligible to vote) / Resulting in decertification — Number,Employees involved in elections (number eligible to vote) / Resulting in decertification — Percent of total eligible,Valid votes cast / Total,Valid votes cast / Percent of total eligible,Valid votes cast / Cast for the union — Number,Cast for the union — Percent of total cast
-Total,145,46,31.7,99,68.3,11018,4130,37.5,6888,62.5,10156,92.2,4640,45.7
-AFL-CIO,139,44,31.7,95,68.3,10587,4018,38.0,6569,62.0,9750,92.1,4452,45.7
-Unaffiliated,6,2,33.3,4,66.7,431,112,26.0,319,74.0,406,94.2,188,46.3
+Union affiliation,Elections participated in,Elections participated in,Elections participated in,Employees involved (number eligible to vote),Employees involved (number eligible to vote),Employees involved (number eligible to vote),Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Union affiliation,Total,Won,Percent won,Total eligible,Employees in units selecting bargaining agent,Employees in units selecting bargaining agent,Total,Percent of total eligible,Cast for the union,Cast for the union
+Union affiliation,Total,Won,Percent won,Total eligible,Number,Percent of total eligible,Total,Percent of total eligible,Number,Percent of total cast
+Total,"4,729","2,942",62.2,"458,904","264,920",57.7,"410,619",89.5,"261,762",63.7
+AFL-CIO,"4,464","2,619",58.7,"444,960","176,497",39.7,"398,612",89.6,"199,441",50.0
+Unaffiliated,510,323,63.3,"125,030","88,423",70.7,"107,695",86.1,"62,321",57.9

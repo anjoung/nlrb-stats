@@ -1,22 +1,16 @@
-row_label,Total proceedings,"Injunction proceedings / Pending in district court Oct 1, 1984",Injunction proceedings / Filed in district court fiscal year 1985,Total dispositions,Disposition of injunctions / Granted,Disposition of injunctions / Denied,Disposition of injunctions / Settled,Disposition of injunctions / Withdrawn,Disposition of injunctions / Dismissed,Disposition of injunctions / Inactive,"Pending in district court Sept 30, 1985"
-Under Sec 10(e) total,2,1,1,2,2,0,0,0,0,0,0
-Under Sec 10(j) total,41,1,40,39,20,0,15,1,3,0,2
-8(a)(1),4,0,4,4,3,0,1,0,0,0,0
-8(a)(1)(3),8,0,8,8,4,0,2,1,1,0,0
-8(a)(1)(3)(4),4,0,4,4,2,0,2,0,0,0,0
-8(a)(1)(3)(5),17,1,16,17,6,0,9,0,2,0,0
-8(a)(1)(5),4,0,4,4,4,0,0,0,0,0,0
-8(b)(1),4,0,4,2,1,0,1,0,0,0,2
-Under Sec 10(l) total,62,13,49,54,23,2,27,1,1,0,8
-8(b)(4)(A),1,1,0,0,0,0,0,0,0,0,1
-8(b)(4)(A)(B),1,0,1,1,0,0,1,0,0,0,0
-"8(b)(4)(A)(B), 8(e)",1,0,1,0,0,0,0,0,0,0,1
-8(b)(4)(B),33,5,28,31,13,1,15,1,1,0,2
-8(b)(4)(B)(D),3,1,2,3,2,0,1,0,0,0,0
-"8(b)(4)(B), 7(C)",1,0,1,1,1,0,0,0,0,0,0
-8(b)(4)(D),6,3,3,4,2,0,2,0,0,0,2
-"8(b)(4)(D), 7(C)",2,0,2,2,1,0,1,0,0,0,0
-8(b)(7)(A),1,0,1,1,0,0,1,0,0,0,0
-8(b)(7)(B),1,0,1,1,1,0,0,0,0,0,0
-8(b)(7)(C),11,2,9,10,4,0,6,0,0,0,2
-8(e),,,,,,,,,,,
+Circuit courts of appeals (headquarters),Total fiscal year 1985,Total fiscal years 1980-1984,Affirmed in full,Affirmed in full,Affirmed in full,Affirmed in full,Modified,Modified,Modified,Modified,Remanded in full,Remanded in full,Remanded in full,Remanded in full,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Affirmed in part and remanded in part,Set aside,Set aside,Set aside,Set aside
+Circuit courts of appeals (headquarters),Total fiscal year 1985,Total fiscal years 1980-1984,Fiscal year 1985,Fiscal year 1985,Cumulative fiscal years 1980-1984,Cumulative fiscal years 1980-1984,Fiscal year 1985,Fiscal year 1985,Cumulative fiscal years 1980-1984,Cumulative fiscal years 1980-1984,Fiscal year 1985,Fiscal year 1985,Cumulative fiscal years 1980-1984,Cumulative fiscal years 1980-1984,Fiscal year 1985,Fiscal year 1985,Cumulative fiscal years 1980-1984,Cumulative fiscal years 1980-1984,Fiscal year 1985,Fiscal year 1985,Cumulative fiscal years 1980-1985,Cumulative fiscal years 1980-1985
+Circuit courts of appeals (headquarters),Total fiscal year 1985,Total fiscal years 1980-1984,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+Total all circuits,189,"1,949",158,83.6,"1,282",65.8,9,4.8,213,10.9,12,6.3,132,6.8,2,1.1,55,2.8,8,4.2,267,13.7
+"1 Boston, MA",2,76,2,100.0,49,64.5,0,0.0,12,15.8,0,0.0,5,6.6,0,0.0,2,2.6,0,0.0,8,10.5
+"2 New York, NY",17,143,13,76.5,100,69.9,2,11.7,14,9.8,1,5.9,6,4.2,0,0.0,4,2.8,1,5.9,19,13.3
+"3 Phila., PA",20,192,17,85.0,129,67.2,1,5.0,16,8.3,2,10.0,15,7.8,0,0.0,8,4.2,0,0.0,24,12.5
+"4 Richmond, VA",9,149,9,100.0,81,54.4,0,0.0,27,18.1,0,0.0,8,5.4,0,0.0,3,2.0,0,0.0,30,20.1
+"5 New Orleans, LA",11,178,9,81.8,122,68.5,1,9.1,17,9.6,0,0.0,11,6.2,1,9.1,4,2.3,0,0.0,24,13.4
+"6 Cincinnati, OH",35,306,27,77.0,189,61.8,3,8.6,40,13.1,1,2.9,19,6.2,1,2.9,4,1.3,3,8.6,54,17.6
+"7 Chicago, IL",16,187,15,93.7,101,54.0,0,0.0,31,16.6,0,0.0,10,5.4,0,0.0,2,1.1,1,6.3,43,22.9
+"8 St. Louis, MO",17,120,14,82.4,86,71.7,0,0.0,17,14.2,3,17.6,6,5.0,0,0.0,2,1.6,0,0.0,9,7.5
+"9 San Francisco, CA",38,371,34,89.5,264,71.2,1,2.6,26,7.0,1,2.6,32,8.6,0,0.0,15,4.0,2,5.3,34,9.2
+"10 Denver, CO",3,75,3,100.0,56,74.7,0,0.0,3,4.0,0,0.0,6,8.0,0,0.0,3,4.0,0,0.0,7,9.3
+"11 Atlanta, GA",12,52,10,83.4,37,71.1,1,8.3,5,9.6,0,0.0,2,3.9,0,0.0,2,3.9,1,8.3,6,11.5
+"Washington, DC",9,100,5,55.6,68,68.0,0,0.0,5,5.0,4,44.4,12,12.0,0,0.0,6,6.0,0,0.0,9,9.0

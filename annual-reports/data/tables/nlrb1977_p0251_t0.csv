@@ -1,10 +1,17 @@
-Stage of disposition,All cases / Number of cases,All cases / Percent of cases,CA cases / Number of cases,CA cases / Percent of cases,CB cases / Number of cases,CB cases / Percent of cases,CC cases / Number of cases,CC cases / Percent of cases,CD cases / Number of cases,CD cases / Percent of cases,CE cases / Number of cases,CE cases / Percent of cases,CG cases / Number of cases,CG cases / Percent of cases,CP cases / Number of cases,CP cases / Percent of cases
-Total number of cases closed,8203,100.0,5506,100.0,1951,100.0,464,100.0,117,100.0,28,100.0,26,100.0,111,100.0
-Before issuance of complaint,7231,88.4,4715,85.7,1842,94.4,431,93.0,115,98.2,26,92.9,18,64.3,104,93.7
-"After issuance of complaint, before opening of hearing",619,7.5,467,8.5,84,4.3,33,7.1,0,,2,7.1,6,23.0,6,5.4
-"After hearing opened, before administrative law judge's decision",32,0.4,23,0.4,7,0.4,2,0.4,0,,0,,0,,0,
-"After administrative law judge's decision, before Board decision",8,0.1,8,0.1,0,,0,,0,,0,,0,,0,
-After Board order adopting administrative law judge's decision in absence of exceptions,67,0.8,53,1.0,9,0.5,2,0.4,0,,0,,3,10.7,0,
-"After Board decision, before circuit court decision",147,1.8,121,2.2,20,1.0,2,0.4,0,,0,,0,,4,3.6
-"After court decision, before Supreme Court action",78,1.0,67,1.2,10,0.5,0,,0,,0,,0,,1,0.9
-After Supreme Court action,,,,,,,,,,,,,,,,
+Method and stage of disposition,Number of cases,Percent of total closed
+Total number of cases closed before issuance of complaint,115,100.0
+Agreement of the parties—informal settlement,57,49.6
+Before 10(k) notice,53,46.1
+"After 10(k) notice, before opening of 10(k) hearing",4,3.5
+"After opening of 10(k) hearing, before issuance of Board decision and determination of dispute",0,
+Compliance with Board decision and determination of dispute,4,3.5
+Withdrawal,41,35.6
+Before 10(k) notice,39,33.9
+"After 10(k) notice, before opening of 10(k) hearing",2,1.7
+"After opening of 10(k) hearing, before issuance of Board decision and determination of dispute",0,
+After Board decision and determination of dispute,0,
+Dismissal,13,11.3
+Before 10(k) notice,13,11.3
+"After 10(k) notice, before opening of 10(k) hearing",0,
+"After opening of 10(k) hearing, before issuance of Board decision and determination of dispute",0,
+By Board decision and determination of dispute,0,

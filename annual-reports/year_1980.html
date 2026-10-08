@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -122,74 +130,73 @@ ul.link-list li { margin: 0.3rem 0; }
 <h1>NLRB statistical tables — FY1980</h1>
 <table class="listing">
 <thead>
-<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
+<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Printed as<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
 </thead>
 <tbody>
-<tr><td><a href="table_nlrb1980_p0030_t0.html">Board decisions issued</a></td><td><span class="type-label">Table</span></td><td>30</td></tr>
-<tr><td><a href="table_nlrb1980_p0031_t0.html">Board decisions, by type</a></td><td><span class="type-label">Table</span></td><td>31</td></tr>
-<tr><td><a href="table_nlrb1980_p0033_t0.html">Court of appeals dispositions of NLRB orders</a></td><td><span class="type-label">Table</span></td><td>33</td></tr>
-<tr><td><a href="table_nlrb1980_p0037_t0.html">NLRB obligations and expenditures</a></td><td><span class="type-label">Table</span></td><td>37</td></tr>
-<tr><td><a href="table_nlrb1980_p0252_t0.html">Total cases received, closed, and pending</a></td><td><span class="type-label">Table</span></td><td>252</td></tr>
-<tr><td><a href="table_nlrb1980_p0253_t0.html">Unfair labor practice cases received, closed, and pending</a></td><td><span class="type-label">Table</span></td><td>253</td></tr>
-<tr><td><a href="table_nlrb1980_p0254_t0.html">Representation cases received, closed, and pending</a></td><td><span class="type-label">Table</span></td><td>254</td></tr>
-<tr><td><a href="table_nlrb1980_p0255_t0.html">Types of unfair labor practices alleged</a></td><td><span class="type-label">Table</span></td><td>255</td></tr>
-<tr><td><a href="table_nlrb1980_p0256_t0.html">Formal actions taken in unfair labor practice cases</a></td><td><span class="type-label">Table</span></td><td>256</td></tr>
-<tr><td><a href="table_nlrb1980_p0257_t0.html">Formal actions taken in representation and union deauthorization cases</a></td><td><span class="type-label">Table</span></td><td>257</td></tr>
-<tr><td><a href="table_nlrb1980_p0258_t0.html">Formal actions taken in representation and union deauthorization cases</a></td><td><span class="type-label">Table</span></td><td>258</td></tr>
-<tr><td><a href="table_nlrb1980_p0259_t0.html">Formal actions in amendment of certification (AC) and unit clarification (UC) cases</a></td><td><span class="type-label">Table</span></td><td>259</td></tr>
-<tr><td><a href="table_nlrb1980_p0260_t0.html">Remedial actions taken in unfair labor practice cases closed</a></td><td><span class="type-label">Table</span></td><td>260</td></tr>
-<tr><td><a href="table_nlrb1980_p0261_t0.html">Remedial actions taken in unfair labor practice cases closed</a></td><td><span class="type-label">Table</span></td><td>261</td></tr>
-<tr><td><a href="table_nlrb1980_p0262_t0.html">Industrial distribution of cases received</a></td><td><span class="type-label">Table</span></td><td>262</td></tr>
-<tr><td><a href="table_nlrb1980_p0263_t0.html">Industrial distribution of cases received</a></td><td><span class="type-label">Table</span></td><td>263</td></tr>
-<tr><td><a href="table_nlrb1980_p0264_t0.html">Geographic distribution of cases received</a></td><td><span class="type-label">Table</span></td><td>264</td></tr>
-<tr><td><a href="table_nlrb1980_p0265_t0.html">Geographic distribution of cases received</a></td><td><span class="type-label">Table</span></td><td>265</td></tr>
-<tr><td><a href="table_nlrb1980_p0266_t0.html">Cases received, by Standard Federal administrative region</a></td><td><span class="type-label">Table</span></td><td>266</td></tr>
-<tr><td><a href="table_nlrb1980_p0267_t0.html">Cases received, by Standard Federal administrative region</a></td><td><span class="type-label">Table</span></td><td>267</td></tr>
-<tr><td><a href="table_nlrb1980_p0268_t0.html">Unfair labor practice cases closed, by method of disposition</a></td><td><span class="type-label">Table</span></td><td>268</td></tr>
-<tr><td><a href="table_nlrb1980_p0269_t0.html">Methods of disposition of unfair labor practice cases closed</a></td><td><span class="type-label">Table</span></td><td>269</td></tr>
-<tr><td><a href="table_nlrb1980_p0270_t0.html">Disposition of jurisdictional dispute cases closed prior to unfair labor practice proceedings (Sec. 10(k))</a></td><td><span class="type-label">Table</span></td><td>270</td></tr>
-<tr><td><a href="table_nlrb1980_p0271_t0.html">Unfair labor practice cases closed, by stage of disposition</a></td><td><span class="type-label">Table</span></td><td>271</td></tr>
-<tr><td><a href="table_nlrb1980_p0272_t0.html">Disposition by stage of representation and union deauthorization cases closed</a></td><td><span class="type-label">Table</span></td><td>272</td></tr>
-<tr><td><a href="table_nlrb1980_p0273_t0.html">Methods of disposition of representation and union deauthorization cases closed</a></td><td><span class="type-label">Table</span></td><td>273</td></tr>
-<tr><td><a href="table_nlrb1980_p0274_t0.html">Methods of disposition of amendment of certification (AC) and unit clarification (UC) cases closed</a></td><td><span class="type-label">Table</span></td><td>274</td></tr>
-<tr><td><a href="table_nlrb1980_p0275_t0.html">Types of elections resulting in certification in cases closed</a></td><td><span class="type-label">Table</span></td><td>275</td></tr>
-<tr><td><a href="table_nlrb1980_p0276_t0.html">Elections conducted in representation cases closed</a></td><td><span class="type-label">Table</span></td><td>276</td></tr>
-<tr><td><a href="table_nlrb1980_p0277_t0.html">Representation elections in which objections and/or determinative challenges were ruled on</a></td><td><span class="type-label">Table</span></td><td>277</td></tr>
-<tr><td><a href="table_nlrb1980_p0278_t0.html">Objections filed in representation cases closed</a></td><td><span class="type-label">Table</span></td><td>278</td></tr>
-<tr><td><a href="table_nlrb1980_p0278_t1.html">Disposition of objections in representation cases closed</a></td><td><span class="type-label">Table</span></td><td>278</td></tr>
-<tr><td><a href="table_nlrb1980_p0279_t0.html">Results of rerun elections held in representation cases</a></td><td><span class="type-label">Table</span></td><td>279</td></tr>
-<tr><td><a href="table_nlrb1980_p0280_t0.html">Union-shop deauthorization polls</a></td><td><span class="type-label">Table</span></td><td>280</td></tr>
-<tr><td><a href="table_nlrb1980_p0281_t0.html">Final outcome of representation elections in cases closed</a></td><td><span class="type-label">Table</span></td><td>281</td></tr>
-<tr><td><a href="table_nlrb1980_p0282_t0.html">Final outcome of representation elections in cases closed</a></td><td><span class="type-label">Table</span></td><td>282</td></tr>
-<tr><td><a href="table_nlrb1980_p0283_t0.html">Results of union-representation elections in RC cases (3-or-more-union combinations)</a></td><td><span class="type-label">Table</span></td><td>283</td></tr>
-<tr><td><a href="table_nlrb1980_p0284_t0.html">Final outcome of representation elections in cases closed</a></td><td><span class="type-label">Table</span></td><td>284</td></tr>
-<tr><td><a href="table_nlrb1980_p0285_t0.html">Final outcome of representation elections in cases closed</a></td><td><span class="type-label">Table</span></td><td>285</td></tr>
-<tr><td><a href="table_nlrb1980_p0286_t0.html">Valid votes cast in representation elections</a></td><td><span class="type-label">Table</span></td><td>286</td></tr>
-<tr><td><a href="table_nlrb1980_p0287_t0.html">Valid votes cast in representation elections</a></td><td><span class="type-label">Table</span></td><td>287</td></tr>
-<tr><td><a href="table_nlrb1980_p0288_t0.html">Valid votes cast in representation elections (RM cases)</a></td><td><span class="type-label">Table</span></td><td>288</td></tr>
-<tr><td><a href="table_nlrb1980_p0289_t0.html">Elections in RD cases</a></td><td><span class="type-label">Table</span></td><td>289</td></tr>
-<tr><td><a href="table_nlrb1980_p0290_t0.html">Representation elections in cases closed</a></td><td><span class="type-label">Table</span></td><td>290</td></tr>
-<tr><td><a href="table_nlrb1980_p0291_t0.html">Geographic distribution of representation elections in cases closed</a></td><td><span class="type-label">Table</span></td><td>291</td></tr>
-<tr><td><a href="table_nlrb1980_p0292_t0.html">Geographic distribution of collective-bargaining elections</a></td><td><span class="type-label">Table</span></td><td>292</td></tr>
-<tr><td><a href="table_nlrb1980_p0293_t0.html">Geographic distribution of representation elections</a></td><td><span class="type-label">Table</span></td><td>293</td></tr>
-<tr><td><a href="table_nlrb1980_p0294_t0.html">Geographic distribution of decertification elections</a></td><td><span class="type-label">Table</span></td><td>294</td></tr>
-<tr><td><a href="table_nlrb1980_p0295_t0.html">Representation elections — by geographic area</a></td><td><span class="type-label">Table</span></td><td>295</td></tr>
-<tr><td><a href="table_nlrb1980_p0296_t0.html">Representation elections held in cases closed</a></td><td><span class="type-label">Table</span></td><td>296</td></tr>
-<tr><td><a href="table_nlrb1980_p0297_t0.html">Representation elections held in cases closed</a></td><td><span class="type-label">Table</span></td><td>297</td></tr>
-<tr><td><a href="table_nlrb1980_p0298_t0.html">Size of units in representation cases closed — certification elections (RC and RM)</a></td><td><span class="type-label">Table</span></td><td>298</td></tr>
-<tr><td><a href="table_nlrb1980_p0299_t0.html">Decertification elections (RD) by size of unit</a></td><td><span class="type-label">Table</span></td><td>299</td></tr>
-<tr><td><a href="table_nlrb1980_p0300_t0.html">Unfair labor practice situations received</a></td><td><span class="type-label">Table</span></td><td>300</td></tr>
-<tr><td><a href="table_nlrb1980_p0301_t0.html">Litigation for enforcement and/or review of NLRB orders</a></td><td><span class="type-label">Table</span></td><td>301</td></tr>
-<tr><td><a href="table_nlrb1980_p0302_t0.html">Proceedings decided by circuit courts of appeals on petitions for enforcement and/or review of Board orders</a></td><td><span class="type-label">Table</span></td><td>302</td></tr>
-<tr><td><a href="table_nlrb1980_p0303_t0.html">Injunction litigation under Sec. 10(e), 10(j), and 10(l)</a></td><td><span class="type-label">Table</span></td><td>303</td></tr>
-<tr><td><a href="table_nlrb1980_p0304_t0.html">Miscellaneous litigation involving NLRB</a></td><td><span class="type-label">Table</span></td><td>304</td></tr>
-<tr><td><a href="table_nlrb1980_p0305_t0.html">Advisory opinion cases received, closed, and pending</a></td><td><span class="type-label">Table</span></td><td>305</td></tr>
-<tr><td><a href="table_nlrb1980_p0307_t0.html">Formal actions taken in unfair labor practice cases</a></td><td><span class="type-label">Table</span></td><td>307</td></tr>
-<tr><td><a href="table_nlrb1980_p0308_t0.html">Formal actions taken in representation and union deauthorization cases</a></td><td><span class="type-label">Table</span></td><td>308</td></tr>
-<tr><td><a href="table_nlrb1980_p0309_t0.html">Industrial distribution of cases received, by case type</a></td><td><span class="type-label">Table</span></td><td>309</td></tr>
+<tr><td><a href="table_nlrb1980_p0015_f0.html">Case intake by unfair labor practice charges and representation petitions</a></td><td><span class="type-label">Figure</span></td><td>Chart 1</td><td>15</td></tr>
+<tr><td><a href="table_nlrb1980_p0017_f0.html">ULP case intake by charges and situations filed</a><br><span class="hint">ULP case intake (Charges and Situations Filed)</span></td><td><span class="type-label">Figure</span></td><td>Chart 2</td><td>17</td></tr>
+<tr><td><a href="table_nlrb1980_p0018_f0.html">Disposition pattern for unfair labor practice cases closed</a><br><span class="hint">Disposition pattern for unfair labor practice cases (Based on Cases Closed)</span></td><td><span class="type-label">Figure</span></td><td>Chart 3</td><td>18</td></tr>
+<tr><td><a href="table_nlrb1980_p0019_f0.html">Disposition pattern for meritorious unfair labor practice cases</a><br><span class="hint">Disposition pattern for meritorious unfair labor practice cases (Based on Cases Closed)</span></td><td><span class="type-label">Figure</span></td><td>Chart 3A</td><td>19</td></tr>
+<tr><td><a href="table_nlrb1980_p0020_f0.html">Disposition pattern for unfair labor practice cases after trial</a><br><span class="hint">Disposition pattern for unfair labor practices cases after trial (Based on Cases Closed)</span></td><td><span class="type-label">Figure</span></td><td>Chart 3B</td><td>20</td></tr>
+<tr><td><a href="table_nlrb1980_p0021_f0.html">Number and age of ULP cases pending preliminary investigation</a><br><span class="hint">Number and age of unfair labor practice cases pending under preliminary investigation, month to month</span></td><td><span class="type-label">Figure</span></td><td>Chart 4</td><td>21</td></tr>
+<tr><td><a href="table_nlrb1980_p0023_f0.html">Unfair labor practice merit factor</a></td><td><span class="type-label">Figure</span></td><td>Chart 5</td><td>23</td></tr>
+<tr><td><a href="table_nlrb1980_p0024_f0.html">ULP complaints issued and median days from filing to complaint</a><br><span class="hint">Complaints issued in unfair labor practice proceedings and median days from filing to complaint</span></td><td><span class="type-label">Figure</span></td><td>Chart 6</td><td>24</td></tr>
+<tr><td><a href="table_nlrb1980_p0025_f0.html">Unfair labor practice cases settled (ULP cases closed after settlement or adjustment prior to issuance of administrative law judge decision)</a><br><span class="hint">Unfair labor practice cases settled ULP Cases Closed After Settlement or Adjustment Prior to Issuance of Administrative Law Judge Decision</span></td><td><span class="type-label">Figure</span></td><td>Chart 7</td><td>25</td></tr>
+<tr><td><a href="table_nlrb1980_p0026_f0.html">Administrative law judge hearings and decisions</a><br><span class="hint">Administrative law judge hearings and decisions (Initial, Backpay and Other Supplementals)</span></td><td><span class="type-label">Figure</span></td><td>Chart 8</td><td>26</td></tr>
+<tr><td><a href="table_nlrb1980_p0027_f0.html">Backpay received by discriminatees</a></td><td><span class="type-label">Figure</span></td><td>Chart 9</td><td>27</td></tr>
+<tr><td><a href="table_nlrb1980_p0028_f0.html">Time required to process representation cases from filing of petition to issuance of decision</a></td><td><span class="type-label">Figure</span></td><td>Chart 10</td><td>28</td></tr>
+<tr><td><a href="table_nlrb1980_p0029_f0.html">Contested Board decisions issued</a></td><td><span class="type-label">Figure</span></td><td>Chart 11</td><td>29</td></tr>
+<tr><td><a href="table_nlrb1980_p0030_f0.html">Representation elections held in cases closed — by State</a><br><span class="hint">Representation elections conducted (Based on Cases Closed During the Year)</span></td><td><span class="type-label">Figure</span></td><td>Chart 12</td><td>30</td></tr>
+<tr><td><a href="table_nlrb1980_p0031_t0.html">Board decisions, by type</a></td><td><span class="type-label">Table</span></td><td></td><td>31</td></tr>
+<tr><td><a href="table_nlrb1980_p0033_f0.html">Regional Director decisions issued in representation and related cases</a></td><td><span class="type-label">Figure</span></td><td>Chart 13</td><td>33</td></tr>
+<tr><td><a href="table_nlrb1980_p0033_t0.html">Court of appeals dispositions of NLRB orders</a></td><td><span class="type-label">Table</span></td><td></td><td>33</td></tr>
+<tr><td><a href="table_nlrb1980_p0034_f0.html">Cases closed</a></td><td><span class="type-label">Figure</span></td><td>Chart 14</td><td>34</td></tr>
+<tr><td><a href="table_nlrb1980_p0035_f0.html">Comparison of filings of ULP and representation cases</a><br><span class="hint">Comparison of filings of unfair labor practice cases and representation cases</span></td><td><span class="type-label">Figure</span></td><td>Chart 15</td><td>35</td></tr>
+<tr><td><a href="table_nlrb1980_p0036_t0.html">Disposition of NLRB injunction petitions in district courts</a></td><td><span class="type-label">Table</span></td><td></td><td>36</td></tr>
+<tr><td><a href="table_nlrb1980_p0038_t0.html">Expenditures and obligations — by object class</a><br><span class="hint">Obligations and expenditures by object class</span></td><td><span class="type-label">Table</span></td><td></td><td>38</td></tr>
+<tr><td><a href="table_nlrb1980_p0253_t0.html">Unfair labor practice cases received, closed, and pending</a><br><span class="hint">Total Cases Received, Closed, and Pending, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 1</td><td>253</td></tr>
+<tr><td><a href="table_nlrb1980_p0254_t0.html">Representation cases received, closed, and pending</a><br><span class="hint">Unfair Labor Practice Cases Received, Closed, and Pending, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 1A</td><td>254</td></tr>
+<tr><td><a href="table_nlrb1980_p0255_t0.html">Representation Cases Received, Closed, and Pending, Fiscal Year 1980</a></td><td><span class="type-label">Table</span></td><td>Table 1B</td><td>255</td></tr>
+<tr><td><a href="table_nlrb1980_p0256_t0.html">Formal actions in unfair labor practice cases</a><br><span class="hint">Types of Unfair Labor Practices Alleged, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 2</td><td>256</td></tr>
+<tr><td><a href="table_nlrb1980_p0257_t0.html">Formal actions in representation and union deauthorization cases</a><br><span class="hint">Formal Actions Taken in Unfair Labor Practice Cases, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 3A</td><td>257</td></tr>
+<tr><td><a href="table_nlrb1980_p0258_t0.html">Formal actions in representation and union deauthorization cases</a><br><span class="hint">Formal Actions Taken in Representation and Union Deauthorization Cases, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 3B</td><td>258</td></tr>
+<tr><td><a href="table_nlrb1980_p0260_t0.html">Remedial actions in unfair labor practice cases closed</a><br><span class="hint">Formal Actions Taken in Amendment of Certification and Unit Clarification Cases, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 3C</td><td>260</td></tr>
+<tr><td><a href="table_nlrb1980_p0261_t0.html">Remedial actions in unfair labor practice cases closed</a><br><span class="hint">Remedial Actions Taken in Unfair Labor Practice Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 4</td><td>261</td></tr>
+<tr><td><a href="table_nlrb1980_p0263_t0.html">Industrial distribution of cases received</a><br><span class="hint">Industrial Distribution of Cases Received, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 5</td><td>263</td></tr>
+<tr><td><a href="table_nlrb1980_p0265_t0.html">Geographic distribution of cases received</a><br><span class="hint">Geographic Distribution of Cases Received, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 6A</td><td>265</td></tr>
+<tr><td><a href="table_nlrb1980_p0267_t0.html">Cases received, by standard Federal administrative region</a><br><span class="hint">Standard Federal Administrative Regional Distribution of Cases Received, Fiscal Year</span></td><td><span class="type-label">Table</span></td><td>Table 6B</td><td>267</td></tr>
+<tr><td><a href="table_nlrb1980_p0269_t0.html">Methods and stages of disposition of unfair labor practice (C) cases closed, by type</a><br><span class="hint">Analysis of Methods of Disposition of Unfair Labor Practice Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 7</td><td>269</td></tr>
+<tr><td><a href="table_nlrb1980_p0271_t0.html">Disposition of unfair labor practice (C) cases by method and stage</a><br><span class="hint">Analysis of Methods of Disposition of Jurisdictional Dispute Cases Closed Prior to Unfair Labor Practice Proceedings, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 7A</td><td>271</td></tr>
+<tr><td><a href="table_nlrb1980_p0272_t0.html">Disposition by stage of representation and union deauthorization cases closed</a><br><span class="hint">Disposition by Stage of Unfair Labor Practice Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 8</td><td>272</td></tr>
+<tr><td><a href="table_nlrb1980_p0273_t0.html">Methods of disposition of representation and union deauthorization cases</a><br><span class="hint">Disposition by Stage of Representation and Union Deauthorization Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 9</td><td>273</td></tr>
+<tr><td><a href="table_nlrb1980_p0274_t0.html">Disposition of amendment of certification (AC) and unit clarification (UC) cases closed</a><br><span class="hint">Analysis of Methods of Disposition of Representation and Union Deauthorization Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 10</td><td>274</td></tr>
+<tr><td><a href="table_nlrb1980_p0275_t0.html">Types of elections resulting in cases closed</a><br><span class="hint">Analysis of Methods of Disposition of Amendment of Certification and Unit Clarification Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 10A</td><td>275</td></tr>
+<tr><td><a href="table_nlrb1980_p0276_t0.html">Analysis of elections conducted in representation cases closed</a><br><span class="hint">Types of Elections Resulting in Certification in Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 11</td><td>276</td></tr>
+<tr><td><a href="table_nlrb1980_p0277_t0.html">Representation elections in which objections and/or determinative challenges were ruled on</a><br><span class="hint">Analysis of Elections Conducted in Representation Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 11A</td><td>277</td></tr>
+<tr><td><a href="table_nlrb1980_p0278_t0.html">Objections filed in representation cases closed</a><br><span class="hint">Representation Elections in Which Objections and/or Determinative Challenges Were Ruled On in Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 11B</td><td>278</td></tr>
+<tr><td><a href="table_nlrb1980_p0279_t0.html">Results of rerun elections held in representation cases</a><br><span class="hint">Objections Filed in Representation Cases Closed, by Party Filing, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 11C</td><td>279</td></tr>
+<tr><td><a href="table_nlrb1980_p0279_t1.html">Disposition of objections in representation cases</a><br><span class="hint">Disposition of Objections in Representation Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 11D</td><td>279</td></tr>
+<tr><td><a href="table_nlrb1980_p0280_t0.html">Results of union-shop deauthorization polls</a><br><span class="hint">Results of Rerun Elections Held in Representation Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 11E</td><td>280</td></tr>
+<tr><td><a href="table_nlrb1980_p0281_t0.html">Final outcome of representation elections in cases closed</a><br><span class="hint">Results of Union-Shop Deauthorization Polls in Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 12</td><td>281</td></tr>
+<tr><td><a href="table_nlrb1980_p0282_t0.html">Final outcome of representation elections in cases closed</a><br><span class="hint">Final Outcome of Representation Elections in Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 13</td><td>282</td></tr>
+<tr><td><a href="table_nlrb1980_p0287_t0.html">Valid votes cast in representation elections</a><br><span class="hint">Valid Votes Cast in Representation Elections, by Final Results of Election, in Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 14</td><td>287</td></tr>
+<tr><td><a href="table_nlrb1980_p0291_t0.html">Geographic distribution of representation elections held in cases closed</a><br><span class="hint">Geographic Distribution of Representation Elections Held in Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 15A</td><td>291</td></tr>
+<tr><td><a href="table_nlrb1980_p0293_t0.html">Geographic distribution of representation elections</a><br><span class="hint">Geographic Distribution of Collective-Bargaining Elections Held in Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 15B</td><td>293</td></tr>
+<tr><td><a href="table_nlrb1980_p0295_t0.html">Representation elections — by geographic area</a><br><span class="hint">Geographic Distribution of Decertification Elections Held in Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 15C</td><td>295</td></tr>
+<tr><td><a href="table_nlrb1980_p0297_t0.html">Representation elections held in cases closed</a><br><span class="hint">Industrial Distribution of Representation Elections Held in Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 16</td><td>297</td></tr>
+<tr><td><a href="table_nlrb1980_p0299_t0.html">Decertification elections — by size of unit</a><br><span class="hint">Size of Units in Representation Cases Closed, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 17</td><td>299</td></tr>
+<tr><td><a href="table_nlrb1980_p0301_t0.html">Distribution of Unfair Labor Practice Situations Received, by Number of Employees in Establishments, Fiscal Year 1980</a></td><td><span class="type-label">Table</span></td><td>Table 18</td><td>301</td></tr>
+<tr><td><a href="table_nlrb1980_p0302_t0.html">Proceedings decided by circuit courts of appeals on petitions for enforcement and/or review of Board orders</a><br><span class="hint">Litigation for Enforcement and/or Review of Board Orders, Fiscal Year 1980; and Cumulative Totals, Fiscal Years 1936-1980</span></td><td><span class="type-label">Table</span></td><td>Table 19</td><td>302</td></tr>
+<tr><td><a href="table_nlrb1980_p0303_t0.html">Proceedings Decided by Circuit Courts of Appeals on Petitions for Enforcement and/or Review of Board Orders, Fiscal Year 1980, Compared With 5-Year Cumulative Totals, Fiscal Years 1975 Through 1979</a></td><td><span class="type-label">Table</span></td><td>Table 19A</td><td>303</td></tr>
+<tr><td><a href="table_nlrb1980_p0304_t0.html">Miscellaneous litigation involving NLRB</a><br><span class="hint">Injunction Litigation Under Section 10(e), 10(j), and 10(l), Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 20</td><td>304</td></tr>
+<tr><td><a href="table_nlrb1980_p0305_t0.html">Miscellaneous Litigation Involving NLRB; Outcome of Proceedings in Which Court Decision Issued in Fiscal Year 1980</a></td><td><span class="type-label">Table</span></td><td>Table 21</td><td>305</td></tr>
+<tr><td><a href="table_nlrb1980_p0306_t0.html">Advisory opinion cases received, closed, and pending</a><br><span class="hint">Advisory Opinion Cases Received, Closed, and Pending, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 22</td><td>306</td></tr>
+<tr><td><a href="table_nlrb1980_p0306_t1.html">Disposition of advisory opinion cases</a><br><span class="hint">Disposition of Advisory Opinion Cases, Fiscal Year 1980</span></td><td><span class="type-label">Table</span></td><td>Table 22A</td><td>306</td></tr>
+<tr><td><a href="table_nlrb1980_p0307_t0.html">Formal actions in unfair labor practice cases</a><br><span class="hint">Time Elapsed for Major Case Processing Stages Completed, Fiscal Year 1980; and Age of Cases Pending Decision, September 30, 1980</span></td><td><span class="type-label">Table</span></td><td>Table 23</td><td>307</td></tr>
 </tbody>
 </table>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 <script>
 (function () {

@@ -1,10 +1,13 @@
-row_label,Total / Number,Total / Percent by type,By employer / Number,By employer / Percent by type,By union / Number,By union / Percent by type,By both parties / Number,By both parties / Percent by type
-All representation elections,561,100.0,195,34.8,344,61.3,22,3.9
-By type of case: RC cases,492,100.0,160,32.5,321,65.3,11,2.2
-By type of case: RM cases,10,100.0,3,30.0,6,60.0,1,10.0
-By type of case: RD cases,59,100.0,32,54.2,17,28.8,10,17.0
-By type of election: Consent elections,5,100.0,1,20.0,3,60.0,1,20.0
-By type of election: Stipulated elections,360,100.0,80,22.2,275,76.4,5,1.4
-By type of election: Expedited elections,4,100.0,2,50.0,2,50.0,0,
-By type of election: Regional Director-directed elections,190,100.0,112,58.9,64,33.7,14,7.4
-By type of election: Board-directed elections,2,100.0,0,,0,,2,100.0
+,Total elections,Objections only,Objections only,Challenges only,Challenges only,Objections and challenges,Objections and challenges,Total objections,Total objections,Total challenges,Total challenges
+,Total elections,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+All representation elections,"4,309",443,10.3,66,1.5,77,1.8,520,12.1,143,3.3
+By type of case:,,,,,,,,,,,
+In RC cases,"3,607",379,10.5,66,1.8,76,2.1,455,1.3,142,3.9
+In RM cases,105,7,6.7,0,,0,,7,6.7,0,
+In RD cases,597,57,9.5,0,,1,0.2,58,9.7,1,0.2
+By type of election.,,,,,,,,,,,
+Consent elections,59,5,8.5,0,,0,,5,8.5,0,
+Stipulated elections,"3,559",270,7.6,51,1.4,61,1.7,331,9.3,112,3.1
+Expedited elections,2,0,,0,,0,,0,,0,
+Regional Director-directed elections,685,166,24.2,15,2.2,16,2.3,182,26.6,31,4.5
+Board-directed elections,4,2,50.0,0,,0,,2,50.0,0,

@@ -1,16 +1,20 @@
-row_label,Action taken,Total all,Remedial action taken by / Employer / Total,Agreement of parties / Informal settlement,Formal settlement,Pursuant to- / Recommendation of administrative law judge,Board,Order of- / Court,Union,Total / Informal settlement,Agreement of parties / Formal settlement,Recommendation of administrative law judge
-A. By number of cases involved,10607,,,,,,,,,,,
-Notices posted,4352,3532,2677,126,5,494,230,820,614,32,0,103
-Recognition or other assistance withdrawn,64,64,48,5,0,5,6,0,,,,
-Unlawful union disestablished,,,,,,,,,,,,
-Employees offered reinstatement,25,25,14,2,0,8,1,,,,,
-Employees placed on preferential hiring list,1485,1485,1118,53,2,210,107,,,,,
-Hiring hall rights restored,96,96,81,3,0,9,3,22,,,,
-Objections to union employment withdrawn,18,,,,,,,18,14,0,0,0
-Picketing ended,269,,,,,,,263,237,,,
-Work stoppage ended,111,,,,,,,111,94,4,,
-Collective bargaining begun,1487,1352,1205,20,0,56,71,135,109,0,0,6
-Backpay distributed,2107,2055,1587,53,3,226,94,51,,,,
-"Reimbursement of fees, dues, and fines",107,62,45,5,0,,,45,30,2,0,12
-Other conditions of employment improved,,,,,,,,,,,,
-Other remedies,1953,1433,1418,0,0,,,520,507,4,0,
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,AC,UC
+Hearings completed,162,14,121
+Decision issued after hearing,169,16,126
+By regional directors,152,14,112
+By Board,17,2,14
+Transferred by regional directors for initial decision,10,0,9
+Review of regional directors' decisions,30,4,24
+Requests for review received,30,4,24
+Withdrawn before request ruled upon,0,0,0
+"Board action on requests ruled upon, total",22,4,18
+Granted,8,2,6
+Denied,14,2,12
+Remanded,0,0,0
+"Withdrawn after request granted, before Board review",0,0,0
+"Board decision after review, total",7,2,5
+Regional directors' decisions.,,,
+Affirmed,5,2,3
+Modified,1,0,1
+Reversed,1,0,1

@@ -1,16 +1,23 @@
-Type of case,Total elections,Type of election / Consent 1,Type of election / Stipulated 2,Type of election / Board ordered 3,Type of election / Regional Director directed 4
-"All elections, total",5660,2358,1783,1507,12
-"Eligible voters, total",447322,120634,169358,156816,514
-"Valid votes, total",401421,106440,154368,140166,447
-"RC cases, total",5022,2092,1631,1299,
-Eligible voters (RC cases),395635,105194,149157,141284,
-Valid votes (RC cases),355529,92678,135803,127048,
-"RM cases, total",406,191,109,106,
-Eligible voters (RM cases),34388,8691,14772,10925,
-Valid votes (RM cases),30265,7854,13442,8969,
-"RD cases, total",216,72,43,101,
-Eligible voters (RD cases),16231,6200,5429,4602,
-Valid votes (RD cases),14656,5388,5123,4145,
-"UD cases, total",16,3,0,1,12
-Eligible voters (UD cases),1068,549,0,5,514
-Valid votes (UD cases),971,520,0,4,447
+Method and stage of disposition,All R cases,All R cases,RC cases,RC cases,RM cases,RM cases,RD cases,RD cases
+Method and stage of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"8,840",100.0,"7,415",100.0,868,100.0,557,100.0
+Consent election,"2,392",27.1,"2,112",28.5,208,24.0,72,12.9
+Before notice of hearing,"1,786",20.2,"1,598",21.5,151,17.4,37,6.6
+"After notice of hearing, before hearing opened",493,5.6,420,5.7,45,5.2,28,5.0
+"After hearing opened, before Board decision",113,1.3,94,1.3,12,1.4,7,1.3
+Stipulated election,"1,813",20.5,"1,644",22.2,124,14.2,45,8.1
+Before notice of hearing,985,11.1,896,12.1,69,7.9,20,3.6
+"After notice of hearing, before hearing opened",535,6.1,478,6.4,42,4.8,15,2.7
+"After hearing opened, before Board decision",141,1.6,133,1.8,4,.5,4,.7
+After postelection decision,152,1.7,137,1.9,9,1.0,6,1.1
+Withdrawn,"2,213",25.0,"1,737",23.4,294,33.9,182,32.7
+Before notice of hearing,"1,465",16.6,"1,140",15.4,193,22.2,132,23.7
+"After notice of hearing, before hearing opened",515,5.8,400,5.4,78,9.0,37,6.6
+"After hearing opened, before Board decision",136,1.5,109,1.4,16,1.9,11,2.0
+After Board decision and direction of election,97,1.1,88,1.2,7,.8,2,.4
+Dismissed,900,10.2,617,8.3,132,15.2,151,27.1
+Before notice of hearing,563,6.4,393,5.3,68,7.8,102,18.3
+"After notice of hearing, before hearing opened",53,.6,24,.3,17,2.0,12,2.2
+"After hearing opened, before Board decision",24,.3,15,.2,5,.6,4,.7
+By Board decision,260,2.9,185,2.5,42,4.8,33,5.9
+Board-ordered election,"1,522",17.2,"1,305",17.6,110,12.7,107,19.2

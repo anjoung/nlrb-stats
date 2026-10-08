@@ -1,4 +1,26 @@
-Industrial group,Elections and pay-roll checks / Number,Elections and pay-roll checks / Percent,Valid votes cast / Number,Valid votes cast / Percent,Winner / A. F. of L. / Number,Winner / A. F. of L. / Percent,Winner / C. I. O. / Number,Winner / C. I. O. / Percent,Winner / Unaffiliated / Number,Winner / Unaffiliated / Percent,Winner / No union / Number,Winner / No union / Percent
-Total,4153,70.6,1126501,,1399,33.7,1766,42.5,416,10.0,573,13.8
-Manufacturing,3307,79.6,1020318,90.6,1080,32.7,1628,49.3,348,10.5,491,14.8
-Transportation equipment,366,8.8,291988,25.9,112,30.6,145,39.6,57,15.6,52,14.2
+Participating unions,Number of elections and pay-roll checks,Elections won by petitioner,Elections won by petitioner,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Percent of total votes cast for petitioner
+Participating unions,Number of elections and pay-roll checks,Number,Percent,Total,For A. F. of L.,For C. I. O.,For unaffiliated union,For no union,Percent of total votes cast for petitioner
+Total,"4,153","3,264",78.6,"1,126,501","267,118","515,271","140,780","203,332",63.8
+"A. F. of L. affiliate, petitioner:",,,,,,,,,
+No other party on ballot,"1,308","1,066",81.5,"185,620","130,630",,,"54,990",70.4
+C. I. O. on ballot,199,121,60.8,"96,110","39,649","41,024",,"15,437",41.3
+Unaffiliated union on ballot,108,79,73.1,"42,674","24,625",,"14,587","3,462",57.7
+C. I. O. and unaffiliated union on ballot,8,5,62.5,"8,480","3,274",728,"3,874",604,38.6
+"C. I. O. affiliate, petitioner:",,,,,,,,,
+No other party on ballot,"1,576","1,339",85.0,"379,110",,"282,842",,"96,268",74.6
+A. F. of L. on ballot,305,206,67.5,"152,905","55,508","87,808",,"9,589",57.4
+Unaffiliated union on ballot,177,124,70.1,"152,217",,"81,170","63,399","7,648",53.3
+A. F. of L. and unaffiliated union on ballot,10,7,70.0,"4,249",805,"2,408",863,173,56.7
+"Unaffiliated union, petitioner:",,,,,,,,,
+No other party on ballot,291,240,82.5,"42,395",,,"30,161","12,234",71.1
+A. F. of L. on ballot,53,25,47.2,"10,683","5,410",,"4,500",773,42.1
+C. I. O. on ballot,45,26,57.8,"17,813",,"7,860","8,789","1,164",49.3
+Other unaffiliated union on ballot,31,21,67.7,"9,667",,,"9,366",301,56.5
+A. F. of L. and C. I. O. on ballot,13,5,38.5,"5,220","1,238","2,629","1,306",47,25.0
+Employer petitioner:,,,,,,,,,
+A. F. of L. and C. I. O. on ballot,12,,,"11,733","5,494","5,970",,269,
+A. F. of L. and unaffiliated union on ballot,1,,,178,172,,6,,
+C. I. O. and unaffiliated union on ballot,7,,,"6,748",,"2,791","3,691",266,
+A. F. of L. alone,4,,,410,313,,,97,
+C. I. O. alone,2,,,44,,41,,3,
+Unaffiliated union alone,3,,,245,,,238,7,

@@ -1,26 +1,27 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6
-"Cases pending June 30, 1937",572,,18.1,90357,,30.3
-"Cases received July 1,1937, to June 30, 1938_",2587,,81.9,208108,,69.7
-Total cases on docket,3159,,100.0,298465,,100.0
-Cases closed before issuance of complaint:,,,,,,
-By settlement,1190,52.0,37.7,81017,51.0,27.1
-By dismissal,390,17.1,12.3,17877,11.3,6.0
-By withdrawal,557,24.4,17.6,41510,26.2,13.9
-By transfer to other agencies,46,2.0,1.5,4329,2.7,1.5
-"Total cases closed before issuance of complaint,",2183,95.5,69.1,144733,91.2,48.5
-Cases closed after issuance of complaint:,,,,,,
-By settlement before hearing,31,1.4,1.0,2152,' 1.4,.7
-By settlement after hearing,24,1.1,.8,1884,1.2,.8
-By dismissal before issuance of Board decision_,3,.1,. 1,147,. 1,. 1
-By withdrawal before issuance of Board decision_ By intermediate report finding no,' 18,. 8,. 6,6063,3.8,2.1
-violation By compliance with intermediate report,8,. 3,. 2,1377,. 9,. 5
-By dismissal by Board decision B y compliance with Board decision,2 17,. 1 .7,. 1 .5,"65 2,198",(1) 1.4,(9 .7
-Total cases closed after issuance of complaint,103,4.5,3.3,13886,8.8,4.7
-"Total cases closed July I, 1937 to June 30, 1938",2286,100.0,72.4,158619,100.0,53.2
-"Cases pending June 30, 1938:",,,,,,
-Before hearing,579,,18.3,73379,,24.5
-After hearing:,,,,,,
-Awaiting intermediate report,96,,3.0,28932,,9.7
-Awaiting decision,121,,3.9,12529,,4.2
-Awaiting compliance with cease and desist orders,77,,2.4,20006,,8.4
-"Total cases pending June 30, 1938_ __",873,,27.6,139886,,46.8
+,Number of cases heard,Number of intermediate reports issued,Cases transferred to N. L. R. B.,Cases transferred to N. L. R. B.,Cases transferred to N. L. R. B.,Total,Number of decisions issued
+,Number of cases heard,Number of intermediate reports issued,Exceptions,Noncompliance,Order,Total,Number of decisions issued
+Board,3,1,,,,,1
+Region:,,,,,,,
+1. Boston,36,28,23,2,2,27,10
+2. New York,112,66,55,3,12,70,32
+3. Buffalo,26,16,13,2,2,17,4
+4. Philadelphia,6,4,15,,10,25,4
+5. Baltimore,100,50,39,9,16,64,27
+6. Pittsburgh,15,7,8,,2,10,7
+7. Detroit,19,18,15,,1,16,7
+8. Cleveland,17,13,16,,2,18,11
+9. Cincinnati,18,9,7,2,11,20,8
+10. Atlanta,48,25,20,,5,25,11
+11. Indianapolis,35,24,17,3,13,33,6
+12. Milwaukee,25,19,14,4,2,20,5
+13. Chicago,44,27,24,1,4,29,8
+14. St. Louis,20,10,8,2,4,14,3
+15. New Orleans,18,9,6,1,8,15,7
+16. Fort Worth,36,17,15,,5,20,7
+17. Kansas City,22,11,9,,2,11,3
+18. Minneapolis,11,8,8,,1,9,6
+19. Seattle,25,4,3,,14,17,8
+20. San Francisco,17,13,15,1,1,17,6
+21. Los Angeles,37,16,13,1,4,18,4
+22. Denver,33,23,21,,,21,2
+Total,723,418,364,31,121,516,187

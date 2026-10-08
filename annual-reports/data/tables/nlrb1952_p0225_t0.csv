@@ -1,8 +1,16 @@
-row_label,col_1,col_2,col_3,col_4
+Results,"July 1, 1951, to June 30, 1952","July 1, 1951, to June 30, 1952","July 5, 1935, to June 30, 1952","July 5, 1935, to June 30, 1952"
+Results,Number,Percent,Number,Percent
+Cases decided by United States courts of appeals,136,100.0,"1,096",100.0
+Board orders enforced in full,73,53.7,654,59.7
+Board orders enforced with modification,21,15.4,246,22.4
+Remanded to Board,5,3.7,23,2.1
+Board orders partially enforced and partially remanded,3,2.2,3,.3
+Board orders set aside,26,19.1,157,14.3
+Board orders set aside because of noncompliance with sec. 9 (h)—by complaining union's parent federation,8,5.9,13,1.2
 Cases considered by the United States Supreme Court,1,100.0,75,100.0
 Board orders enforced in full,,,53,70.7
 Board orders enforced with modification,,,11,14.7
 Board orders set aside,1,100.0,6,8.0
 Remanded to Board,,,1,1.3
-Remanded to court of appeals_,,,3,4.0
+Remanded to court of appeals,,,3,4.0
 Board's request for remand or modification of enforcement order denied,,,1,1.3

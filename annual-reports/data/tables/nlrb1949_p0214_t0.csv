@@ -1,49 +1,1381 @@
-row_label,col_1,col_2,col_3
-7-RC-397 4-RC-239,"Ann Arbor Press, The. Ansley Radio & Tele-",13-RC-663,Automatic Paper Corp. Box
-10-RC-244,vision Co. Appalachian Marble Co.,10-RC-593,"Auto Supply & Equip- ment Co., Inc."
-36-RC-90,Apple Growers Asso- ciation.,8-RC-436,Bailey Department
-10-RC-229,Aragon-Baldwin Mills.,,"Stores Co., The."
-13-RC-656,Archer Iron Works,21-RC-603,Baker Ice Machine Co.
-2-RC-705,"Arden, Elizabeth Inc.",,"Baldwin Co., The"
-21-RC-680,"Arizona Times, Inc.",9-RC-127 21-RC-481,"Ball Bros. Co., of Cali-"
-15-RC-192,Arkansas Pipeline Corp.,,"fornia, Inc."
-2-RC-1096,Arko Products Inc.,35-RC-185,Ball Brothers Co.
-2-RC-597,Armour & Co.,20-RC-361,"Ballentine Produce Co.,"
-10-RC-209,Armour & Co.,,Inc.
-10-RC-533,Armour & Co.,5-RC-287,Baltimore Steam Packet
-13-RC-408,Armour & Co.,,Co.
-18-RC-149,Armour & Co.,1-RC-793,Bangor Auto Body
-18-RC-173,Armour & Co.,,Shop.
-18-RC-314,Armour & Co.,1-RC-846,"Bangor Egg Co., Inc."
-21-RC-583,Armour & Co.,13-RC-453,"Barnes, John S., Corp."
-30-RC-97,Armour & Co.,15-RC-94,Barnett Optical Corp.
-35-RC-89,Armour & Co.,2-RC-584,"Barrow, H. Co., Inc."
-4-RC-201,Armour Fertilizer,5-RC-265,"Barry, Martin J., Inc."
-,Works.,17-RG-372,Bar-Tack Manufactur-
-6-RC-75 21-RC-393,"Armstrong Cork Co. Arrowhead & Puritas Water, Inc.",1-RC-939,"ing Co. Bartlett, F. A., Tree Export Co., The."
-10-RC-302 4-RC-176,"Artcraft Co., Inc. Artcraft Hosiery Sales Corp.",10-RC-552,"Bassett's Dairy Products, Inc. Baugh & Sons Co."
-9-RC-364,Ashland Coca-Cola Bot- tling Co.,4-RC-272 16-RC-361,"Beatrice Foods Co. Beaunit Mills, Inc."
-1-RC-279,Associated Electronic,10-RC-544 21-RC-616,Bechtel Corp.
-,"Enterprises, Inc.",1-RC-514,"Belle Moccasin, Inc."
-20-RC-545,"Associated Garage, Frank W. Boyle. Associated Shoe Indus-",10-RC-532,"Bell, S. D., Dental Manufacturing Co.,"
-1-RC-529,tries of Southeastern Massachusetts.,19-RC-135 13-RC-418,Inc. Bell Wyman Co. Belmont Radio Corp.
-2-RC-336,Astor Packing Co. Athens Brush Co.,,Belvedere Hotel Corp. Benrus Watch Co.
-2-RC-538,,5-RC-216,
-9-RC-459,Athens Home Tele-,1-RC-425 9-RC-291,"Bentwood Products,"
-,"phone Co., The. Atkinson, Guy F., Co.",7-RC-294,"Inc. Beurmann -Marshall,"
-19-RC-138 19-RC-247,"Atkinson, Guy F., Co., & Jones, J. A. Con-",1-RC-782,"Inc. Bigelow-Sanford Carpet Co., Inc."
-"19-RC-192,",struction Co.,5-RC-327,Biggs Antique Co. Biltmore
-,Atkinson & Jones Co. Atlanta Coca-Cola Bot-,34-RC-87,Manufactur- ing Co.
-10-RC452,tling Co.,15-RC-190,Binswanger Mirror Co. Birdsall-Stockdale
-10-RC-545,Atlanta Metallic Casket Co.,30-RC-107 10-RC-243,Motor Co. Birmingham Paper Co.
-39-RC-55,"Atlantic Commission Co., Inc.",8-RC-262,"Bliss, E. W., Co."
-3-RC-250,"Atlantic States Gas Co. of New York, Inc.",10-RC-273,"Block Brothers, George Block."
-16-RC-330 18-RC-367,Atlas Life Insurance Co.,13-RC-444,Block & Kuhl Depart-
-13-RC-672,Atlas Plywood Corp. Atlas Tag Co.,2-RC-887,ment Store. Bloomingdale
-1-RC-931,Atwood Motor Co.,,Brothers Inc.
-13-RC-340 3-RC-119,Austin Western Co. Auto-Lite Battery Corp.,21-RC-496,Blue Diamond Corp.
-7-RC-508,Auto-Lite Battery Corp.,10-RC-230,"Boaz Mills, Inc."
-35-RC-231,Auto-Lite Battery Corp.,18-RC-69,Boggs Manufacturing Co.
-13-RC-373,Automatic Electric Co.,,Boland & Cornelius Co.
-,Automatic Electric Co.,3-RC-148,
-13-RC-404,,,
+2-RC-537,ABC Steel & Wire Co.
+14-RC-553,A. D. T. Co.
+13-RC-598,"Abingdon Potteries, Inc."
+7-RC-164,Acme Fast Freight
+7-RC-449,Acorn Products Corp.
+3-RC-189,"Adam, J. N., & Co."
+34-RC-120,Adams-Millis Corp.
+1-RC-689,"Adams Motors, Inc."
+17-RC-374,Adams & Sons Grocer Co.
+3-RC-143,Adirondack Core & Plug Co.
+21-RC-536,Advance Welding Works.
+6-RC-369,Advertising Display Plastics.
+10-RC-194,Aircraft Service Corp.
+19-RC-275,"Air Metals, Inc."
+4-RC-336,Air Terminal Restaurant.
+10-RC-344,Alabama Brick & Tile Co.
+39-RC-16,Alamo Refining Co.
+19-RC-94,"Alaska Salmon Industry, Inc."
+19-RC-115,"Alaska Salmon Industry, Inc."
+19-RC-254,"Alaska Salmon Industry, Inc."
+20-RC-288,Alaska Steamship Co.
+1-RC-812,Albany Felt Co.
+14-RC-225,Albrecht Liquor Co.
+10-RC-447,Alder Leopold Co.
+19-RC-110,Alderwood Products Co.
+4-RC-180,Allied Chemical & Dye Corp.
+13-RC-713,Allied Chemical & Dye Corp.
+6-RC-353,Allis-Chalmers Manufacturing Co.
+10-RC-190,Allis-Chalmers Manufacturing Co.
+7-RC-539,All Metal Pickeling Co.
+10-RC-448,"All States Constructors, Inc."
+6-RC-359,Aluminum Company of America & Aluminum Cooking Utensil Co.
+8-RC-206,Aluminum Co. of America.
+13-RC-282,Aluminum Co. of America.
+15-RC-212,Aluminum Ore Co.
+10-RC-214,American Bakeries Co.
+1-RC-835,American Bobbin Co.
+10-RC-404,American Box & File Co.
+6-RC-222,American Brake Shoe Co.
+7-RC-395,American Brass Novelty Co.
+2-RC-557,American Can Co.
+13-RC-722,American Car & Foundry Co.
+9-RC-179,American Container Corp.
+21-RC-124,American District Telegraph Co.
+10-RC-211,American Enka Corp.
+2-RC-750,"American Export Lines, Inc."
+32-RC-100,American Finishing Co.
+6-RC-302,American Forge & Manufacturing Co.
+2-RC-535,American Globe Co.
+3-RC-164,American Laundry Machinery Co.
+15-RC-93,American Optical Co.
+2-RC-1158,American Packing Co.
+9-RC-254,American Radiator Standard Sanitary Corp.
+13-RC-362,"American Relay & Controls, Inc."
+39-RC-5,American Republics Corp.
+13-RC-538,American Rock Wool Corp.
+7-RC-520,American Seating Co.
+2-RC-1038,American Shuffleboard Co.
+21-RC-220,American Smelting & Refining Co.
+21-RC-818,American Smelting & Refining Co.
+21-RC-262,"American Smelting & Refining Co., Hayden Operation."
+14-RC-659,American Steel Foundries.
+4-RC-237,"American Steel & Copper Industries, Inc."
+10-RC-240,American Steel & Wire Co.
+16-RC-273,American Steel & Wire Co.
+5-RC-158,"American Stores, Inc."
+5-RC-226,American Stores Co.
+5-RC-226,American Stores Co.
+1-RC-848,American Tube Works Inc.
+5-RC-224,American Viscose Corp.
+9-RC-347,American Viscose Corp.
+2-RC-383,Anaconda Wire and Cable Corp.
+13-RC-300,Anaconda Wire & Cable Co.
+15-RC-8,Anchor Gasoline Corp.
+5-RC-330,"Anchor Motor Freight, Inc."
+14-RC-497,Anderson Laundry
+35-RC-92,"Anderson Stove Company, Inc."
+10-RC-535,"Andrews, O. B., Co."
+7-RC-397,"Ann Arbor Press, The."
+4-RC-239,Ansley Radio & Television Co.
+10-RC-244,Appalachian Marble Co.
+36-RC-90,Apple Growers Association.
+10-RC-229,Aragon-Baldwin Mills.
+13-RC-656,Archer Iron Works
+2-RC-705,"Arden, Elizabeth Inc."
+21-RC-680,"Arizona Times, Inc."
+15-RC-192,Arkansas Pipeline Corp.
+2-RC-1096,Arko Products Inc.
+2-RC-597,Armour & Co.
+10-RC-209,Armour & Co.
+10-RC-533,Armour & Co.
+13-RC-408,Armour & Co.
+18-RC-149,Armour & Co.
+18-RC-173,Armour & Co.
+18-RC-314,Armour & Co.
+21-RC-583,Armour & Co.
+30-RC-97,Armour & Co.
+35-RC-89,Armour & Co.
+4-RC-201,Armour Fertilizer Works.
+6-RC-75,Armstrong Cork Co.
+21-RC-393,"Arrowhead & Puritas Water, Inc."
+10-RC-302,"Artcraft Co., Inc."
+4-RC-176,Artcraft Hosiery Sales Corp.
+9-RC-364,Ashland Coca-Cola Bottling Co.
+1-RC-279,"Associated Electronic Enterprises, Inc."
+20-RC-545,"Associated Garage, Frank W. Boyle."
+1-RC-529,Associated Shoe Industries of Southeastern Massachusetts.
+2-RC-336,Astor Packing Co.
+2-RC-538,Athens Brush Co.
+9-RC-459,"Athens Home Telephone Co., The."
+19-RC-138,"Atkinson, Guy F., Co."
+19-RC-247,"Atkinson, Guy F., Co., & Jones, J. A. Construction Co."
+19-RC-192,Atkinson & Jones Co.
+10-RC-452,Atlanta Coca-Cola Bottling Co.
+10-RC-545,Atlanta Metallic Casket Co.
+39-RC-55,"Atlantic Commission Co., Inc."
+3-RC-250,"Atlantic States Gas Co. of New York, Inc."
+16-RC-330,Atlas Life Insurance Co.
+18-RC-367,Atlas Plywood Corp.
+13-RC-672,Atlas Tag Co.
+1-RC-931,Atwood Motor Co.
+13-RC-340,Austin Western Co.
+3-RC-119,Auto-Lite Battery Corp.
+7-RC-508,Auto-Lite Battery Corp.
+35-RC-231,Auto-Lite Battery Corp.
+13-RC-373,Automatic Electric Co.
+13-RC-404,Automatic Electric Co.
+13-RC-663,Automatic Paper Box Corp.
+10-RC-593,"Auto Supply & Equipment Co., Inc."
+8-RC-436,"Bailey Department Stores Co., The."
+21-RC-603,Baker Ice Machine Co.
+9-RC-127,"Baldwin Co., The"
+21-RC-481,"Ball Bros. Co., of California, Inc."
+35-RC-185,Ball Brothers Co.
+20-RC-361,"Ballentine Produce Co., Inc."
+5-RC-287,Baltimore Steam Packet Co.
+1-RC-793,Bangor Auto Body Shop.
+1-RC-846,"Bangor Egg Co., Inc."
+13-RC-453,"Barnes, John S., Corp."
+15-RC-94,Barnett Optical Corp.
+2-RC-584,"Barrow, H. Co., Inc."
+5-RC-265,"Barry, Martin J., Inc."
+17-RC-372,Bar-Tack Manufacturing Co.
+1-RC-939,"Bartlett, F. A., Tree Export Co., The."
+10-RC-552,"Bassett's Dairy Products, Inc."
+4-RC-272,Baugh & Sons Co.
+16-RC-361,Beatrice Foods Co.
+10-RC-544,"Beaunit Mills, Inc."
+21-RC-616,Bechtel Corp.
+1-RC-514,"Belle Moccasin, Inc."
+10-RC-532,"Bell, S. D., Dental Manufacturing Co., Inc."
+19-RC-135,Bell Wyman Co.
+13-RC-418,Belmont Radio Corp.
+5-RC-216,Belvedere Hotel Corp.
+1-RC-425,Benrus Watch Co.
+9-RC-291,"Bentwood Products, Inc."
+7-RC-294,"Beurmann-Marshall, Inc."
+1-RC-782,"Bigelow-Sanford Carpet Co., Inc."
+5-RC-327,Biggs Antique Co.
+34-RC-87,Biltmore Manufacturing Co.
+15-RC-190,Binswanger Mirror Co.
+30-RC-107,Birdsall-Stockdale Motor Co.
+10-RC-243,Birmingham Paper Co.
+8-RC-262,"Bliss, E. W., Co."
+10-RC-273,"Block Brothers, George Block."
+13-RC-444,Block & Kuhl Department Store.
+2-RC-887,Bloomingdale Brothers Inc.
+21-RC-496,Blue Diamond Corp.
+10-RC-230,"Boaz Mills, Inc."
+18-RC-69,Boggs Manufacturing Co.
+3-RC-148,Boland & Cornelius Co.
+18-RC-347,Boland Manufacturing Co.
+2-RC-775,"Bonat, Samuel & Bro., Inc."
+4-RC-374,Bond Crown & Cork Co.
+2-RC-312,Bond Industrial Maintenance Co.
+1-RC-966,"Bond Stores, Inc."
+4-RC-410,"Bond Stores, Inc."
+16-RC-379,Bonham Cotton Mills.
+2-RC-859,"Bonwit-Teller, Inc."
+2-RC-461,Boorum & Pease Co.
+2-RC-682,Borck-Stevens Bakery Co.
+8-RC-415,"Borden Co., The, Borden Cheese Division, The."
+21-RC-828,Borden Co.
+16-RC-256,"Borden Co., The."
+7-RC-516,Borden's Ice Cream Co.
+39-RC-56,Bordo Products Co.
+7-RC-462,"Borg-Warner, Ingersoll Steel Division."
+14-RC-348,"Borg-Warner Corp., Norge Division of."
+7-RC-417,Boston Department Store.
+17-RC-294,"Brandeis, J. L. & Sons."
+10-RC-599,Brandon Corp.
+21-RC-359,Braun Corp. Industrial Chemicals.
+10-RC-485,"Bray, J. N., Co., The."
+1-RC-936,Brightwater Paper Co.
+21-RC-588,"Broadway Department Stores, Inc."
+2-RC-934,Broadway Iron & Pipe Corp.
+35-RC-146,"Broderick Co., The."
+16-RC-172,"Brown Express, H. P. Brown."
+15-RC-176,"Brown Oil Tools, Inc."
+10-RC-284,"Brown, Pryor, Transfer Co."
+14-RC-470,"Brown Shoe Co., Inc."
+7-RC-421,Brunswick Balke Collender Co.
+9-RC-312,"Bryant, James, Motors, Inc."
+4-RC-454,Bundy Tubing Co.
+34-RC-102,Burgess Manufacturing Co.
+21-RC-666,Burnett & Burnett.
+2-RC-770,"Burns, William J., International Detective Agency."
+2-RC-754,Burroughs Adding Machine Co.
+1-RC-794,"Burrows & Sanborn, Inc."
+20-RC-544,"Butte Motors, Jack Taylor & Paul Bullard."
+39-RC-57,Buron-Jackson Co.
+21-RC-297,Caffers & Sattler.
+32-RC-56,Cain Canning Co.
+20-RC-214,Calaveras Cement Co.
+9-RC-270,"Caldwell, W. E., Co."
+20-RC-325,"California Growers, Inc."
+15-RC-204,Calmes Engineering Co.
+3-RC-235,Canlake Petroleum Corp.
+36-RC-162,Cape Arago Lumber Co.
+10-RC-388,Carbide & Carbon Chemicals Corp.
+16-RC-207,Carbide & Carbon Chemicals Corp.
+3-RC-209,"Cary & Co., Inc."
+10-RC-103,"Case, J. I., Co."
+18-RC-139,"Case, J. I., Co."
+18-RC-300,"Case, J. I., Co."
+18-RC-329,"Case, J. I., Co."
+20-RC-181,"Case, J. I., Co."
+5-RC-127,Caskey Baking Co.
+21-RC-286,Castle Dome Copper Co.
+21-RC-401,"Castle Dome Copper Co., Inc."
+9-RC-411,Castle Showcase Co.
+5-RC-241,Celanese Corp. of America.
+5-RC-258,Celanese Corp of America.
+10-RC-393,Celanese Corp. of America.
+39-RC-17,Celanese Corp. of America.
+15-RC-222,"Celotex Corp., The."
+10-RC-242,"Central Bus Lines, Inc."
+16-RC-294,"Central Dairy Products Co., The"
+39-RC-62,Central Foods Co.
+38-RC-90,Central Soller.
+35-RC-153,"Central Swallow Coach Lines, Inc."
+2-RC-536,Central Wire Frame Co.
+18-RC-362,Central Wisconsin Motor Transport Co.
+7-RC-98,Certain-Teed Products Corp.
+2-RC-377,"Challon, Inc."
+20-RC-340,Chanslor & Lyon Co.
+21-RC-592,Charroin Manufacturing Co.
+5-RC-279,"Chesapeake Paperboard Co., The"
+5-RC-154,Chesapeake & Potomac Telephone of Virginia.
+13-RC-291,"Chicago Gray Line, Inc"
+13-RC-636,"Chicago Journal of Commerce, Inc."
+6-RC-96,Chicago Pneumatic Tool Co.
+13-RC-593,Chicago Railway Equipment Co.
+13-RC-520,Chicago Screw Co.
+13-RC-633,"Chicago Towel Co., Means, F. W., & Co."
+16-RC-308,Chowctaw Cotton Oil Co.
+20-RC-530,Christensen Diamond Products Co.
+4-RC-329,Chrysler Corp.
+7-RC-228,Chrysler Corp.
+7-RC-328,Chrysler Corp.
+7-RC-358,Chrysler Corp.
+7-RC-524,Chrysler Corp.
+21-RC-775,Chrysler Corp.
+35-RC-116,Chrysler Corp.
+7-RC-232,Chrysler Detroit Co.
+1-RC-468,"Church, H. B., Co."
+13-RC-290,Churchill Cabinet Co.
+17-RC-375,Churchill Truck Lines.
+1-RC-982,Cianrus Co.
+9-RC-325,"Cincinnati Enquirer, The"
+9-RC-377,"Cincinnati Industries, Inc."
+16-RC-381,Cisco Hydrocarbon Corp
+2-RC-451,City Auto Radiator Co
+2-RC-512,Cities Service Oil Co. of Pennsylvania.
+15-RC-195,Cities Service Refining Corp.
+16-RC-194,City Transportation Co
+3-RC-58,Civic Broadcasting Corp.
+9-RC-378,Clayton & Lambert Manufacturing Co.
+17-RC-421,"Clearfield Cheese Co., Inc."
+10-RC-569,"Clelland Bus Lines, Inc."
+8-RC-320,"Cleveland Plastics, Inc."
+20-RC-210,"Cleveland Wrecking Co., The."
+9-RC-313,"Clippard Instrument Laboratory, Inc."
+20-RC-413,Coast Pacific Lumber Co.
+36-RC-164,Coast Pacific Lumber Co.
+7-RC-139,Coca-Cola Bottling Co
+16-RC-388,Coca-Cola Bottling Co.
+2-RC-526,"Cohen, J., & Brothers."
+32-RC-92,"Coleman, William H., Co."
+4-RC-446,Cole's Trucking Service.
+1-RC-499,Collins Brothers Machine Co.
+19-RC-66,Colonial Construction Co.
+10-RC-486,"Colonial Stores, Inc."
+34-RC-48,"Colonial Stores, Inc."
+4-RC-236,"Colony Foods, Julius Paley."
+30-RC-132,Colorado Insulating Co.
+21-RC-309,Columbia Corp. et al.
+19-RC-268,Columbia Ice & Cold Storage Co.
+10-RC-251,Columbia Lumber & Manufacturing Co
+9-RC-188,"Columbian Carbon Co., The."
+19-RC-59,Columbia Packing Co.
+2-RC-921,Columbia Pictures Corp
+21-RC-617,Columbia Pictures Corp.
+13-RC-339,Commercial Solvents Corp.
+13-RC-532,"Commonwealth Plastics, Inc."
+3-RC-207,Comstock Canning Corp.
+13-RC-264,Conlon Brothers Manufacturing Co.
+14-RC-274,"Conrad, Inc."
+21-RC-265,Consolidated Rock Products Co.
+21-RC-302,Consolidated Rock Products Co.
+10-RC-363,"Constitution Publishing Co., The."
+14-RC-577,Construction Materials Co.
+4-RC-384,Continental Diamond
+9-RC-346,Container Corp. of America.
+13-RC-580,Container Corp. of America.
+16-RC-352,Container Corp. of America.
+16-RC-376,Container Corp. of America.
+15-RC-260,Continental Oil Co.
+7-RC-203,Continental Motors Corp.
+7-RC-454,Continental Motors Corp.
+16-RC-137,Corpus Christi Broadcasting Co.
+20-RC-549,Coronado Copper & Zinc Co.
+1-RC-665,"Cote Motor Co., Inc."
+2-RC-349,Covered Button Mould Manufacturers' Association.
+16-RC-249,Creamer-Dunlat Oil Field Equipment Co.
+33-RC-50,"Creamland Dairies, Inc."
+13-RC-400,Cribben and Sexton Co.
+2-RC-995,"Crockett & Buss, Inc."
+1-RC-385,"Croker Burbank & Co., Association."
+17-RC-151,"Crome, Wm. F., & Co."
+19-RC-316,Crown Zellerbach Co.
+7-RC-227,"Cummins Diesel Service & Sales of Michigan, Inc."
+14-RC-287,Cupples-Hess Corp.
+34-RC-75,Curtiss Motor Co.
+18-RC-394,Curtiss Wright Corp.
+15-RC-196,D & D Transportation Co.
+18-RC-142,"Dahl, Howard, WKBH, Inc."
+16-RC-370,Dallas Fort Worth Brewing Co.
+1-RC-135,Daly Brothers.
+13-RC-585,"Daly Brothers Shoe Co., Inc."
+3-RC-52,"Danahy-Faxon Stores, Inc."
+2-RC-1262,Danbury Rubber Co.
+8-RC-238,"Danner Press, Inc."
+20-RC-541,Darling Utah Corp.
+1-RC-697,"Davey Tree Expert Co., Inc., The."
+1-RC-969,"Davidson, H. M., Co."
+16-RC-268,Day Manufacturing Co.
+9-RC-109,"Dearing, C. T., Printing Co."
+10-RC-316,Decatur Box & Basket Co.
+9-RC-332,"Decker Clothes, Inc."
+1-RC-784,"Deep Rock, Inc."
+18-RC-339,Deere Manufacturing Co.
+18-RC-373,Deere Manufacturing Co.
+8-RC-371,Defiance Automatic Screw.
+7-RC-295,"De Kleine, Franklin, Co."
+4-RC-282,Delaware Broadcasting Co.
+39-RC-36,Del Rio & Winter Garden Telephone Co.
+39-RC-51,Delta Canning Co.
+15-RC-203,Delta Bread Co.
+05-RC-249,Delta Oxygen Co.
+15-RC-246,Delta Pine Products Corp.
+2-RC-808,"DeLuxe Laboratories, Inc."
+7-RC-290,DeMay's Printing Co.
+16-RC-287,Denver Amarillo Express D. G.
+30-RC-135,"Denver-Colorado Springs Pueblo Motorway, Inc."
+30-RC-114,Denver Smoked Fish Co.
+30-RC-87,Denver Truck Exchange.
+7-RC-334,Detroit & Canada Tunnel Corp.
+7-RC-115,Detroit Canvas Manufacturers Association.
+7-RC-485,Detroit Electronic Products.
+1-RC-844,"Dewey, A. G., Co., Inc."
+39-RC-23,D'Hanis Brick & Tile Co.
+39-RC-78,Diamond Aleali Co.
+21-RC-701,Diamond Ice Co.
+10-RC-64,DiGiorgio Fruit Corp.
+13-RC-483,"Dirilyte Co. of America, Inc."
+34-RC-121,Dixie Spindle and Flyer Co.
+15-RC-12,"Dixon, L. E., & Co."
+20-RC-256,"Dodge, San Leandro Plant."
+8-RC-212,"Doehler, Jarvis, Corp."
+5-RC-64,Dorchester House.
+10-RC-157,"Dortch Stove Works, Inc."
+4-RC-270,"Doubleday & Co., Inc."
+13-RC-155,Douglass Public Service Corp. Bulk Liquid Departments.
+1-RC-509,Dover Shoe Manufacturing Co.
+21-RC-695,Drayer & Hanson Co.
+15-RC-137,Drew Grocery Co.
+13-RC-609,"Drewry's Limited U. S. A., Inc."
+1-RC-375,"Dun & Bradstreet, Inc."
+3-RC-184,"Dupont de Nemours, E. I. Co."
+10-RC-548,"Dupont, E. I. DeNemours & Co."
+2-RC-716,Eagle Electric Corp.
+2-RC-876,Eagle Pencil Co.
+2-RC-255,"Eastern Cooperatives, Inc."
+10-RC-543,Eberhart-Conway Co.
+10-RC-536,Edgar Plastic Kaolin Co.
+3-RC-259,"Edwards, E. W., & Sons."
+2-RC-956,Edwin Plating Co. & U. S. Brassturning Co.
+9-RC-380,"Electric Auto Lite Company, Die Casting."
+1-RC-673,Electro Motive Manufacturing Co.
+2-RC-1041,"Elizabethtown Water Co., Consolidated."
+33-RC-15,"El Paso-Ysleta Bus Co., Inc."
+17-RC-234,Ely & Walker Dry Goods Co.
+1-RC-855,"Empire Furniture Manufacturing Co., The."
+10-RC-222,Empire Furniture Co.
+30-RC-92,Empire Petroleum Co.
+16-RC-225,"Engineers & Fabricators, Inc."
+5-RC-65,Engineering & Research Corp.
+16-RC-106,Enid Cooperative Creamery Association.
+6-RC-299,Erie Retail Furniture Dealers Association.
+34-RC-59,"Erwin Cotton Mills Co., Plant No 7"
+21-RC-556,Essex Wire Corp.
+15-RC-251,Esso Standard Oil Co.
+15-RC-201,Ethyl Corp.
+15-RC-38,"Ethyl Corp., Tetraethyl, Lead & Sodium Plant."
+15-RC-89,"Eunice Iron Works, Inc."
+35-RC-198,Evans Milling Co.
+4-RC-415,Evening Bulletin.
+19-RC-106,"Everett Automotive Jobbers Association, The."
+3-RC-151,Everybodys Daily Publishing Co.
+21-RC-557,Ewing Co.
+5-RC-1,"Excelsior Pearl Works, Inc."
+10-RC-239,"Fairbanks Co., The."
+5-RC-164,Fairchild Engine & Airplane Corp.
+10-RC-401,Fairchild Engine & Airplane Corp.
+3-RC-94,Fairmont Foods Co.
+18-RC-123,Fairmont Foods Co.
+39-RC-22,"Fairmont Foods, Inc."
+39-RC-83,Fairmont Foods Co.
+1-RC-865,Fall River Gas Works Co.
+18-RC-405,Farley & Loetscher Manufacturing Co.
+15-RC-126,"Faulk-Collier Bonded Warehouses, Inc."
+4-RC-233,Federal Creosoting Co.
+7-RC-177,Federal Mogul Corp.
+2-RC-683,"Felt Body Corp. of America, Inc."
+8-RC-355,Ferry Cap & Set Screw Co.
+13-RC-313,"Field, Marshall & Co."
+13-RC-600,"Filing Equipment Bureau of Illinois, Inc."
+2-RC-378,Finkel Umbrella Frame Co.
+13-RC-287,Firestone Tire & Rubber Co.
+15-RC-48,Firestone Tire & Rubber Co.
+15-RC-231,Firestone Tire & Rubber Co.
+21-RC-812,Firestone Tire & Rubber Co.
+32-RC-67,Firestone Tire & Rubber Co.
+3-RC-223,"Fitzsimons, John J."
+16-RC-355,"Fleming & Son, Inc."
+34-RC-64,Fli-Back Co.
+15-RC-120,"Flintkote Co., The."
+7-RC-534,Flint Lumber Co.
+19-RC-223,Flodin Lumber Co.
+10-RC-409,Florence Manufacturing Co.
+13-RC-252,Florsheim Retail Boot Shop.
+10-RC-476,"Florida Wholesale Grocery Co., Inc."
+8-RC-417,"Flexible Co., The."
+4-RC-119,Fogel Refrigerator Co.
+10-RC-155,Foote & Davies.
+7-RC-356,"Ford Motor Co., Lincoln Mercury Division."
+17-RC-415,"Ford Motor, Inc."
+10-RC-192,"Foremost Dairies, Inc."
+21-RC-446,"Forster Shipbuilding Co., Inc."
+7-RC-482,"Fort Industry Co., The."
+6-RC-368,Fort Pitt Manufacturing Co.
+16-RC-214,Fort Worth Steel Machinery Co.
+16-RC-115,Foster Wheeler Corp.
+18-RC-354,"Fox, Abbott, Lumber Co."
+18-RC-418,Franklin Equipment Co.
+5-RC-159,Franklin Laundry.
+8-RC-253,"French Oil Mill Machinery Co., The."
+6-RC-106,Frick Co.
+20-RC-586,Fruitvale Canning Co.
+20-RC-234,Gabilan Iron & Machine Co.
+17-RC-80,G. & D. Radiator Service.
+6-RC-221,"G. G. G. Metal Stamping Co., Inc."
+39-RC-33,Galveston Cotton Exchange & Board of Trade.
+30-RC-130,Gardner Denver Co.
+2-RC-723,"Gary Enterprises, Inc."
+34-RC-51,Gate City Transit Co.
+30-RC-111,Gates Rubber Co.
+16-RC-292,"Geier-Jackson, Inc."
+7-RC-537,Gemmer Manufacturing Co.
+3-RC-116,General Aniline & Film Corp.
+3-RC-257,General Aniline & Film Corp.
+32-RC-93,General Beverage Co.
+14-RC-301,General Box Co.
+10-RC-337,General Broadcasting Co.
+4-RC-286,General Ceramic Co.
+14-RC-603,General Conveyor & Manufacturing Co.
+1-RC-383,General Electric Co.
+1-RC-875,General Electric Co.
+3-RC-90,General Electric Co.
+9-RC-470,General Electric Co.
+16-RC-186,General Electric Co.
+19-RC-314,General Electric Co.
+1-RC-800,General Electric Corp.
+13-RC-232,General Electric Motor Co.
+21-RC-632,General Electric Supply Corp.
+13-RC-594,"General Mills, Inc."
+8-RC-368,General Motors Corp.
+17-RC-392,General Motors Corp.
+35-RC-71,General Motors Corp.
+7-RC-193,"General Motors Corp., Detroit Transmission Division."
+20-RC-284,General Nailing Machine Corp.
+19-RC-47,General Petroleum Co.
+10-RC-364,General Plywood Corp.
+1-RC-979,"General Products Co., Inc."
+10-RC-387,"General Steel Tank Co., Inc."
+13-RC-403,General Time Instruments Corp.
+15-RC-236,"George C. Lucas, Trustee of The May Brothers."
+10-RC-412,Georgia Fertilizer Co.
+7-RC-123,Gerity Michigan Corp.
+10-RC-391,Gibbs Corp.
+5-RC-137,"Gillett, F. W., & Co., Inc."
+34-RC-112,Gittlin Charlotte Bag Co.
+10-RC-382,Glazer Steel Corp
+13-RC-245,Globe Houseware Co.
+7-RC-522,Globe Knitting Works.
+8-RC-386,Globe Steamship Co.
+10-RC-376,"Gluck Brothers, Inc."
+21-RC-735,Goar's Service and Supply.
+10-RC-343,Gobble-Fite Lumber Co.
+35-RC-192,"Goddard, Joseph A., & Co."
+30-RC-110,Goldberg Brothers Manufacturing Co.
+30-RC-168,Goldberg Brothers Manufacturing Co.
+21-RC-472,"Golden Krust Bakery, Voltz, Virgil V., d/b/a"
+19-RC-15,Gold Medal Dairies.
+10-RC-303,Goodall Co.
+6-RC-187,"Goodrich, B. F., Co., The."
+8-RC-203,"Goodrich, B. F., Co."
+8-RC-256,"Goodrich, B. F., Co., The."
+9-RC-401,"Goodrich, B. F., Chemical Co."
+13-RC-288,"Goodrich, B. F., Co."
+1-RC-913,"Goodyear Rubber Sundries, Inc."
+10-RC-329,Gordon Garment Corp.
+10-RC-565,"Goslin-Birmingham Manufacturing Co., Inc."
+14-RC-400,"Grady, J. H. Manufacturing Co."
+1-RC-544,"Grand Union, The."
+18-RC-166,Granite City Transfer.
+2-RC-308,"Great Atlantic & Pacific Tea Co., The."
+2-RC-1072,"Great Atlantic & Pacific Tea Co., The."
+7-RC-362,Great Atlantic & Pacific Tea Co.
+9-RC-500,"Great Atlantic & Pacific Tea Co., The."
+10-RC-509,"Great Atlantic & Pacific Tea Co., The."
+2-RC-612,Greater New York Broadcasting Corp.
+17-RC-216,Great Lakes Pipe Line Co.
+17-RC-397,Great Lakes Pipe Line Co.
+18-RC-78,Great Lakes Pipeline Co.
+2-RC-524,Great Manufacturing & Machine Co.
+13-RC-718,Green Bay Drop Forge Co.
+20-RC-531,"Green & Berry, Inc."
+6-RC-220,"Green, G. G., Manufacturing Corp."
+15-RC-185,"Green Lumber Co., The"
+34-RC-130,"Greensboro News Co., Inc."
+4-RC-110,"Greene, Stephen, Co."
+15-RC-148,Green Veneer Co.
+5-RC-298,"Gresham, E. T., Co., Inc."
+7-RC-74,Grinnell Brothers.
+9-RC-508,"Grocer's Biscuit Co., Inc."
+20-RC-280,"Growers, Shippers, Vegetable Association of Central California, et al."
+34-RC-100,Guilford Dairy.
+1-RC-605,Guilford Woolen Mills Co.
+16-RC-138,Gulf Coast Broadcasting Co.
+15-RC-221,Gulf Naval Stores Co.
+16-RC-196,Gulf Oil Corp.
+15-RC-208,Gulfort Fertilizer Co.
+15-RC-95,Gulf States Optical Laboratories.
+20-RC-190,Guntert & Zimmerman
+10-RC-375,H & W Studio & Lenak Studio.
+2-RC-1055,Hackensack Water Co.
+20-RC-3999,"Haden, Bill, Inc."
+20-RC-456,"Hadley, F. E., & Sons, F. E. Hadley."
+9-RC-307,"Hagemann Glass Co., The."
+4-RC-266,"Hambleton Co., Inc."
+1-RC-769,"Hancock, John, Mutual Life Insurance Co."
+36-RC-159,Harbor Plywood Corp. of Oregon.
+7-RC-463,Harbor Springs Manufacturing Co.
+32-RC-98,Hardin's Bakeries Management Corp.
+2-RC-553,Harman Watch Co.
+4-RC-330,Harrisburg Railway Co.
+10-RC-170,Harris Transfer & Warehouse Co.
+7-RC-96,Harter Corp.
+1-RC-776,"Hartford Times, The."
+21-RC-542,Hartman Concrete Materials Co.
+9-RC-278,"Hart Manufacturing Co., Inc."
+2-RC-913,"Hawley & Hoops, Inc."
+17-RC-376,Hawthorne Dairy Products Co.
+19-RC-281,Hayslip Earl & Sons.
+21-RC-646,Hayward Hotel.
+2-RC-925,"Hearn Department Stores, Inc."
+2-RC-73,"Hearst Consolidated Publications, Inc."
+19-RC-263,Hearst Publishing Co.
+6-RC-177,"Heinz, H. J., Co."
+7-RC-137,"Heinz, H. J., Co."
+8-RC-405,"Heinz, H. J., Co."
+1-RC-625,"Heminway & Bartlett Manufacturing Co., The."
+34-RC-66,Henderson Lumber Co.
+15-RC-96,Hennessey Optical Jobbers.
+9-RC-294,Herold & Sons Inc.
+7-RC-410,Heyden Chemical Corp.
+34-RC-140,"Hibriten Chair Co., Inc."
+19-RC-214,"Highland Fruit Growers, Inc."
+21-RC-555,Highland Park Chevrolet Co.
+17-RC-213,Hi Lewis Oil Co.
+2-RC-673,Hills Brothers Co.
+17-RC-352,"Hinky Dinky, American Community Stores Corp."
+2-RC-1132,"Hires, Charles E., Co."
+9-RC-284,Hoagland Walter G Foundry & Machine Co.
+14-RC-614,Hoehn Chevrolet Co
+5-RC-115,Hoffman Upholstered Furniture.
+1-RC-508,Ho Maid Food Products Co.
+21-RC-730,Hopper Machine Works.
+33-RC-78,Hortex Mfg. Co.
+13-RC-637,"Hotpoint, Inc."
+8-RC-341,"House of Guest, Inc., The."
+16-RC-135,Houston Creosoting Co.
+16-RC-149,Houston Production Co
+39-RC-88,Houston Transit Co.
+30-RC-50,Howe Machine & Supply Co.
+10-RC-560,Holeproof Hosiery Co.
+14-RC-620,"Hollander & Company, Inc."
+1-RC-392,Hollingsworth & Whitney Paper Co.
+2-RC-590,"Holmberg, August W., & Co., Inc"
+16-RC-307,"Holmes, W. W., Lottie Apple Holmes Haley."
+16-RC-311,"Hubbard, J. H., & Son."
+10-RC-202,"Huber, J. W., Corp."
+13-RC-405,Hudson Sharp Machine Co.
+2-RC-1054,"Hudson Transit Lines, Inc."
+21-RC-366,Hughes Aircraft Co.
+19-RC-45,"Hull-Rodell Motors, Inc"
+21-RC-803,"Hunt Foods, Inc."
+39-RC-25,Hunt Tool Co.
+2-RC-610,Hygrade Food Products Corp.
+4-RC-230,Hygrade Food Products.
+16-RC-366,Ideal Baking Co.
+13-RC-301,Illini Swallowlines.
+14-RC-523,Illinois Electric & Gas Co.
+13-RC-437,Illinois Engineering Works.
+13-RC-179,Illinois Institute of Technology
+14-RC-692,Illinois Cities Water Co.
+2-RC-846,"Il Progresso Italo Amercano Publishing Co., Inc."
+2-RC-452,Independent Filter Press Co.
+21-RC-611,Independent Motion Picture Producers Association.
+35-RC-136,Indiana Desk Co.
+35-RC-186,"Indiana Limestone Co., Inc."
+35-RC-247,Indianapolis Cleaners & Launderers Club.
+35-RC-159,Indianapolis Glove Co.
+35-RC-163,Indianapolis Newspapers.
+35-RC-171,Indianapolis Times Publishing Co.
+39-RC-8,Indianapolis Wire Bound Box Co.
+21-RC-638,Industrial Power & Equipment Co.
+9-RC-281,Inland Container Corp.
+19-RC-116,Inland Empire Paper Co.
+10-RC-423,"Inman Mills, Inc."
+21-RC-260,Inspiration Consolidated Copper Co.
+2-RC-1136,Interchemical Corp.
+9-RC-189,International Harvester Co.
+9-RC-441,International Harvester Co.
+9-RC-446,International Harvester Co.
+9-RC-457,International Harvester Co.
+13-RC-368,International Harvester Co.
+32-RC-94,International Harvester Co.
+35-RC-54,International Harvester Co.
+33-RC-25,International Mineral & Chemical Corp.
+15-RC-62,International Paper Co.
+15-RC-88,International Paper Co.
+21-RC-389,International Paper Co.
+14-RC-598,International Shoe Co.
+19-RC-56,Interstate Telephone Co.
+2-RC-946,Irvington Varnish & Insulator Co.
+20-RC-212,Iskenderian Dehydrator.
+4-RC-406,"IX, Frank & Sons Pennsylvania Corp."
+13-RC-666,J & J Tool & Machine Co.
+10-RC-499,Jacksonville Box Co.
+10-RC-314,"Jaclyn Hosiery Mills, Inc."
+2-RC-347,"Jacobs Brothers Co., Inc., The."
+31-RC-25,Jacobsen Manufacturing Co.
+36-RC-204,Jantzen Knitting Mills.
+13-RC-212,Jefferson Electric Co.
+34-RC-106,Jefferson Standard Broadcasting Co.
+9-RC-145,Jeffery Manufacturing Co.
+2-RC-539,Joal Art Co.
+5-RC-120,"Jobbers Pants Company, Standard Garments, Inc."
+7-RC-143,Johns Brothers.
+15-RC-115,Johns-Manville Insulation Board Plant.
+3-RC-174,Johnson City Publishing Co.
+18-RC-381,Johnson Optical Co.
+1-RC-790,"Johnson Shoes, Inc."
+18-RC-328,Johnston Lawnmower Co.
+16-RC-262,Johnston Manufacturing Co.
+2-RC-453,Joma Manufacturing Co.
+13-RC-428,"Jones, W. A., Foundry & Machine Co."
+21-RC-748,KMTR Radio Corp.
+20-RC-233,Kaiser-Frazer Parts Corp.
+20-RC-446,Kaljian Chevrolet Co.
+17-RC-204,"Kansas-Nebraska Natural Gas Co., Inc."
+2-RC-352,Kearfoot Manufacturing Corp.
+20-RC-364,Kennecott Copper Corp.
+21-RC-769,Kennecott Copper Corp
+10-RC-460,"Kennelly Transfer & Storage Co, Inc."
+9-RC-161,"Kentucky Utilities Co., Inc."
+2-RC-348,"Ketcham, G. M., Manufacturing Corp"
+13-RC-577,Keystone Printing Service.
+18-RC-385,Kindy Optical Co.
+7-RC-532,"King, Brooks, Inc."
+1-RC-482,Knapp Brothers Shoe Manufacturing Corp.
+10-RC-410,"Knight, J. T, & Son, Inc."
+10-RC-206,Knoxville Sandgravel Material Co.
+18-RC-163,Knudsen Brothers Ship Building & Dry Dock Co.
+37-RC-28,"Kona Light & Power Co., Ltd."
+16-RC-238,Koon McNatt Storage & Transfer Co.
+14-RC-633,"Koppers Co., Inc."
+1-RC-632,"Koss Shoe Co, Inc"
+2-RC-549,"Koven, L. O., & Brother, Inc"
+10-RC-606,"Kraft Foods Co., The."
+13-RC-475,"Kresge, S. S., Co."
+10-RC-473,Kroger Co.
+32-RC-116,"Kroger Co., The."
+14-RC-299,"Laclede Gas Light Co. (Station ""A"")."
+18-RC-349,Lake Superior District Power Co.
+7-RC-176,Lakey Foundry & Machine Co.
+2-RC-601,"La Manna, Azema & Farnan, Inc."
+10-RC-379,"Lamar-Rankin Co., Wholesale Drugs"
+10-RC-281,Lamson & Sessions Co.
+16-RC-163,Larrance Tank Corp.
+1-RC-600,"Lassonde, Jos. M."
+37-RC-14,Laupahoehoe Sugar Co.
+15-RC-66,"Laurel Textile Mills, Inc."
+17-RC-267,Lebanon Laundry & Dry Cleaners.
+1-RC-580,Leedon Webbing Co.
+21-RC-379,"Lee, Thomas S., Enterprises, Inc., Broadcasting System."
+4-RC-151,Leigh Douglas Sky Advertising Corp.
+7-RC-391,Leonard Refining Co.
+10-RC-417,"Lerio Corp., The."
+15-RC-167,"Levy, Louis, Grocer Co"
+14-RC-465,"Lewis Brothers Bakeries, Inc."
+4-RC-409,"Lieberknecht Karl, Inc"
+1-RC-433,"Liggett Drug Co., Inc."
+8-RC-131,Line Materials Co.
+8-RC-346,Line Materials Co.
+2-RC-1049,"Linen Thread Co., Inc."
+5-RC-284,"Linen Thread Co., Inc., Knox Mill."
+8-RC-452,"Livingston, Charles, & Sons."
+2-RC-975,"Loeser, Frederick, & Co., Inc"
+16-RC-134,Lone Star Products Co.
+34-RC-61,"Louise, Frances, Full-Fashioned Mills, Inc"
+15-RC-233,Louisiana Steel Drum Co.
+36-RC-242,Lovegren Lumber Co.
+1-RC-498,Lowell Industrial Development Co.
+1-RC-496,Lowell Shuttle Co.
+1-RC-519,Lumbard Watson Co.
+13-RC-259,"Lummus Co., The."
+19-RC-312,"Lundahl Motors, Inc."
+18-RC-364,Lusk Candy Co.
+4-RC-331,"Lykens Hosiery Mills, Inc."
+5-RC-129,Lynchburg Gas Co.
+5-RC-248,Lynchburg Foundry Co.
+10-RC-371,"MacDonald Printing Co., Inc."
+39-RC-66,McCarthy Chemical Co.
+10-RC-482,McClellans Store Co.
+10-RC-495,"McDonald, Wm. P., Corp."
+8-RC-169,McGean Chemical Co.
+15-RC-32,McGraw Curran Lumber Co.
+4-RC-306,"McIntire, Magee & Brown Co."
+15-RC-142,"McKamie Cleaning Co., Inc."
+15-RC-161,"McKesson & Robbins, Inc."
+14-RC-224,"McKesson & Robbins, Inc."
+16-RC-221,"McMillian, Earl, Co."
+2-RC-798,"Macy, R. H., & Co., Inc."
+31-RC-29,Madison-Kipp Corp.
+1-RC-927,"Magrane, P. B., Inc."
+1-RC-355,Mahoney Chair Co.
+7-RC-413,"Mahon, R. C., Co."
+34-RC-104,"Maiden Spinning Mills, Inc."
+1-RC-539,Maine Central Transportation Co.
+16-RC-345,"Makins Sand & Gravel Co., Inc."
+14-RC-608,Mallinckrodt Chemical Co.
+10-RC-480,"Malone Freight Lines, Inc."
+1-RC-791,"Manchester Wood Heel Co., Inc."
+34-RC-136,Manhattan Shirt Co.
+2-RC-540,Manhattan Wire Goods Co.
+7-RC-456,Manistee Salt Works.
+2-RC-635,Mariner Steamship Co.
+8-RC-194,Marion Power Shovel Co.
+34-RC-114,Marshall Manufacturing & Processing Co.
+4-RC-312,"Marshall, Thomas M., Co."
+10-RC-531,Martin Brothers.
+20-RC-373,"Martinelli, S., & Co."
+15-RC-79,"Martin, Roy O., Lumber Co., Inc."
+9-RC-203,"Martin, W. R., Co."
+10-RC-418,"Mary Jane Stores of Florida, Inc."
+5-RC-316,Maryland Dry Dock Co.
+7-RC-168,"Mastick, Inc."
+36-RC-262,Matheny Creek Lumber Co.
+5-RC-220,Mathieson Chemical Corp.
+15-RC-59,Mathieson Chemical Corp.
+5-RC-320,"May Co., Department Stores."
+14-RC-434,"May Department Stores Co., d/b/a Famous Barr Co."
+4-RC-347,"Mechanical Devices Co., Inc."
+36-RC-282,Meier & Frank Co.
+1-RC-631,"Mercer Paper Tube, Inc."
+21-RC-233,Merchants Fire Dispatch.
+18-RC-345,Meredith Publishing Co.
+13-RC-440,"Metal Cutting Tools, Inc."
+1-RC-490,Metropolitan Ice Co.
+2-RC-878,Metropolitan Life Insurance Co.
+18-RC-400,Metropolitan Life Insurance Co.
+7-RC-221,Midland Steel Products Co.
+4-RC-313,Mid-States Gummed Paper Co.
+7-RC-172,Midwest Metal Products Co.
+10-RC-539,Miller Concrete Pipe Co.
+15-RC-252,Miller Lumber Co.
+13-RC-443,"Miller-Woll, Inc."
+6-RC-303,Mine Safety Appliances Co.
+13-RC-615,Minneapolis Moline Co.
+18-RC-257,Minnesota Mining & Manufacturing Co.
+14-RC-424,"Missouri Distributing Co., Inc."
+17-RC-282,Missouri Service Co.
+15-RC-171,Mississippi Tank Co.
+9-RC-412,Model Laundry Co.
+10-RC-323,Modern Coach Corp.
+31-RC-36,Modern Equipment Co.
+10-RC-527,Modern Upholstered Chair Co.
+13-RC-250,Monarch Air Service.
+21-RC-804,Monolith Portland Cement Co.
+5-RC-148,Monroe Upholstering Co.
+10-RC-368,Monsanto Chemical Co.
+14-RC-441,Monsanto Chemical Co.
+14-RC-451,Monsanto Chemical Co.
+19-RC-46,Monsanto Chemical Co.
+39-RC-50,Monte Alto Citrus Association.
+33-RC-67,Montezuma Grocery Co.
+17-RC-312,Montgomery Ward & Co.
+21-RC-807,Montgomery Ward & Co.
+15-RC-41,"Monticello Charm Tred Mills, Inc."
+15-RC-92,"Monticello Cotton Mills, Inc."
+21-RC-463,Morenci Water & Electric Co.
+14-RC-623,Morley Manufacturing Co.
+2-RC-866,"Morris, William A., Inc."
+34-RC-99,"Morris, W. P., Lumber Co."
+16-RC-318,"Morrison Milling Co., The."
+10-RC-353,Morristown Turning Co.
+21-RC-448,Motor Replacement Co.
+14-RC-227,Mound City Products Co.
+10-RC-168,"Munro-Van Helms Co., Inc."
+16-RC-260,Murdock Tank Co.
+4-RC-148,Murlin Manufacturing Co.
+9-RC-200,"Murphy, G. C., Co."
+16-RC-386,Muskogee Dairy Products Co.
+34-RC-96,Mutual Distributing Co.
+21-RC-711,"Myercord Co., Inc."
+2-RC-848,"Namm's, Inc."
+21-RC-619,Nash Kelvinator Corp.
+21-RC-634,Nash Kelvinator Corp.
+2-RC-651,Nassau Utilities Fuel Corp.
+8-RC-251,"National Automotive Fibres, Inc."
+10-RC-365,"National Brands, Inc."
+2-RC-660,National Broadcasting Co.
+5-RC-214,National Carbide Corp.
+9-RC-367,National Carbide Corp.
+8-RC-237,National Carbon Co.
+8-RC-186,"National Carbon Co., Inc."
+3-RC-251,"National Cash Register Co., The Allen-Wales Adding Machine, Division of."
+9-RC-410,"National Distilleries Products Corp., The."
+1-RC-837,"National Folding Box, Co."
+16-RC-338,"National Geophysical Co., Inc."
+2-RC-366,National Hardware Corp.
+1-RC-744,National Lead Co.
+4-RC-391,National Licorice Co.
+5-RC-240,"National Lumber Co., The."
+10-RC-585,"National Meat Packers, Inc."
+8-RC-302,National Motor & Supply Co.
+2-RC-298,National Surety Corp.
+1-RC-893,Natural Products Co.
+33-RC-45,"Navajo Freight Lines, Inc."
+17-RC-443,"Nebraska Broadcasting Co., Inc."
+2-RC-334,Necco Sales Corp.
+16-RC-384,Nelson Grain Co.
+13-RC-621,"Nelson, Herman Corp."
+8-RC-275,"Nestles Co., Inc."
+19-RC-248,Newberry-Neon-Electric Co.
+13-RC-630,Newburg Machine Co.
+19-RC-133,New England Fish Co.
+1-RC-700,"New England Forestry Service, Inc."
+1-RC-946,"New England Tree Experts Associates, Inc."
+34-RC-92,New England Waste Co. (Charlotte Division).
+1-RC-675,"New Haven Pulp & Board Co., The."
+2-RC-541,New Jersey Wire Goods Co.
+33-RC-47,New Mexico Broadcasting Co.
+15-RC-16,"Newport Industries, Inc."
+5-RC-235,Newport News Children's Dress Co.
+6-RC-143,"New York & Pennsylvania Co., Inc, The."
+38-RC-45,"New York & Porto Rico Steamship Co., et al., The."
+10-RC-241,"New York Steam Laundry, Inc., & Arrow Zoric Dry Cleaners."
+7-RC-419,Nicholson Transit Co.
+7-RC-557,Nicholson Transit Co.
+1-RC-644,"Nison Shoes, Inc."
+15-RC-111,"Noe, James A., Radio Station."
+15-RC-106,Nola Optical Co.
+5-RC-110,"Nolde Bros., Inc."
+10-RC-431,"Norris, Inc."
+30-RC-63,North Denver Lumber Co.
+8-RC-51,"North Electric Manufacturing Co., The."
+18-RC-344,Northern Engineering Co.
+32-RC-81,North Memphis Lumber Co.
+7-RC-343,"Northville Laboratories, Inc"
+19-RC-233,Northwest Freight Lines.
+16-RC-139,Nueces Coast Broadcasting Co.
+13-RC-677,Ny Lint Tool & Manufacturing Co.
+36-RC-233,Oceanside Lumber Co.
+34-RC-90,"Oettinger Lumber Co., Inc."
+8-RC-369,"Ohio Associated Telephone Co., The."
+8-RC-453,"Ohio Boxboard Co., The."
+8-RC-145,Ohio Power Co.
+10-RC-373,Okeelanta Sugar Cooperative.
+16-RC-265,Oklahoma Publishing Co.
+16-RC-327,Oklahoma Transportation.
+1-RC-792,Old Town Shoe Co.
+1-RC-943,"Olin Industries, Inc."
+7-RC-409,Olympia Stadium Corp.
+2-RC-496,Orange Roller Bearing Co.
+36-RC-209,Oregon Portland Cement Co.
+3-RC-112,"O'Rourke Baking Co., Inc."
+13-RC-461,"Oster, John, Manufacturing Co."
+31-RC-18,"Outboard Marine & Manufacturing Co., Evinrude Motors Division."
+7-RC-450,"Overton, S. E., Co."
+6-RC-92,Owens-Corning Fiberglas Corp.
+8-RC-298,Owens-Corning Fiberglas Corp.
+8-RC-356,Owens-Corning Fiberglas Corp.
+13-RC-376,Owens-Illinois Glass Co.
+4-RC-305,"Owens-Illinois Glass Co., American."
+14-RC-509,Ozark Central Telephone Co.
+19-RC-128,Pacific Gamble Robinson Co.
+20-RC-443,Pacific Gas & Electric Co.
+20-RC-298,Pacific Grape Products Co
+20-RC-304,Pacific Slope Lumber Co
+21-RC-503,"Pacific Tankers, Inc."
+20-RC-186,Pacific Telephone & Telegraph Co.
+36-RC-175,Pacific Telephone & Telegraph Co.
+2-RC-1203,"Packard Jackson Heights, Inc."
+1-RC-521,Panther Moccasin Manufacturing Co
+1-RC-722,"Pappas, C., Co., Inc."
+20-RC-495,"Paraffine Companies, Inc."
+14-RC-275,Paramount Liquor Co.
+7-RC-533,Park Davis & Co.
+16-RC-202,Patrick Shipside Warehouse Co.
+4-RC-199,Patterson Parchment Paper Co.
+16-RC-210,Patterson Steel Co.
+4-RC-327,"Paul & Beekman, Inc."
+9-RC-241,Peal Manufacturing Co.
+16-RC-328,Peaslee Gaulbert Corp.
+1-RC-780,"Peirce, S. S., Co."
+35-RC-109,"Penn Coal Co., Inc."
+4-RC-448,"Penn-Hadley Mills, Inc."
+6-RC-179,"Penn Woven, Inc."
+1-RC-748,Penobscot Shoe Co.
+1-RC-770,Peter Pan Bus Lines.
+14-RC-428,Pevely Dairy Co.
+21-RC-614,Phelps-Dodge Corp.
+31-RC-34,Phenix Manufacturing Co.
+6-RC-305,Philadelphia Co.
+4-RC-142,Philadelphia Electric & Manufacturing Co.
+2-RC-678,Phillip Knitting Mills Lynn Knitting Mills.
+16-RC-270,Phillips Chemical Co.
+39-RC-61,Phillips Chemical Co.
+16-RC-275,Phillips Petroleum Co.
+19-RC-124,Phillips & Rowe.
+8-RC-222,Phoenix Machine Co.
+34-RC-124,Piedmont Leaf Tobacco Co.
+10-RC-196,Pierce Motor Co.
+39-RC-7,Piggly-Wiggly Corp.
+34-RC-60,Pine Burr Fashioned Mill.
+8-RC-270,"Pittsburgh Plate Glass Co., Columbia Chemical Division."
+10-RC-309,Pizitz Dry Goods Co
+17-RC-285,Platte-Clay Electric Cooperative.
+2-RC-542,Plymouth Metal Products.
+10-RC-521,Plywood Plastic Corp.
+9-RC-399,"Portrait Frocks, Inc."
+30-RC-123,Post Printing & Publishing Co.
+33-RC-21,Potash Co. of America.
+16-RC-205,Potosi Tie & Lumber Co.
+13-RC-570,Powers Regulator Co.
+5-RC-317,Powhatan Brass & Iron Works.
+14-RC-416,Pre Cast Slab & Tile Co.
+1-RC-929,"Princeton Knitting Mills, Inc."
+16-RC-264,"Proctor & Gamble Manufacturing Co., The."
+13-RC-270,"Progressive Cleaners & Dyers, Inc."
+9-RC-328,"Prophet, Fred B., Co."
+1-RC-443,Providence Public Market Co.
+2-RC-627,"Prudential Insurance Co of America, The."
+2-RC-787,Public Service Electric & Gas Co. of New Jersey.
+6-RC-293,"Puritan Foundations Co., Inc."
+6-RC-151,Quaker State Oil Refining Corp.
+16-RC-312,Quanah Cotton Oil Co.
+5-RC-165,Quick Service Laundry.
+3-RC-258,"Racquette River Paper Co., The."
+4-RC-252,Radio Corporation of America.
+9-RC-191,Raleigh Coca-Cola Bottling Works.
+19-RC-136,Rankin Equipment Co.
+9-RC-198,Rapid Electrotype Co.
+19-RC-125,Rathbun Implement Co.
+10-RC-530,"Ray Lyon Co., Inc."
+21-RC-468,"Raymond, Harold Truck Sales, Inc."
+35-RC-144,Read Canaday Co.
+4-RC-426,Reading Hardware Corp.
+9-RC-447,Ready-Mix Concrete Co.
+35-RC-93,"Recipe Foods, Inc."
+10-RC-351,"Red Bank Mill, Inc."
+18-RC-252,"Red Owl Stores, Inc."
+20-RC-300,Red Star Industrial Service.
+10-RC-381,Red Top Brewing Co.
+2-RC-502,Republic Aviation Corp.
+2-RC-748,Republic Pictures Corp.
+3-RC-186,Republic Steel Corp.
+7-RC-354,Rex Paper Co.
+5-RC-210,Reynolds Metals Co.
+9-RC-361,Reynolds Metals Co.
+21-RC-842,Reynolds Metals Co.
+36-RC-176,Reynolds Metals Co.
+10-RC-237,"Reynolds Metals Co., Reynalite Division."
+34-RC-95,"Reynolds, R. J., Tobacco Co."
+14-RC-651,Rice-Stix Dry Goods Co.
+9-RC-452,"Rich Loaf, Inc."
+7-RC-483,Richman Brothers Co.
+15-RC-98,Riggs Optical Co.
+16-RC-211,Rio Grande Valley Gas Co.
+15-RC-138,Ritchie Grocery Co.
+10-RC-591,Riverside Mills.
+10-RC-395,Roane Anderson Co.
+1-RC-733,"Roberts, F. L., & Co., Inc."
+9-RC-376,"Robinson-Schwenn Store, The."
+10-RC-466,"Rock City Paper Box Co., Inc."
+13-RC-273,Rockford Coca-Cola Bottling Co.
+10-RC-356,Rock Hill Printing & Finishing Co.
+13-RC-507,Rock Island Broadcasting Co.
+13-RC-336,Rock-Ola Manufacturing Corp.
+20-RC-165,Roddenberry Molica Co.
+2-RC-821,"Roddis Plywood & Door Co., Inc."
+16-RC-248,Rohn & Haas.
+7-RC-446,Roosevelt Oil & Refining Corp.
+13-RC-471,"Roper, George D., Corp."
+5-RC-329,"Rosedale Passenger Lines, Inc."
+4-RC-442,"Rosen, Samuel, Co."
+10-RC-283,Rowe Transfer & Storage Co.
+34-RC-137,Royal Cotton Mill.
+1-RC-900,"Royal Crown of Merrimac Valley, Inc."
+10-RC-385,Royal Palm Ice Co.
+10-RC-450,Royal Palm Ice Co.
+1-RC-562,"Royal Shoe Co., Inc."
+10-RC-430,"Rubin Brothers Footwear, Inc."
+19-RC-146,"Safeway Stores, Inc."
+14-RC-656,St. Joseph Lead Co.
+14-RC-276,St. Louis Wholesale Drug Co.
+7-RC-442,St. Regis Paper Co.
+15-RC-109,St. Regis Paper Co.
+19-RC-86,St. Regis Pulp Co. (Kraft Pulp Division).
+21-RC-654,Salinas Valley Vegetable Exchange.
+39-RC-77,San Antonio Machine & Supply Co.
+1-RC-621,"Sandler Moccasin Co., Inc."
+8-RC-285,"Sandusky Newspapers, Inc."
+1-RC-709,"Sangerville Woolen Mills, Inc."
+16-RC-254,San Marcos Telephone Co.
+1-RC-376,"San-Nap-Pak Manufacturing Co., Inc."
+16-RC-60,Santa Fe Trail Transportation Co.
+19-RC-217,Savage Lumber Co.
+8-RC-367,"Schaeffer Body, Inc."
+9-RC-340,Schauer Machine Co.
+21-RC-362,Schenley Distillers Corp.
+7-RC-194,"Scherer, R. P., Corp., Gelatin Products Division."
+39 RC-26,Schlumberger Well Surveying Co.
+1-RC-955,"Schrafft, W. F., & Sons Corp."
+14-RC-397,"Schulman, A., Inc."
+8-RC-466,Shultz Die Casting Co.
+20-RC-415,Scott Motor Co.
+30-RC-82,Screw Machine Products Co.
+30-RC-127,"Screw Machine Products Co., C. A., Braukman & Lucille A."
+4-RC-295,Seaboard Container Corp.
+9-RC-299,"Seagram, Joseph E., & Sons, Inc."
+4-RC-302,Sears Roebuck & Co.
+21-RC-413,Seaside Oil Co.
+18-RC-102,Seeger Refrigerator Co.
+35-RC-138,"Selmer, H. & A., Inc."
+3-RC-194,"Seven-Up of Rochester, Inc."
+16-RC-364,"Shamrock Oil & Gas Corp., The."
+8-RC-190,Sheffield Bronze Paint Corp.
+35-RC-164,Shelbyville Desk Co.
+13-RC-410,Sheldon Machine Co.
+20-RC-331,Shell Chemical Corp.
+17-RC-305,"Shelly Oil Co., Pipe Line Department."
+6-RC-372,Shenango Pottery Co.
+16-RC-341,Sherman Manufacturing Co.
+1-RC-819,"Shevenelle, Prosper & Son, Inc."
+18-RC-115,"Shiely, J. L., Co."
+13-RC-289,"Shiller Brothers, Inc."
+13-RC-504,Signode Steel Strapping Co.
+20-RC-552,"Silva, Wm. J., Co."
+21-RC-59,Simpson Construction Co.
+5-RC-257,"Siris, A. J., Co., Inc."
+34-RC-115,Skyline Cooperative Dairies.
+13-RC-409,"Slaby's, Mrs. Noodle, Co."
+2-RC-624,"Sloane, W. & J."
+21-RC-433,"Smith, A. O., Corp."
+16-RC-325,"Smith, Charles, Nash Co."
+5-RC-181,"Smith Douglas Co., Inc."
+15-RC-244,"Smith, MacGarment Co., Inc."
+32-RC-106,"Smith Rice Mill, Inc."
+16-RC-200,"Smith, W. J., Wood Preserving Co."
+34-RC-65,Sock-It Co.
+2-RC-429,Solar Manufacturing Corp.
+19-RC-91,South Bend Fabricating Co.
+15-RC-182,Southern Alkali Corp.
+39-RC-45,"Southern Co., The."
+5-RC-130,"Southern Dairies, Inc."
+13-RC-256,"Southern Electric, Inc."
+5-RC-88,"Southern Maryland Electric Cooperative, Inc."
+10-RC-542,Southern Mills Corp.
+10-RC-247,Southern Paperboard Corp
+10-RC-538,South Georgia Pecan Shelling Co.
+15-RC-173,"Southland Oils, Inc."
+16-RC-157,"Southland Paper Mills, Inc."
+16-RC-286,Southwestern Electric Service Co.
+16-RC-209,Southwestern Supply & Machine Works.
+13-RC-435,Sparton Teleoptic Co.
+7-RC-282,Special Machine & Engineering Co.
+35-RC-183,"Spickelmier Co., & or Builders Sand & Gravel Co."
+14-RC-688,Spiegel Fashion Shops.
+2-RC-718,Spiral Binding Co.
+2-RC-1068,"Squibb, E. R., & Sons."
+34-RC-94,"Sronce Automotive Supply, Inc."
+10-RC-238,Standard-Coosa-Thatcher Co. (Thatcher Mill).
+14-RC-507,Standard Generator Service Co. of Missouri.
+30-RC-104,Standard Oil Co. (Indiana).
+1-RC-647,"Standard Plastics Co., Inc."
+9-RC-192,"Standard Printing Co., Inc., The."
+7-RC-484,Standard Products Co.
+1-RC-828,Standard Pyroxoloid Co.
+9-RC-408,"Standard Register Co., The."
+17-RC-368,Standard Super Stores.
+16-RC-108,Stanolind Oil & Gas Process Research Section.
+8-RC-445,Stark Broadcasting Corp.
+10-RC-300,"Steel, Inc."
+18-RC-402,Steiger Lumber Co.
+2-RC-824,Stern Brothers.
+10-RC-455,"Stokely Foods, Inc."
+18-RC-169,"Stokely Foods, Inc."
+16-RC-396,"Stone, J. E., Lumber Co."
+20-RC-454,Strathmore District Orange Association.
+15-RC-140,"Strauss, F., & Son, Inc."
+20-RC-535,Strong Co.
+2-RC-258,"Stuart, John, Inc., & John Widdicoms Co."
+7-RC-526,Sturgis Foundry Corp.
+13-RC-244,"Suburban Transit System, Inc."
+21-RC-320,Sun Photo Co.
+39-RC-34,"Sunshine Broadcasting Co., KTSA Radio Station."
+36-RC-268,Superior Cheese Co.
+9-RC-181,Superior Welting Co.
+2-RC-552,Surprise Candy Co.
+17-RC-266,"Swanson, C. A., & Sons."
+1-RC-540,Swift & Co.
+1-RC-575,Swift & Co.
+17-RC-230,Swift & Co.
+20-RC-238,Swift & Co.
+35-RC-97,Swift & Co.
+1-RC-500,"Swift & Co., H. L. Handy Co., d/b/a."
+21-RC-671,Swoape Truck & Crane Service.
+13-RC-607,T & T Tailoring Co.
+10-RC-459,"Tamiami Trail Tours, Inc."
+10-RC-458,"Tampa Transit Lines, Inc."
+10-RC-432,Tanner Brice Co.
+39-RC-63,Taormina Co.
+35-RC-88,"Tarzain, Sarkes."
+9-RC-322,"Taxi Cabs of Cincinnati, Inc. (Ferguson Division)."
+35-RC-203,"Tell, William, Woodcrafters, Inc."
+10-RC-528,"Tennessee Corp., U. S Phosphoric Products Division."
+10-RC-389,"Tennessee Furniture Industries, Inc."
+10-RC-340,"Tennessee Valley Fertilizer Co-op, Inc."
+16-RC-192,Texas Construction Material Co.
+16-RC-247,"Texas Foundries, Inc."
+39-RC-3,Texas Long Leaf Lumber Co.
+16-RC-147,Texas Public Service Co.
+16-RC-269,Texas Vitrified Pipe Co.
+16-RC-226,Texmass Petroleum Co.
+39-RC-32,Texsun Citrus Exchange.
+5-RC-131,"Thalhimer Brothers, Inc."
+5-RC-197,"Thalhimer Brothers, Inc."
+5-RC-261,"Thalhimer Brothers, Inc."
+20-RC-182,Thermoid Western Co.
+20-RC-261,Thermoid Western Co.
+10-RC-554,Thompson & Swaim Plywood Co.
+7-RC-197,"Timken Detroit Axle Co., The."
+19-RC-105,"Tingling & Powell & Electric Constructors, Inc."
+8-RC-276,"Tinnerman Products, Inc."
+16-RC-191,Tin Processing Corp.
+10-RC-411,Tip Top Grocery Co.
+2-RC-368,Todd's Shipyard.
+2-RC-621,Toledo Scale Co.
+8-RC-379,"Tool-Die Engineering Co., Casting Division."
+7-RC-455,Tower Tool & Die Co.
+14-RC-587,Transit Casualty Co.
+7-RC-509,"Trendle, Campbell, Broadcasting Co."
+7-RC-437,Trenton Technical Laboratory.
+1-RC-556,Tribune Publishing Co.
+10-RC-342,Trueman Fertilizer Co.
+2-RC-842,Trust Co. of New Jersey.
+7-RC-243,"Turner-Brooks, Inc. (Shade & Bline Department)."
+15-RC-146,Tyner-Petrus Co.
+21-RC-810,Tyre Brothers Glass & Paint Co.
+39-RC-74,"Union Bus Lines, Inc."
+3-RC-241,Union Carbide & Carbon Corp. (Electro Metallurgical Division).
+21-RC-322,Union Steel Co.
+2-RC-953,Unique Art Manufacturing Co.
+2-RC-577,"Unique Window Balance Co., Inc."
+16-RC-310,"United Aircraft Corp. (Chance Vought Aircraft Corp., Division)."
+32-RC-105,United Clay Mines Corp.
+7-RC-475,United Drill & Tools Corp.
+16-RC-166,United States Air Conditioning Corp.
+1-RC-327,United States Gypsum Co.
+2-RC-631,United States Gypsum Co.
+2-RC-955,United States Gypsum Co.
+4-RC-407,United States Gypsum Co.
+6-RC-193,United States Gypsum Co.
+7-RC-424,United States Gypsum Co.
+18-RC-129,United States Gypsum Co.
+20-RC-178,United States Gypsum Co.
+20-RC-191,United States Gypsum Co.
+21-RC-327,United States Gypsum Co.
+21-RC-358,United States Gypsum Co.
+21-RC-633,United States Gypsum Co.
+7-RC-457,United States Gypsum Corp.
+10-RC-566,United States Pipe & Foundry Co.
+13-RC-342,United States Rubber Co.
+13-RC-414,United States Rubber Co.
+13-RC-700,United States Rubber Co.
+21-RC-239,United States Rubber Co.
+32-RC-122,United States Rubber Co.
+7-RC-435,Universal Car & Service Co.
+10-RC-577,Universal Exploration Co.
+17-RC-262,Universal Sales Co.
+2-RC-474,Universal Steel Equipment Co.
+13-RC-567,"Universal Tool & Die Works, Inc."
+17-RC-242,Universal Trailer & Manufacturing Corp.
+19-RC-249,Urban-Smythe & Warren Co.
+19-RC-137,Utah & Idaho Sugar Co.
+10-RC-422,"Valdosta Milling Co., Inc."
+10-RC-320,Vance Iron & Steel Co.
+10-RC-582,Victor Chemical Works.
+1-RC-656,Victory Plastics Co.
+1-RC-622,"Viner Brothers, Inc."
+5-RC-102,"Virginia Hosiery Mills, Inc."
+5-RC-173,"Virginia Stage Lines, Inc."
+32-RC-102,"Volney Felt Mills, Inc."
+33-RC-66,"Vaio, M., & Sons."
+10-RC-601,WDXB Broadcasting Station.
+38-RC-21,"WIAC, Radio Station."
+2-RC-338,"WPIX Television Station, News Syndicate."
+34-RC-85,"WPTF Radio Co., The."
+5-RC-244,"WQQW Radio Station, Inc."
+15-RC-108,"WSMB, Inc."
+8-RC-177,"WSRS, Inc."
+15-RC-228,W. & W. Pickle & Canning Co.
+18-RC-192,Wahkonsa Foundry.
+34-RC-139,"Waldensian Hosiery Mills, Inc."
+1-RC-981,Waldroth Label Corp.
+32-RC-54,Walnut Ridge Manufacturing Co.
+3-RC-225,"Ware, LaFrance, Truck Corp."
+21-RC-428,Warner Printing Co.
+1-RC-732,"Warners Brothers Co., The."
+4-RC-198,Warren Foundry & Pipe Corp.
+19-RC-144,Wasatch Oil Co.
+9-RC-267,Washington Overall Manufacturing Co.
+34-RC-103,Washington Tobacco Co.
+9-RC-194,Waterproof Ohio Paper Co.
+2-RC-881,Watson Flagg Machine Co.
+7-RC-374,"Watts & Whelan Co., Inc."
+13-RC-675,"Weatherhead Co., The."
+3-RC-167,Weed & Co.
+5-RC-80,"Welding Shipyards, Inc."
+18-RC-297,"Wells, J. W., Lumber Co."
+13-RC-417,Wells Manufacturing Co.
+36-RC-143,Weyerhaeuser Timber Co.
+15-RC-211,West Brook Manufacturing Co.
+21-RC-348,West Coast Supply Co.
+1-RC-559,Western Auto Supply Co.
+13-RC-684,Western Condensing Co.
+4-RC-403,"Western Electric Co., Inc."
+13-RC-511,"Western Electric Co., Inc."
+13-RC-647,"Western Electric Co., Inc."
+18-RC-398,"Western Electric Co., Inc."
+35-RC-175,"Western Electric Co., Inc."
+39-RC-18,Western Steel Co.
+7-RC-84,"Western Tablet & Stationery Corp., Kalamazoo Stationery Co."
+36-RC-232,Western Veneer Co.
+36-RC-294,Western Wool Storage Co.
+6-RC-323,Westinghouse Air Brake Co.
+1-RC-868,Westinghouse Electric Corp.
+2-RC-247,Westinghouse Electric Corp.
+17-RC-371,Westinghouse Electric Corp.
+20-RC-473,Westinghouse Electric Corp.
+6-RC-62,Westinghouse Electric Corp. (East Pittsburgh Division.)
+20-RC-196,Westinghouse Electric Coast Brake Co.
+8-RC-305,Westinghouse Electric Supply Co.
+21-RC-445,"Weston Biscuit Co., Inc."
+20-RC-553,West San Joaquin Tractor Co.
+5-RC-153,West Virginia Pulp & Paper Co.
+10-RC-590,West Virginia Pulp & Paper Co.
+4-RC-265,"Wheeler, C. H., Manufacturing Co."
+10-RC-567,"White Belt Dairy Farms, Inc."
+19-RC-301,White River Lumber Co.
+2-RC-373,Whitecarver Truck Rental Corp.
+9-RC-392,White Sulphur Springs Co.
+10-RC-481,Whiteway Pure Milk Co.
+20-RC-536,"Willett, W. B., Co."
+2-RC-981,"Willys-Newark, Inc."
+7-RC-138,"Wilson Athletic Goods Manufacturing Co., Inc."
+7-RC-357,Wilson Foundry & Machine Co.
+3-RC-208,Wilson & Co.
+18-RC-175,Wilson & Co.
+10-RC-322,"Wilson & Co., Inc."
+10-RC-341,"Wilson & Co., Inc."
+13-RC-430,"Wilson & Co., Inc."
+17-RC-238,"Wilson & Co., Inc."
+18-RC-232,"Wilson & Co., Inc."
+18-RC-233,"Wilson & Co., Inc."
+18-RC-234,"Wilson & Co., Inc."
+8-RC-158,Wilson Transit Co.
+10-RC-352,"Winn & Lovett Grocery Co., Inc."
+18-RC-289,Winston & Newell Co.
+1-RC-897,"Wise, Smith & Co., Inc."
+2-RC-743,Wodaam Corp. (Radio Station WOV).
+6-RC-242,"Wolf Co., The."
+16-RC-193,"Wolf, John E., Co."
+7-RC-170,Wolverine Shoe & Tanning Corp.
+7-RC-323,Wolverine Upholstery Co.
+10-RC-274,"Woodward Iron Co., The."
+9-RC-403,"Woolworth, F. W., Co."
+13-RC-434,"Woolworth, F. W., Co."
+1-RC-787,"Wovencraft, Inc."
+2-RC-689,Wright Aeronautical Corp.
+2-RC-690,Wright Aeronautical Corp.
+10-RC-525,Yarbrough Motor Co.
+4-RC-277,"York Paper Manufacturing Co., Inc."
+8-RC-312,Zanesville Rapid Transit Co.
+C. LMRA: RM cases—petition by an employer for certification of representatives for purpose of collective bargaining under section 9 (c) (1) (B),
+8-RM-5,Akron Brick & Block Co.
+2-RM-67,Armour & Co.
+3-RM-34,"Bailey Slipper Shop, Inc."
+18-RM-28,Bay State Milling Co.
+13-RM-21,"Bee Products, Inc."
+21-RM-85,Blue Diamond Corp.
+18-RM-54,"Borchert-Ingersoll, Inc."
+34-RM-3,Caroline Power & Light Co.
+2-RM-56,"Cocoline Products, Inc."
+3-RM-32,Comstock Canning Corp.
+16-RM-14,"Continental Bus System, Inc."
+21-RM-98,Continental Southern Corp.
+16-RM-13,Deep Rock Oil Corp.
+2-RM-90,European Dyeing & Finishing Co.
+20-RM-36,Gibson Paint Co.
+1-RM-51,"Greyhound Corp., The New England Greyhound Lines, Inc."
+36-RM-26,Haleston Drug Stores.
+21-RM-84,Hartman Concrete Materials Co.
+2-RM-88,"Hearn Department Stores, Inc."
+19-RM-1,"Hull-Rodell Motors, Inc."
+20-RM-14,"Kress, S. H., & Co."
+8-RM-15,Liquid Carbonic Corp.
+7-RM-23,Michigan Bell Telephone Co.
+14-RM-12,Mid-Continent Coal Corp.
+10-RM-24,Murray Motor Transport.
+3-RM-29,"Oswego Sheet Metal Works, Inc."
+20-RM-18,Pacific American Shipowners Association.
+18-RM-32,Preston Co-Operative Creamery Association.
+2-RM-70,"Prudential Insurance Co. of America, The."
+35-RM-10,"Retail Merchants Association of Terre Haute, Ind."
+3-RM-26,"Revere Copper & Brass, Inc."
+2-RM-91,RKO Service Corp.
+13-RM-28,"Rockford Die & Tool Works, Inc."
+13-RM-25,"Shidler Brothers, Inc."
+1-RM-23,"Snodgrass, Ellis C., Inc."
+10-RM-16,Standard-Coosa-Thatcher Co.
+20-RM-31,Westinghouse Electric Corp.
+21-RM-76,Whitney's.
+7-RM-17,Yale Rubber Manufacturing Co.
+2-RM-77,York Motor Express Co.

@@ -1,3 +1,47 @@
-Industrial group,Elections and pay-roll checks / Number,Elections and pay-roll checks / Percent,Valid votes cast / Number,Valid votes cast / Percent,Winner / A. F. of L. / Number,Winner / A. F. of L. / Percent,Winner / C. I. O. / Number,Winner / C. I. O. / Percent,Winner / Unaffiliated / Number,Winner / Unaffiliated / Percent,Winner / No union / Number,Winner / No union / Percent
-Mining,219,4.6,21084,2.0,54,24.7,70,32.0,40,18.3,45,20.5
-"Transportation, communication, and other public utilities",356,7.6,56933,5.3,148,41.6,80,22.5,73,20.5,55,15.4
+Industrial group,Elections and pay-roll checks,Elections and pay-roll checks,Valid votes cast,Valid votes cast,Winner,Winner,Winner,Winner,Winner,Winner,Winner,Winner
+Industrial group,Number,Percent,Number,Percent,A. F. of L. affiliates,A. F. of L. affiliates,C. I. O. affiliates,C. I. O. affiliates,Unaffiliated unions,Unaffiliated unions,No union,No union
+Industrial group,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+Total,"4,712",100.0,"1,072,594",100.0,"1,500",31.8,"1,890",40.1,593,12.6,729,15.5
+Manufacturing,"3,810",80.9,"960,197",89.5,"1,172",30.8,"1,640",43.0,454,11.9,544,14.3
+Food and kindred products,284,6.0,"25,837",2.4,134,47.2,84,29.6,15,5.3,51,17.9
+Tobacco manufactures,13,.3,"15,269",1.4,3,23.1,9,69.2,0,.0,1,7.7
+Textile-mill products,185,3.9,"58,061",5.4,48,25.9,79,42.7,16,8.7,42,22.7
+Apparel and other finished products made from fabrics and similar materials,101,2.1,"17,179",1.6,30,29.7,39,38.6,7,6.9,25,24.8
+Lumber and timber basic products,172,3.7,"14,078",1.3,57,33.2,75,43.6,9,5.2,31,18.0
+Furniture and finished lumber products,109,2.3,"11,401",1.1,25,23.0,59,54.1,6,5.5,19,17.4
+Paper and allied products,101,2.1,"19,783",1.8,53,52.5,16,15.8,24,23.8,8,7.9
+"Printing, publishing, and allied industries",103,2.2,"4,547",.4,50,48.5,17,16.5,17,16.5,19,18.5
+Chemicals and allied products,311,6.6,"68,362",6.4,108,34.7,107,34.4,67,21.6,29,9.3
+Products of petroleum and coal,92,2.0,"13,406",1.2,27,29.4,44,47.8,15,16.3,6,6.5
+Rubber products,37,.8,"8,432",.8,6,16.2,26,70.3,3,8.1,2,5.4
+Leather and leather products,69,1.5,"16,849",1.6,14,20.3,35,50.7,8,11.6,12,17.4
+"Stone, clay, and glass products",101,2.1,"22,527",2.1,45,44.6,32,31.7,8,7.9,16,15.8
+Iron and steel and their products,678,14.4,"138,257",12.9,170,25.1,358,52.8,73,10.8,77,11.3
+Nonferrous metals and their products,143,3.0,"35,983",3.4,45,31.5,63,44.0,19,13.3,16,11.2
+Machinery (except electrical),446,9.5,"81,459",7.6,103,23.1,208,46.6,63,14.2,72,16.1
+Electrical machinery,195,4.1,"44,970",4.2,43,22.0,100,51.3,29,14.9,23,11.8
+Transportation equipment,591,12.6,"344,075",32.1,187,31.6,248,42.0,74,12.5,82,13.9
+Aircraft and parts,312,6.6,"237,005",22.1,111,35.6,117,37.5,39,12.5,45,14.4
+Automotive equipment and parts,64,1.4,"13,059",1.2,9,14.1,40,62.5,8,12.5,7,10.9
+Ship and boat building and repairing,194,4.1,"87,452",8.2,61,31.4,83,42.8,23,11.9,27,13.9
+Other,21,.5,"6,559",.6,6,28.6,8,38.1,4,19.0,3,14.3
+Miscellaneous manufacturing,79,1.7,"19,722",1.8,24,30.4,41,51.9,1,1.3,13,16.4
+Agriculture and forestry,2,.1,41,,2,100.0,0,.0,0,.0,0,.0
+Mining,219,4.6,"21,084",2.0,64,29.2,70,32.0,40,18.3,45,20.5
+Metal mining,83,1.8,"12,029",1.1,31,37.4,43,51.8,4,4.8,5,6.0
+Coal mining,47,1.0,"3,794",.4,7,14.9,0,.0,26,55.3,14,29.8
+Crude petroleum and natural gas production,31,.6,"1,454",.1,8,25.8,14,45.2,0,.0,9,29.0
+Nonmetallic mining and quarrying,58,1.2,"3,807",.4,18,31.0,13,22.4,10,17.3,17,29.3
+Construction,16,.3,"2,075",.2,5,31.3,4,25.0,4,25.0,3,18.7
+Wholesale trade,114,2.4,"4,074",.4,34,29.8,39,34.2,6,5.3,35,30.7
+Retail trade,68,1.4,"12,062",1.1,23,33.8,20,29.4,2,3.0,23,33.8
+"Finance, insurance, and real estate",57,1.2,"10,227",1.0,22,38.6,17,29.8,9,15.8,9,15.8
+"Transportation, communication, and other public utilities",356,7.6,"56,935",5.3,148,41.6,80,22.5,73,20.5,55,15.4
+Highway passenger transportation,24,.5,"1,515",.1,15,62.5,2,8.3,2,8.3,5,20.9
+Highway freight transportation,25,.5,944,.1,13,52.0,2,8.0,2,8.0,8,32.0
+Water transportation,26,.6,"3,670",.4,7,26.9,11,42.3,4,15.4,4,15.4
+Warehousing and storage,35,.8,"3,413",.3,11,31.4,15,42.9,4,11.4,5,14.3
+Other transportation,29,.6,"3,322",.3,4,13.8,15,51.7,2,6.9,8,27.6
+Communication,55,1.2,"18,675",1.7,24,43.6,4,7.3,22,40.0,5,9.1
+"Heat, light, power, water, and sanitary service",162,3.4,"25,396",2.4,74,45.7,31,19.1,37,22.8,20,12.4
+Services,70,1.5,"5,899",.5,30,42.9,20,28.6,5,7.1,15,21.4

@@ -1,24 +1,27 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7
-1. Boston,5,5,4,10,28,20,8
-2. New York,41,33,25,43,59,40,19
-3. Buffalo,4,3,2,4,21,18,3
-4. Philadelphia,16,14,8,18,35,27,8
-5. Baltimore,13,10,4,26,31,27,4
-6. Pittsburgh,7,8,6,a,9,7,2
-7. Detroit,8,10,8,11,24,21,3
-8. Cleveland,22,10,4,15,15,6,9
-9. Cincinnati,7,8,4,9,9,5,4
-10. Atlanta,28,22,15,23,44,35,9
-11. Indianapolis,17,7,10,23,29,15,19
-12. Milwaukee,4,9,9,9,4,4,
-13. Chicago,16,24,24,27,43,36,7
-14. St. Louis,8,5,3,6,15,13,2
-15. New Orleans,6,6,2,5,5,5,
-16. Forth Worth,15,13,16,17,35,33,2
-17. Kansas City,6,7,4,5,21T,18,3
-18. Minneapolis,19,12,9,14,15,8,7
-19. Seattle,11,6,3,,18,17,1
-20. San Francisco,22,14,8,4 14,25,5,20
-21. Los Angeles,13,21,17,12,'-' - --34,27,7
-22. Denver,9,7,4,7,8,8,
-Board',1,1,,,3,3,
+Region,Total number of cases on docket during fiscal year,Total number of cases closed during fiscal year,Cases closed before formal action,Cases closed before formal action,Cases closed before formal action,Cases closed before formal action,Cases closed before formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,Cases closed after formal action,"Total cases pending on June 30, 1940"
+Region,Total number of cases on docket during fiscal year,Total number of cases closed during fiscal year,Cases closed before formal action,Cases closed before formal action,Cases closed before formal action,Cases closed before formal action,Cases closed before formal action,Total,Prior to hearing,Prior to hearing,Prior to hearing,Prior to issuance of intermediate report or proposed findings,Prior to issuance of intermediate report or proposed findings,Prior to issuance of intermediate report or proposed findings,Prior to issuance of intermediate report or proposed findings,After issuance of intermediate report or proposed findings,After issuance of intermediate report or proposed findings,After issuance of intermediate report or proposed findings,After issuance of intermediate report or proposed findings,After Board decision,After Board decision,After Board decision,After Board decision,After court action,After court action,After court action,"Total cases pending on June 30, 1940"
+Region,Total number of cases on docket during fiscal year,Total number of cases closed during fiscal year,Total,Settled,Dismissed,Withdrawn,Otherwise closed,Total,Settled,Dismissed,Withdrawn,Settled,Dismissed,Withdrawn,Otherwise closed,Dismissed,Withdrawn,Compliance secured,Co. liquidation,Dismissed,Withdrawn,Compliance secured,Otherwise closed,Dismissed,Compliance secured,Otherwise closed,"Total cases pending on June 30, 1940"
+1. Boston,438,365,332,174,70,87,1,33,1,,,,,,,2,,,,,,7,10,1,11,1,73
+2. New York,961,696,606,275,161,167,3,90,9,5,2,3,1,1,,1,,11,2,4,,11,4,,35,1,265
+3. Buffalo,122,79,63,30,13,17,3,16,,,,,,1,,,1,1,,2,,6,,,5,0,43
+4. Philadelphia,264,171,144,63,36,45,,27,,1,,,,,,2,,2,,3,,10,,,9,,93
+5. Baltimore,424,309,256,117,43,95,1,53,1,,1,,,,,,,,,13,2,13,3,1,19,,115
+6. Pittsburgh,176,115,107,40,18,49,,8,,,,1,,,,,,,,1,,1,,,5,,61
+7. Detroit,284,170,147,55,39,53,,23,2,,,1,,,,,,2,,8,,4,,,6,,114
+8. Cleveland,355,246,228,81,35,111,1,18,,,,,,,,,1,,,1,,9,,1,5,1,109
+9. Cincinnati,304,233,222,145,31,46,,11,1,,,,,,,,2,2,,,,3,,,3,,71
+10. Atlanta,279,182,142,65,43,34,,40,4,,1,2,,,,1,,1,,7,,10,,1,13,,97
+11. Indianapolis,234,159,132,40,40,50,2,27,,,,,,,,1,,2,,1,,5,2,,16,,75
+12. Milwaukee,233,174,162,117,8,37,,12,1,,,,,,,,,1,,,,5,,,5,,59
+13. Chicago,399,231,206,90,35,80,1,25,1,,,2,,,,,,,1,4,,6,1,1,9,,168
+14. St. Louis,152,73,65,19,9,37,,8,,,,,,,,,2,1,,2,,,,,3,,79
+15. New Orleans,198,145,117,69,21,23,4,28,,,,1,,,,,1,,,,,4,,1,21,,53
+16. Fort Worth,218,150,131,61,39,31,,19,,,,,,,,,1,2,,5,,3,3,,5,0,68
+17. Kansas City,276,150,132,67,18,47,,18,,,,,,,,,,,,1,,4,,,13,,126
+18. Minneapolis,198,120,113,47,23,43,,7,3,,,,,,,,,,,1,,,,,3,,78
+19. Seattle,260,173,156,53,41,62,,17,1,,,1,,,,,,1,,2,,7,,,5,,87
+20. San Francisco,426,275,259,85,115,59,,16,2,,,1,2,,1,3,,,,2,,1,,,4,,151
+21. Los Angeles,478,348,322,102,88,127,5,26,1,,1,,,,,,1,,,5,,7,1,,10,,130
+22. Denver,149,99,89,40,4,43,2,10,1,,,1,,,,,2,,,1,,2,2,,1,,50
+Board,8,1,1,1,,,,,,,,,,,,,,,,,,,,,,,7
+Total,"6,836","4,664","4,132","1,836",930,"1,343",23,532,28,6,5,13,3,2,1,10,11,26,3,63,2,118,26,6,206,3,"2,172"

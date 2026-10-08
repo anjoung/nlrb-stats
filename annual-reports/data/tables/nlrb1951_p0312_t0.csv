@@ -1,18 +1,44 @@
-Stage and method,All R cases — Number of cases,All R cases — Percent of cases closed,RC cases — Number of cases,RC cases — Percent of cases closed,RM cases — Number of cases,RM cases — Percent of cases closed,RD cases — Number of cases,RD cases — Percent of cases closed
-Total number of cases closed,10291,100.0,9439,100.0,492,100.0,360,100.0
-"Before formal action, total",7653,74.4,7012,74.3,380,77.2,261,72.5
-Adjusted,4780,,4571,,162,,47,
-Consent election,3902,,3746,,118,,38,
-Stipulated election,695,,665,,21,,9,
-Recognition,183,,160,,23,,0,
-Withdrawn,2191,,1931,,118,,142,
-Dismissed,650,,502,,76,,72,
-Closed otherwise,32,,8,,24,,0,
-"After formal action, total",2638,25.6,2427,25.7,112,22.8,99,27.5
-"Before hearing, total",401,3.9,358,3.8,18,3.7,25,7.0
-After hearing,296,2.9,266,2.8,18,3.7,12,3.3
-After Board decision,1941,18.8,1803,19.1,76,15.4,62,17.2
-Board ordered election,1549,,1458,,53,,38,
-Dismissed without election,266,,228,,17,,21,
-Withdrawn,116,,109,,4,,3,
-Stipulated election and post-election hearing and decision,10,,8,,2,,0,
+Stage and method,All C cases,All C cases,N. L. R. A. C cases,N. L. R. A. C cases,CA cases,CA cases,Other C cases,Other C cases
+Stage and method,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"5,503",100.0,137,100.0,"4,168",100.0,"1,198",100.0
+"Before formal action, total","4,800",87.3,0,0.0,"3,742",89.8,"1,058",88.3
+Adjusted,965,,0,,796,,169,
+Withdrawn,"2,532",,0,,"1,982",,550,
+Dismissed,"1,296",,0,,960,,336,
+Closed otherwise,7,,0,,4,,3,
+"After 10 (k) notice of hearing, total",18,.3,,,,,18,1.5
+Before 10 (k) hearing,6,,,,,,6,
+Adjusted,3,,,,,,3,
+Withdrawn,3,,,,,,3,
+After 10 (k) hearing,3,,,,,,3,
+Adjusted,1,,,,,,1,
+Withdrawn,1,,,,,,1,
+Otherwise,1,,,,,,1,
+After 10 (k) hearing and decision and determination of dispute,7,,,,,,7,
+Compliance,6,,,,,,6,
+Withdrawn,1,,,,,,1,
+After 10 (k) hearing and decision and order quashing the notice of hearing,2,,,,,,2,
+"After complaint, total",685,12.4,137,100.0,426,10.2,122,10.2
+Before hearing,111,2.0,0,,90,2.2,21,1.8
+Adjusted,78,,0,,63,,15,
+Withdrawn,21,,0,,18,,3,
+Dismissed,12,,0,,9,,3,
+After hearing,89,1.6,0,0,68,1.6,21,1.8
+Adjusted,27,,0,,19,,8,
+Compliance with intermediate report,42,,0,,32,,10,
+Withdrawn,10,,0,,9,,1,
+Dismissed,10,,0,,8,,2,
+After board decision,253,4.6,19,13.9,176,4.2,58,4.8
+"Compliance, total",164,,17,,115,,32,
+Stipulated decision,12,,2,,8,,2,
+Contested decision,118,,15,,85,,18,
+Order adopting intermediate report in absence of exceptions,34,,0,,22,,12,
+"Dismissed, total",85,,2,,57,,26,
+Contested decision,66,,2,,43,,21,
+Order adopting intermediate report in absence of exceptions,19,,0,,14,,5,
+Closed otherwise,4,,0,,4,,0,
+After court action,232,4.2,118,86.1,92,2.2,22,1.8
+Compliance with consent decree,160,,68,,73,,19,
+Compliance with court order,54,,38,,14,,2,
+Dismissed,13,,10,,2,,1,
+Closed otherwise,5,,2,,3,,0,

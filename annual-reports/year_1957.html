@@ -113,6 +113,14 @@ ul.dl-list li { margin: 0.25rem 0; }
 h3 { font-size: 1rem; margin: 1.1rem 0 0.25rem; }
 ul.link-list { margin: 0.4rem 0 1.25rem; padding-left: 1.2rem; }
 ul.link-list li { margin: 0.3rem 0; }
+/* v2: footnotes, the arithmetic line, the reader's notes */
+ol.footnotes { font-size: 12.5px; color: #333; margin: 0 0 1rem; padding-left: 1.4rem; }
+p.check { font-size: 12.5px; color: var(--muted); margin: 0 0 0.6rem; }
+p.check b { color: #1a1a1a; font-weight: 600; }
+details.notes { font-size: 12.5px; margin: 0 0 1rem; }
+details.notes summary { cursor: pointer; color: var(--accent); }
+details.notes p { margin: 0.3rem 0 0.3rem 1rem; color: #333; }
+h2.page-break { font-size: 0.95rem; color: var(--muted); margin: 1rem 0 0.2rem; }
 </style>
 </head>
 <body>
@@ -122,45 +130,38 @@ ul.link-list li { margin: 0.3rem 0; }
 <h1>NLRB statistical tables — FY1957</h1>
 <table class="listing">
 <thead>
-<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
+<tr><th>Item<span class="arrow">↕</span></th><th>Type<span class="arrow">↕</span></th><th>Printed as<span class="arrow">↕</span></th><th>Source page<span class="arrow">↕</span></th></tr>
 </thead>
 <tbody>
-<tr><td><a href="table_nlrb1957_p0018_t0.html">Fiscal statement</a></td><td><span class="type-label">Table</span></td><td>18</td></tr>
-<tr><td><a href="table_nlrb1957_p0173_t0.html">Total cases received, closed, and pending (complainant or petitioner identified)</a></td><td><span class="type-label">Table</span></td><td>173</td></tr>
-<tr><td><a href="table_nlrb1957_p0175_t0.html">Types of unfair labor practices alleged</a></td><td><span class="type-label">Table</span></td><td>175</td></tr>
-<tr><td><a href="table_nlrb1957_p0175_t1.html">Formal actions taken, by number of cases</a></td><td><span class="type-label">Table</span></td><td>175</td></tr>
-<tr><td><a href="table_nlrb1957_p0177_t0.html">Industrial distribution of unfair labor practice and representation cases received</a></td><td><span class="type-label">Table</span></td><td>177</td></tr>
-<tr><td><a href="table_nlrb1957_p0178_t0.html">Unfair labor practice and representation cases received — by State</a></td><td><span class="type-label">Table</span></td><td>178</td></tr>
-<tr><td><a href="table_nlrb1957_p0179_t0.html">Geographic distribution of unfair labor practice and representation cases received</a></td><td><span class="type-label">Table</span></td><td>179</td></tr>
-<tr><td><a href="table_nlrb1957_p0179_t1.html">Disposition of unfair labor practice cases closed</a></td><td><span class="type-label">Table</span></td><td>179</td></tr>
-<tr><td><a href="table_nlrb1957_p0180_t0.html">Disposition of representation cases closed</a></td><td><span class="type-label">Table</span></td><td>180</td></tr>
-<tr><td><a href="table_nlrb1957_p0180_t1.html">Stages of disposition of unfair labor practice cases closed</a></td><td><span class="type-label">Table</span></td><td>180</td></tr>
-<tr><td><a href="table_nlrb1957_p0181_t0.html">Stages of disposition of unfair labor practice cases closed</a></td><td><span class="type-label">Table</span></td><td>181</td></tr>
-<tr><td><a href="table_nlrb1957_p0182_t0.html">Methods of disposition of representation cases closed</a></td><td><span class="type-label">Table</span></td><td>182</td></tr>
-<tr><td><a href="table_nlrb1957_p0183_t0.html">Types of elections conducted</a></td><td><span class="type-label">Table</span></td><td>183</td></tr>
-<tr><td><a href="table_nlrb1957_p0183_t1.html">Results of union-shop deauthorization polls</a></td><td><span class="type-label">Table</span></td><td>183</td></tr>
-<tr><td><a href="table_nlrb1957_p0184_t0.html">Collective-bargaining elections — by union affiliation</a></td><td><span class="type-label">Table</span></td><td>184</td></tr>
-<tr><td><a href="table_nlrb1957_p0184_t1.html">Outcome of collective-bargaining elections, and number of employees in units</a></td><td><span class="type-label">Table</span></td><td>184</td></tr>
-<tr><td><a href="table_nlrb1957_p0185_t0.html">Decertification elections — by union affiliation</a></td><td><span class="type-label">Table</span></td><td>185</td></tr>
-<tr><td><a href="table_nlrb1957_p0185_t1.html">Voting in decertification elections</a></td><td><span class="type-label">Table</span></td><td>185</td></tr>
-<tr><td><a href="table_nlrb1957_p0186_t0.html">Size of units in collective-bargaining and decertification elections</a></td><td><span class="type-label">Table</span></td><td>186</td></tr>
-<tr><td><a href="table_nlrb1957_p0187_t0.html">Collective-bargaining elections — by State</a></td><td><span class="type-label">Table</span></td><td>187</td></tr>
-<tr><td><a href="table_nlrb1957_p0188_t0.html">Geographic distribution of collective-bargaining elections</a></td><td><span class="type-label">Table</span></td><td>188</td></tr>
-<tr><td><a href="table_nlrb1957_p0189_t0.html">Collective-bargaining elections</a></td><td><span class="type-label">Table</span></td><td>189</td></tr>
-<tr><td><a href="table_nlrb1957_p0190_t0.html">Injunction litigation under Sec. 10(j) and 10(l)</a></td><td><span class="type-label">Table</span></td><td>190</td></tr>
-<tr><td><a href="table_nlrb1957_p0190_t1.html">Litigation for enforcement or review of Board orders</a></td><td><span class="type-label">Table</span></td><td>190</td></tr>
-<tr><td><a href="table_nlrb1957_p0191_t0.html">Record of injunctions petitioned for, or acted upon</a></td><td><span class="type-label">Table</span></td><td>191</td></tr>
-<tr><td><a href="table_nlrb1957_p0192_t0.html">Record of injunctions petitioned for, or acted upon</a></td><td><span class="type-label">Table</span></td><td>192</td></tr>
-<tr><td><a href="table_nlrb1957_p0193_t0.html">Injunction litigation under Sec. 10(j) and 10(l)</a></td><td><span class="type-label">Table</span></td><td>193</td></tr>
-<tr><td><a href="table_nlrb1957_p0194_t0.html">Record of injunctions petitioned for, or acted upon</a></td><td><span class="type-label">Table</span></td><td>194</td></tr>
-<tr><td><a href="table_nlrb1957_p0195_t0.html">Injunction litigation under Sec. 10(l)</a></td><td><span class="type-label">Table</span></td><td>195</td></tr>
-<tr><td><a href="table_nlrb1957_p0196_t0.html">Record of injunctions petitioned for, or acted upon</a></td><td><span class="type-label">Table</span></td><td>196</td></tr>
-<tr><td><a href="table_nlrb1957_p0197_t0.html">Record of injunctions petitioned for or acted upon</a></td><td><span class="type-label">Table</span></td><td>197</td></tr>
-<tr><td><a href="table_nlrb1957_p0198_t0.html">Record of injunctions petitioned for, or acted upon</a></td><td><span class="type-label">Table</span></td><td>198</td></tr>
-<tr><td><a href="table_nlrb1957_p0199_t0.html">Injunction litigation under Sec. 10(l)</a></td><td><span class="type-label">Table</span></td><td>199</td></tr>
+<tr><td><a href="table_nlrb1957_p0019_t0.html">Expenditures and obligations — by object class</a><br><span class="hint">Obligations and expenditures by object class</span></td><td><span class="type-label">Table</span></td><td></td><td>19</td></tr>
+<tr><td><a href="table_nlrb1957_p0174_t0.html">Total cases received, closed, and pending (complainant or petitioner identified)</a><br><span class="hint">Total Cases Received, Closed, and Pending (Complainant or Petitioner Identified), Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 1</td><td>174</td></tr>
+<tr><td><a href="table_nlrb1957_p0175_t0.html">Types of unfair labor practices alleged</a><br><span class="hint">Unfair Labor Practice and Representation Cases Received, Closed, and Pending (Complainant or Petitioner Identified), Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 1A</td><td>175</td></tr>
+<tr><td><a href="table_nlrb1957_p0176_t0.html">Types of unfair labor practices alleged</a><br><span class="hint">Types of Unfair Labor Practices Alleged, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 2</td><td>176</td></tr>
+<tr><td><a href="table_nlrb1957_p0176_t1.html">Formal actions taken, by number of cases</a><br><span class="hint">Formal Actions Taken, by Number of Cases, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 3</td><td>176</td></tr>
+<tr><td><a href="table_nlrb1957_p0177_t0.html">Industrial distribution of unfair labor practice and representation cases received</a><br><span class="hint">Remedial Action Taken in Unfair Labor Practice Cases Closed, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 4</td><td>177</td></tr>
+<tr><td><a href="table_nlrb1957_p0178_t0.html">Unfair labor practice and representation cases received</a><br><span class="hint">Industrial Distribution of Unfair Labor Practice and Representation Cases Received, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 5</td><td>178</td></tr>
+<tr><td><a href="table_nlrb1957_p0179_t0.html">Geographic distribution of unfair labor practice and representation cases</a><br><span class="hint">Geographic Distribution of Unfair Labor Practice and Representation Cases Received, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 6</td><td>179</td></tr>
+<tr><td><a href="table_nlrb1957_p0180_t0.html">Disposition of representation cases closed</a><br><span class="hint">Disposition of Unfair Labor Practice Cases Closed, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 7</td><td>180</td></tr>
+<tr><td><a href="table_nlrb1957_p0180_t1.html">Analysis of stages of disposition of unfair labor practice cases closed</a><br><span class="hint">Disposition of Unfair Labor Practice Cases Closed, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 7</td><td>180</td></tr>
+<tr><td><a href="table_nlrb1957_p0181_t0.html">Analysis of stages of disposition of unfair labor practice cases closed</a><br><span class="hint">Disposition of Representation Cases Closed, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 8</td><td>181</td></tr>
+<tr><td><a href="table_nlrb1957_p0181_t1.html">Analysis of stages of disposition of unfair labor practice cases closed</a><br><span class="hint">Analysis of Stages of Disposition of Unfair Labor Practice Cases Closed, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 9</td><td>181</td></tr>
+<tr><td><a href="table_nlrb1957_p0183_t0.html">Analysis of Methods of Disposition of Representation Cases Closed, Fiscal Year 1957</a></td><td><span class="type-label">Table</span></td><td>Table 10</td><td>183</td></tr>
+<tr><td><a href="table_nlrb1957_p0184_t0.html">Collective-bargaining elections — by union affiliation</a><br><span class="hint">Types of Elections Conducted, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 11</td><td>184</td></tr>
+<tr><td><a href="table_nlrb1957_p0184_t1.html">Results of Union-Shop Deauthorization Polls, Fiscal Year 1957</a></td><td><span class="type-label">Table</span></td><td>Table 12</td><td>184</td></tr>
+<tr><td><a href="table_nlrb1957_p0185_t0.html">Decertification elections — by participating union affiliation</a><br><span class="hint">Collective-Bargaining Elections by Affiliation of Participating Unions, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 13</td><td>185</td></tr>
+<tr><td><a href="table_nlrb1957_p0185_t1.html">Voting in decertification elections</a><br><span class="hint">Outcome of Collective-Bargaining Elections by Affiliation of Participating Unions, and Number of Employees in Units, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 13A</td><td>185</td></tr>
+<tr><td><a href="table_nlrb1957_p0186_t0.html">Size of units in collective-bargaining and decertification elections</a><br><span class="hint">Decertification Elections by Affiliation of Participating Unions, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 14</td><td>186</td></tr>
+<tr><td><a href="table_nlrb1957_p0186_t1.html">Voting in decertification elections</a><br><span class="hint">Voting in Decertification Elections, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 14A</td><td>186</td></tr>
+<tr><td><a href="table_nlrb1957_p0187_t0.html">Collective-bargaining elections — by division and state</a><br><span class="hint">Size of Units in Collective-Bargaining and Decertification Elections, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 15</td><td>187</td></tr>
+<tr><td><a href="table_nlrb1957_p0188_t0.html">Geographic distribution of collective-bargaining elections</a><br><span class="hint">Geographic Distribution of Collective-Bargaining Elections, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 16</td><td>188</td></tr>
+<tr><td><a href="table_nlrb1957_p0190_t0.html">Industrial Distribution of Collective-Bargaining Elections, Fiscal Year 1957</a></td><td><span class="type-label">Table</span></td><td>Table 17</td><td>190</td></tr>
+<tr><td><a href="table_nlrb1957_p0191_t0.html">Injunction Litigation Under Sec. 10 (j) and (l), Fiscal Year 1957</a></td><td><span class="type-label">Table</span></td><td>Table 18</td><td>191</td></tr>
+<tr><td><a href="table_nlrb1957_p0191_t1.html">Litigation for enforcement and/or review of Board orders</a><br><span class="hint">Litigation for Enforcement or Review of Board Orders, July 1, 1956-June 30, 1957; and July 5, 1935-June 30, 1957</span></td><td><span class="type-label">Table</span></td><td>Table 19</td><td>191</td></tr>
+<tr><td><a href="table_nlrb1957_p0192_t0.html">Injunctions petitioned for or acted upon</a><br><span class="hint">Record of Injunctions Petitioned for, or Acted Upon, Fiscal Year 1957</span></td><td><span class="type-label">Table</span></td><td>Table 20</td><td>192</td></tr>
 </tbody>
 </table>
-<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Updated June 2026.</p>
+
+<p class="foot">Source data: U.S. NLRB Annual Reports (public domain). Reconstruction by NLRB Stats Archive. Read by claude-opus-5 (effort max, prompt extract_v1) from the 300-dpi scan; stitched by page. Updated October 2026.</p>
 </div>
 <script>
 (function () {

@@ -1,31 +1,38 @@
-Status,Total,Identification of filing party AFL-CIO unions,Identification of filing party Teamsters,Identification of filing party Other national unions,Identification of filing party Other local unions,Identification of filing party Individuals,Identification of filing party Employers
-"CA cases — Pending July 1, 1971",5894,3074,683,318,220,1595,4
-CA cases — Received fiscal 1972,17736,7612,2045,665,547,6856,11
-CA cases — On docket fiscal 1972,23630,10686,2728,983,767,8451,15
-CA cases — Closed fiscal 1972,16725,7027,2011,665,506,6505,11
-"CA cases — Pending June 30, 1972",6905,3659,717,318,261,1946,4
-"CB cases — Pending July 1, 1971",1465,34,9,6,23,1001,392
-CB cases — Received fiscal 1972,5985,71,15,22,41,4731,1105
-CB cases — On docket fiscal 1972,7450,105,24,28,64,5732,1497
-CB cases — Closed fiscal 1972,5747,71,13,24,41,4493,1105
-"CB cases — Pending June 30, 1972",1073,34,13,11,4,23,1239
-"CC cases — Pending July 1, 1971",485,3,1,5,14,10,452
-CC cases — Received fiscal 1972,1947,12,1,45,41,50,1798
-CC cases — On docket fiscal 1972,2432,15,2,50,55,60,2250
-CC cases — Closed fiscal 1972,1928,13,1,41,48,51,1774
-"CC cases — Pending June 30, 1972",504,20,1,1,8,7,476
-"CD cases — Pending July 1, 1971",208,11,0,1,3,2,191
-CD cases — Received fiscal 1972,649,25,3,5,20,8,588
-CD cases — On docket fiscal 1972,857,36,3,6,23,10,779
-CD cases — Closed fiscal 1972,630,27,2,6,17,7,571
-"CD cases — Pending June 30, 1972",227,9,1,0,6,3,208
-"CE cases — Pending July 1, 1971",58,0,0,1,1,5,49
-CE cases — Received fiscal 1972,86,0,0,0,11,3,71
-CE cases — On docket fiscal 1972,144,0,0,1,2,16,120
-CE cases — Closed fiscal 1972,79,0,0,0,2,7,62
-"CE cases — Pending June 30, 1972",65,0,0,1,0,9,58
-"CP cases — Pending July 1, 1971",96,2,2,2,5,6,79
-CP cases — Received fiscal 1972,449,4,0,1,3,17,417
-CP cases — On docket fiscal 1972,545,6,2,3,9,14,496
-CP cases — Closed fiscal 1972,446,4,3,3,8,18,410
-"CP cases — Pending June 30, 1972",99,2,0,1,1,5,86
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending July 1, 1971","11,232","4,673","1,347",527,429,"2,840","1,416"
+Received fiscal 1972,"41,039","14,395","5,840","1,514","1,327","12,943","5,020"
+On docket fiscal 1972,"52,271","19,068","7,187","2,041","1,756","15,783","6,436"
+Closed fiscal 1972,"39,474","13,644","5,679","1,522","1,255","12,348","5,026"
+"Pending June 30, 1972","12,797","5,424","1,508",519,501,"3,435","1,410"
+Unfair labor practice cases,,,,,,,
+"Pending July 1, 1971","8,206","3,124",696,333,270,"2,616","1,167"
+Received fiscal 1972,"26,852","7,724","2,065",739,669,"11,665","3,990"
+On docket fiscal 1972,"35,058","10,848","2,761","1,072",939,"14,281","5,157"
+Closed fiscal 1972,"25,555","7,142","2,031",741,629,"11,079","3,933"
+"Pending June 30, 1972","9,503","3,706",730,331,310,"3,202","1,224"
+Representation cases,,,,,,,
+"Pending July 1, 1971","2,927","1,518",649,190,156,184,230
+Received fiscal 1972,"13,711","6,514","3,754",759,632,"1,087",965
+On docket fiscal 1972,"16,638","8,032","4,403",949,788,"1,271","1,195"
+Closed fiscal 1972,"13,438","6,348","3,631",765,600,"1,070","1,024"
+"Pending June 30, 1972","3,200","1,684",772,184,188,201,17
+Union-shop deauthorization cases,,,,,,,
+"Pending July 1, 1971",38,,,,,38,
+Received fiscal 1972,172,,,,,172,
+On docket fiscal 1972,210,,,,,210,
+Closed fiscal 1972,180,,,,,180,
+"Pending June 30, 1972",30,,,,,30,
+Amendment of certification cases,,,,,,,
+"Pending July 1, 1971",11,8,1,1,0,1,0
+Received fiscal 1972,83,46,5,8,11,9,4
+On docket fiscal 1972,94,54,6,9,11,10,4
+Closed fiscal 1972,80,47,4,6,10,9,4
+"Pending June 30, 1972",14,7,2,3,1,1,0
+Unit clarification cases,,,,,,,
+"Pending July 1, 1971",50,23,1,3,3,1,19
+Received fiscal 1972,221,111,16,8,15,10,61
+On docket fiscal 1972,271,134,17,11,18,11,80
+Closed fiscal 1972,221,107,13,10,16,10,65
+"Pending June 30, 1972",50,27,4,1,2,1,15

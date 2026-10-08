@@ -1,3 +1,34 @@
-row_label,NLRB Region,"Cases on docket, fiscal year 1938-39 — Number","Cases on docket, fiscal year 1938-39 — Workers involved",Before formal action — Settled — Consent election,Before formal action — Settled — Recognition of representatives,Before formal action — Settled — Pay-roll check,Before formal action — Dismissed,Before formal action — Withdrawn,Before formal action — Otherwise,After formal action — Before Board decision — Settled — Consent election,After formal action — Before Board decision — Settled — Recognition of representatives,After formal action — Before Board decision — Settled — Pay-roll check,After formal action — Before Board decision — Dismissed,After formal action — Before Board decision — Withdrawn,After formal action — After Board decision — Certification — Without election,After formal action — After Board decision — Certification — After election,After formal action — After Board decision — Dismissed — Without election,After formal action — After Board decision — Dismissed — After election,Total cases disposed of,Total cases pending
-Board,62,104454,,,,,,,,,,,,14,24,3,,56,6,
-Total,3550,1079170,454,257,241,264,480,5,24,8,10,18,31,41,112,252,72,2339,1211,
+,Number of cases,Percentage of—,Percentage of—,Number of workers involved,Percentage of—,Percentage of—
+,Number of cases,Total cases closed,Total cases on docket,Number of workers involved,Total number of workers involved in cases closed,Total number of workers involved in cases on docket
+"Cases pending June 30, 1938","1,264",,35.6,"596,988",,55.3
+"Cases received July 1, 1938 to July 1, 1939","2,286",,64.4,"482,182",,44.7
+Total cases on docket,"3,550",,100.0,"1,079,170",,100.0
+Cases closed before formal action:,,,,,,
+By settlement:,,,,,,
+(a) Consent election,454,19.4,12.8,"79,330",13.5,7.3
+(b) Recognition of representatives,257,11.0,7.2,"34,264",5.8,3.2
+(c) Pay-roll check,241,10.3,6.8,"23,856",4.1,2.2
+By dismissal,264,11.3,7.5,"81,032",13.9,7.5
+By withdrawal,480,20.5,13.5,"170,960",29.2,15.8
+Otherwise,5,.2,.1,"8,209",1.4,.8
+Total cases closed before formal action,"1,701",72.7,47.9,"397,651",67.9,36.8
+Cases closed after formal action:,,,,,,
+By settlement before hearing:,,,,,,
+(a) Consent election,6,.3,.2,"1,708",.3,.2
+(b) Recognition of representatives,8,.3,.2,"1,324",.2,.1
+(c) Pay-roll check,1,[1],[1],"1,300",.2,.1
+By settlement after hearing,,,,,,
+(a) Consent election,18,.8,.5,"6,272",1.1,.6
+(b) Recognition of representatives,2,.1,.1,"3,515",.6,.3
+(c) Pay-roll check,10,.4,.3,170,.3,[1]
+By dismissal before hearing,5,.2,.1,558,.1,.1
+By dismissal after hearing,14,.6,.4,"2,153",.4,.2
+By withdrawal before hearing,25,1.1,.7,"4,298",.7,.4
+By withdrawal after hearing,41,1.7,1.2,"13,601",2.3,1.3
+By certification by Board without election,112,4.8,3.2,"44,622",7.6,4.1
+By certification by Board after election,252,10.8,7.1,"78,550",13.4,7.3
+By dismissal of petition by Board without election,72,3.1,2.0,"18,355",3.1,1.7
+By dismissal of petition by Board after election,72,3.1,2.0,"10,776",1.8,1.0
+Total cases closed after formal action,638,27.3,18.0,"187,202",32.1,17.4
+"Total cases closed July 1, 1938 to July 1, 1939","2,339",100.0,,"584,853",100.0,
+"Cases pending June 30, 1939","1,211",,34.1,"494,317",,45.8

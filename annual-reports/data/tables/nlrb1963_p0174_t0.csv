@@ -1,16 +1,27 @@
-Stage,ULP Total,ULP AFL-CIO,ULP Unaffil,ULP Individuals,ULP Employers,Rep Total,Rep AFL-CIO,Rep Unaffil,Rep Individuals,Rep Employers
-"CA / RC — Pending July 1, 1962",3276,1665,569,1017,25,1822,1228,588,2,4
-CA / RC — Received fiscal 1963,9408,4553,1581,3393,23,9562,6238,3164,39,121
-CA / RC — On docket fiscal 1963,12826,6238,2150,4410,28,11384,7514,4145,41,14
-CA / RC — Closed fiscal 1963,9173,4310,1533,3311,19,9480,6219,3629,,
-"CA / RC — Pending June 30, 1963",3653,1928,617,1099,9,1904,1295,606,,
-"CB / RM — Pending July 1, 1962",738,37,20,489,192,159,,,,159
-CB / RM — Received fiscal 1963,2753,79,53,2053,568,868,3,2,5,858
-CB / RM — On docket fiscal 1963,3491,116,73,2542,760,1027,,,,1017
-CB / RM — Closed fiscal 1963,2548,74,47,1868,559,849,,,,849
-"CB / RM — Pending June 30, 1963",943,42,26,674,201,178,,,,178
-"CC / RD — Pending July 1, 1962",347,3,2,19,323,79,0,0,79,0
-CC / RD — Received fiscal 1963,1142,14,20,26,1082,656,0,0,655,1
-CC / RD — On docket fiscal 1963,1489,17,22,45,1405,735,0,0,734,1
-CC / RD — Closed fiscal 1963,1132,12,16,30,1074,611,0,0,610,1
-"CC / RD — Pending June 30, 1963",357,5,6,15,340,124,0,0,124,0
+,Number of cases,Number of cases,Number of cases,Number of cases,Number of cases
+,Total,Identification of complainant or petitioner,Identification of complainant or petitioner,Identification of complainant or petitioner,Identification of complainant or petitioner
+,Total,AFL-CIO affiliates,Unaffiliated unions,Individuals,Employers
+All cases,,,,,
+"Pending July 1, 1962","6,704","2,961","1,181","1,633",929
+Received fiscal 1963,"25,371","10,663","5,246","6,248","3,214"
+On docket fiscal 1963,"32,075","13,624","6,427","7,881","4,143"
+Closed fiscal 1963,"24,678","10,338","5,171","5,969","3,200"
+"Pending June 30, 1963","7,397","3,286","1,256","1,912",943
+Unfair labor practice cases,,,,,
+"Pending July 1, 1962","4,624","1,733",593,"1,532",766
+Received fiscal 1963,"14,166","4,667","1,679","5,495","2,325"
+On docket fiscal 1963,"18,790","6,400","2,272","7,027","3,091"
+Closed fiscal 1963,"13,605","4,412","1,623","5,240","2,330"
+"Pending June 30, 1963","5,185","1,988",649,"1,787",761
+Representation cases,,,,,
+"Pending July 1, 1962","2,060","1,228",588,81,163
+Received fiscal 1963,"11,116","5,996","3,567",664,889
+On docket fiscal 1963,"13,176","7,224","4,155",745,"1,052"
+Closed fiscal 1963,"10,981","5,926","3,548",637,870
+"Pending June 30, 1963","2,195","1,298",607,108,182
+Union-shop deauthorization cases,,,,,
+"Pending July 1, 1962",20,,,20,
+Received fiscal 1963,89,,,89,
+On docket fiscal 1963,109,,,109,
+Closed fiscal 1963,92,,,92,
+"Pending June 30, 1963",17,,,17,

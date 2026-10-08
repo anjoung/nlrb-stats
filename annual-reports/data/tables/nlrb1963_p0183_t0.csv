@@ -1,12 +1,39 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14
-Compliance,293,22,210,2 3,23,.9,32,2 8,3,.9,4,73,21,5 7
-Withdrawn,2,(5),0,0,2,.1,0,.0,0,.0,0,0,0,0
-Dismissed,196,14,162,18,16,.6,8,7,1,3,0,0,9,24
-Otherwise,1,(5),1,(5),0,0,0,0,0,0,0,0,0,0
-"After circuit court decree, before Supreme Court action_",239,17,190,21,33,13,12,11,0,0,1,18,3,.8
-Compliance__,192,14,146,16,31,12,11,10,0,0,1,18,3,.8
-Dismissed,41,3,38,.4,2,1,1,.1,0,0,0,0,0,.0
-Otherwise,6,(5),6,.1,0,0,0,0,0,0,0,0,0,0
-After Supreme Court action,50,4,41,4,6,.2,2,.2,0,0,1,18,0,.0
-Compliance,42,.3,36,4,4,1,1,1,0,0,1,1.8,0,.0
-Dismissed,8,.1,5,(5),2,.1,1,.1,0,.0,0,.0,0,.0
+Stage and method of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CP cases,CP cases
+Stage and method of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"13,605",100.0,"9,173",100.0,"2,548",100.0,"1,132",100.0,325,100.0,55,100.0,372,100.0
+Before issuance of complaint,"11,714",86.1,"7,768",84.7,"2,315",90.9,960,84.8,314,96.7,47,85.5,310,83.3
+Adjusted,"2,401",17.6,"1,500",16.3,348,13.7,331,29.3,133,41.0,8,14.6,81,21.8
+Withdrawn,"5,259",38.7,"3,510",38.3,"1,095",43.0,400,35.3,114,35.1,27,49.1,113,30.3
+Dismissed,"4,054",29.8,"2,758",30.1,872,34.2,229,20.2,67,20.6,12,21.8,116,31.2
+"After issuance of complaint, before opening of hearing",801,5.9,569,6.2,108,4.3,91,8.0,4,1.2,2,3.6,27,7.3
+Adjusted,564,4.1,440,4.8,65,2.6,42,3.7,0,.0,0,.0,17,4.6
+Compliance with stipulated decision,1,,1,,0,.0,0,0,0,.0,0,.0,0,.0
+Compliance with consent decree,100,.8,48,.5,20,.8,29,2.5,1,.3,0,0,2,.5
+Withdrawn,111,.8,61,.7,19,.7,19,1.7,3,.9,2,3.6,7,1.9
+Dismissed,25,.2,19,.2,4,.2,1,.1,0,.0,0,0,1,.3
+"After hearing opened, before issuance of intermediate report",141,1.0,102,1.1,16,.6,20,1.8,3,.9,0,0,0,.0
+Adjusted,51,.4,45,.5,3,.1,3,.3,0,.0,0,0,0,0
+Compliance with stipulated decision,3,,1,,0,0,0,.0,2,.6,0,0,0,.0
+Compliance with consent decree,77,.6,51,.6,11,.4,15,1.3,0,0,0,.0,0,0
+Withdrawn,4,,1,,0,.0,2,.2,1,.3,0,.0,0,0
+Dismissed,6,,4,,2,.1,0,0,0,.0,0,.0,0,0
+"After intermediate report, before issuance of Board decision",103,.8,83,.9,13,.5,5,.4,0,0,0,.0,2,.5
+Adjusted,2,,2,,0,0,0,.0,0,0,0,.0,0,.0
+Compliance,98,.8,79,.9,13,.5,4,.3,0,0,0,.0,2,.5
+Withdrawn,2,,1,,0,0,1,.1,0,0,0,.0,0,0
+Dismissed,1,,1,,0,0,0,0,0,0,0,.0,0,0
+After Board order adopting intermediate report in absence of exceptions,65,.5,47,.5,16,.6,2,.2,0,0,0,.0,0,.0
+Compliance,29,.2,24,.3,3,.1,2,.2,0,.0,0,.0,0,.0
+Dismissed,36,.3,23,.2,13,.5,0,0,0,.0,0,.0,0,.0
+"After Board decision, before court decree",492,3.6,373,4.1,41,1.6,40,3.5,4,1.2,4,7.3,30,8.1
+Compliance,293,2.2,210,2.3,23,.9,32,2.8,3,.9,4,7.3,21,5.7
+Withdrawn,2,[5],0,0,2,.1,0,.0,0,.0,0,0,0,0
+Dismissed,196,1.4,162,1.8,16,.6,8,.7,1,.3,0,0,9,2.4
+Otherwise,1,[5],1,[5],0,0,0,0,0,0,0,0,0,0
+"After circuit court decree, before Supreme Court action",239,1.7,190,2.1,33,1.3,12,1.1,0,0,1,1.8,3,.8
+Compliance,192,1.4,146,1.6,31,1.2,11,1.0,0,0,1,1.8,3,.8
+Dismissed,41,.3,38,.4,2,.1,1,.1,0,0,0,0,0,.0
+Otherwise,6,[5],6,.1,0,0,0,0,0,0,0,0,0,0
+After Supreme Court action,50,.4,41,.4,6,.2,2,.2,0,0,1,1.8,0,.0
+Compliance,42,.3,36,.4,4,.1,1,.1,0,0,1,1.8,0,.0
+Dismissed,8,.1,5,[5],2,.1,1,.1,0,.0,0,.0,0,.0

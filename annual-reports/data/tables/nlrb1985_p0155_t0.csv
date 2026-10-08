@@ -1,43 +1,38 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7
-"Pending October I, 1984","• 13,791",6764,1813,451,822,3936,5
-Received fiscal 1985,22545,9709,2645,654,1274,8248,15
-On docket fiscal 1985,36336,16473,4458,1105,2096,12184,20
-Closed fiscal 1985,23726,10259,2940,644,1254,8613,16
-"Pending September 30, 1985",12610,6214,1518,461,842,3571,4
-,CB,CB,CB,CB,CB,CB,CB
-,cases,cases,cases,cases,cases,cases,cases
-"Pending October 1, 1984","• 2,886",36,11,7,29,2146,657
-Received fiscal 1985,8382,50,13,5,39,6989,1286
-On docket fiscal 1985,11268,86,24,12,68,9135,1943
-Closed fiscal 1985,8444,49,10,3,42,7101,1239
-"Pending September 30, 1985",2824,37,14,9,26,2034,704
-,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases
-"Pending October 1, 1984",.619,10,I,0,10,5,593
-Received fiscal 1985,1115,6,3,21,22,5,1058
-On docket fiscal 1985,1734,16,4,21,32,10,1651
-Closed fiscal 1985,1090,7,3,20,15,8,1037
-"Pending September 30, 1985",644,9,1,1,17,2,614
-,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases
-"Pending October I, 1984",. 132,9,0,0,3,0,120
-Received fiscal 1985,280,10,4,3,8,1,254
-On docket fiscal 1985,412,19,4,3,11,1,374
-Closed fiscal 1985,288,11,2,3,5,1,266
-"Pending September 30, 1985",124,8,2,0,6,0,108
-,CE cases,CE cases,CE cases,CE cases,CE cases,CE cases,CE cases
-"Pending October 1, 1984",• 59,0,0,0,7,2,50
-Received fiscal 1985,47,0,0,0,5,1,41
-On docket fiscal 1985,106,0,0,0,12,3,91
-Closed fiscal 1985,51,0,0,0,2,0,49
-"Pending September 30, 1985",55,0,0,0,10,3,42
-,CG cases,CG cases,CG cases,CG cases,CG cases,CG cases,CG cases
-"Pending October 1, 1984",• 16,0,0,0,1,0,15
-Received fiscal 1985,28,0,0,0,0,0,28
-On docket fiscal 1985,44,o,o,o,1,o,43
-Closed fiscal 1985,38,0,0,0,1,0,37
-"Pending September 30, 1985",6,0,0,0,0,0,6
-,CP cases,CP cases,CP cases,CP cases,CP cases,CP cases,CP cases
-"Pending October 1, 1984",•152,1,0,0,0,4,147
-Received fiscal 1985,288,0,0,2,2,0,284
-On docket fiscal 1985,440,1,0,2,2,4,431
-Closed fiscal 1985,309,0,0,2,2,2,303
-"Pending September 30, 1985",131,1,0,0,0,2,128
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending October 1, 1984","20,437","8,036","2,274",542,"1,095","6,614","1,876"
+Received fiscal 1985,"41,175","13,113","4,458",868,"1,870","17,148","3,718"
+On docket fiscal 1985,"61,612","21,149","6,732","1,410","2,965","23,762","5,594"
+Closed fiscal 1985,"42,328","13,654","4,677",860,"1,855","17,611","3,671"
+"Pending September 30, 1985","19,284","7,495","2,055",550,"1,110","6,151","1,923"
+Unfair labor practice cases,,,,,,,
+"Pending October 1, 1984","17,655","6,820","1,825",458,872,"6,093","1,587"
+Received fiscal 1985,"32,685","9,775","2,665",685,"1,350","15,244","2,966"
+On docket fiscal 1985,"50,340","16,595","4,490","1,143","2,222","21,337","4,553"
+Closed fiscal 1985,"33,946","10,376","2,955",672,"1,321","15,725","2,947"
+"Pending September 30, 1985","16,394","6,269","1,535",471,901,"5,612","1,606"
+Representation cases,,,,,,,
+"Pending October 1, 1984","2,571","1,182",441,82,204,460,202
+Received fiscal 1985,"7,884","3,226","1,762",175,478,"1,657",586
+On docket fiscal 1985,"10,455","4,408","2,203",257,682,"2,117",788
+Closed fiscal 1985,"7,807","3,218","1,693",180,488,"1,655",573
+"Pending September 30, 1985","2,648","1,190",510,77,194,462,215
+Union-shop deauthorization cases,,,,,,,
+"Pending October 1, 1984",60,,,,,60,
+Received fiscal 1985,245,,,,,245,
+On docket fiscal 1985,305,,,,,305,
+Closed fiscal 1985,228,,,,,228,
+"Pending September 30, 1985",77,,,,,77,
+Amendment of certification cases,,,,,,,
+"Pending October 1, 1984",7,3,0,0,4,0,0
+Received fiscal 1985,29,15,3,3,6,0,2
+On docket fiscal 1985,36,18,3,3,10,0,2
+Closed fiscal 1985,24,13,2,2,5,0,2
+"Pending September 30, 1985",12,5,1,1,5,0,0
+Unit clarification cases,,,,,,,
+"Pending October 1, 1984",144,31,8,2,15,1,87
+Received fiscal 1985,332,97,28,5,36,2,164
+On docket fiscal 1985,476,128,36,7,51,3,251
+Closed fiscal 1985,323,97,27,6,41,3,149
+"Pending September 30, 1985",153,31,9,1,10,0,102

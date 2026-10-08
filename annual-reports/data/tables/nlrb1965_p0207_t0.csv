@@ -1,5 +1,21 @@
-Type of case,Objections filed,Objections withdrawn,Objections ruled upon,Disposition of objections ruled upon / Overruled / Number,Disposition of objections ruled upon / Overruled / Percent of total ruled upon,Disposition of objections ruled upon / Sustained 2 / Number,Disposition of objections ruled upon / Sustained 2 / Percent of total ruled upon
-All elections,1027,231,796,543,68 2,253,31 8
-RC elections,959,211,748,507,67 8,241,32 2
-RM elections,46,16,30,23,76 7,7,23 3
-RD elections,22,4,18,13,72 2,5,27 8
+Type of election,All R cases,All R cases,All R cases,RC cases,RC cases,RC cases,RM cases,RM cases,RM cases,RD cases,RD cases,RD cases,UD cases,UD cases,UD cases
+Type of election,Total representation elections,Objections and/or challenges,Objections and/or challenges,Total RC elections,Objections and/or challenges,Objections and/or challenges,Total RM elections,Objections and/or challenges,Objections and/or challenges,Total RD elections,Objections and/or challenges,Objections and/or challenges,Total union deauthorization elections,Objections and/or challenges,Objections and/or challenges
+Type of election,Total representation elections,Number elections involved,Percent of total R elections,Total RC elections,Number elections involved,Percent of total RC elections,Total RM elections,Number elections involved,Percent of total RM elections,Total RD elections,Number elections involved,Percent of total RD elections,Total union deauthorization elections,Number elections involved,Percent of total UD elections
+"All types, total","7,776","1,178",15.1,"7,176","1,094",15.2,400,62,15.5,200,22,11.0,48,6,12.5
+Objections alone or with challenges,,866,,,800,,,47,,,19,,,4,
+Challenges only,,312,,,294,,,15,,,3,,,2,
+"In consent elections, total","3,348",377,11.3,"3,073",347,11.3,176,20,11.4,99,10,10.1,10,1,10.0
+Objections alone or with challenges,,264,,,242,,,14,,,8,,,0,
+Challenges only,,113,,,105,,,6,,,2,,,1,
+"In stipulated elections, total","2,831",441,15.6,"2,635",414,15.7,142,21,14.8,54,6,11.1,4,1,25.0
+Objections alone or with challenges,,323,,,301,,,17,,,5,,,1,
+Challenges only,,118,,,113,,,4,,,1,,,0,
+"In expedited elections, total",21,3,14.3,3,1,33.3,18,2,11.1,0,0,,,,
+Objections alone or with challenges,,2,,,0,,,2,,,0,,,,
+Challenges only,,1,,,1,,,0,,,0,,,,
+"In regional director-directed elections, total","1,491",322,21.6,"1,394",308,22.1,50,8,16.0,47,6,12.8,33,4,12.1
+Objections alone or with challenges,,253,,,241,,,6,,,6,,,3,
+Challenges only,,69,,,67,,,2,,,0,,,1,
+"In Board-directed elections, total",85,35,41.2,71,24,33.8,14,11,78.6,0,0,,1,0,
+Objections alone or with challenges,,24,,,16,,,8,,,0,,,0,
+Challenges only,,11,,,8,,,3,,,0,,,0,

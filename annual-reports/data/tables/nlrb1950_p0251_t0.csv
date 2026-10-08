@@ -1,8 +1,33 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11
-Highway passenger transportation,1,.9,.0,.0,.0,1,100.0,24,.3,21,.2
-Highway freight transportation,2,1.8,.0,0,.0,2,100 0,39,.4,36,.4
-Water transportation,1,.9,.0,.0,.0,1,100 0,85,.9,76,.9
-Warehousing and storage,1,9,.0,. 0,.0,1,100 0,4,(2),4,.1
-Communication,2,1.8,0,.0,.0,2,100.0,15,. 2,15,.2
-"Heat, light, power, and sanitary services",3,2.6,33 3,0,.0,2,66.7,228,2.4,206,2.4
-Services,1,9,.0,0,.0,1,100.0,14,.1,14,.2
+Industrial group,Elections,Elections,Winner,Winner,Winner,Winner,Winner,Winner,Winner,Winner,Eligible voters,Eligible voters,Valid votes cast,Valid votes cast
+Industrial group,Number,Percent,A. F. of L affiliates,A. F. of L affiliates,C. I. O. affiliates,C. I. O. affiliates,Unaffiliated unions,Unaffiliated unions,No union,No union,Number,Percent,Number,Percent
+Industrial group,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent,Number,Percent
+Total,112,100.0,12,10.7,23,20.5,2,1.8,75,67.0,"9,474",100.0,"8,485",100.0
+Manufacturing,80,71.4,6,7.5,20,25.0,1,1.3,53,66.2,"8,152",86.0,"7,297",86.0
+Food and kindred products,13,11.6,4,30.8,1,7.7,0,0,8,61.5,584,6.2,456,5.4
+Textile-mill products,5,4.5,0,0,4,80.0,0,.0,1,20.0,"2,660",28.1,"2,394",28.2
+Apparel and other finished products made from fabrics and similar material,2,1.8,0,0,0,0,0,.0,2,100.0,43,.4,36,.4
+Lumber and wood products,6,5.3,0,.0,1,16.7,0,.0,5,83.3,552,5.8,504,5.9
+Furniture and fixtures,5,4.5,0,.0,0,0,0,.0,5,100.0,270,2.8,250,3.0
+Paper and allied products,2,1.8,0,.0,1,50.0,0,.0,1,50.0,185,1.9,173,2.0
+Chemicals and allied products,9,8.0,0,.0,0,0,0,.0,9,100.0,663,7.0,603,7.1
+Products of petroleum and coal,4,3.6,0,.0,0,0,0,.0,4,100.0,141,1.5,131,1.5
+Rubber products,2,1.8,1,50.0,1,50.0,0,.0,0,.0,606,6.4,562,6.6
+Leather and leather products,1,.9,0,0,0,0,0,.0,1,100.0,226,2.4,213,2.5
+"Stone, clay, and glass products",4,3.6,0,.0,1,25.0,0,.0,3,75.0,262,2.8,234,2.8
+Primary metal industries,3,2.6,1,33.4,1,33.3,0,0,1,33.3,651,6.9,523,6.2
+Fabricated metal products (except machinery and transportation equipment),1,.9,0,.0,0,.0,0,0,1,100.0,27,.3,25,.3
+Machinery (except electrical),10,8.9,0,.0,3,30.0,0,0,7,70.0,573,6.0,524,6.2
+"Electrical machinery, equipment, and supplies",5,4.5,0,.0,2,40.0,0,0,3,60.0,247,2.6,238,2.8
+Automotive transportation equipment,7,6.2,0,0,5,71.4,1,14.3,1,14.3,332,3.5,304,3.6
+"Professional, scientific, and controlling instruments",1,.9,0,0,0,.0,0,0,1,100.0,130,1.4,127,1.5
+Mining—crude petroleum and natural gas production,3,2.7,0,0,1,33.3,0,.0,2,66.7,150,1.6,123,1.5
+Wholesale trade,11,9.8,4,36.4,2,18.2,0,0,5,45.4,385,4.1,377,4.4
+Retail trade,7,6.3,1,14.3,0,.0,1,14.3,5,71.4,378,4.0,316,3.7
+"Transportation, communication, and other public utilities",10,8.9,1,10.0,0,0,0,.0,9,90.0,395,4.2,358,4.2
+Highway passenger transportation,1,.9,0,.0,0,.0,0,.0,1,100.0,24,.3,21,.2
+Highway freight transportation,2,1.8,0,.0,0,.0,0,.0,2,100.0,39,.4,36,.4
+Water transportation,1,.9,0,.0,0,.0,0,.0,1,100.0,85,.9,76,.9
+Warehousing and storage,1,.9,0,.0,0,.0,0,.0,1,100.0,4,[2],4,.1
+Communication,2,1.8,0,.0,0,.0,0,.0,2,100.0,15,.2,15,.2
+"Heat, light, power, and sanitary services",3,2.6,1,33.3,0,0,0,.0,2,66.7,228,2.4,206,2.4
+Services,1,.9,0,.0,0,0,0,.0,1,100.0,14,.1,14,.2

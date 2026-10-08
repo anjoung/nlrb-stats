@@ -1,16 +1,38 @@
-row_label,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
-"RC cases - Pending July 1, 1969",2452,1517,583,172,176,4,
-RC cases - Received fiscal 1970,10332,5653,2982,890,772,35,
-RC cases - On docket fiscal 1970,12784,7170,3565,1062,948,39,
-RC cases - Closed fiscal 1970,10254,5792,2975,849,606,32,
-"RC cases - Pending June 30, 1970",2530,1378,590,213,342,7,
-"RM cases - Pending July 1, 1969",182,,,,,,182
-RM cases - Received fiscal 1970,979,,,,,,979
-RM cases - On docket fiscal 1970,1161,,,,,,1161
-RM cases - Closed fiscal 1970,973,,,,,,973
-"RM cases - Pending June 30, 1970",188,,,,,,188
-"RD cases - Pending July 1, 1969",147,2,0,,4,141,
-RD cases - Received fiscal 1970,766,8,2,,5,751,
-RD cases - On docket fiscal 1970,913,10,2,,9,892,
-RD cases - Closed fiscal 1970,773,9,2,,9,753,
-"RD cases - Pending June 30, 1970",140,1,0,,0,139,
+,Total,Identification of Filing Party,Identification of Filing Party,Identification of Filing Party,Identification of Filing Party,Identification of Filing Party,Identification of Filing Party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+CA cases,,,,,,,
+"Pending July 1, 1969","5,155","2,835",612,298,179,"1,219",12
+Received fiscal 1970,"13,601","5,822","1,634",668,373,"5,086",18
+On docket fiscal 1970,"18,756","8,657","2,246",966,552,"6,305",30
+Closed fiscal 1970,"12,815","5,520","1,596",648,355,"4,684",12
+"Pending June 30, 1970","5,941","3,137",650,318,197,"1,621",18
+CB cases,,,,,,,
+"Pending July 1, 1969","1,165",50,13,6,17,803,276
+Received fiscal 1970,"4,631",54,21,14,23,"3,567",952
+On docket fiscal 1970,"5,796",104,34,20,40,"4,370","1,228"
+Closed fiscal 1970,"4,319",60,25,11,22,"3,334",867
+"Pending June 30, 1970","1,477",44,9,9,18,"1,036",361
+CC cases,,,,,,,
+"Pending July 1, 1969",411,1,2,5,11,10,382
+Received fiscal 1970,"1,596",9,1,45,33,62,"1,446"
+On docket fiscal 1970,"2,007",10,3,50,44,72,"1,828"
+Closed fiscal 1970,"1,491",10,3,40,28,56,"1,354"
+"Pending June 30, 1970",516,0,0,10,16,16,474
+CD cases,,,,,,,
+"Pending July 1, 1969",188,5,1,1,3,2,176
+Received fiscal 1970,694,28,3,2,6,23,632
+On docket fiscal 1970,882,33,4,3,9,25,808
+Closed fiscal 1970,673,21,4,2,7,24,615
+"Pending June 30, 1970",209,12,0,1,2,1,193
+CE cases,,,,,,,
+"Pending July 1, 1969",30,0,0,0,1,3,26
+Received fiscal 1970,107,1,10,0,3,3,90
+On docket fiscal 1970,137,1,10,0,4,6,116
+Closed fiscal 1970,83,1,10,0,2,3,67
+"Pending June 30, 1970",54,0,0,0,2,3,49
+CP cases,,,,,,,
+"Pending July 1, 1969",140,3,1,2,36,5,93
+Received fiscal 1970,409,2,1,5,8,18,375
+On docket fiscal 1970,549,5,2,7,44,23,468
+Closed fiscal 1970,470,3,1,4,42,19,401
+"Pending June 30, 1970",79,2,1,3,2,4,67

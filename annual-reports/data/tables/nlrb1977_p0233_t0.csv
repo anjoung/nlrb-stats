@@ -1,16 +1,38 @@
-row_label,col_1,Total,Identification of filing party / AFL-CIO unions,Identification of filing party / Teamsters,Identification of filing party / Other national unions,Identification of filing party / Other local unions,Identification of filing party / Individuals,Identification of filing party / Employers
-"Pending July 1, 1976",CA cases,9853,4709,1063,409,303,3335,34
-Received 19TQ,CA cases,6223,2512,715,163,159,2651,13
-On docket 19TQ,CA cases,16076,7221,1778,572,462,5986,47
-Closed 19TQ,CA cases,5506,2185,633,159,140,2380,9
-"Pending September 30, 1976",CA cases,10570,5036,1145,413,322,3615,38
-"Pending July 1, 1976",CB cases,2218,43,1,5,16,1628,525
-Received 19TQ,CB cases,2106,17,2,0,9,1679,399
-On docket 19TQ,CB cases,4324,60,3,5,25,3307,924
-Closed 19TQ,CB cases,1951,15,,,12,1581,342
-"Pending September 30, 1976",CB cases,2373,45,3,5,13,1726,582
-CC cases (5-row block),CC cases,,,,,,,
-CD cases (5-row block),CD cases,,,,,,,
-CE cases (5-row block),CE cases,,,,,,,
-CG cases (5-row block),CG cases,,,,,,,
-CP cases (5-row block),CP cases,,,,,,,
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Teamsters,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,,
+"Pending July 1, 1976","17,996","7,055","2,024",618,809,"5,532","1,958"
+Received 19TQ,"13,011","4,243","1,655",314,393,"4,883","1,523"
+On docket 19TQ,"31,007","11,298","3,679",932,"1,202","10,415","3,481"
+Closed 19TQ,"11,834","3,879","1,514",306,419,"4,441","1,275"
+"Pending Sept. 30, 1976","19,173","7,419","2,165",626,783,"5,974","2,206"
+Unfair labor practice cases,,,,,,,
+"Pending July 1, 1976","13,259","4,760","1,064",426,391,"5,026","1,592"
+Received 19TQ,"9,200","2,534",718,168,181,"4,376","1,223"
+On docket 19TQ,"22,459","7,294","1,782",594,572,"9,402","2,815"
+Closed 19TQ,"8,203","2,204",634,167,177,"4,005","1,016"
+"Pending Sept. 30, 1976","14,256","5,090","1,148",427,395,"5,397","1,799"
+Representation cases,,,,,,,
+"Pending July 1, 1976","4,476","2,232",950,185,407,411,291
+Received 19TQ,"3,628","1,665",932,144,202,424,261
+On docket 19TQ,"8,104","3,897","1,882",329,609,835,552
+Closed 19TQ,"3,466","1,634",874,136,232,371,219
+"Pending Sept. 30, 1976","4,638","2,263","1,008",193,377,464,333
+Union-shop deauthorization cases,,,,,,,
+"Pending July 1, 1976",84,,,,,84,
+Received 19TQ,79,,,,,79,
+On docket 19TQ,163,,,,,163,
+Closed 19TQ,61,,,,,61,
+"Pending Sept. 30, 1976",102,,,,,102,
+Amendment of certification cases,,,,,,,
+"Pending July 1, 1976",32,19,2,5,3,2,1
+Received 19TQ,25,15,1,1,6,0,2
+On docket 19TQ,57,34,3,6,9,2,3
+Closed 19TQ,23,14,1,1,5,1,1
+"Pending Sept. 30, 1976",34,20,2,5,4,1,2
+Unit clarification cases,,,,,,,
+"Pending July 1, 1976",145,44,8,2,8,9,74
+Received 19TQ,79,29,4,1,4,4,37
+On docket 19TQ,224,73,12,3,12,13,111
+Closed 19TQ,81,27,5,2,5,3,39
+"Pending Sept. 30, 1976",143,46,7,1,7,10,72

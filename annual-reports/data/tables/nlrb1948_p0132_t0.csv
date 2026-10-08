@@ -1,45 +1,171 @@
-row_label,col_1,col_2,col_3
-2-R-7896,Cities Service Oil Co. (Pennsylvania),13-R-4271,"International Harvester Co., McCormick"
-7-R-2594 15M-R-81,Clark Equipment Co.,21-R-3876,Works. International Smelting & Refining Co.
-15M-R-106 27R-7681,Coca-Cola Bottling Co. of Arkansas.,,
-,"Coca-Cola Bottling Co. Cohn Sigmund, Co.",2-R-7894,Jersey Publishing Co.
-21-R-3988,Instrument n Co.,10-R-2765,"Johnson City Foundry & Machine Works,"
-9-R-2696 14-R-1715,"Columbus Bolt Works Co., The. Continental Can Co.",7-R-2714,Inc. Kalamazoo Vegetable
-,,,"Parchment Co. Kallaher & Mee, Inc."
-10-R-2686,Davis Lumber Co.,1-R-3779,Kennecott Copper Corp.
-10-R-2669,"Delta Tank Manufactur- ing Co., Inc.",21-R-3942 16-R-2202,Kimbell-Texarkana Co.
-7-R-2726,"Detroit Edison Co., The.",8-R-2660,Kinsman Transit Co.
-7-R-2715 • 2-R-7675,"Detroit Packing Co. Dodge & Olcott, Inc.",,
-18-R-1852,Donny Box Co. Duplan Corp.,14-RE-18,"Laclede Gas Light Co., The."
-5W-R-90,,4-R-2619,"Lehigh Valley Throwing Mills, Inc."
-2-R-7551,"Eisen Bros., Inc. Essex County News",1-R-3768,"Lehrolite, Inc."
-2-R-7650,"Co., Inc.",4-R-2681,"Link Belt Co., The."
-5-R-2946,Farmville Manufacturing,4-R-2716 13-R-4447,Macungie Silk Co. Marshall Field & Co.
-,Co.,10-R-2711,Mascot Stove Co.
-16-R-2277,Firestone Tire & Rubber,21-R-4038,"Mimar Products, Inc."
-16-R-2303,• Co. Fort Worth Structural,13-R-4414,Monumental Life Insur- ance Co.
-,Steel Co.,5W-R-2678,Morowebb Cotton Mills Co.
-5-R-2913,"Freezer, J., & Sons.",10-R-2657,"Mylan-Sparta Co., Inc."
-1-R-3743 13-R-4457,"Gair, Robert, Co., Inc. Gam Sales Co.",2-R-7880,N. A. P. A. New York
-1-R-3753,General Electric Co. General Electric Co.,9-R-2678,"Warehouse, Inc. National Carbide Corp."
-21-R-3968 8-R-2540,General Motors Corp.,2-R-7760,National Chair Co. National Lead Co.
-10-R-2737,General Shale,2-R-7793,Norcal Packing Co.
-,Products Corp.,20-R-2221,"Cone Co.,"
-7-R-2700 5-R-3017,"Gerber Products Co Goldenberg Co., The.",13-R-4438,Northwest Inc. & Regal Candy Co.
-,"Grant, W. T., & Co., Department Store.",18-R-1886,Norway Needlecraft Corp.
-8-R-2669 1-R-3759,Great Atlantic & Pacific,,
-18-R-1887,"Tea_ Co., The. Grede Foundry, Inc. Gulf Oil Corp.",8-R-2698 16-R-2293,Ohio Fuel Gas Co. ' The. Scrap Paper
-16-R-2238 13-R-4439,,2-R-7928,Oklahoma Co.
-,Gunite Foundries Corp.,,"Old Town Ribbon & Co., Inc."
-16-R-2155 7-R-2656,Hardwicke-Etter Co.,17D-R-55,"Omar Mills, Inc."
-4-R-2719,"Hayes Manufacturing Corp. Hill, C. V., & Co., Inc. Hinchey Consolidated",4-R-2737,Penn Boiler & Burner Manufacturing Corp.
-1-R-3807,"Slate Co., Inc.",14-R-1745,"Penney, J. C., Co., Inc."
-16E-R-17,Hortex Manufacturing,15-R-2214,Perry County Plywood Corp.
-15M-R-98,"Co. Hungerford, S. R., Co., Inc.",16-R-2331,Pittsburgh Plate Glass Co.
-,,,Premier Container Corp.
-,,2-R-7852,
-14-R-1714,Illinois Power Co.,9-R-2708,Queen City Industries.
-91-R-1346',Indianapolis Power & Light Co.,2-R-7766,Lamp Co.
-2-R-7402,,,Radiant Inc
-,Interchemical Corp.,,"Rich & Morgan,"
-,,10-R-2700,
+I. Unfair Labor Practice Cases,
+14-C-1238,Alder Metal Products Corp.
+13-C-3110,Autopart Manufacturing Co.
+10-C-2082,"Empire Box, Inc."
+17-C-1477,Fulton Bag & Cotton Mills.
+13-C-3095,Goodyear Footwear Corp.
+14-C-1265,Hamilton-Scheu & Walsh Shoe Co.
+9-C-2491,"Mengel Co., The."
+16-C-1301,Mexia Textile Mills.
+2-C-6571,"Morris, Fraser Co., Inc."
+6-C-1147,National Electric Products Co.
+16-C-1300,"Norris, W. C., Manufacturing, Inc."
+2-C-6529,"Paramount Pictures, Inc."
+16-C-1318,"Perrault Bros., Lewis Perrault."
+10-C-1962,Piedmont Cotton Mills.
+4-C-1743,"Polk, R. L. & Co."
+5-C-2193,"Richmond Coca-Cola Bottling Works, Inc."
+16-C-1935,Super-Cold Southwest Co.
+8-C-2064,"Wooster Brass Co., The."
+II. Representation Cases,
+21-R-4025,Air Reduction Sales Co.
+5-R-3008,"Alexandria, Barcroft & Washington Transit Co."
+6-R-1654,Aluminum Co. of America.
+14-R-1754,American Fixture & Manufacturing Co.
+2-R-7815,"American News Co., Inc."
+2-R-7759,American Packing Co.
+8-R-2694,American Steel & Wire Co.
+3-R-1585,Air Metal Construction Co.
+1-R-3675,Atwater Manufacturing Co.
+10-R-2732,Augusta Chemical Co.
+19-R-2104,Austin Co.
+13-R-4479,Automatic Paper Box Corp.
+91-R-1360,Avco Manufacturing Corp.
+19-R-2083,Beach Fish Co.
+4-R-2692,Bethlehem Globe Publishing Co.
+2-R-7763,Biltmore Pipe Co.
+8-R-2628,"Bliss, E. W., Co."
+9-R-2687,"Bradley & Gilbert Co., The."
+6-R-1687,Bucyrus-Erie Corp.
+13-R-4436,Burd Piston Ring Co.
+91-R-1328,"Burnet-Binford Lumber Co., Inc."
+9-R-2693,Carrollton Furniture Mfg. Co.
+19-R-2126,"Cascade Fruit Shippers, Inc."
+13-R-4361,Casteel Distributing Co.
+19-R-2128,Cedargreen Frozen Pack Corp.
+14-R-1700,Cerf Bros. Bag Co.
+13-R-4496,Chicago Streamlite Co.
+7-R-2601,Chrysler Corp.
+7-R-2602,Chrysler Corp.
+2-R-7244,Cities Service Oil Co. (Marine Division).
+2-R-7896,Cities Service Oil Co. (Pennsylvania).
+7-R-2594,Clark Equipment Co.
+15M-R-81,Coca-Cola Bottling Co. of Arkansas.
+15M-R-106,Coca-Cola Bottling Co.
+2-R-7681,"Cohn, Sigmund, Co."
+21-R-3988,Cole Instrument Co.
+9-R-2696,"Columbus Bolt Works Co., The."
+14-R-1715,Continental Can Co.
+10-R-2686,Davis Lumber Co.
+10-R-2669,"Delta Tank Manufacturing Co., Inc."
+7-R-2726,"Detroit Edison Co., The."
+7-R-2715,Detroit Packing Co.
+2-R-7675,"Dodge & Olcott, Inc."
+18-R-1852,Donny Box Co.
+5W-R-90,Duplan Corp.
+2-R-7551,"Eisen Bros., Inc."
+2-R-7650,"Essex County News Co., Inc."
+5-R-2946,Farmville Manufacturing Co.
+16-R-2277,Firestone Tire & Rubber Co.
+16-R-2303,Fort Worth Structural Steel Co.
+5-R-2913,"Freezer, J., & Sons."
+1-R-3743,"Gair, Robert, Co., Inc."
+13-R-4457,Gam Sales Co.
+1-R-3753,General Electric Co.
+21-R-3968,General Electric Co.
+8-R-2540,General Motors Corp.
+10-R-2737,General Shale Products Corp.
+7-R-2700,Gerber Products Co.
+5-R-3017,"Goldenberg Co., The."
+8-R-2669,"Grant, W. T., & Co., Department Store."
+1-R-3759,"Great Atlantic & Pacific Tea Co., The."
+18-R-1887,"Grede Foundry, Inc."
+16-R-2238,Gulf Oil Corp.
+13-R-4439,Gunite Foundries Corp.
+16-R-2155,Hardwicke-Etter Co.
+7-R-2656,Hayes Manufacturing Corp.
+4-R-2719,"Hill, C. V., & Co., Inc."
+1-R-3807,"Hinchey Consolidated Slate Co., Inc."
+16E-R-17,Hortex Manufacturing Co.
+15M-R-98,"Hungerford, S. R., Co., Inc."
+14-R-1714,Illinois Power Co.
+91-R-1346,Indianapolis Power & Light Co.
+2-R-7402,Interchemical Corp.
+13-R-4271,"International Harvester Co., McCormick Works."
+21-R-3876,International Smelting & Refining Co.
+2-R-7894,Jersey Publishing Co.
+10-R-2765,"Johnson City Foundry & Machine Works, Inc."
+7-R-2714,Kalamazoo Vegetable Parchment Co.
+1-R-3779,"Kallaher & Mee, Inc."
+21-R-3942,Kennecott Copper Corp.
+16-R-2202,Kimbell-Texarkana Co.
+8-R-2660,Kinsman Transit Co.
+14-RE-18,"Laclede Gas Light Co., The."
+4-R-2619,"Lehigh Valley Throwing Mills, Inc."
+1-R-3768,"Lehrolite, Inc."
+4-R-2681,"Link Belt Co., The."
+4-R-2716,Macungie Silk Co.
+13-R-4447,Marshall Field & Co.
+10-R-2711,Mascot Stove Co.
+21-R-4038,"Mimar Products, Inc."
+13-R-4414,Monumental Life Insurance Co.
+5W-R-2678,Morowebb Cotton Mills Co.
+10-R-2657,"Mylan-Sparta Co., Inc."
+2-R-7880,"N. A. P. A. New York Warehouse, Inc."
+9-R-2678,National Carbide Corp.
+2-R-7760,National Chair Co.
+2-R-7793,National Lead Co.
+20-R-2221,Norcal Packing Co.
+13-R-4438,"Northwest Cone Co., Inc. & Regal Candy Co."
+18-R-1886,Norway Needlecraft Corp.
+8-R-2698,"Ohio Fuel Gas Co., The."
+16-R-2293,Oklahoma Scrap Paper Co.
+2-R-7928,"Old Town Ribbon & Co., Inc."
+17D-R-55,"Omar Mills, Inc."
+4-R-2737,Penn Boiler & Burner Manufacturing Corp.
+14-R-1745,"Penney, J. C., Co., Inc."
+15-R-2214,Perry County Plywood Corp.
+16-R-2331,Pittsburgh Plate Glass Co.
+2-R-7852,Premier Container Corp.
+9-R-2708,Queen City Industries.
+2-R-7766,Radiant Lamp Co.
+10-R-2700,"Rich & Morgan, Inc."
+10-R-2444,"Royal Palm Furniture Factories, Inc."
+8-R-2674,"S-P Manufacturing Corp., The."
+15M-R-1930,"Salant & Salant, Inc."
+1-R-3769,"Scott & Williams, Inc."
+1-R-3701,"Scovil Manufacturing Co., Oakville Co. Division."
+4-R-2669,"Scranton Broadcasters, Inc."
+6-R-1744,"Sharon Herald Co., The."
+8-R-2655,"Shenango Furnace Co., The."
+9-R-2655,Short Way Bus Lines.
+1-R-3810,"Silex Co., The."
+19-R-2146,"Smucker, J. M., & Co."
+7-R-2662,"Solvay Process Co., The."
+15-R-2222,"Southern Advance Bag & Paper Co., Inc."
+16-R-2369,Southwestern Trailways.
+8-R-2691,Steel Stamping Co.
+10-R-2762,Stein-Way Clothing Co.
+5W-R-55,"Sterling Cotton Mills, Inc."
+4-R-2589,Stewartstown Furniture Co.
+5-R-2970,"Stillwater Worsted Mills, Inc."
+15-R-2180,Stonewall Cotton Mills.
+5W-R-97,Superior Manufacturing Co.
+10-R-2655,"Tennessee Chair Co., Inc."
+16-R-2345,Texas Paper Box Manufacturing Co.
+16-R-2328,Tin Processing Corp.
+1-R-3823,Tobe-Deutchman Corp.
+1-R-3815,"Torrington Co., The."
+2-R-7789,"Tru-Vue Optical Co., Inc."
+7-R-2689,"Tuttle, H. W., & Co., The."
+6-R-1751,Union Switch & Signal Co.
+13-R-4483,"U. S. Industrial Chemicals, Inc."
+7-R-2698,United States Rubber Co.
+1-R-3795,"United States Time Corp., The."
+20-R-2250,Wasatch Oil Refining Co.
+15-R-2234,Waterman Steamship Corp.
+16-R-2285,Weaver Iron Works.
+19-R-2127,Wenatchee-Wenoka Fruit Growers Association.
+20-R-2102,Westinghouse Electric Corp.
+4-R-2701,Wilmington Paper Box Co.
+13M-R-23,Wisconsin Telephone Co.

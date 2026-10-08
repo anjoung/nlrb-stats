@@ -1,7 +1,11 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10
-Total number of cases closed,6235,100.0,4.834,100.0,304,100.0,1097,100.0,122,100.0
-Befom issuance of notice of hearing,2284,36.6,1518,31.5,161,53.0,605,55.2,99,81.1
-"After issuance of notice, before close of hearing ...... ...... ..... ........",3156,50.6,2632,54.4,111,36.5,413,37.6,7,5.7
-"After heanng closed, before Issuance of decision",74,1.3,61,1.3,5,1.6,8,- 0.7,0,
-After Issuance of Regional Director's decision,718,11.5,621,12.8,27,8.9,70,6.4,16,13 1
-After issuance of Board decision ... ..... . .......... ............ ... ......... ..........-............,3,0.0,2,0.0,0,,1,0.1,0,
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CG cases,CG cases,CP cases,CP cases
+Stage of disposition,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed,Number,Percent of cases closed
+Total number of cases closed,"31,593",100.0,"22,484",100.0,"7,787",100.0,778,100.0,241,100.0,49,100.0,16,100.0,238,100.0
+Before issuance of complaint,"27,272",86.4,"18,834",83.9,"7,278",93.5,668,85.9,239,99.2,33,67.4,15,93.7,205,86.3
+"After issuance of complaint, before opening of hearing","3,296",10.5,"2,762",12.4,407,5.2,88,11.3,2,0.8,12,24.5,1,6.3,24,10.2
+"After hearing opened, before issuance of administrative law judge's decision",132,0.4,119,0.6,12,0.2,1,0.1,0,,0,,0,,0,
+"After administrative law judge's decision, before issuance of Board decision",30,0.2,27,0.2,3,0.0,0,,0,,0,,0,,0,
+After Board order adopting administrative law judge's decision in absence of exceptions,228,0.7,206,0.9,20,0.3,2,0.3,0,,0,,0,,0,
+"After Board decision, before circuit court decree",342,1.2,272,1.2,50,0.6,13,1.7,0,,1,2.0,0,,6,3.5
+"After circuit court decree, before Supreme Court action",192,0.6,171,0.8,12,0.2,6,0.8,0,,3,6.1,0,,0,
+After Supreme Court action,3,0.0,2,0.0,1,0.0,0,,0,,0,,0,,0,

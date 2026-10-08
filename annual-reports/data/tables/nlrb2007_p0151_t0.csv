@@ -1,1 +1,22 @@
-row_label
+Type of case,Type of election,Type of election,Type of election,Type of election,Type of election,Type of election
+Type of case,Total,Consent,Stipulated,Board-directed,Regional Director-directed,Expedited elections under 8(b)(7)(C)
+"All types, total:",,,,,,
+Elections,"1,938",92,"1,588",0,256,2
+Eligible voters,"135,519","8,825","100,585",0,"26,036",73
+Valid votes,"105,977","6,436","82,043",0,"17,426",72
+RC cases:,,,,,,
+Elections,"1,500",74,"1,233",0,192,1
+Eligible voters,"101,934","8,035","72,709",0,"21,120",70
+Valid votes,"80,071","5,850","60,386",0,"13,766",69
+RM cases:,,,,,,
+Elections,23,0,15,0,7,1
+Eligible voters,"1,004",0,830,0,171,3
+Valid votes,831,0,715,0,113,3
+RD cases:,,,,,,
+Elections,358,16,299,0,43,0
+Eligible voters,"25,611",617,"21,347",0,"3,647",0
+Valid votes,"21,012",489,"17,809",0,"2,714",0
+UD cases:,,,,,,
+Elections,57,2,41,0,14,
+Eligible voters,"6,970",173,"5,699",0,"1,098",
+Valid votes,"4,063",97,"3,133",0,833,

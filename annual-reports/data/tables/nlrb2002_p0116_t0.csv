@@ -1,5 +1,22 @@
-row_label,All R elections — Total elections,All R elections — Withdrawn or dismissed before election,All R elections — Resulting in rerun or runoff,All R elections — Resulting in certification,RC elections — Total elections,RC elections — Withdrawn or dismissed before election,RC elections — Resulting in rerun or runoff,RC elections — Resulting in certification,RM elections — Total elections,RM elections — Withdrawn or dismissed before election,RM elections — Resulting in rerun or runoff,RM elections — Resulting in certification,RD elections — Total elections,RD elections — Withdrawn or dismissed before election,RD elections — Resulting in rerun or runoff,RD elections — Resulting in certification
-All representation elections,3151,89,39,3003,2682,89,36,2557,45,0,0,45,424,0,3,421
-Consent elections,7,0,0,7,6,0,0,6,0,0,0,0,1,0,0,1
-Stipulated elections,2639,61,37,2541,2225,61,36,2128,37,0,0,37,377,0,1,376
-Regional Director-directed,505,28,22,455,451,28,20,403,8,0,0,8,46,0,2,44
+Type of case,Type of election,Type of election,Type of election,Type of election,Type of election,Type of election
+Type of case,Total,Consent,Stipulated,Board-directed,Regional Director-directed,Expedited elections under 8(b)(7)(C)
+"All types, total:",,,,,,
+Elections,3062,8,2583,0,471,0
+Eligible voters,"203,414",429,"154,511",0,"48,474",0
+Valid votes,"167,160",379,"130,796",0,"35,985",0
+RC cases:,,,,,,
+Elections,2538,6,2128,0,404,0
+Eligible voters,"170,964",411,"131,745",0,"38,808",0
+Valid votes,"144,475",363,"111,439",0,"32,673",0
+RM cases:,,,,,,
+Elections,46,0,38,0,8,0
+Eligible voters,1974,0,1780,0,194,0
+Valid votes,1723,0,1550,0,173,0
+RD cases:,,,,,,
+Elections,421,1,376,0,44,0
+Eligible voters,"25,742",6,"17,415",0,8321,0
+Valid votes,"17,499",4,"15,068",0,2427,0
+UD cases:,,,,,,
+Elections,57,1,41,0,15,
+Eligible voters,4734,12,3571,0,1151,
+Valid votes,3463,12,2739,0,712,

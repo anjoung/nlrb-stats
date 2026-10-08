@@ -1,23 +1,48 @@
-Division and State,Number of polls / Total,Number of polls / Affiliation of union authorized to negotiate union-shop — A F L,Number of polls / Affiliation of union authorized to negotiate union-shop — C I O,Number of polls / Affiliation of union authorized to negotiate union-shop — Unaffiliated unions,Number of polls / Union-shop rejected,Employees eligible to vote,Number of valid votes cast / Total,Number of valid votes cast / In favor of union-shop by affiliation of petitioning union — A F L,Number of valid votes cast / In favor of union-shop by affiliation of petitioning union — C I O,Number of valid votes cast / In favor of union-shop by affiliation of petitioning union — Unaffiliated unions,Number of valid votes cast / Against union-shop
-New England,3874,2415,691,432,85,556460,479562,172813,208366,38734,30131
-Maine,200,165,21,8,6,32649,27532,17166,16170,3232,2281
-New Hampshire,164,57,63,10,0,32609,27343,7128,13026,4068,3123
-Vermont,103,61,11,11,2,8082,6961,5001,1083,467,1047
-Massachusetts,2355,1624,493,236,30,390640,330300,108055,165724,25374,21060
-Rhode Island,350,165,165,21,0,61830,53074,13690,27394,3011,1042
-Connecticut,602,353,178,138,16,94424,80392,25873,39605,7834,7090
-Middle Atlantic,11015,7070,2336,1409,200,1917308,1626919,631730,656624,197367,141329
-New York,5449,3812,960,601,76,802834,698103,374774,191107,62665,62135
-New Jersey,1829,820,445,517,47,327860,276151,78479,81491,85498,30683
-Pennsylvania,3278,1938,931,412,77,786614,682665,178477,184026,203663,55499
-East North Central,12062,6990,2947,1938,311,2440402,2000193,569933,1094004,302693,63419
-Ohio,3292,1926,802,464,98,647827,539449,144333,278949,82996,33170
-Indiana,1551,1022,301,184,44,361547,292927,70572,181704,32442,8209
-Illinois,3387,2194,623,457,113,454964,388108,150295,157938,63602,16463
-Michigan,2441,961,1107,338,35,639500,514108,78767,378941,39581,16879
-Wisconsin,1411,925,284,245,21,297158,245601,94070,100946,33793,8728
-West North Central,6005,4449,557,828,194,381347,326852,161156,88807,39486,19338
-South Atlantic,1347,1014,167,143,43,226187,187124,86696,73856,12967,13705
-Delaware,65,40,13,6,6,6432,5151,1712,2873,404,162
-Maryland,579,455,72,41,11,117829,97943,42587,39455,4693,5892
-District of Columbia,377,353,11,11,2,11539,9621,7924,884,287,576
+Industrial group,Number of polls,Number of polls,Number of polls,Number of polls,Union shop rejected,Employees eligible to vote,Total valid votes
+Industrial group,Total,Affiliation of union authorized to negotiate union-shop,Affiliation of union authorized to negotiate union-shop,Affiliation of union authorized to negotiate union-shop,Union shop rejected,Employees eligible to vote,Total valid votes
+Industrial group,Total,A.F.L,C.I O.,Unaffiliated unions,Union shop rejected,Employees eligible to vote,Total valid votes
+Total,"46,146","30,347","8,017","6,459","1,323","6,545,001","5,548,982"
+Manufacturing,"30,271","18,035","7,073","4,473",690,"5,458,995","4,645,107"
+Ordnance and accessories,13,8,2,3,0,"5,839","5,052"
+Food and kindred products,"6,222","4,851",689,505,177,"570,328","486,524"
+Tobacco manufacturers,65,50,6,9,0,"14,977","13,285"
+Textile-mill products,"1,548",298,"1,023",215,12,"391,754","345,073"
+Apparel and other finished products made from fabrics and similar material,753,477,247,22,7,"218,112","199,855"
+Lumber and wood products,"2,129","1,457",573,32,67,"170,927","144,687"
+Furniture and fixtures,"1,131",886,154,65,26,"92,911","81,368"
+Paper and allied products,"1,299","1,030",167,84,18,"226,236","198,533"
+"Printing, publishing, and allied industries","1,746","1,357",181,172,36,"95,029","83,235"
+Chemicals and allied products,"1,214",838,237,112,27,"123,524","104,787"
+Products of petroleum and coal,369,154,173,24,18,"50,686","41,419"
+Rubber products,272,70,185,12,5,"138,458","109,631"
+Leather and leather products,568,368,131,58,11,"101,836","89,382"
+"Stone, clay, and glass products","1,361","1,069",176,93,23,"210,675","177,802"
+Primary metal industries,"2,069","1,124",642,259,44,"799,751","648,343"
+Fabricated metal products (except machinery and transportation equipment),"2,913","1,604",706,545,58,"362,627","315,917"
+Machinery (except electrical),"2,936",699,806,"1,362",69,"506,889","437,762"
+"Electrical machinery, equipment, and supplies","1,003",503,199,281,20,"294,800","250,047"
+Transportation equipment,"1,168",336,450,345,37,"924,095","772,377"
+Aircraft and parts,137,31,39,58,9,"107,872","90,393"
+Ship and boat building and repairing,211,110,54,39,8,"55,924","45,232"
+Automotive and other transportation equipment,820,195,357,248,20,"760,299","636,752"
+"Professional, scientific, and controlling instruments",365,138,123,94,10,"57,309","51,069"
+Miscellaneous manufacturing,"1,127",718,203,181,25,"102,232","88,959"
+"Agriculture, forestry, and fisheries",5,4,0,1,0,64,58
+Mining,332,160,108,54,10,"44,859","36,681"
+Metal mining,90,12,65,10,3,"28,218","23,497"
+Coal mining,31,4,2,25,0,982,872
+Crude petroleum and natural gas production,35,13,17,1,4,"6,511","4,620"
+Nonmetallic mining and quarrying,176,131,24,18,3,"9,148","7,692"
+Construction,466,392,7,46,21,"24,786","20,208"
+Wholesale trade,"4,111","3,360",282,295,174,"133,896","118,768"
+Retail trade,"3,641","2,567",247,630,197,"239,957","201,544"
+"Finance, insurance, and real estate","1,546","1,508",14,16,8,"30,882","26,347"
+"Transportation, communication, and other public utilities","4,739","3,712",202,636,189,"542,736","439,896"
+Highway passenger transportation,383,277,12,77,17,"44,592","36,279"
+Highway freight transportation,"2,062","1,688",17,258,99,"85,270","72,655"
+Water transportation,181,117,29,27,8,"21,376","16,663"
+Warehousing and storage,811,667,45,67,32,"30,616","26,967"
+Other transportation,124,101,8,12,3,"70,330","59,361"
+Communication,691,535,26,109,21,"124,552","92,564"
+"Heat, light, power, water, and sanitary service",487,327,65,86,9,"166,000","135,401"
+Services,"1,035",609,84,308,34,"68,826","60,373"

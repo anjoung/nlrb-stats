@@ -1,7 +1,11 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10
-Total number of cases closed,14059,100 0,11970,100 0,971,100.0,1118,100.0,202,100 0
-Before issuance of notice of hearing,5645,40 2,4358,36 4,630,64 9,657,68.8,133,65 8
-After issuance of notice before close of hearing,5918,42 1,5371,44 9,237,24 4,310,27.7,6,3.0
-After hearing closed before issuance of decision,150,1 0,132,1 1,10,1.0,8,0 7,0,
-After i ssuance of regional director's decision,2226,15.8,1999,16.7,89,9 2,138,12 3,63,31.2
-After issuance of Board decision,120,0 9,110,0 9,5,0 5,5,0 5,0,
+Stage of disposition,All C cases,All C cases,CA cases,CA cases,CB cases,CB cases,CC cases,CC cases,CD cases,CD cases,CE cases,CE cases,CP cases,CP cases
+Stage of disposition,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed,Number of cases,Percent of cases closed
+Total number of cases closed,"26,989",100.0,"17,985",100.0,"5,975",100.0,"1,780",100.0,665,100.0,84,100.0,500,100.0
+Before issuance of complaint,"23,366",86.6,"15,207",84.6,"5,467",91.5,"1,540",86.5,641,96.3,65,77.4,446,89.2
+"After issuance of complaint, before opening of hearing","1,795",6.6,"1,354",7.5,243,4.1,154,8.7,7,1.1,10,11.9,27,5.4
+"After hearing opened, before issuance of administrative law judge's decision",211,0.8,168,0.9,27,0.4,15,0.8,0,,0,,1,0.2
+"After administrative law judge's decision, before issuance of Board decision",16,0.1,12,0.1,2,0.0,1,0.1,0,,0,,1,0.2
+After Board order adopting administrative law judge's decision in absence of exceptions,238,0.9,179,1.0,45,0.8,10,0.5,0,,1,1.2,3,0.6
+"After Board decision, before circuit court decree",863,3.2,654,3.6,130,2.2,41,2.3,14,2.1,5,5.9,19,3.8
+"After circuit court decree, before Supreme Court action",441,1.6,364,2.0,53,0.9,17,1.0,1,0.2,3,3.6,3,0.6
+After Supreme Court action,59,0.2,47,0.3,8,0.1,2,0.1,2,0.3,0,,0,

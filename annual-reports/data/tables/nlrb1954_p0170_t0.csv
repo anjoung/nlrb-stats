@@ -1,63 +1,47 @@
-Division and State,All cases,Unfair labor practice cases / CA,Unfair labor practice cases / CB,Unfair labor practice cases / CC,Unfair labor practice cases / CD,Representation cases / RC,Representation cases / RM,Representation cases / RD
-Total,14041,4373,1257,250,85,7028,568,480
-New England,807,279,48,18,8,393,31,30
-Maine,44,16,5,0,0,20,3,0
-New Hampshire,39,11,0,0,1,25,2,0
-Vermont,12,4,0,0,0,8,0,0
-Massachusetts,446,159,22,8,2,224,19,12
-Rhode Island,70,17,12,3,0,32,5,1
-Connecticut,196,72,9,7,3,84,11,17
-Middle Atlantic,1913,681,341,55,12,873,55,23
-New York,629,176,165,45,3,355,17,23
-New Jersey,789,243,79,6,0,391,,
-East North Central,2835,868,245,22,20,1511,91,83
-Ohio,742,303,55,8,2,422,30,24
-Indiana,422,146,45,2,2,198,13,16
-Illinois,759,241,72,10,11,386,28,11
-Michigan,632,201,60,2,5,324,16,24
-Wisconsin,280,72,13,2,0,181,4,8
-West North Central,1176,290,64,13,0,723,41,40
-Minnesota,104,20,8,0,0,68,5,3
-Iowa,239,37,19,2,1,169,9,11
-Missouri,563,169,41,8,0,335,20,10
-North Dakota,12,3,0,1,0,10,0,1
-South Dakota,33,7,0,0,0,38,0,4
-Nebraska,67,21,0,0,0,44,0,2
-Kansas,126,33,1,1,0,63,5,13
-South Atlantic,1241,436,91,28,7,572,54,53
-Delaware,19,5,0,0,0,14,0,0
-Maryland,145,34,17,6,1,71,3,5
-District of Columbia,77,22,4,0,2,42,3,4
-Virginia,149,52,10,1,0,68,8,9
-West Virginia,102,40,17,5,3,39,0,2
-North Carolina,183,90,2,1,0,70,8,12
-South Carolina,60,31,3,0,0,22,0,4
-Georgia,200,66,20,3,1,97,8,5
-Florida,304,96,18,10,0,149,19,12
-East South Central,720,228,50,11,4,379,21,26
-Kentucky,159,47,9,4,2,88,3,6
-Tennessee,347,111,22,3,0,183,6,12
-Alabama,155,46,10,1,1,76,11,7
-Mississippi,59,24,1,1,0,32,1,1
-West South Central,1024,315,55,25,6,532,45,45
-Arkansas,113,46,0,0,0,52,7,8
-Louisiana,217,67,18,8,2,112,5,5
-Oklahoma,93,25,7,2,0,45,4,10
-Texas,601,177,30,20,4,323,24,22
-Mountain,484,174,37,6,4,221,25,17
-Montana,37,9,8,0,2,17,1,0
-Idaho,76,37,5,0,0,26,3,5
-Wyoming,14,5,4,0,0,5,0,0
-Colorado,119,33,4,0,0,69,12,2
-New Mexico,84,47,8,6,0,24,2,0
-Arizona,82,20,4,0,2,47,5,4
-Utah,37,8,1,0,0,26,0,2
-Nevada,35,9,3,0,0,19,2,2
-Pacific,1950,612,245,65,5,859,102,82
-Washington,395,114,44,8,1,165,22,11
-Oregon,229,85,21,4,0,91,14,13
-California,1416,413,180,33,3,663,66,58
-Outlying areas,473,139,54,6,0,219,17,6
-Alaska,77,19,25,1,0,29,3,0
-Hawaii,65,12,1,1,0,48,0,3
-Puerto Rico,331,139,28,4,0,142,,3
+Industrial group,All cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Unfair labor practice cases,Representation cases,Representation cases,Representation cases
+Industrial group,All cases,CA,CB,CC,CD,RC,RM,RD
+Total,"14,041","4,373","1,257",250,85,"7,028",568,480
+Manufacturing,"8,523","2,733",488,75,23,"4,569",314,321
+Ordnance and accessories,70,26,5,1,0,34,1,3
+Food and kindred products,"1,181",298,73,16,3,704,45,42
+Tobacco manufacturers,21,6,1,0,0,12,0,2
+Textile mill products,384,148,17,4,0,196,7,12
+Apparel and other finished products made from fabrics and similar materials,484,231,45,11,0,148,37,12
+Lumber and wood products,394,156,24,5,2,167,25,15
+Furniture and fixtures,310,120,12,4,3,144,17,10
+Paper and allied products,280,65,8,1,4,180,10,12
+"Printing, publishing, and allied industries",351,105,25,0,0,180,16,25
+Chemicals and allied products,539,138,23,6,2,333,17,20
+Products of petroleum and coal,131,44,6,1,0,62,3,15
+Rubber products,71,21,1,1,0,42,3,3
+Leather and leather products,134,49,8,1,0,64,6,6
+"Stone, clay, and glass products",346,127,23,5,1,168,11,11
+Primary metal industries,426,134,24,1,0,246,10,11
+Fabricated metal products (except machinery and transportation equipment),782,241,47,6,0,442,27,19
+Machinery (except electrical),891,281,42,2,2,506,27,31
+"Electrical machinery, equipment, and supplies",565,173,34,5,3,310,10,30
+Transportation equipment,550,176,45,3,2,281,17,26
+Aircraft and parts,236,83,14,2,0,115,8,14
+Ship and boat building and repairing,83,20,13,0,1,45,2,2
+Automotive and other transportation equipment,231,73,18,1,1,121,7,10
+"Professional, scientific, and controlling instruments",137,47,6,0,1,77,3,3
+Miscellaneous manufacturing,476,147,19,2,0,273,22,13
+"Agriculture, forestry, and fisheries",22,16,0,1,0,4,1,0
+Mining,189,63,21,4,1,82,10,8
+Metal mining,57,15,0,0,1,41,0,0
+Coal mining,36,19,14,1,0,1,0,1
+Crude petroleum and natural gas production,25,6,0,0,0,7,9,3
+Nonmetallic mining and quarrying,71,23,7,3,0,33,1,4
+Construction,905,278,330,74,38,174,9,2
+Wholesale trade,"1,031",239,43,18,3,617,61,50
+Retail trade,"1,336",444,68,17,2,676,77,52
+"Finance, insurance, and real estate",88,19,4,2,0,60,2,1
+"Transportation, communication, and other public utilities","1,552",448,264,56,17,652,75,40
+Highway passenger transportation,99,30,11,1,0,48,4,5
+Highway freight transportation,469,151,70,18,6,180,33,11
+Water transportation,330,99,144,22,6,56,3,0
+Warehousing and storage,201,42,9,11,3,116,14,6
+Other transportation,52,24,3,0,0,24,1,0
+Communication,246,66,18,3,1,134,14,10
+"Heat, light, power, water, and sanitary services",155,36,9,1,1,94,6,8
+Services,395,133,39,3,1,194,19,6

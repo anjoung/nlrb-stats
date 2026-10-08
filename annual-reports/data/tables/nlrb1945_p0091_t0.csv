@@ -1,20 +1,28 @@
-row_label,col_1,col_2,col_3,col_4
-After hearing,140,2.1,,1.6
-Adjusted,72,1.s,,0.8
-Recognition,5,0.1,,0.1
-Consent election,6.5,1.0,,0.7
-Cross-check,2,(0,(0,
-Withdrawn,66,1.0,,0.8
-Dismissed,2,(0,(0,
-After Board decision,2.110,31.1,,24.3
-Certified,1487,21.9,,17.1
-Stipulated election,272,4.0,,3.1
-Stipulated cross-check,25,0.4,,0.3
-Ordered election,1187,17.5,,13.7
-Without election,3,(0,(0,
-Dismissed,029,7.8,,6.1
-Stipulated election,73,1.1,,0.8
-Ordered election,243,3.6,,2.8
-Without election,213,3.1,,2.5
-Withdrawn,99,1.4,,1. I
-Otherwise .,2,(0,,
+Stage and method,Number of cases,Percent of cases closed,Percent of cases on docket
+Cases on docket during the year,"3,633",,100.0
+Total number of cases closed,"2,308",100.0,63.5
+"Before formal action, total","2,022",87.6,55.6
+Adjusted,478,20.7,13.1
+Withdrawn,"1,188",51.5,32.7
+Dismissed,355,15.4,9.8
+Closed otherwise,1,[1],[1]
+"After formal action, total",286,12.4,7.9
+Before hearing,29,1.2,0.8
+Adjusted,19,0.8,0.5
+Withdrawn,8,0.3,0.2
+Dismissed,2,0.1,0.1
+After hearing,29,1.2,0.8
+Adjusted,7,0.3,0.2
+Compliance with Intermediate Report,14,0.6,0.4
+Withdrawn,5,0.2,0.1
+Dismissed,3,0.1,0.1
+Closed otherwise,0,0.0,0.0
+After Board decision,71,3.1,2.0
+Compliance,56,2.5,1.6
+Dismissed,12,0.5,0.3
+Closed otherwise,3,0.1,0.1
+After Court action,157,6.9,4.3
+Compliance with consent decree,58,2.6,1.6
+Compliance with court order,96,4.2,2.6
+Dismissed,3,0.1,0.1
+Closed otherwise,0,0.0,0.0

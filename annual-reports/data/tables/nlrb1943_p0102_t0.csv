@@ -1,2 +1,11 @@
-Participating unions,Number of elections and pay-roll checks,Elections won by petitioner / Number,Elections won by petitioner / Percent,Valid votes cast / Total,Valid votes cast / For A. F. of L.,Valid votes cast / For C. I. O.,Valid votes cast / For unaffiliated union,Valid votes cast / For no union,Percent of total votes cast for petitioner
-Total,4153,3264,78.6,1126501,267118,515271,140780,203332,63.8
+Participating unions,Number of elections and pay-roll checks,Elections and pay-roll checks won,Elections and pay-roll checks won,Elections and pay-roll checks won,Elections and pay-roll checks won,Elections and pay-roll checks won,Elections and pay-roll checks won,Eligible voters,Eligible voters,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast,Valid votes cast
+Participating unions,Number of elections and pay-roll checks,By A. F. of L. affiliates,By A. F. of L. affiliates,By C. I. O. affiliates,By C. I. O. affiliates,By unaffiliated unions,By unaffiliated unions,Number,Percent casting valid votes,Total,For A. F. of L. affiliates,For A. F. of L. affiliates,For C. I. O. affiliates,For C. I. O. affiliates,For unaffiliated unions,For unaffiliated unions,Against unions
+Participating unions,Number of elections and pay-roll checks,Number,Percent,Number,Percent,Number,Percent,Number,Percent casting valid votes,Total,Number,Percent,Number,Percent,Number,Percent,Against unions
+Total,"4,153","1,398",33.7,"1,766",42.5,416,10.0,"1,402,040",80.3,"1,126,501","267,118",23.7,"515,271",45.7,"140,780",12.5,"203,332"
+A. F. of L. affiliates,"1,315","1,072",81.5,,,,,"226,547",82.2,"186,309","131,171",70.4,,,,,"55,138"
+C. I. O. affiliates,"1,580",,,"1,344",85.1,,,"478,413",79.9,"382,453",,,"284,816",74.5,,,"97,637"
+Unaffiliated unions,328,,,,,276,84.1,"65,825",81.3,"53,506",,,,,"40,633",75.9,"12,873"
+A. F. of L. affiliates-C. I. O. affiliates,513,211,41.1,268,52.2,,,"328,699",78.3,"257,407","100,580",39.1,"132,921",51.6,,,"23,906"
+A. F. of L. affiliates-unaffiliated unions,160,104,65.0,,,52,32.5,"65,403",81.5,"53,280","30,050",56.4,,,"19,030",35.7,"4,200"
+C. I. O. affiliates-unaffiliated unions,227,,,143,63.0,80,35.2,"215,418",82.0,"176,727",,,"92,083",52.1,"75,890",42.9,"8,754"
+A. F. of L.-C. I. O.-unaffiliated unions,30,11,36.7,11,36.7,8,26.7,"21,735",77.4,"16,819","5,317",31.6,"5,451",32.4,"5,227",31.1,824

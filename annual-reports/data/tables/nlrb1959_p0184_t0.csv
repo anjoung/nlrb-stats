@@ -1,4 +1,20 @@
-Union affiliation,Elections participated in / Total,Elections participated in / Resulting in certification / Number,Elections participated in / Resulting in certification / Percent of total,Elections participated in / Resulting in decertification / Number,Elections participated in / Resulting in decertification / Percent of total,Employees involved in elections (number eligible to vote) / Total eligible,Employees involved in elections (number eligible to vote) / Resulting in certification / Number,Employees involved in elections (number eligible to vote) / Resulting in certification / Percent of total eligible,Employees involved in elections (number eligible to vote) / Resulting in decertification / Number,Employees involved in elections (number eligible to vote) / Resulting in decertification / Percent of total eligible,Valid votes cast / Total,Valid votes cast / Percent of total eligible,Valid votes cast / Cast for the union / Number,Valid votes cast / Cast for the union / Percent of total cast
-Total,216,74,34.3,142,65.7,16231,8526,52.5,7705,47.5,14656,90.3,7672,52.3
-AFL-CIO,167,60,35.9,107,64.1,14800,8003,54.1,6797,45.9,13326,90.0,7132,53.5
-Unaffiliated,49,14,28.6,35,71.4,1431,523,36.5,908,63.5,1330,92.9,540,40.6
+Affiliation of participating unions,Number of elections,Number of elections,Number of elections,Number of elections,Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Total valid votes cast
+Affiliation of participating unions,Total,In which representation rights were won by—,In which representation rights were won by—,In which no representative was chosen,Total,In units in which representation rights were won by—,In units in which representation rights were won by—,In units where no representative was chosen,Total valid votes cast
+Affiliation of participating unions,Total,AFL-CIO affiliates,Unaffiliated unions,In which no representative was chosen,Total,AFL-CIO affiliates,Unaffiliated unions,In units where no representative was chosen,Total valid votes cast
+Total,"5,428","2,302","1,108","2,018","430,023","171,441","85,587","172,995","385,794"
+1-union elections:,,,,,,,,,
+AFL-CIO,"3,165","1,841",,"1,324","226,821","102,272",,"124,549","205,217"
+Unaffiliated,"1,392",,801,591,"40,463",,"21,655","18,808","36,657"
+2-union elections,,,,,,,,,
+AFL-CIO v. AFL-CIO,209,159,,50,"31,497","15,150",,"16,347","28,745"
+AFL-CIO v. unaffiliated,529,270,219,40,"107,814","49,312","53,243","5,259","94,816"
+Unaffiliated v. unaffiliated,65,,65,0,"4,994",,"4,994",0,"4,568"
+3-union elections,,,,,,,,,
+AFL-CIO v. AFL-CIO v. AFL-CIO,14,12,,2,"1,931","1,755",,176,"1,773"
+AFL-CIO v AFL-CIO v. unaffiliated,32,9,16,7,"6,754","1,609","4,394",751,"6,018"
+AFL-CIO v unaffiliated v. unaffiliated,9,2,4,3,"1,655",709,661,285,"1,565"
+Unaffiliated v. unaffiliated v. unaffiliated,1,,1,0,19,,19,0,16
+4-union elections,,,,,,,,,
+AFL-CIO v AFL-CIO v. AFL-CIO v. AFL-CIO,9,8,,1,"7,124",304,,"6,820","5,537"
+AFL-CIO v AFL-CIO v. unaffiliated v unaffiliated,2,0,2,0,621,0,621,0,560
+5-union elections. AFL-CIO v. AFL-CIO v AFL-CIO v. AFL-CIO v. AFL-CIO,1,1,,0,330,330,,0,322

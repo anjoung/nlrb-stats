@@ -1,17 +1,20 @@
-Action taken,Total all,Employer / Total,Employer / Informal settlement,Employer / Formal settlement,Employer / Recommendation of administrative law judge,Employer / Order of Board,Union / Order of Court,Union / Total,Union / Informal settlement,Union / Formal settlement,Union / Recommendation of administrative law judge
-A. By number of cases involved,8608,,,,,,,,,,
-Notice posted,1435,1160,982,11,37,69,61,275,256,1,4
-Recognition or other assistance withdrawn,2,2,1,0,1,0,0,,,,
-Employer-dominated union disestablished,0,0,0,0,0,0,0,,,,
-Employees offered reinstatement,779,779,704,2,12,34,27,,,,
-Employees placed on preferential hiring list,29,29,25,0,2,0,2,,,,
-Hiring hall rights restored,10,,,,,,,10,10,0,0
-Objections to employees' withdrawn,4,,,,,,,4,4,0,0
-Picketing ended,18,,,,,,,18,18,0,0
-Work stoppage ended,9,,,,,,,9,9,0,0
-Collective bargaining begun,1973,1883,1832,2,10,14,25,90,86,0,1
-Backpay distributed,1359,1307,1196,2,22,49,38,52,50,0,1
-"Reimbursement of fees, dues, and fines",177,57,53,0,2,1,1,120,118,0,0
-Other conditions of employment,0,0,0,0,0,0,0,0,0,0,0
-B. By number of employees affected,1589,1549,1245,0,5,160,139,,,,
-"Employees offered reinstatement, total",1214,1214,1076,0,3,71,64,,,,
+Types of formal actions taken,Cases in which formal actions taken,Formal actions taken by type of case,Formal actions taken by type of case
+Types of formal actions taken,Cases in which formal actions taken,AC,UC
+Hearings completed,30,0,27
+Decisions issued after hearing,43,4,35
+By Regional Directors,42,4,34
+By Board,1,0,1
+Transferred by Regional Directors for initial decision,0,0,0
+Review of Regional Directors' decisions:,,,
+Requests for review received,15,0,15
+Withdrawn before request ruled upon,0,0,0
+"Board action on requests ruled upon, total",23,0,8
+Granted,0,0,0
+Denied,23,0,8
+Remanded,0,0,0
+"Withdrawn after request granted, before Board review",0,0,0
+"Board decision after review, total",1,0,1
+Regional Directors' decisions:,,,
+Affirmed,0,0,0
+Modified,0,0,0
+Reversed,1,0,1

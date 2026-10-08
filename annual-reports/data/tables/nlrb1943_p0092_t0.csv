@@ -1,8 +1,16 @@
-Division and State,Number of cases received in 1943 / All cases,Number of cases received in 1943 / Unfair labor practice cases / Number,Number of cases received in 1943 / Unfair labor practice cases / Percent of total,Number of cases received in 1943 / Representation cases / Number,Number of cases received in 1943 / Representation cases / Percent of total,Percent increase or decrease compared with 1942 / Unfair labor practice cases,Percent increase or decrease compared with 1942 / Representation cases
-New England,697,241,7.0,456,7.3,-16.0,-3.0
-Middle Atlantic,2258,795,23.4,1463,23.4,-36.0,+1.6
-East North Central,2781,922,27.0,1859,29.9,-30.7,+5.9
-West North Central,821,287,8.4,534,8.6,-37.7,-1.1
-South Atlantic,854,379,11.2,475,7.7,-18.8,-3.8
-East South Central,483,176,5.2,307,4.9,-13.7,+39.5
-West South Central,433,177,5.2,256,4.1,-20.6,-28.5
+Month,Cases received,Cases received,Cases received,Cases received,Cases received,Cases received,Cases received
+Month,Number,Number,Number,Percent of total,Percent of total,Workers involved,Workers involved
+Month,All cases,Unfair labor practice cases,Representation cases,Unfair labor practice cases,Representation cases,Unfair labor practice cases,Representation cases
+Total,"9,543","3,403","6,140",35.7,64.3,"5,806,610","2,229,861"
+July,937,383,554,40.9,59.1,"621,986","170,087"
+August,911,399,512,43.8,56.2,"473,129","162,979"
+September,807,318,489,39.4,60.6,"443,720","170,185"
+October,718,254,464,35.4,64.6,"489,217","177,985"
+November,639,249,390,39.0,61.0,"252,809","206,651"
+December,574,225,349,39.2,60.8,"403,021","119,558"
+January,734,291,443,39.6,60.4,"510,420","175,552"
+February,760,247,513,32.5,67.5,"556,212","248,204"
+March,915,288,627,31.5,68.5,"447,578","221,603"
+April,918,282,636,30.7,69.3,"604,145","202,829"
+May,778,214,564,27.5,72.5,"441,458","196,501"
+June,852,253,599,29.7,70.3,"562,915","177,727"

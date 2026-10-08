@@ -1,4 +1,17 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10
-Total,4130,3678,89 1,2528,1150,6888,6478,94.0,2112,4366
-AFL-CIO,4018,3572,889,2457,1115,6569,6178,94 0,1995,4183
-Unaffiliated,112,106,94.6,71,35,319,300,040,117,183
+Affiliation of participating unions,Number of elections,Number of elections,Number of elections,Number of elections,Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Number of employees involved (number eligible to vote),Total valid votes cast
+Affiliation of participating unions,Total,In which representation rights were won by—,In which representation rights were won by—,In which no representative was chosen,Total,In units in which representation rights were won by—,In units in which representation rights were won by—,In units where no representative was chosen,Total valid votes cast
+Affiliation of participating unions,Total,AFL-CIO affiliates,Unaffiliated unions,In which no representative was chosen,Total,AFL-CIO affiliates,Unaffiliated unions,In units where no representative was chosen,Total valid votes cast
+Total,"4,729","2,619",323,"1,787","458,904","176,497","88,423","193,984","410,619"
+1-union elections:,,,,,,,,,
+AFL-CIO,"3,879","2,236",,"1,643","282,748","112,816",,"169,932","257,960"
+Unaffiliated,256,,190,66,"12,639",,"8,882","3,757","10,792"
+2-union elections:,,,,,,,,,
+AFL-CIO v. AFL-CIO,321,260,,61,"48,936","30,591",,"18,345","43,025"
+AFL-CIO v. unaffiliated,223,98,113,12,"100,923","30,206","69,495","1,222","86,359"
+Unaffiliated v. unaffiliated,9,,9,0,"1,305",,"1,305",0,"1,215"
+3-union elections:,,,,,,,,,
+AFL-CIO v. AFL-CIO v. AFL-CIO,17,15,,2,"1,780","1,620",,160,"1,547"
+AFL-CIO v. AFL-CIO v. unaffiliated,20,9,9,2,"10,095","1,244","8,673",178,"9,265"
+AFL-CIO v. unaffiliated v. unaffiliated,2,0,2,0,68,0,68,0,64
+4-union elections:,,,,,,,,,
+AFL-CIO v. AFL-CIO v. AFL-CIO v. AFL-CIO,2,1,,1,410,20,,390,392

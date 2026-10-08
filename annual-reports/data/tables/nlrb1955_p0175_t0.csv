@@ -1,16 +1,27 @@
-row_label,Section / Subsection,Number of cases showing specific allegations,Percent of total cases,Section / Subsection (right panel),Number of cases showing specific allegations (right),Percent of total cases (right)
-A. CHARGES FILED AGAINST EMPLOYERS UNDER SEC. 8(a),,,,,,
-Total cases,4362,100.0,8(a)(3),3089,70.8,
-8(a)(1),4362,100.0,8(a)(4),99,2.3,
-8(a)(2),403,9.2,8(a)(5),1213,27.8,
-B. CHARGES FILED AGAINST UNIONS UNDER SEC. 8(b),,,,,,
-Total cases,1809,100.0,8(b)(3),145,8.0,
-8(b)(1),1145,63.3,8(b)(4),427,23.6,
-8(b)(2),1145,63.3,8(b)(5),14,.8,
-8(b)(6),,,8(b)(6),14,.8,
-C. ANALYSIS OF 8(b)(1) AND 8(b)(4),,,,,,
-Total cases 8(b)(1),1145,100.0,Total cases 8(b)(4),427,100.0,
-8(b)(1)(A),1129,98.6,8(b)(4)(A),303,71.0,
-8(b)(1)(B),19,1.7,8(b)(4)(B),124,29.0,
-8(b)(4)(C),,,8(b)(4)(C),39,9.1,
-8(b)(4)(D),,,8(b)(4)(D),82,19.2,
+,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of unfair labor practice cases,Number of representation cases,Number of representation cases,Number of representation cases,Number of representation cases,Number of representation cases,Number of representation cases
+,Total,Identification of complainant,Identification of complainant,Identification of complainant,Identification of complainant,Identification of complainant,Total,Identification of petitioners,Identification of petitioners,Identification of petitioners,Identification of petitioners,Identification of petitioners
+,Total,AFL affiliates,CIO affiliates,Unaffiliated unions,Individuals,Employers,Total,AFL affiliates,CIO affiliates,Unaffiliated unions,Individuals,Employees
+,CA cases,CA cases,CA cases,CA cases,CA cases,CA cases,RC cases,RC cases,RC cases,RC cases,RC cases,RC cases
+"Pending July 1, 1954","1,889",797,424,101,567,,"1,506",987,372,146,1,
+"Received July 1, 1954-June 30, 1955","4,362","1,552",971,153,"1,584",102,"6,160","4,059","1,601",490,10,
+"On docket July 1, 1954-June 30, 1955","6,251","2,349","1,395",254,"2,151",102,"7,666","5,046","1,973",636,11,
+"Closed July 1, 1954-June 30, 1955","4,449","1,662",993,176,"1,516",102,"6,414","4,228","1,634",543,9,
+"Pending June 30, 1955","1,802",687,402,78,635,0,"1,252",818,339,93,2,
+,CB cases,CB cases,CB cases,CB cases,CB cases,CB cases,RM cases,RM cases,RM cases,RM cases,RM cases,RM cases
+"Pending July 1, 1954",633,52,12,12,450,107,107,,,,,107
+"Received July 1, 1954-June 30, 1955","1,382",49,16,12,"1,081",224,545,,,,,545
+"On docket July 1, 1954-June 30, 1955","2,015",101,28,24,"1,531",331,652,,,,,652
+"Closed July 1, 1954-June 30, 1955","1,332",66,13,13,"1,026",214,546,,,,,546
+"Pending June 30, 1955",683,35,15,11,505,117,106,,,,,106
+,CC cases,CC cases,CC cases,CC cases,CC cases,CC cases,RD cases,RD cases,RD cases,RD cases,RD cases,RD cases
+"Pending July 1, 1954",108,0,3,1,2,102,102,0,0,0,102,
+"Received July 1, 1954-June 30, 1955",345,3,2,0,11,329,460,3,0,0,457,
+"On docket July 1, 1954-June 30, 1955",453,3,5,1,13,431,562,3,0,0,559,
+"Closed July 1, 1954-June 30, 1955",302,1,4,1,5,291,482,3,0,0,479,
+"Pending June 30, 1955",151,2,1,0,8,140,80,0,0,0,80,
+,CD cases,CD cases,CD cases,CD cases,CD cases,CD cases,,,,,,
+"Pending July 1, 1954",30,4,1,0,0,25,,,,,,
+"Received July 1, 1954-June 30, 1955",82,4,1,0,3,74,,,,,,
+"On docket July 1, 1954-June 30, 1955",112,8,2,0,3,99,,,,,,
+"Closed July 1, 1954-June 30, 1955",78,2,2,0,2,72,,,,,,
+"Pending June 30, 1955",34,6,0,0,1,27,,,,,,

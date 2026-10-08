@@ -1,29 +1,20 @@
-row_label,col_1,col_2,col_3,col_4,col_5
-Ito 9,1394,21 7,400 to 599,117,1.8
-10 to 19,1193,18 6,600 to 799,48,. 7
-20 to 39,1270,197,800 to 999,37,6
-40 to 59,625,9 7,"1,000 to 1,999",75,1.2
-60 to 79,432,6 7,"2,000 to 2,999",13,. 2
-80 to 99,277,4 3,"3,000 to 3,999",7,1
-100 to 199,575,8 9,"4,000 to 4,999",1,(I)
-200 to 299,235,3 7,"5,000 and over",5,1
-300 to 399,128,2.0,,6432,100 0
-,,,Total,,
-B. DECERTIFICATION ELECTIONS,B. DECERTIFICATION ELECTIONS,B. DECERTIFICATION ELECTIONS,B. DECERTIFICATION ELECTIONS,B. DECERTIFICATION ELECTIONS,B. DECERTIFICATION ELECTIONS
-1 to 9,17,18 3,200 to 299,2,2 1
-10 to 19,14,15 0,300 to 399,1,1.1
-20 to 39,28,30 1,400 to 499,1,1 1
-40 to 59,5,5 4,500 to 599,1,1 1
-60 to 79,8,8.6,600 to 699,1,1.1
-80 to 99,3,32,,,
-100 to 199,12,12 9,Total,93,100 0
-C. UNION-SHOP POLLS 2,C. UNION-SHOP POLLS 2,C. UNION-SHOP POLLS 2,C. UNION-SHOP POLLS 2,C. UNION-SHOP POLLS 2,C. UNION-SHOP POLLS 2
-1 to 9,1140,19.1,400 to 699,210,3 5
-10 to 19,967,162,700 to 999,107,1.8
-20 to 39,1088,18 3,"1,000 to 1,999",106,1 8
-40 to 59,553,9 3,"2,000 to 3,999",49,.8
-60 to 79,368,6 2,"4,000 to 6,999",25,. 4
-80 to 99,252,4 2,"7,000 to 9,999",8,. 1
-100 to 199,643,10 8,"10,000 and over",14,.2
-200 to 399,434,7.3,Total,,
-,,,,5964,100 0
+Type of case,Total elections,Type of election,Type of election,Type of election,Type of election
+Type of case,Total elections,Consent,Stipulated,Regional director directed,Board ordered
+"All elections, total","12,489","9,384",965,578,"1,562"
+"Eligible voters, total","2,296,042","1,167,235","442,820","454,484","231,503"
+"Valid votes, total","1,928,628","1,001,778","367,131","360,145","199,574"
+"NLRA, R cases, total",1,0,0,,1
+Eligible voters,145,0,0,,145
+Valid votes,135,0,0,,135
+"RC cases, total","6,271","4,010",775,,"1,486"
+Eligible voters,"651,651","305,146","122,250",,"224,255"
+Valid votes,"574,401","270,633","110,508",,"193,260"
+"RM cases, total",160,113,21,,26
+Eligible voters,"14,760","9,607","2,685",,"2,468"
+Valid votes,"13,059","8,594","2,440",,"2,025"
+"RD cases, total",93,44,10,,39
+Eligible voters,"6,111","2,640","1,351",,"2,120"
+Valid votes,"5,350","2,243","1,281",,"1,826"
+"UA cases, total","5,964","5,217",159,578,10
+Eligible voters,"1,623,375","849,842","316,534","454,484","2,515"
+Valid votes,"1,335,683","720,308","252,902","360,145","2,328"

@@ -1,14 +1,25 @@
-row_label,col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14,col_15,col_16,col_17,col_18,col_19,col_20,col_21,col_22
-Total all circuits,105,526,65,61.9,361,68.6,8,7.6,47,8.9,7,6.7,31,5.9,2,1.9,33,6.3,23,21.9,54,10.3
-"Boston,MA",3,17,1,33.3,13,76.4,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,2,11.8,2,66.7,2,11.8
-"New York, NY",6,35,6,100.0,26,74.3,0,0.0,0,0.0,0,0.0,2,5.7,0,0.0,2,5.7,0,0.0,5,14.3
-"Philadelphia, PA",6,35,4,66.7,28,80.0,1,16.7,3,8.6,0,0.0,0,0.0,1,16.7,1,2.8,0,0.0,3,8.6
-"Richmond, VA",11,47,6,54.5,26,55.3,1,9.1,8,17.0,2,18.2,0,0.0,0,0.0,4,8.5,2,18.2,9,19.2
-"New Orleans, LA",4,14,2,50.0,9,64.3,1,25.0,1,7.1,0,0.0,0,0.0,0,0.0,1,7.1,1,25.0,3,21.4
-"Cincinnati, OH",18,105,12,66.7,73,69.5,0,0.0,12,11.4,0,0.0,3,2.9,1,5.6,6,5.7,5,27.8,11,10.5
-"Chicago, IL",7,41,5,71.4,28,68.3,1,14.3,4,9.8,0,0.0,1,2.4,0,0.0,2,4.9,1,14.3,6,14.6
-"St. Louis,MO",7,24,2,28.6,20,83.3,1,14.3,1,4.2,1,14.3,2,8.3,0,0.0,1,4.2,3,42.9,0,0.0
-"San Francisco, CA",6,34,6,100.0,28,82.4,0,0.0,2,5.9,0,0.0,1,2.9,0,0.0,3,8.8,0,0.0,0,0.0
-"Denver, CO.",3,15,1,33.3,10,66.7,0,0.0,1,6.6,0,0.0,0,0.0,0,0.0,4,26.7,2,66.7,0,0.0
-"Atlanta, GA",4,30,3,75.0,24,80.0,0,0.0,1,3.3,0,0.0,1,3.3,0,0.0,0,0.0,1,25.0,4,13.4
-"Washington, DC",30,129,17,56.7,76,58.9,3,10.0,14,10.9,4,13.3,21,16.3,0,0.0,7,5.4,6,20.0,11,8.5
+,Fiscal Year 2002,Fiscal Year 2002,Fiscal Year 2002,Fiscal Year 2002,Fiscal Year 2002,Fiscal Year 2002,Fiscal Year 2002,Fiscal Year 2002,Fiscal Year 2002,"July 5, 1936 Sept. 30, 2002","July 5, 1936 Sept. 30, 2002"
+,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Number of proceedings,Percentages,Percentages,Percentages,Percentages,"July 5, 1936 Sept. 30, 2002","July 5, 1936 Sept. 30, 2002"
+,Total,vs. employers only,vs. unions only,vs. both employers and unions,Board dismissal,vs. employers only,vs. unions only,vs. both employers and unions,Board dismissal,Number,Percent
+Proceedings decided by U.S. courts of appeals,117,110,7,0,1,,,,,,
+On proceedings for review and/or enforcement,105,102,3,0,1,100.0,100.0,,100.0,"11,572",100.0
+Board orders affirmed in full,65,63,2,0,0,61.8,66.7,,0.0,7633,66.0
+Board orders affirmed with modification,8,8,0,0,0,7.8,0.0,,0.0,1536,13.3
+Remanded to the Board,7,7,0,0,0,6.9,0.0,,0.0,576,5.0
+Board orders partially affirmed and partially remanded,2,2,0,0,0,2.0,0.0,,0.0,255,2.2
+Board orders set aside,23,22,1,0,1,21.6,33.3,,100.0,1572,13.5
+On petitions for contempt,12,8,4,0,0,,,,,,
+Total Court Orders,19,14,5,0,0,100.0,100.0,,,,
+"Compliance after filing of petition, before court order",8,5,3,0,0,35.7,60.0,,,,
+Court orders holding respondent in contempt,6,5,1,0,0,35.7,20.0,,,,
+Court orders denying petition,2,2,0,0,0,14.3,0.0,,,,
+Court orders directing compliance without contempt adjudication,3,2,1,0,0,14.3,20.0,,,,
+Proceedings decided by U.S. Supreme Court,2,2,0,0,0,100.0,,,,259,100.0
+Board orders affirmed in full,0,0,0,0,0,0.0,,,,155,59.8
+Board orders affirmed with modification,0,0,0,0,0,0.0,,,,18,6.9
+Board orders set aside,1,1,0,0,0,50.0,,,,46,17.8
+Remanded to the Board,0,0,0,0,0,0.0,,,,20,7.7
+Remanded to court of appeals,1,1,0,0,0,50.0,,,,17,6.6
+Board's request for remand or modification of enforcement order denied,0,0,0,0,0,0.0,,,,1,0.4
+Contempt cases remanded to court of appeals,0,0,0,0,0,0.0,,,,1,0.4
+Contempt cases enforced,0,0,0,0,0,0.0,,,,1,0.4

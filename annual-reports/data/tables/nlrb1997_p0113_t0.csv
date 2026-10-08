@@ -1,43 +1,38 @@
-row_label,Identification of filing party / Total,Identification of filing party / AFL-CIO unions,Identification of filing party / Other national unions,Identification of filing party / Other local unions,Identification of filing party / Individuals,Identification of filing party / Employers
-CA cases,,,,,,
-"Pending October 1, 1996",28055,19305,1174,1467,6109,0
-Received fiscal 1997,25809,17631,615,1280,6283,0
-On docket fiscal 1997,53864,36936,1789,2747,12392,0
-Closed fiscal 1997,24624,16888,714,1196,5826,0
-"Pending September 30, 1997",29240,20048,1075,1551,6566,0
-CB cases,,,,,,
-"Pending October 1, 1996",4837,86,2,38,3957,754
-Received fiscal 1997,6673,78,4,33,5814,744
-On docket fiscal 1997,11510,164,6,71,9771,1498
-Closed fiscal 1997,6770,80,4,46,5841,799
-"Pending September 30, 1997",4740,84,2,25,3930,699
-CC cases,,,,,,
-"Pending October 1, 1996",447,2,4,0,0,441
-Received fiscal 1997,580,13,0,4,0,563
-On docket fiscal 1997,1027,15,0,8,0,1004
-Closed fiscal 1997,598,13,0,5,0,580
-"Pending September 30, 1997",429,2,0,3,0,424
-CD cases,,,,,,
-"Pending October 1, 1996",128,5,0,1,0,122
-Received fiscal 1997,180,11,0,2,0,167
-On docket fiscal 1997,308,16,0,3,0,289
-Closed fiscal 1997,176,8,0,1,0,167
-"Pending September 30, 1997",132,8,0,2,0,122
-CE cases,,,,,,
-"Pending October 1, 1996",43,2,0,0,4,37
-Received fiscal 1997,34,1,0,2,0,31
-On docket fiscal 1997,77,3,0,0,6,68
-Closed fiscal 1997,48,1,0,0,4,43
-"Pending September 30, 1997",29,2,0,0,2,25
-CG cases,,,,,,
-"Pending October 1, 1996",14,0,0,0,0,14
-Received fiscal 1997,32,0,0,0,0,32
-On docket fiscal 1997,46,0,0,0,0,46
-Closed fiscal 1997,24,0,0,0,0,24
-"Pending September 30, 1997",22,0,0,0,0,22
-CP cases,,,,,,
-"Pending October 1, 1996",48,2,0,2,0,44
-Received fiscal 1997,131,3,2,2,0,124
-On docket fiscal 1997,179,5,2,4,0,168
-Closed fiscal 1997,101,4,2,2,0,93
-"Pending September 30, 1997",78,1,0,2,0,76
+,Total,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party,Identification of filing party
+,Total,AFL-CIO unions,Other national unions,Other local unions,Individuals,Employers
+All cases,,,,,,
+"Pending October 1, 1996","36,068","21,010","1,247","1,710","10,490","1,611"
+Received fiscal 1997,"39,618","22,089",795,"1,796","13,031","1,907"
+On docket fiscal 1997,"75,686","43,099","2,042","3,506","23,521","3,518"
+Closed fiscal 1997,"38,437","21,234",891,"1,723","12,620","1,969"
+"Pending September 30, 1997","37,249","21,865","1,151","1,783","10,901","1,549"
+Unfair labor practice cases,,,,,,
+"Pending October 1, 1996","33,572","19,402","1,176","1,512","10,070","1,412"
+Received fiscal 1997,"33,439","17,737",621,"1,321","12,099","1,661"
+On docket fiscal 1997,"67,011","37,139","1,797","2,833","22,169","3,073"
+Closed fiscal 1997,"32,341","16,994",720,"1,251","11,671","1,705"
+"Pending September 30, 1997","34,670","20,145","1,077","1,582","10,498","1,368"
+Representation cases,,,,,,
+"Pending October 1, 1996","2,223","1,521",67,180,362,93
+Received fiscal 1997,"5,810","4,182",169,446,845,168
+On docket fiscal 1997,"8,033","5,703",236,626,"1,207",261
+Closed fiscal 1997,"5,717","4,070",164,438,862,183
+"Pending September 30, 1997","2,316","1,633",72,188,345,78
+Union-shop deauthorization cases,,,,,,
+"Pending October 1, 1996",58,,,,58,
+Received fiscal 1997,87,,,,87,
+On docket fiscal 1997,145,,,,145,
+Closed fiscal 1996,87,,,,87,
+"Pending September 30, 1996",58,,,,58,
+Amendment of certification cases,,,,,,
+"Pending October 1, 1996",12,4,0,5,0,3
+Received fiscal 1997,14,8,1,2,0,3
+On docket fiscal 1997,26,12,1,7,0,6
+Closed fiscal 1997,16,8,1,4,0,3
+"Pending September 30, 1997",10,4,0,3,0,3
+Unit clarification cases,,,,,,
+"Pending October 1, 1996",203,83,4,13,0,103
+Received fiscal 1997,268,162,4,27,0,75
+On docket fiscal 1997,471,245,8,40,0,178
+Closed fiscal 1997,276,162,6,30,0,78
+"Pending September 30, 1997",195,83,2,10,0,100
